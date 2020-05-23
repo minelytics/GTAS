@@ -1,0 +1,50 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+
+<meta content="text/html;charset=UTF-8" http-equiv="content-type"/>
+<head>
+	<title>{% block title %}{% endblock title %}</title>
+
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" name="viewport">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+	<meta content="Global Travel Assessment System" name="description"/>
+	<meta content="gtas" name="keywords"/>
+	<meta content="minelytics" name="author"/>
+
+	<link href="{% static 'assets/images/favicon.ico' %}" rel="icon" type="image/x-icon">
+	<link href="{% static 'bower_components/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet"
+	      type="text/css">
+
+	<link href="{% static 'assets/pages/waves/css/waves.min.css' %}" media="all" rel="stylesheet" type="text/css">
+	<link href="{% static 'assets/icon/feather/css/feather.css' %}" rel="stylesheet" type="text/css">
+
+	<link href="{% static 'assets/icon/themify-icons/themify-icons.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'assets/icon/icofont/css/icofont.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'assets/icon/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+
+	<link href="{% static 'assets/css/style.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'assets/css/pages.css' %}" rel="stylesheet" type="text/css">
+
+	{% block stylesheets %}{% endblock stylesheets %}
+</head>
+<body>
+	{% block body %}{% endblock body %}
+
+	<script src="{% static 'bower_components/jquery/js/jquery.min.js' %}"></script>
+	<script src="{% static 'bower_components/jquery-ui/js/jquery-ui.min.js' %}"></script>
+	<script src="{% static 'bower_components/popper.js/js/popper.min.js' %}"></script>
+	<script src="{% static 'bower_components/bootstrap/js/bootstrap.min.js' %}"></script>
+
+	<script src="{% static 'assets/pages/waves/js/waves.min.js' %}"></script>
+	<script src="{% static 'bower_components/jquery-slimscroll/js/jquery.slimscroll.js' %}"></script>
+
+	<script src="{% static 'bower_components/modernizr/js/modernizr.js' %}"></script>
+	<script src="{% static 'bower_components/modernizr/js/css-scrollbars.js' %}"></script>
+	<script src="{% static 'assets/js/common-pages.js' %}"></script>
+
+	{% block javascripts %}{% endblock javascripts %}
+</body>
+
+</html>

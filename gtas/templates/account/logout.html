@@ -1,22 +1,66 @@
-{% extends "account/base.html" %}
+{% extends "base-with-menu.html" %}
+{% load static i18n %}
 
-{% load i18n %}
+{% block title %}{% trans "Sign Out" %}{% endblock title %}
 
-{% block head_title %}{% trans "Sign Out" %}{% endblock %}
+{% block body %}
+<div class="pcoded-content">
+	<div class="page-header card">
+		<div class="row align-items-end">
+			<div class="col-lg-8">
+				<div class="page-header-title">
+					<i class="feather icon-user bg-c-blue"></i>
+					<div class="d-inline">
+						<h5>User Account: Logout</h5>
+						<span>Logout</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="page-header-breadcrumb">
+					<ul class=" breadcrumb breadcrumb-title">
+						<li class="breadcrumb-item">
+							<a href="index.html"><i class="feather icon-home"></i></a>
+						</li>
+						<li class="breadcrumb-item"><a href="#!">User</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#!">Account: Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
-{% block inner %}
-<h1>{% trans "Sign Out" %}</h1>
+	<div class="pcoded-inner-content">
+		<div class="main-body">
+			<div class="page-wrapper">
 
-<p>{% trans 'Are you sure you want to sign out?' %}</p>
+				<div class="page-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card">
+								<div class="card-header">
+									<h5>{% trans "Sign Out" %}</h5>
+								</div>
+								<div class="card-block">
+                                    <p>{% trans 'Are you sure you want to sign out?' %}</p>
+									<form method="post" action="{% url 'account_logout' %}">
+                                        {% csrf_token %}
+                                        {% if redirect_field_value %}
+                                            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+                                        {% endif %}
+                                        <button class="btn btn-danger" type="submit">{% trans 'Sign Out' %}</button>
+                                    </form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-<form method="post" action="{% url 'account_logout' %}">
-  {% csrf_token %}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
-  {% endif %}
-  <button class="btn btn-danger" type="submit">{% trans 'Sign Out' %}</button>
-</form>
-
-
-{% endblock %}
-
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock body %}

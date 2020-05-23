@@ -1,32 +1,73 @@
-{% extends "account/base.html" %}
-
-{% load i18n %}
+{% extends "base-with-menu.html" %}
+{% load static i18n %}
 {% load account %}
 
-{% block head_title %}{% trans "Confirm E-mail Address" %}{% endblock %}
+{% block title %}{% trans "Confirm E-mail Address" %}{% endblock title %}
 
+{% block body %}
+<div class="pcoded-content">
+	<div class="page-header card">
+		<div class="row align-items-end">
+			<div class="col-lg-8">
+				<div class="page-header-title">
+					<i class="feather icon-user bg-c-blue"></i>
+					<div class="d-inline">
+						<h5>User Account: Email Confirmation</h5>
+						<span>Email Confirmation</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="page-header-breadcrumb">
+					<ul class=" breadcrumb breadcrumb-title">
+						<li class="breadcrumb-item">
+							<a href="index.html"><i class="feather icon-home"></i></a>
+						</li>
+						<li class="breadcrumb-item"><a href="#!">User</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#!">Account: Email Confirmation</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
-{% block inner %}
-<h1>{% trans "Confirm E-mail Address" %}</h1>
+	<div class="pcoded-inner-content">
+		<div class="main-body">
+			<div class="page-wrapper">
 
-{% if confirmation %}
+				<div class="page-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card">
+								<div class="card-header">
+									<h5>{% trans "Confirm E-mail Address" %}</h5>
+								</div>
+								<div class="card-block">
+									{% if confirmation %}
+                                    {% user_display confirmation.email_address.user as user_display %}
 
-{% user_display confirmation.email_address.user as user_display %}
+                                    <p>{% blocktrans with confirmation.email_address.email as email %}Please confirm that <a href="mailto:{{ email }}">{{ email }}</a> is an e-mail address for user {{ user_display }}.{% endblocktrans %}</p>
 
-<p>{% blocktrans with confirmation.email_address.email as email %}Please confirm that <a href="mailto:{{ email }}">{{ email }}</a> is an e-mail address for user {{ user_display }}.{% endblocktrans %}</p>
+                                    <form method="post" action="{% url 'account_confirm_email' confirmation.key %}">
+                                    {% csrf_token %}
+                                        <button class="btn btn-primary" type="submit">{% trans 'Confirm' %}</button>
+                                    </form>
+                                    {% else %}
+                                    {% url 'account_email' as email_url %}
 
-<form method="post" action="{% url 'account_confirm_email' confirmation.key %}">
-{% csrf_token %}
-    <button class="btn btn-primary" type="submit">{% trans 'Confirm' %}</button>
-</form>
+                                    <p>{% blocktrans %}This e-mail confirmation link expired or is invalid. Please <a href="{{ email_url }}">issue a new e-mail confirmation request</a>.{% endblocktrans %}</p>
+                                    {% endif %}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-{% else %}
-
-{% url 'account_email' as email_url %}
-
-<p>{% blocktrans %}This e-mail confirmation link expired or is invalid. Please <a href="{{ email_url }}">issue a new e-mail confirmation request</a>.{% endblocktrans %}</p>
-
-{% endif %}
-
-{% endblock %}
-
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock body %}

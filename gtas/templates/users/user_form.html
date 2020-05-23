@@ -1,17 +1,68 @@
-{% extends "base.html" %}
+{% extends "base-with-menu.html" %}
+{% load static %}
 {% load crispy_forms_tags %}
 
-{% block title %}{{ user.username }}{% endblock %}
+{% block title %}{{ user.username }}{% endblock title %}
 
-{% block content %}
-  <h1>{{ user.username }}</h1>
-  <form class="form-horizontal" method="post" action="{% url 'users:update' %}">
-    {% csrf_token %}
-    {{ form|crispy }}
-    <div class="control-group">
-      <div class="controls">
-        <button type="submit" class="btn btn-primary">Update</button>
-      </div>
-    </div>
-  </form>
-{% endblock %}
+{% block body %}
+<div class="pcoded-content">
+	<div class="page-header card">
+		<div class="row align-items-end">
+			<div class="col-lg-8">
+				<div class="page-header-title">
+					<i class="feather icon-user bg-c-blue"></i>
+					<div class="d-inline">
+						<h5>User Account: Update</h5>
+						<span>Update</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="page-header-breadcrumb">
+					<ul class=" breadcrumb breadcrumb-title">
+						<li class="breadcrumb-item">
+							<a href="index.html"><i class="feather icon-home"></i></a>
+						</li>
+						<li class="breadcrumb-item"><a href="#!">User</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#!">Account: Update</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pcoded-inner-content">
+		<div class="main-body">
+			<div class="page-wrapper">
+
+				<div class="page-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card">
+								<div class="card-header">
+									<h5>{{ user.username }}</h5>
+								</div>
+								<div class="card-block">
+									<form class="form-horizontal" method="post" action="{% url 'users:update' %}">
+                                        {% csrf_token %}
+                                        {{ form|crispy }}
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <button type="submit" class="btn btn-primary">Update</button>
+                                            </div>
+                                        </div>
+                                    </form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock body %}

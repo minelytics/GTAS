@@ -1,36 +1,68 @@
-{% extends "base.html" %}
+{% extends "base-with-menu.html" %}
 {% load static %}
 
-{% block title %}User: {{ object.username }}{% endblock %}
+{% block title %}User: {{ object.username }}{% endblock title %}
 
-{% block content %}
-<div class="container">
+{% block body %}
+<div class="pcoded-content">
+	<div class="page-header card">
+		<div class="row align-items-end">
+			<div class="col-lg-8">
+				<div class="page-header-title">
+					<i class="feather icon-user bg-c-blue"></i>
+					<div class="d-inline">
+						<h5>User Detail</h5>
+						<span>Details about current user</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="page-header-breadcrumb">
+					<ul class=" breadcrumb breadcrumb-title">
+						<li class="breadcrumb-item">
+							<a href="index.html"><i class="feather icon-home"></i></a>
+						</li>
+						<li class="breadcrumb-item"><a href="#!">User</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="#!">Detail</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <div class="row">
-    <div class="col-sm-12">
+	<div class="pcoded-inner-content">
+		<div class="main-body">
+			<div class="page-wrapper">
 
-      <h2>{{ object.username }}</h2>
-      {% if object.name %}
-        <p>{{ object.name }}</p>
-      {% endif %}
-    </div>
-  </div>
+				<div class="page-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card">
+								<div class="card-header">
+									<h5>{{ object.username }}</h5>
+									{% if object.name %}
+										<p>{{ object.name }}</p>
+									{% endif %}
+								</div>
+								<div class="card-block">
+									{% if object == request.user %}
+										<div class="col-sm-12">
+											<a class="btn btn-primary" href="{% url 'users:update' %}" role="button">My Info</a>
+											<a class="btn btn-primary" href="{% url 'account_email' %}" role="button">E-Mail</a>
+										</div>
+									{% endif %}
+								</div>
+							</div>
 
-{% if object == request.user %}
-<!-- Action buttons -->
-<div class="row">
+						</div>
+					</div>
+				</div>
 
-  <div class="col-sm-12">
-    <a class="btn btn-primary" href="{% url 'users:update' %}" role="button">My Info</a>
-    <a class="btn btn-primary" href="{% url 'account_email' %}" role="button">E-Mail</a>
-    <!-- Your Stuff: Custom user template urls -->
-  </div>
-
+			</div>
+		</div>
+	</div>
 </div>
-<!-- End Action buttons -->
-{% endif %}
-
-
-</div>
-{% endblock content %}
-
+{% endblock body %}

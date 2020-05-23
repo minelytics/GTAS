@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+
+  gtas:
+    image: gtas_local_java
+    container_name: gtas-java
+    build: 
+      context: .
+      dockerfile: ./compose/java/Dockerfile
+    command: "tail -F anything"
+

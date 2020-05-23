@@ -10,7 +10,7 @@ services:
       context: .
       dockerfile: ./compose/local/django/Dockerfile
     image: gtas_local_django
-    container_name: django
+    container_name: gtas-django
     depends_on:
       - postgres
       - mailhog
@@ -28,7 +28,7 @@ services:
       context: .
       dockerfile: ./compose/production/postgres/Dockerfile
     image: gtas_production_postgres
-    container_name: postgres
+    container_name: gtas-postgres
     volumes:
       - local_postgres_data:/var/lib/postgresql/data
       - local_postgres_data_backups:/backups
@@ -39,13 +39,13 @@ services:
 
   mailhog:
     image: mailhog/mailhog:v1.0.0
-    container_name: mailhog
+    container_name: gtas-mailhog
     ports:
       - "8025:8025"
 
   redis:
     image: redis:5.0
-    container_name: redis
+    container_name: gtas-redis
 
   celeryworker:
     <<: *django

@@ -24,3 +24,6 @@ djangorestframework==3.11.0  # https://github.com/encode/django-rest-framework
 
 # Django reversion
 django_reversion==3.0.7 # https://github.com/etianen/django-reversion
+
+#  EDIFact
+pydifact  # https://github.com/nerdocs/pydifact

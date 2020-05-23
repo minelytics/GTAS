@@ -76,7 +76,12 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "gtas.users.apps.UsersConfig",
     # Your stuff: custom apps go here
+    "gtas.admin.apps.AdminConfig",
+    "gtas.apis.apps.ApisConfig",
     "gtas.generator.apps.GeneratorConfig",
+    "gtas.loader.apps.LoaderConfig",
+    "gtas.parsers.apps.ParsersConfig",
+    "gtas.watch.apps.WatchConfig",
 
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

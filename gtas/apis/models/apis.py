@@ -1,6 +1,6 @@
 from django.db import models
 
-from gtas.admin.models import NoteType
+from gtas.parent.models import NoteType
 from gtas.apis.models.delete import SoftDeletionModel
 import reversion
 

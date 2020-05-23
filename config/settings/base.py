@@ -76,7 +76,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "gtas.users.apps.UsersConfig",
     # Your stuff: custom apps go here
-    "gtas.admin.apps.AdminConfig",
+    "gtas.parent.apps.ParentConfig",
     "gtas.apis.apps.ApisConfig",
     "gtas.generator.apps.GeneratorConfig",
     "gtas.loader.apps.LoaderConfig",

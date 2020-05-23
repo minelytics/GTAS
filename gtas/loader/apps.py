@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class LoaderConfig(AppConfig):
-    name = 'loader'
+    name = 'gtas.loader'

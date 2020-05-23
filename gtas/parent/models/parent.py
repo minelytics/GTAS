@@ -1,5 +1,5 @@
 from django.db import models
-from gtas.admin.models.delete import SoftDeletionModel
+from gtas.parent.models.delete import SoftDeletionModel
 import reversion
 
 from gtas.apis.models import Flight

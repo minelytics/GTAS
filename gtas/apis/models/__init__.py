@@ -11,10 +11,8 @@ from gtas.apis.models.apis import Bag
 from gtas.apis.models.apis import BagBdJoin
 from gtas.apis.models.apis import BagMeasurements
 from gtas.apis.models.apis import BookingDetail
-from gtas.apis.models.apis import CodeShareFlight
 from gtas.apis.models.apis import CreditCard
 from gtas.apis.models.apis import Document
-from gtas.apis.models.apis import DwellTime
 from gtas.apis.models.apis import Email
 from gtas.apis.models.apis import Flight
 from gtas.apis.models.apis import FlightHitFuzzy
@@ -26,9 +24,13 @@ from gtas.apis.models.apis import FlightPassenger
 from gtas.apis.models.apis import FlightPassengerCount
 from gtas.apis.models.apis import FlightPax
 from gtas.apis.models.apis import FrequentFlyer
+from gtas.apis.models.apis import HitDetail
+from gtas.apis.models.apis import HitsSummary
+from gtas.apis.models.apis import HitViewStatus
 from gtas.apis.models.apis import Message
 from gtas.apis.models.apis import MessageBooking
 from gtas.apis.models.apis import MessageStatus
+from gtas.apis.models.apis import MutableFlightDetails
 from gtas.apis.models.apis import NoteAttachment
 from gtas.apis.models.apis import NoteTypeJoin
 from gtas.apis.models.apis import Notes
@@ -57,6 +59,8 @@ from gtas.apis.models.apis import PnrPhone
 from gtas.apis.models.apis import ReportingParty
 from gtas.apis.models.apis import Seat
 from gtas.apis.models.apis import TicketFare
+from gtas.apis.models.apis import UserGroupNotifications
+from gtas.apis.models.apis import UserNotification
 
 __all__ = [
     Address,
@@ -72,10 +76,8 @@ __all__ = [
     BagBdJoin,
     BagMeasurements,
     BookingDetail,
-    CodeShareFlight,
     CreditCard,
     Document,
-    DwellTime,
     Email,
     Flight,
     FlightHitFuzzy,
@@ -87,9 +89,13 @@ __all__ = [
     FlightPassengerCount,
     FlightPax,
     FrequentFlyer,
+    HitDetail,
+    HitsSummary,
+    HitViewStatus,
     Message,
     MessageBooking,
     MessageStatus,
+    MutableFlightDetails,
     NoteAttachment,
     NoteTypeJoin,
     Notes,
@@ -117,5 +123,7 @@ __all__ = [
     PnrPhone,
     ReportingParty,
     Seat,
-    TicketFare
+    TicketFare,
+    UserGroupNotifications,
+    UserNotification
 ]

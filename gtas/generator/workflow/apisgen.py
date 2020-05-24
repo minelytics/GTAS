@@ -43,17 +43,17 @@ UNT*121*140211180 0$
 UNE*1*1402111800$
 UNZ*1*1402111800$"""
 
-print header
-print reporting_party
+print(header)
+print(reporting_party)
 
 carrier = random.choice(carriers)
 flight_num = random.randint(1, 999)
 embark = random.choice(airports)
 debark = random.choice(airports)
-print flight.format(carrier, flight_num, embark, debark)
+print(flight.format(carrier, flight_num, embark, debark))
 
 for x in range(0, 10):
   doc_num = random.randint(100000000,400000000)
-  print pax.format(names.get_last_name().upper(), names.get_first_name().upper(), embark, debark, doc_num);
+  print(pax.format(names.get_last_name().upper(), names.get_first_name().upper(), embark, debark, doc_num))
 
-print footer
+print(footer)

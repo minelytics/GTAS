@@ -35,8 +35,8 @@ class Role(models.Model):
     deleted_at = models.DateTimeField(blank=False, null=True)
 
     class Meta:
-        managed = False
-        db_table = 'role'
+        managed = True
+        db_table = 'users_role'
 
 
 @reversion.register()
@@ -53,7 +53,7 @@ class UserGroup(SoftDeletionModel):
 
     class Meta:
         managed = True
-        db_table = 'user_group'
+        db_table = 'users_user_group'
         constraints = [models.UniqueConstraint(fields=['ug_name'], name='unique_ug_name')]
 
 
@@ -72,7 +72,7 @@ class UserLocation(SoftDeletionModel):
 
     class Meta:
         managed = True
-        db_table = 'user_location'
+        db_table = 'users_user_location'
         constraints = [models.UniqueConstraint(fields=['airport', 'user_id'], name='unique_airport_user_id')]
 
 
@@ -90,7 +90,7 @@ class UgUserJoin(SoftDeletionModel):
 
     class Meta:
         managed = True
-        db_table = 'ug_user_join'
+        db_table = 'users_ug_user_join'
         constraints = [models.UniqueConstraint(fields=['ug', 'user'], name='unique_ug_user')]
 
 
@@ -110,7 +110,7 @@ class UserQuery(SoftDeletionModel):
 
     class Meta:
         managed = True
-        db_table = 'user_query'
+        db_table = 'users_user_query'
 
 
 @reversion.register()
@@ -127,5 +127,5 @@ class UserRole(SoftDeletionModel):
 
     class Meta:
         managed = True
-        db_table = 'user_role'
+        db_table = 'users_user_role'
         constraints = [models.UniqueConstraint(fields=['user', 'role'], name='unique_user_role')]

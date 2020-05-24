@@ -31,8 +31,8 @@ class HitCategory(SoftDeletionModel):
 class HitMaker(SoftDeletionModel):
     id = models.AutoField(primary_key=True)
     hm_hit_type = models.CharField(max_length=255)
-    hm_author = models.ForeignKey(User, models.DO_NOTHING)
-    hm_hit_category = models.ForeignKey(HitCategory, models.DO_NOTHING)
+    hm_author = models.ForeignKey(User, models.DO_NOTHING, db_column='hm_author')
+    hm_hit_category = models.ForeignKey(HitCategory, models.DO_NOTHING, db_column='hm_hit_category')
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
                                                            related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
@@ -91,7 +91,7 @@ class KnowledgeBase(SoftDeletionModel):
     id = models.AutoField(primary_key=True)
     kb_blob = models.BinaryField(null=True)
     kb_name = models.CharField(max_length=20, null=True)
-    rl_blob = models.BinaryField()
+    rl_blob = models.BinaryField(db_column='RL_BLOB')
     version = models.BigIntegerField(blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
                                                            related_name='%(class)s_createdby')

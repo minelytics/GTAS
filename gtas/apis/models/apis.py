@@ -945,8 +945,8 @@ class PaxBooking(SoftDeletionModel):
     class Meta:
         managed = True
         db_table = 'pax_booking'
-        constraints = [models.UniqueConstraint(fields=['pax', 'booking_details'],
-                                               name='unique_pax_booking_details')]
+        constraints = [models.UniqueConstraint(fields=['pax', 'booking_detail'],
+                                               name='unique_pax_booking_detail')]
 
 
 @reversion.register()

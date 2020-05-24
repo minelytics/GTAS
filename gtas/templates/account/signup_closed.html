@@ -1,12 +1,31 @@
-{% extends "account/base.html" %}
+{% extends "base-without-menu.html" %}
+{% load static i18n %}
 
-{% load i18n %}
+{% block title %}{% trans "Sign Up Closed" %}{% endblock title %}
 
-{% block head_title %}{% trans "Sign Up Closed" %}{% endblock %}
+{% block body %}
+<div class="pcoded-content">
+	<div class="pcoded-inner-content">
+		<div class="main-body">
+			<div class="page-wrapper">
 
-{% block inner %}
-<h1>{% trans "Sign Up Closed" %}</h1>
+				<div class="page-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card">
+								<div class="card-header">
+									<h5>{% trans "Sign Up Closed" %}</h5>
+								</div>
+								<div class="card-block">
+									<p>{% trans "We are sorry, but the sign up is currently closed." %}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-<p>{% trans "We are sorry, but the sign up is currently closed." %}</p>
-{% endblock %}
-
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock body %}

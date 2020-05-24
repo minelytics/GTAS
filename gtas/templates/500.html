@@ -1,13 +1,33 @@
-{% extends "base.html" %}
+{% extends "base-without-menu.html" %}
 
-{% block title %}Server Error{% endblock %}
+{% block title %}500 - Server Error{% endblock %}
 
-{% block content %}
-<h1>Ooops!!! 500</h1>
+{% block body %}
+<div class="pcoded-content">
+	<div class="pcoded-inner-content">
+		<div class="main-body">
+			<div class="page-wrapper">
 
-<h3>Looks like something went wrong!</h3>
+				<div class="page-body">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card">
+								<div class="card-header">
+									<h5>500 - Server Error</h5>
+								</div>
+								<div class="card-block">
+									<h1>Ooopss !!!</h1>
+									<h3>Looks like something went wrong!</h3>
 
-<p>We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing.</p>
-{% endblock content %}
+									<p>We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock body %}

@@ -21,23 +21,6 @@ class User(AbstractUser):
         return reverse("users:detail", kwargs={"username": self.username})
 
 
-@reversion.register()
-class UgUserJoin(SoftDeletionModel):
-    ug = models.OneToOneField('UserGroup', models.DO_NOTHING, primary_key=True)
-    user = models.ForeignKey(User, models.DO_NOTHING)
-    created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
-    updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-    deleted_at = models.DateTimeField(blank=False, null=True)
-
-    class Meta:
-        managed = True
-        db_table = 'ug_user_join'
-        constraints = [models.UniqueConstraint(fields=['ug', 'user'], name='unique_ug_user')]
-
 
 @reversion.register()
 class Role(models.Model):
@@ -92,6 +75,23 @@ class UserLocation(SoftDeletionModel):
         db_table = 'user_location'
         constraints = [models.UniqueConstraint(fields=['airport', 'user_id'], name='unique_airport_user_id')]
 
+
+@reversion.register()
+class UgUserJoin(SoftDeletionModel):
+    ug = models.OneToOneField(UserGroup, models.DO_NOTHING, primary_key=True)
+    user = models.ForeignKey(User, models.DO_NOTHING)
+    created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
+                                                           related_name='%(class)s_createdby')
+    updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
+                                                           related_name='%(class)s_updatedby')
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    deleted_at = models.DateTimeField(blank=False, null=True)
+
+    class Meta:
+        managed = True
+        db_table = 'ug_user_join'
+        constraints = [models.UniqueConstraint(fields=['ug', 'user'], name='unique_ug_user')]
 
 
 @reversion.register()

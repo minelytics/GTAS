@@ -1,13 +1,11 @@
 from django.test import TestCase
-from pydifact.segmentcollection import SegmentCollection
+from pydifact.message import Message
 
 
 class EdifactParserTest(TestCase):
+    """Test for parsing an edifact message"""
     def setUp(self):
-        pass
-
-    def test_edifact_parser(self):
-        edifacts = """UNB+UNOA:4+SAMPLE CARRIER NAME:ZZ+HDQCH2X:ZZ+200506:1700+123456789++PAXLST'
+        self.edifacts = """UNB+UNOA:4+SAMPLE CARRIER NAME:ZZ+HDQCH2X:ZZ+200506:1700+123456789++PAXLST'
             UNH+53371718146010+PAXLST:D:02B:UN:IATA'
             BGM+745'
             NAD+MS+++WORLD CUSTOMS ORGANIZATION BRU'
@@ -126,13 +124,37 @@ class EdifactParserTest(TestCase):
             LOC+91+DEU'
             CNT+42:10'
             UNT+23+53371718146010'
-            UNZ+1+123456789'
-            """
+            UNZ+1+123456789'"""
 
-        for edifact in edifacts.split("\n"):
-            collection = SegmentCollection.from_str(edifact)
+    def test_edifact_parser(self):
+        tags = []
+        elements = []
+
+        for edifact in self.edifacts.split("\n"):
+            collection = Message.from_str(edifact)
 
             for segment in collection.segments:
-                print('Segment tag: {}, content: {}'.format(segment.tag, segment.elements))
+                tags.append(segment.tag.strip())
+                elements.append(segment.elements)
+                # print('Segment tag: {}, content: {}'.format(segment.tag, segment.elements))
 
-        self.assertEqual(1, 1)
+        self.assertEqual(tags[0], "UNB")
+        self.assertEqual(elements[0], [['UNOA', '4'], ['SAMPLE CARRIER NAME', 'ZZ'], ['HDQCH2X', 'ZZ'], ['200506', '1700'], '123456789', '', 'PAXLST'])
+
+        self.assertEqual(tags[1], "UNH")
+        self.assertEqual(elements[1], ['53371718146010', ['PAXLST', 'D', '02B', 'UN', 'IATA']])
+
+        self.assertEqual(tags[2], "BGM")
+        self.assertEqual(elements[2], ['745'])
+
+        self.assertEqual(tags[3], "NAD")
+        self.assertEqual(elements[3], ['MS', '', '', 'WORLD CUSTOMS ORGANIZATION BRU'])
+
+        self.assertEqual(tags[4], "COM")
+        self.assertEqual(elements[4], [['17037919383', 'TE']])
+
+        self.assertEqual(tags[5], "TDT")
+        self.assertEqual(elements[5], ['20', 'YY123'])
+
+    def tearDown(self):
+        del self.edifacts

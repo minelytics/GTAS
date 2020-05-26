@@ -5,7 +5,7 @@ from pydifact.message import Message
 class EdifactParserTest(TestCase):
     """Test for parsing an edifact message"""
     def setUp(self):
-        self.edifacts = """UNB+UNOA:4+SAMPLE CARRIER NAME:ZZ+HDQCH2X:ZZ+200506:1700+123456789++PAXLST'
+        self.edifacts1 = """UNB+UNOA:4+SAMPLE CARRIER NAME:ZZ+HDQCH2X:ZZ+200506:1700+123456789++PAXLST'
             UNH+53371718146010+PAXLST:D:02B:UN:IATA'
             BGM+745'
             NAD+MS+++WORLD CUSTOMS ORGANIZATION BRU'
@@ -125,12 +125,52 @@ class EdifactParserTest(TestCase):
             CNT+42:10'
             UNT+23+53371718146010'
             UNZ+1+123456789'"""
+        self.edifacts2 = """UNA:+.? '
+            UNB+UNOA:4+APIS*ABE+USADHS+070429:0900+000000001++USADHS'
+            UNG+PAXLST+XYZ AIRLINES+USADHS+070429:0900+100+UN+D:05B'
+            UNH+PAX001+PAXLST:D:05B:UN:IATA+API01+01'
+            BGM+745'
+            RFF+TN:BA123456789:::1'
+            NAD+MS+++JACKSON'
+            COM+703-555-1234:TE+703-555-9876:FX'
+            TDT+20+UA123+++UA'
+            LOC+125+YVR'
+            DTM+189:0704291230:201'
+            LOC+87+JFK'
+            DTM+232:0704291600:201'
+            TDT+20+UA124+++UA'
+            LOC+92+JFK'
+            DTM+189:0704291730:201'
+            LOC+92+ATL'
+            DTM+232:0704291945:201'
+            NAD+FL+++DOE:JOHN:WAYNE+20 MAIN ST+ANYCITY+VA+10053+USA'
+            ATT+2++M'
+            DTM+329:570121'
+            FTX+BAG+++UA123456:3'
+            LOC+22+JFK'
+            LOC+178+YVR'
+            LOC+179+ATL'
+            LOC+174+CAN'
+            COM+502-555-1234:TE'
+            NAT+2+CAN'
+            RFF+AVF:ABC123'
+            RFF+ABO:BA1321654987'
+            RFF+AEA:1234567890ABC'
+            RFF+CR:20060907NY123'
+            RFF+SEA:23C'
+            DOC+P:110:111+MB140241'
+            DTM+36:081021'
+            LOC+91+CAN'
+            CNT+42:1'
+            UNT+35+PAX001'
+            UNE+1+100'
+            UNZ+1+000000001'"""
 
     def test_edifact_parser(self):
         tags = []
         elements = []
 
-        for edifact in self.edifacts.split("\n"):
+        for edifact in self.edifacts1.split("\n"):
             collection = Message.from_str(edifact)
 
             for segment in collection.segments:
@@ -156,5 +196,40 @@ class EdifactParserTest(TestCase):
         self.assertEqual(tags[5], "TDT")
         self.assertEqual(elements[5], ['20', 'YY123'])
 
+        print('\nTest completed for edifact message 1')
+
+    def test_edifact_parser2(self):
+        tags = []
+        elements = []
+
+        for edifact in self.edifacts2.split("\n"):
+            collection = Message.from_str(edifact)
+
+            for segment in collection.segments:
+                tags.append(segment.tag.strip())
+                elements.append(segment.elements)
+                # print('Segment tag: {}, content: {}'.format(segment.tag, segment.elements))
+
+        self.assertEqual(tags[0], "UNA")
+        self.assertEqual(elements[0], [":+.? '"])
+
+        self.assertEqual(tags[1], "UNB")
+        self.assertEqual(elements[1], [['UNOA', '4'], 'APIS*ABE', 'USADHS', ['070429', '0900'], '000000001', '', 'USADHS'])
+
+        self.assertEqual(tags[2], "UNG")
+        self.assertEqual(elements[2], ['PAXLST', 'XYZ AIRLINES', 'USADHS', ['070429', '0900'], '100', 'UN', ['D', '05B']])
+
+        self.assertEqual(tags[3], "UNH")
+        self.assertEqual(elements[3], ['PAX001', ['PAXLST', 'D', '05B', 'UN', 'IATA'], 'API01', '01'])
+
+        self.assertEqual(tags[4], "BGM")
+        self.assertEqual(elements[4], ['745'])
+
+        self.assertEqual(tags[5], "RFF")
+        self.assertEqual(elements[5], [['TN', 'BA123456789', '', '', '1']])
+
+        print('\nTest completed for edifact message 2')
+
     def tearDown(self):
-        del self.edifacts
+        del self.edifacts1
+        del self.edifacts2

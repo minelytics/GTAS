@@ -1,0 +1,2 @@
+class BagVo():
+    pass

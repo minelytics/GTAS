@@ -196,8 +196,6 @@ class EdifactParserTest(TestCase):
         self.assertEqual(tags[5], "TDT")
         self.assertEqual(elements[5], ['20', 'YY123'])
 
-        print('\nTest completed for edifact message 1')
-
     def test_edifact_parser2(self):
         tags = []
         elements = []
@@ -227,8 +225,6 @@ class EdifactParserTest(TestCase):
 
         self.assertEqual(tags[5], "RFF")
         self.assertEqual(elements[5], [['TN', 'BA123456789', '', '', '1']])
-
-        print('\nTest completed for edifact message 2')
 
     def tearDown(self):
         del self.edifacts1

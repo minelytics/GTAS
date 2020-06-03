@@ -6,7 +6,7 @@ from gtas.generator.workflow.api.edifact_generator import EdifactGenerator
 class EdifactGeneratorTest(TestCase):
     """Test for edifact parser"""
 
-    def test_single_segment_output(self):
+    def test_edifact_generator_output(self):
         messages = []
         generator = EdifactGenerator()
 

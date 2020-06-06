@@ -5,6 +5,7 @@ from gtas.parent.models.parent import AppConfiguration
 from gtas.parent.models.parent import AuditLog
 from gtas.parent.models.parent import Carrier
 from gtas.parent.models.parent import CarrierRestore
+from gtas.parent.models.parent import CodeShareFlight
 from gtas.parent.models.parent import Country
 from gtas.parent.models.parent import CountryRestore
 from gtas.parent.models.parent import DwellTime
@@ -20,6 +21,7 @@ __all__ = [
     AuditLog,
     Carrier,
     CarrierRestore,
+    CodeShareFlight,
     Country,
     CountryRestore,
     DwellTime,
@@ -27,4 +29,3 @@ __all__ = [
     FlightDirection,
     NoteType
 ]
-

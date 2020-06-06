@@ -19,9 +19,9 @@ class Airport(SoftDeletionModel):
     timezone = models.CharField(max_length=255, blank=True, null=True)
     utc_offset = models.IntegerField(blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -44,9 +44,9 @@ class AirportRestore(SoftDeletionModel):
     timezone = models.CharField(max_length=255, blank=True, null=True)
     utc_offset = models.IntegerField(blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -64,9 +64,9 @@ class ApiAccess(SoftDeletionModel):
     password = models.CharField(max_length=255, blank=True, null=True)
     username = models.CharField(max_length=255, blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -83,9 +83,9 @@ class AppConfiguration(SoftDeletionModel):
     opt = models.CharField(max_length=255, blank=True, null=True)
     val = models.CharField(max_length=255, blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -104,9 +104,9 @@ class AuditLog(SoftDeletionModel):
     action_message = models.CharField(max_length=255, blank=True, null=True)
     action_target = models.CharField(max_length=1024)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -124,9 +124,9 @@ class Carrier(SoftDeletionModel):
     name = models.CharField(max_length=255, blank=True, null=True)
     origin_id = models.BigIntegerField(blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -143,9 +143,9 @@ class CarrierRestore(SoftDeletionModel):
     icao = models.CharField(max_length=3, blank=True, null=True)
     name = models.CharField(max_length=255, blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -162,9 +162,9 @@ class CodeShareFlight(SoftDeletionModel):
     operating_flight_id = models.BigIntegerField(blank=True, null=True)
     operating_flight_number = models.CharField(max_length=255, blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -183,9 +183,9 @@ class Country(SoftDeletionModel):
     name = models.CharField(max_length=255, blank=True, null=True)
     origin_id = models.BigIntegerField(blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -203,9 +203,9 @@ class CountryRestore(SoftDeletionModel):
     iso_numeric = models.CharField(max_length=3, blank=True, null=True)
     name = models.CharField(max_length=255, blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -225,9 +225,9 @@ class DwellTime(SoftDeletionModel):
     flying_to = models.CharField(max_length=255, blank=True, null=True)
     arrival_airport = models.CharField(max_length=3, blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -237,7 +237,6 @@ class DwellTime(SoftDeletionModel):
         db_table = 'dwell_time'
 
 
-
 @reversion.register()
 class ErrorDetail(SoftDeletionModel):
     id = models.AutoField(primary_key=True)
@@ -245,9 +244,9 @@ class ErrorDetail(SoftDeletionModel):
     description = models.CharField(max_length=1024)
     details = models.TextField(blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -263,9 +262,9 @@ class FlightDirection(SoftDeletionModel):
     code = models.CharField(max_length=1)
     description = models.CharField(max_length=255, blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)
@@ -275,15 +274,14 @@ class FlightDirection(SoftDeletionModel):
         db_table = 'flight_direction'
 
 
-
 @reversion.register()
 class NoteType(SoftDeletionModel):
     id = models.AutoField(primary_key=True)
     nt_type = models.CharField(max_length=255, blank=True, null=True)
     created_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_createdby')
+                                   related_name='%(class)s_createdby')
     updated_by = models.ForeignKey(User, on_delete=models.PROTECT, blank=False, null=False,
-                                                           related_name='%(class)s_updatedby')
+                                   related_name='%(class)s_updatedby')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(blank=False, null=True)

@@ -40,10 +40,10 @@ class AirportViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class AirportRestoreViewSet(ModelViewSet):
@@ -53,10 +53,10 @@ class AirportRestoreViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class ApiAccessViewSet(ModelViewSet):
@@ -66,10 +66,10 @@ class ApiAccessViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class AppConfigurationViewSet(ModelViewSet):
@@ -79,10 +79,10 @@ class AppConfigurationViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class AuditLogViewSet(ModelViewSet):
@@ -92,10 +92,10 @@ class AuditLogViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class CarrierViewSet(ModelViewSet):
@@ -105,10 +105,10 @@ class CarrierViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class CarrierRestoreViewSet(ModelViewSet):
@@ -118,10 +118,10 @@ class CarrierRestoreViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class CodeShareFlightViewSet(ModelViewSet):
@@ -131,10 +131,10 @@ class CodeShareFlightViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class CountryViewSet(ModelViewSet):
@@ -144,10 +144,10 @@ class CountryViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class CountryRestoreViewSet(ModelViewSet):
@@ -157,10 +157,10 @@ class CountryRestoreViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class DwellTimeViewSet(ModelViewSet):
@@ -170,10 +170,10 @@ class DwellTimeViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class ErrorDetailViewSet(ModelViewSet):
@@ -183,10 +183,10 @@ class ErrorDetailViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class FlightDirectionViewSet(ModelViewSet):
@@ -196,10 +196,10 @@ class FlightDirectionViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)
 
 
 class NoteTypeViewSet(ModelViewSet):
@@ -209,7 +209,7 @@ class NoteTypeViewSet(ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user.id, updated_by=self.request.user.id)
+        serializer.save(created_by=self.request.user, updated_by=self.request.user)
 
     def perform_update(self, serializer):
-        serializer.save(updated_by=self.request.user.id)
+        serializer.save(updated_by=self.request.user)

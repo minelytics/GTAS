@@ -29,8 +29,8 @@ class AirportAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -46,8 +46,8 @@ class AirportRestoreAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -63,8 +63,8 @@ class ApiAccessAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -80,8 +80,8 @@ class AppConfigurationAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -97,8 +97,8 @@ class AuditLogAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -114,8 +114,8 @@ class CarrierAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -131,8 +131,8 @@ class CarrierRestoreAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -148,8 +148,8 @@ class CodeShareFlightAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -165,8 +165,8 @@ class CountryAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -182,8 +182,8 @@ class CountryRestoreAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -199,8 +199,8 @@ class DwellTimeAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -216,8 +216,8 @@ class ErrorDetailAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -233,8 +233,8 @@ class FlightDirectionAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)
 
 
@@ -250,6 +250,6 @@ class NoteTypeAdmin(VersionAdmin):
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
-            obj.created_by = request.user.id
-        obj.updated_by = request.user.id
+            obj.created_by = request.user
+        obj.updated_by = request.user
         super().save_model(request, obj, form, change)

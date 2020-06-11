@@ -1,7 +1,7 @@
 {% extends "base-with-menu.html" %}
 {% load static %}
 
-{% block title %}Airports{% endblock title %}
+{% block title %}Country Restores{% endblock title %}
 
 {% block stylesheets %}
     <style>
@@ -25,8 +25,8 @@
                 <div class="page-header-title">
                     <i class="feather icon-user bg-c-blue"></i>
                     <div class="d-inline">
-                        <h5>Airports</h5>
-                        <span>CRUD for Airports</span>
+                        <h5>Country Restores</h5>
+                        <span>CRUD for Country Restores</span>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                             <a href="#!">Parent</a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="{% url 'parent:airport_crud' %}">Airports</a>
+                            <a href="{% url 'parent:country_restore_crud' %}">Country Restores</a>
                         </li>
                     </ul>
                 </div>
@@ -58,43 +58,31 @@
 
                             <div class="card">
                                 <div class="card-header">
-                                    <h5>Airports</h5>
-                                    <span>CRUD for Airports</span>
-                                    <button data-target="#airport_modal" id="add_airport" class="btn btn-sm waves-effect waves-dark btn-success btn-outline-success right"><i class="icofont icofont-plus-square"></i>CREATE</button>
+                                    <h5>Country Restores</h5>
+                                    <span>CRUD for Country Restores</span>
+                                    <button data-target="#country_restore_modal" id="add_country_restore" class="btn btn-sm waves-effect waves-dark btn-success btn-outline-success right"><i class="icofont icofont-plus-square"></i>CREATE</button>
                                 </div>
                                 <div class="card-block">
                                     <div class="dt-responsive table-responsive">
-                                        <table id="airport_table" class="table table-striped table-bordered nowrap" style="width:100%">
+                                        <table id="country_restore_table" class="table table-striped table-bordered nowrap" style="width:100%">
                                             <thead>
                                             <tr>
                                                 <th>Edit</th>
                                                 <th>Delete</th>
-												<th>city</th>
-												<th>country</th>
-												<th>iata</th>
-												<th>icao</th>
-												<th>latitude</th>
-												<th>longitude</th>
+												<th>iso2</th>
+												<th>iso3</th>
+												<th>iso_numeric</th>
 												<th>name</th>
-												<th>origin_id</th>
-												<th>timezone</th>
-												<th>utc_offset</th>
                                             </tr>
                                             </thead>
                                             <tfoot>
                                             <tr>
                                                 <th>Edit</th>
                                                 <th>Delete</th>
-												<th>city</th>
-												<th>country</th>
-												<th>iata</th>
-												<th>icao</th>
-												<th>latitude</th>
-												<th>longitude</th>
+												<th>iso2</th>
+												<th>iso3</th>
+												<th>iso_numeric</th>
 												<th>name</th>
-												<th>origin_id</th>
-												<th>timezone</th>
-												<th>utc_offset</th>
                                             </tr>
                                             </tfoot>
                                         </table>
@@ -111,16 +99,16 @@
     </div>
 </div>
 
-<div class="modal fade" id="airport_modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="country_restore_modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="airport_modal_title">Add Airport</h4>
+                <h4 class="modal-title" id="country_restore_modal_title">Add Country Restore</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <form id="airport_crud_form" class="form-horizontal" autocomplete="off">
+            <form id="country_restore_crud_form" class="form-horizontal" autocomplete="off">
                 <div class="modal-body">
                     <input type="hidden" name="id" id="id" value="__id__"/>
                     <input type="hidden" name="operation" id="operation" value="add"/>
@@ -137,7 +125,7 @@
                     {% endfor %}
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-sm btn-primary waves-effect waves-light" id="airport_submit">Add</button>
+                    <button type="submit" class="btn btn-sm btn-primary waves-effect waves-light" id="country_restore_submit">Add</button>
                     <button type="reset" class="btn btn-sm btn-default waves-effect" data-dismiss="modal">Close</button>
                 </div>
             </form>
@@ -182,31 +170,31 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            // AIRPORT - READ
-            var table = $('#airport_table').DataTable({
+            // COUNTRY RESTORE - READ
+            var table = $('#country_restore_table').DataTable({
                 dom: 'lBfrtip',
                 buttons: [
                     {
                         extend: 'copyHtml5',
-                        title: String('#airport_table').replace('#', ''),
+                        title: String('#country_restore_table').replace('#', ''),
                         text: '<i class="icofont icofont-ui-copy"></i>COPY',
                         className: "btn btn-sm waves-effect waves-light btn-inverse"
                     },
                     {
                         extend: 'excelHtml5',
-                        title: String('#airport_table').replace('#', ''),
+                        title: String('#country_restore_table').replace('#', ''),
                         text: '<i class="icofont icofont-file-excel"></i>EXCEL',
                         className: "btn btn-sm waves-effect waves-light btn-inverse"
                     },
                     {
                         extend: 'csvHtml5',
-                        title: String('#airport_table').replace('#', ''),
+                        title: String('#country_restore_table').replace('#', ''),
                         text: '<i class="icofont icofont-file-spreadsheet"></i>CSV',
                         className: "btn btn-sm waves-effect waves-light btn-inverse"
                     },
                     {
                         extend: 'pdfHtml5',
-                        title: String('#airport_table').replace('#', ''),
+                        title: String('#country_restore_table').replace('#', ''),
                         text: '<i class="icofont icofont-file-pdf"></i>PDF',
                         className: "btn btn-sm waves-effect waves-light btn-inverse"
                     },
@@ -216,7 +204,7 @@
 
                             $.fn.dataTable.fileSave(
                                 new Blob( [ JSON.stringify( data ) ] ),
-                                String('#airport_table').replace('#', '')+'.json'
+                                String('#country_restore_table').replace('#', '')+'.json'
                             );
                         },
                         text: '<i class="icofont icofont-file-text"></i>JSON',
@@ -225,20 +213,14 @@
                 ],
                 responsive: false,
                 rowId: "id",
-                ajax: {"url": "{% url 'api:airport-list' %}", "dataSrc": ""},
+                ajax: {"url": "{% url 'api:countryrestore-list' %}", "dataSrc": ""},
                 "columns": [
-                    {"defaultContent": '<button type="button" id="airport_edit" class="btn btn-sm waves-effect waves-dark btn-info btn-outline-info update"><i class="icofont icofont-ui-edit"></i>EDIT</button>'},
-                    {"defaultContent": '<button type="button" id="airport_delete" class="btn btn-sm waves-effect waves-dark btn-danger btn-outline-danger delete"><i class="icofont icofont-ui-delete"></i>DELETE</button>'},
-					{"data": "city"},
-					{"data": "country"},
-					{"data": "iata"},
-					{"data": "icao"},
-					{"data": "latitude"},
-					{"data": "longitude"},
+                    {"defaultContent": '<button type="button" id="country_restore_edit" class="btn btn-sm waves-effect waves-dark btn-info btn-outline-info update"><i class="icofont icofont-ui-edit"></i>EDIT</button>'},
+                    {"defaultContent": '<button type="button" id="country_restore_delete" class="btn btn-sm waves-effect waves-dark btn-danger btn-outline-danger delete"><i class="icofont icofont-ui-delete"></i>DELETE</button>'},
+					{"data": "iso2"},
+					{"data": "iso3"},
+					{"data": "iso_numeric"},
 					{"data": "name"},
-					{"data": "origin_id"},
-					{"data": "timezone"},
-					{"data": "utc_offset"}
                 ],
                 language: {
                     searchPlaceholder: 'Search...',
@@ -247,39 +229,33 @@
                 }
             });
 
-            $('#add_airport').click(function () {
-                $('#airport_crud_form')[0].reset();
-                $('#airport_modal_title').text("Add Airport");
+            $('#add_country_restore').click(function () {
+                $('#country_restore_crud_form')[0].reset();
+                $('#country_restore_modal_title').text("Add Country Restore");
                 $('#operation').val("add");
-                $('#airport_submit').html("Add");
-                $('#airport_modal').modal('show');
+                $('#country_restore_submit').html("Add");
+                $('#country_restore_modal').modal('show');
             });
 
-            // AIRPORT - CRUD FORM
-            $("#airport_crud_form").on("submit", function (event) {
+            // COUNTRY RESTORE - CRUD FORM
+            $("#country_restore_crud_form").on("submit", function (event) {
                 event.preventDefault();
 
-                var table = $('#airport_table').DataTable();
+                var table = $('#country_restore_table').DataTable();
                 var operation = document.getElementById("operation").value;
                 var id = parseInt(document.getElementById("id").value);
 
                 var row = {
-					"city": document.getElementById("city").value,
-					"country": document.getElementById("country").value,
-					"iata": document.getElementById("iata").value,
-					"icao": document.getElementById("icao").value,
-					"latitude": document.getElementById("latitude").value,
-					"longitude": document.getElementById("longitude").value,
+					"iso2": document.getElementById("iso2").value,
+					"iso3": document.getElementById("iso3").value,
+					"iso_numeric": document.getElementById("iso_numeric").value,
 					"name": document.getElementById("name").value,
-					"origin_id": document.getElementById("origin_id").value,
-					"timezone": document.getElementById("timezone").value,
-					"utc_offset": document.getElementById("utc_offset").value
                 };
 
-                // AIRPORT - CREATE
+                // COUNTRY RESTORE - CREATE
                 if (operation == 'add') {
                     $.ajax({
-                        url: "{% url 'api:airport-list' %}",
+                        url: "{% url 'api:countryrestore-list' %}",
                         data: row,
                         dataType: "json",
                         type: "POST",
@@ -287,20 +263,20 @@
                             xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
                         },
                         success: function (response, textStatus, xhr) {
-                            toastr.success("Airport Added", "CREATE");
+                            toastr.success("Country Restore Added", "CREATE");
                             table.ajax.reload();
                         },
                         error: function (XMLHttpRequest, textStatus, error) {
-                            toastr.error("Airport Add error: " + textStatus, "ERROR");
+                            toastr.error("Country Restore Add error: " + textStatus, "ERROR");
                         }
                     });
                 }
-                // AIRPORT - UPDATE
+                // COUNTRY RESTORE - UPDATE
                 else if (operation == 'edit') {
                     row["id"] = id;
 
                     $.ajax({
-                        url: "{% url 'api:airport-detail' 'id' %}".replace('id', id),
+                        url: "{% url 'api:countryrestore-detail' 'id' %}".replace('id', id),
                         data: row,
                         dataType: "json",
                         type: "PUT",
@@ -308,58 +284,52 @@
                             xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
                         },
                         success: function (response, textStatus, xhr) {
-                            toastr.info("Airport Updated", "UPDATE");
+                            toastr.info("Country Restore Updated", "UPDATE");
                             table.ajax.reload();
                         },
                         error: function (XMLHttpRequest, textStatus, error) {
-                            toastr.error("Airport Update error: " + textStatus, "ERROR");
+                            toastr.error("Country Restore Update error: " + textStatus, "ERROR");
                         }
                     });
                 }
 
-                $('#airport_crud_form')[0].reset();
-                $('#airport_modal').modal('hide');
+                $('#country_restore_crud_form')[0].reset();
+                $('#country_restore_modal').modal('hide');
             });
 
-            // AIRPORT - UPDATE FORM
+            // COUNTRY RESTORE - UPDATE FORM
             $(document).on('click', '.update', function (event) {
                 event.preventDefault();
 
-                var table = $('#airport_table').DataTable();
+                var table = $('#country_restore_table').DataTable();
                 var id = parseInt($(this).closest('td').parent()[0].id);
-                var airport = table.row($(this).parents('tr')).data();
+                var country_restore = table.row($(this).parents('tr')).data();
 
-                $('#airport_crud_form')[0].reset();
-                $('#airport_modal_title').text("Edit Dashboard : " + airport.name);
+                $('#country_restore_crud_form')[0].reset();
+                $('#country_restore_modal_title').text("Edit Dashboard : " + country_restore.name);
                 $('#id').val(id);
                 $('#operation').val("edit");
-                $('#airport_submit').html("Update");
+                $('#country_restore_submit').html("Update");
 
                 // set the form value here
-				$('#city').val(airport.city);
-				$('#country').val(airport.country);
-				$('#iata').val(airport.iata);
-				$('#icao').val(airport.icao);
-				$('#latitude').val(airport.latitude);
-				$('#longitude').val(airport.longitude);
-				$('#name').val(airport.name);
-				$('#origin_id').val(airport.origin_id);
-				$('#timezone').val(airport.timezone);
-				$('#utc_offset').val(airport.utc_offset);
+				$('#iso2').val(country_restore.iso2);
+				$('#iso3').val(country_restore.iso3);
+				$('#iso_numeric').val(country_restore.iso_numeric);
+				$('#name').val(country_restore.name);
 
-                $('#airport_modal').modal('show');
+                $('#country_restore_modal').modal('show');
             });
 
-            // AIRPORT - DELETE
+            // COUNTRY RESTORE - DELETE
             $(document).on('click', '.delete', function (event) {
                 event.preventDefault();
 
-                var table = $('#airport_table').DataTable();
+                var table = $('#country_restore_table').DataTable();
                 var id = parseInt($(this).closest('td').parent()[0].id);
 
                 toastr.options.timeOut = "0";
 
-                toastr.warning(`Do you want to delete this Airport ? <br /><br />
+                toastr.warning(`Do you want to delete this Country Restore ? <br /><br />
                     <p>
                         <button id="delete_toastr" type="button" class="btn btn-sm btn-danger waves-effect">OK</button>
                         <button type="button" class="btn btn-sm btn-default waves-effect">CANCEL</button>
@@ -371,7 +341,7 @@
                         onShown: function (toast) {
                             $("#delete_toastr").click(function(){
                                 $.ajax({
-                                    url: "{% url 'api:airport-detail' 'id' %}".replace('id', id),
+                                    url: "{% url 'api:countryrestore-detail' 'id' %}".replace('id', id),
                                     data: id,
                                     dataType: "json",
                                     type: "DELETE",
@@ -380,10 +350,10 @@
                                     },
                                     success: function (response, textStatus, xhr) {
                                         table.ajax.reload();
-                                        toastr.info("Airport Deleted", "DELETE");
+                                        toastr.info("Country Restore Deleted", "DELETE");
                                     },
                                     error: function (XMLHttpRequest, textStatus, error) {
-                                        toastr.error("Airport Delete error: " + textStatus, "ERROR");
+                                        toastr.error("Country Restore Delete error: " + textStatus, "ERROR");
                                     }
                                 });
                             });

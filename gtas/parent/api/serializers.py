@@ -79,7 +79,6 @@ class CountryRestoreSerializer(serializers.ModelSerializer):
 
 class DwellTimeSerializer(serializers.ModelSerializer):
     arrival_time = serializers.DateTimeField(default=None, format="%Y-%m-%d", input_formats=['%Y-%m-%d', ])
-
     departure_at = serializers.DateTimeField(default=None, format="%Y-%m-%d", input_formats=['%Y-%m-%d', ])
 
     class Meta:

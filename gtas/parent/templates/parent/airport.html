@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="{% static 'bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'assets/pages/data-table/css/buttons.dataTables.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'lib/toastr/toastr.min.css' %}">
 {% endblock stylesheets %}
 
 {% block body %}
@@ -58,15 +60,15 @@
                                 <div class="card-header">
                                     <h5>Airports</h5>
                                     <span>CRUD for Airports</span>
-                                    <a data-target="#airport_modal" id="add_airport" class="btn btn-labeled btn-success" style="margin-top: 12px;"> <span class="btn-label"><i class="fa fa-plus-circle"></i></span>Add New Airport </a>
+                                    <button data-target="#airport_modal" id="add_airport" class="btn btn-sm waves-effect waves-dark btn-success btn-outline-success right"><i class="icofont icofont-plus-square"></i>CREATE</button>
                                 </div>
                                 <div class="card-block">
                                     <div class="dt-responsive table-responsive">
-                                        <table id="airport_table" class="table table-striped table-bordered nowrap">
+                                        <table id="airport_table" class="table table-striped table-bordered nowrap" style="width:100%">
                                             <thead>
                                             <tr>
-                                                <th width="5%">Edit</th>
-                                                <th width="5%">Delete</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
                                                 <th>city</th>
                                                 <th>country</th>
                                                 <th>iata</th>
@@ -81,8 +83,8 @@
                                             </thead>
                                             <tfoot>
                                             <tr>
-                                                <th width="5%">Edit</th>
-                                                <th width="5%">Delete</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
                                                 <th>city</th>
                                                 <th>country</th>
                                                 <th>iata</th>
@@ -108,6 +110,40 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="airport_modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="airport_modal_title">Add Airport</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <form id="airport_crud_form" class="form-horizontal" autocomplete="off">
+                <div class="modal-body">
+                    <input type="hidden" name="id" id="id" value="__id__"/>
+                    <input type="hidden" name="operation" id="operation" value="add"/>
+                    {% csrf_token %}
+                    {% for field in form.visible_fields %}
+                        <div class="form-group row">
+                            <label class="col-md-3 col-form-label">
+                                {{ field.label_tag }}
+                            </label>
+                            <div class="col-md-9">
+                                {{ field }}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-sm btn-primary waves-effect waves-light" id="airport_submit">Add</button>
+                    <button type="reset" class="btn btn-sm btn-default waves-effect" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 {% endblock body %}
 
 {% block javascripts %}
@@ -123,16 +159,77 @@
     <script src="{% static 'bower_components/datatables.net-responsive/js/dataTables.responsive.min.js' %}"></script>
     <script src="{% static 'bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
 
+    <script src="{% static 'lib/toastr/toastr.min.js' %}"></script>
+
+    <script>
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": true,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+    </script>
+
     <script type="text/javascript">
         $(document).ready(function () {
             // AIRPORT - READ
             var table = $('#airport_table').DataTable({
-                responsive: true,
+                dom: 'lBfrtip',
+                buttons: [
+                    {
+                        extend: 'copyHtml5',
+                        title: String('#airport_table').replace('#', ''),
+                        text: '<i class="icofont icofont-ui-copy"></i>COPY',
+                        className: "btn btn-sm waves-effect waves-light btn-inverse"
+                    },
+                    {
+                        extend: 'excelHtml5',
+                        title: String('#airport_table').replace('#', ''),
+                        text: '<i class="icofont icofont-file-excel"></i>EXCEL',
+                        className: "btn btn-sm waves-effect waves-light btn-inverse"
+                    },
+                    {
+                        extend: 'csvHtml5',
+                        title: String('#airport_table').replace('#', ''),
+                        text: '<i class="icofont icofont-file-spreadsheet"></i>CSV',
+                        className: "btn btn-sm waves-effect waves-light btn-inverse"
+                    },
+                    {
+                        extend: 'pdfHtml5',
+                        title: String('#airport_table').replace('#', ''),
+                        text: '<i class="icofont icofont-file-pdf"></i>PDF',
+                        className: "btn btn-sm waves-effect waves-light btn-inverse"
+                    },
+                    {
+                        action: function ( e, dt, button, config ) {
+                            var data = dt.buttons.exportData();
+
+                            $.fn.dataTable.fileSave(
+                                new Blob( [ JSON.stringify( data ) ] ),
+                                String('#airport_table').replace('#', '')+'.json'
+                            );
+                        },
+                        text: '<i class="icofont icofont-file-text"></i>JSON',
+                        className: "btn btn-sm waves-effect waves-light btn-inverse"
+                    }
+                ],
+                //"scrollX": true,
+                responsive: false,
                 rowId: "id",
                 ajax: {"url": "{% url 'api:airport-list' %}", "dataSrc": ""},
                 "columns": [
-                    {"defaultContent": '<button type="button" id="airport_edit" class="btn btn-sm waves-effect waves-dark btn-info btn-outline-info update"><i class="icofont icofont-edit"></i></button>'},
-                    {"defaultContent": '<button type="button" id="airport_delete" class="btn btn-sm waves-effect waves-dark btn-danger btn-outline-danger delete"><i class="icofont icofont-trash"></i></button>'},
+                    {"defaultContent": '<button type="button" id="airport_edit" class="btn btn-sm waves-effect waves-dark btn-info btn-outline-info update"><i class="icofont icofont-ui-edit"></i>EDIT</button>'},
+                    {"defaultContent": '<button type="button" id="airport_delete" class="btn btn-sm waves-effect waves-dark btn-danger btn-outline-danger delete"><i class="icofont icofont-ui-delete"></i>DELETE</button>'},
                     {"data": "city"},
                     {"data": "country"},
                     {"data": "iata"},
@@ -168,10 +265,16 @@
                 var id = parseInt(document.getElementById("id").value);
 
                 var row = {
-                    "airport_title": document.getElementById("airport_title").value,
-                    "airport_name": document.getElementById("airport_name").value,
-                    "airport_uri": document.getElementById("airport_uri").value,
-                    "airport_height": document.getElementById("airport_height").value
+                    "city": document.getElementById("city").value,
+                    "country": document.getElementById("country").value,
+                    "iata": document.getElementById("iata").value,
+                    "icao": document.getElementById("icao").value,
+                    "latitude": document.getElementById("latitude").value,
+                    "longitude": document.getElementById("longitude").value,
+                    "name": document.getElementById("name").value,
+                    "origin_id": document.getElementById("origin_id").value,
+                    "timezone": document.getElementById("timezone").value,
+                    "utc_offset": document.getElementById("utc_offset").value
                 };
 
                 // AIRPORT - CREATE
@@ -185,13 +288,11 @@
                             xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
                         },
                         success: function (response, textStatus, xhr) {
-                            //alert('Added New Dashboard');
-                            toastr.success("Added New Dashboard", "CREATE");
+                            toastr.success("Airport Added", "CREATE");
                             table.ajax.reload();
                         },
                         error: function (XMLHttpRequest, textStatus, error) {
-                            //alert("Dashboard Add error: " + textStatus + "; " + error);
-                            toastr.danger("Dashboard Add error: " + textStatus, "ERROR");
+                            toastr.error("Airport Add error: " + textStatus, "ERROR");
                         }
                     });
                 }
@@ -208,13 +309,11 @@
                             xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
                         },
                         success: function (response, textStatus, xhr) {
-                            //alert('Updated Dashboard');
-                            toastr.info("Updated Dashboard", "UPDATE");
+                            toastr.info("Airport Updated", "UPDATE");
                             table.ajax.reload();
                         },
                         error: function (XMLHttpRequest, textStatus, error) {
-                            //alert("Dashboard Update error: " + textStatus + "; " + error);
-                            toastr.danger("Dashboard Update error: " + textStatus, "ERROR");
+                            toastr.error("Airport Update error: " + textStatus, "ERROR");
                         }
                     });
                 }
@@ -232,16 +331,23 @@
                 var airport = table.row($(this).parents('tr')).data();
 
                 $('#airport_crud_form')[0].reset();
-                $('#airport_modal_title').text("Edit Dashboard : " + airport.airport_title);
+                $('#airport_modal_title').text("Edit Dashboard : " + airport.name);
                 $('#id').val(id);
                 $('#operation').val("edit");
                 $('#airport_submit').html("Update");
 
                 // set the form value here
-                $('#airport_title').val(airport.airport_title);
-                $('#airport_name').val(airport.airport_name);
-                $('#airport_uri').val(airport.airport_uri);
-                $('#airport_height').val(airport.airport_height);
+                $('#city').val(airport.city);
+                $('#country').val(airport.country);
+                $('#iata').val(airport.iata);
+                $('#icao').val(airport.icao);
+                $('#latitude').val(airport.latitude);
+                $('#longitude').val(airport.longitude);
+                $('#name').val(airport.name);
+                $('#origin_id').val(airport.origin_id);
+                $('#timezone').val(airport.timezone);
+                $('#utc_offset').val(airport.utc_offset);
+                $('#icao').val(airport.icao);
 
                 $('#airport_modal').modal('show');
             });
@@ -255,10 +361,10 @@
 
                 toastr.options.timeOut = "0";
 
-                toastr.warning(`Do you want to delete this Dashboard ? <br /><br />
+                toastr.warning(`Do you want to delete this Airport ? <br /><br />
                     <p>
-                        <button id="delete_toastr" type="button" class="btn btn-xs btn-danger">OK</button>
-                        <button type="button" class="btn btn-xs btn-primary">CANCEL</button>
+                        <button id="delete_toastr" type="button" class="btn btn-sm btn-danger waves-effect">OK</button>
+                        <button type="button" class="btn btn-sm btn-default waves-effect">CANCEL</button>
                     </p>
                     `, "DELETE",
                     {
@@ -276,18 +382,16 @@
                                     },
                                     success: function (response, textStatus, xhr) {
                                         table.ajax.reload();
-                                        //alert('Deleted Dashboard');
-                                        toastr.info("Deleted Dashboard", "DELETE");
+                                        toastr.info("Airport Deleted", "DELETE");
                                     },
                                     error: function (XMLHttpRequest, textStatus, error) {
-                                        //alert("Dashboard Delete error: " + textStatus + "; " + error);
-                                        toastr.danger("Dashboard Delete error: " + textStatus, "ERROR");
+                                        toastr.error("Airport Delete error: " + textStatus, "ERROR");
                                     }
                                 });
                             });
                         }
                     }
-                    );
+                );
 
                 toastr.options.timeOut = "5000";
             });

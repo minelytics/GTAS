@@ -1,12 +1,15 @@
 from django.shortcuts import render
 from django.views import View
 
+from gtas.parent.forms.parent import AirportForm
+
 
 class AirportCRUDView(View):
     template_view = "parent/airport.html"
 
     def get(self, request):
-        return render(request, "parent/airport.html")
+        form = AirportForm()
+        return render(request, "parent/airport.html", {'form': form})
 
 
 class AirportRestoreCRUDView(View):

@@ -302,7 +302,7 @@
                 var app_configuration = table.row($(this).parents('tr')).data();
 
                 $('#app_configuration_crud_form')[0].reset();
-                $('#app_configuration_modal_title').text("Edit Dashboard : " + app_configuration.name);
+                $('#app_configuration_modal_title').text("Edit App Configuration : " + app_configuration.opt);
                 $('#id').val(id);
                 $('#operation').val("edit");
                 $('#app_configuration_submit').html("Update");

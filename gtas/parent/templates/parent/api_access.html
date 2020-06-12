@@ -306,7 +306,7 @@
                 var api_access = table.row($(this).parents('tr')).data();
 
                 $('#api_access_crud_form')[0].reset();
-                $('#api_access_modal_title').text("Edit Dashboard : " + api_access.name);
+                $('#api_access_modal_title').text("Edit Api Access : " + api_access.username);
                 $('#id').val(id);
                 $('#operation').val("edit");
                 $('#api_access_submit').html("Update");

@@ -302,7 +302,7 @@
                 var error_detail = table.row($(this).parents('tr')).data();
 
                 $('#error_detail_crud_form')[0].reset();
-                $('#error_detail_modal_title').text("Edit Dashboard : " + error_detail.name);
+                $('#error_detail_modal_title').text("Edit Error Detail : " + error_detail.code);
                 $('#id').val(id);
                 $('#operation').val("edit");
                 $('#error_detail_submit').html("Update");

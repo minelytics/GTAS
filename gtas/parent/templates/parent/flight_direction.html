@@ -298,7 +298,7 @@
                 var flight_direction = table.row($(this).parents('tr')).data();
 
                 $('#flight_direction_crud_form')[0].reset();
-                $('#flight_direction_modal_title').text("Edit Dashboard : " + flight_direction.name);
+                $('#flight_direction_modal_title').text("Edit Flight Direction : " + flight_direction.code);
                 $('#id').val(id);
                 $('#operation').val("edit");
                 $('#flight_direction_submit').html("Update");

@@ -310,7 +310,7 @@
                 var audit_log = table.row($(this).parents('tr')).data();
 
                 $('#audit_log_crud_form')[0].reset();
-                $('#audit_log_modal_title').text("Edit Dashboard : " + audit_log.name);
+                $('#audit_log_modal_title').text("Edit Audit Log : " + audit_log.action_status);
                 $('#id').val(id);
                 $('#operation').val("edit");
                 $('#audit_log_submit').html("Update");

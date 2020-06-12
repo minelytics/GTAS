@@ -294,7 +294,7 @@
                 var note_type = table.row($(this).parents('tr')).data();
 
                 $('#note_type_crud_form')[0].reset();
-                $('#note_type_modal_title').text("Edit Dashboard : " + note_type.name);
+                $('#note_type_modal_title').text("Edit Note Type : " + note_type.nt_type);
                 $('#id').val(id);
                 $('#operation').val("edit");
                 $('#note_type_submit').html("Update");

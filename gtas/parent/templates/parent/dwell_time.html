@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="{% static 'bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}">
 
     <link rel="stylesheet" type="text/css" media="screen" href="{% static 'lib/toastr/toastr.min.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/pages/advance-elements/css/bootstrap-datetimepicker.css' %}">
 {% endblock stylesheets %}
 
 {% block body %}
@@ -153,6 +155,10 @@
 
     <script src="{% static 'lib/toastr/toastr.min.js' %}"></script>
 
+    <script src="{% static 'assets/pages/advance-elements/moment-with-locales.min.js' %}"></script>
+    <script src="{% static 'bower_components/bootstrap-datepicker/js/bootstrap-datepicker.min.js' %}"></script>
+    <script src="{% static 'assets/pages/advance-elements/bootstrap-datetimepicker.min.js' %}"></script>
+
     <script>
         toastr.options = {
             "closeButton": true,
@@ -237,6 +243,10 @@
 
             $('#add_dwell_time').click(function () {
                 $('#dwell_time_crud_form')[0].reset();
+
+                $('#arrival_time').datetimepicker({format: 'YYYY-MM-DD H:ii'});
+                $('#departure_at').datetimepicker({format: 'YYYY-MM-DD H:ii'});
+
                 $('#dwell_time_modal_title').text("Add Dwell Time");
                 $('#operation').val("add");
                 $('#dwell_time_submit').html("Add");
@@ -314,7 +324,7 @@
                 var dwell_time = table.row($(this).parents('tr')).data();
 
                 $('#dwell_time_crud_form')[0].reset();
-                $('#dwell_time_modal_title').text("Edit Dashboard : " + dwell_time.name);
+                $('#dwell_time_modal_title').text("Edit Dwell Time : " + dwell_time.dwell_time);
                 $('#id').val(id);
                 $('#operation').val("edit");
                 $('#dwell_time_submit').html("Update");

@@ -1,7 +1,7 @@
 {% extends "base-with-menu.html" %}
 {% load static %}
 
-{% block title %}Airports{% endblock title %}
+{% block title %}Code Share Flights{% endblock title %}
 
 {% block stylesheets %}
     <style>
@@ -25,8 +25,8 @@
                 <div class="page-header-title">
                     <i class="feather icon-user bg-c-blue"></i>
                     <div class="d-inline">
-                        <h5>Airports</h5>
-                        <span>CRUD for Airports</span>
+                        <h5>Code Share Flights</h5>
+                        <span>CRUD for Code Share Flights</span>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                             <a href="#!">Parent</a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="{% url 'parent:airport_crud' %}">Airports</a>
+                            <a href="{% url 'parent:code_share_flight_crud' %}">Code Share Flights</a>
                         </li>
                     </ul>
                 </div>
@@ -58,43 +58,29 @@
 
                             <div class="card">
                                 <div class="card-header">
-                                    <h5>Airports</h5>
-                                    <span>CRUD for Airports</span>
-                                    <button data-target="#airport_modal" id="add_airport" class="btn btn-sm waves-effect waves-dark btn-success btn-outline-success right"><i class="icofont icofont-plus-square"></i>CREATE</button>
+                                    <h5>Code Share Flights</h5>
+                                    <span>CRUD for Code Share Flights</span>
+                                    <button data-target="#code_share_flight_modal" id="add_code_share_flight" class="btn btn-sm waves-effect waves-dark btn-success btn-outline-success right"><i class="icofont icofont-plus-square"></i>CREATE</button>
                                 </div>
                                 <div class="card-block">
                                     <div class="dt-responsive table-responsive">
-                                        <table id="airport_table" class="table table-striped table-bordered nowrap" style="width:100%">
+                                        <table id="code_share_flight_table" class="table table-striped table-bordered nowrap" style="width:100%">
                                             <thead>
                                             <tr>
                                                 <th>Edit</th>
                                                 <th>Delete</th>
-												<th>city</th>
-												<th>country</th>
-												<th>iata</th>
-												<th>icao</th>
-												<th>latitude</th>
-												<th>longitude</th>
-												<th>name</th>
-												<th>origin_id</th>
-												<th>timezone</th>
-												<th>utc_offset</th>
+												<th>marketing_flight_number</th>
+												<th>operating_flight_id</th>
+												<th>operating_flight_number</th>
                                             </tr>
                                             </thead>
                                             <tfoot>
                                             <tr>
                                                 <th>Edit</th>
                                                 <th>Delete</th>
-												<th>city</th>
-												<th>country</th>
-												<th>iata</th>
-												<th>icao</th>
-												<th>latitude</th>
-												<th>longitude</th>
-												<th>name</th>
-												<th>origin_id</th>
-												<th>timezone</th>
-												<th>utc_offset</th>
+												<th>marketing_flight_number</th>
+												<th>operating_flight_id</th>
+												<th>operating_flight_number</th>
                                             </tr>
                                             </tfoot>
                                         </table>
@@ -111,16 +97,16 @@
     </div>
 </div>
 
-<div class="modal fade" id="airport_modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="code_share_flight_modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="airport_modal_title">Add Airport</h4>
+                <h4 class="modal-title" id="code_share_flight_modal_title">Add Code Share Flight</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <form id="airport_crud_form" class="form-horizontal" autocomplete="off">
+            <form id="code_share_flight_crud_form" class="form-horizontal" autocomplete="off">
                 <div class="modal-body">
                     <input type="hidden" name="id" id="id" value="__id__"/>
                     <input type="hidden" name="operation" id="operation" value="add"/>
@@ -137,7 +123,7 @@
                     {% endfor %}
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-sm btn-primary waves-effect waves-light" id="airport_submit">Add</button>
+                    <button type="submit" class="btn btn-sm btn-primary waves-effect waves-light" id="code_share_flight_submit">Add</button>
                     <button type="reset" class="btn btn-sm btn-default waves-effect" data-dismiss="modal">Close</button>
                 </div>
             </form>
@@ -182,31 +168,31 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            // AIRPORT - READ
-            var table = $('#airport_table').DataTable({
+            // CODE SHARE FLIGHT - READ
+            var table = $('#code_share_flight_table').DataTable({
                 dom: 'lBfrtip',
                 buttons: [
                     {
                         extend: 'copyHtml5',
-                        title: String('#airport_table').replace('#', ''),
+                        title: String('#code_share_flight_table').replace('#', ''),
                         text: '<i class="icofont icofont-ui-copy"></i>COPY',
                         className: "btn btn-sm waves-effect waves-light btn-inverse"
                     },
                     {
                         extend: 'excelHtml5',
-                        title: String('#airport_table').replace('#', ''),
+                        title: String('#code_share_flight_table').replace('#', ''),
                         text: '<i class="icofont icofont-file-excel"></i>EXCEL',
                         className: "btn btn-sm waves-effect waves-light btn-inverse"
                     },
                     {
                         extend: 'csvHtml5',
-                        title: String('#airport_table').replace('#', ''),
+                        title: String('#code_share_flight_table').replace('#', ''),
                         text: '<i class="icofont icofont-file-spreadsheet"></i>CSV',
                         className: "btn btn-sm waves-effect waves-light btn-inverse"
                     },
                     {
                         extend: 'pdfHtml5',
-                        title: String('#airport_table').replace('#', ''),
+                        title: String('#code_share_flight_table').replace('#', ''),
                         text: '<i class="icofont icofont-file-pdf"></i>PDF',
                         className: "btn btn-sm waves-effect waves-light btn-inverse"
                     },
@@ -216,7 +202,7 @@
 
                             $.fn.dataTable.fileSave(
                                 new Blob( [ JSON.stringify( data ) ] ),
-                                String('#airport_table').replace('#', '')+'.json'
+                                String('#code_share_flight_table').replace('#', '')+'.json'
                             );
                         },
                         text: '<i class="icofont icofont-file-text"></i>JSON',
@@ -225,20 +211,13 @@
                 ],
                 responsive: false,
                 rowId: "id",
-                ajax: {"url": "{% url 'api:airport-list' %}", "dataSrc": ""},
+                ajax: {"url": "{% url 'api:codeshareflight-list' %}", "dataSrc": ""},
                 "columns": [
-                    {"defaultContent": '<button type="button" id="airport_edit" class="btn btn-sm waves-effect waves-dark btn-info btn-outline-info update"><i class="icofont icofont-ui-edit"></i>EDIT</button>'},
-                    {"defaultContent": '<button type="button" id="airport_delete" class="btn btn-sm waves-effect waves-dark btn-danger btn-outline-danger delete"><i class="icofont icofont-ui-delete"></i>DELETE</button>'},
-					{"data": "city"},
-					{"data": "country"},
-					{"data": "iata"},
-					{"data": "icao"},
-					{"data": "latitude"},
-					{"data": "longitude"},
-					{"data": "name"},
-					{"data": "origin_id"},
-					{"data": "timezone"},
-					{"data": "utc_offset"}
+                    {"defaultContent": '<button type="button" id="code_share_flight_edit" class="btn btn-sm waves-effect waves-dark btn-info btn-outline-info update"><i class="icofont icofont-ui-edit"></i>EDIT</button>'},
+                    {"defaultContent": '<button type="button" id="code_share_flight_delete" class="btn btn-sm waves-effect waves-dark btn-danger btn-outline-danger delete"><i class="icofont icofont-ui-delete"></i>DELETE</button>'},
+					{"data": "marketing_flight_number"},
+					{"data": "operating_flight_id"},
+					{"data": "operating_flight_number"},
                 ],
                 language: {
                     searchPlaceholder: 'Search...',
@@ -247,39 +226,32 @@
                 }
             });
 
-            $('#add_airport').click(function () {
-                $('#airport_crud_form')[0].reset();
-                $('#airport_modal_title').text("Add Airport");
+            $('#add_code_share_flight').click(function () {
+                $('#code_share_flight_crud_form')[0].reset();
+                $('#code_share_flight_modal_title').text("Add Code Share Flight");
                 $('#operation').val("add");
-                $('#airport_submit').html("Add");
-                $('#airport_modal').modal('show');
+                $('#code_share_flight_submit').html("Add");
+                $('#code_share_flight_modal').modal('show');
             });
 
-            // AIRPORT - CRUD FORM
-            $("#airport_crud_form").on("submit", function (event) {
+            // CODE SHARE FLIGHT - CRUD FORM
+            $("#code_share_flight_crud_form").on("submit", function (event) {
                 event.preventDefault();
 
-                var table = $('#airport_table').DataTable();
+                var table = $('#code_share_flight_table').DataTable();
                 var operation = document.getElementById("operation").value;
                 var id = parseInt(document.getElementById("id").value);
 
                 var row = {
-					"city": document.getElementById("city").value,
-					"country": document.getElementById("country").value,
-					"iata": document.getElementById("iata").value,
-					"icao": document.getElementById("icao").value,
-					"latitude": document.getElementById("latitude").value,
-					"longitude": document.getElementById("longitude").value,
-					"name": document.getElementById("name").value,
-					"origin_id": document.getElementById("origin_id").value,
-					"timezone": document.getElementById("timezone").value,
-					"utc_offset": document.getElementById("utc_offset").value
+					"marketing_flight_number": document.getElementById("marketing_flight_number").value,
+					"operating_flight_id": document.getElementById("operating_flight_id").value,
+					"operating_flight_number": document.getElementById("operating_flight_number").value,
                 };
 
-                // AIRPORT - CREATE
+                // CODE SHARE FLIGHT - CREATE
                 if (operation == 'add') {
                     $.ajax({
-                        url: "{% url 'api:airport-list' %}",
+                        url: "{% url 'api:codeshareflight-list' %}",
                         data: row,
                         dataType: "json",
                         type: "POST",
@@ -287,20 +259,20 @@
                             xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
                         },
                         success: function (response, textStatus, xhr) {
-                            toastr.success("Airport Added", "CREATE");
+                            toastr.success("Code Share Flight Added", "CREATE");
                             table.ajax.reload();
                         },
                         error: function (XMLHttpRequest, textStatus, error) {
-                            toastr.error("Airport Add error: " + textStatus, "ERROR");
+                            toastr.error("Code Share Flight Add error: " + textStatus, "ERROR");
                         }
                     });
                 }
-                // AIRPORT - UPDATE
+                // CODE SHARE FLIGHT - UPDATE
                 else if (operation == 'edit') {
                     row["id"] = id;
 
                     $.ajax({
-                        url: "{% url 'api:airport-detail' 'id' %}".replace('id', id),
+                        url: "{% url 'api:codeshareflight-detail' 'id' %}".replace('id', id),
                         data: row,
                         dataType: "json",
                         type: "PUT",
@@ -308,58 +280,51 @@
                             xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
                         },
                         success: function (response, textStatus, xhr) {
-                            toastr.info("Airport Updated", "UPDATE");
+                            toastr.info("Code Share Flight Updated", "UPDATE");
                             table.ajax.reload();
                         },
                         error: function (XMLHttpRequest, textStatus, error) {
-                            toastr.error("Airport Update error: " + textStatus, "ERROR");
+                            toastr.error("Code Share Flight Update error: " + textStatus, "ERROR");
                         }
                     });
                 }
 
-                $('#airport_crud_form')[0].reset();
-                $('#airport_modal').modal('hide');
+                $('#code_share_flight_crud_form')[0].reset();
+                $('#code_share_flight_modal').modal('hide');
             });
 
-            // AIRPORT - UPDATE FORM
+            // CODE SHARE FLIGHT - UPDATE FORM
             $(document).on('click', '.update', function (event) {
                 event.preventDefault();
 
-                var table = $('#airport_table').DataTable();
+                var table = $('#code_share_flight_table').DataTable();
                 var id = parseInt($(this).closest('td').parent()[0].id);
-                var airport = table.row($(this).parents('tr')).data();
+                var code_share_flight = table.row($(this).parents('tr')).data();
 
-                $('#airport_crud_form')[0].reset();
-                $('#airport_modal_title').text("Edit Airport : " + airport.name);
+                $('#code_share_flight_crud_form')[0].reset();
+                $('#code_share_flight_modal_title').text("Edit Code Share Flight : " + code_share_flight.marketing_flight_number);
                 $('#id').val(id);
                 $('#operation').val("edit");
-                $('#airport_submit').html("Update");
+                $('#code_share_flight_submit').html("Update");
 
                 // set the form value here
-				$('#city').val(airport.city);
-				$('#country').val(airport.country);
-				$('#iata').val(airport.iata);
-				$('#icao').val(airport.icao);
-				$('#latitude').val(airport.latitude);
-				$('#longitude').val(airport.longitude);
-				$('#name').val(airport.name);
-				$('#origin_id').val(airport.origin_id);
-				$('#timezone').val(airport.timezone);
-				$('#utc_offset').val(airport.utc_offset);
+				$('#marketing_flight_number').val(code_share_flight.marketing_flight_number);
+				$('#operating_flight_id').val(code_share_flight.operating_flight_id);
+				$('#operating_flight_number').val(code_share_flight.operating_flight_number);
 
-                $('#airport_modal').modal('show');
+                $('#code_share_flight_modal').modal('show');
             });
 
-            // AIRPORT - DELETE
+            // CODE SHARE FLIGHT - DELETE
             $(document).on('click', '.delete', function (event) {
                 event.preventDefault();
 
-                var table = $('#airport_table').DataTable();
+                var table = $('#code_share_flight_table').DataTable();
                 var id = parseInt($(this).closest('td').parent()[0].id);
 
                 toastr.options.timeOut = "0";
 
-                toastr.warning(`Do you want to delete this Airport ? <br /><br />
+                toastr.warning(`Do you want to delete this Code Share Flight ? <br /><br />
                     <p>
                         <button id="delete_toastr" type="button" class="btn btn-sm btn-danger waves-effect">OK</button>
                         <button type="button" class="btn btn-sm btn-default waves-effect">CANCEL</button>
@@ -371,7 +336,7 @@
                         onShown: function (toast) {
                             $("#delete_toastr").click(function(){
                                 $.ajax({
-                                    url: "{% url 'api:airport-detail' 'id' %}".replace('id', id),
+                                    url: "{% url 'api:codeshareflight-detail' 'id' %}".replace('id', id),
                                     data: id,
                                     dataType: "json",
                                     type: "DELETE",
@@ -380,10 +345,10 @@
                                     },
                                     success: function (response, textStatus, xhr) {
                                         table.ajax.reload();
-                                        toastr.info("Airport Deleted", "DELETE");
+                                        toastr.info("Code Share Flight Deleted", "DELETE");
                                     },
                                     error: function (XMLHttpRequest, textStatus, error) {
-                                        toastr.error("Airport Delete error: " + textStatus, "ERROR");
+                                        toastr.error("Code Share Flight Delete error: " + textStatus, "ERROR");
                                     }
                                 });
                             });

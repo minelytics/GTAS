@@ -47,3 +47,24 @@ class LOCTest(TestCase):
         del self.loc1
         del self.collection2
         del self.loc2
+
+
+class DTMTest(TestCase):
+    """Test for DTM Tag"""
+    def setUp(self):
+        self.collection1 = Message.from_str("DTM+189:2005061200:201'")
+        self.dtm1 = {
+            'tag': "DTM",
+            'element': {
+                "189": {
+                    "DEPARTURE_DATETIME": "2020-05-06 12:00"
+                }
+            }
+        }
+
+    def test_parser_dtm1(self):
+        """Test parser output"""
+        for segment in self.collection1.segments:
+            cls = getattr(paxlst_parser, segment.tag)
+            self.assertEqual("DTM", cls().tag(segment))
+            self.assertEqual(self.dtm1, cls().process(segment))

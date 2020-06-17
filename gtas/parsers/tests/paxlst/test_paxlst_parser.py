@@ -68,3 +68,7 @@ class DTMTest(TestCase):
             cls = getattr(paxlst_parser, segment.tag)
             self.assertEqual("DTM", cls().tag(segment))
             self.assertEqual(self.dtm1, cls().process(segment))
+
+    def tearDown(self):
+        del self.collection1
+        del self.dtm1

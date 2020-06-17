@@ -1,3 +1,6 @@
+from datetime import datetime
+
+
 class BASE:
     def tag(self, data):
         return data.tag
@@ -33,6 +36,12 @@ class LOC(BASE):
 
 
 class DTM(BASE):
+    def get_datetime(self, dt, code):
+        if code == "201":
+            return datetime.strptime(dt, '%y%m%d%H%M').strftime('%Y-%m-%d %H:%M')
+        else:
+            return dt
+
     def key(self, val):
         switch = {
             "189": "DEPARTURE_DATETIME",
@@ -44,4 +53,18 @@ class DTM(BASE):
         return switch.get(val, "Not Identified")
 
     def process(self, data):
-        return data
+        for element in data.elements:
+            if isinstance(element, list):
+                if len(element) == 3:
+                    return {
+                        'tag': data.tag,
+                        'element': {
+                            element[0]: {
+                                self.key(element[0]): self.get_datetime(element[1], element[2])
+                            }
+                        }
+                    }
+                else:
+                    pass
+            else:
+                pass

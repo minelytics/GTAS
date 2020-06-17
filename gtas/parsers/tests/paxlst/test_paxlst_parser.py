@@ -1,7 +1,7 @@
 from django.test import TestCase
 from pydifact import Message
 
-from gtas.parsers.edifact import parser
+from gtas.parsers.paxlst import paxlst_parser
 
 
 class LOCTest(TestCase):
@@ -31,13 +31,19 @@ class LOCTest(TestCase):
     def test_parser_loc1(self):
         """Test the parser output"""
         for segment in self.collection1.segments:
-            cls = getattr(parser, segment.tag)
+            cls = getattr(paxlst_parser, segment.tag)
             self.assertEqual("LOC", cls().tag(segment))
             self.assertEqual(self.loc1, cls().process(segment))
 
     def test_parser_loc2(self):
         """Test the parser output"""
         for segment in self.collection2.segments:
-            cls = getattr(parser, segment.tag)
+            cls = getattr(paxlst_parser, segment.tag)
             self.assertEqual("LOC", cls().tag(segment))
             self.assertEqual(self.loc2, cls().process(segment))
+
+    def tearDown(self):
+        del self.collection1
+        del self.loc1
+        del self.collection2
+        del self.loc2

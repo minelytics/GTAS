@@ -32,6 +32,16 @@ class LOC(BASE):
         }
 
 
-class DTM:
+class DTM(BASE):
+    def key(self, val):
+        switch = {
+            "189": "DEPARTURE_DATETIME",
+            "232": "ARRIVAL_DATETIME",
+            "554": "DEPARTURE_ARRIVAL_DATETIME_MCL",
+            "329": "DATE_OF_BIRTH",
+            "36": "PASSPORT_EXPIRATION_DATE"
+        }
+        return switch.get(val, "Not Identified")
+
     def process(self, data):
         return data

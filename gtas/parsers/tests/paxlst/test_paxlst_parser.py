@@ -4,29 +4,27 @@ from pydifact import Message
 from gtas.parsers.paxlst import paxlst_parser
 
 
-class ATTTest(TestCase):
-    """Test for ATT Tag"""
-    def setUp(self):
-        """Pydifact parsed message"""
-        self.collection1 = Message.from_str("ATT+2++M'")
-        self.att1 = {
-            'tag': "ATT",
+class BaseTest(TestCase):
+    def expected(self, tag, sub_element, key, value):
+        return {
+            'tag': tag,
             'element': {
-                "2": {
-                    "GENDER": "M"
+                sub_element: {
+                    key: value
                 }
             }
         }
 
+
+class ATTTest(BaseTest):
+    """Test for ATT Tag"""
+    def setUp(self):
+        """Pydifact parsed message"""
+        self.collection1 = Message.from_str("ATT+2++M'")
+        self.att1 = self.expected("ATT", "2", "GENDER", "M")
+
         self.collection2 = Message.from_str("ATT+2++F'")
-        self.att2 = {
-            'tag': "ATT",
-            'element': {
-                "2": {
-                    "GENDER": "F"
-                }
-            }
-        }
+        self.att2 = self.expected("ATT", "2", "GENDER", "F")
 
     def test_parser_att1(self):
         """Test parser output"""
@@ -49,39 +47,18 @@ class ATTTest(TestCase):
         del self.att2
 
 
-class BGMTest(TestCase):
+class BGMTest(BaseTest):
     """Test for BGM Tag"""
     def setUp(self):
         """Pydifact parsed message"""
         self.collection1 = Message.from_str("BGM+745'")
-        self.bgm1 = {
-            'tag': "BGM",
-            'element': {
-                "745": {
-                    "PASSENGER_LIST": "No Document Identifier used"
-                }
-            }
-        }
+        self.bgm1 = self.expected("BGM", "745", "PASSENGER_LIST", "No Document Identifier used")
 
         self.collection2 = Message.from_str("BGM+745+CP'")
-        self.bgm2 = {
-            'tag': "BGM",
-            'element': {
-                "745": {
-                    "PASSENGER_LIST": "CHANGE_PAX_DATA"
-                }
-            }
-        }
+        self.bgm2 = self.expected("BGM", "745", "PASSENGER_LIST", "CHANGE_PAX_DATA")
 
         self.collection3 = Message.from_str("BGM+266+CLOB'")
-        self.bgm3 = {
-            'tag': "BGM",
-            'element': {
-                "266": {
-                    "FLIGHT_STATUS_UPDATE": "FLIGHT_CLOSE_WITH_PAX_ON_BOARD"
-                }
-            }
-        }
+        self.bgm3 = self.expected("BGM", "266", "FLIGHT_STATUS_UPDATE", "FLIGHT_CLOSE_WITH_PAX_ON_BOARD")
 
     def test_parser_bgm1(self):
         """Test parser output"""
@@ -113,38 +90,24 @@ class BGMTest(TestCase):
         del self.bgm3
 
 
-class DTMTest(TestCase):
+# class CNTTest(TestCase):
+#     """Test for CNT Tag"""
+#     def setUp(self):
+#         """Pydifact parsed message"""
+#         self.collection1 = Message.from_str()
+
+
+class DTMTest(BaseTest):
     """Test for DTM Tag"""
     def setUp(self):
         self.collection1 = Message.from_str("DTM+189:2005061200:201'")
-        self.dtm1 = {
-            'tag': "DTM",
-            'element': {
-                "189": {
-                    "DEPARTURE_DATETIME": "2020-05-06 12:00"
-                }
-            }
-        }
+        self.dtm1 = self.expected("DTM", "189", "DEPARTURE_DATETIME", "2020-05-06 12:00")
 
         self.collection2 = Message.from_str("DTM+329:130414'")
-        self.dtm2 = {
-            'tag': "DTM",
-            'element': {
-                "329": {
-                    "DATE_OF_BIRTH": "2014-04-13"
-                }
-            }
-        }
+        self.dtm2 = self.expected("DTM", "329", "DATE_OF_BIRTH", "2014-04-13")
 
         self.collection3 = Message.from_str("DTM+36:'")
-        self.dtm3 = {
-            'tag': "DTM",
-            'element': {
-                "36": {
-                    "PASSPORT_EXPIRATION_DATE": None
-                }
-            }
-        }
+        self.dtm3 = self.expected("DTM", "36", "PASSPORT_EXPIRATION_DATE", None)
 
     def test_parser_dtm1(self):
         """Test parser output"""
@@ -176,29 +139,15 @@ class DTMTest(TestCase):
         del self.dtm3
 
 
-class LOCTest(TestCase):
+class LOCTest(BaseTest):
     """Test for LOC Tag"""
     def setUp(self):
         """Pydifact parsed message"""
         self.collection1 = Message.from_str("LOC+125+IAD'")
-        self.loc1 = {
-            'tag': "LOC",
-            'element': {
-                "125": {
-                    "DEPARTURE_AIRPORT": "IAD"
-                }
-            }
-        }
+        self.loc1 = self.expected("LOC", "125", "DEPARTURE_AIRPORT", "IAD")
 
         self.collection2 = Message.from_str("LOC+87+BRU'")
-        self.loc2 = {
-            'tag': "LOC",
-            'element': {
-                "87": {
-                    "ARRIVAL_AIRPORT": "BRU"
-                }
-            }
-        }
+        self.loc2 = self.expected("LOC", "87", "ARRIVAL_AIRPORT", "BRU")
 
     def test_parser_loc1(self):
         """Test the parser output"""

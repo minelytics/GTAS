@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-class BASE:
+class Base:
     def tag(self, data):
         return data.tag
 
@@ -16,7 +16,7 @@ class BASE:
         }
 
 
-class ATT(BASE):
+class ATT(Base):
     def attribute_function_code_qualifier(self, val):
         switch = {
             "2": "GENDER"
@@ -31,7 +31,7 @@ class ATT(BASE):
         return self.parsed_message(sub_element, key, value, data)
 
 
-class BGM(BASE):
+class BGM(Base):
     def document_name_code(self, val):
         switch = {
             "745": "PASSENGER_LIST",
@@ -92,7 +92,7 @@ class BGM(BASE):
         return self.parsed_message(sub_element, key, value, data)
 
 
-class DTM(BASE):
+class DTM(Base):
     def get_datetime(self, dt, code=None):
         if code == "201":
             ft_in = "%y%m%d%H%M"
@@ -140,7 +140,7 @@ class DTM(BASE):
         return self.parsed_message(sub_element, key, value, data)
 
 
-class LOC(BASE):
+class LOC(Base):
     def location_function_code_qualifier(self, val):
         switch = {
             "125": "DEPARTURE_AIRPORT",

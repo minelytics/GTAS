@@ -62,6 +62,26 @@ class DTMTest(TestCase):
             }
         }
 
+        self.collection2 = Message.from_str("DTM+329:130414'")
+        self.dtm2 = {
+            'tag': "DTM",
+            'element': {
+                "329": {
+                    "DATE_OF_BIRTH": "2014-04-13"
+                }
+            }
+        }
+
+        self.collection3 = Message.from_str("DTM+36:'")
+        self.dtm3 = {
+            'tag': "DTM",
+            'element': {
+                "36": {
+                    "PASSPORT_EXPIRATION_DATE": None
+                }
+            }
+        }
+
     def test_parser_dtm1(self):
         """Test parser output"""
         for segment in self.collection1.segments:
@@ -69,6 +89,24 @@ class DTMTest(TestCase):
             self.assertEqual("DTM", cls().tag(segment))
             self.assertEqual(self.dtm1, cls().process(segment))
 
+    def test_parser_dtm2(self):
+        """Test parser output"""
+        for segment in self.collection2.segments:
+            cls = getattr(paxlst_parser, segment.tag)
+            self.assertEqual("DTM", cls().tag(segment))
+            self.assertEqual(self.dtm2, cls().process(segment))
+
+    def test_parser_dtm3(self):
+        """Test parser output"""
+        for segment in self.collection3.segments:
+            cls = getattr(paxlst_parser, segment.tag)
+            self.assertEqual("DTM", cls().tag(segment))
+            self.assertEqual(self.dtm3, cls().process(segment))
+
     def tearDown(self):
         del self.collection1
         del self.dtm1
+        del self.collection2
+        del self.dtm2
+        del self.collection3
+        del self.dtm3

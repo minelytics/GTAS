@@ -36,11 +36,17 @@ class LOC(BASE):
 
 
 class DTM(BASE):
-    def get_datetime(self, dt, code):
+    def get_datetime(self, dt, code=None):
         if code == "201":
-            return datetime.strptime(dt, '%y%m%d%H%M').strftime('%Y-%m-%d %H:%M')
+            ft_in = "%y%m%d%H%M"
+            ft_out = "%Y-%m-%d %H:%M"
         else:
-            return dt
+            ft_out = "%Y-%m-%d"
+            if 1 <= int(dt[:2]) <= 31:
+                ft_in = "%d%m%y"
+            else:
+                ft_in = "%y%m%d"
+        return datetime.strptime(dt, ft_in).strftime(ft_out)
 
     def key(self, val):
         switch = {
@@ -53,18 +59,32 @@ class DTM(BASE):
         return switch.get(val, "Not Identified")
 
     def process(self, data):
+        sub_element = None
+        key = None
+        value = None
+
         for element in data.elements:
             if isinstance(element, list):
                 if len(element) == 3:
-                    return {
-                        'tag': data.tag,
-                        'element': {
-                            element[0]: {
-                                self.key(element[0]): self.get_datetime(element[1], element[2])
-                            }
-                        }
-                    }
+                    sub_element = element[0]
+                    key = self.key(element[0])
+                    value = self.get_datetime(element[1], element[2])
+                if len(element) == 2:
+                    sub_element = element[0]
+                    key = self.key(element[0])
+                    value = self.get_datetime(element[1])
                 else:
                     pass
             else:
-                pass
+                if len(data.elements) == 1:
+                    sub_element = element
+                    key = self.key(element)
+
+        return {
+            'tag': data.tag,
+            'element': {
+                sub_element: {
+                    key: value
+                }
+            }
+        }

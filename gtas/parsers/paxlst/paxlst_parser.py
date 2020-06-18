@@ -6,6 +6,24 @@ class BASE:
         return data.tag
 
 
+class ATT(BASE):
+    def key(self, val):
+        switch = {
+            "2": "GENDER"
+        }
+        return switch.get(val, "Not Identified")
+
+    def process(self, data):
+        return {
+            'tag': data.tag,
+            'element': {
+                data.elements[0]: {
+                    self.key(data.elements[0]): data.elements[2]
+                }
+            }
+        }
+
+
 class LOC(BASE):
     def key(self, val):
         switch = {

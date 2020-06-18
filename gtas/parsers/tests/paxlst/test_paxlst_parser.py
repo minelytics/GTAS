@@ -79,7 +79,7 @@ class BGMTest(BaseTestCase):
         self.collections.append(Message.from_str("BGM+266+CLOB'"))
         self.outputs.append(self.expected_structure("BGM", "266", "FLIGHT_STATUS_UPDATE", "FLIGHT_CLOSE_WITH_PAX_ON_BOARD"))
 
-    def test_parser_att(self):
+    def test_parser_bgm(self):
         self.parser_test("BGM", self.collections, self.outputs)
 
     def tearDown(self):
@@ -87,11 +87,21 @@ class BGMTest(BaseTestCase):
         self.outputs.clear()
 
 
-# class CNTTest(TestCase):
-#     """Test for CNT Tag"""
-#     def setUp(self):
-#         """Pydifact parsed message"""
-#         self.collection1 = Message.from_str()
+class CNTTest(BaseTestCase):
+    """Test for CNT Tag"""
+    def setUp(self):
+        self.collections.append(Message.from_str("CNT+42:10'"))
+        self.outputs.append(self.expected_structure("CNT", "42", "TOTAL_CREW_MEMBERS", "10"))
+
+        self.collections.append(Message.from_str("CNT+41:12'"))
+        self.outputs.append(self.expected_structure("CNT", "41", "TOTAL_PASSENGERS", "12"))
+
+    def test_parser_cnt(self):
+        self.parser_test("CNT", self.collections, self.outputs)
+
+    def tearDown(self):
+        self.collections.clear()
+        self.outputs.clear()
 
 
 class DTMTest(BaseTestCase):
@@ -106,7 +116,7 @@ class DTMTest(BaseTestCase):
         self.collections.append(Message.from_str("DTM+36:'"))
         self.outputs.append(self.expected_structure("DTM", "36", "PASSPORT_EXPIRATION_DATE", None))
 
-    def test_parser_att(self):
+    def test_parser_dtm(self):
         self.parser_test("DTM", self.collections, self.outputs)
 
     def tearDown(self):
@@ -123,7 +133,7 @@ class LOCTest(BaseTestCase):
         self.collections.append(Message.from_str("LOC+87+BRU'"))
         self.outputs.append(self.expected_structure("LOC", "87", "ARRIVAL_AIRPORT", "BRU"))
 
-    def test_parser_att(self):
+    def test_parser_loc(self):
         self.parser_test("LOC", self.collections, self.outputs)
 
     def tearDown(self):

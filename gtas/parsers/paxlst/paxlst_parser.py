@@ -21,7 +21,7 @@ class ATT(Base):
         switch = {
             "2": "GENDER"
         }
-        return switch.get(val, "ATT Unkown Attribute Function Code Qualifier: " + val)
+        return switch.get(val, "ATT Unknown Attribute Function Code Qualifier: " + val)
 
     def process(self, data):
         sub_element = data.elements[0]
@@ -40,7 +40,7 @@ class BGM(Base):
             "336": "MASTER_CREW_LIST",
             "655": "GATE_PASS_REQUEST"
         }
-        return switch.get(val, "BGM Unkown Document Name Code: " + val)
+        return switch.get(val, "BGM Unknown Document Name Code: " + val)
 
     def document_identifier(self, val):
         switch = {
@@ -73,7 +73,7 @@ class BGM(Base):
             "H": "DELETE",
             "I": "CHANGE"
         }
-        return switch.get(val, "BGM Unkown Document Identifier: " + val)
+        return switch.get(val, "BGM Unknown Document Identifier: " + val)
 
     def process(self, data):
         sub_element = None
@@ -88,6 +88,29 @@ class BGM(Base):
             sub_element = data.elements[0]
             key = self.document_name_code(sub_element)
             value = self.document_identifier(data.elements[1])
+
+        return self.parsed_message(sub_element, key, value, data)
+
+
+class CNT(Base):
+    def control_total_type_code_qualifier(self, val):
+        switch = {
+            "41": "TOTAL_PASSENGERS",
+            "42": "TOTAL_CREW_MEMBERS"
+        }
+        return switch.get(val, "CNT Unknown Control Total Type Code Qualifier" + val)
+
+    def process(self, data):
+        sub_element = None
+        key = None
+        value = None
+
+        for element in data.elements:
+            if isinstance(element, list):
+                if len(element) == 2:
+                    sub_element = element[0]
+                    key = self.control_total_type_code_qualifier(sub_element)
+                    value = element[1]
 
         return self.parsed_message(sub_element, key, value, data)
 
@@ -113,7 +136,7 @@ class DTM(Base):
             "329": "DATE_OF_BIRTH",
             "36": "PASSPORT_EXPIRATION_DATE"
         }
-        return switch.get(val, "DTM Unkown Datetime Function Code Qualifier: " + val)
+        return switch.get(val, "DTM Unknown Datetime Function Code Qualifier: " + val)
 
     def process(self, data):
         sub_element = None
@@ -156,7 +179,7 @@ class LOC(Base):
             "179": "PORT_OF_DEBARKATION",
             "180": "PLACE_OF_BIRTH"
         }
-        return switch.get(val, "LOC Unkown Location Function Code Qualifier: " + val)
+        return switch.get(val, "LOC Unknown Location Function Code Qualifier: " + val)
 
     def process(self, data):
         sub_element = data.elements[0]

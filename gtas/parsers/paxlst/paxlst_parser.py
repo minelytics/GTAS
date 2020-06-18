@@ -5,23 +5,30 @@ class BASE:
     def tag(self, data):
         return data.tag
 
+    def parsed_message(self, sub_element, key, value, data):
+        return {
+            'tag': self.tag(data),
+            'element': {
+                sub_element: {
+                    key: value
+                }
+            }
+        }
+
 
 class ATT(BASE):
     def attribute_function_code_qualifier(self, val):
         switch = {
             "2": "GENDER"
         }
-        return switch.get(val, "Not Identified")
+        return switch.get(val, "ATT Unkown Attribute Function Code Qualifier: " + val)
 
     def process(self, data):
-        return {
-            'tag': data.tag,
-            'element': {
-                data.elements[0]: {
-                    self.attribute_function_code_qualifier(data.elements[0]): data.elements[2]
-                }
-            }
-        }
+        sub_element = data.elements[0]
+        key = self.attribute_function_code_qualifier(sub_element)
+        value = data.elements[2]
+
+        return self.parsed_message(sub_element, key, value, data)
 
 
 class BGM(BASE):
@@ -33,7 +40,7 @@ class BGM(BASE):
             "336": "MASTER_CREW_LIST",
             "655": "GATE_PASS_REQUEST"
         }
-        return switch.get(val, "Not Identified")
+        return switch.get(val, "BGM Unkown Document Name Code: " + val)
 
     def document_identifier(self, val):
         switch = {
@@ -66,7 +73,7 @@ class BGM(BASE):
             "H": "DELETE",
             "I": "CHANGE"
         }
-        return switch.get(val, "No Document Identifier used")
+        return switch.get(val, "BGM Unkown Document Identifier: " + val)
 
     def process(self, data):
         sub_element = None
@@ -75,21 +82,14 @@ class BGM(BASE):
 
         if len(data.elements) == 1:
             sub_element = data.elements[0]
-            key = self.document_name_code(data.elements[0])
-            value = self.document_identifier(None)
+            key = self.document_name_code(sub_element)
+            value = "No Document Identifier used"
         elif len(data.elements) == 2:
             sub_element = data.elements[0]
-            key = self.document_name_code(data.elements[0])
+            key = self.document_name_code(sub_element)
             value = self.document_identifier(data.elements[1])
 
-        return {
-            'tag': data.tag,
-            'element': {
-                sub_element: {
-                    key: value
-                }
-            }
-        }
+        return self.parsed_message(sub_element, key, value, data)
 
 
 class DTM(BASE):
@@ -113,7 +113,7 @@ class DTM(BASE):
             "329": "DATE_OF_BIRTH",
             "36": "PASSPORT_EXPIRATION_DATE"
         }
-        return switch.get(val, "Not Identified")
+        return switch.get(val, "DTM Unkown Datetime Function Code Qualifier: " + val)
 
     def process(self, data):
         sub_element = None
@@ -124,11 +124,11 @@ class DTM(BASE):
             if isinstance(element, list):
                 if len(element) == 3:
                     sub_element = element[0]
-                    key = self.datetime_function_code_qualifier(element[0])
+                    key = self.datetime_function_code_qualifier(sub_element)
                     value = self.get_datetime(element[1], element[2])
                 if len(element) == 2:
                     sub_element = element[0]
-                    key = self.datetime_function_code_qualifier(element[0])
+                    key = self.datetime_function_code_qualifier(sub_element)
                     value = self.get_datetime(element[1])
                 else:
                     pass
@@ -137,14 +137,7 @@ class DTM(BASE):
                     sub_element = element
                     key = self.datetime_function_code_qualifier(element)
 
-        return {
-            'tag': data.tag,
-            'element': {
-                sub_element: {
-                    key: value
-                }
-            }
-        }
+        return self.parsed_message(sub_element, key, value, data)
 
 
 class LOC(BASE):
@@ -163,14 +156,11 @@ class LOC(BASE):
             "179": "PORT_OF_DEBARKATION",
             "180": "PLACE_OF_BIRTH"
         }
-        return switch.get(val, "Not Identified")
+        return switch.get(val, "LOC Unkown Location Function Code Qualifier: " + val)
 
     def process(self, data):
-        return {
-            'tag': data.tag,
-            'element': {
-                data.elements[0]: {
-                    self.location_function_code_qualifier(data.elements[0]): data.elements[1]
-                }
-            }
-        }
+        sub_element = data.elements[0]
+        key = self.location_function_code_qualifier(data.elements[0])
+        value = data.elements[1]
+
+        return self.parsed_message(sub_element, key, value, data)

@@ -49,49 +49,68 @@ class ATTTest(TestCase):
         del self.att2
 
 
-class LOCTest(TestCase):
-    """Test for LOC Tag"""
+class BGMTest(TestCase):
+    """Test for BGM Tag"""
     def setUp(self):
         """Pydifact parsed message"""
-        self.collection1 = Message.from_str("LOC+125+IAD'")
-        self.loc1 = {
-            'tag': "LOC",
+        self.collection1 = Message.from_str("BGM+745'")
+        self.bgm1 = {
+            'tag': "BGM",
             'element': {
-                "125": {
-                    "DEPARTURE_AIRPORT": "IAD"
+                "745": {
+                    "PASSENGER_LIST": "No Document Identifier used"
                 }
             }
         }
 
-        self.collection2 = Message.from_str("LOC+87+BRU'")
-        self.loc2 = {
-            'tag': "LOC",
+        self.collection2 = Message.from_str("BGM+745+CP'")
+        self.bgm2 = {
+            'tag': "BGM",
             'element': {
-                "87": {
-                    "ARRIVAL_AIRPORT": "BRU"
+                "745": {
+                    "PASSENGER_LIST": "CHANGE_PAX_DATA"
                 }
             }
         }
 
-    def test_parser_loc1(self):
-        """Test the parser output"""
+        self.collection3 = Message.from_str("BGM+266+CLOB'")
+        self.bgm3 = {
+            'tag': "BGM",
+            'element': {
+                "266": {
+                    "FLIGHT_STATUS_UPDATE": "FLIGHT_CLOSE_WITH_PAX_ON_BOARD"
+                }
+            }
+        }
+
+    def test_parser_bgm1(self):
+        """Test parser output"""
         for segment in self.collection1.segments:
             cls = getattr(paxlst_parser, segment.tag)
-            self.assertEqual("LOC", cls().tag(segment))
-            self.assertEqual(self.loc1, cls().process(segment))
+            self.assertEqual("BGM", cls().tag(segment))
+            self.assertEqual(self.bgm1, cls().process(segment))
 
-    def test_parser_loc2(self):
-        """Test the parser output"""
+    def test_parser_bgm2(self):
+        """Test parser output"""
         for segment in self.collection2.segments:
             cls = getattr(paxlst_parser, segment.tag)
-            self.assertEqual("LOC", cls().tag(segment))
-            self.assertEqual(self.loc2, cls().process(segment))
+            self.assertEqual("BGM", cls().tag(segment))
+            self.assertEqual(self.bgm2, cls().process(segment))
+
+    def test_parser_bgm3(self):
+        """Test parser output"""
+        for segment in self.collection3.segments:
+            cls = getattr(paxlst_parser, segment.tag)
+            self.assertEqual("BGM", cls().tag(segment))
+            self.assertEqual(self.bgm3, cls().process(segment))
 
     def tearDown(self):
         del self.collection1
-        del self.loc1
+        del self.bgm1
         del self.collection2
-        del self.loc2
+        del self.bgm2
+        del self.collection3
+        del self.bgm3
 
 
 class DTMTest(TestCase):
@@ -155,3 +174,48 @@ class DTMTest(TestCase):
         del self.dtm2
         del self.collection3
         del self.dtm3
+
+
+class LOCTest(TestCase):
+    """Test for LOC Tag"""
+    def setUp(self):
+        """Pydifact parsed message"""
+        self.collection1 = Message.from_str("LOC+125+IAD'")
+        self.loc1 = {
+            'tag': "LOC",
+            'element': {
+                "125": {
+                    "DEPARTURE_AIRPORT": "IAD"
+                }
+            }
+        }
+
+        self.collection2 = Message.from_str("LOC+87+BRU'")
+        self.loc2 = {
+            'tag': "LOC",
+            'element': {
+                "87": {
+                    "ARRIVAL_AIRPORT": "BRU"
+                }
+            }
+        }
+
+    def test_parser_loc1(self):
+        """Test the parser output"""
+        for segment in self.collection1.segments:
+            cls = getattr(paxlst_parser, segment.tag)
+            self.assertEqual("LOC", cls().tag(segment))
+            self.assertEqual(self.loc1, cls().process(segment))
+
+    def test_parser_loc2(self):
+        """Test the parser output"""
+        for segment in self.collection2.segments:
+            cls = getattr(paxlst_parser, segment.tag)
+            self.assertEqual("LOC", cls().tag(segment))
+            self.assertEqual(self.loc2, cls().process(segment))
+
+    def tearDown(self):
+        del self.collection1
+        del self.loc1
+        del self.collection2
+        del self.loc2

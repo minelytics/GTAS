@@ -104,6 +104,26 @@ class CNTTest(BaseTestCase):
         self.outputs.clear()
 
 
+class COMTest(BaseTestCase):
+    """Test for COM Tag"""
+    def setUp(self):
+        self.collections.append(Message.from_str("COM+17037919383:TE'"))
+        self.outputs.append(self.expected_structure("COM", "TE", "TELEPHONE", "17037919383"))
+
+        self.collections.append(Message.from_str("COM+703 555 1234:TE+703 555 9876:FX'"))
+        self.com1 = self.expected_structure("COM", "TE", "TELEPHONE", "703 555 1234")
+        self.com1["element"].update({"FX":{"TELEFAX": "703 555 9876"}})
+        self.outputs.append(self.com1)
+
+    def test_parser_com(self):
+        self.parser_test("COM", self.collections, self.outputs)
+
+    def tearDown(self):
+        self.collections.clear()
+        self.outputs.clear()
+        del self.com1
+
+
 class DTMTest(BaseTestCase):
     """Test for DTM Tag"""
     def setUp(self):

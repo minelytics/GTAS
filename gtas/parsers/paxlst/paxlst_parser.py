@@ -76,17 +76,13 @@ class BGM(Base):
         return switch.get(val, "BGM Unknown Document Identifier: " + val)
 
     def process(self, data):
-        sub_element = None
-        key = None
+        sub_element = data.elements[0]
+        key = self.document_name_code(sub_element)
         value = None
 
         if len(data.elements) == 1:
-            sub_element = data.elements[0]
-            key = self.document_name_code(sub_element)
             value = "No Document Identifier used"
         elif len(data.elements) == 2:
-            sub_element = data.elements[0]
-            key = self.document_name_code(sub_element)
             value = self.document_identifier(data.elements[1])
 
         return self.parsed_message(sub_element, key, value, data)
@@ -102,8 +98,6 @@ class CNT(Base):
 
     def process(self, data):
         sub_element = key = value = None
-        # key = None
-        # value = None
 
         for element in data.elements:
             if isinstance(element, list):
@@ -163,22 +157,17 @@ class DTM(Base):
         return switch.get(val, "DTM Unknown Datetime Function Code Qualifier: " + val)
 
     def process(self, data):
-        sub_element = None
-        key = None
-        value = None
+        sub_element = key = value = None
 
         for element in data.elements:
             if isinstance(element, list):
+                sub_element = element[0]
+                key = self.datetime_function_code_qualifier(sub_element)
+
                 if len(element) == 3:
-                    sub_element = element[0]
-                    key = self.datetime_function_code_qualifier(sub_element)
                     value = self.get_datetime(element[1], element[2])
-                if len(element) == 2:
-                    sub_element = element[0]
-                    key = self.datetime_function_code_qualifier(sub_element)
+                elif len(element) == 2:
                     value = self.get_datetime(element[1])
-                else:
-                    pass
             else:
                 if len(data.elements) == 1:
                     sub_element = element

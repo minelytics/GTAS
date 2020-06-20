@@ -124,6 +124,30 @@ class COMTest(BaseTestCase):
         del self.com1
 
 
+class DOCTest(BaseTestCase):
+    """Test for DOC Tag"""
+    def setUp(self):
+        self.collections.append(Message.from_str("DOC+P+G839083'"))
+        self.outputs.append(self.expected_structure("DOC", "P", "PASSPORT", "G839083"))
+
+        self.collections.append(Message.from_str("DOC++'"))
+        self.outputs.append(self.expected_structure("DOC", "", "DOC Unknown Code List Identification Code: ", ""))
+
+        self.collections.append(Message.from_str("DOC+P:110:111+MB140241'"))
+        self.doc1 = self.expected_structure("DOC", "P", "PASSPORT", "MB140241")
+        self.doc1["element"]["P"].update({"IDENTIFICATION_CODE": "US_DHS_SPECIAL_CODES"})
+        self.doc1["element"]["P"].update({"RESPONSIBLE_AGENCY_CODE": "US_DEPARTMENT_OF_HOMELAND_SECURITY"})
+        self.outputs.append(self.doc1)
+
+    def test_parser_doc(self):
+        self.parser_test("DOC", self.collections, self.outputs)
+
+    def tearDown(self):
+        self.collections.clear()
+        self.outputs.clear()
+        del self.doc1
+
+
 class DTMTest(BaseTestCase):
     """Test for DTM Tag"""
     def setUp(self):

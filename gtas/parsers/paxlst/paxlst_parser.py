@@ -1,34 +1,9 @@
 from datetime import datetime
 
-
-class Base:
-    def tag(self, data):
-        return data.tag
-
-    def parsed_message(self, sub_element, key, value, data):
-        return {
-            'tag': self.tag(data),
-            'element': {
-                sub_element: {
-                    key: value
-                }
-            }
-        }
+from gtas.parsers.paxlst.segment.base import Base
+from gtas.parsers.paxlst.segment.att import ATT
 
 
-class ATT(Base):
-    def attribute_function_code_qualifier(self, val):
-        switch = {
-            "2": "GENDER"
-        }
-        return switch.get(val, "ATT Unknown Attribute Function Code Qualifier: " + val)
-
-    def process(self, data):
-        sub_element = data.elements[0]
-        key = self.attribute_function_code_qualifier(sub_element)
-        value = data.elements[2]
-
-        return self.parsed_message(sub_element, key, value, data)
 
 
 class BGM(Base):

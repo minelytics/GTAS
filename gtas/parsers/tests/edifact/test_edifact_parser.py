@@ -1,8 +1,7 @@
 from django.conf import settings
 from django.test import TestCase
 
-from gtas.parsers.edifact.edifact_parser import EdifactParser
-from gtas.parsers.edifact.tags_elements_parser import TagsElementsParser
+from gtas.parsers.edifact.edifact_parser import EdifactParser, TagsElementsParser
 
 
 class EdifactParserTest(TestCase):

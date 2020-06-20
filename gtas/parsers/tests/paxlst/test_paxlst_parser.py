@@ -1,7 +1,7 @@
 from django.test import TestCase
 from pydifact import Message
 
-from gtas.parsers.paxlst import paxlst_parser
+from gtas.parsers.paxlst.paxlst_parser import PaxlstParser
 
 
 class BaseTestCase(TestCase):
@@ -41,7 +41,7 @@ class BaseTestCase(TestCase):
     def parser_test(self, tag, collections, outputs):
         for collection, output in zip(collections, outputs):
             for segment in collection.segments:
-                cls = getattr(paxlst_parser, segment.tag)
+                cls = getattr(PaxlstParser().get_segment(segment.tag), segment.tag)
                 self.assertEqual(tag, cls().tag(segment))
                 self.assertEqual(output, cls().process(segment))
 

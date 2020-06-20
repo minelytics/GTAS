@@ -1,5 +1,6 @@
 from gtas.parsers.paxlst.segment.base import Base
 
+
 class ATT(Base):
     def attribute_function_code_qualifier(self, val):
         switch = {

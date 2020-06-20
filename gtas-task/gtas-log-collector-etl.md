@@ -1,1 +1,0 @@
-# gtas-log-collector-etl

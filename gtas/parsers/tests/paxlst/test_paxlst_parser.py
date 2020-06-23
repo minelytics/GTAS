@@ -2,6 +2,7 @@ from django.test import TestCase
 from pydifact import Message
 
 from gtas.parsers.paxlst.paxlst_parser import PaxlstParser
+from gtas.parsers.validators import validators
 
 
 class BaseTestCase(TestCase):
@@ -179,6 +180,8 @@ class LOCTest(BaseTestCase):
 
     def test_parser_loc(self):
         self.parser_test("LOC", self.collections, self.outputs)
+        # x = "2020-06-24 12:12"
+        # validators.validate_datetime(x, "%Y-%m-%d %H:%M")
 
     def tearDown(self):
         self.collections.clear()

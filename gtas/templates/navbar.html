@@ -2,7 +2,7 @@
 <nav class="navbar header-navbar pcoded-header">
 	<div class="navbar-wrapper">
 		<div class="navbar-logo">
-			<a href="index.html">
+			<a href="{% url 'home' %}">
 				<img alt="Theme-Logo" class="img-fluid" src="{% static 'assets/images/logo.png' %}"/>
 			</a>
 			<a class="mobile-menu" href="#!" id="mobile-collapse">
@@ -38,7 +38,7 @@
 						<ul class="show-notification profile-notification dropdown-menu"
 						    data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
 							<li>
-								<a href="{% url 'users:detail' user.get_username %}">
+								<a href="">
 									<i class="feather icon-user"></i> Profile
 								</a>
 							</li>

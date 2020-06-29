@@ -2,7 +2,6 @@ from django.test import TestCase
 from pydifact import Message
 
 from gtas.parsers.paxlst.paxlst_parser import PaxlstParser
-from gtas.parsers.validators import validators
 
 
 class BaseTestCase(TestCase):
@@ -180,8 +179,90 @@ class LOCTest(BaseTestCase):
 
     def test_parser_loc(self):
         self.parser_test("LOC", self.collections, self.outputs)
-        # x = "2020-06-24 12:12"
-        # validators.validate_datetime(x, "%Y-%m-%d %H:%M")
+
+    def tearDown(self):
+        self.collections.clear()
+        self.outputs.clear()
+
+
+class NADTest(BaseTestCase):
+    """Test for NAD Tag"""
+    def setUp(self):
+        self.collections.append(Message.from_str("NAD+MS+++WORLD CUSTOMS ORGANIZATION BRU'"))
+        self.outputs.append(self.expected_structure("NAD", "MS", "REPORTING_PARTY", "WORLD CUSTOMS ORGANIZATION BRU"))
+
+        self.collections.append(Message.from_str("NAD+FL+++DOE:JOHN:WAYNE+20 MAIN STREET+ANYCITY+VA+10053+USA'"))
+        self.nad1 = self.expected_structure("NAD", "FL", "PASSENGER", "JOHN WAYNE DOE")
+        self.nad1["element"].update({
+            "ADDRESS":{
+                "NAME_AND_STREET_IDENTIFIER": "20 MAIN STREET",
+                "CITY": "ANYCITY",
+                "COUNTRY_SUB_CODE": "VA",
+                "POSTAL_CODE": "10053",
+                "COUNTRY_CODE": "USA"
+            }
+        })
+        self.outputs.append(self.nad1)
+
+        self.collections.append(Message.from_str(""))
+        self.outputs.append(self.expected_structure("NAD", "MS", "REPORTING_PARTY", "WORLD CUSTOMS ORGANIZATION BRU"))
+
+    def test_parser_nad(self):
+        self.parser_test("NAD", self.collections, self.outputs)
+
+    def tearDown(self):
+        self.collections.clear()
+        self.outputs.clear()
+        del self.nad1
+
+
+class NATTest(BaseTestCase):
+    """Test for NAT Tag"""
+    def setUp(self):
+        self.collections.append(Message.from_str("NAT+2+SWE'"))
+        self.outputs.append(self.expected_structure("NAT", "2", "NATIONALITY_NAME_CODE", "SWE"))
+
+        self.collections.append(Message.from_str("NAT+2+SVN'"))
+        self.outputs.append(self.expected_structure("NAT", "2", "NATIONALITY_NAME_CODE", "SVN"))
+
+    def test_parser_nat(self):
+        self.parser_test("NAT", self.collections, self.outputs)
+
+    def tearDown(self):
+        self.collections.clear()
+        self.outputs.clear()
+
+
+class RFFTest(BaseTestCase):
+    """Test for RFF Tag"""
+    def setUp(self):
+        self.collections.append(Message.from_str("RFF+AVF:ABC123'"))
+        self.outputs.append(self.expected_structure("RFF", "AVF", "PASSENGER_RESERVATION_NUMBER", "ABC123"))
+
+        self.collections.append(Message.from_str("RFF+SEA:78C'"))
+        self.outputs.append(self.expected_structure("RFF", "SEA", "SEAT_NUMBER", "78C"))
+
+    def test_parser_rff(self):
+        self.parser_test("RFF", self.collections, self.outputs)
+
+    def tearDown(self):
+        self.collections.clear()
+        self.outputs.clear()
+
+
+class TDTTest(BaseTestCase):
+    """Test for TDT Tag"""
+    def setUp(self):
+        self.collections.append(Message.from_str("TDT+20+YY123'"))
+        self.outputs.append(self.expected_structure("TDT", "20", "ARRIVING_OR_DEPARTING_FLIGHT", "YY123"))
+
+        self.collections.append(Message.from_str("TDT+20+UA123+++UA'"))
+        self.tdt1 = self.expected_structure("TDT", "20", "ARRIVING_OR_DEPARTING_FLIGHT", "UA123")
+        self.tdt1["element"].update({"CARRIER_IDENTIFIER": "UA"})
+        self.outputs.append(self.tdt1)
+
+    def test_parser_tdt(self):
+        self.parser_test("TDT", self.collections, self.outputs)
 
     def tearDown(self):
         self.collections.clear()

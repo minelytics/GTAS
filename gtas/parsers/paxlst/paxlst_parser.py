@@ -5,6 +5,10 @@ from gtas.parsers.paxlst.segment import com
 from gtas.parsers.paxlst.segment import doc
 from gtas.parsers.paxlst.segment import dtm
 from gtas.parsers.paxlst.segment import loc
+from gtas.parsers.paxlst.segment import nad
+from gtas.parsers.paxlst.segment import nat
+from gtas.parsers.paxlst.segment import rff
+from gtas.parsers.paxlst.segment import tdt
 
 
 class PaxlstParser:
@@ -16,6 +20,10 @@ class PaxlstParser:
             "COM": com,
             "DOC": doc,
             "DTM": dtm,
-            "LOC": loc
+            "LOC": loc,
+            "NAD": nad,
+            "NAT": nat,
+            "RFF": rff,
+            "TDT": tdt
         }
         return switch.get(val, "Paxlst Parser Undefined segment: " + val)

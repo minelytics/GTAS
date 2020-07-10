@@ -66,4 +66,23 @@
 {% endblock body %}
 
 {% block javascripts %}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var name = "dictionary";
+
+        $.ajax({
+            url: "{% url 'parent:json' 'name' %}".replace('name', name),
+            dataType: "json",
+            type: "GET",
+            success: function (response, textStatus, xhr) {
+                console.log(response);
+            },
+            error: function (XMLHttpRequest, textStatus, error) {
+                console.log("ERROR: ", error);
+            }
+        });
+    })
+</script>
+
 {% endblock javascripts %}

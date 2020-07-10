@@ -1,0 +1,159 @@
+{% extends "base-with-menu.html" %}
+{% load static %}
+
+{% block title %}Dashboard{% endblock title %}
+
+{% block stylesheets %}
+{% endblock stylesheets %}
+
+{% block body %}
+<div class="pcoded-content">
+    <div class="page-header card">
+        <div class="row align-items-end">
+            <div class="col-lg-8">
+                <div class="page-header-title">
+                    <i class="feather icon-user bg-c-blue"></i>
+                    <div class="d-inline">
+                        <h5>Dashboard</h5>
+                        <span>Dashboard for GTAS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="page-header-breadcrumb">
+                    <ul class=" breadcrumb breadcrumb-title">
+                        <li class="breadcrumb-item">
+                            <a href="{% url 'home' %}"><i class="feather icon-home"></i></a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#!">Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pcoded-inner-content">
+        <div class="main-body">
+            <div class="page-wrapper">
+
+                <div class="page-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Kibana Iframe</h5>
+                                </div>
+                                <div class="card-block">
+                                    <span>{{ kibana_url }}</span>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Rules List</h5>
+                                </div>
+                                <div class="card-block">
+                                    <div class="dt-responsive table-responsive">
+                                        <table class="table table-striped table-bordered nowrap" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Rule Name</th>
+                                                <th>Hits</th>
+                                                <th>Created On</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for records in rules_list %}
+                                            <tr>
+                                                <td>{{ records.rule_name }}</td>
+                                                <td>{{ records.rule_hits }}</td>
+                                                <td>{{ records.created_on }}</td>
+                                            </tr>
+                                            {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Airport Stats</h5>
+                                </div>
+                                <div class="card-block">
+                                    <div class="dt-responsive table-responsive">
+                                        <table class="table table-striped table-bordered nowrap" style="width:100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Airport</th>
+                                                <th>Flights</th>
+                                                <th>Watch Lists</th>
+                                                <th>Rule Hits</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for records in airport_stats %}
+                                            <tr>
+                                                <td>{{ records.airport }}</td>
+                                                <td>{{ records.flights }}</td>
+                                                <td>{{ records.watch_list_hits }}</td>
+                                                <td>{{ records.rule_hits }}</td>
+                                            </tr>
+                                            {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
+
+{% block javascripts %}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var name = "dictionary";
+
+        $.ajax({
+            url: "{% url 'parent:json' 'name' %}".replace('name', name),
+            dataType: "json",
+            type: "GET",
+            success: function (response, textStatus, xhr) {
+                console.log("json: ", response);
+            },
+            error: function (XMLHttpRequest, textStatus, error) {
+                console.log("ERROR: ", error);
+            }
+        });
+
+        // AmCharts map type javascript code
+
+        var service = "get_messages_count";
+
+        $.ajax({
+            url: "{% url 'parent:dashboard_service' 'service' %}".replace('service', service),
+            dataType: "json",
+            type: "GET",
+            success: function (response, textStatus, xhr) {
+                console.log("service: ", response);
+            },
+            error: function (XMLHttpRequest, textStatus, error) {
+                console.log("ERROR: ", error);
+            }
+        });
+    })
+</script>
+
+{% endblock javascripts %}

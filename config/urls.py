@@ -7,7 +7,7 @@ from django.views import defaults as default_views
 from django.views.generic import TemplateView
 from rest_framework.authtoken.views import obtain_auth_token
 
-from gtas.parent.views.views import DashboardView
+from gtas.parent.views.dashboard import DashboardView
 
 urlpatterns = [
     path("", DashboardView.as_view(), name="home"),

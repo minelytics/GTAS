@@ -22,7 +22,7 @@ class AirportCRUDView(View):
 
     def get(self, request):
         form = AirportForm()
-        return render(request, "parent/airport.html", {'form': form})
+        return render(request, "parent/airport.html", {"form": form})
 
 
 class AirportRestoreCRUDView(View):
@@ -30,7 +30,7 @@ class AirportRestoreCRUDView(View):
 
     def get(self, request):
         form = AirportRestoreForm()
-        return render(request, "parent/airport_restore.html", {'form': form})
+        return render(request, "parent/airport_restore.html", {"form": form})
 
 
 class ApiAccessCRUDView(View):
@@ -38,7 +38,7 @@ class ApiAccessCRUDView(View):
 
     def get(self, request):
         form = ApiAccessForm()
-        return render(request, "parent/api_access.html", {'form': form})
+        return render(request, "parent/api_access.html", {"form": form})
 
 
 class AppConfigurationCRUDView(View):
@@ -46,7 +46,7 @@ class AppConfigurationCRUDView(View):
 
     def get(self, request):
         form = AppConfigurationForm()
-        return render(request, "parent/app_configuration.html", {'form': form})
+        return render(request, "parent/app_configuration.html", {"form": form})
 
 
 class AuditLogCRUDView(View):
@@ -54,7 +54,7 @@ class AuditLogCRUDView(View):
 
     def get(self, request):
         form = AuditLogForm()
-        return render(request, "parent/audit_log.html", {'form': form})
+        return render(request, "parent/audit_log.html", {"form": form})
 
 
 class CarrierCRUDView(View):
@@ -62,7 +62,7 @@ class CarrierCRUDView(View):
 
     def get(self, request):
         form = CarrierForm()
-        return render(request, "parent/carrier.html", {'form': form})
+        return render(request, "parent/carrier.html", {"form": form})
 
 
 class CarrierRestoreCRUDView(View):
@@ -70,7 +70,7 @@ class CarrierRestoreCRUDView(View):
 
     def get(self, request):
         form = CarrierRestoreForm()
-        return render(request, "parent/carrier_restore.html", {'form': form})
+        return render(request, "parent/carrier_restore.html", {"form": form})
 
 
 class CodeShareFlightCRUDView(View):
@@ -78,7 +78,7 @@ class CodeShareFlightCRUDView(View):
 
     def get(self, request):
         form = CodeShareFlightForm()
-        return render(request, "parent/code_share_flight.html", {'form': form})
+        return render(request, "parent/code_share_flight.html", {"form": form})
 
 
 class CountryCRUDView(View):
@@ -86,7 +86,7 @@ class CountryCRUDView(View):
 
     def get(self, request):
         form = CountryForm()
-        return render(request, "parent/country.html", {'form': form})
+        return render(request, "parent/country.html", {"form": form})
 
 
 class CountryRestoreCRUDView(View):
@@ -94,7 +94,7 @@ class CountryRestoreCRUDView(View):
 
     def get(self, request):
         form = CountryRestoreForm()
-        return render(request, "parent/country_restore.html", {'form': form})
+        return render(request, "parent/country_restore.html", {"form": form})
 
 
 class DwellTimeCRUDView(View):
@@ -102,7 +102,7 @@ class DwellTimeCRUDView(View):
 
     def get(self, request):
         form = DwellTimeForm()
-        return render(request, "parent/dwell_time.html", {'form': form})
+        return render(request, "parent/dwell_time.html", {"form": form})
 
 
 class ErrorDetailCRUDView(View):
@@ -110,7 +110,7 @@ class ErrorDetailCRUDView(View):
 
     def get(self, request):
         form = ErrorDetailForm()
-        return render(request, "parent/error_detail.html", {'form': form})
+        return render(request, "parent/error_detail.html", {"form": form})
 
 
 class FlightDirectionCRUDView(View):
@@ -118,7 +118,7 @@ class FlightDirectionCRUDView(View):
 
     def get(self, request):
         form = FlightDirectionForm()
-        return render(request, "parent/flight_direction.html", {'form': form})
+        return render(request, "parent/flight_direction.html", {"form": form})
 
 
 class NoteTypeCRUDView(View):
@@ -126,4 +126,4 @@ class NoteTypeCRUDView(View):
 
     def get(self, request):
         form = NoteTypeForm()
-        return render(request, "parent/note_type.html", {'form': form})
+        return render(request, "parent/note_type.html", {"form": form})

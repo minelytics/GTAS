@@ -30,6 +30,5 @@ __all__ = [
     ErrorDetailCRUDView,
     FlightDirectionCRUDView,
     NoteTypeCRUDView,
-
-    DashboardView
+    DashboardView,
 ]

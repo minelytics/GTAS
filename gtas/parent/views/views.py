@@ -7,4 +7,4 @@ class DashboardView(LoginRequiredMixin, View):
     template_name = "parent/dashboard.html"
 
     def get(self, request):
-        return render(request, 'parent/dashboard.html')
+        return render(request, "parent/dashboard.html")

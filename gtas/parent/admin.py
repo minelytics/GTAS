@@ -21,11 +21,22 @@ from gtas.parent.models.parent import NoteType
 class AirportAdmin(VersionAdmin):
     """Admin class for Airport"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('city', 'country', 'iata', 'icao', 'latitude', 'longitude', 'name', 'origin_id', 'timezone', 'utc_offset')
-    list_filter = ('updated_at',)
-    ordering = ('name',)
-    search_fields = ('city', 'country')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = (
+        "city",
+        "country",
+        "iata",
+        "icao",
+        "latitude",
+        "longitude",
+        "name",
+        "origin_id",
+        "timezone",
+        "utc_offset",
+    )
+    list_filter = ("updated_at",)
+    ordering = ("name",)
+    search_fields = ("city", "country")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -38,11 +49,21 @@ class AirportAdmin(VersionAdmin):
 class AirportRestoreAdmin(VersionAdmin):
     """Admin class for AirportRestore"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('city', 'country', 'iata', 'icao', 'latitude', 'longitude', 'name', 'timezone', 'utc_offset')
-    list_filter = ('updated_at',)
-    ordering = ('name',)
-    search_fields = ('city', 'country')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = (
+        "city",
+        "country",
+        "iata",
+        "icao",
+        "latitude",
+        "longitude",
+        "name",
+        "timezone",
+        "utc_offset",
+    )
+    list_filter = ("updated_at",)
+    ordering = ("name",)
+    search_fields = ("city", "country")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -55,11 +76,14 @@ class AirportRestoreAdmin(VersionAdmin):
 class ApiAccessAdmin(VersionAdmin):
     """Admin class for ApiAccess"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('email', 'organization', 'password', 'username')
-    list_filter = ('updated_at',)
-    ordering = ('username',)
-    search_fields = ('email', 'organization',)
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("email", "organization", "password", "username")
+    list_filter = ("updated_at",)
+    ordering = ("username",)
+    search_fields = (
+        "email",
+        "organization",
+    )
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -72,11 +96,11 @@ class ApiAccessAdmin(VersionAdmin):
 class AppConfigurationAdmin(VersionAdmin):
     """Admin class for AppConfiguration"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('description', 'opt', 'val')
-    list_filter = ('updated_at',)
-    ordering = ('val',)
-    search_fields = ('description',)
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("description", "opt", "val")
+    list_filter = ("updated_at",)
+    ordering = ("val",)
+    search_fields = ("description",)
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -89,11 +113,17 @@ class AppConfigurationAdmin(VersionAdmin):
 class AuditLogAdmin(VersionAdmin):
     """Admin class for AuditLog"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('action_data', 'action_status', 'action_type', 'action_message', 'action_target')
-    list_filter = ('updated_at',)
-    ordering = ('action_status',)
-    search_fields = ('action_type', 'action_message')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = (
+        "action_data",
+        "action_status",
+        "action_type",
+        "action_message",
+        "action_target",
+    )
+    list_filter = ("updated_at",)
+    ordering = ("action_status",)
+    search_fields = ("action_type", "action_message")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -106,11 +136,11 @@ class AuditLogAdmin(VersionAdmin):
 class CarrierAdmin(VersionAdmin):
     """Admin class for Carrier"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('iata', 'icao', 'name', 'origin_id')
-    list_filter = ('updated_at',)
-    ordering = ('name',)
-    search_fields = ('iata', 'icao')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("iata", "icao", "name", "origin_id")
+    list_filter = ("updated_at",)
+    ordering = ("name",)
+    search_fields = ("iata", "icao")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -123,11 +153,11 @@ class CarrierAdmin(VersionAdmin):
 class CarrierRestoreAdmin(VersionAdmin):
     """Admin class for CarrierRestore"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('iata', 'icao', 'name')
-    list_filter = ('updated_at',)
-    ordering = ('name',)
-    search_fields = ('iata', 'icao')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("iata", "icao", "name")
+    list_filter = ("updated_at",)
+    ordering = ("name",)
+    search_fields = ("iata", "icao")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -140,11 +170,15 @@ class CarrierRestoreAdmin(VersionAdmin):
 class CodeShareFlightAdmin(VersionAdmin):
     """Admin class for CodeShareFlight"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('marketing_flight_number', 'operating_flight_id', 'operating_flight_number')
-    list_filter = ('updated_at',)
-    ordering = ('operating_flight_number',)
-    search_fields = ('operating_flight_number',)
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = (
+        "marketing_flight_number",
+        "operating_flight_id",
+        "operating_flight_number",
+    )
+    list_filter = ("updated_at",)
+    ordering = ("operating_flight_number",)
+    search_fields = ("operating_flight_number",)
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -157,11 +191,11 @@ class CodeShareFlightAdmin(VersionAdmin):
 class CountryAdmin(VersionAdmin):
     """Admin class for Country"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('iso2', 'iso3', 'iso_numeric', 'name', 'origin_id')
-    list_filter = ('updated_at',)
-    ordering = ('name',)
-    search_fields = ('iso2', 'iso3', 'iso_numeric')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("iso2", "iso3", "iso_numeric", "name", "origin_id")
+    list_filter = ("updated_at",)
+    ordering = ("name",)
+    search_fields = ("iso2", "iso3", "iso_numeric")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -174,11 +208,11 @@ class CountryAdmin(VersionAdmin):
 class CountryRestoreAdmin(VersionAdmin):
     """Admin class for CountryRestore"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('iso2', 'iso3', 'iso_numeric', 'name')
-    list_filter = ('updated_at',)
-    ordering = ('name',)
-    search_fields = ('iso2', 'iso3', 'iso_numeric')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("iso2", "iso3", "iso_numeric", "name")
+    list_filter = ("updated_at",)
+    ordering = ("name",)
+    search_fields = ("iso2", "iso3", "iso_numeric")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -191,11 +225,18 @@ class CountryRestoreAdmin(VersionAdmin):
 class DwellTimeAdmin(VersionAdmin):
     """Admin class for DwellTime"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('arrival_time', 'departure_at', 'dwell_time', 'flying_from', 'flying_to', 'arrival_airport')
-    list_filter = ('updated_at',)
-    ordering = ('flying_from', 'flying_to')
-    search_fields = ('flying_from', 'flying_to')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = (
+        "arrival_time",
+        "departure_at",
+        "dwell_time",
+        "flying_from",
+        "flying_to",
+        "arrival_airport",
+    )
+    list_filter = ("updated_at",)
+    ordering = ("flying_from", "flying_to")
+    search_fields = ("flying_from", "flying_to")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -208,11 +249,11 @@ class DwellTimeAdmin(VersionAdmin):
 class ErrorDetailAdmin(VersionAdmin):
     """Admin class for ErrorDetail"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('code', 'description', 'details')
-    list_filter = ('updated_at',)
-    ordering = ('code',)
-    search_fields = ('code', 'description')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("code", "description", "details")
+    list_filter = ("updated_at",)
+    ordering = ("code",)
+    search_fields = ("code", "description")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -225,11 +266,11 @@ class ErrorDetailAdmin(VersionAdmin):
 class FlightDirectionAdmin(VersionAdmin):
     """Admin class for FlightDirection"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('code', 'description')
-    list_filter = ('updated_at',)
-    ordering = ('code',)
-    search_fields = ('code', 'description')
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("code", "description")
+    list_filter = ("updated_at",)
+    ordering = ("code",)
+    search_fields = ("code", "description")
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:
@@ -242,11 +283,11 @@ class FlightDirectionAdmin(VersionAdmin):
 class NoteTypeAdmin(VersionAdmin):
     """Admin class for NoteType"""
 
-    exclude = ('created_by', 'updated_by', 'deleted_at')
-    list_display = ('nt_type',)
-    list_filter = ('updated_at',)
-    ordering = ('nt_type',)
-    search_fields = ('nt_type',)
+    exclude = ("created_by", "updated_by", "deleted_at")
+    list_display = ("nt_type",)
+    list_filter = ("updated_at",)
+    ordering = ("nt_type",)
+    search_fields = ("nt_type",)
 
     def save_model(self, request, obj, form, change):
         if not obj.pk:

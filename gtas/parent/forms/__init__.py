@@ -27,5 +27,5 @@ __all__ = [
     DwellTimeForm,
     ErrorDetailForm,
     FlightDirectionForm,
-    NoteTypeForm
+    NoteTypeForm,
 ]

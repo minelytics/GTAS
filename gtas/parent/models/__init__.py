@@ -27,5 +27,5 @@ __all__ = [
     DwellTime,
     ErrorDetail,
     FlightDirection,
-    NoteType
+    NoteType,
 ]

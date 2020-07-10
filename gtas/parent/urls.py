@@ -17,6 +17,7 @@ from gtas.parent.views.parent import FlightDirectionCRUDView
 from gtas.parent.views.parent import NoteTypeCRUDView
 
 from gtas.parent.views.views import DashboardView
+from gtas.parent.views.views import JsonView
 
 app_name = "parent"
 
@@ -56,4 +57,5 @@ urlpatterns = [
     ),
     path("note_type", NoteTypeCRUDView.as_view(), name="note_type_crud"),
     path("", DashboardView.as_view(), name="dashboard"),
+    path("json/<str:name>", JsonView.as_view(), name="json"),
 ]

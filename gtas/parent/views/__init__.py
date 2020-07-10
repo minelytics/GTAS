@@ -14,6 +14,7 @@ from gtas.parent.views.parent import FlightDirectionCRUDView
 from gtas.parent.views.parent import NoteTypeCRUDView
 
 from gtas.parent.views.views import DashboardView
+from gtas.parent.views.views import JsonView
 
 __all__ = [
     AirportCRUDView,
@@ -31,4 +32,5 @@ __all__ = [
     FlightDirectionCRUDView,
     NoteTypeCRUDView,
     DashboardView,
+    JsonView,
 ]

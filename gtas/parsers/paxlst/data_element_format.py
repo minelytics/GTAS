@@ -131,6 +131,12 @@ class DataElementFormat:
             # ===========
             "3493M": "Nationality Code Qualifier",
             "C042:3293M": "Nationality Name Code",
+            # DOCSegment
+            # ===========
+            # "C002:1001M": "Document Name Code",
+            "C002:1131C": "Code List Identification Code",
+            "C002:3055C": "Code List Responsible Agency Code",
+            "C503:1004M": "Document Identifier",
         }
 
         return switch.get(

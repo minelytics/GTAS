@@ -15,9 +15,15 @@ def setup():
     setup.message = Message.from_str(message)
 
     setup.expected = {
-        "segment_group": "header",
-        "segment_tag": "UNB",
-        "segment_elements": [
+        "segment": "UNB",
+        "segment_description": "Interchange Header",
+        "group": None,
+        "group_description": None,
+        "level": 0,
+        "usage": "Mandatory",
+        "max_use": 1,
+        "purpose": "To start, identify and specify an interchange",
+        "elements": [
             {
                 "data_element_tag": "S001:0001",
                 "segment_requirement": "M",
@@ -106,5 +112,5 @@ def setup():
 
 class TestUNB:
     def test_unb(self, setup):
-        parsed = UNB("header", setup.message).parse
+        parsed = UNB(setup.message).parse
         assert parsed == setup.expected

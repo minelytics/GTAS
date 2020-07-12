@@ -15,9 +15,15 @@ def setup():
     setup.message = Message.from_str(message)
 
     setup.expected = {
-        "segment_group": "header",
-        "segment_tag": "BGM",
-        "segment_elements": [
+        "segment": "BGM",
+        "segment_description": "Beginning of Message",
+        "group": None,
+        "group_description": None,
+        "level": 0,
+        "usage": "Mandatory",
+        "max_use": 1,
+        "purpose": "A segment to indicate the type and function of the message.",
+        "elements": [
             {
                 "data_element_tag": "C002:1001",
                 "segment_requirement": "M",
@@ -42,5 +48,5 @@ def setup():
 
 class TestBGM:
     def test_bgm(self, setup):
-        parsed = BGM("header", setup.message).parse
+        parsed = BGM(setup.message).parse
         assert parsed == setup.expected

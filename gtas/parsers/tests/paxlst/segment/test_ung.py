@@ -15,9 +15,15 @@ def setup():
     setup.message = Message.from_str(message)
 
     setup.expected = {
-        "segment_group": "header",
-        "segment_tag": "UNG",
-        "segment_elements": [
+        "segment": "UNG",
+        "segment_description": "Functional Group Header",
+        "group": None,
+        "group_description": None,
+        "level": 0,
+        "usage": "Conditional",
+        "max_use": 1,
+        "purpose": "To begin a group of like transaction. Only one grouping of transactions will be allowed for this implementation.",
+        "elements": [
             {
                 "data_element_tag": "0038",
                 "segment_requirement": "M",
@@ -98,5 +104,5 @@ def setup():
 
 class TestUNG:
     def test_ung(self, setup):
-        parsed = UNG("header", setup.message).parse
+        parsed = UNG(setup.message).parse
         assert parsed == setup.expected

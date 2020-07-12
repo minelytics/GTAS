@@ -15,9 +15,15 @@ def setup():
     setup.message = Message.from_str(message)
 
     setup.expected = {
-        "segment_group": "header",
-        "segment_tag": "UNH",
-        "segment_elements": [
+        "segment": "UNH",
+        "segment_description": "Message Header",
+        "group": None,
+        "group_description": None,
+        "level": 0,
+        "usage": "Mandatory",
+        "max_use": 1,
+        "purpose": "A service segment starting and uniquely identifying a message. The message type code for the Passenger list message is PAXLST.",
+        "elements": [
             {
                 "data_element_tag": "0062",
                 "segment_requirement": "M",
@@ -98,5 +104,5 @@ def setup():
 
 class TestUNH:
     def test_unh(self, setup):
-        parsed = UNH("header", setup.message).parse
+        parsed = UNH(setup.message).parse
         assert parsed == setup.expected

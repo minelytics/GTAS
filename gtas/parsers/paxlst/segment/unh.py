@@ -3,8 +3,7 @@ from gtas.parsers.paxlst.elements_structure import ElementsStructure
 
 
 class UNH:
-    def __init__(self, segment_group, collections):
-        self.segment_group = segment_group
+    def __init__(self, collections):
         self.tag = collections.segments[0].tag
         self.elements = collections.segments[0].elements
 
@@ -27,7 +26,13 @@ class UNH:
             ]
 
             return {
-                "segment_group": self.segment_group,
-                "segment_tag": self.tag,
-                "segment_elements": DataElementFormat(y).process,
+                "segment": self.tag,
+                "segment_description": "Message Header",
+                "group": None,
+                "group_description": None,
+                "level": 0,
+                "usage": "Mandatory",
+                "max_use": 1,
+                "purpose": "A service segment starting and uniquely identifying a message. The message type code for the Passenger list message is PAXLST.",
+                "elements": DataElementFormat(y).process,
             }

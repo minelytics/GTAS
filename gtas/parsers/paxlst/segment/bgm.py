@@ -3,8 +3,7 @@ from gtas.parsers.paxlst.elements_structure import ElementsStructure
 
 
 class BGM:
-    def __init__(self, segment_group, collections):
-        self.segment_group = segment_group
+    def __init__(self, collections):
         self.tag = collections.segments[0].tag
         self.elements = collections.segments[0].elements
 
@@ -17,7 +16,13 @@ class BGM:
             ]
 
             return {
-                "segment_group": self.segment_group,
-                "segment_tag": self.tag,
-                "segment_elements": DataElementFormat(y).process,
+                "segment": self.tag,
+                "segment_description": "Beginning of Message",
+                "group": None,
+                "group_description": None,
+                "level": 0,
+                "usage": "Mandatory",
+                "max_use": 1,
+                "purpose": "A segment to indicate the type and function of the message.",
+                "elements": DataElementFormat(y).process,
             }

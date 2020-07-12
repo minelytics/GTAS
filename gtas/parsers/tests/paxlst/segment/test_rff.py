@@ -15,9 +15,15 @@ def setup():
     setup.message = Message.from_str(message)
 
     setup.expected = {
-        "segment_group": "header",
-        "segment_tag": "RFF",
-        "segment_elements": [
+        "segment": "RFF",
+        "segment_description": "Reference",
+        "group": None,
+        "group_description": None,
+        "level": 0,
+        "usage": "Conditional",
+        "max_use": 1,
+        "purpose": "A segment to to specify message reference.",
+        "elements": [
             {
                 "data_element_tag": "C506:1153",
                 "segment_requirement": "M",
@@ -50,5 +56,5 @@ def setup():
 
 class TestRFF:
     def test_rff(self, setup):
-        parsed = RFF("header", setup.message).parse
+        parsed = RFF(setup.message).parse
         assert parsed == setup.expected

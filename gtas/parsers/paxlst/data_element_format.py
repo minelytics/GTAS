@@ -72,6 +72,12 @@ class DataElementFormat:
             # ===========
             "3035": "Party Function Code Qualifier",
             "C080:3036": "Party Name",
+            # COMSegment
+            # ===========
+            "C076:3148": "Communication Address Identifier",
+            "C076:3155": "Communication Address Code Qualifier",
+            # "C076:3148": "Communication Address Identifier",
+            # "C076:3155": "Communication Address Code Qualifier",
         }
 
         return switch.get(

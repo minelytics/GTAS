@@ -87,6 +87,11 @@ class DataElementFormat:
             # ===========
             "3227M": "Location Function Code Qualifier",
             "C517:3225M": "Location Name Code",
+            # DTMSegment
+            # ===========
+            "C507:2005M": "Date/Time/Period Function Code Qualifier",
+            "C507:2380M": "Date/Time/Period Value",
+            "C507:2379C": "Date/Time/Period Format Code",
         }
 
         return switch.get(

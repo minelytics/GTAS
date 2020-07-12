@@ -6,9 +6,13 @@ from gtas.parsers.edifact.edifact_parser import EdifactParser, TagsElementsParse
 
 class EdifactParserTest(TestCase):
     """Test for edifact parser"""
+
     def setUp(self):
         edifact_parser = EdifactParser()
-        file = str(settings.APPS_DIR) + "/parsers/tests/resources/sample-edifact-messages/text_001.txt"
+        file = (
+            str(settings.APPS_DIR)
+            + "/parsers/tests/resources/sample-paxlst-messages/text_001.txt"
+        )
         self.parsed_message = edifact_parser.get_parsed_message(file)
 
     def test_tags_and_elements_for_loc(self):

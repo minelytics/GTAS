@@ -26,6 +26,7 @@ class DataElementFormat:
 
         switch = {
             # UNBSegment
+            # ===========
             "S001:0001": "Syntax Identifier",
             "S001:0002": "Syntax Version Number",
             "S002:0004": "Interchange Sender Identification",
@@ -36,6 +37,17 @@ class DataElementFormat:
             "S004:0019": "Time",
             "0020": "Interchange Control Reference",
             "0026": "Application Reference",
+            # UNGSegment
+            # ===========
+            "0038": "Message Group Identification",
+            "S006:0040": "Application Sender Identifier",
+            "S007:0044": "Application Recipient Identification",
+            # "S004:0017": "Date",
+            # "S004:0019": "Time",
+            "0048": "Group Reference Number",
+            "0051": "Controlling Agency",
+            "S008:0052": "Message Version Number",
+            "S008:0054": "Message Release Number",
         }
 
         return switch.get(

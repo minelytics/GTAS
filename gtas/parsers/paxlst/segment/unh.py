@@ -32,7 +32,7 @@ class UNH:
                 "group_description": None,
                 "group_usage": None,
                 "level": 0,
-                "usage": "Mandatory",
+                "usage": "M",
                 "max_use": 1,
                 "purpose": "A service segment starting and uniquely identifying a message. The message type code for the Passenger list message is PAXLST.",
                 "elements": DataElementFormat(y).process,

@@ -22,7 +22,7 @@ class BGM:
                 "group_description": None,
                 "group_usage": None,
                 "level": 0,
-                "usage": "Mandatory",
+                "usage": "M",
                 "max_use": 1,
                 "purpose": "A segment to indicate the type and function of the message.",
                 "elements": DataElementFormat(y).process,

@@ -33,7 +33,7 @@ class UNB:
                 "group_description": None,
                 "group_usage": None,
                 "level": 0,
-                "usage": "Mandatory",
+                "usage": "M",
                 "max_use": 1,
                 "purpose": "To start, identify and specify an interchange",
                 "elements": DataElementFormat(y).process,

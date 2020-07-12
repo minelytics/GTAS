@@ -21,7 +21,7 @@ def setup():
         "group_description": None,
         "group_usage": None,
         "level": 0,
-        "usage": "Conditional",
+        "usage": "C",
         "max_use": 1,
         "purpose": "To begin a group of like transaction. Only one grouping of transactions will be allowed for this implementation.",
         "elements": [

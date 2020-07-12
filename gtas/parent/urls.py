@@ -16,6 +16,8 @@ from gtas.parent.views.parent import ErrorDetailCRUDView
 from gtas.parent.views.parent import FlightDirectionCRUDView
 from gtas.parent.views.parent import NoteTypeCRUDView
 
+from gtas.parent.views.views import DashboardView
+
 app_name = 'parent'
 
 router = routers.DefaultRouter()
@@ -34,5 +36,7 @@ urlpatterns = [
     path('dwell_time', DwellTimeCRUDView.as_view(), name='dwell_time_crud'),
     path('error_detail', ErrorDetailCRUDView.as_view(), name='error_detail_crud'),
     path('flight_direction', FlightDirectionCRUDView.as_view(), name='flight_direction_crud'),
-    path('note_type', NoteTypeCRUDView.as_view(), name='note_type_crud')
+    path('note_type', NoteTypeCRUDView.as_view(), name='note_type_crud'),
+
+    path('', DashboardView.as_view(), name='dashboard')
 ]

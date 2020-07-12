@@ -83,6 +83,10 @@ class DataElementFormat:
             "8051M": "Transport Stage Qualifier",
             "8028C": "Means of Transport Journey Identifier",
             "C040:3127C": "Carrier Identifier",
+            # LOCSegment
+            # ===========
+            "3227M": "Location Function Code Qualifier",
+            "C517:3225M": "Location Name Code",
         }
 
         return switch.get(

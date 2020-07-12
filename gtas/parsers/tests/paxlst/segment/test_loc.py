@@ -11,10 +11,10 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
-    message = "LOC+125+YVR'"
-    setup.message = Message.from_str(message)
 
-    setup.expected = {
+    message1 = "LOC+125+YVR'"
+    setup.message1 = Message.from_str(message1)
+    setup.expected1 = {
         "segment": "LOC",
         "segment_description": "Place/Location Identification",
         "segment_function": "Flight Itinerary",
@@ -45,10 +45,63 @@ def setup():
         ],
     }
 
+    message2 = "LOC+180+USA+:::ANYCITY+:::ANYSTATE'"
+    setup.message2 = Message.from_str(message2)
+    setup.expected2 = {
+        "segment": "LOC",
+        "segment_description": "Place/Location Identification",
+        "segment_function": "Residence/Itinerary/Birth",
+        "group": "Segment Group 4",
+        "group_description": "Name and Address",
+        "group_usage": "C",
+        "level": 2,
+        "usage": "C",
+        "max_use": 5,
+        "purpose": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (debarkation) of a passenger and/or crew.",
+        "elements": [
+            {
+                "data_element_tag": "3227",
+                "segment_requirement": "M",
+                "data_element_type": "an",
+                "max_length": 3,
+                "data_value": "180",
+                "description": "Location Function Code Qualifier",
+            },
+            {
+                "data_element_tag": "C517:3225",
+                "segment_requirement": "M",
+                "data_element_type": "an",
+                "max_length": 3,
+                "data_value": "USA",
+                "description": "Location Name Code",
+            },
+            {
+                "data_element_tag": "C519:3222",
+                "segment_requirement": "C",
+                "data_element_type": "an",
+                "max_length": 70,
+                "data_value": "ANYCITY",
+                "description": "First Related Location Name",
+            },
+            {
+                "data_element_tag": "C553:3232",
+                "segment_requirement": "C",
+                "data_element_type": "an",
+                "max_length": 70,
+                "data_value": "ANYSTATE",
+                "description": "Second Related Location Name",
+            },
+        ],
+    }
+
     return setup
 
 
 class TestLOC:
-    def test_loc(self, setup):
-        parsed = LOC(setup.message).parse
-        assert parsed == setup.expected
+    def test_loc1(self, setup):
+        parsed = LOC(setup.message1, "Segment Group 3").parse
+        assert parsed == setup.expected1
+
+    def test_loc2(self, setup):
+        parsed = LOC(setup.message2, "Segment Group 4").parse
+        assert parsed == setup.expected2

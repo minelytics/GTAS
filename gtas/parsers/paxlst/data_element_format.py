@@ -115,6 +115,12 @@ class DataElementFormat:
             # ===========
             "4451M": "Text Subject Code Qualifier",
             "C108:4440M": "Text Literal",
+            # LOCSegment
+            # ===========
+            # "3227M": "Location Function Code Qualifier",
+            # "C517:3225M": "Location Name Code",
+            "C519:3222C": "First Related Location Name",
+            "C553:3232C": "Second Related Location Name",
         }
 
         return switch.get(

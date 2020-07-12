@@ -18,6 +18,7 @@ class BGM:
             return {
                 "segment": self.tag,
                 "segment_description": "Beginning of Message",
+                "segment_function": "Beginning of Message",
                 "group": None,
                 "group_description": None,
                 "group_usage": None,

@@ -19,6 +19,7 @@ class DTM:
             return {
                 "segment": self.tag,
                 "segment_description": "Date/Time/Period",
+                "segment_function": "Flight Leg Arrival/Departure",
                 "group": "Segment Group 3",
                 "group_description": "Place/Location Identification",
                 "group_usage": "C",

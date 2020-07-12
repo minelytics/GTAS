@@ -28,6 +28,7 @@ class UNG:
             return {
                 "segment": self.tag,
                 "segment_description": "Functional Group Header",
+                "segment_function": "Group Header",
                 "group": None,
                 "group_description": None,
                 "group_usage": None,

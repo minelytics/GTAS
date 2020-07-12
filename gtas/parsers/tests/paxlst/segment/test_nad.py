@@ -17,6 +17,7 @@ def setup():
     setup.expected = {
         "segment": "NAD",
         "segment_description": "Name and Address",
+        "segment_function": "Reporting Party",
         "group": "Segment Group 1",
         "group_description": "Name and Address",
         "group_usage": "C",

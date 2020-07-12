@@ -19,6 +19,7 @@ class RFF:
             return {
                 "segment": self.tag,
                 "segment_description": "Reference",
+                "segment_function": "Transaction Reference Number",
                 "group": None,
                 "group_description": None,
                 "group_usage": None,

@@ -17,6 +17,7 @@ def setup():
     setup.expected = {
         "segment": "BGM",
         "segment_description": "Beginning of Message",
+        "segment_function": "Beginning of Message",
         "group": None,
         "group_description": None,
         "group_usage": None,

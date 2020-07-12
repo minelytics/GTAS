@@ -17,6 +17,7 @@ def setup():
     setup.expected = {
         "segment": "TDT",
         "segment_description": "Transport Information",
+        "segment_function": "Flight Identification",
         "group": "Segment Group 2",
         "group_description": "Transport Information",
         "group_usage": "M",

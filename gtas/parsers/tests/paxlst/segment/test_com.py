@@ -17,6 +17,7 @@ def setup():
     setup.expected = {
         "segment": "COM",
         "segment_description": "Communication Contact",
+        "segment_function": "Reporting Party Contact Information",
         "group": "Segment Group 1",
         "group_description": "Name and Address",
         "group_usage": "C",

@@ -17,6 +17,7 @@ def setup():
     setup.expected = {
         "segment": "LOC",
         "segment_description": "Place/Location Identification",
+        "segment_function": "Flight Itinerary",
         "group": "Segment Group 3",
         "group_description": "Place/Location Identification",
         "group_usage": "C",

@@ -28,6 +28,7 @@ class UNH:
             return {
                 "segment": self.tag,
                 "segment_description": "Message Header",
+                "segment_function": "Message Header",
                 "group": None,
                 "group_description": None,
                 "group_usage": None,

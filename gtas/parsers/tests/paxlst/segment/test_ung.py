@@ -17,6 +17,7 @@ def setup():
     setup.expected = {
         "segment": "UNG",
         "segment_description": "Functional Group Header",
+        "segment_function": "Group Header",
         "group": None,
         "group_description": None,
         "group_usage": None,

@@ -17,6 +17,7 @@ def setup():
     setup.expected = {
         "segment": "UNB",
         "segment_description": "Interchange Header",
+        "segment_function": "Interchange Header",
         "group": None,
         "group_description": None,
         "group_usage": None,

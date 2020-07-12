@@ -103,6 +103,10 @@ class DataElementFormat:
             "C819:3229C": "Country Sub-entity Name Code",
             "3251C": "Postal Identification Code",
             "3207C": "Country Name Code",
+            # ATTSegment
+            # ===========
+            "9017M": "Attribute Function Code Qualifier",
+            "C956:9019M": "Attribute Description Code",
         }
 
         return switch.get(

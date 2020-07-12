@@ -107,6 +107,10 @@ class DataElementFormat:
             # ===========
             "9017M": "Attribute Function Code Qualifier",
             "C956:9019M": "Attribute Description Code",
+            # GEISegment
+            # ===========
+            "9649M": "Processing Information Code Qualifier",
+            "C012:7365M": "Processing Indicator Description Code",
         }
 
         return switch.get(

@@ -92,6 +92,17 @@ class DataElementFormat:
             "C507:2005M": "Date/Time/Period Function Code Qualifier",
             "C507:2380M": "Date/Time/Period Value",
             "C507:2379C": "Date/Time/Period Format Code",
+            # NADSegment
+            # ===========
+            # "3035M": "Party Function Code Qualifier",
+            "C080:3036C": "Party Name",  # last
+            # "C080:3036C": "Party Name", # first
+            # "C080:3036C": "Party Name", # second
+            "C059:3042C": "Number and Street Identifier",
+            "3164C": "City Name",
+            "C819:3229C": "Country Sub-entity Name Code",
+            "3251C": "Postal Identification Code",
+            "3207C": "Country Name Code",
         }
 
         return switch.get(

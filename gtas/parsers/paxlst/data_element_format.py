@@ -127,6 +127,10 @@ class DataElementFormat:
             "C948:9005M": "Employment Category Description Code",
             "C948:1131C": "Code List Identification Code",
             "C948:3055C": "Code List Responsible Agency Code",
+            # NATSegment
+            # ===========
+            "3493M": "Nationality Code Qualifier",
+            "C042:3293M": "Nationality Name Code",
         }
 
         return switch.get(

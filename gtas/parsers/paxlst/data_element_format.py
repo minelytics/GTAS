@@ -68,6 +68,10 @@ class DataElementFormat:
             "C506:1153": "Reference Code Qualifier",
             "C506:1154": "Reference Identifier",
             "C506:1060": "Revision Identifier",
+            # NADSegment
+            # ===========
+            "3035": "Party Function Code Qualifier",
+            "C080:3036": "Party Name",
         }
 
         return switch.get(

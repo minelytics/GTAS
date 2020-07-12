@@ -121,6 +121,12 @@ class DataElementFormat:
             # "C517:3225M": "Location Name Code",
             "C519:3222C": "First Related Location Name",
             "C553:3232C": "Second Related Location Name",
+            # EMPSegment
+            # ===========
+            "9003M": "Employment Details Qualifier Code",
+            "C948:9005M": "Employment Category Description Code",
+            "C948:1131C": "Code List Identification Code",
+            "C948:3055C": "Code List Responsible Agency Code",
         }
 
         return switch.get(

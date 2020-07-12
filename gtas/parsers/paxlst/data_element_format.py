@@ -111,6 +111,10 @@ class DataElementFormat:
             # ===========
             "9649M": "Processing Information Code Qualifier",
             "C012:7365M": "Processing Indicator Description Code",
+            # FTXSegment
+            # ===========
+            "4451M": "Text Subject Code Qualifier",
+            "C108:4440M": "Text Literal",
         }
 
         return switch.get(

@@ -59,6 +59,10 @@ class DataElementFormat:
             "0068": "Common Access Reference",
             "S010:0070": "Sequence Message Transfer Number",
             "S010:0073": "First/Last Message Transfer Indicator",
+            # BGMSegment
+            # ===========
+            "C002:1001": "Document Name Code",
+            "C106:1004": "Document Identifier",
         }
 
         return switch.get(

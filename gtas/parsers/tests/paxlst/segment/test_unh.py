@@ -96,7 +96,7 @@ def setup():
     return setup
 
 
-class TestUNG:
-    def test_ung(self, setup):
+class TestUNH:
+    def test_unh(self, setup):
         parsed = UNH("header", setup.message).parse
         assert parsed == setup.expected

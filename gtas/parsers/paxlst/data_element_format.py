@@ -63,6 +63,11 @@ class DataElementFormat:
             # ===========
             "C002:1001": "Document Name Code",
             "C106:1004": "Document Identifier",
+            # RFFSegment
+            # ===========
+            "C506:1153": "Reference Code Qualifier",
+            "C506:1154": "Reference Identifier",
+            "C506:1060": "Revision Identifier",
         }
 
         return switch.get(

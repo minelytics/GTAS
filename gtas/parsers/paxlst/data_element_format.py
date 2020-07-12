@@ -78,6 +78,11 @@ class DataElementFormat:
             "C076:3155M": "Communication Address Code Qualifier",
             "C076:3148C": "Communication Address Identifier",
             "C076:3155C": "Communication Address Code Qualifier",
+            # TDTSegment
+            # ===========
+            "8051M": "Transport Stage Qualifier",
+            "8028C": "Means of Transport Journey Identifier",
+            "C040:3127C": "Carrier Identifier",
         }
 
         return switch.get(

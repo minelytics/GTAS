@@ -30,6 +30,7 @@ class UNH:
                 "segment_description": "Message Header",
                 "group": None,
                 "group_description": None,
+                "group_usage": None,
                 "level": 0,
                 "usage": "Mandatory",
                 "max_use": 1,

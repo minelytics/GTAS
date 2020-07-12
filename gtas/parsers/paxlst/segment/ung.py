@@ -30,6 +30,7 @@ class UNG:
                 "segment_description": "Functional Group Header",
                 "group": None,
                 "group_description": None,
+                "group_usage": None,
                 "level": 0,
                 "usage": "Conditional",
                 "max_use": 1,

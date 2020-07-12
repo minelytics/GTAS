@@ -29,3 +29,23 @@ class DTM:
                 "purpose": "A segment to specify associated dates and/or times as required related to locations.",
                 "elements": DataElementFormat(y).process,
             }
+
+        elif ElementsStructure(self.elements).struct == "list(list(str,str))":
+            y = [
+                ["C507:2005M", "an3", self.elements[0][0]],
+                ["C507:2380M", "n6", self.elements[0][1]],
+            ]
+
+            return {
+                "segment": self.tag,
+                "segment_description": "Date/Time/Period",
+                "segment_function": "Traveler Date of Birth",
+                "group": "Segment Group 4",
+                "group_description": "Name and Address",
+                "group_usage": "C",
+                "level": 2,
+                "usage": "C",
+                "max_use": 1,
+                "purpose": "A segment to specify date of birth.",
+                "elements": DataElementFormat(y).process,
+            }

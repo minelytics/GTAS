@@ -11,10 +11,10 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
-    message = "DTM+189:0704291230:201'"
-    setup.message = Message.from_str(message)
 
-    setup.expected = {
+    message1 = "DTM+189:0704291230:201'"
+    setup.message1 = Message.from_str(message1)
+    setup.expected1 = {
         "segment": "DTM",
         "segment_description": "Date/Time/Period",
         "segment_function": "Flight Leg Arrival/Departure",
@@ -53,10 +53,47 @@ def setup():
         ],
     }
 
+    message2 = "DTM+329:570121'"
+    setup.message2 = Message.from_str(message2)
+    setup.expected2 = {
+        "segment": "DTM",
+        "segment_description": "Date/Time/Period",
+        "segment_function": "Traveler Date of Birth",
+        "group": "Segment Group 4",
+        "group_description": "Name and Address",
+        "group_usage": "C",
+        "level": 2,
+        "usage": "C",
+        "max_use": 1,
+        "purpose": "A segment to specify date of birth.",
+        "elements": [
+            {
+                "data_element_tag": "C507:2005",
+                "segment_requirement": "M",
+                "data_element_type": "an",
+                "max_length": 3,
+                "data_value": "329",
+                "description": "Date/Time/Period Function Code Qualifier",
+            },
+            {
+                "data_element_tag": "C507:2380",
+                "segment_requirement": "M",
+                "data_element_type": "n",
+                "max_length": 6,
+                "data_value": "570121",
+                "description": "Date/Time/Period Value",
+            },
+        ],
+    }
+
     return setup
 
 
 class TestDTM:
-    def test_dtm(self, setup):
-        parsed = DTM(setup.message).parse
-        assert parsed == setup.expected
+    def test_dtm1(self, setup):
+        parsed = DTM(setup.message1).parse
+        assert parsed == setup.expected1
+
+    def test_dtm2(self, setup):
+        parsed = DTM(setup.message2).parse
+        assert parsed == setup.expected2

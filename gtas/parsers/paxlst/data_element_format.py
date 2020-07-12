@@ -48,6 +48,17 @@ class DataElementFormat:
             "0051": "Controlling Agency",
             "S008:0052": "Message Version Number",
             "S008:0054": "Message Release Number",
+            # UNHSegment
+            # ===========
+            "0062": "Message Reference Number",
+            "S009:0065": "Message Type Identifier",
+            "S009:0052": "Message Type Version",
+            "S009:0054": "Message Type Release Number",
+            "S009:0051": "Controlling Agency",
+            "S009:0057": "Association Assigned Code",
+            "0068": "Common Access Reference",
+            "S010:0070": "Sequence Message Transfer Number",
+            "S010:0073": "First/Last Message Transfer Indicator",
         }
 
         return switch.get(

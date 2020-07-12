@@ -35,3 +35,25 @@ class COM:
                     "purpose": "A segment to identify communication numbers of departments or persons to whom communication should be directed (e.g., telephone, fax number).",
                     "elements": DataElementFormat(y).process,
                 }
+
+            elif self.group == "Segment Group 4":
+                y = [
+                    ["C076:3148M", "an20", self.elements[0][0]],
+                    ["C076:3155M", "an3", self.elements[0][1]],
+                    ["C076:3148C", "an20", self.elements[1][0]],
+                    ["C076:3155C", "an3", self.elements[1][1]],
+                ]
+
+                return {
+                    "segment": "COM",
+                    "segment_description": "Communication Contact",
+                    "segment_function": "Traveler Contact Information",
+                    "group": self.group,
+                    "group_description": "Name and Address",
+                    "group_usage": "C",
+                    "level": 2,
+                    "usage": "C",
+                    "max_use": 1,
+                    "purpose": "A segment to identify communication numbers of departments or persons to whom communication should be directed (e.g., telephone, fax number).",
+                    "elements": DataElementFormat(y).process,
+                }

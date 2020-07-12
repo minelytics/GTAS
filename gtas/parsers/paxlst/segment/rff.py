@@ -31,3 +31,24 @@ class RFF:
                     "purpose": "A segment to to specify message reference.",
                     "elements": DataElementFormat(y).process,
                 }
+
+        elif ElementsStructure(self.elements).struct == "list(list(str,str))":
+            if self.group == "Segment Group 4":
+                y = [
+                    ["C506:1153M", "an3", self.elements[0][0]],
+                    ["C506:1154M", "an25", self.elements[0][1]],
+                ]
+
+                return {
+                    "segment": self.tag,
+                    "segment_description": "Reference",
+                    "segment_function": "Traveler Identification",
+                    "group": self.group,
+                    "group_description": "Name and Address",
+                    "group_usage": "C",
+                    "level": 2,
+                    "usage": "C",
+                    "max_use": 9,
+                    "purpose": "A segment specifying the number assigned by an Aircraft Operator that identifies a passenger's reservation.",
+                    "elements": DataElementFormat(y).process,
+                }

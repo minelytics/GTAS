@@ -16,7 +16,7 @@ class DataElementFormat:
                     "data_element_type": " ".join(re.findall("[a-zA-Z]+", element[1])),
                     "max_length": list(map(int, re.findall(r"\d+", element[1])))[0],
                     "data_value": element[2],
-                    "description": self.description(element[0][:-1]),
+                    "description": self.description(element[0]),
                 }
             )
 
@@ -27,57 +27,57 @@ class DataElementFormat:
         switch = {
             # UNBSegment
             # ===========
-            "S001:0001": "Syntax Identifier",
-            "S001:0002": "Syntax Version Number",
-            "S002:0004": "Interchange Sender Identification",
-            "S002:0007": "Identification Code Qualifier",
-            "S003:0010": "Interchange Recipient Identification",
-            "S003:0007": "Identification Code Qualifier",
-            "S004:0017": "Date",
-            "S004:0019": "Time",
-            "0020": "Interchange Control Reference",
-            "0026": "Application Reference",
+            "S001:0001M": "Syntax Identifier",
+            "S001:0002M": "Syntax Version Number",
+            "S002:0004M": "Interchange Sender Identification",
+            "S002:0007C": "Identification Code Qualifier",
+            "S003:0010M": "Interchange Recipient Identification",
+            "S003:0007C": "Identification Code Qualifier",
+            "S004:0017M": "Date",
+            "S004:0019M": "Time",
+            "0020M": "Interchange Control Reference",
+            "0026M": "Application Reference",
             # UNGSegment
             # ===========
-            "0038": "Message Group Identification",
-            "S006:0040": "Application Sender Identifier",
-            "S007:0044": "Application Recipient Identification",
-            # "S004:0017": "Date",
-            # "S004:0019": "Time",
-            "0048": "Group Reference Number",
-            "0051": "Controlling Agency",
-            "S008:0052": "Message Version Number",
-            "S008:0054": "Message Release Number",
+            "0038M": "Message Group Identification",
+            "S006:0040M": "Application Sender Identifier",
+            "S007:0044M": "Application Recipient Identification",
+            # "S004:0017M": "Date",
+            # "S004:0019M": "Time",
+            "0048M": "Group Reference Number",
+            "0051M": "Controlling Agency",
+            "S008:0052M": "Message Version Number",
+            "S008:0054M": "Message Release Number",
             # UNHSegment
             # ===========
-            "0062": "Message Reference Number",
-            "S009:0065": "Message Type Identifier",
-            "S009:0052": "Message Type Version",
-            "S009:0054": "Message Type Release Number",
-            "S009:0051": "Controlling Agency",
-            "S009:0057": "Association Assigned Code",
-            "0068": "Common Access Reference",
-            "S010:0070": "Sequence Message Transfer Number",
-            "S010:0073": "First/Last Message Transfer Indicator",
+            "0062M": "Message Reference Number",
+            "S009:0065M": "Message Type Identifier",
+            "S009:0052M": "Message Type Version",
+            "S009:0054M": "Message Type Release Number",
+            "S009:0051M": "Controlling Agency",
+            "S009:0057C": "Association Assigned Code",
+            "0068C": "Common Access Reference",
+            "S010:0070C": "Sequence Message Transfer Number",
+            "S010:0073C": "First/Last Message Transfer Indicator",
             # BGMSegment
             # ===========
-            "C002:1001": "Document Name Code",
-            "C106:1004": "Document Identifier",
+            "C002:1001M": "Document Name Code",
+            "C106:1004C": "Document Identifier",
             # RFFSegment
             # ===========
-            "C506:1153": "Reference Code Qualifier",
-            "C506:1154": "Reference Identifier",
-            "C506:1060": "Revision Identifier",
+            "C506:1153M": "Reference Code Qualifier",
+            "C506:1154M": "Reference Identifier",
+            "C506:1060C": "Revision Identifier",
             # NADSegment
             # ===========
-            "3035": "Party Function Code Qualifier",
-            "C080:3036": "Party Name",
+            "3035M": "Party Function Code Qualifier",
+            "C080:3036M": "Party Name",
             # COMSegment
             # ===========
-            "C076:3148": "Communication Address Identifier",
-            "C076:3155": "Communication Address Code Qualifier",
-            # "C076:3148": "Communication Address Identifier",
-            # "C076:3155": "Communication Address Code Qualifier",
+            "C076:3148M": "Communication Address Identifier",
+            "C076:3155M": "Communication Address Code Qualifier",
+            "C076:3148C": "Communication Address Identifier",
+            "C076:3155C": "Communication Address Code Qualifier",
         }
 
         return switch.get(

@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "BGM+745+CP'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "BGM",
         "segment_description": "Beginning of Message",

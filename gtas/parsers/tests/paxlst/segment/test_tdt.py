@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "TDT+20+UA123+++UA'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "TDT",
         "segment_description": "Transport Information",
@@ -58,5 +58,5 @@ def setup():
 
 class TestTDT:
     def test_tdt(self, setup):
-        parsed = TDT(setup.message).parse
+        parsed = TDT(setup.message, "Segment Group 2").parse
         assert parsed == setup.expected

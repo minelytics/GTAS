@@ -94,6 +94,39 @@ def setup():
         ],
     }
 
+    message3 = "LOC+174+CAN'"
+    setup.message3 = Message.from_str(message3)
+    setup.expected3 = {
+        "segment": "LOC",
+        "segment_description": "Place/Location Identification",
+        "segment_function": "Residence/Itinerary/Birth",
+        "group": "Segment Group 4",
+        "group_description": "Name and Address",
+        "group_usage": "C",
+        "level": 2,
+        "usage": "C",
+        "max_use": 5,
+        "purpose": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (debarkation) of a passenger and/or crew.",
+        "elements": [
+            {
+                "data_element_tag": "3227",
+                "segment_requirement": "M",
+                "data_element_type": "an",
+                "max_length": 3,
+                "data_value": "174",
+                "description": "Location Function Code Qualifier",
+            },
+            {
+                "data_element_tag": "C517:3225",
+                "segment_requirement": "M",
+                "data_element_type": "an",
+                "max_length": 3,
+                "data_value": "CAN",
+                "description": "Location Name Code",
+            },
+        ],
+    }
+
     return setup
 
 
@@ -105,3 +138,7 @@ class TestLOC:
     def test_loc2(self, setup):
         parsed = LOC(setup.message2, "Segment Group 4").parse
         assert parsed == setup.expected2
+
+    def test_loc3(self, setup):
+        parsed = LOC(setup.message3, "Segment Group 4").parse
+        assert parsed == setup.expected3

@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "COM+703 555 1234:TE+703 555 9876:FX'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "COM",
         "segment_description": "Communication Contact",
@@ -66,5 +66,5 @@ def setup():
 
 class TestCOM:
     def test_com(self, setup):
-        parsed = COM(setup.message).parse
+        parsed = COM(setup.message, "Segment Group 1").parse
         assert parsed == setup.expected

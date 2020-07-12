@@ -91,9 +91,9 @@ def setup():
 
 class TestDTM:
     def test_dtm1(self, setup):
-        parsed = DTM(setup.message1).parse
+        parsed = DTM(setup.message1, "Segment Group 3").parse
         assert parsed == setup.expected1
 
     def test_dtm2(self, setup):
-        parsed = DTM(setup.message2).parse
+        parsed = DTM(setup.message2, "Segment Group 4").parse
         assert parsed == setup.expected2

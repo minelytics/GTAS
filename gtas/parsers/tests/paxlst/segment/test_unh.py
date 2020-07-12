@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "UNH+PAX001+PAXLST:D:05B:UN:IATA+API01+01'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "UNH",
         "segment_description": "Message Header",

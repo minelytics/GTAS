@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "RFF+TN:BA123456789:::1'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "RFF",
         "segment_description": "Reference",

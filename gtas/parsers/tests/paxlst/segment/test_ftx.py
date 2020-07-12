@@ -91,9 +91,9 @@ def setup():
 
 class TestFTX:
     def test_ftx1(self, setup):
-        parsed = FTX(setup.message1).parse
+        parsed = FTX(setup.message1, "Segment Group 4").parse
         assert parsed == setup.expected1
 
     def test_ftx2(self, setup):
-        parsed = FTX(setup.message2).parse
+        parsed = FTX(setup.message2, "Segment Group 4").parse
         assert parsed == setup.expected2

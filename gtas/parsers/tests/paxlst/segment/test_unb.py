@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "UNB+UNOA:4+APIS*ABE+USADHS+070429:0900+000000001++USADHS'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "UNB",
         "segment_description": "Interchange Header",

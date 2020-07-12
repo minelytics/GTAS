@@ -3,7 +3,7 @@ from gtas.parsers.paxlst.elements_structure import ElementsStructure
 
 
 class LOC:
-    def __init__(self, collections, group=None):
+    def __init__(self, collections, group):
         self.tag = collections.segments[0].tag
         self.elements = collections.segments[0].elements
         self.group = group
@@ -33,7 +33,7 @@ class LOC:
 
             elif self.group == "Segment Group 4":
                 y = [
-                    ["3227M", "n3", self.elements[0]],
+                    ["3227M", "an3", self.elements[0]],
                     ["C517:3225M", "an3", self.elements[1]],
                 ]
 
@@ -55,23 +55,24 @@ class LOC:
             ElementsStructure(self.elements).struct
             == "list(str,str,list(str,str,str,str),list(str,str,str,str))"
         ):
-            y = [
-                ["3227M", "an3", self.elements[0]],
-                ["C517:3225M", "an3", self.elements[1]],
-                ["C519:3222C", "an70", self.elements[2][3]],
-                ["C553:3232C", "an70", self.elements[3][3]],
-            ]
+            if self.group == "Segment Group 4":
+                y = [
+                    ["3227M", "an3", self.elements[0]],
+                    ["C517:3225M", "an3", self.elements[1]],
+                    ["C519:3222C", "an70", self.elements[2][3]],
+                    ["C553:3232C", "an70", self.elements[3][3]],
+                ]
 
-            return {
-                "segment": self.tag,
-                "segment_description": "Place/Location Identification",
-                "segment_function": "Residence/Itinerary/Birth",
-                "group": self.group,
-                "group_description": "Name and Address",
-                "group_usage": "C",
-                "level": 2,
-                "usage": "C",
-                "max_use": 5,
-                "purpose": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (debarkation) of a passenger and/or crew.",
-                "elements": DataElementFormat(y).process,
-            }
+                return {
+                    "segment": self.tag,
+                    "segment_description": "Place/Location Identification",
+                    "segment_function": "Residence/Itinerary/Birth",
+                    "group": self.group,
+                    "group_description": "Name and Address",
+                    "group_usage": "C",
+                    "level": 2,
+                    "usage": "C",
+                    "max_use": 5,
+                    "purpose": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (debarkation) of a passenger and/or crew.",
+                    "elements": DataElementFormat(y).process,
+                }

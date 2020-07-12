@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "ATT+2++M'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "ATT",
         "segment_description": "Attribute",
@@ -50,5 +50,5 @@ def setup():
 
 class TestATT:
     def test_att(self, setup):
-        parsed = ATT(setup.message).parse
+        parsed = ATT(setup.message, "Segment Group 4").parse
         assert parsed == setup.expected

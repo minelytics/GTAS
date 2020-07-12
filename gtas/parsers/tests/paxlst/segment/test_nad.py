@@ -220,13 +220,13 @@ def setup():
 
 class TestNAD:
     def test_nad1(self, setup):
-        parsed = NAD(setup.message1).parse
+        parsed = NAD(setup.message1, "Segment Group 1").parse
         assert parsed == setup.expected1
 
     def test_nad2(self, setup):
-        parsed = NAD(setup.message2).parse
+        parsed = NAD(setup.message2, "Segment Group 4").parse
         assert parsed == setup.expected2
 
     def test_nad3(self, setup):
-        parsed = NAD(setup.message3).parse
+        parsed = NAD(setup.message3, "Segment Group 4").parse
         assert parsed == setup.expected3

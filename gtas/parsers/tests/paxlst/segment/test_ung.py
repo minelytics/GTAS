@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "UNG+PAXLST+XYZ AIRLINES+USADHS+070429:0900+100+UN+D:05B'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "UNG",
         "segment_description": "Functional Group Header",

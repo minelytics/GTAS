@@ -11,9 +11,9 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
+
     message = "GEI+4+ZZZ'"
     setup.message = Message.from_str(message)
-
     setup.expected = {
         "segment": "GEI",
         "segment_description": "Processing Information",
@@ -50,5 +50,5 @@ def setup():
 
 class TestGEI:
     def test_gei(self, setup):
-        parsed = GEI(setup.message).parse
+        parsed = GEI(setup.message, "Segment Group 4").parse
         assert parsed == setup.expected

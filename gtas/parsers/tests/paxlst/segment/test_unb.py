@@ -5,11 +5,6 @@ from gtas.parsers.paxlst.segment.unb import UNB
 
 
 class Setup:
-    """
-    Python 3 does not allow leading zeroes hence n values with leading zeroes have been kept as string
-    Reference: https://medium.com/techmacademy/leading-zeros-in-python-a-hidden-mystery-revealed-ee3e3065634d
-    """
-
     pass
 
 
@@ -76,7 +71,7 @@ def setup():
                 "segment_requirement": "M",
                 "data_element_type": "n",
                 "max_length": 6,
-                "data_value": "070429",  # Python 3 does not allow leading zeroes
+                "data_value": "070429",
                 "description": "Date",
             },
             {
@@ -84,7 +79,7 @@ def setup():
                 "segment_requirement": "M",
                 "data_element_type": "n",
                 "max_length": 4,
-                "data_value": "0900",  # Python 3 does not allow leading zeroes
+                "data_value": "0900",
                 "description": "Time",
             },
             {
@@ -92,7 +87,7 @@ def setup():
                 "segment_requirement": "M",
                 "data_element_type": "an",
                 "max_length": 14,
-                "data_value": "000000001",  # Python 3 does not allow leading zeroes
+                "data_value": "000000001",
                 "description": "Interchange Control Reference",
             },
             {

@@ -1,4 +1,5 @@
 from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.elements_structure import ElementsStructure
 
 
 class UNH:
@@ -9,7 +10,10 @@ class UNH:
 
     @property
     def parse(self):
-        if len(self.elements) == 4:
+        if (
+            ElementsStructure(self.elements).struct
+            == "list(str,list(str,str,str,str,str),str,str)"
+        ):
             y = [
                 ["0062M", "an14", self.elements[0]],
                 ["S009:0065M", "an6", self.elements[1][0]],

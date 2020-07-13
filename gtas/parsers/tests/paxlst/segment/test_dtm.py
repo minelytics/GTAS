@@ -86,6 +86,39 @@ def setup():
         ],
     }
 
+    message3 = "DTM+36:081021'"
+    setup.message3 = Message.from_str(message3)
+    setup.expected3 = {
+        "segment": "DTM",
+        "segment_description": "Date/Time/Period",
+        "segment_function": "Traveler Document Expiration",
+        "group": "Segment Group 5",
+        "group_description": "Document/Message Details",
+        "group_usage": "C",
+        "level": 3,
+        "usage": "C",
+        "max_use": 1,
+        "purpose": "A segment to specify associated dates/times related to documents.",
+        "elements": [
+            {
+                "data_element_tag": "C507:2005",
+                "segment_requirement": "M",
+                "data_element_type": "an",
+                "max_length": 3,
+                "data_value": "36",
+                "description": "Date/Time/Period Function Code Qualifier",
+            },
+            {
+                "data_element_tag": "C507:2380",
+                "segment_requirement": "M",
+                "data_element_type": "n",
+                "max_length": 6,
+                "data_value": "081021",
+                "description": "Date/Time/Period Value",
+            },
+        ],
+    }
+
     return setup
 
 
@@ -97,3 +130,7 @@ class TestDTM:
     def test_dtm2(self, setup):
         parsed = DTM(setup.message2, "Segment Group 4").parse
         assert parsed == setup.expected2
+
+    def test_dtm3(self, setup):
+        parsed = DTM(setup.message3, "Segment Group 5").parse
+        assert parsed == setup.expected3

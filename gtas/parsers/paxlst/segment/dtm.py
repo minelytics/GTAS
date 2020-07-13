@@ -52,3 +52,23 @@ class DTM:
                     "purpose": "A segment to specify date of birth.",
                     "elements": DataElementFormat(y).process,
                 }
+
+            elif self.group == "Segment Group 5":
+                y = [
+                    ["C507:2005M", "an3", self.elements[0][0]],
+                    ["C507:2380M", "n6", self.elements[0][1]],
+                ]
+
+                return {
+                    "segment": self.tag,
+                    "segment_description": "Date/Time/Period",
+                    "segment_function": "Traveler Document Expiration",
+                    "group": self.group,
+                    "group_description": "Document/Message Details",
+                    "group_usage": "C",
+                    "level": 3,
+                    "usage": "C",
+                    "max_use": 1,
+                    "purpose": "A segment to specify associated dates/times related to documents.",
+                    "elements": DataElementFormat(y).process,
+                }

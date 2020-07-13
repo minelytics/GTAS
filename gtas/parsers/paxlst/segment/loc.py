@@ -51,6 +51,26 @@ class LOC:
                     "elements": DataElementFormat(y).process,
                 }
 
+            elif self.group == "Segment Group 5":
+                y = [
+                    ["3227M", "an3", self.elements[0]],
+                    ["C517:3225M", "an3", self.elements[1]],
+                ]
+
+                return {
+                    "segment": self.tag,
+                    "segment_description": "Place/Location Identification",
+                    "segment_function": "Document Issuing Country",
+                    "group": self.group,
+                    "group_description": "Document/Message Details",
+                    "group_usage": "C",
+                    "level": 3,
+                    "usage": "C",
+                    "max_use": 1,
+                    "purpose": "A segment indicating the country that issued the document.",
+                    "elements": DataElementFormat(y).process,
+                }
+
         elif (
             ElementsStructure(self.elements).struct
             == "list(str,str,list(str,str,str,str),list(str,str,str,str))"

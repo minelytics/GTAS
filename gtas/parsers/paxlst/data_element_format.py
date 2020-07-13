@@ -145,6 +145,10 @@ class DataElementFormat:
             # ===========
             "0074M": "Number of segments in a Message",
             # "0062M": "Message Reference Number",
+            # UNESegment
+            # ===========
+            "0060M": "Group Control Count",
+            # "0048M": "Group Reference Number",
         }
 
         return switch.get(

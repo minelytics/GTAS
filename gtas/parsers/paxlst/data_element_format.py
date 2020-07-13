@@ -141,6 +141,10 @@ class DataElementFormat:
             # ===========
             "C270:6069M": "Control Total Type Code Qualifier",
             "C270:6066M": "Control Total Value",
+            # UNTSegment
+            # ===========
+            "0074M": "Number of segments in a Message",
+            # "0062M": "Message Reference Number",
         }
 
         return switch.get(

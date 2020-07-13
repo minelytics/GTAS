@@ -137,6 +137,10 @@ class DataElementFormat:
             "C002:1131C": "Code List Identification Code",
             "C002:3055C": "Code List Responsible Agency Code",
             "C503:1004M": "Document Identifier",
+            # CNTSegment
+            # ===========
+            "C270:6069M": "Control Total Type Code Qualifier",
+            "C270:6066M": "Control Total Value",
         }
 
         return switch.get(

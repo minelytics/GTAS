@@ -149,6 +149,10 @@ class DataElementFormat:
             # ===========
             "0060M": "Group Control Count",
             # "0048M": "Group Reference Number",
+            # UNZSegment
+            # ===========
+            "0036M": "Interchange Control Count",
+            # "0020M": "Interchange Control Reference",
         }
 
         return switch.get(

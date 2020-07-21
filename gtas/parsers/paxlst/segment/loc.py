@@ -1,5 +1,5 @@
 from gtas.parsers.paxlst.data_element_format import DataElementFormat
-from gtas.parsers.paxlst.elements_structure import ElementsStructure
+from gtas.parsers.paxlst.elements_structure import DataElementFormat
 
 
 class LOC:
@@ -10,7 +10,7 @@ class LOC:
 
     @property
     def parse(self):
-        if ElementsStructure(self.elements).struct == "list(str,str)":
+        if DataElementFormat(self.elements).struct == "list(str,str)":
             if self.group == "Segment Group 3":
                 y = [
                     ["3227M", "n3", self.elements[0]],
@@ -72,7 +72,7 @@ class LOC:
                 }
 
         elif (
-            ElementsStructure(self.elements).struct
+            DataElementFormat(self.elements).struct
             == "list(str,str,list(str,str,str,str),list(str,str,str,str))"
         ):
             if self.group == "Segment Group 4":

@@ -1,5 +1,5 @@
 from gtas.parsers.paxlst.data_element_format import DataElementFormat
-from gtas.parsers.paxlst.elements_structure import ElementsStructure
+from gtas.parsers.paxlst.elements_structure import DataElementFormat
 
 
 class DOC:
@@ -10,7 +10,7 @@ class DOC:
 
     @property
     def parse(self):
-        if ElementsStructure(self.elements).struct == "list(list(str,str,str),str)":
+        if DataElementFormat(self.elements).struct == "list(list(str,str,str),str)":
             if self.group == "Segment Group 5":
                 y = [
                     ["C002:1001M", "an3", self.elements[0][0]],

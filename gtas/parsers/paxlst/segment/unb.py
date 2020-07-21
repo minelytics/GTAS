@@ -1,5 +1,5 @@
 from gtas.parsers.paxlst.data_element_format import DataElementFormat
-from gtas.parsers.paxlst.elements_structure import ElementsStructure
+from gtas.parsers.paxlst.elements_structure import DataElementFormat
 
 
 class UNB:
@@ -11,7 +11,7 @@ class UNB:
     @property
     def parse(self):
         if (
-            ElementsStructure(self.elements).struct
+            DataElementFormat(self.elements).struct
             == "list(list(str,str),str,str,list(str,str),str,str,str)"
         ):
             if self.group is None:

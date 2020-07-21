@@ -1,5 +1,5 @@
 from gtas.parsers.paxlst.data_element_format import DataElementFormat
-from gtas.parsers.paxlst.elements_structure import ElementsStructure
+from gtas.parsers.paxlst.elements_structure import DataElementFormat
 
 
 class GEI:
@@ -10,7 +10,7 @@ class GEI:
 
     @property
     def parse(self):
-        if ElementsStructure(self.elements).struct == "list(str,str)":
+        if DataElementFormat(self.elements).struct == "list(str,str)":
             if self.group == "Segment Group 4":
                 y = [
                     ["9649M", "an3", self.elements[0]],

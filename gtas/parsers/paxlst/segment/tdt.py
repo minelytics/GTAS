@@ -1,5 +1,5 @@
 from gtas.parsers.paxlst.data_element_format import DataElementFormat
-from gtas.parsers.paxlst.elements_structure import ElementsStructure
+from gtas.parsers.paxlst.elements_structure import DataElementFormat
 
 
 class TDT:
@@ -10,7 +10,7 @@ class TDT:
 
     @property
     def parse(self):
-        if ElementsStructure(self.elements).struct == "list(str,str,str,str,str)":
+        if DataElementFormat(self.elements).struct == "list(str,str,str,str,str)":
             if self.group == "Segment Group 2":
                 y = [
                     ["8051M", "an3", self.elements[0]],

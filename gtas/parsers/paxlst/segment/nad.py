@@ -1,5 +1,5 @@
 from gtas.parsers.paxlst.data_element_format import DataElementFormat
-from gtas.parsers.paxlst.elements_structure import ElementsStructure
+from gtas.parsers.paxlst.elements_structure import DataElementFormat
 
 
 class NAD:
@@ -10,7 +10,7 @@ class NAD:
 
     @property
     def parse(self):
-        if ElementsStructure(self.elements).struct == "list(str,str,str,str)":
+        if DataElementFormat(self.elements).struct == "list(str,str,str,str)":
             if self.group == "Segment Group 1":
                 y = [
                     ["3035M", "an2", self.elements[0]],
@@ -32,7 +32,7 @@ class NAD:
                 }
 
         elif (
-            ElementsStructure(self.elements).struct
+            DataElementFormat(self.elements).struct
             == "list(str,str,str,list(str,str),str,str,str,str,str)"
         ):
             if self.group == "Segment Group 4":
@@ -62,7 +62,7 @@ class NAD:
                 }
 
         elif (
-            ElementsStructure(self.elements).struct
+            DataElementFormat(self.elements).struct
             == "list(str,str,str,list(str,str,str),str,str,str,str,str)"
         ):
             if self.group == "Segment Group 4":

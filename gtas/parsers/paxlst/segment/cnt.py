@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class CNT:
@@ -9,7 +9,7 @@ class CNT:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(list(str,str))":
+        if Element(self.elements).struct == "list(list(str,str))":
             if self.group is None:
                 y = [
                     ["C270:6069M", "an3", self.elements[0][0]],
@@ -27,5 +27,5 @@ class CNT:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment specifying control totals such as the total number of passengers/ crew members in the message.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

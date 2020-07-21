@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class UNZ:
@@ -9,7 +9,7 @@ class UNZ:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(str,str)":
+        if Element(self.elements).struct == "list(str,str)":
             if self.group is None:
                 y = [
                     ["0036M", "n6", self.elements[0]],
@@ -27,5 +27,5 @@ class UNZ:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "To end and check the completeness of an interchange.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

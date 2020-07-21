@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class UNT:
@@ -9,7 +9,7 @@ class UNT:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(str,str)":
+        if Element(self.elements).struct == "list(str,str)":
             if self.group is None:
                 y = [
                     ["0074M", "n6", self.elements[0]],
@@ -27,5 +27,5 @@ class UNT:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "A service segment ending a message, giving the total number of segments in the message (including the UNH & UNT) and the control reference number of the message.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

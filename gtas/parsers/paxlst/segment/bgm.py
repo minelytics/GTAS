@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class BGM:
@@ -9,7 +9,7 @@ class BGM:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(str,str)":
+        if Element(self.elements).struct == "list(str,str)":
             if self.group is None:
                 y = [
                     ["C002:1001M", "an3", self.elements[0]],
@@ -27,5 +27,5 @@ class BGM:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "A segment to indicate the type and function of the message.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

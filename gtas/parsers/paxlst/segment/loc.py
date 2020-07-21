@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class LOC:
@@ -9,7 +9,7 @@ class LOC:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(str,str)":
+        if Element(self.elements).struct == "list(str,str)":
             if self.group == "Segment Group 3":
                 y = [
                     ["3227M", "n3", self.elements[0]],
@@ -27,7 +27,7 @@ class LOC:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "A segment to specify locations such as place of departure, place of destination, country of ultimate destination, country and/or place of transit, country of transit termination, etc. of a passenger/crew.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
             elif self.group == "Segment Group 4":
@@ -47,7 +47,7 @@ class LOC:
                     "usage": "C",
                     "max_use": 5,
                     "purpose": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (debarkation) of a passenger and/or crew.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
             elif self.group == "Segment Group 5":
@@ -67,11 +67,11 @@ class LOC:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment indicating the country that issued the document.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
         elif (
-            DataElementFormat(self.elements).struct
+            Element(self.elements).struct
             == "list(str,str,list(str,str,str,str),list(str,str,str,str))"
         ):
             if self.group == "Segment Group 4":
@@ -93,5 +93,5 @@ class LOC:
                     "usage": "C",
                     "max_use": 5,
                     "purpose": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (debarkation) of a passenger and/or crew.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

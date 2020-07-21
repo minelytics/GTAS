@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class UNH:
@@ -10,7 +10,7 @@ class UNH:
     @property
     def parse(self):
         if (
-            DataElementFormat(self.elements).struct
+            Element(self.elements).struct
             == "list(str,list(str,str,str,str,str),str,str)"
         ):
             if self.group is None:
@@ -37,5 +37,5 @@ class UNH:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "A service segment starting and uniquely identifying a message. The message type code for the Passenger list message is PAXLST.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

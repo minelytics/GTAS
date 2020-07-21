@@ -1,7 +1,7 @@
 import re
 
 
-class DataElementFormat:
+class Element:
     def __init__(self, elements):
         self.elements = elements
 

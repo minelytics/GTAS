@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class UNG:
@@ -10,7 +10,7 @@ class UNG:
     @property
     def parse(self):
         if (
-            DataElementFormat(self.elements).struct
+            Element(self.elements).struct
             == "list(str,str,str,list(str,str),str,str,list(str,str))"
         ):
             if self.group is None:
@@ -37,5 +37,5 @@ class UNG:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "To begin a group of like transaction. Only one grouping of transactions will be allowed for this implementation.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

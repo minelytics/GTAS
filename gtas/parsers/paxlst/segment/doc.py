@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class DOC:
@@ -9,7 +9,7 @@ class DOC:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(list(str,str,str),str)":
+        if Element(self.elements).struct == "list(list(str,str,str),str)":
             if self.group == "Segment Group 5":
                 y = [
                     ["C002:1001M", "an3", self.elements[0][0]],
@@ -29,5 +29,5 @@ class DOC:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "A segment identifying passenger and/or crew travel documents, such as passports, visas etc.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

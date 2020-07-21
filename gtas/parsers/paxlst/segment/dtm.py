@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class DTM:
@@ -9,7 +9,7 @@ class DTM:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(list(str,str,str))":
+        if Element(self.elements).struct == "list(list(str,str,str))":
             if self.group == "Segment Group 3":
                 y = [
                     ["C507:2005M", "an3", self.elements[0][0]],
@@ -28,10 +28,10 @@ class DTM:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment to specify associated dates and/or times as required related to locations.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
-        elif DataElementFormat(self.elements).struct == "list(list(str,str))":
+        elif Element(self.elements).struct == "list(list(str,str))":
             if self.group == "Segment Group 4":
                 y = [
                     ["C507:2005M", "an3", self.elements[0][0]],
@@ -49,7 +49,7 @@ class DTM:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment to specify date of birth.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
             elif self.group == "Segment Group 5":
@@ -69,5 +69,5 @@ class DTM:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment to specify associated dates/times related to documents.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

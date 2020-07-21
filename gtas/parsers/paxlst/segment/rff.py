@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class RFF:
@@ -9,7 +9,7 @@ class RFF:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(list(str,str,str,str,str))":
+        if Element(self.elements).struct == "list(list(str,str,str,str,str))":
             if self.group is None:
                 y = [
                     ["C506:1153M", "an3", self.elements[0][0]],
@@ -28,10 +28,10 @@ class RFF:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment to to specify message reference.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
-        elif DataElementFormat(self.elements).struct == "list(list(str,str))":
+        elif Element(self.elements).struct == "list(list(str,str))":
             if self.group == "Segment Group 4":
                 y = [
                     ["C506:1153M", "an3", self.elements[0][0]],
@@ -49,5 +49,5 @@ class RFF:
                     "usage": "C",
                     "max_use": 9,
                     "purpose": "A segment specifying the number assigned by an Aircraft Operator that identifies a passenger's reservation.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

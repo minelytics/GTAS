@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class FTX:
@@ -9,7 +9,7 @@ class FTX:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(str,str,str,list(str,str))":
+        if Element(self.elements).struct == "list(str,str,str,list(str,str))":
             if self.group == "Segment Group 4":
                 y = [
                     ["4451M", "an3", self.elements[0]],
@@ -28,10 +28,10 @@ class FTX:
                     "usage": "C",
                     "max_use": 99,
                     "purpose": "A segment to provide explanation and/or supplementary information related to the specified application error.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
-        elif DataElementFormat(self.elements).struct == "list(str,str,str,str)":
+        elif Element(self.elements).struct == "list(str,str,str,str)":
             if self.group == "Segment Group 4":
                 y = [
                     ["4451M", "an3", self.elements[0]],
@@ -49,5 +49,5 @@ class FTX:
                     "usage": "C",
                     "max_use": 99,
                     "purpose": "A segment to provide explanation and/or supplementary information related to the specified application error.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

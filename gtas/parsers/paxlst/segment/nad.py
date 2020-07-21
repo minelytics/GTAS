@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class NAD:
@@ -9,7 +9,7 @@ class NAD:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(str,str,str,str)":
+        if Element(self.elements).struct == "list(str,str,str,str)":
             if self.group == "Segment Group 1":
                 y = [
                     ["3035M", "an2", self.elements[0]],
@@ -27,11 +27,11 @@ class NAD:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "A segment to identify the name, address and related function.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
         elif (
-            DataElementFormat(self.elements).struct
+            Element(self.elements).struct
             == "list(str,str,str,list(str,str),str,str,str,str,str)"
         ):
             if self.group == "Segment Group 4":
@@ -57,11 +57,11 @@ class NAD:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "A segment specifying name of the passenger or crew member.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
         elif (
-            DataElementFormat(self.elements).struct
+            Element(self.elements).struct
             == "list(str,str,str,list(str,str,str),str,str,str,str,str)"
         ):
             if self.group == "Segment Group 4":
@@ -88,5 +88,5 @@ class NAD:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "A segment specifying name of the passenger or crew member.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

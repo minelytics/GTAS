@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class EMP:
@@ -9,7 +9,7 @@ class EMP:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(str,list(str,str,str))":
+        if Element(self.elements).struct == "list(str,list(str,str,str))":
             if self.group == "Segment Group 4":
                 y = [
                     ["9003M", "an1", self.elements[0]],
@@ -29,5 +29,5 @@ class EMP:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment to indicate the occupation of a passenger or the rank of crew.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

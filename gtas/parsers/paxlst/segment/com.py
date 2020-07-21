@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class COM:
@@ -10,7 +10,7 @@ class COM:
     @property
     def parse(self):
         if (
-            DataElementFormat(self.elements).struct
+            Element(self.elements).struct
             == "list(list(str,str),list(str,str))"
         ):
             if self.group == "Segment Group 1":
@@ -32,7 +32,7 @@ class COM:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment to identify communication numbers of departments or persons to whom communication should be directed (e.g., telephone, fax number).",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }
 
             elif self.group == "Segment Group 4":
@@ -54,5 +54,5 @@ class COM:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment to identify communication numbers of departments or persons to whom communication should be directed (e.g., telephone, fax number).",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

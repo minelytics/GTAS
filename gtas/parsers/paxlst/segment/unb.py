@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class UNB:
@@ -10,7 +10,7 @@ class UNB:
     @property
     def parse(self):
         if (
-            DataElementFormat(self.elements).struct
+            Element(self.elements).struct
             == "list(list(str,str),str,str,list(str,str),str,str,str)"
         ):
             if self.group is None:
@@ -38,5 +38,5 @@ class UNB:
                     "usage": "M",
                     "max_use": 1,
                     "purpose": "To start, identify and specify an interchange",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

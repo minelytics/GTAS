@@ -1,4 +1,4 @@
-from gtas.parsers.paxlst.data_element_format import DataElementFormat
+from gtas.parsers.paxlst.element import Element
 
 
 class NAT:
@@ -9,7 +9,7 @@ class NAT:
 
     @property
     def parse(self):
-        if DataElementFormat(self.elements).struct == "list(str,str)":
+        if Element(self.elements).struct == "list(str,str)":
             if self.group == "Segment Group 4":
                 y = [
                     ["3493M", "an1", self.elements[0]],
@@ -27,5 +27,5 @@ class NAT:
                     "usage": "C",
                     "max_use": 1,
                     "purpose": "A segment to indicate the nationality of a passenger and/or crew.",
-                    "elements": DataElementFormat(y).process,
+                    "elements": Element(y).process,
                 }

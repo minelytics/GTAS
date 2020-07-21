@@ -87,7 +87,7 @@ def setup():
         "segment": "DTM",
         "segment_description": "Date/Time/Period",
         "group": "Segment Group 5",
-        "segment_function": "Flight Leg Arrival/Departure",
+        "segment_function": "Traveler Document Expiration",
         "group_description": "Document/Message Details",
         "group_usage": "C",
         "level": 3,

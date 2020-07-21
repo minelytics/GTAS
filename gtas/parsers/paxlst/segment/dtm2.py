@@ -67,7 +67,7 @@ class DTM:
                 "elements": [],
             },
             "Segment Group 5": {
-                "segment_function": "Flight Leg Arrival/Departure",
+                "segment_function": "Traveler Document Expiration",
                 "group_description": "Document/Message Details",
                 "group_usage": "C",
                 "level": 3,

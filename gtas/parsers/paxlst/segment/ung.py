@@ -1,5 +1,4 @@
 from gtas.parsers.paxlst.data_element_format import DataElementFormat
-from gtas.parsers.paxlst.elements_structure import DataElementFormat
 
 
 class UNG:

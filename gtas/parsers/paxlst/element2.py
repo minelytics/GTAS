@@ -14,6 +14,61 @@ class Element:
             structure.append(")")
         return "".join(structure).replace(",)", ")")
 
+    def definition(
+        self, data_element=None, component_element=None, attributes=None, data=None
+    ):
+        if data_element is None:
+            description = self.description(component_element)
+        else:
+            description = self.description(":".join([data_element, component_element]))
+
+        return {
+            "data_element": data_element,
+            "component_element": component_element,
+            "attributes": attributes,
+            "data": data,
+            "description": description,
+        }
+
+    def segment_group(self, segment, group=None):
+        switch = {
+            "DTM": {
+                "Segment Group 3": {
+                    "segment_function": "Flight Leg Arrival/Departure",
+                    "group_description": "Place/Location Identification",
+                    "group_usage": "C",
+                    "level": 3,
+                    "usage": "C",
+                    "max_use": 1,
+                    "purpose": "A segment to specify associated dates and/or times as required related to locations.",
+                    "elements": [],
+                },
+                "Segment Group 4": {
+                    "segment_function": "Traveler Date of Birth",
+                    "group_description": "Name and Address",
+                    "group_usage": "C",
+                    "level": 2,
+                    "usage": "C",
+                    "max_use": 1,
+                    "purpose": "A segment to specify date of birth.",
+                    "elements": [],
+                },
+                "Segment Group 5": {
+                    "segment_function": "Traveler Document Expiration",
+                    "group_description": "Document/Message Details",
+                    "group_usage": "C",
+                    "level": 3,
+                    "usage": "C",
+                    "max_use": 1,
+                    "purpose": "A segment to specify associated dates/times related to documents.",
+                    "elements": [],
+                },
+            }
+        }
+        return switch.get(segment, "Incorrect Segment: {}".format(segment)).get(
+            group, "Incorrect Segment Group: {}".format(group)
+        )
+
     def description(self, val):
         switch = {
             # UNBSegment

@@ -1,6 +1,20 @@
-class Description:
+class Definition:
     @staticmethod
-    def get(val):
+    def get(data_element=None, component_element=None, attributes=None, data=None):
+        if data_element is None:
+            description = Definition.description(component_element)
+        else:
+            description = Definition.description(":".join([data_element, component_element]))
+
+        return {
+            "data_element": data_element,
+            "component_element": component_element,
+            "attributes": attributes,
+            "data": data,
+            "description": description,
+        }
+
+    def description(val):
         switch = {
             # UNBSegment
             # ===========

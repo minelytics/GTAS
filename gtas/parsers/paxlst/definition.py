@@ -4,7 +4,9 @@ class Definition:
         if data_element is None:
             description = Definition.description(component_element)
         else:
-            description = Definition.description(":".join([data_element, component_element]))
+            description = Definition.description(
+                ":".join([data_element, component_element])
+            )
 
         return {
             "data_element": data_element,
@@ -14,6 +16,7 @@ class Definition:
             "description": description,
         }
 
+    @staticmethod
     def description(val):
         switch = {
             # UNBSegment

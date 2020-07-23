@@ -14,6 +14,3 @@ class Element:
                     structure.append(type(element).__name__ + ",")
             structure.append(")")
         return "".join(structure).replace(",)", ")")
-
-   
-    

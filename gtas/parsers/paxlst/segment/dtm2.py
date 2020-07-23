@@ -5,7 +5,7 @@ from gtas.parsers.paxlst.group import Group
 
 class DTM:
     @staticmethod
-    def parse(self, message, group=None):
+    def parse(message, group=None):
         elements = message.segments[0].elements
 
         output = {
@@ -32,7 +32,9 @@ class DTM:
             )
         )
 
-        if Element.struct(elements) == "list(list(str,str,str))":
+        if Element.struct(elements) == "list(list(str,str))":
+            pass
+        elif Element.struct(elements) == "list(list(str,str,str))":
             output["elements"].append(
                 Definition.get(
                     data_element="C507",
@@ -41,5 +43,9 @@ class DTM:
                     data=elements[0][2],
                 )
             )
+        else:
+            output[
+                "elements"
+            ] = "ERROR: The structure for this elements list is not available"
 
         return output

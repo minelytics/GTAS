@@ -1,4 +1,4 @@
-class Group:    
+class Group:
     @staticmethod
     def get(segment, group):
         switch = {

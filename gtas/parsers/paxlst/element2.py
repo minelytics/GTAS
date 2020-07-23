@@ -14,20 +14,5 @@ class Element:
             structure.append(")")
         return "".join(structure).replace(",)", ")")
 
-    def definition(
-        self, data_element=None, component_element=None, attributes=None, data=None
-    ):
-        if data_element is None:
-            description = self.description(component_element)
-        else:
-            description = self.description(":".join([data_element, component_element]))
-
-        return {
-            "data_element": data_element,
-            "component_element": component_element,
-            "attributes": attributes,
-            "data": data,
-            "description": description,
-        }
-
+   
     

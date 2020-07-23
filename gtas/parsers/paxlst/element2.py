@@ -1,5 +1,6 @@
 class Element:
-    def struct(self, elements):
+    @staticmethid
+    def struct(elements):
         structure = []
         if isinstance(elements, list):
             structure.append(type(elements).__name__ + "(")

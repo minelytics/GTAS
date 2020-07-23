@@ -4,9 +4,9 @@ from gtas.parsers.paxlst.group import Group
 
 
 class DTM:
+    @staticmethod
     def parse(self, message, group=None):
         elements = message.segments[0].elements
-        e = Element()
 
         output = {
             "segment": "DTM",
@@ -32,7 +32,7 @@ class DTM:
             )
         )
 
-        if e.struct(elements) == "list(list(str,str,str))":
+        if Element.struct(elements) == "list(list(str,str,str))":
             output["elements"].append(
                 Definition.get(
                     data_element="C507",

@@ -1,5 +1,5 @@
 class Element:
-    @staticmethid
+    @staticmethod
     def struct(elements):
         structure = []
         if isinstance(elements, list):

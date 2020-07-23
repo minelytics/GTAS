@@ -11,7 +11,6 @@ class Setup:
 @pytest.fixture
 def setup():
     setup = Setup()
-    setup.dtm = DTM()
 
     message1 = "DTM+189:0704291230:201'"
     setup.message1 = Message.from_str(message1)
@@ -118,13 +117,13 @@ def setup():
 
 class TestDTM:
     def test_dtm1(self, setup):
-        parsed = setup.dtm.parse(setup.message1, "Segment Group 3")
+        parsed = DTM.parse(setup.message1, "Segment Group 3")
         assert parsed == setup.expected1
 
     def test_dtm2(self, setup):
-        parsed = setup.dtm.parse(setup.message2, "Segment Group 4")
+        parsed = DTM.parse(setup.message2, "Segment Group 4")
         assert parsed == setup.expected2
 
     def test_dtm3(self, setup):
-        parsed = setup.dtm.parse(setup.message3, "Segment Group 5")
+        parsed = DTM.parse(setup.message3, "Segment Group 5")
         assert parsed == setup.expected3

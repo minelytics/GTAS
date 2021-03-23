@@ -1,0 +1,46 @@
+{
+    "AA": {
+        "name": "Debit advice",
+        "desc": "Receiver of the payment message needs to return a debit advice in response to the payment message."
+    },
+    "AB": {
+        "name": "Message acknowledgement",
+        "desc": "Indicates that an acknowledge relating to receipt is required."
+    },
+    "AC": {
+        "name": "Acknowledge - with detail and change",
+        "desc": "Acknowledge complete including changes."
+    },
+    "AD": {
+        "name": "Acknowledge - with detail, no change",
+        "desc": "Acknowledge complete without changes."
+    },
+    "AF": {
+        "name": "Debit advice/message acknowledgement",
+        "desc": "The sender wishes to receive both a Debit Advice and an acknowledgement of receipt for a payment message."
+    },
+    "AG": {
+        "name": "Authentication",
+        "desc": "Authentication, by a party, of a document established for him by another party."
+    },
+    "AP": {
+        "name": "Accepted",
+        "desc": "Indication that the referenced offer or transaction (e.g., cargo booking or quotation request) has been accepted."
+    },
+    "CA": {
+        "name": "Conditionally accepted",
+        "desc": "Indication that the referenced offer or transaction (e.g., cargo booking or quotation request) has been accepted under conditions indicated in this message."
+    },
+    "CO": {
+        "name": "Confirmation of measurements",
+        "desc": "Indication that the message contains the physical measurements on which the charges will be based."
+    },
+    "NA": {
+        "name": "No acknowledgment needed",
+        "desc": "Self explanatory."
+    },
+    "RE": {
+        "name": "Rejected",
+        "desc": "Indication that the referenced offer or transaction (e.g., cargo booking or quotation request) is not accepted."
+    }
+}

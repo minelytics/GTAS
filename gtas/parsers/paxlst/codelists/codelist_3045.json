@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "Message content accepted",
+        "desc": " Name components in sequence as defined in description: Name component 1: Family name. Name component 2: Given name or initials. Name component 3: Given name or initials. Name component 4: Maiden name. Name component 5: Title Group of name components transmitted in sequence with name component 1 transmitted first. The maiden name is the family name given at birth of a female. Other names are self-explanatory."
+    },
+    "2": {
+        "name": "Message content rejected with comment",
+        "desc": " Name component sequence 2, sequence as defined in description: Name component 1: paternal name; name component 2: maternal name; name component 3: given name or initial(s); name component 4: middle name or initial(s); name component 5: name suffix."
+    },
+    "3": {
+        "name": "Message content rejected without comment",
+        "desc": "Name components in the sequence as defined in definition: Name component 1: Qualification Name component 2: First part of the name Name component 3: Second part of the name."
+    }
+}

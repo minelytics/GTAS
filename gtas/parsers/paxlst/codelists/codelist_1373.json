@@ -1,0 +1,82 @@
+{
+    "1": {
+        "name": "Accepted",
+        "desc": "Self explanatory."
+    },
+    "2": {
+        "name": "Accompanying goods",
+        "desc": "Notice that a specific document will be accompanying the goods."
+    },
+    "3": {
+        "name": "Conditionally accepted",
+        "desc": "Self explanatory."
+    },
+    "4": {
+        "name": "To arrive by separate EDI message",
+        "desc": "Notice that a specific document/message will be transmitted via a separate EDI message."
+    },
+    "5": {
+        "name": "Information only",
+        "desc": "Notice that the specific document or message is for information only."
+    },
+    "6": {
+        "name": "To arrive by manual means",
+        "desc": "Notice that a specific document or message will not be sent via EDI."
+    },
+    "7": {
+        "name": "To be raised and sent",
+        "desc": "Request for a specific message to be formatted and transmitted or a request for a specific document to be raised and sent."
+    },
+    "8": {
+        "name": "Rejected",
+        "desc": "Self explanatory."
+    },
+    "9": {
+        "name": "To be printed",
+        "desc": "The document or message is to be printed."
+    },
+    "11": {
+        "name": "Document not available",
+        "desc": "Specified document is not available."
+    },
+    "12": {
+        "name": "Document exhausted by declaration and attached",
+        "desc": "Customs declaration to which the document is related completed or exhaust the allowance stated on the document. The document is attached to the Customs declaration."
+    },
+    "13": {
+        "name": "Document not exhausted by declaration and attached",
+        "desc": "Customs declaration to which the document is related does not complete or exhaust the allowance stated on the document . The document is not attached to the declaration but has already been lodged in the Customs station."
+    },
+    "14": {
+        "name": "Document exhausted by declaration and previously lodged",
+        "desc": "Customs declaration to which the document is related completed or exhaust the allowance stated on the document. The usage of the document is complete. The document is not attached to the declaration but has already been lodged in the Customs station."
+    },
+    "15": {
+        "name": "Document not exhausted by declaration and previously lodged",
+        "desc": "Customs declaration to which the document is related does not complete or exhaust the allowance stated on the document. The document can continue to be used for future declarations until the allowance is exhausted. The document is not attached to the declaration but has already been lodged in the Customs station."
+    },
+    "16": {
+        "name": "Document not attached",
+        "desc": "Specified document is not or cannot be attached."
+    },
+    "17": {
+        "name": "Document with the goods",
+        "desc": "Document not attached to the Customs declaration but is attached to the goods."
+    },
+    "18": {
+        "name": "Document attached, to be returned after endorsement",
+        "desc": "Specified document is attached to the Customs declaration and will be required to be returned to the declarant after Customs endorsement."
+    },
+    "19": {
+        "name": "Document applied for",
+        "desc": "Application has been submitted for that document."
+    },
+    "20": {
+        "name": "Received for shipment",
+        "desc": "Indicates that the document has legal validity from the date of receival of the cargo."
+    },
+    "21": {
+        "name": "Shipped on board",
+        "desc": "Indicates that the document has legal validity from the date that cargo is loaded on board a vessel."
+    }
+}

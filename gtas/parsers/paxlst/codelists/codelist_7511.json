@@ -1,0 +1,6 @@
+{
+    "1": {
+        "name": "Not marked with an EAN.UCC system code",
+        "desc": "Indication that the package is not marked with an EAN.UCC (International Article Numbering.Uniform Code Council) system code."
+    }
+}

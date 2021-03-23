@@ -1,0 +1,74 @@
+{
+    "1": {
+        "name": "All charges",
+        "desc": "All amounts calculated by the carrier in accordance with tariffs or in case of special events during the voyage (e.g. Rail - freights costs - additional costs)."
+    },
+    "2": {
+        "name": "Additional charges",
+        "desc": "Charges calculated by the carrier for specific events like re-weighting, re-loading, unexpected operations, services required during the voyage, etc."
+    },
+    "3": {
+        "name": "Transport charges + additional charges",
+        "desc": "Transport charges plus Additional charges (e.g. for re- loading, re-weighting or unexpected operations) that must be precised in the payment conditions by the consignor (other charges must be taken in account by the consignee)."
+    },
+    "4": {
+        "name": "Basic freight",
+        "desc": "The basic freight payable on the cargo as per tariff."
+    },
+    "5": {
+        "name": "Destination haulage charges",
+        "desc": "Self explanatory."
+    },
+    "6": {
+        "name": "Disbursement",
+        "desc": "Sums paid out by ship's agent at a port and recovered from the carrier."
+    },
+    "7": {
+        "name": "Destination port charges",
+        "desc": "Charges payable at the port of destination."
+    },
+    "8": {
+        "name": "Miscellaneous charges",
+        "desc": "Miscellaneous charges not otherwise categorized."
+    },
+    "9": {
+        "name": "Transport charges up to a specified location",
+        "desc": "Transport charges to be paid by the consignor for a part of the voyage, i.e. up to a location that must be precised."
+    },
+    "10": {
+        "name": "Origin port charges",
+        "desc": "Charges payable at the port of origin."
+    },
+    "11": {
+        "name": "Origin haulage charges",
+        "desc": "Self explanatory."
+    },
+    "12": {
+        "name": "Other charges",
+        "desc": "Self explanatory."
+    },
+    "13": {
+        "name": "Specific amount payable",
+        "desc": "Amount that the consignor agrees to be invoiced or to pay. This amount is part of the total charges applied to the consignment."
+    },
+    "14": {
+        "name": "Transport costs (carriage charges)",
+        "desc": "Monetary amount calculated on the basis of the transport tariffs or contract eventually including charges or other costs."
+    },
+    "15": {
+        "name": "All costs up to a specified location",
+        "desc": "All amounts to be paid by the consignor for a part of the voyage, i.e. up to a location that must be precised. (The remaining part of the voyage to be paid by the consignee) The amounts are calculated by the carrier in accordance with tariffs or in case of special events during the voyage (e.g. rail - freight costs - additional costs)."
+    },
+    "16": {
+        "name": "Weight/valuation charge",
+        "desc": "Code to indicate weight/valuation charges to be either wholly prepaid or wholly collect."
+    },
+    "17": {
+        "name": "All costs",
+        "desc": "Description to be provided."
+    },
+    "18": {
+        "name": "Transport costs and supplementary costs",
+        "desc": "Description to be provided."
+    }
+}

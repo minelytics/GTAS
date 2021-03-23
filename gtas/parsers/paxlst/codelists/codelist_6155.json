@@ -1,0 +1,154 @@
+{
+    "1": {
+        "name": "Clear",
+        "desc": "Self explanatory."
+    },
+    "2": {
+        "name": "Hazy",
+        "desc": "Self explanatory."
+    },
+    "3": {
+        "name": "Excess",
+        "desc": "Self explanatory."
+    },
+    "4": {
+        "name": "Some",
+        "desc": "Self explanatory."
+    },
+    "5": {
+        "name": "Undetectable",
+        "desc": "Self explanatory."
+    },
+    "6": {
+        "name": "Trace",
+        "desc": "Self explanatory."
+    },
+    "7": {
+        "name": "Yes",
+        "desc": "Self explanatory."
+    },
+    "8": {
+        "name": "Closed",
+        "desc": "Self explanatory."
+    },
+    "9": {
+        "name": "Passed",
+        "desc": "Self explanatory."
+    },
+    "10": {
+        "name": "Present",
+        "desc": "Self explanatory."
+    },
+    "11": {
+        "name": "Gel",
+        "desc": "Self explanatory."
+    },
+    "12": {
+        "name": "OK",
+        "desc": "Self explanatory."
+    },
+    "13": {
+        "name": "Slight",
+        "desc": "Self explanatory."
+    },
+    "14": {
+        "name": "No Good",
+        "desc": "Self explanatory."
+    },
+    "15": {
+        "name": "Marginal",
+        "desc": "Self explanatory."
+    },
+    "16": {
+        "name": "Nil",
+        "desc": "Self explanatory."
+    },
+    "18": {
+        "name": "Open",
+        "desc": "Self explanatory."
+    },
+    "19": {
+        "name": "Free",
+        "desc": "Self explanatory."
+    },
+    "20": {
+        "name": "No",
+        "desc": "Self explanatory."
+    },
+    "21": {
+        "name": "Checked",
+        "desc": "Self explanatory."
+    },
+    "22": {
+        "name": "Fail",
+        "desc": "Self explanatory."
+    },
+    "23": {
+        "name": "Absent",
+        "desc": "Self explanatory."
+    },
+    "24": {
+        "name": "Good",
+        "desc": "Self explanatory."
+    },
+    "25": {
+        "name": "Fair",
+        "desc": "Self explanatory."
+    },
+    "26": {
+        "name": "Poor",
+        "desc": "Self explanatory."
+    },
+    "27": {
+        "name": "Excellent",
+        "desc": "Self explanatory."
+    },
+    "28": {
+        "name": "Bright",
+        "desc": "Self explanatory."
+    },
+    "29": {
+        "name": "To be determined",
+        "desc": "Self explanatory."
+    },
+    "32": {
+        "name": "Conditional, free",
+        "desc": "Self explanatory."
+    },
+    "33": {
+        "name": "Balance",
+        "desc": "Self explanatory."
+    },
+    "34": {
+        "name": "Complete",
+        "desc": "Self explanatory."
+    },
+    "35": {
+        "name": "Low",
+        "desc": "Self explanatory."
+    },
+    "36": {
+        "name": "Not applicable",
+        "desc": "Self explanatory."
+    },
+    "37": {
+        "name": "Not determined",
+        "desc": "Self explanatory."
+    },
+    "38": {
+        "name": "Negligible",
+        "desc": "Self explanatory."
+    },
+    "39": {
+        "name": "Moderate",
+        "desc": "Self explanatory."
+    },
+    "40": {
+        "name": "Appreciable",
+        "desc": "Self explanatory."
+    },
+    "41": {
+        "name": "Not available",
+        "desc": "Self explanatory."
+    }
+}

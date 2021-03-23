@@ -1,0 +1,630 @@
+{
+    "1": {
+        "name": "CCC (Customs Co-operation Council)",
+        "desc": "Self explanatory."
+    },
+    "2": {
+        "name": "CEC (Commission of the European Communities)",
+        "desc": "Generic: see also 140, 141, 142, 162."
+    },
+    "3": {
+        "name": "IATA (International Air Transport Association)",
+        "desc": "Self explanatory."
+    },
+    "4": {
+        "name": "ICC (International Chamber of Commerce)",
+        "desc": "Self explanatory."
+    },
+    "5": {
+        "name": "ISO (International Organization for Standardization)",
+        "desc": "Self explanatory."
+    },
+    "6": {
+        "name": "UN/ECE (United Nations - Economic Commission for Europe)",
+        "desc": "Self explanatory."
+    },
+    "7": {
+        "name": "CEFIC (Conseil Europeen des Federations de l'Industrie Chimique)",
+        "desc": "EDI project for chemical industry."
+    },
+    "8": {
+        "name": "EDIFICE",
+        "desc": "EDI Forum for companies with Interest in Computing and Electronics (EDI project for EDP/ADP sector)."
+    },
+    "9": {
+        "name": "EAN (International Article Numbering association)",
+        "desc": "Self explanatory."
+    },
+    "10": {
+        "name": "ODETTE",
+        "desc": "Organization for Data Exchange through Tele-Transmission in Europe (European automotive industry project)."
+    },
+    "11": {
+        "name": "Lloyd's register of shipping",
+        "desc": "Self explanatory."
+    },
+    "12": {
+        "name": "UIC (International union of railways)",
+        "desc": "Western and Eastern European railways association (35 networks). UIC with its legal body (CIT) produce codes and reglementations that are internationally recognized and accepted by all European railways and official bodies."
+    },
+    "13": {
+        "name": "ICAO (International Civil Aviation Organisation)",
+        "desc": "Self explanatory."
+    },
+    "14": {
+        "name": "ICS (International Chamber of Shipping)",
+        "desc": "Self explanatory."
+    },
+    "15": {
+        "name": "RINET (Reinsurance and Insurance Network)",
+        "desc": "Self explanatory."
+    },
+    "16": {
+        "name": "DUNS (Dun & Bradstreet)",
+        "desc": "Self explanatory."
+    },
+    "17": {
+        "name": "S.W.I.F.T.",
+        "desc": "Society for Worldwide Interbank Financial Telecommunications s.c."
+    },
+    "18": {
+        "name": "Conventions on SAD and transit (EC and EFTA)",
+        "desc": "SAD = Single Administrative Document."
+    },
+    "19": {
+        "name": "FRRC (Federal Reserve Routing Code)",
+        "desc": "Self explanatory."
+    },
+    "20": {
+        "name": "BIC (Bureau International des Containeurs)",
+        "desc": "Self explanatory."
+    },
+    "21": {
+        "name": "Assigned by transport company",
+        "desc": "Codes assigned by a transport company."
+    },
+    "22": {
+        "name": "US, ISA (Information Systems Agreement)",
+        "desc": "Codes assigned by the ISA for use by its members."
+    },
+    "23": {
+        "name": "FR, EDITRANSPORT",
+        "desc": "French association developing EDI in transport logistics."
+    },
+    "24": {
+        "name": "AU, ROA (Railways of Australia)",
+        "desc": "Maintains code lists which are accepted by Australian government railways."
+    },
+    "25": {
+        "name": "EDITEX (Europe)",
+        "desc": "EDI group for the textile and clothing industry."
+    },
+    "26": {
+        "name": "NL, Foundation Uniform Transport Code",
+        "desc": "Foundation Uniform Transport Code is the EDI organisation for shippers, carriers and other logistic service providers in the Netherlands."
+    },
+    "27": {
+        "name": "US, FDA (Food and Drug Administration)",
+        "desc": "U.S. food and drug administration."
+    },
+    "28": {
+        "name": "EDITEUR (European book sector electronic data interchange group)",
+        "desc": "Code identifying the pan European user group for the book industry as an organisation responsible for code values in the book industry."
+    },
+    "29": {
+        "name": "GB, FLEETNET",
+        "desc": "Association of fleet vehicle hiring and leasing companies in the UK."
+    },
+    "30": {
+        "name": "GB, ABTA (Association of British Travel Agencies)",
+        "desc": "ABTA, Association of British Travel Agencies."
+    },
+    "31": {
+        "name": "FI, Finish State Railway",
+        "desc": "Finish State Railway."
+    },
+    "32": {
+        "name": "PL, Polish State Railway",
+        "desc": "Polish State Railway."
+    },
+    "33": {
+        "name": "BG, Bulgaria State Railway",
+        "desc": "Bulgaria State Railway."
+    },
+    "34": {
+        "name": "RO, Rumanian State Railway",
+        "desc": "Rumanian State Railway."
+    },
+    "35": {
+        "name": "CZ, Tchechian State Railway",
+        "desc": "Tchechian State Railway."
+    },
+    "36": {
+        "name": "HU, Hungarian State Railway",
+        "desc": "Hungarian State Railway."
+    },
+    "37": {
+        "name": "GB, British Railways",
+        "desc": "British Railways."
+    },
+    "38": {
+        "name": "ES, Spanish National Railway",
+        "desc": "Spanish National Railway."
+    },
+    "39": {
+        "name": "SE, Swedish State Railway",
+        "desc": "Swedish State Railway."
+    },
+    "40": {
+        "name": "NO, Norwegian State Railway",
+        "desc": "Norwegian State Railway."
+    },
+    "41": {
+        "name": "DE, German Railway",
+        "desc": "German Railway."
+    },
+    "42": {
+        "name": "AT, Austrian Federal Railways",
+        "desc": "Austrian Federal Railways."
+    },
+    "43": {
+        "name": "LU, Luxembourg National Railway Company",
+        "desc": "Luxembourg National Railway Company."
+    },
+    "44": {
+        "name": "IT, Italian State Railways",
+        "desc": "Italian State Railways."
+    },
+    "45": {
+        "name": "NL, Netherlands Railways",
+        "desc": "Netherlands Railways."
+    },
+    "46": {
+        "name": "CH, Swiss Federal Railways",
+        "desc": "Swiss Federal Railways."
+    },
+    "47": {
+        "name": "DK, Danish State Railways",
+        "desc": "Danish State Railways."
+    },
+    "48": {
+        "name": "FR, French National Railway Company",
+        "desc": "French National Railway Company."
+    },
+    "49": {
+        "name": "BE, Belgian National Railway Company",
+        "desc": "Belgian National Railway Company."
+    },
+    "50": {
+        "name": "PT, Portuguese Railways",
+        "desc": "Portuguese Railways."
+    },
+    "51": {
+        "name": "SK, Slovacian State Railways",
+        "desc": "Slovacian State Railways."
+    },
+    "52": {
+        "name": "IE, Irish Transport Company",
+        "desc": "Irish Transport Company."
+    },
+    "53": {
+        "name": "FIATA (International Federation of Freight Forwarders Associations)",
+        "desc": "International Federation of Freight Forwarders Associations."
+    },
+    "54": {
+        "name": "IMO (International Maritime Organisation)",
+        "desc": "International Maritime Organisation."
+    },
+    "55": {
+        "name": "US, DOT (United States Department of Transportation)",
+        "desc": "United States Department of Transportation."
+    },
+    "56": {
+        "name": "TW, Trade-van",
+        "desc": "Trade-van is a EDI/VAN service center for customs, transport, and insurance in national and international trade."
+    },
+    "57": {
+        "name": "TW, Chinese Taipei Customs",
+        "desc": "Customs authorities of Chinese Taipei responsible for collecting import duties and preventing smuggling."
+    },
+    "58": {
+        "name": "EUROFER",
+        "desc": "European steel organisation - EDI project for the European steel industry."
+    },
+    "59": {
+        "name": "DE, EDIBAU",
+        "desc": "National body responsible for the German codification in the construction area."
+    },
+    "86": {
+        "name": "Assigned by party originating the message",
+        "desc": "Codes assigned by the party originating the message."
+    },
+    "87": {
+        "name": "Assigned by carrier",
+        "desc": "Codes assigned by the carrier."
+    },
+    "88": {
+        "name": "Assigned by owner of operation",
+        "desc": "Assigned by owner of operation (e.g. used in construction)."
+    },
+    "89": {
+        "name": "Assigned by distributor",
+        "desc": "Self explanatory."
+    },
+    "90": {
+        "name": "Assigned by manufacturer",
+        "desc": "Self explanatory."
+    },
+    "91": {
+        "name": "Assigned by seller or seller's agent",
+        "desc": "Self explanatory."
+    },
+    "92": {
+        "name": "Assigned by buyer or buyer's agent",
+        "desc": "Self explanatory."
+    },
+    "93": {
+        "name": "AT, Austrian Customs",
+        "desc": "Self explanatory."
+    },
+    "94": {
+        "name": "AT, Austrian PTT",
+        "desc": "Self explanatory."
+    },
+    "95": {
+        "name": "AU, Australian Customs Services",
+        "desc": "Self explanatory."
+    },
+    "96": {
+        "name": "CA, Revenue Canada, Customs and Excise",
+        "desc": "Self explanatory."
+    },
+    "97": {
+        "name": "CH, Administration federale des contributions",
+        "desc": "Indirect taxation (e.g. turn-over/sales taxes)."
+    },
+    "98": {
+        "name": "CH, Direction generale des douanes",
+        "desc": "Customs (incl. ISO alpha 2 country code)."
+    },
+    "99": {
+        "name": "CH, Division des importations et exportations, OFAEE",
+        "desc": "Import and export licences."
+    },
+    "100": {
+        "name": "CH, Entreprise des PTT",
+        "desc": "Telephone (voice/data) + telex numbers, postcodes, postal account numbers."
+    },
+    "101": {
+        "name": "CH, Carbura",
+        "desc": "Centrale suisse pour l'importation de carburants et combustibles liquides (Oil products)."
+    },
+    "102": {
+        "name": "CH, Centrale suisse pour l'importation du charbon",
+        "desc": "Coal."
+    },
+    "103": {
+        "name": "CH, Office fiduciaire des importateurs de denrees alimentaires",
+        "desc": "Foodstuff."
+    },
+    "104": {
+        "name": "CH, Association suisse code des articles",
+        "desc": "Swiss article numbering association."
+    },
+    "105": {
+        "name": "DK, Ministry of taxation, Central Customs and Tax Administration",
+        "desc": "Danish Customs administration."
+    },
+    "106": {
+        "name": "FR, Direction generale des douanes et droits indirects",
+        "desc": "French Customs."
+    },
+    "107": {
+        "name": "FR, INSEE",
+        "desc": "Institut National de la Statistique et des Etudes Economiques."
+    },
+    "108": {
+        "name": "FR, Banque de France",
+        "desc": "Self explanatory."
+    },
+    "109": {
+        "name": "GB, H.M. Customs & Excise",
+        "desc": "Self explanatory."
+    },
+    "110": {
+        "name": "IE, Revenue Commissionners, Customs AEP project",
+        "desc": "Self explanatory."
+    },
+    "111": {
+        "name": "US, U.S. Customs Service",
+        "desc": "Self explanatory."
+    },
+    "112": {
+        "name": "US, U.S. Census Bureau",
+        "desc": "The Bureau of the Census of the U.S. Dept. of Commerce."
+    },
+    "113": {
+        "name": "US, UPC (Uniform product code)",
+        "desc": "Self explanatory."
+    },
+    "114": {
+        "name": "US, ABA (American Bankers Association)",
+        "desc": "Self explanatory."
+    },
+    "115": {
+        "name": "US, DODAAC (Department Of Defense Active Agency Code)",
+        "desc": "Self explanatory."
+    },
+    "116": {
+        "name": "US, ANSI ASC X12",
+        "desc": "American National Standards Institute ASC X12."
+    },
+    "117": {
+        "name": "AT, Geldausgabeautomaten-Service Gesellschaft m.b.H.",
+        "desc": "Description to be provided."
+    },
+    "118": {
+        "name": "SE, Svenska Bankfoereningen",
+        "desc": "Swedish bankers association."
+    },
+    "119": {
+        "name": "IT, Associazione Bancaria Italiana",
+        "desc": "Self explanatory."
+    },
+    "120": {
+        "name": "IT, Socieata' Interbancaria per l'Automazione",
+        "desc": "Self explanatory."
+    },
+    "121": {
+        "name": "CH, Telekurs AG",
+        "desc": "Self explanatory."
+    },
+    "122": {
+        "name": "CH, Swiss Securities Clearing Corporation",
+        "desc": "Self explanatory."
+    },
+    "123": {
+        "name": "NO, Norwegian Interbank Research Organization",
+        "desc": "Self explanatory."
+    },
+    "124": {
+        "name": "NO, Norwegian Bankers Ass.",
+        "desc": "Self explanatory."
+    },
+    "125": {
+        "name": "FI, The Finnish Bankers' Association",
+        "desc": "Self explanatory."
+    },
+    "126": {
+        "name": "US, NCCMA (Account Analysis Codes)",
+        "desc": "Self explanatory."
+    },
+    "128": {
+        "name": "BE, Belgian Bankers' Association",
+        "desc": "Self explanatory."
+    },
+    "129": {
+        "name": "BE, Belgian Ministry of Finance",
+        "desc": "VAT numbers."
+    },
+    "130": {
+        "name": "DK, PBS (Pengainstitutternes Betalings Service)",
+        "desc": "Self explanatory."
+    },
+    "131": {
+        "name": "DE, German Bankers Association",
+        "desc": "Self explanatory."
+    },
+    "132": {
+        "name": "GB, BACS Limited",
+        "desc": "Self explanatory."
+    },
+    "133": {
+        "name": "GB, Association for Payment Clearing Services",
+        "desc": "Self explanatory."
+    },
+    "134": {
+        "name": "GB, CHAPS and Town Clearing Company Ltd.",
+        "desc": "Self explanatory."
+    },
+    "135": {
+        "name": "GB, The Clearing House",
+        "desc": "Self explanatory."
+    },
+    "136": {
+        "name": "GB, Article Number Association (UK) Limited",
+        "desc": "EAN barcoding."
+    },
+    "137": {
+        "name": "AT, Verband oesterreichischer Banken und Bankiers",
+        "desc": "Austrian bankers association."
+    },
+    "138": {
+        "name": "FR, CFONB (Comite francais d'organ. et de normalisation bancaires)",
+        "desc": "National body responsible for the french codification in banking activity."
+    },
+    "139": {
+        "name": "UPU (Universal Postal Union)",
+        "desc": "(a..3 country code)."
+    },
+    "140": {
+        "name": "CEC (Commission of the European Communities), DG/XXI-01",
+        "desc": "(Computerization within Customs area)."
+    },
+    "141": {
+        "name": "CEC (Commission of the European Communities), DG/XXI-B-1",
+        "desc": "Description to be provided."
+    },
+    "142": {
+        "name": "CEC (Commission of the European Communities), DG/XXXIV",
+        "desc": "Statistical Office of the European Communities: e.g. Geonomenclature."
+    },
+    "143": {
+        "name": "NZ, New Zealand Customs",
+        "desc": "Self explanatory."
+    },
+    "144": {
+        "name": "NL, Netherlands Customs",
+        "desc": "Self explanatory."
+    },
+    "145": {
+        "name": "SE, Swedish Customs",
+        "desc": "Self explanatory."
+    },
+    "146": {
+        "name": "DE, German Customs",
+        "desc": "Self explanatory."
+    },
+    "147": {
+        "name": "BE, Belgian Customs",
+        "desc": "Self explanatory."
+    },
+    "148": {
+        "name": "ES, Spanish Customs",
+        "desc": "Self explanatory."
+    },
+    "149": {
+        "name": "IL, Israel Customs",
+        "desc": "Self explanatory."
+    },
+    "150": {
+        "name": "HK, Hong Kong Customs",
+        "desc": "Self explanatory."
+    },
+    "151": {
+        "name": "JP, Japan Customs",
+        "desc": "Self explanatory."
+    },
+    "152": {
+        "name": "SA, Saudi Arabia Customs",
+        "desc": "Self explanatory."
+    },
+    "153": {
+        "name": "IT, Italian Customs",
+        "desc": "Self explanatory."
+    },
+    "154": {
+        "name": "GR, Greek Customs",
+        "desc": "Self explanatory."
+    },
+    "155": {
+        "name": "PT, Portuguese Customs",
+        "desc": "Self explanatory."
+    },
+    "156": {
+        "name": "LU, Luxembourg Customs",
+        "desc": "Self explanatory."
+    },
+    "157": {
+        "name": "NO, Norwegian Customs",
+        "desc": "Self explanatory."
+    },
+    "158": {
+        "name": "FI, Finnish Customs",
+        "desc": "Self explanatory."
+    },
+    "159": {
+        "name": "IS, Iceland Customs",
+        "desc": "Self explanatory."
+    },
+    "160": {
+        "name": "LI, Liechtenstein authority",
+        "desc": "(Identification of relevant responsible agency for e.g. banking/financial matters still pending. For e.g. Customs, currency, post/telephone: see relevant CH entry)."
+    },
+    "161": {
+        "name": "UNCTAD (United Nations - Conference on Trade And Development)",
+        "desc": "Self explanatory."
+    },
+    "162": {
+        "name": "CEC (Commission of the European Communities), DG/XIII-D-5",
+        "desc": "(TEDIS - incl. CEBIS -, INSIS and CADDIA projects)."
+    },
+    "163": {
+        "name": "US, FMC (Federal Maritime Commission)",
+        "desc": "Self explanatory."
+    },
+    "164": {
+        "name": "US, DEA (Drug Enforcement Agency)",
+        "desc": "Self explanatory."
+    },
+    "165": {
+        "name": "US, DCI (Distribution Codes, INC.)",
+        "desc": "Self explanatory."
+    },
+    "166": {
+        "name": "US, National Motor Freight Classification Association",
+        "desc": "Self explanatory."
+    },
+    "167": {
+        "name": "US, AIAG (Automotive Industry Action Group)",
+        "desc": "Self explanatory."
+    },
+    "168": {
+        "name": "US, FIPS (Federal Information Publishing Standard)",
+        "desc": "Self explanatory."
+    },
+    "169": {
+        "name": "CA, SCC (Standards Council of Canada)",
+        "desc": "Self explanatory."
+    },
+    "170": {
+        "name": "CA, CPA (Canadian Payment Association)",
+        "desc": "Self explanatory."
+    },
+    "171": {
+        "name": "NL, Bank Girocentrale BV",
+        "desc": "Self explanatory."
+    },
+    "172": {
+        "name": "NL, BEANET BV",
+        "desc": "Self explanatory."
+    },
+    "173": {
+        "name": "NO, NORPRO",
+        "desc": "Self explanatory."
+    },
+    "174": {
+        "name": "DE, DIN (Deutsches Institut fuer Normung)",
+        "desc": "German standardization institute."
+    },
+    "175": {
+        "name": "FCI (Factors Chain International)",
+        "desc": "Self explanatory."
+    },
+    "176": {
+        "name": "BR, Banco Central do Brazil",
+        "desc": "Self-explanatory."
+    },
+    "177": {
+        "name": "AU, LIFA (Life Insurance Federation of Australia)",
+        "desc": "Life Insurance Federation of Australia."
+    },
+    "178": {
+        "name": "AU, SAA (Standards Association of Australia)",
+        "desc": "Standards Association of Australia."
+    },
+    "179": {
+        "name": "US, Air transport association of America",
+        "desc": "U.S. -based trade association representing the major North American scheduled airlines."
+    },
+    "181": {
+        "name": "Edibuild",
+        "desc": "EDI organization for companies in the construction industry."
+    },
+    "182": {
+        "name": "US, Standard Carrier Alpha Code (Motor)",
+        "desc": "Organisation maintaining the SCAC lists and transportation operating in North America."
+    },
+    "183": {
+        "name": "US, American Petroleum Institute",
+        "desc": "US-based trade association representing oil and natural gas producers, shippers, refineries, marketers, and major suppliers to the industry."
+    },
+    "184": {
+        "name": "AU, ACOS (Australian Chamber of Shipping)",
+        "desc": "Self explanatory."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Self explanatory."
+    }
+}

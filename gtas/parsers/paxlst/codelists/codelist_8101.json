@@ -1,0 +1,30 @@
+{
+    "BS": {
+        "name": "Buyer to seller",
+        "desc": "Self explanatory."
+    },
+    "SB": {
+        "name": "Seller to buyer",
+        "desc": "Self explanatory."
+    },
+    "SC": {
+        "name": "Subcontractor to seller",
+        "desc": "Self explanatory."
+    },
+    "SD": {
+        "name": "Seller to drop ship designated location",
+        "desc": "Self explanatory."
+    },
+    "SF": {
+        "name": "Seller to freight forwarder",
+        "desc": "Self explanatory."
+    },
+    "SS": {
+        "name": "Seller to subcontractor",
+        "desc": "Self explanatory."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Self explanatory."
+    }
+}

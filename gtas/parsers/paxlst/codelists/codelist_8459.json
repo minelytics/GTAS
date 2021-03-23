@@ -1,0 +1,22 @@
+{
+    "A": {
+        "name": "Customer plant (receiving location)",
+        "desc": "Self explanatory."
+    },
+    "B": {
+        "name": "Material release issuer",
+        "desc": "Self explanatory."
+    },
+    "S": {
+        "name": "Supplier authority",
+        "desc": "Self explanatory."
+    },
+    "X": {
+        "name": "Responsibility to be determined",
+        "desc": "Self explanatory."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Self explanatory."
+    }
+}

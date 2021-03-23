@@ -1,0 +1,260 @@
+{
+    "code" : "UNB",
+    "name" : "Interchange header",
+    "desc" : "",
+    "element_type": "Segment",
+    "conditional" : "Mandatory",
+    "cardinality" : 1,
+    "attributes" : [
+        {
+            "code" : "S001",
+            "name": "SYNTAX IDENTIFIER",
+            "desc" : "",
+            "conditional" : "Mandatory",
+            "element_type" : "Composite Attribute",
+            "attributes" : [
+                {
+                    "code" : "0001",
+                    "name": "Syntax identifier",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Mandatory",
+                    "content_type" : "a",
+                    "content_length": "4",
+                    "codeset" : "0001"
+                },
+                {
+                    "code" : "0002",
+                    "name": "Syntax version number",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Mandatory",
+                    "content_type" : "an",
+                    "content_length": "1",
+                    "codeset" : "0002"
+                },
+                {
+                    "code" : "0080",
+                    "name" : "Service code list directory version number",
+                    "desc" : "Character encoding, coded",
+                    "element_type" : "Attribute",
+                    "conditional" : "Conditional",
+                    "content_type" : "an",
+                    "content_length": "0..6"
+                },
+                {
+                    "code" : "0133",
+                    "name": "Character encoding, coded",
+                    "element_type" : "Attribute",
+                    "conditional" : "C",
+                    "content_type" : "an",
+                    "content_length": "0..3",
+                    "codeset" : "0133"
+                }
+            ]
+        },
+        {
+            "code" : "S002",
+            "name": "INTERCHANGE SENDER",
+            "desc" : "",
+            "element_type": "Composite Attribute",
+            "conditional" : "Mandatory",
+            "attributes" : [
+                {
+                    "code" : "0004",
+                    "name" : "Interchange sender identification",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Mandatory",
+                    "content_type" : "an",
+                    "content_length" : "0..35"
+                },
+                {
+                    "code" : "0007",
+                    "name" : "Identification code qualifier",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Conditional",
+                    "content_type" : "an",
+                    "content_length" : "0..4",
+                    "codeset" : "0007"
+                },
+                {
+                    "code" : "0008",
+                    "name" : "Interchange sender internal identification",
+                    "desc" : "",
+                    "conditional" : "Conditional",
+                    "element_type" : "Attribute",
+                    "content_type" : "an",
+                    "content_length" : "0..35"
+                },
+                {
+                    "code" : "0042",
+                    "name" : "Interchange sender internal sub-identification",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Conditional",
+                    "content_type" : "an",
+                    "content_length" : "0..35"
+                }
+            ]
+        },
+        {
+            "code" : "S003",
+            "name": "INTERCHANGE RECIPIENT",
+            "conditional" : "Mandatory",
+            "desc" : "",
+            "element_type": "Composite Attribute",
+            "attributes" : [
+                {
+                    "code" : "0010",
+                    "name" : "Interchange recipient identification",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Mandatory",
+                    "content_type" : "an",
+                    "content_length" : "0..35"
+                },
+                {
+                    "code" : "0007",
+                    "name" : "Identification code qualifier",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Conditional",
+                    "content_type" : "an",
+                    "content_length" : "0..4",
+                    "codeset" : "0007"
+                },
+                {
+                    "code" : "0014",
+                    "name": "Interchange recipient internal identification",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Conditional",
+                    "content_type" : "an",
+                    "content_length" : "0..35"
+                },
+                {
+                    "code" : "0046",
+                    "name": "Interchange recipient internal sub-identification",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Conditional",
+                    "content_type" : "an",
+                    "content_length" : "0..35"
+                }
+            ]
+        },
+        {
+            "code" : "S004",
+            "name": "DATE AND TIME OF PREPARATION",
+            "element_type" : "Composite Attribute",
+            "desc" : "",
+            "conditional" : "Mandatory",
+            "attributes" : [
+                {
+                    "code" : "0017",
+                    "name": "Date",
+                    "desc" : "",
+                    "conditional" : "Mandatory",
+                    "element_type" : "Attribute",
+                    "content_type" : "n",
+                    "content_length" : "8"
+                },
+                {
+                    "code" : "0019",
+                    "name": "Time",
+                    "desc" : "",
+                    "conditional" : "Mandatory",
+                    "element_type" : "Attribute",
+                    "content_type" : "n",
+                    "content_length" : "4"
+                }
+            ]
+        },
+        {
+            "code" : "0020",
+            "name": "Interchange control reference",
+            "conditional" : "Mandatory",
+            "element_type" : "Attribute",
+            "content_length" : "0..14",
+            "content_type" : "an"
+        },
+        {
+            "code" : "S005",
+            "element_type" : "Composite Attribute",
+            "name": "RECIPIENT'S REFERENCE/PASSWORD DETAILS",
+            "desc" : "",
+            "conditional" : "Conditional",
+            "attributes" : [
+                {
+                    "code" : "0022",
+                    "name": "Recipient reference/password",
+                    "desc" : "",
+                    "element_type" : "Attribute",
+                    "conditional" : "Mandatory",
+                    "content_length" : "0..14",
+                    "content_type" : "an"
+                },
+                {
+                    "code" : "0025",
+                    "name": "Recipient reference/password qualifier",
+                    "element_type" : "Attribute",
+                    "desc" : "",
+                    "conditional" : "Conditional",
+                    "content_length" : "0..14",
+                    "content_type" : "an",
+                    "codeset" : "0025"
+                }
+            ]
+        },
+        {
+            "code" : "0026",
+            "name": "Application reference",
+            "element_type" : "Attribute",
+            "desc" : "",
+            "conditional" : "Conditional",
+            "content_length" : "0..14",
+            "content_type" : "an"
+        },
+        {
+            "code" : "0029",
+            "name": "Processing priority code",
+            "element_type" : "Attribute",
+            "desc" : "",
+            "conditional" : "Conditional",
+            "content_length" : "1",
+            "content_type" : "a",
+            "codeset" : "0029"
+        },
+        {
+            "code" : "0031",
+            "name": "Acknowledgement request",
+            "element_type" : "Attribute",
+            "desc" : "",
+            "conditional" : "Conditional",
+            "content_length" : "1",
+            "content_type" : "n",
+            "codeset" : "0031"
+        },
+        {
+            "code" : "0032",
+            "name": "Interchange agreement identifier",
+            "element_type" : "Attribute",
+            "desc" : "",
+            "conditional" : "Conditional",
+            "content_length" : "0..35",
+            "content_type" : "an"
+        },
+        {
+            "code" : "0035",
+            "name": "Test indicator",
+            "element_type" : "Attribute",
+            "desc" : "",
+            "content_length" : "1",
+            "content_type" : "n",
+            "codeset" : "0035",
+            "conditional" : "Conditional"
+        }
+    ]
+}

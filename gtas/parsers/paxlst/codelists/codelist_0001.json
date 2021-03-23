@@ -1,0 +1,54 @@
+{
+    "UNOA": {
+        "name": "UN/ECE level A",
+        "desc": "As defined in the basic code table of ISO 646 with the exceptions of lower case letters, alternative graphic character allocations and national or application-oriented graphic character allocations."
+    },
+    "UNOB": {
+        "name": "UN/ECE level B",
+        "desc": "As defined in the basic code table of ISO 646 with the exceptions of alternative graphic character allocations and national or application-oriented graphic character allocations."
+    },
+    "UNOC": {
+        "name": "UN/ECE level C",
+        "desc": "As defined in ISO/IEC 8859-1 : Information technology -Part 1: Latin alphabet No. 1."
+    },
+    "UNOD": {
+        "name": "UN/ECE level D",
+        "desc": "As defined in ISO/IEC 8859-2 : Information technology -Part 2: Latin alphabet No. 2."
+    },
+    "UNOE": {
+        "name": "UN/ECE level E",
+        "desc": "As defined in ISO/IEC 8859-5 : Information technology -Part 5: Latin/Cyrillic alphabet."
+    },
+    "UNOF": {
+        "name": "UN/ECE level F",
+        "desc": "As defined in ISO 8859-7 : Information processing - Part 7: Latin/Greek alphabet."
+    },
+    "UNOG": {
+        "name": "UN/ECE level G",
+        "desc": "As defined in ISO/IEC 8859-3 : Information technology -Part 3: Latin alphabet No. 3."
+    },
+    "UNOH": {
+        "name": "UN/ECE level H",
+        "desc": "As defined in ISO/IEC 8859-4 : Information technology -Part 4: Latin alphabet No. 4."
+    },
+    "UNOI": {
+        "name": "UN/ECE level I",
+        "desc": "As defined in ISO/IEC 8859-6 : Information technology -Part 6: Latin/Arabic alphabet."
+    },
+    "UNOJ": {
+        "name": "UN/ECE level J",
+        "desc": "As defined in ISO/IEC 8859-8 : Information technology -Part 8: Latin/Hebrew alphabet."
+    },
+    "UNOK": {
+        "name": "UN/ECE level K",
+        "desc": "As defined in ISO/IEC 8859-9 : Information technology -Part 9: Latin alphabet No. 5."
+    },
+    "UNOX": {
+        "name": "UN/ECE level X",
+        "desc": "Code extension technique as defined by ISO 2022 utilising the escape techniques in accordance with ISO 2375."
+    },
+    "UNOY": {
+        "name": "UN/ECE level Y",
+        "desc": "ISO 10646-1 octet without code extension technique."
+    }
+}

@@ -1,0 +1,165 @@
+[
+    {
+    "code": "BGM",
+    "desc": "A segment to indicate the message name, type, number and functionality.",
+    "element_type": "Segment",
+    "name": "BEGINNING OF MESSAGE",
+    "conditional": "Mandatory",
+    "cardinality": "1",
+    "attributes": [
+        {
+            "code": "C002",
+            "desc": "Identification of a type of document/message by code or name. Code preferred.",
+            "name": "DOCUMENT/MESSAGE NAME",
+            "element_type": "Composite Attribute",
+            "conditional": "Conditional",
+            "attributes": [
+                {
+                    "code": "1001",
+                    "desc": "Document/message identifier expressed in code.",
+                    "name": "Document/message name, coded",
+                    "element_type": "Attribute",
+                    "content_length": "0..3",
+                    "conditional": "Conditional",
+                    "content_type": "an",
+                    "codeset": "1001"
+                },
+                {
+                    "code": "1131",
+                    "desc": "Identification of a code list.",
+                    "name": "Code list qualifier",
+                    "element_type": "Attribute",
+                    "content_length": "0..3",
+                    "conditional": "Conditional",
+                    "content_type": "an",
+                    "codeset": "1131"
+                },
+                {
+                    "code": "3055",
+                    "desc": "Code identifying the agency responsible for a code list.",
+                    "name": "Code list responsible agency, coded",
+                    "element_type": "Attribute",
+                    "content_length": "0..3",
+                    "conditional": "Conditional",
+                    "content_type": "an",
+                    "codeset": "3055"
+                },
+                {
+                    "code": "1000",
+                    "desc": "Plain language identifier specifying the function of a document/message.",
+                    "name": "Document/message name",
+                    "element_type": "Attribute",
+                    "content_length": "0..35",
+                    "conditional": "Conditional",
+                    "content_type": "an"
+                }
+            ]
+        },
+        {
+            "code": "1004",
+            "desc": "Reference number assigned to the document/message by the issuer.",
+            "name": "DOCUMENT/MESSAGE NUMBER",
+            "element_type": "Attribute",
+            "content_length": "0..35",
+            "conditional": "Conditional",
+            "content_type": "an"
+        },
+        {
+            "code": "1225",
+            "desc": "Code indicating the function of the message.",
+            "name": "MESSAGE FUNCTION, CODED",
+            "element_type": "Attribute",
+            "content_length": "0..3",
+            "conditional": "Conditional",
+            "content_type": "an",
+            "codeset": "1225"
+        },
+        {
+            "code": "4343",
+            "desc": "Code specifying the type of acknowledgement required or transmitted.",
+            "name": "RESPONSE TYPE, CODED",
+            "element_type": "Attribute",
+            "content_length": "0..3",
+            "conditional": "Conditional",
+            "content_type": "an",
+            "codeset": "4343"
+        }
+    ]
+    },
+    {
+    "code": "DTM",
+    "desc": "A segment to indicate the date/time of message creation and the date and time of cargo report to Customs.",
+    "element_type": "Segment",
+    "name": "DATE/TIME/PERIOD",
+    "conditional": "Conditional",
+    "cardinality": "9",
+    "attributes": [
+        {
+            "code": "C507",
+            "desc": "Date and/or time, or period relevant to the specified date/time/period type.",
+            "name": "DATE/TIME/PERIOD",
+            "element_type": "Composite Attribute",
+            "conditional": "Mandatory",
+            "attributes": [
+                {
+                    "code": "2005",
+                    "desc": "Code giving specific meaning to a date, time or period.",
+                    "name": "Date/time/period qualifier",
+                    "element_type": "Attribute",
+                    "content_length": "0..3",
+                    "conditional": "Mandatory",
+                    "content_type": "an",
+                    "codeset": "2005"
+                },
+                {
+                    "code": "2380",
+                    "desc": "The value of a date, a date and time, a time or of a period in a specified representation.",
+                    "name": "Date/time/period",
+                    "element_type": "Attribute",
+                    "content_length": "0..35",
+                    "conditional": "Conditional",
+                    "content_type": "an"
+                },
+                {
+                    "code": "2379",
+                    "desc": "Specification of the representation of a date, a date and time or of a period.",
+                    "name": "Date/time/period format qualifier",
+                    "element_type": "Attribute",
+                    "content_length": "0..3",
+                    "conditional": "Conditional",
+                    "content_type": "an",
+                    "codeset": "2379"
+                }
+            ]
+        }
+    ]
+},
+{
+    "code": "UNT",
+    "desc": "A service segment ending a message, giving the total number of segments in the message and the control reference number of the message.",
+    "element_type": "Segment",
+    "name": "MESSAGE TRAILER",
+    "conditional": "Mandatory",
+    "cardinality": "1",
+    "attributes": [
+        {
+            "code": "0074",
+            "desc": "Control count of number of segments in a message.",
+            "name": "NUMBER OF SEGMENTS IN A MESSAGE",
+            "element_type": "Attribute",
+            "content_length": "0..6",
+            "conditional": "Mandatory",
+            "content_type": "n"
+        },
+        {
+            "code": "0062",
+            "desc": "Unique message reference assigned by the sender.",
+            "name": "MESSAGE REFERENCE NUMBER",
+            "element_type": "Attribute",
+            "content_length": "0..14",
+            "conditional": "Mandatory",
+            "content_type": "an"
+        }
+    ]
+}
+]

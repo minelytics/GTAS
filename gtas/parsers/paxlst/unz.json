@@ -1,0 +1,28 @@
+{
+    "code" : "UNZ",
+    "name" : "Interchange trailer",
+    "desc" : "",
+    "element_type" : "Segment",
+    "conditional" : "Mandatory",
+    "cardinality" : 1,
+    "attributes" : [
+        {
+            "code" : "0036",
+            "desc" : "",
+            "conditional" : "Mandatory",
+            "name": "Interchange control count",
+            "content_length" : "0..6",
+            "content_type" : "n",
+            "element_type" : "Attribute"
+        },
+        {
+            "code" : "0020",
+            "name" : "Interchange control reference",
+            "desc" : "",
+            "conditional" : "Mandatory",
+            "content_length" : "0..14",
+            "content_type" : "an",
+            "element_type" : "Attribute"
+        }
+    ]
+}

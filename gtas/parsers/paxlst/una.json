@@ -1,0 +1,19 @@
+{
+    "code" : "UNA",
+    "name":"Service string advice",
+    "desc" : "",
+    "element_type" : "Segment",
+    "conditional" : "Conditional",
+    "cardinality" : 1,
+    "attributes" : [
+        {
+            "code" : "str",
+            "name": "structure",
+            "desc" : "",
+            "element_type" : "Attribute",
+            "conditional" : "Mandatory",
+            "content_type" : "a",
+            "content_length" : "6"
+        }
+    ]
+}

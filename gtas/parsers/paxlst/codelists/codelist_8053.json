@@ -1,0 +1,174 @@
+{
+    "AA": {
+        "name": "Ground equipment",
+        "desc": "Ground equipment being fuelled or serviced."
+    },
+    "AB": {
+        "name": "Chain",
+        "desc": "Chain used in the securing of cargo."
+    },
+    "AD": {
+        "name": "Temperature recorder",
+        "desc": "Temperature recorder to provide a record of the actual temperature."
+    },
+    "AE": {
+        "name": "Body trailer",
+        "desc": "The part of the vehicle where the cargo is loaded."
+    },
+    "BL": {
+        "name": "Blocks",
+        "desc": "A piece of equipment that is normally a piece of wood to fix cargo (e.g. coils) during transport."
+    },
+    "BPN": {
+        "name": "Box pallet non exchangeable",
+        "desc": "Self explanatory."
+    },
+    "BPY": {
+        "name": "Box pallet EUR Y non exchangeable",
+        "desc": "Self explanatory."
+    },
+    "BR": {
+        "name": "Barge",
+        "desc": "Flat bottomed inland cargo vessel for canals and rivers with or without own propulsion for the purpose of transported goods. (Synonym: Lighter)."
+    },
+    "BX": {
+        "name": "Boxcar",
+        "desc": "Description to be provided."
+    },
+    "CH": {
+        "name": "Chassis",
+        "desc": "A wheeled carriage onto which an ocean container is mounted for inland conveyance."
+    },
+    "CN": {
+        "name": "Container",
+        "desc": "Equipment item as defined by ISO for transport. It must be of: A) permanent character, strong enough for repeated use; B) designed to facilitate the carriage of goods, by one or more modes of transport, without intermediate reloading; C) fitted with devices for its ready handling, particularly."
+    },
+    "DPA": {
+        "name": "Deadlight (panel)",
+        "desc": "Self explanatory."
+    },
+    "EFP": {
+        "name": "Exchangeable EUR flat pallet",
+        "desc": "Self explanatory."
+    },
+    "EYP": {
+        "name": "Exchangeable EUR Y box pallet",
+        "desc": "Self explanatory."
+    },
+    "FPN": {
+        "name": "Flat pallet EUR non exchangeable",
+        "desc": "Self explanatory."
+    },
+    "FPR": {
+        "name": "Flat pallet (railway property) non exchangeable",
+        "desc": "Self explanatory."
+    },
+    "FSU": {
+        "name": "Forked support",
+        "desc": "Self explanatory."
+    },
+    "LAR": {
+        "name": "Lashing rope",
+        "desc": "Self explanatory."
+    },
+    "LU": {
+        "name": "Load/unload device on equipment",
+        "desc": "A mechanical device used in the loading and/or unloading of cargo into and from transport equipment."
+    },
+    "MPA": {
+        "name": "Movable panel",
+        "desc": "Self explanatory."
+    },
+    "PA": {
+        "name": "Pallet",
+        "desc": "A platform on which goods can be stacked in order to facilitate the movement by a forklift or sling."
+    },
+    "PBP": {
+        "name": "Identified private box pallet",
+        "desc": "Self explanatory."
+    },
+    "PFP": {
+        "name": "Identified private flat pallet",
+        "desc": "Self explanatory."
+    },
+    "PL": {
+        "name": "Platform",
+        "desc": "A piece of equipment normally having a flat surface, or prepared for carrying cargo with a specific shape."
+    },
+    "PPA": {
+        "name": "Protecting panel",
+        "desc": "Self explanatory."
+    },
+    "PST": {
+        "name": "Portable stove",
+        "desc": "Self explanatory."
+    },
+    "RF": {
+        "name": "Flat car",
+        "desc": "Description to be provided."
+    },
+    "RG": {
+        "name": "Reefer generator",
+        "desc": "A generator used to control the temperature in temperature-controlled transport equipment."
+    },
+    "RGF": {
+        "name": "Ground facility",
+        "desc": "Storage tank or facility capable of receiving shipment of goods or commodity."
+    },
+    "RO": {
+        "name": "Rope",
+        "desc": "Rope used in the securing of cargo."
+    },
+    "RR": {
+        "name": "Rail car",
+        "desc": "[8320] Registered identification number of railway wagon (CIM 19)."
+    },
+    "SCA": {
+        "name": "Small container category A",
+        "desc": "Self explanatory."
+    },
+    "SCB": {
+        "name": "Small container category B",
+        "desc": "Self explanatory."
+    },
+    "SCC": {
+        "name": "Small container category C",
+        "desc": "Self explanatory."
+    },
+    "SFA": {
+        "name": "Stiffening ring of frame",
+        "desc": "Self explanatory."
+    },
+    "SPP": {
+        "name": "Identified special pallet",
+        "desc": "Self explanatory."
+    },
+    "STR": {
+        "name": "Strap",
+        "desc": "Self explanatory."
+    },
+    "SW": {
+        "name": "Swap body",
+        "desc": "Rectangular equipment unit without wheels, which can be mounted on a chassis or positioned on legs."
+    },
+    "TE": {
+        "name": "Trailer",
+        "desc": "A vehicle without motive power, designed for the carriage of cargo and to be towed by a motor vehicle."
+    },
+    "TP": {
+        "name": "Tarpaulin",
+        "desc": "Waterproof material, e.g. canvas, to spread over cargo to protect it from getting wet."
+    },
+    "TS": {
+        "name": "Tackles",
+        "desc": "[8030] Identification marks and numbers of loading tackle used (sheets, ropes, chains, etc..), as specified in DCU 9 to CIM Article 13; and of containers, as specified in Articles 5 and 10 of Annex III to CIM (CIM 17)."
+    },
+    "TSU": {
+        "name": "Tarpaulin support",
+        "desc": "Self explanatory."
+    },
+    "UL": {
+        "name": "ULD (Unit load device)",
+        "desc": "An aircraft container or pallet."
+    }
+}

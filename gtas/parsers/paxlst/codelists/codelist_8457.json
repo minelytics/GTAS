@@ -1,0 +1,94 @@
+{
+    "A": {
+        "name": "Special rail car order, schedule increase forecast change",
+        "desc": "Self explanatory."
+    },
+    "B": {
+        "name": "Engineering change or late release",
+        "desc": "Self explanatory."
+    },
+    "C": {
+        "name": "Specification (schedule) error/overbuilding",
+        "desc": "Self explanatory."
+    },
+    "D": {
+        "name": "Shipment tracing delay",
+        "desc": "Self explanatory."
+    },
+    "E": {
+        "name": "Plant inventory loss",
+        "desc": "Self explanatory."
+    },
+    "F": {
+        "name": "Building ahead of schedule",
+        "desc": "Self explanatory."
+    },
+    "G": {
+        "name": "Vendor behind schedule",
+        "desc": "Self explanatory."
+    },
+    "H": {
+        "name": "Failed to include in last shipment",
+        "desc": "Self explanatory."
+    },
+    "I": {
+        "name": "Carrier loss claim",
+        "desc": "Self explanatory."
+    },
+    "J": {
+        "name": "Transportation failure",
+        "desc": "Self explanatory."
+    },
+    "K": {
+        "name": "Insufficient weight for carload",
+        "desc": "Self explanatory."
+    },
+    "L": {
+        "name": "Reject or discrepancy (material rejected in prior shipment)",
+        "desc": "Self explanatory."
+    },
+    "M": {
+        "name": "Transportation delay",
+        "desc": "Self explanatory."
+    },
+    "N": {
+        "name": "Lack of railcar or railroad equipment",
+        "desc": "Self explanatory."
+    },
+    "P": {
+        "name": "Releasing error",
+        "desc": "Self explanatory."
+    },
+    "R": {
+        "name": "Record error or cate reported discrepancy report",
+        "desc": "Self explanatory."
+    },
+    "T": {
+        "name": "Common or peculiar part schedule increase",
+        "desc": "Self explanatory."
+    },
+    "U": {
+        "name": "Alternative supplier shipping for responsible supplier",
+        "desc": "Self explanatory."
+    },
+    "V": {
+        "name": "Direct schedule or locally controlled",
+        "desc": "Self explanatory."
+    },
+    "W": {
+        "name": "Purchasing waiver approval",
+        "desc": "Self explanatory."
+    },
+    "X": {
+        "name": "Authorization code to be determined",
+        "desc": "Self explanatory."
+    },
+    "Y": {
+        "name": "Pilot material",
+        "desc": "Self explanatory."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Self explanatory."
+    }
+}

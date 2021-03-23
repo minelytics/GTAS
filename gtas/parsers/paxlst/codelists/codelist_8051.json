@@ -1,0 +1,50 @@
+{
+    "1": {
+        "name": "Inland transport",
+        "desc": "Transport by which goods are moved from or to the frontier, or between inland points."
+    },
+    "2": {
+        "name": "At the statistical territory limit",
+        "desc": "Point by which the means of transport are presumed to have left the statistical territory of despatch or to have entered the statistical territory of arrival."
+    },
+    "10": {
+        "name": "Pre-carriage transport",
+        "desc": "Transport by which the goods are moved prior to their main carriage transport."
+    },
+    "11": {
+        "name": "At border",
+        "desc": "Transport by which goods are moved to the Customs frontier."
+    },
+    "12": {
+        "name": "At departure",
+        "desc": "Transport by which goods are moved from the place of departure."
+    },
+    "13": {
+        "name": "At destination",
+        "desc": "Transport by which goods are moved at the place of destination."
+    },
+    "14": {
+        "name": "At the statistical territory limit",
+        "desc": "Transport by which the goods are presumed to have left the statistical territory of dispatch or have entered the statistical territory of arrival."
+    },
+    "20": {
+        "name": "Main-carriage transport",
+        "desc": "The primary stage in the movement of cargo from the point of origin to the intended destination."
+    },
+    "21": {
+        "name": "Main carriage - first carrier",
+        "desc": "The first carrier of the ordered transport when more than one carrier is involved."
+    },
+    "22": {
+        "name": "Main carriage - second carrier",
+        "desc": "The second carrier of the ordered transport when more than one carrier is involved."
+    },
+    "23": {
+        "name": "Main carriage - third carrier",
+        "desc": "The third carrier of the ordered transport when more than one carrier is involved."
+    },
+    "30": {
+        "name": "On-carriage transport",
+        "desc": "Transport by which the goods are moved after the main- carriage transport."
+    }
+}

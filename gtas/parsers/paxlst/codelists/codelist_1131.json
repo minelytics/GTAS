@@ -1,0 +1,438 @@
+{
+    "12": {
+        "name": "Telephone directory",
+        "desc": "Self explanatory."
+    },
+    "16": {
+        "name": "Postcode directory",
+        "desc": "[3251] Code defining postal zones or addresses."
+    },
+    "23": {
+        "name": "Clearing house automated payment",
+        "desc": "Self explanatory."
+    },
+    "25": {
+        "name": "Bank identification",
+        "desc": "Code for identification of banks."
+    },
+    "35": {
+        "name": "Rail additional charges",
+        "desc": "Self explanatory."
+    },
+    "36": {
+        "name": "Railways networks",
+        "desc": "Self explanatory."
+    },
+    "37": {
+        "name": "Railway locations",
+        "desc": "Code identifying a location in railway environment."
+    },
+    "38": {
+        "name": "Rail customers",
+        "desc": "Self explanatory."
+    },
+    "39": {
+        "name": "Rail unified nomenclature of goods",
+        "desc": "Self explanatory."
+    },
+    "42": {
+        "name": "Business function",
+        "desc": "Self explanatory."
+    },
+    "43": {
+        "name": "Clearing House Interbank Payment System Participants ID",
+        "desc": "Participants identification of the automated clearing house of the New York Clearing House Association (CHIPS)."
+    },
+    "44": {
+        "name": "Clearing House Interbank Payment System Universal ID",
+        "desc": "Universal identification of the automated clearing house of the New York Clearing House Association (CHAPS)."
+    },
+    "52": {
+        "name": "Value added tax identification",
+        "desc": "Value added tax identification code."
+    },
+    "53": {
+        "name": "Passport number",
+        "desc": "Number assigned to a passport."
+    },
+    "54": {
+        "name": "Statistical object",
+        "desc": "A statistical object such as a statistical concept, array structure component or statistical nomenclature."
+    },
+    "55": {
+        "name": "Quality conformance",
+        "desc": "A code list specifying the quality standard a product complies with, e.g. ISO9000, BS5750, etc."
+    },
+    "56": {
+        "name": "Safety regulation",
+        "desc": "A code list specifying the safety regulations which apply to a product, such as UK COSHH (control of substances hazardous to health) regulations."
+    },
+    "57": {
+        "name": "Product code",
+        "desc": "Code assigned to a specific product by a controlling agency."
+    },
+    "58": {
+        "name": "Business account number",
+        "desc": "An identifying number or code assigned by issuing authorities to manage business activities."
+    },
+    "59": {
+        "name": "Railway services harmonized code",
+        "desc": "Services provided by the different railway organizations."
+    },
+    "100": {
+        "name": "Enhanced party identification",
+        "desc": "Self explanatory."
+    },
+    "101": {
+        "name": "Air carrier",
+        "desc": "Self explanatory."
+    },
+    "102": {
+        "name": "Size and type",
+        "desc": "Self explanatory."
+    },
+    "103": {
+        "name": "Call sign directory",
+        "desc": "Self explanatory."
+    },
+    "104": {
+        "name": "Customs area of transaction",
+        "desc": "Customs code to indicate the different types of declarations according to the countries involved in the transaction (e.g. box 1/1 of SAD: inter EC Member States, EC-EFTA, EC-third countries, etc.)."
+    },
+    "105": {
+        "name": "Customs declaration type",
+        "desc": "Customs code to indicate the type of declaration according to the different Customs procedures requested (e.g.: import, export, transit)."
+    },
+    "106": {
+        "name": "Incoterms 1980",
+        "desc": "(4110) Code to indicate applicable Incoterm (1980 edition) under which seller undertakes to deliver merchandise to buyer (ICC). Incoterms 1990: use 4053 only."
+    },
+    "107": {
+        "name": "Excise duty",
+        "desc": "Customs or fiscal authorities code to identify a specific or ad valorem levy on a specific commodity, applied either domestically or at time of importation."
+    },
+    "108": {
+        "name": "Tariff schedule",
+        "desc": "Self explanatory."
+    },
+    "109": {
+        "name": "Customs indicator",
+        "desc": "Customs code for circumstances where only an indication is needed."
+    },
+    "110": {
+        "name": "Customs special codes",
+        "desc": "Customs code to indicate an exemption to a regulation or a special Customs treatment."
+    },
+    "112": {
+        "name": "Statistical nature of transaction",
+        "desc": "Indication of the type of contract under which goods are supplied."
+    },
+    "113": {
+        "name": "Customs office",
+        "desc": "Customs administrative unit competent for the performance of Customs formalities, and the premises or other areas approved for the purpose by the competent authorities (CCC)."
+    },
+    "114": {
+        "name": "Railcar letter marking",
+        "desc": "Codes for all marking codes (in letters) for railcars specifying the type, series, order number, check digit and some technical characteristics."
+    },
+    "115": {
+        "name": "Examination facility",
+        "desc": "Building or location where merchandise is examined by Customs."
+    },
+    "116": {
+        "name": "Customs preference",
+        "desc": "Customs code to identify a specific tariff preference."
+    },
+    "117": {
+        "name": "Customs procedure",
+        "desc": "(9380) Customs code to identify goods which are subject to Customs control (e.g. home use, Customs warehousing, temporary admission, Customs transit)."
+    },
+    "118": {
+        "name": "Government agency procedure",
+        "desc": "Treatment applied by a government agency other than Customs to merchandise under their control."
+    },
+    "119": {
+        "name": "Customs simplified procedure",
+        "desc": "Customs code to indicate the type of simplified Customs procedure requested by a declarant (CCC)."
+    },
+    "120": {
+        "name": "Customs status of goods",
+        "desc": "Customs code to specify the status accorded by Customs to a consignment e.g. release without further formality, present supporting documents for inspection, etc (CCC)."
+    },
+    "121": {
+        "name": "Shipment description",
+        "desc": "Code to indicate whether a shipment is a total, part or split consignment."
+    },
+    "122": {
+        "name": "Commodity",
+        "desc": "(7357) Code identifying types of goods for Customs, transport or statistical purposes (generic term)."
+    },
+    "123": {
+        "name": "Entitlement",
+        "desc": "Code to indicate the recipient of a charge amount (IATA)."
+    },
+    "125": {
+        "name": "Customs transit guarantee",
+        "desc": "Customs code to identify the type of guarantee used in a transit movement."
+    },
+    "126": {
+        "name": "Accounting information identifier",
+        "desc": "Identification of a specific kind of accounting information."
+    },
+    "127": {
+        "name": "Customs valuation method",
+        "desc": "Customs code to identify the valuation method used to determine the dutiable value of the declared goods."
+    },
+    "128": {
+        "name": "Service",
+        "desc": "Identification of services."
+    },
+    "129": {
+        "name": "Customs warehouse",
+        "desc": "Identification and/or location of the Customs warehouse in which goods will be or have been deposited (CCC)."
+    },
+    "130": {
+        "name": "Special handling",
+        "desc": "Code to indicate that the nature of the consignment may necessitate use of special handling procedures (IATA)."
+    },
+    "131": {
+        "name": "Free zone",
+        "desc": "Code identifying the zone within a state where any goods introduced are generally regarded, insofar as import duties and taxes are concerned, as being outside the Customs territory and are not subject to the usual Customs control."
+    },
+    "132": {
+        "name": "Charge",
+        "desc": "Identification of a type of charge."
+    },
+    "133": {
+        "name": "Financial regime",
+        "desc": "Nature and methods of a transaction from financial viewpoint."
+    },
+    "134": {
+        "name": "Duty, tax or fee payment method",
+        "desc": "[4390] Method by which a duty or tax is paid to the relevant administration."
+    },
+    "135": {
+        "name": "Rate class",
+        "desc": "Code to identify a specific rate category."
+    },
+    "136": {
+        "name": "Restrictions/prohibitions on re-use of certain wagons",
+        "desc": "Self explanatory."
+    },
+    "137": {
+        "name": "Rail harmonized codification of tariffs",
+        "desc": "Self explanatory."
+    },
+    "139": {
+        "name": "Port",
+        "desc": "A location having facilities for means of transport to load or discharge cargo."
+    },
+    "140": {
+        "name": "Area",
+        "desc": "Codes for specific geographic areas e.g. seas, straits, basins etc."
+    },
+    "141": {
+        "name": "Forwarding restrictions",
+        "desc": "Self explanatory."
+    },
+    "142": {
+        "name": "Train identification",
+        "desc": "Self explanatory."
+    },
+    "143": {
+        "name": "Removable accessories and special equipment on railcars",
+        "desc": "Self explanatory."
+    },
+    "144": {
+        "name": "Rail routes",
+        "desc": "Self explanatory."
+    },
+    "145": {
+        "name": "Airport/city",
+        "desc": "As described and published by IATA."
+    },
+    "146": {
+        "name": "Means of transport identification",
+        "desc": "Code identifying the name or number of a means of transport (vessel, vehicle)."
+    },
+    "147": {
+        "name": "Document requested by Customs",
+        "desc": "Customs code to identify documents requested by Customs in an information interchange."
+    },
+    "148": {
+        "name": "Customs release notification",
+        "desc": "Authorisation given by Customs to move the goods or not move the goods from the place of registration."
+    },
+    "149": {
+        "name": "Customs transit type",
+        "desc": "Customs code to indicate the different kinds of transit movement of the goods (e.g. Box 1/3 of the SAD)."
+    },
+    "150": {
+        "name": "Financial routing",
+        "desc": "Self explanatory."
+    },
+    "151": {
+        "name": "Locations for tariff calculation",
+        "desc": "Self explanatory."
+    },
+    "152": {
+        "name": "Materials",
+        "desc": "Self explanatory."
+    },
+    "153": {
+        "name": "Methods of payment",
+        "desc": "Identification of methods of payment."
+    },
+    "154": {
+        "name": "Bank branch sorting identification",
+        "desc": "Identification of a specific branch of a bank."
+    },
+    "155": {
+        "name": "Automated clearing house",
+        "desc": "Identification of automated clearing houses."
+    },
+    "156": {
+        "name": "Location of goods",
+        "desc": "(3384) Indication of the place where goods are located and where they are available for examination."
+    },
+    "157": {
+        "name": "Clearing code",
+        "desc": "Identification of the responsible bank/clearing house which has cleared or is ordered to do the clearing."
+    },
+    "158": {
+        "name": "Terms of delivery",
+        "desc": "Code to identify terms of delivery."
+    },
+    "160": {
+        "name": "Party identification",
+        "desc": "Identification of parties, corporates, etc."
+    },
+    "161": {
+        "name": "Goods description",
+        "desc": "Identification of a type of goods description."
+    },
+    "162": {
+        "name": "Country",
+        "desc": "Identification of a country."
+    },
+    "163": {
+        "name": "Country sub-entity",
+        "desc": "(3228) Identification of country sub-entity (region, department, state, province) defined by appropriate authority."
+    },
+    "164": {
+        "name": "Member organizations",
+        "desc": "Identification of member organizations."
+    },
+    "165": {
+        "name": "Amendment code (Customs)",
+        "desc": "Customs code indicating the reason for transmitting an amendment to Customs."
+    },
+    "166": {
+        "name": "Social security identification",
+        "desc": "Code assigned by the authority competent to issue social security identification to identify a person."
+    },
+    "167": {
+        "name": "Tax party identification",
+        "desc": "Code assigned by a tax authority to identify a party."
+    },
+    "168": {
+        "name": "Rail document names",
+        "desc": "Rail specific identifications of documents."
+    },
+    "169": {
+        "name": "Harmonized system",
+        "desc": "Identification of commodities according to the Harmonized System."
+    },
+    "170": {
+        "name": "Bank securities code",
+        "desc": "Self explanatory."
+    },
+    "172": {
+        "name": "Carrier code",
+        "desc": "Self explanatory."
+    },
+    "173": {
+        "name": "Export requirements",
+        "desc": "Identification of requirements and regulations established by relevant authorities concerning exportation."
+    },
+    "174": {
+        "name": "Citizen identification",
+        "desc": "Self explanatory."
+    },
+    "175": {
+        "name": "Account analysis codes",
+        "desc": "Account service charges list."
+    },
+    "176": {
+        "name": "Flow of the goods",
+        "desc": "List of statistical codes covering the movement of the goods to be declared (e.g. despatch, arrival)."
+    },
+    "177": {
+        "name": "Statistical procedures",
+        "desc": "Indication of the statistical procedure to which the goods are subject."
+    },
+    "178": {
+        "name": "Standard text according US embargo regulations",
+        "desc": "US government regulations prescribe specific standard text usage. Using codes from this code list prevents full text transmission."
+    },
+    "179": {
+        "name": "Standard text for export according national prescriptions",
+        "desc": "National export regulations prescribe specific standard text usage. Using codes from this code list prevents full text transmission."
+    },
+    "180": {
+        "name": "Airport terminal",
+        "desc": "Code identifying terminals or other sub-locations at airports."
+    },
+    "181": {
+        "name": "Activity",
+        "desc": "Code identifying activities."
+    },
+    "182": {
+        "name": "Combiterms 1990",
+        "desc": "Code to indicate the applicable Combiterm (1990 edition), used for the purpose of cost distribution between seller according to Incoterms 1990."
+    },
+    "183": {
+        "name": "Dangerous goods packing type",
+        "desc": "Identification of package types for the description related to dangerous goods."
+    },
+    "184": {
+        "name": "Tax assessment method",
+        "desc": "A code to identify the tax assessment method."
+    },
+    "185": {
+        "name": "Item type",
+        "desc": "A code list defining the level of elaboration of a item such as raw material, component, tooling, etc."
+    },
+    "186": {
+        "name": "Product supply condition",
+        "desc": "A code list specifying the rules according to which a product is supplied, e.g. from stock, available on demand, make on order, etc."
+    },
+    "187": {
+        "name": "Supplier's stock turnover",
+        "desc": "A code list giving an indication about the level of the supplier's stock turnover."
+    },
+    "188": {
+        "name": "Article status",
+        "desc": "A code list defining the status of an article from the procurement point of view, e.g. new article, critical article, etc."
+    },
+    "189": {
+        "name": "Quality control code",
+        "desc": "A code list specifying how the article is classified according to the quality control point of view, e.g. safety item, subject to regulation, etc."
+    },
+    "190": {
+        "name": "Item sourcing category",
+        "desc": "A code list to specify details related to the sourcing of the corresponding item such as provided by the buyer, from a mandatory source, etc."
+    },
+    "191": {
+        "name": "Dumping or countervailing assessment method",
+        "desc": "A code to identify the method used to determine the dumping or countervailing duty."
+    },
+    "192": {
+        "name": "Dumping specification",
+        "desc": "Code list to identify types of goods for dumping purposes."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Self explanatory."
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "1": {
+        "name": "ADNR code, OS",
+        "desc": "Description to be provided."
+    },
+    "2": {
+        "name": "ADNR code, 1N",
+        "desc": "Description to be provided."
+    },
+    "3": {
+        "name": "ADNR code, 1S",
+        "desc": "Description to be provided."
+    },
+    "4": {
+        "name": "ADNR code, 2",
+        "desc": "Description to be provided."
+    },
+    "5": {
+        "name": "ADNR code, 3",
+        "desc": "Description to be provided."
+    },
+    "6": {
+        "name": "ADNR code, F",
+        "desc": "Description to be provided."
+    },
+    "7": {
+        "name": "ADNR code, NF",
+        "desc": "Description to be provided."
+    },
+    "8": {
+        "name": "ADNR code, ON",
+        "desc": "Description to be provided."
+    },
+    "9": {
+        "name": "ADNR code, X",
+        "desc": "Description to be provided."
+    }
+}

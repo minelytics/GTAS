@@ -1,0 +1,86 @@
+{
+    "1": {
+        "name": "Barge chemical tanker",
+        "desc": "Self explanatory."
+    },
+    "2": {
+        "name": "Coaster chemical tanker",
+        "desc": "Self explanatory."
+    },
+    "3": {
+        "name": "Dry bulk carrier",
+        "desc": "Self explanatory."
+    },
+    "4": {
+        "name": "Deep sea chemical tanker",
+        "desc": "Self explanatory."
+    },
+    "5": {
+        "name": "Gas tanker",
+        "desc": "Self explanatory."
+    },
+    "6": {
+        "name": "Aircraft",
+        "desc": "Self explanatory."
+    },
+    "9": {
+        "name": "Exceptional transport",
+        "desc": "Transport for which common characteristics are not applicable (e.g. big transformers requiring special wagons, special tackles, special routing etc.)."
+    },
+    "11": {
+        "name": "Ship",
+        "desc": "Self explanatory."
+    },
+    "12": {
+        "name": "Ship tanker",
+        "desc": "Self explanatory."
+    },
+    "13": {
+        "name": "Ocean vessel",
+        "desc": "Self explanatory."
+    },
+    "21": {
+        "name": "Rail tanker",
+        "desc": "Self explanatory."
+    },
+    "22": {
+        "name": "Rail silo tanker",
+        "desc": "Self explanatory."
+    },
+    "23": {
+        "name": "Rail bulk car",
+        "desc": "Self explanatory."
+    },
+    "24": {
+        "name": "Customer rail tanker",
+        "desc": "Description to be provided."
+    },
+    "25": {
+        "name": "Rail express",
+        "desc": "Description to be provided."
+    },
+    "31": {
+        "name": "Truck",
+        "desc": "Self explanatory."
+    },
+    "32": {
+        "name": "Road tanker",
+        "desc": "An over-the-road tank trucker or trailer."
+    },
+    "33": {
+        "name": "Road silo tanker",
+        "desc": "Description to be provided."
+    },
+    "35": {
+        "name": "Truck/trailer with tilt",
+        "desc": "Self explanatory."
+    },
+    "36": {
+        "name": "Pipeline",
+        "desc": "A line of pipes for conveying water, gas, oil, etc."
+    },
+    "37": {
+        "name": "Hydrant cart",
+        "desc": "Vehicle used at large airports with installed distribution systems to make into-plane deliveries of fuel; distinguished from other types of fuelling vehicles."
+    }
+}

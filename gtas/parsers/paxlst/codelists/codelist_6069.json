@@ -1,0 +1,118 @@
+{
+    "1": {
+        "name": "Algebraic total of the quantity values in line items in a message",
+        "desc": "Self-explanatory."
+    },
+    "2": {
+        "name": "Number of line items in message",
+        "desc": "Self-explanatory."
+    },
+    "3": {
+        "name": "Number of line and sub items in message",
+        "desc": "Description to be provided."
+    },
+    "4": {
+        "name": "Number of invoice lines",
+        "desc": "Number of lines on an invoice."
+    },
+    "5": {
+        "name": "Number of Customs item detail lines",
+        "desc": "Total number of occurrences of the Customs item detail section within a single Customs declaration message."
+    },
+    "6": {
+        "name": "Number of Customs entries",
+        "desc": "Number of entries which are subject to the same Customs procedures, and have the same tariff or statistical heading, country and duty regime."
+    },
+    "7": {
+        "name": "Total gross weight",
+        "desc": "Code to indicate total gross weight of a consignment."
+    },
+    "8": {
+        "name": "Total pieces",
+        "desc": "Self explanatory."
+    },
+    "9": {
+        "name": "Total number of ULD (Unit Load Device)",
+        "desc": "The total number of Unit Load Devices mentioned in the message."
+    },
+    "10": {
+        "name": "Total number of consignments",
+        "desc": "The total number of consignments."
+    },
+    "11": {
+        "name": "Total number of packages",
+        "desc": "[7370] Total number of packages of the entire consignment."
+    },
+    "12": {
+        "name": "Invoice total amount",
+        "desc": "[5444] Total sum charged in respect of one or more Invoices in accordance with the terms of delivery."
+    },
+    "13": {
+        "name": "Number of loading lists",
+        "desc": "[1166] Number of loading lists, manifests or other similar specifications attached to a document."
+    },
+    "14": {
+        "name": "Number of Customs commercial detail lines",
+        "desc": "Commercial detail section within a single Customs declaration message."
+    },
+    "15": {
+        "name": "Total consignment, cube",
+        "desc": "The total cube of consignment."
+    },
+    "16": {
+        "name": "Total number of equipment",
+        "desc": "Total number of equipment mentioned in the message."
+    },
+    "17": {
+        "name": "Declared total Customs value",
+        "desc": "[5070] Total value declared for Customs purposes of all goods in a consignment, whether or not they are subject to the same Customs procedure, or have the same tariff/statistical heading, country information, and duty regime."
+    },
+    "18": {
+        "name": "Total reported quantity in net weight",
+        "desc": "Total reported quantity in net weight."
+    },
+    "19": {
+        "name": "Total reported quantity in supplementary units",
+        "desc": "Total reported quantity in supplementary units."
+    },
+    "20": {
+        "name": "Total reported invoice(s) value",
+        "desc": "Hash total of the total monetary amounts reported on the invoices."
+    },
+    "21": {
+        "name": "Total reported ancillary costs",
+        "desc": "Hash total of the reported total extra costs (e.g. carriage, freight, insurance) of all invoices."
+    },
+    "22": {
+        "name": "Total reported statistical value",
+        "desc": "The total reported statistical value."
+    },
+    "23": {
+        "name": "Total ordered quantity",
+        "desc": "Total quantity ordered in this message."
+    },
+    "24": {
+        "name": "Number of orders referenced in this message",
+        "desc": "Total number of order messages or documents referenced in this message."
+    },
+    "25": {
+        "name": "Number of rejected order lines",
+        "desc": "Total number of rejected order lines in this message."
+    },
+    "26": {
+        "name": "Total gross measurement/cube",
+        "desc": "Total gross cubic measurement of the goods, including packing but excluding transport equipment."
+    },
+    "27": {
+        "name": "Total number of credit items given for control purposes",
+        "desc": "Total number of credit items given for control purposes."
+    },
+    "28": {
+        "name": "Total number of debit items given for control purposes",
+        "desc": "Total number of debit items given for control purposes."
+    },
+    "29": {
+        "name": "Total net weight of consignment",
+        "desc": "A code to indicate the total net weight of a consignment."
+    }
+}

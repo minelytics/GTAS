@@ -1,0 +1,90 @@
+{
+    "1S": {
+        "name": "Side one",
+        "desc": "Self explanatory."
+    },
+    "2S": {
+        "name": "Side two",
+        "desc": "Self explanatory."
+    },
+    "AA": {
+        "name": "On surface",
+        "desc": "To indicate that the entity being specified is on the surface."
+    },
+    "AB": {
+        "name": "Off surface",
+        "desc": "To indicate that the entity being specified is off the surface."
+    },
+    "AC": {
+        "name": "Soluble",
+        "desc": "Specifies that the surface/layer/position being described is the soluble portion."
+    },
+    "BC": {
+        "name": "Back of cab",
+        "desc": "Self explanatory."
+    },
+    "BS": {
+        "name": "Both sides",
+        "desc": "Self explanatory."
+    },
+    "BT": {
+        "name": "Bottom",
+        "desc": "Self explanatory."
+    },
+    "DF": {
+        "name": "Dual fuel tank positions",
+        "desc": "Self explanatory."
+    },
+    "FR": {
+        "name": "Front",
+        "desc": "Self explanatory."
+    },
+    "IN": {
+        "name": "Inside",
+        "desc": "Self explanatory."
+    },
+    "LE": {
+        "name": "Left",
+        "desc": "Self explanatory."
+    },
+    "OA": {
+        "name": "Overall",
+        "desc": "Self explanatory."
+    },
+    "OS": {
+        "name": "One side",
+        "desc": "Self explanatory."
+    },
+    "OT": {
+        "name": "Outside",
+        "desc": "Self explanatory."
+    },
+    "RI": {
+        "name": "Right",
+        "desc": "Self explanatory."
+    },
+    "RR": {
+        "name": "Rear",
+        "desc": "Self explanatory."
+    },
+    "ST": {
+        "name": "Spare tyre position",
+        "desc": "Self explanatory."
+    },
+    "TB": {
+        "name": "Tank bottom",
+        "desc": "Self explanatory."
+    },
+    "TP": {
+        "name": "Top",
+        "desc": "Self explanatory."
+    },
+    "TS": {
+        "name": "Two sides",
+        "desc": "Self explanatory."
+    },
+    "UC": {
+        "name": "Under cab",
+        "desc": "Self explanatory."
+    }
+}

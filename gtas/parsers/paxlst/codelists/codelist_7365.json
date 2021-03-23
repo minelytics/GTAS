@@ -1,0 +1,246 @@
+{
+    "1": {
+        "name": "Message content accepted",
+        "desc": "Content of message is accepted."
+    },
+    "2": {
+        "name": "Message content rejected with comment",
+        "desc": "Content of message is rejected, with comment."
+    },
+    "3": {
+        "name": "Message content rejected without comment",
+        "desc": "Content of message is rejected, without comment."
+    },
+    "4": {
+        "name": "Goods released",
+        "desc": "Specified goods have been released from Customs control."
+    },
+    "5": {
+        "name": "Goods required for examination",
+        "desc": "Specified goods are required for examination."
+    },
+    "6": {
+        "name": "All documents or as specified to be produced",
+        "desc": "All document, or documents as specified, to be produced."
+    },
+    "7": {
+        "name": "Goods detained",
+        "desc": "Specified goods are detained."
+    },
+    "8": {
+        "name": "Goods may move under Customs transfer",
+        "desc": "Specified goods may move under Customs transfer."
+    },
+    "9": {
+        "name": "Declaration accepted awaiting goods arrival",
+        "desc": "Goods declaration is accepted, awaiting goods arrival."
+    },
+    "10": {
+        "name": "Declaration requested",
+        "desc": "Declaration is requested."
+    },
+    "11": {
+        "name": "Pre-entry information",
+        "desc": "Information for pre-entry of a goods declaration."
+    },
+    "12": {
+        "name": "Sender not allowed the message type",
+        "desc": "The sender is not allowed to send the message type which was sent."
+    },
+    "13": {
+        "name": "Message type not supported",
+        "desc": "The message type is not supported by the recipient."
+    },
+    "14": {
+        "name": "Error message",
+        "desc": "Message conveys information on an error."
+    },
+    "15": {
+        "name": "Response after correction, correction approved",
+        "desc": "Response after correction; correction has been approved."
+    },
+    "16": {
+        "name": "Response after correction, correction non approved",
+        "desc": "Response after correction; correction has not been approved."
+    },
+    "17": {
+        "name": "Message received",
+        "desc": "Message has been received."
+    },
+    "18": {
+        "name": "Request for clearance",
+        "desc": "Request for clearance of the goods."
+    },
+    "19": {
+        "name": "Bulk goods",
+        "desc": "Goods are in bulk."
+    },
+    "20": {
+        "name": "Cash payment deferred",
+        "desc": "Commercial transaction will be paid by cash within a prescribed time frame."
+    },
+    "21": {
+        "name": "Unsolicited text",
+        "desc": "Text is not solicited."
+    },
+    "22": {
+        "name": "Export",
+        "desc": "Goods are being taken out of the Customs territory."
+    },
+    "23": {
+        "name": "Import",
+        "desc": "Goods are being taken into a Customs territory."
+    },
+    "24": {
+        "name": "Transit",
+        "desc": "Goods are transported under Customs control from one Customs office to another."
+    },
+    "25": {
+        "name": "Prohibited/restricted goods",
+        "desc": "Goods are prohibited or restricted from import, export or transit by authority of Customs or another authority."
+    },
+    "26": {
+        "name": "Container quarantine",
+        "desc": "(4412) Specification of the status of the goods and of the transport equipment (container) and any packaging/dunnage with respect to quarantine restrictions."
+    },
+    "27": {
+        "name": "Onward carriage: immediate export",
+        "desc": "Movement type indicator: goods are being immediately taken out of the Customs territory."
+    },
+    "28": {
+        "name": "Transhipment",
+        "desc": "Goods are / are not to be transhipped at place of discharge/transhipment place."
+    },
+    "29": {
+        "name": "Onward carriage: inland clearance",
+        "desc": "Movement type indicator: goods are to move under Customs control to a Customs office where Customs formalities will be completed."
+    },
+    "30": {
+        "name": "Transaction will not be processed until action is taken by sender",
+        "desc": "Self-explanatory."
+    },
+    "31": {
+        "name": "Transaction cannot be processed by the recipient",
+        "desc": "Due to unknown reasons the transaction cannot be processed."
+    },
+    "32": {
+        "name": "Transaction accepted",
+        "desc": "This transaction is accepted by the recipient application and is a single transaction within a multiple transaction message."
+    },
+    "33": {
+        "name": "Transaction rejected",
+        "desc": "This transaction is rejected by the recipient application and is a single transaction within a multiple transaction message."
+    },
+    "34": {
+        "name": "Transaction awaiting processing",
+        "desc": "This transaction is waiting to be processed by the recipient application and is a single transaction within a multiple transaction message."
+    },
+    "35": {
+        "name": "Transaction unknown",
+        "desc": "This transaction is unknown by the recipient application and is a single transaction within a multiple transaction message."
+    },
+    "36": {
+        "name": "Changed information",
+        "desc": "Processing of information to note that only changes to existing data are transmitted."
+    },
+    "37": {
+        "name": "Complete information",
+        "desc": "Processing of information to note that complete data details (not just changes) are transmitted."
+    },
+    "38": {
+        "name": "Manual procedures",
+        "desc": "An automated process to revert to manual procedures."
+    },
+    "39": {
+        "name": "Unrestow",
+        "desc": "Reversal of a significant intentional restowage of cargo."
+    },
+    "40": {
+        "name": "Seal intact",
+        "desc": "Container seal is intact prior to unpacking."
+    },
+    "41": {
+        "name": "Seal not intact",
+        "desc": "Container seal is not intact prior to unpacking."
+    },
+    "42": {
+        "name": "Container equipment not damaged",
+        "desc": "Container equipment is not damaged."
+    },
+    "43": {
+        "name": "Container equipment damaged",
+        "desc": "Container equipment is damaged."
+    },
+    "44": {
+        "name": "Status of message",
+        "desc": "Processing based on message status."
+    },
+    "45": {
+        "name": "Beneficiary's account number unknown",
+        "desc": "The account number of the beneficiary is unknown."
+    },
+    "46": {
+        "name": "Payee's account number unknown",
+        "desc": "The account number of the payee is unknown."
+    },
+    "47": {
+        "name": "Payor' account number unknown",
+        "desc": "The account number of the payor is unknown."
+    },
+    "48": {
+        "name": "Correspondent bank not possible",
+        "desc": "The correspondent bank is not a possible one."
+    },
+    "49": {
+        "name": "Execution date not possible",
+        "desc": "The execution date cannot be met."
+    },
+    "50": {
+        "name": "Value date not possible",
+        "desc": "The value date cannot be met."
+    },
+    "51": {
+        "name": "Currency code not possible",
+        "desc": "The currency code does not exist."
+    },
+    "52": {
+        "name": "Invalid decimal number",
+        "desc": "The decimal number is not valid."
+    },
+    "53": {
+        "name": "Orders executed (on)",
+        "desc": "Confirmation that the orders have been executed."
+    },
+    "54": {
+        "name": "Transaction(s) effected and advised (on)",
+        "desc": "Confirmation that the transaction(s) has(ve) been effected and advised."
+    },
+    "55": {
+        "name": "Not yet debited",
+        "desc": "The amount(s) has(ve) not yet been debited."
+    },
+    "56": {
+        "name": "Beneficiary is unable to identify the transaction",
+        "desc": "The transaction cannot be identified by the beneficiary."
+    },
+    "57": {
+        "name": "Restowage of cargo",
+        "desc": "Intentional or unintentional restowage of cargo."
+    },
+    "58": {
+        "name": "Onward carriage: sea clearance",
+        "desc": "Movement type indicator: goods are to move under customs control, by sea, to a customs office where formalities will be completed."
+    },
+    "59": {
+        "name": "Perishable goods",
+        "desc": "Cargo is perishable."
+    },
+    "60": {
+        "name": "Fumigation",
+        "desc": "Cargo has been fumigated."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Mutually defined indicator."
+    }
+}

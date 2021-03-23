@@ -1,0 +1,10 @@
+{
+    "AA": {
+        "name": "Reference",
+        "desc": "Recipient's reference/password is a reference."
+    },
+    "BB": {
+        "name": "Password",
+        "desc": "Recipient's reference/password is a password."
+    }
+}

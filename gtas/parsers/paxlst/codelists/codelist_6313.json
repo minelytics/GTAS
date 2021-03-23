@@ -1,0 +1,858 @@
+{
+    "A": {
+        "name": "Consolidated weight",
+        "desc": "Description to be provided."
+    },
+    "AAA": {
+        "name": "Unit net weight",
+        "desc": "[6160] Weight (mass) of goods including any packing normally going with them to a buyer in a retail sale."
+    },
+    "AAB": {
+        "name": "Unit gross weight",
+        "desc": "[6292] Weight (mass) of goods including packing but excluding the carrier's equipment."
+    },
+    "AAC": {
+        "name": "Total net weight",
+        "desc": "Self explanatory."
+    },
+    "AAD": {
+        "name": "Total gross weight",
+        "desc": "[6292] Weight (mass) of goods including packing but excluding the carrier's equipment."
+    },
+    "AAE": {
+        "name": "Item gross weight",
+        "desc": "Gross weight at line item level."
+    },
+    "AAF": {
+        "name": "Net net weight",
+        "desc": "[6048] Weight (mass) of the goods themselves without any packing."
+    },
+    "AAG": {
+        "name": "Gross weight (item level)",
+        "desc": "Self explanatory."
+    },
+    "AAH": {
+        "name": "Customs line item measurement",
+        "desc": "Description to be provided."
+    },
+    "AAI": {
+        "name": "Visa quantity",
+        "desc": "Measurement reportable for visaed merchandise."
+    },
+    "AAL": {
+        "name": "Net weight",
+        "desc": "[6160] Weight (mass) of goods including any packing normally going with them to a buyer in a retail sale."
+    },
+    "AAM": {
+        "name": "Gross tonnage of the vessel",
+        "desc": "[6300] The measure of the overall size of a ship determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969."
+    },
+    "AAN": {
+        "name": "Net tonnage of the vessel",
+        "desc": "[6302] The measure of the useful capacity of a ship determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969."
+    },
+    "AAO": {
+        "name": "Humidity",
+        "desc": "Self-explanatory."
+    },
+    "AAP": {
+        "name": "Voltage",
+        "desc": "Self-explanatory."
+    },
+    "AAQ": {
+        "name": "Power consumption",
+        "desc": "Value of energy consumption."
+    },
+    "AAR": {
+        "name": "Heat dissipation",
+        "desc": "Self-explanatory."
+    },
+    "AAS": {
+        "name": "Air flow",
+        "desc": "Self-explanatory."
+    },
+    "AAT": {
+        "name": "Shock impact",
+        "desc": "Self-explanatory."
+    },
+    "AAU": {
+        "name": "Operative temperature",
+        "desc": "Temperature identified system or process works according to specifications."
+    },
+    "AAV": {
+        "name": "Non operative temperature",
+        "desc": "Temperature identified system or process does not work according to specifications."
+    },
+    "AAW": {
+        "name": "Gross volume",
+        "desc": "The observed volume unadjusted for factors such as temperature or gravity."
+    },
+    "AAX": {
+        "name": "Net volume",
+        "desc": "The observed volume after adjustment for factors such as temperature or gravity."
+    },
+    "AAY": {
+        "name": "Water content",
+        "desc": "Water content in product."
+    },
+    "AAZ": {
+        "name": "Tensile stress",
+        "desc": "Self explanatory."
+    },
+    "ABA": {
+        "name": "Fibrosity",
+        "desc": "Self explanatory."
+    },
+    "ABB": {
+        "name": "Gauge length",
+        "desc": "Self explanatory."
+    },
+    "ABC": {
+        "name": "Radius",
+        "desc": "Self explanatory."
+    },
+    "ABD": {
+        "name": "Straightness",
+        "desc": "Straightness of the item."
+    },
+    "ABE": {
+        "name": "Strain",
+        "desc": "Self explanatory."
+    },
+    "ABF": {
+        "name": "Test piece dimensions",
+        "desc": "The size of the test piece that was tested."
+    },
+    "ABG": {
+        "name": "Average reading",
+        "desc": "Average reading of the test being reported on."
+    },
+    "ABH": {
+        "name": "External dimension",
+        "desc": "The outer measurement of the referenced item or package."
+    },
+    "ABI": {
+        "name": "Internal dimension",
+        "desc": "The inner measurement of the referenced item or package."
+    },
+    "ABJ": {
+        "name": "Volume",
+        "desc": "The amount of air space taken up by the entity identified in the 6311 qualifier."
+    },
+    "ABK": {
+        "name": "Loading meter",
+        "desc": "A measurement dimension given in loading meters."
+    },
+    "ABL": {
+        "name": "Retail container dimension",
+        "desc": "Single physical dimension of a retail container."
+    },
+    "ABM": {
+        "name": "Retail container size",
+        "desc": "Size of a retail container in terms of volume."
+    },
+    "ABN": {
+        "name": "Other US Government agency application",
+        "desc": "Application of an other US government agency."
+    },
+    "ABO": {
+        "name": "Measurement",
+        "desc": "[6314] Value of the measured unit."
+    },
+    "ABQ": {
+        "name": "Percentage of alcohol (by volume)",
+        "desc": "The percentage of alcohol contained in a liquid."
+    },
+    "ABR": {
+        "name": "Dimensions total weight",
+        "desc": "Total weight resulting from the dimensions."
+    },
+    "ABS": {
+        "name": "Item weight",
+        "desc": "Weight at line item level."
+    },
+    "ABU": {
+        "name": "Licence (quantity deducted)",
+        "desc": "Quantity to be written off from the total license amount."
+    },
+    "ABV": {
+        "name": "Cargo loaded",
+        "desc": "Total tonnage of cargo loaded onto the conveyance."
+    },
+    "ABW": {
+        "name": "Cargo discharged",
+        "desc": "Total tonnage of cargo unloaded from the conveyance."
+    },
+    "ABX": {
+        "name": "Weight of conveyance",
+        "desc": "Tonnage of conveyance."
+    },
+    "ABY": {
+        "name": "Conveyance summer dead weight",
+        "desc": "Registered summer dead weight total tonnage of the vessel."
+    },
+    "ABZ": {
+        "name": "Containerized cargo on vessel's weight",
+        "desc": "Total weight of containerized cargo on vessel."
+    },
+    "ACA": {
+        "name": "Non-containerized cargo on vessel's weight",
+        "desc": "Total weight of non-containerized cargo on vessel."
+    },
+    "ACB": {
+        "name": "1st specified tariff quantity",
+        "desc": "Primary reportable quantity associated with a tariff number."
+    },
+    "ACC": {
+        "name": "2nd specified tariff quantity",
+        "desc": "Secondary reportable quantity associated with a tariff number."
+    },
+    "ACD": {
+        "name": "3rd specified tariff quantity",
+        "desc": "Third reportable quantity associated with a tariff number."
+    },
+    "ACE": {
+        "name": "Weight ascertained",
+        "desc": "[4240] Endorsement of the true weight (mass) as ascertained or verified by the railway (CIM 81)."
+    },
+    "ACF": {
+        "name": "Chemistry",
+        "desc": "Measurement related to a chemical measurement system."
+    },
+    "ACG": {
+        "name": "Chargeable weight",
+        "desc": "The weight on which charges are based."
+    },
+    "ACH": {
+        "name": "Core notch dimensions",
+        "desc": "Dimensions of a core notch."
+    },
+    "ACI": {
+        "name": "Core size",
+        "desc": "A measurement indicating the core size of an object."
+    },
+    "ACJ": {
+        "name": "Decision result value",
+        "desc": "A measurement in relation to value representing a decision result."
+    },
+    "ACK": {
+        "name": "Dimensional tolerance",
+        "desc": "Tolerance in relation to a dimension."
+    },
+    "ACL": {
+        "name": "Discrete measurement value",
+        "desc": "Value of a discrete measurement."
+    },
+    "ACM": {
+        "name": "Dimension used in price extension",
+        "desc": "Dimension used in relation to a price."
+    },
+    "ACN": {
+        "name": "Estimated gross weight",
+        "desc": "Estimated weight (mass) of goods, including packing and excluding carrier's."
+    },
+    "ACO": {
+        "name": "Environmental conditions",
+        "desc": "The data values to be reported reflect the environmental conditions surrounding a situation including but not limited to test environments."
+    },
+    "ACP": {
+        "name": "Estimated volume",
+        "desc": "Estimated size or measure of anything in three dimensions."
+    },
+    "ACQ": {
+        "name": "Footage",
+        "desc": "Length measurement in feet."
+    },
+    "ACR": {
+        "name": "Interpolated value",
+        "desc": "A value interpolated from a number of values."
+    },
+    "ACS": {
+        "name": "Vessel overall length",
+        "desc": "Total overall length of the vessel."
+    },
+    "ACT": {
+        "name": "Limited coil measurement",
+        "desc": "Value limiting the measurement of a coil."
+    },
+    "ACU": {
+        "name": "Lift limitation",
+        "desc": "A measurement indicating the lift capacity limitation."
+    },
+    "ACV": {
+        "name": "Loading meters",
+        "desc": "The length in a vehicle, whereby the complete width and height over that length is needed for the goods."
+    },
+    "ACW": {
+        "name": "Number of axles",
+        "desc": "Number of axles of movable equipment or means of transport on wheels."
+    },
+    "ACX": {
+        "name": "Payload",
+        "desc": "The revenue-producing load carried by a means of transport."
+    },
+    "ACY": {
+        "name": "Parting cut (sawcut)",
+        "desc": "A measurement related to the cutting of items."
+    },
+    "ACZ": {
+        "name": "Physical dimensions",
+        "desc": "A measurement indicating the physical dimensions of an object."
+    },
+    "ADA": {
+        "name": "Package limitations",
+        "desc": "A measurement indicating limitation associated with packages."
+    },
+    "ADB": {
+        "name": "Platform limitation",
+        "desc": "A measurement indicating limitation in relation to a platform."
+    },
+    "ADC": {
+        "name": "Receiving facility limitations",
+        "desc": "A measurement indicating limitations in relation to a receiving facility."
+    },
+    "ADD": {
+        "name": "Property specification",
+        "desc": "Indicates that the data to follow are target specifications."
+    },
+    "ADE": {
+        "name": "Shipping tolerance",
+        "desc": "A measurement indicating a tolerance in relation to the transport."
+    },
+    "ADF": {
+        "name": "Shade",
+        "desc": "A measurement in relation to the shade."
+    },
+    "ADG": {
+        "name": "Storage limitation",
+        "desc": "A measurement indicating limitation in relation to storage."
+    },
+    "ADH": {
+        "name": "Surface roughness",
+        "desc": "A measurement indicating surface roughness."
+    },
+    "ADI": {
+        "name": "Surface treatment",
+        "desc": "A measurement in relation to surface treatment."
+    },
+    "ADJ": {
+        "name": "Surface",
+        "desc": "A measurement in relation a surface."
+    },
+    "ADK": {
+        "name": "Specification value",
+        "desc": "A measurable item characteristic specified by the buyer, seller or third party."
+    },
+    "ADL": {
+        "name": "Transportation equipment limitations",
+        "desc": "A measurement indicating limitations in relation to transport equipment."
+    },
+    "ADM": {
+        "name": "Test result",
+        "desc": "Indicates that the data to follow is the test result measurements."
+    },
+    "ADN": {
+        "name": "Time used in price extension",
+        "desc": "Time value in relation to a price."
+    },
+    "ADO": {
+        "name": "Observed value",
+        "desc": "The reported test result which includes measurement variability."
+    },
+    "ADP": {
+        "name": "True value",
+        "desc": "The reported test result with the measurement variability removed."
+    },
+    "ADQ": {
+        "name": "Weight used in price extension",
+        "desc": "A weight measurement in relation to a price."
+    },
+    "ADR": {
+        "name": "Start position in the length",
+        "desc": "The starting position from the beginning of an item located in the length direction."
+    },
+    "ADS": {
+        "name": "End position in the length",
+        "desc": "The end position from the beginning of an item located in the length direction."
+    },
+    "ADT": {
+        "name": "Start position in the width",
+        "desc": "The start position from the beginning of an item located in the width direction."
+    },
+    "ADU": {
+        "name": "End position in the width",
+        "desc": "The end position from the beginning of an item located in the width direction."
+    },
+    "ADV": {
+        "name": "Start position in the thickness",
+        "desc": "The start position from the beginning of an item located in the thickness direction."
+    },
+    "ADW": {
+        "name": "End position in the thickness",
+        "desc": "The end position from the beginning of an item located in the thickness direction."
+    },
+    "AF": {
+        "name": "Angle of bend",
+        "desc": "Self explanatory."
+    },
+    "B": {
+        "name": "Billed weight",
+        "desc": "Self explanatory."
+    },
+    "BL": {
+        "name": "Breaking load",
+        "desc": "Description to be provided."
+    },
+    "BND": {
+        "name": "Bands",
+        "desc": "Description to be provided."
+    },
+    "BR": {
+        "name": "Brightness",
+        "desc": "Self explanatory."
+    },
+    "BRA": {
+        "name": "Brakes",
+        "desc": "Description to be provided."
+    },
+    "BRE": {
+        "name": "Break",
+        "desc": "Description to be provided."
+    },
+    "BS": {
+        "name": "Breaking strength",
+        "desc": "Self explanatory."
+    },
+    "BSW": {
+        "name": "Breaking strength wet",
+        "desc": "Self explanatory."
+    },
+    "BW": {
+        "name": "Basis weight",
+        "desc": "Description to be provided."
+    },
+    "CHN": {
+        "name": "Change",
+        "desc": "Description to be provided."
+    },
+    "CM": {
+        "name": "Color",
+        "desc": "Self explanatory."
+    },
+    "CT": {
+        "name": "Contents of package",
+        "desc": "In combination with the other data elements of the actual segment this code indicates the measured content of a package."
+    },
+    "CV": {
+        "name": "Commercial weight",
+        "desc": "Item weight considering its maximum possible humidity."
+    },
+    "CZ": {
+        "name": "Core length",
+        "desc": "To specify length of core (of spod/babbin etc.) on which product is to be placed."
+    },
+    "D": {
+        "name": "Destination weight agreement",
+        "desc": "The agreed weight of despatched goods whose weight may change during transport."
+    },
+    "DI": {
+        "name": "Diameter",
+        "desc": "Diameter of an article."
+    },
+    "DL": {
+        "name": "Delta value L",
+        "desc": "Description to be provided."
+    },
+    "DN": {
+        "name": "Density",
+        "desc": "Self explanatory."
+    },
+    "DP": {
+        "name": "Depth",
+        "desc": "Self explanatory."
+    },
+    "DR": {
+        "name": "Denier",
+        "desc": "Description to be provided."
+    },
+    "DS": {
+        "name": "Distance between points",
+        "desc": "Self explanatory."
+    },
+    "DW": {
+        "name": "Width, boxcar door",
+        "desc": "Self explanatory."
+    },
+    "E": {
+        "name": "Estimated new weight",
+        "desc": "Self explanatory."
+    },
+    "EA": {
+        "name": "Elongation",
+        "desc": "Self explanatory."
+    },
+    "F": {
+        "name": "Deficit weight",
+        "desc": "Description to be provided."
+    },
+    "FI": {
+        "name": "Filament count",
+        "desc": "Used e.g. in textile, print industries."
+    },
+    "FL": {
+        "name": "Longitudinal flatness",
+        "desc": "Self explanatory."
+    },
+    "FN": {
+        "name": "Flatness",
+        "desc": "Self explanatory."
+    },
+    "FV": {
+        "name": "Transverse flatness",
+        "desc": "Self explanatory."
+    },
+    "G": {
+        "name": "Gross weight",
+        "desc": "[6292] Weight (mass) of goods including packing but excluding the carrier's equipment."
+    },
+    "GG": {
+        "name": "Gauge",
+        "desc": "Self explanatory."
+    },
+    "GW": {
+        "name": "Gross weight, maximum",
+        "desc": "Self explanatory."
+    },
+    "HF": {
+        "name": "Hardness",
+        "desc": "Self explanatory."
+    },
+    "HM": {
+        "name": "Height, maximum",
+        "desc": "Self explanatory."
+    },
+    "HT": {
+        "name": "Height dimension",
+        "desc": "Numeric value of height."
+    },
+    "IB": {
+        "name": "Impact energy",
+        "desc": "Self explanatory."
+    },
+    "ID": {
+        "name": "Inside diameter",
+        "desc": "Self explanatory."
+    },
+    "L": {
+        "name": "Legal weight",
+        "desc": "Self explanatory."
+    },
+    "LM": {
+        "name": "Length, maximum",
+        "desc": "Self explanatory."
+    },
+    "LN": {
+        "name": "Length dimension",
+        "desc": "(6168) Length of pieces or packages stated for transport purposes."
+    },
+    "LND": {
+        "name": "Lost end",
+        "desc": "Description to be provided."
+    },
+    "M": {
+        "name": "Minimum weight",
+        "desc": "Self explanatory."
+    },
+    "MO": {
+        "name": "Moisture",
+        "desc": "Measurement application is the moisture content of the item."
+    },
+    "MW": {
+        "name": "Maximum weight",
+        "desc": "Self explanatory."
+    },
+    "N": {
+        "name": "Actual net weight",
+        "desc": "Self explanatory."
+    },
+    "OD": {
+        "name": "Outside diameter",
+        "desc": "Self explanatory."
+    },
+    "PRS": {
+        "name": "Pre stretch",
+        "desc": "Description to be provided."
+    },
+    "PTN": {
+        "name": "Per tonne",
+        "desc": "Self explanatory."
+    },
+    "RA": {
+        "name": "Relative humidity",
+        "desc": "Self explanatory."
+    },
+    "RF": {
+        "name": "Resistivity",
+        "desc": "Description to be provided."
+    },
+    "RJ": {
+        "name": "Rockwell C",
+        "desc": "Hardness in the Rockwell C scale."
+    },
+    "RMW": {
+        "name": "Ream weight",
+        "desc": "Measurement indication for paper."
+    },
+    "RP": {
+        "name": "Reduction of area",
+        "desc": "Self explanatory."
+    },
+    "RUN": {
+        "name": "Run (process)",
+        "desc": "Description to be provided."
+    },
+    "RY": {
+        "name": "Ratio",
+        "desc": "Self explanatory."
+    },
+    "SQ": {
+        "name": "Shipped quantity",
+        "desc": "Self explanatory."
+    },
+    "T": {
+        "name": "Tare weight",
+        "desc": "Self explanatory."
+    },
+    "TC": {
+        "name": "Temperature",
+        "desc": "A measurement in relation to temperature."
+    },
+    "TH": {
+        "name": "Thickness",
+        "desc": "Self explanatory."
+    },
+    "TN": {
+        "name": "Time period",
+        "desc": "Self explanatory."
+    },
+    "TT": {
+        "name": "Time",
+        "desc": "Self explanatory."
+    },
+    "U": {
+        "name": "Weight per unit",
+        "desc": "[6150] Numeric value of weight."
+    },
+    "VH": {
+        "name": "Height, van door",
+        "desc": "Self explanatory."
+    },
+    "VW": {
+        "name": "Width, van door",
+        "desc": "Self explanatory."
+    },
+    "WA": {
+        "name": "Weight per unit of area",
+        "desc": "Self explanatory."
+    },
+    "WD": {
+        "name": "Width dimension",
+        "desc": "Numeric value of width."
+    },
+    "WM": {
+        "name": "Width, maximum",
+        "desc": "Self explanatory."
+    },
+    "WT": {
+        "name": "Weight",
+        "desc": "[6150] Numeric value of weight."
+    },
+    "WU": {
+        "name": "Weight per unit of length",
+        "desc": "Self explanatory."
+    },
+    "XH": {
+        "name": "Side height, flat bed with removable sides",
+        "desc": "Self explanatory."
+    },
+    "XQ": {
+        "name": "Squareness",
+        "desc": "Self explanatory."
+    },
+    "XZ": {
+        "name": "Spool size",
+        "desc": "Self explanatory."
+    },
+    "YS": {
+        "name": "Yield stress",
+        "desc": "Self explanatory."
+    },
+    "ZAL": {
+        "name": "Aluminium",
+        "desc": "Self explanatory."
+    },
+    "ZAS": {
+        "name": "Arsenic",
+        "desc": "Self explanatory."
+    },
+    "ZB": {
+        "name": "Boron",
+        "desc": "Self explanatory."
+    },
+    "ZBI": {
+        "name": "Bismuth",
+        "desc": "Self explanatory."
+    },
+    "ZC": {
+        "name": "Carbon",
+        "desc": "Self explanatory."
+    },
+    "ZCA": {
+        "name": "Calcium",
+        "desc": "Self explanatory."
+    },
+    "ZCB": {
+        "name": "Columbium",
+        "desc": "Self explanatory."
+    },
+    "ZCE": {
+        "name": "Cerium",
+        "desc": "Self explanatory."
+    },
+    "ZCL": {
+        "name": "Chlorine",
+        "desc": "Self explanatory."
+    },
+    "ZCO": {
+        "name": "Cobalt",
+        "desc": "Self explanatory."
+    },
+    "ZCR": {
+        "name": "Chromium",
+        "desc": "Self explanatory."
+    },
+    "ZCU": {
+        "name": "Copper",
+        "desc": "Self explanatory."
+    },
+    "ZFE": {
+        "name": "Iron",
+        "desc": "Self explanatory."
+    },
+    "ZFS": {
+        "name": "Iron plus silicon",
+        "desc": "Self explanatory."
+    },
+    "ZGE": {
+        "name": "Germanium",
+        "desc": "Self explanatory."
+    },
+    "ZH": {
+        "name": "Hydrogen",
+        "desc": "Self explanatory."
+    },
+    "ZK": {
+        "name": "Potassium",
+        "desc": "Self explanatory."
+    },
+    "ZMG": {
+        "name": "Magnesium",
+        "desc": "Self explanatory."
+    },
+    "ZMN": {
+        "name": "Manganese",
+        "desc": "Self explanatory."
+    },
+    "ZMO": {
+        "name": "Molybdenum",
+        "desc": "Self explanatory."
+    },
+    "ZN": {
+        "name": "Nitrogen",
+        "desc": "Self explanatory."
+    },
+    "ZNA": {
+        "name": "Sodium",
+        "desc": "Self explanatory."
+    },
+    "ZNB": {
+        "name": "Niobium",
+        "desc": "Self-explanatory."
+    },
+    "ZNI": {
+        "name": "Nickel",
+        "desc": "Self explanatory."
+    },
+    "ZO": {
+        "name": "Oxygen",
+        "desc": "Self explanatory."
+    },
+    "ZP": {
+        "name": "Phosphorus",
+        "desc": "Self explanatory."
+    },
+    "ZPB": {
+        "name": "Lead",
+        "desc": "Self explanatory."
+    },
+    "ZS": {
+        "name": "Sulphur",
+        "desc": "Self explanatory."
+    },
+    "ZSB": {
+        "name": "Antimony",
+        "desc": "Self explanatory."
+    },
+    "ZSE": {
+        "name": "Selenium",
+        "desc": "Self explanatory."
+    },
+    "ZSI": {
+        "name": "Silicon",
+        "desc": "Self explanatory."
+    },
+    "ZSL": {
+        "name": "Silicium oxyd",
+        "desc": "Self explanatory."
+    },
+    "ZSN": {
+        "name": "Tin",
+        "desc": "Self explanatory."
+    },
+    "ZTA": {
+        "name": "Tantalium",
+        "desc": "Self explanatory."
+    },
+    "ZTE": {
+        "name": "Tellurium",
+        "desc": "Self explanatory."
+    },
+    "ZTI": {
+        "name": "Titanium",
+        "desc": "Self explanatory."
+    },
+    "ZV": {
+        "name": "Vanadium",
+        "desc": "Self explanatory."
+    },
+    "ZW": {
+        "name": "Tungsten",
+        "desc": "Self explanatory."
+    },
+    "ZWA": {
+        "name": "Waste content",
+        "desc": "Self explanatory."
+    },
+    "ZZN": {
+        "name": "Zinc",
+        "desc": "Self explanatory."
+    },
+    "ZZR": {
+        "name": "Zirconium",
+        "desc": "Self explanatory."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Self explanatory."
+    }
+}

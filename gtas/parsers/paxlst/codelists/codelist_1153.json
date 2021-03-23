@@ -1,0 +1,1610 @@
+{
+    "AAA": {
+        "name": "Acknowledgement of order number",
+        "desc": "[1018] Reference number assigned by the seller to his acknowledgement of an order."
+    },
+    "AAB": {
+        "name": "Proforma invoice number",
+        "desc": "[1088] Reference number assigned by the seller to a Proforma Invoice."
+    },
+    "AAC": {
+        "name": "Documentary credit number",
+        "desc": "[1172] Reference number assigned by issuing bank to a Documentary credit."
+    },
+    "AAD": {
+        "name": "Contract addendum number",
+        "desc": "[1318] Reference number assigned by the issuer to a Contract Addendum."
+    },
+    "AAE": {
+        "name": "Goods declaration number",
+        "desc": "Reference number assigned to a goods declaration."
+    },
+    "AAG": {
+        "name": "Offer number",
+        "desc": "Reference number assigned by issuing party to an offer."
+    },
+    "AAJ": {
+        "name": "Delivery order number",
+        "desc": "Reference number assigned by issuer to a delivery order."
+    },
+    "AAK": {
+        "name": "Despatch advice number",
+        "desc": "Reference number assigned by issuing party to a despatch advice."
+    },
+    "AAL": {
+        "name": "Drawing number",
+        "desc": "Reference number identifying a specific product drawing."
+    },
+    "AAM": {
+        "name": "Waybill number",
+        "desc": "Reference number assigned to a waybill, see: 1001 = 700."
+    },
+    "AAN": {
+        "name": "Delivery schedule number",
+        "desc": "Reference number assigned by buyer to a delivery schedule."
+    },
+    "AAO": {
+        "name": "Consignee's shipment reference number",
+        "desc": "[1362] Reference assigned by the consignee to a shipment."
+    },
+    "AAP": {
+        "name": "Part consignment number",
+        "desc": "[1310] Reference to a specific consignment forming part of a contract allowing part deliveries."
+    },
+    "AAQ": {
+        "name": "Unit load device (e.g. container) identification number",
+        "desc": "[8260] Marks (letters and/or numbers) which identify a unit load device e.g. freight container."
+    },
+    "AAS": {
+        "name": "Transport document number",
+        "desc": "[1188] Reference assigned by the carrier or his agent to the transport document."
+    },
+    "AAT": {
+        "name": "Master label number",
+        "desc": "Identifies the master label number of any package type."
+    },
+    "AAU": {
+        "name": "Despatch note number",
+        "desc": "[1128] Reference number assigned by the seller to a Despatch Note."
+    },
+    "AAV": {
+        "name": "Enquiry number",
+        "desc": "Reference number assigned to an enquiry."
+    },
+    "AAY": {
+        "name": "Carrier's agent reference number",
+        "desc": "Reference number assigned by the carriers agent to a transaction."
+    },
+    "AAZ": {
+        "name": "Standard Carrier Alpha Code (SCAC) number",
+        "desc": "For maritime shipments, this code qualifies a Standard Alpha Carrier Code (SCAC) as issued by the United Stated National Motor Traffic Association Inc."
+    },
+    "ABA": {
+        "name": "Customs valuation decision number",
+        "desc": "Reference by an importing party to a previous decision made by a Customs administration regarding the valuation of goods."
+    },
+    "ABB": {
+        "name": "End use authorization number",
+        "desc": "Reference issued by a Customs administration authorizing a preferential rate of duty if a product is used for a specified purpose, see: 1001 = 990."
+    },
+    "ABC": {
+        "name": "Anti-dumping case number",
+        "desc": "Reference issued by a Customs administration pertaining to a past or current investigation of goods 'dumped' at a price lower than the exporter's domestic market price."
+    },
+    "ABD": {
+        "name": "Customs tariff number",
+        "desc": "[7282] Code number of the goods in accordance with the tariff nomenclature system of classification in use where the Customs declaration is made."
+    },
+    "ABE": {
+        "name": "Declarant's reference number",
+        "desc": "Unique reference number assigned to a document or a message by the declarant for identification purposes."
+    },
+    "ABG": {
+        "name": "Customs decision request number",
+        "desc": "Reference issued by Customs pertaining to a pending tariff classification decision requested by an importer or agent."
+    },
+    "ABH": {
+        "name": "Sub-house bill of lading number",
+        "desc": "Reference assigned to a sub-house bill of lading."
+    },
+    "ABI": {
+        "name": "Deferred payment reference",
+        "desc": "[1168] Reference or indication of the deferred payment of duty/tax."
+    },
+    "ABJ": {
+        "name": "Quota number",
+        "desc": "Reference number allocated by a government authority to identify a quota."
+    },
+    "ABK": {
+        "name": "Transit (onward carriage) guarantee (bond) number",
+        "desc": "Reference number to identify the guarantee or security provided for Customs transit operation (CCC)."
+    },
+    "ABL": {
+        "name": "Customs guarantee number",
+        "desc": "Reference assigned to a Customs guarantee."
+    },
+    "ABO": {
+        "name": "Originator's reference",
+        "desc": "Self explanatory."
+    },
+    "ABP": {
+        "name": "Declarant's Customs identity number",
+        "desc": "Reference to the party whose posted bond or security is being declared in order to accept responsibility for a goods declaration and the applicable duties and taxes."
+    },
+    "ABQ": {
+        "name": "Importer reference number",
+        "desc": "Reference number assigned by the importer to identify a particular shipment for his own purposes."
+    },
+    "ABR": {
+        "name": "Export clearance instruction reference number",
+        "desc": "Reference number of the clearance instructions given by the consignor through different means."
+    },
+    "ABS": {
+        "name": "Import clearance instruction reference number",
+        "desc": "Reference number of the import clearance instructions given by the consignor/consignee through different means."
+    },
+    "ABT": {
+        "name": "Customs declaration number",
+        "desc": "[1426] Number, assigned or accepted by Customs, to identify a Goods declaration."
+    },
+    "ABU": {
+        "name": "Article number",
+        "desc": "Self explanatory."
+    },
+    "ABW": {
+        "name": "Stock keeping unit number",
+        "desc": "Self explanatory."
+    },
+    "ABY": {
+        "name": "Allotment identification (Air)",
+        "desc": "Reference assigned to guarantied capacity on one or more specific flights on specific date(s) to third parties as agents and other airlines."
+    },
+    "AC": {
+        "name": "Air cargo transfer manifest",
+        "desc": "Description to be provided."
+    },
+    "ACB": {
+        "name": "US government agency number",
+        "desc": "Description to be provided."
+    },
+    "ACC": {
+        "name": "Shipping unit identification",
+        "desc": "Identifying marks on the outermost unit that is used to transport merchandise."
+    },
+    "ACD": {
+        "name": "Additional reference number",
+        "desc": "Reference number provided in addition to another given reference."
+    },
+    "ACE": {
+        "name": "Related document number",
+        "desc": "Description to be provided."
+    },
+    "ACF": {
+        "name": "Addressee reference",
+        "desc": "Description to be provided."
+    },
+    "ACG": {
+        "name": "ATA carnet number",
+        "desc": "Reference number assigned to an ATA carnet."
+    },
+    "ACH": {
+        "name": "Packaging unit identification",
+        "desc": "Identifying marks on packing units."
+    },
+    "ACI": {
+        "name": "Outerpackaging unit identification",
+        "desc": "(7070) Identifying marks on packing units contained within an outermost shipping unit."
+    },
+    "ACJ": {
+        "name": "Customer material specification number",
+        "desc": "Number for a material specification given by customer."
+    },
+    "ACK": {
+        "name": "Bank reference",
+        "desc": "Cross reference issued by financial institution."
+    },
+    "ACL": {
+        "name": "Principal reference number",
+        "desc": "Description to be provided."
+    },
+    "ACM": {
+        "name": "Unique REINAC reference number of the sender",
+        "desc": "Description to be provided."
+    },
+    "ACN": {
+        "name": "Advice of collection number",
+        "desc": "[1030] Number of the Advice of Collection attached to the Rail Consignment Note (CIM 75)."
+    },
+    "ACO": {
+        "name": "Iron charge number",
+        "desc": "Number attributed to the iron charge for the production of steel products."
+    },
+    "ACP": {
+        "name": "Hot roll number",
+        "desc": "Number attributed to a hot roll coil."
+    },
+    "ACQ": {
+        "name": "Cold roll number",
+        "desc": "Number attributed to a cold roll coil."
+    },
+    "ACR": {
+        "name": "Railway wagon number",
+        "desc": "(8320) Registered identification initials and numbers of railway wagon. Synonym: Rail car number."
+    },
+    "ACS": {
+        "name": "Unique CURRAC reference number of the sender",
+        "desc": "Description to be provided."
+    },
+    "ACT": {
+        "name": "Unique claims reference number of the sender",
+        "desc": "Description to be provided."
+    },
+    "ACU": {
+        "name": "Loss/event number",
+        "desc": "To reference to the unique number that is assigned to each major loss hitting the reinsurance industry."
+    },
+    "ACW": {
+        "name": "Reference number to previous message",
+        "desc": "Reference number assigned to the message which was previously issued (e.g. in the case of a cancellation, the primary reference of the message to be cancelled will be quoted in this element)."
+    },
+    "ACX": {
+        "name": "Banker's acceptance",
+        "desc": "Reference number for banker's acceptance issued by the accepting financial institution."
+    },
+    "ADB": {
+        "name": "Matured certificate of deposit",
+        "desc": "Reference number for certificate of deposit allocated by issuing financial institution."
+    },
+    "ADC": {
+        "name": "Loan",
+        "desc": "Reference number for loan allocated by lending financial institution."
+    },
+    "ADD": {
+        "name": "Analysis number/test number",
+        "desc": "Number given to a specific analysis or test operation."
+    },
+    "ADE": {
+        "name": "Account number",
+        "desc": "Self explanatory."
+    },
+    "ADF": {
+        "name": "Treaty number",
+        "desc": "Self explanatory."
+    },
+    "ADG": {
+        "name": "Catastrophe number",
+        "desc": "Self explanatory."
+    },
+    "ADH": {
+        "name": "PCS Catastrophe",
+        "desc": "Description to be provided."
+    },
+    "ADI": {
+        "name": "Bureau signing (statement reference)",
+        "desc": "Description to be provided."
+    },
+    "ADJ": {
+        "name": "Company / syndicate reference 1",
+        "desc": "Description to be provided."
+    },
+    "ADK": {
+        "name": "Company / syndicate reference 2",
+        "desc": "Description to be provided."
+    },
+    "ADP": {
+        "name": "Statement number",
+        "desc": "Description to be provided."
+    },
+    "ADQ": {
+        "name": "Unique market reference",
+        "desc": "Description to be provided."
+    },
+    "ADR": {
+        "name": "Bureau signing (original FDO reference)",
+        "desc": "Description to be provided."
+    },
+    "ADS": {
+        "name": "Original FDO transaction reference",
+        "desc": "Description to be provided."
+    },
+    "ADT": {
+        "name": "Group accounting",
+        "desc": "Description to be provided."
+    },
+    "ADU": {
+        "name": "Broker reference 1",
+        "desc": "Description to be provided."
+    },
+    "ADV": {
+        "name": "Broker reference 2",
+        "desc": "Description to be provided."
+    },
+    "ADW": {
+        "name": "Lloyd's claims office reference",
+        "desc": "Self explanatory."
+    },
+    "ADY": {
+        "name": "Report number",
+        "desc": "Reference to a report to Customs by a carrier at the point of entry, encompassing both conveyance and consignment information."
+    },
+    "ADZ": {
+        "name": "Trader account number",
+        "desc": "Number assigned by a Customs authority which uniquely identifies a trader (i.e. importer, exporter or declarant) for Customs purposes."
+    },
+    "AE": {
+        "name": "Authorization for expense (AFE) number",
+        "desc": "Description to be provided."
+    },
+    "AEA": {
+        "name": "Government agency reference number",
+        "desc": "Coded reference number that pertains to the business of a government agency."
+    },
+    "AEB": {
+        "name": "Assembly number",
+        "desc": "Self explanatory."
+    },
+    "AEC": {
+        "name": "Symbol number",
+        "desc": "Self explanatory."
+    },
+    "AED": {
+        "name": "Commodity number",
+        "desc": "Self explanatory."
+    },
+    "AEE": {
+        "name": "Eur 1 certificate number",
+        "desc": "Reference number assigned to a Eur 1 certificate."
+    },
+    "AEF": {
+        "name": "Customer process specification number",
+        "desc": "Retrieval number for a process specification defined by customer."
+    },
+    "AEG": {
+        "name": "Customer specification number",
+        "desc": "Retrieval number for a specification defined by customer."
+    },
+    "AEH": {
+        "name": "Applicable instructions or standards",
+        "desc": "Instructions or standards applicable for the whole message or a message line item. These instructions or standards may be published by a neutral organization or authority or another party concerned."
+    },
+    "AEI": {
+        "name": "Registration number of previous Customs declaration",
+        "desc": "Registration number of the Customs declaration lodged for the previous Customs procedure."
+    },
+    "AEJ": {
+        "name": "Post-entry reference",
+        "desc": "Reference to a message related to a post-entry."
+    },
+    "AEK": {
+        "name": "Payment order number",
+        "desc": "Self explanatory."
+    },
+    "AEL": {
+        "name": "Delivery number (transport)",
+        "desc": "Reference number by which a haulier/carrier will announce himself at the container terminal or depot when delivering equipment."
+    },
+    "AEM": {
+        "name": "Transport route",
+        "desc": "A predefined and identified sequence of points where goods are collected, agreed between partners, e.g. the party in charge of organizing the transport and the parties where goods will be collected. The same collecting points may be included in different transport routes, but in a different sequence."
+    },
+    "AEN": {
+        "name": "Customer's unit inventory number",
+        "desc": "Number assigned by customer to a unique unit for inventory purposes."
+    },
+    "AEO": {
+        "name": "Product reservation number",
+        "desc": "Number assigned by seller to identify reservation of specified products."
+    },
+    "AEP": {
+        "name": "Project number",
+        "desc": "Reference number assigned to a project."
+    },
+    "AEQ": {
+        "name": "Drawing list number",
+        "desc": "Reference number identifying a drawing list."
+    },
+    "AER": {
+        "name": "Project specification number",
+        "desc": "Reference number identifying a project specification."
+    },
+    "AES": {
+        "name": "Primary reference",
+        "desc": "Description to be provided."
+    },
+    "AET": {
+        "name": "Request for cancellation number",
+        "desc": "Self explanatory."
+    },
+    "AEU": {
+        "name": "Supplier's control number",
+        "desc": "Reference to a file regarding a control of the supplier carried out on departure of the goods."
+    },
+    "AEV": {
+        "name": "Shipping note number",
+        "desc": "Reference number assigned to a shipping note, see: 1001 = 630."
+    },
+    "AEW": {
+        "name": "Empty container bill number",
+        "desc": "Reference number assigned to an empty container bill, see: 1001 = 708."
+    },
+    "AEX": {
+        "name": "Non-negotiable maritime transport document number",
+        "desc": "Reference number assigned to a sea waybill, see: 1001 = 712."
+    },
+    "AEY": {
+        "name": "Substitute air waybill number",
+        "desc": "Reference number assigned to a substitute air waybill, see: 1001 = 743."
+    },
+    "AEZ": {
+        "name": "Despatch note (post parcels) number",
+        "desc": "(1128) Reference number assigned to a despatch note (post parcels), see: 1001 = 750."
+    },
+    "AF": {
+        "name": "Airlines flight identification number",
+        "desc": "(8110) Identification of a commercial flight by carrier code and number as assigned by the airline (IATA)."
+    },
+    "AFA": {
+        "name": "Through bill of lading number",
+        "desc": "Reference number assigned to a through bill of lading, see: 1001 = 761."
+    },
+    "AFB": {
+        "name": "Cargo manifest number",
+        "desc": "Reference number assigned to a cargo manifest, see: 1001 = 785."
+    },
+    "AFC": {
+        "name": "Bordereau number",
+        "desc": "Reference number assigned to a bordereau, see: 1001 = 787."
+    },
+    "AFD": {
+        "name": "Customs item number",
+        "desc": "Number (1496 in CST) assigned by the declarant to an item."
+    },
+    "AFE": {
+        "name": "Export Control Commodity number (ECCN)",
+        "desc": "Reference number to relevant item within Commodity Control List covering actual products change functionality."
+    },
+    "AFF": {
+        "name": "Marking/label reference",
+        "desc": "Reference where marking/label information derives from."
+    },
+    "AFG": {
+        "name": "Tariff number",
+        "desc": "Self explanatory."
+    },
+    "AFI": {
+        "name": "Immediate transportation no. for in bond movement",
+        "desc": "Self explanatory."
+    },
+    "AFJ": {
+        "name": "Transportation exportation no. for in bond movement",
+        "desc": "Self explanatory."
+    },
+    "AFK": {
+        "name": "Immediate exportation no. for in bond movement",
+        "desc": "Self explanatory."
+    },
+    "AFL": {
+        "name": "Associated invoices",
+        "desc": "Self explanatory."
+    },
+    "AFM": {
+        "name": "Secondary Customs reference",
+        "desc": "Self explanatory."
+    },
+    "AFN": {
+        "name": "Account party's reference",
+        "desc": "Reference of the account party."
+    },
+    "AFO": {
+        "name": "Beneficiary's reference",
+        "desc": "Reference of the beneficiary."
+    },
+    "AFP": {
+        "name": "Second beneficiary's reference",
+        "desc": "Reference of the second beneficiary."
+    },
+    "AFQ": {
+        "name": "Applicant's bank reference",
+        "desc": "Reference number of the applicant's bank."
+    },
+    "AFR": {
+        "name": "Issuing bank's reference",
+        "desc": "Reference number of the issuing bank."
+    },
+    "AFS": {
+        "name": "Beneficiary's bank reference",
+        "desc": "Reference number of the beneficiary's bank."
+    },
+    "AFT": {
+        "name": "Direct payment valuation number",
+        "desc": "Reference number assigned to a direct payment valuation."
+    },
+    "AFU": {
+        "name": "Direct payment valuation request number",
+        "desc": "Reference number assigned to a direct payment valuation request."
+    },
+    "AFV": {
+        "name": "Quantity valuation number",
+        "desc": "Reference number assigned to a quantity valuation."
+    },
+    "AFW": {
+        "name": "Quantity valuation request number",
+        "desc": "Reference number assigned to a quantity valuation request."
+    },
+    "AFX": {
+        "name": "Bill of quantities number",
+        "desc": "Reference number assigned to a bill of quantities."
+    },
+    "AFY": {
+        "name": "Payment valuation number",
+        "desc": "Reference number assigned to a payment valuation."
+    },
+    "AFZ": {
+        "name": "Situation number",
+        "desc": "Common reference number given to documents concerning a determined period of works."
+    },
+    "AGA": {
+        "name": "Agreement to pay number",
+        "desc": "Self explanatory."
+    },
+    "AGB": {
+        "name": "Contract party reference number",
+        "desc": "Reference number assigned to a party for a particular contract."
+    },
+    "AGC": {
+        "name": "Account party's bank reference",
+        "desc": "Reference number of the account party's bank."
+    },
+    "AGD": {
+        "name": "Agent's bank reference",
+        "desc": "Reference number issued by the agent's bank."
+    },
+    "AGE": {
+        "name": "Agent's reference",
+        "desc": "Reference number of the agent."
+    },
+    "AGF": {
+        "name": "Applicant's reference",
+        "desc": "Reference number of the applicant."
+    },
+    "AGG": {
+        "name": "Dispute number",
+        "desc": "Reference number to a dispute notice."
+    },
+    "AGH": {
+        "name": "Credit rating agency's reference number",
+        "desc": "Reference number assigned by a credit rating agency to a debtor."
+    },
+    "AGI": {
+        "name": "Request number",
+        "desc": "Self explanatory."
+    },
+    "AGJ": {
+        "name": "Single transaction sequence number",
+        "desc": "Self explanatory."
+    },
+    "AGK": {
+        "name": "Application reference number",
+        "desc": "Self explanatory."
+    },
+    "AGL": {
+        "name": "Delivery verification certificate",
+        "desc": "Formal identification of delivery verification certificate which is a formal document from Customs etc. confirming that physical goods have been delivered. It may be needed to support a tax reclaim based on an invoice."
+    },
+    "AGM": {
+        "name": "Number of temporary importation document",
+        "desc": "Number assigned by customs to identify consignment in transit."
+    },
+    "AGN": {
+        "name": "Reference number quoted on statement",
+        "desc": "Reference number quoted on the statement sent to the beneficiary for information purposes."
+    },
+    "AGO": {
+        "name": "Sender's reference to the original message",
+        "desc": "The reference provided by the sender of the original message."
+    },
+    "AGP": {
+        "name": "Company issued equipment ID",
+        "desc": "Owner/operator, non-government issued equipment reference number."
+    },
+    "AGQ": {
+        "name": "Domestic flight number",
+        "desc": "Airline flight number assigned to a flight originating and terminating within the same country."
+    },
+    "AGR": {
+        "name": "International flight number",
+        "desc": "Airline flight number assigned to a flight originating and terminating across national borders."
+    },
+    "AGS": {
+        "name": "Employer identification number of service bureau",
+        "desc": "Reference number assigned by a service/processing bureau to an employer."
+    },
+    "AGT": {
+        "name": "Service group identification number",
+        "desc": "Identification used for a group of services."
+    },
+    "AGU": {
+        "name": "Member number",
+        "desc": "Reference number assigned to a person as a member of a group of persons or a service scheme."
+    },
+    "AGV": {
+        "name": "Previous member number",
+        "desc": "Reference number previously assigned to a member."
+    },
+    "AGW": {
+        "name": "Scheme/plan number",
+        "desc": "Reference number assigned to a service scheme or plan."
+    },
+    "AGX": {
+        "name": "Previous scheme/plan number",
+        "desc": "Reference number previously assigned to a service scheme or plan."
+    },
+    "AGY": {
+        "name": "Receiving party's member identification",
+        "desc": "Identification used by the receiving party for a member of a service scheme or group of persons."
+    },
+    "AGZ": {
+        "name": "Payroll number",
+        "desc": "Reference number assigned to the payroll of an organisation."
+    },
+    "AHA": {
+        "name": "Packaging specification number",
+        "desc": "Reference number of documentation specifying the technical detail of packaging requirements."
+    },
+    "AHB": {
+        "name": "Authority issued equipment identification",
+        "desc": "Identification issued by an authority, e.g. government, airport authority."
+    },
+    "AHC": {
+        "name": "Training flight number",
+        "desc": "Non-revenue producing airline flight for training purposes."
+    },
+    "AHD": {
+        "name": "Fund code number",
+        "desc": "Reference number to identify appropriation and branch chargeable for item."
+    },
+    "AHE": {
+        "name": "Signal code number",
+        "desc": "Reference number to identify a signal."
+    },
+    "AHF": {
+        "name": "Major force program number",
+        "desc": "Reference number according to Major Force Program (US)."
+    },
+    "AHG": {
+        "name": "Nomination number",
+        "desc": "Reference number assigned by a shipper to a request/ commitment-to-ship on a pipeline system."
+    },
+    "AHH": {
+        "name": "Laboratory registration number",
+        "desc": "Reference number is the official registration number of the laboratory."
+    },
+    "AHI": {
+        "name": "Transport contract reference number",
+        "desc": "Reference number of a transport contract."
+    },
+    "AHJ": {
+        "name": "Payee's reference number",
+        "desc": "Reference number of the party to be paid."
+    },
+    "AHK": {
+        "name": "Payer's reference number",
+        "desc": "Reference number of the party who pays."
+    },
+    "AHL": {
+        "name": "Creditor's reference number",
+        "desc": "Reference number of the party to whom a debt is owed."
+    },
+    "AHM": {
+        "name": "Debtor's reference number",
+        "desc": "Reference number of the party who owes an amount of money."
+    },
+    "AHN": {
+        "name": "Joint venture reference number",
+        "desc": "Reference number assigned to a joint venture agreement."
+    },
+    "AHO": {
+        "name": "Chamber of Commerce registration number",
+        "desc": "The registration number by which a company/organization is known to the Chamber of Commerce."
+    },
+    "AHP": {
+        "name": "Tax registration number",
+        "desc": "The registration number by which a company/organization is identified with the tax administration."
+    },
+    "AHQ": {
+        "name": "Wool identification number",
+        "desc": "Shipping Identification Mark (SIM) allocated to a wool consignment by a shipping company."
+    },
+    "AHR": {
+        "name": "Wool tax reference number",
+        "desc": "Reference or indication of the payment of wool tax."
+    },
+    "AHS": {
+        "name": "Meat processing establishment registration number",
+        "desc": "Registration number allocated to a registered meat packing establishment by the local quarantine and inspection authority."
+    },
+    "AHT": {
+        "name": "Quarantine/treatment status reference number",
+        "desc": "Coded quarantine/treatment status of a container and its cargo and packing materials, generated by a shipping company based upon declarations presented by a shipper."
+    },
+    "AHU": {
+        "name": "Request for quote number",
+        "desc": "Reference number assigned by the requestor to a request for quote."
+    },
+    "AHV": {
+        "name": "Manual processing authority number",
+        "desc": "Number allocated to allow the manual processing of an entity."
+    },
+    "AHW": {
+        "name": "Import permit number",
+        "desc": "Reference number assigned by the issuing authority to an import permit for goods."
+    },
+    "AHX": {
+        "name": "Rate note number",
+        "desc": "Reference assigned to a specific rate."
+    },
+    "AHY": {
+        "name": "Freight Forwarder number",
+        "desc": "An identification code of a Freight Forwarder."
+    },
+    "AHZ": {
+        "name": "Customs release code",
+        "desc": "A code associated to a requirement that must be presented to gain the release of goods by Customs."
+    },
+    "AIA": {
+        "name": "Compliance code number",
+        "desc": "Number assigned to indicate regulatory compliance."
+    },
+    "AIB": {
+        "name": "Department of transportation bond number",
+        "desc": "Number of a bond assigned by the department of transportation."
+    },
+    "AIC": {
+        "name": "Export establishment number",
+        "desc": "Number to identify export establishment."
+    },
+    "AID": {
+        "name": "Certificate of conformity",
+        "desc": "Certificate certifying the conformity to predefined definitions."
+    },
+    "AIE": {
+        "name": "Ministerial certificate of homologation",
+        "desc": "Certificate of approval for components which are subject to legal restrictions and must be approved by the government."
+    },
+    "AIF": {
+        "name": "Previous delivery instruction number",
+        "desc": "The identification of a previous delivery instruction."
+    },
+    "AIG": {
+        "name": "Passport number",
+        "desc": "Number assigned to a passport."
+    },
+    "AIH": {
+        "name": "Common transaction reference number",
+        "desc": "Reference number applicable to different underlying individual transactions."
+    },
+    "AII": {
+        "name": "Bank's common transaction reference number",
+        "desc": "Bank's reference number allocated by the bank to different underlying individual transactions."
+    },
+    "AIJ": {
+        "name": "Customer's individual transaction reference number",
+        "desc": "Customer's reference number allocated by the customer to one specific transaction."
+    },
+    "AIK": {
+        "name": "Bank's individual transaction reference number",
+        "desc": "Bank's reference number allocated by the bank to one specific transaction."
+    },
+    "AIL": {
+        "name": "Customer's common transaction reference number",
+        "desc": "Customer's reference number allocated by the customer to different underlying individual transactions."
+    },
+    "AIM": {
+        "name": "Individual transaction reference number",
+        "desc": "Reference number applying to one specific transaction."
+    },
+    "AIN": {
+        "name": "Product sourcing agreement number",
+        "desc": "Reference number assigned to a product sourcing agreement."
+    },
+    "AIO": {
+        "name": "Customs transhipment number",
+        "desc": "Approval number issued by Customs for cargo to be transhipped under Customs control."
+    },
+    "AIP": {
+        "name": "Customs preference inquiry number",
+        "desc": "The number assigned by Customs to a preference inquiry."
+    },
+    "AIQ": {
+        "name": "Packing plant number",
+        "desc": "Number to identify packing establishment."
+    },
+    "AIR": {
+        "name": "Original certificate number",
+        "desc": "Number giving reference to an original certificate number."
+    },
+    "AIS": {
+        "name": "Processing plant number",
+        "desc": "Number to identify processing plant."
+    },
+    "AIT": {
+        "name": "Slaughter plant number",
+        "desc": "Number to identify slaughter plant."
+    },
+    "AIU": {
+        "name": "Charge card account number",
+        "desc": "Number to identify charge card account."
+    },
+    "AIV": {
+        "name": "Event reference number",
+        "desc": "A number identifying an event."
+    },
+    "AIW": {
+        "name": "Transport section reference number",
+        "desc": "A number identifying a transport section."
+    },
+    "AIX": {
+        "name": "Referred product for mechanical analysis",
+        "desc": "A product number identifying the product which is used for mechanical analysis considered valid for a group of products."
+    },
+    "AIY": {
+        "name": "Referred product for chemical analysis",
+        "desc": "A product number identifying the product which is used for chemical analysis considered valid for a group of products."
+    },
+    "AP": {
+        "name": "Accounts receivable number",
+        "desc": "Reference number assigned by accounts receivable department to the account of a specific debtor."
+    },
+    "ASC": {
+        "name": "Assuming company",
+        "desc": "Description to be provided."
+    },
+    "AU": {
+        "name": "Authorization to meet competition No.",
+        "desc": "A number assigned by a requestor to an offer incoming following request for quote."
+    },
+    "AV": {
+        "name": "Account payable number",
+        "desc": "Reference number assigned by accounts payable department to the account of a specific creditor."
+    },
+    "AWB": {
+        "name": "Air waybill number",
+        "desc": "Reference number assigned to an air waybill, see: 1001 = 740."
+    },
+    "BA": {
+        "name": "Beginning meter reading actual",
+        "desc": "Meter reading at the beginning of an invoicing period."
+    },
+    "BC": {
+        "name": "Buyer's contract number",
+        "desc": "Reference number assigned by buyer to a contract."
+    },
+    "BD": {
+        "name": "Bid number",
+        "desc": "Number assigned by a submitter of a bid to his bid."
+    },
+    "BE": {
+        "name": "Beginning meter reading estimated",
+        "desc": "Meter reading at the beginning of an invoicing period where an actual reading is not available."
+    },
+    "BH": {
+        "name": "House bill of lading number",
+        "desc": "Reference number assigned to a house bill of lading, see: 1001 = 714."
+    },
+    "BM": {
+        "name": "Bill of lading number",
+        "desc": "Reference number assigned to a bill of lading, see: 1001 = 705."
+    },
+    "BN": {
+        "name": "Booking reference number",
+        "desc": "[1016] Reference number assigned by the carrier or his agent when cargo space is reserved prior to loading."
+    },
+    "BO": {
+        "name": "Blanket order number",
+        "desc": "Reference number assigned by the order issuer to a blanket order."
+    },
+    "BR": {
+        "name": "Broker or sales office number",
+        "desc": "Self explanatory."
+    },
+    "BT": {
+        "name": "Batch number/lot number",
+        "desc": "Reference number assigned by manufacturer to a series of similar products or goods produced under similar conditions."
+    },
+    "BW": {
+        "name": "Blended with number",
+        "desc": "The batch/lot/package number a product is blended with."
+    },
+    "CAS": {
+        "name": "IATA Cargo Agent CASS Address number",
+        "desc": "Code issued by IATA to identify agent locations for CASS billing purposes."
+    },
+    "CD": {
+        "name": "Credit note number",
+        "desc": "Reference number assigned to a credit note."
+    },
+    "CEC": {
+        "name": "Ceding company",
+        "desc": "Company selling obligations to a third party."
+    },
+    "CFE": {
+        "name": "Consignee's further order",
+        "desc": "Reference of an order given by the consignee after departure of the means of transport."
+    },
+    "CFO": {
+        "name": "Consignor's further order",
+        "desc": "Reference of an order given by the consignor after departure of the means of transport."
+    },
+    "CG": {
+        "name": "Consignee's order number",
+        "desc": "Self explanatory."
+    },
+    "CH": {
+        "name": "Customer catalog number",
+        "desc": "Number identifying a catalogue for customer's usage."
+    },
+    "CK": {
+        "name": "Cheque number",
+        "desc": "Unique number assigned to one specific cheque."
+    },
+    "CKN": {
+        "name": "Checking number",
+        "desc": "Number assigned by checking party to one specific check action."
+    },
+    "CM": {
+        "name": "Credit memo number",
+        "desc": "Reference number assigned by issuer to a credit memo."
+    },
+    "CMR": {
+        "name": "Road consignment note number",
+        "desc": "Reference number assigned to a road consignment note, see: 1001 = 730."
+    },
+    "CN": {
+        "name": "Carrier's reference number",
+        "desc": "Reference number assigned by carrier to a consignment."
+    },
+    "CNO": {
+        "name": "Charge note reference number",
+        "desc": "[1070] Indication in pre-printed form that a Charges note has been established and is attached to the Rail Consignment Note (CIM 76)."
+    },
+    "CO": {
+        "name": "Buyers order number",
+        "desc": "[1022] Reference number assigned by the buyer to an order."
+    },
+    "COF": {
+        "name": "Call off order number",
+        "desc": "Self explanatory."
+    },
+    "CP": {
+        "name": "Condition of purchase document number",
+        "desc": "Reference number identifying the conditions of purchase relevant to a purchase."
+    },
+    "CR": {
+        "name": "Customer reference number",
+        "desc": "Reference number assigned by the customer to a transaction."
+    },
+    "CRN": {
+        "name": "Conveyance reference number",
+        "desc": "[8028] Unique reference given by the carrier to a certain journey or departure of a means of transport (generic term)."
+    },
+    "CS": {
+        "name": "Condition of sale document number",
+        "desc": "Reference number identifying the conditions of sale relevant to a sale."
+    },
+    "CST": {
+        "name": "Team assignment number",
+        "desc": "Team number assigned to a group that is responsible for working a particular transaction."
+    },
+    "CT": {
+        "name": "Contract number",
+        "desc": "Reference number of a contract concluded between parties."
+    },
+    "CU": {
+        "name": "Consignor's reference number",
+        "desc": "[1140] Reference number assigned by a consignor to a particular shipment for his own purposes or for those of the consignee."
+    },
+    "CV": {
+        "name": "Container operators reference number",
+        "desc": "Reference number assigned by the party operating or controlling the transport container to a transaction or consignment."
+    },
+    "CW": {
+        "name": "Package number",
+        "desc": "(7070) Reference number identifying a package or carton within a consignment."
+    },
+    "CZ": {
+        "name": "Cooperation contract number",
+        "desc": "Number issued by a party concerned given to a contract on cooperation of two or more parties."
+    },
+    "DA": {
+        "name": "Deferment approval number",
+        "desc": "Number assigned by authorities to a party to approve deferment of payment of tax or duties."
+    },
+    "DAN": {
+        "name": "Debit account number",
+        "desc": "Reference number assigned by issuer to a debit account."
+    },
+    "DB": {
+        "name": "Buyer's debtor number",
+        "desc": "Reference number assigned to a debtor."
+    },
+    "DI": {
+        "name": "Distributor invoice number",
+        "desc": "Reference number assigned by issuer to a distributor invoice."
+    },
+    "DL": {
+        "name": "Debit note number",
+        "desc": "Reference number assigned by issuer to a debit note."
+    },
+    "DM": {
+        "name": "Document number",
+        "desc": "[1004] Reference number assigned to the document by the issuer."
+    },
+    "DQ": {
+        "name": "Delivery note number",
+        "desc": "Reference number assigned by the issuer to a delivery note."
+    },
+    "DR": {
+        "name": "Dock receipt number",
+        "desc": "Number of the cargo receipt submitted when cargo is delivered to a marine terminal."
+    },
+    "EA": {
+        "name": "Ending meter reading actual",
+        "desc": "Meter reading at the end of an invoicing period."
+    },
+    "EB": {
+        "name": "Embargo permit number",
+        "desc": "Reference number assigned by issuer to an embargo permit."
+    },
+    "ED": {
+        "name": "Export declaration",
+        "desc": "Number assigned by the exporter to his export declaration number submitted to an authority."
+    },
+    "EE": {
+        "name": "Ending meter reading estimated",
+        "desc": "Meter reading at the end of an invoicing period where an actual reading is not available."
+    },
+    "EI": {
+        "name": "Employer's identification number",
+        "desc": "Number issued by an authority to identify an employer."
+    },
+    "EN": {
+        "name": "Embargo number",
+        "desc": "Number assigned to specific goods or a family of goods in a classification of embargo measures."
+    },
+    "EP": {
+        "name": "Export permit number",
+        "desc": "Reference number assigned by issuing authority to an export permit for products."
+    },
+    "EQ": {
+        "name": "Equipment number",
+        "desc": "Number assigned by the manufacturer to specific equipment."
+    },
+    "ER": {
+        "name": "Container/equipment receipt number",
+        "desc": "Number of the Equipment Interchange Receipt issued for full or empty equipment received."
+    },
+    "ERN": {
+        "name": "Exporter's reference number",
+        "desc": "Reference to a party exporting goods."
+    },
+    "ET": {
+        "name": "Excess transportation number",
+        "desc": "Number assigned to excess transport."
+    },
+    "EX": {
+        "name": "Export licence number",
+        "desc": "[1208] Reference number assigned by issuing authority to an Export Licence."
+    },
+    "FC": {
+        "name": "Fiscal number",
+        "desc": "Tax payer's number. Number assigned to individual persons as well as to corporates by a public institution; this number is different from the VAT registration number."
+    },
+    "FF": {
+        "name": "Freight forwarder's reference number",
+        "desc": "[1460] Reference number assigned to the consignment by the freight forwarder."
+    },
+    "FI": {
+        "name": "File line identifier",
+        "desc": "Number assigned by the file issuer or sender to identify a specific line."
+    },
+    "FLW": {
+        "name": "Flow reference number",
+        "desc": "Number given to a usual sender which has regular expeditions of the same goods, to the same destination, defining all general conditions of the transport."
+    },
+    "FN": {
+        "name": "Freight bill number",
+        "desc": "Reference number assigned by issuing party to a freight bill."
+    },
+    "FO": {
+        "name": "Foreign exchange",
+        "desc": "Exchange of two currencies at an agreed rate."
+    },
+    "FS": {
+        "name": "Final sequence number",
+        "desc": "Self explanatory."
+    },
+    "FT": {
+        "name": "Free zone identifier",
+        "desc": "Identifier to specify the territory of a State where any goods introduced are generally regarded, insofar as import duties and taxes are concerned, as being outside the Customs territory and are not subject to usual Customs control (CCC)."
+    },
+    "FV": {
+        "name": "File version number",
+        "desc": "Number given to a version of an identified file."
+    },
+    "FX": {
+        "name": "Foreign exchange contract number",
+        "desc": "Reference number identifying a foreign exchange contract."
+    },
+    "GA": {
+        "name": "Standard's number",
+        "desc": "Number to identify a standardization description (e.g. ISO 9375)."
+    },
+    "GC": {
+        "name": "Government contract number",
+        "desc": "Number assigned to a specific government/public contract."
+    },
+    "GD": {
+        "name": "Standard's code number",
+        "desc": "Number to identify a specific parameter within a standardization description (e.g. M5 for screws or DIN A4 for paper)."
+    },
+    "GDN": {
+        "name": "General declaration number",
+        "desc": "Number of the declaration of incoming goods out of a vessel."
+    },
+    "GN": {
+        "name": "Government reference number",
+        "desc": "Description to be provided."
+    },
+    "HS": {
+        "name": "Harmonised system number",
+        "desc": "Number specifying the goods classification under the Harmonised Commodity Description and Coding System of the Customs Co-operation Council (CCC)."
+    },
+    "HWB": {
+        "name": "House waybill number",
+        "desc": "Reference number assigned to a house waybill, see: 1001 = 703."
+    },
+    "IA": {
+        "name": "Internal vendor number",
+        "desc": "Number identifying the company-internal vending department/unit."
+    },
+    "IB": {
+        "name": "In bond number",
+        "desc": "Customs assigned number that is used to control the movement of imported cargo prior to its formal Customs clearing."
+    },
+    "ICA": {
+        "name": "IATA cargo agent code number",
+        "desc": "Code issued by IATA identify each IATA Cargo Agent whose name is entered on the Cargo Agency List."
+    },
+    "ICE": {
+        "name": "Insurance certificate reference number",
+        "desc": "Self explanatory."
+    },
+    "ICO": {
+        "name": "Insurance contract reference number",
+        "desc": "Self explanatory."
+    },
+    "II": {
+        "name": "Initial sample inspection report number",
+        "desc": "Inspection report number given to the initial sample inspection."
+    },
+    "IL": {
+        "name": "Internal order number",
+        "desc": "Number assigned to an order for internal handling/follow up."
+    },
+    "INB": {
+        "name": "Intermediary broker",
+        "desc": "Description to be provided."
+    },
+    "INN": {
+        "name": "Interchange number new",
+        "desc": "Number assigned by the interchange sender to identify one specific interchange. This number points to the actual interchange."
+    },
+    "INO": {
+        "name": "Interchange number old",
+        "desc": "Number assigned by the interchange sender to identify one specific interchange. This number points to the previous interchange."
+    },
+    "IP": {
+        "name": "Import licence number",
+        "desc": "[1106] Reference number assigned by the issuing authority to an Import Licence."
+    },
+    "IS": {
+        "name": "Invoice number suffix",
+        "desc": "An invoice number add on to split for detailed specification purposes."
+    },
+    "IT": {
+        "name": "Internal customer number",
+        "desc": "Number assigned by a seller, supplier etc. to identify a customer within his enterprise."
+    },
+    "IV": {
+        "name": "Invoice number",
+        "desc": "[1334] Reference number assigned by the seller to a Commercial Invoice."
+    },
+    "JB": {
+        "name": "Job number",
+        "desc": "Identifies a piece of work."
+    },
+    "JE": {
+        "name": "Ending job sequence number",
+        "desc": "Description to be provided."
+    },
+    "LA": {
+        "name": "Shipping label serial number",
+        "desc": "Self explanatory."
+    },
+    "LAN": {
+        "name": "Loading authorization number",
+        "desc": "[4092] A number assigned to the loading authorization granted by the forwarding station when the consignment is subject to traffic limitations (CIM 43)."
+    },
+    "LAR": {
+        "name": "Lower article number of range",
+        "desc": "Lower serial number in a range for declaration of incoming goods."
+    },
+    "LB": {
+        "name": "Lockbox",
+        "desc": "Type of cash management system offered by financial institutions to provide for collection of customers 'receivables'."
+    },
+    "LC": {
+        "name": "Letter of credit number",
+        "desc": "Reference number identifying the letter of credit document."
+    },
+    "LI": {
+        "name": "Line item reference number",
+        "desc": "(1156) Reference number identifying a particular line in a document."
+    },
+    "LO": {
+        "name": "Load planning number",
+        "desc": "Self explanatory."
+    },
+    "LS": {
+        "name": "Bar coded label serial number",
+        "desc": "Self explanatory."
+    },
+    "MA": {
+        "name": "Ship notice/manifest number",
+        "desc": "Self explanatory."
+    },
+    "MB": {
+        "name": "Master bill of lading number",
+        "desc": "Reference number assigned to a master bill of lading, see: 1001 = 704."
+    },
+    "MF": {
+        "name": "Manufacturer's part number",
+        "desc": "Reference number assigned by the manufacturer to his product or part."
+    },
+    "MG": {
+        "name": "Meter unit number",
+        "desc": "Number identifying a unique meter unit."
+    },
+    "MH": {
+        "name": "Manufacturing order number",
+        "desc": "Reference number assigned by manufacturer for a given production quantity of products."
+    },
+    "MR": {
+        "name": "Message recipient",
+        "desc": "Self explanatory."
+    },
+    "MRN": {
+        "name": "Mailing reference number",
+        "desc": "Identifies the party designated by the importer to receive certain customs correspondence in lieu of its being mailed directly to the importer."
+    },
+    "MS": {
+        "name": "Message sender",
+        "desc": "Self explanatory."
+    },
+    "MSS": {
+        "name": "Manufacturer's material safety data sheet number",
+        "desc": "Self explanatory."
+    },
+    "MWB": {
+        "name": "Master air waybill number",
+        "desc": "Reference number assigned to a master air waybill, see: 1001 = 741."
+    },
+    "NA": {
+        "name": "North American hazardous goods classification number",
+        "desc": "Reference to materials designated as hazardous for purposes of transportation in North American commerce."
+    },
+    "OH": {
+        "name": "Current invoice number",
+        "desc": "Reference number identifying the current invoice."
+    },
+    "OI": {
+        "name": "Previous invoice number",
+        "desc": "Reference number identifying a previously issued invoice."
+    },
+    "ON": {
+        "name": "Order number (purchase)",
+        "desc": "[1022] Reference number assigned by the buyer to an order."
+    },
+    "OP": {
+        "name": "Original purchase order",
+        "desc": "Reference to the order previously sent."
+    },
+    "OR": {
+        "name": "General order number",
+        "desc": "Customs number assigned to imported merchandise that has been left unclaimed and subsequently moved to a Customs bonded warehouse for storage."
+    },
+    "PB": {
+        "name": "Payer's financial institution account number",
+        "desc": "Originated company account number (ACH transfer), check, draft or wire."
+    },
+    "PC": {
+        "name": "Production code",
+        "desc": "Number assigned by the manufacturer to a specified article or batch to identify the manufacturing date etc. for subsequent reference."
+    },
+    "PD": {
+        "name": "Promotion deal number",
+        "desc": "Number assigned by a vendor to a special promotion activity."
+    },
+    "PE": {
+        "name": "Plant number",
+        "desc": "Description to be provided."
+    },
+    "PF": {
+        "name": "Prime contractor contract number",
+        "desc": "Reference number assigned by the client to the contract of the prime contractor."
+    },
+    "PI": {
+        "name": "Price list version number",
+        "desc": "Self explanatory."
+    },
+    "PK": {
+        "name": "Packing list number",
+        "desc": "(1014) Reference number assigned to a packing list, see: 1001 = 271."
+    },
+    "PL": {
+        "name": "Price list number",
+        "desc": "Reference number assigned to a price list."
+    },
+    "POR": {
+        "name": "Purchase order response number",
+        "desc": "Reference number assigned by the seller to an order response."
+    },
+    "PP": {
+        "name": "Purchase order change number",
+        "desc": "Reference number assigned by a buyer for a revision of a purchase order."
+    },
+    "PQ": {
+        "name": "Payment reference",
+        "desc": "Reference number assigned to a payment."
+    },
+    "PR": {
+        "name": "Price quote number",
+        "desc": "Reference number assigned by the seller to a quote."
+    },
+    "PS": {
+        "name": "Purchase order number suffix",
+        "desc": "Purchase order number add on to split for detailed specification purposes."
+    },
+    "PW": {
+        "name": "Prior purchase order number",
+        "desc": "Reference number of a purchase order previously sent to the supplier."
+    },
+    "PY": {
+        "name": "Payee's financial institution account number",
+        "desc": "Receiving company account number (ACH transfer), check, draft or wire."
+    },
+    "RA": {
+        "name": "Remittance advice number",
+        "desc": "Self explanatory."
+    },
+    "RC": {
+        "name": "Rail/road routing code",
+        "desc": "International Western and Eastern European route code used in all rail organizations and specified in the international tariffs (rail tariffs) known by the customers."
+    },
+    "RCN": {
+        "name": "Railway consignment note number",
+        "desc": "Reference number assigned to a rail consignment note, see: 1001 = 720."
+    },
+    "RE": {
+        "name": "Release number",
+        "desc": "Reference number assigned to identify a release of a set of rules, conventions, conditions, etc."
+    },
+    "REN": {
+        "name": "Received number",
+        "desc": "[1150] Number assigned to a rail consignment upon its arrival at its destination station (CIM 84)."
+    },
+    "RF": {
+        "name": "Export reference number",
+        "desc": "Reference number given to an export shipment."
+    },
+    "RR": {
+        "name": "Payer's financial institution transit routing No.(ACH transfers)",
+        "desc": "ODFI (ACH transfer)."
+    },
+    "RT": {
+        "name": "Payee's financial institution transit routing No.",
+        "desc": "RDFI Transit routing number (ACH transfer)."
+    },
+    "SA": {
+        "name": "Sales person number",
+        "desc": "Identification number of a sales person."
+    },
+    "SB": {
+        "name": "Sales region number",
+        "desc": "Description to be provided."
+    },
+    "SD": {
+        "name": "Sales department number",
+        "desc": "Description to be provided."
+    },
+    "SE": {
+        "name": "Serial number",
+        "desc": "Identification number of an item which distinguishes this specific item out of an number of identical items."
+    },
+    "SF": {
+        "name": "Ship from",
+        "desc": "Description to be provided."
+    },
+    "SH": {
+        "name": "Previous highest schedule number",
+        "desc": "Number of the latest schedule of a previous period (ODETTE DELINS)."
+    },
+    "SI": {
+        "name": "SID (Shipper's identifying number for shipment)",
+        "desc": "Description to be provided."
+    },
+    "SM": {
+        "name": "Sales office number",
+        "desc": "Description to be provided."
+    },
+    "SN": {
+        "name": "Seal number",
+        "desc": "[9308] Identification number on Customs or other seals affixed to containers or other transport units."
+    },
+    "SP": {
+        "name": "Scan line",
+        "desc": "Description to be provided."
+    },
+    "SQ": {
+        "name": "Container sequence number",
+        "desc": "Description to be provided."
+    },
+    "SRN": {
+        "name": "Shipment reference number",
+        "desc": "[1140] Reference number assigned by a consignor to a particular shipment for his own purposes or for those of the consignee."
+    },
+    "SS": {
+        "name": "Sellers reference number",
+        "desc": "Reference number assigned to a transaction by the seller."
+    },
+    "STA": {
+        "name": "Station reference number",
+        "desc": "International UIC code assigned to every European rail station (CIM convention)."
+    },
+    "SW": {
+        "name": "Swap order number",
+        "desc": "Number assigned by the seller to a swap order (see definition of DE 1001, code 229)."
+    },
+    "SZ": {
+        "name": "Specification number",
+        "desc": "Number assigned by the issuer to his specification."
+    },
+    "TB": {
+        "name": "Trucker's bill of lading",
+        "desc": "A cargo list/description issued by a motor carrier of freight."
+    },
+    "TE": {
+        "name": "Telex message number",
+        "desc": "Reference number identifying a telex message."
+    },
+    "TF": {
+        "name": "Transfer number",
+        "desc": "An extra number assigned to goods or a container which functions as a reference number or as an authorization number to get the goods or container released from a certain party."
+    },
+    "TI": {
+        "name": "TIR carnet number",
+        "desc": "Reference number assigned to a TIR carnet."
+    },
+    "TL": {
+        "name": "Tax exemption licence number",
+        "desc": "Number assigned by the tax authorities to a party indicating its tax exemption authorization. This number could relate to a specified business type, a specified local area or a class of products."
+    },
+    "TN": {
+        "name": "Transaction reference number",
+        "desc": "Reference applied to a transaction between two or more parties over a defined life cycle; e.g. number applied by importer or broker to obtain release from Customs, may then used to control declaration through final accounting (synonyms: declaration, entry number)."
+    },
+    "TP": {
+        "name": "Test report number",
+        "desc": "Reference number identifying a test report document relevant to the product."
+    },
+    "UAR": {
+        "name": "Upper serial number of range",
+        "desc": "Upper serial number in a range for declaration of incoming goods."
+    },
+    "UC": {
+        "name": "Ultimate customer's reference number",
+        "desc": "The originator's reference number as forwarded in a sequence of parties involved."
+    },
+    "UCN": {
+        "name": "Unique consignment reference number",
+        "desc": "(1202) Unique reference of a consignment (UCRN) used for identification purposes in documents and messages exchanged between parties in international trade. See also: Unique Identifier Code (UNIC) in UN/ECE Recommendation No. 8, March 1992."
+    },
+    "UN": {
+        "name": "United Nations dangerous goods (UNDG) number",
+        "desc": "[7124] Unique serial number assigned within the United Nations to substances and articles contained in a list of the dangerous goods most commonly carried."
+    },
+    "UO": {
+        "name": "Ultimate customer's order number",
+        "desc": "The originator's order number as forwarded in a sequence of parties involved."
+    },
+    "VA": {
+        "name": "VAT registration number",
+        "desc": "Unique number assigned by the relevant tax authority to identify a party for use in relation to Value Added Tax (VAT)."
+    },
+    "VC": {
+        "name": "Vendor contract number",
+        "desc": "Number assigned by the vendor to a contract."
+    },
+    "VM": {
+        "name": "Vessel identification",
+        "desc": "(8123) Reference identifying a vessel (UN/ECE Recommendation No 10)."
+    },
+    "VN": {
+        "name": "Order number (vendor)",
+        "desc": "Reference number assigned by supplier to a buyer's purchase order."
+    },
+    "VON": {
+        "name": "Voyage number",
+        "desc": "[8228] Reference number assigned by the carrier or his agent to the voyage of the vessel."
+    },
+    "VP": {
+        "name": "Vendor product number",
+        "desc": "Number assigned by vendor to another manufacturer's product."
+    },
+    "VR": {
+        "name": "Vendor ID number",
+        "desc": "Description to be provided."
+    },
+    "VS": {
+        "name": "Vendor order number suffix",
+        "desc": "Description to be provided."
+    },
+    "VT": {
+        "name": "Motor vehicle identification number",
+        "desc": "(Reference identifying a motor vehicle used for transport) normally is the vehicle registration number."
+    },
+    "VV": {
+        "name": "Voucher number",
+        "desc": "Reference number identifying a voucher."
+    },
+    "WE": {
+        "name": "Warehouse entry number",
+        "desc": "Entry number under which imported merchandise was placed in a Customs bonded warehouse."
+    },
+    "WM": {
+        "name": "Weight agreement number",
+        "desc": "Description to be provided."
+    },
+    "WN": {
+        "name": "Well number",
+        "desc": "Description to be provided."
+    },
+    "WR": {
+        "name": "Warehouse receipt number",
+        "desc": "Self explanatory."
+    },
+    "WS": {
+        "name": "Warehouse storage location number",
+        "desc": "Self explanatory."
+    },
+    "WY": {
+        "name": "Rail waybill number",
+        "desc": "Self explanatory."
+    },
+    "XA": {
+        "name": "Company/place registration number",
+        "desc": "Company registration and place as legally required."
+    },
+    "XC": {
+        "name": "Cargo control number",
+        "desc": "Reference used to identify and control a carrier and consignment from initial entry into a country until release of the cargo by Customs."
+    },
+    "XP": {
+        "name": "Previous cargo control number",
+        "desc": "Where a consignment is deconsolidated and/or transferred to the control of another carrier or freight forwarder (e.g. housebill, abstract) this references the previous (e.g. master) cargo control number."
+    },
+    "ZZZ": {
+        "name": "Mutually defined reference number",
+        "desc": "Number based on party agreement."
+    }
+}

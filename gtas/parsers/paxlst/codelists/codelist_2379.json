@@ -1,0 +1,282 @@
+{
+    "2": {
+        "name": "DDMMYY",
+        "desc": "Calendar date: D = Day; M = Month; Y = Year."
+    },
+    "3": {
+        "name": "MMDDYY",
+        "desc": "Calendar date: M = Month; D = Day; Y = Year."
+    },
+    "101": {
+        "name": "YYMMDD",
+        "desc": "Calendar date: Y = Year; M = Month; D = Day."
+    },
+    "102": {
+        "name": "CCYYMMDD",
+        "desc": "Calendar date: C = Century ; Y = Year ; M = Month ; D = Day."
+    },
+    "103": {
+        "name": "YYWWD",
+        "desc": "Calendar week day: Y = Year ; W = Week ; D = Day Week number 01 is always first week of January Day number 1 is always Monday."
+    },
+    "105": {
+        "name": "YYDDD",
+        "desc": "Calendar day: Y = Year ; D = Day January the first = Day 001 Always start numbering the days of the year from January 1st through December 31st."
+    },
+    "106": {
+        "name": "MMDD",
+        "desc": "Day of a month: M = Month; D = Day."
+    },
+    "107": {
+        "name": "DDD",
+        "desc": "Day's number within a specific year: D = Day."
+    },
+    "108": {
+        "name": "WW",
+        "desc": "Week's number within a specific year: W = Week."
+    },
+    "109": {
+        "name": "MM",
+        "desc": "Month's number within a specific year: M = Month."
+    },
+    "110": {
+        "name": "DD",
+        "desc": "Day's number within is a specific month: D = Day."
+    },
+    "201": {
+        "name": "YYMMDDHHMM",
+        "desc": "Calendar date including time without seconds: Y = Year; M = Month; D = Day; H = Hour; M = Minute."
+    },
+    "202": {
+        "name": "YYMMDDHHMMSS",
+        "desc": "Calendar date including time with seconds: Y = Year; M = Month; D = Day; H = Hour; m = Minutes = Seconds."
+    },
+    "203": {
+        "name": "CCYYMMDDHHMM",
+        "desc": "Calendar date including time with minutes: C=Century; Y=Year; M=Month; D=Day; H=Hour; M=Minutes."
+    },
+    "204": {
+        "name": "CCYYMMDDHHMMSS",
+        "desc": "Calendar date including time with seconds: C=Century;Y=Year; M=Month;D=Day;H=Hour;M=Minute;S=Second."
+    },
+    "301": {
+        "name": "YYMMDDHHMMZZZ",
+        "desc": "See 201 + Z = Time zone."
+    },
+    "302": {
+        "name": "YYMMDDHHMMSSZZZ",
+        "desc": "See 202 + Z = Time zone."
+    },
+    "303": {
+        "name": "CCYYMMDDHHMMZZZ",
+        "desc": "See 203 plus Z=Time zone."
+    },
+    "304": {
+        "name": "CCYYMMDDHHMMSSZZZ",
+        "desc": "See 204 plus Z=Time zone."
+    },
+    "305": {
+        "name": "MMDDHHMM",
+        "desc": "Month, day, hours, minutes; M = Month; D = Day; H = Hour; M = Minute."
+    },
+    "306": {
+        "name": "DDHHMM",
+        "desc": "Day, hours, minutes; D = Day; H = Hour; M = Minute."
+    },
+    "401": {
+        "name": "HHMM",
+        "desc": "Time without seconds: H = Hour; m = Minute."
+    },
+    "402": {
+        "name": "HHMMSS",
+        "desc": "Time with seconds: H = Hour; m = Minute; s = Seconds."
+    },
+    "404": {
+        "name": "HHMMSSZZZ",
+        "desc": "See 402 plus Z=Time zone."
+    },
+    "405": {
+        "name": "MMMMSS",
+        "desc": "Time without hours: m=minutes, s=seconds."
+    },
+    "501": {
+        "name": "HHMMHHMM",
+        "desc": "Time span without seconds: H = Hour; m = Minute;."
+    },
+    "502": {
+        "name": "HHMMSS-HHMMSS",
+        "desc": "Format of period to be given without hyphen."
+    },
+    "503": {
+        "name": "HHMMSSZZZ-HHMMSSZZZ",
+        "desc": "Format of period to be given without hyphen."
+    },
+    "600": {
+        "name": "CC",
+        "desc": "Century."
+    },
+    "601": {
+        "name": "YY",
+        "desc": "Calendar year: Y = Year."
+    },
+    "602": {
+        "name": "CCYY",
+        "desc": "Calendar year including century: C = Century; Y = Year."
+    },
+    "603": {
+        "name": "YYS",
+        "desc": "Semester in a calendar year: Y = Year; S = Semester."
+    },
+    "604": {
+        "name": "CCYYS",
+        "desc": "Semester in a calendar year: C = Century; Y = Year; S = Semester."
+    },
+    "608": {
+        "name": "CCYYQ",
+        "desc": "Quarter in a calendar year: C = Century; Y = Year; Q = Quarter."
+    },
+    "609": {
+        "name": "YYMM",
+        "desc": "Month within a calendar year: Y = Year; M = Month."
+    },
+    "610": {
+        "name": "CCYYMM",
+        "desc": "Month within a calendar year: CC = Century; Y = Year; M = Month."
+    },
+    "613": {
+        "name": "YYMMA",
+        "desc": "Format of period to be given without hyphen (A = ten days period)."
+    },
+    "614": {
+        "name": "CCYYMMA",
+        "desc": "Format of period to be given without hyphen (A = ten days period)."
+    },
+    "615": {
+        "name": "YYWW",
+        "desc": "Week within a calendar year: Y = Year; W = Week 1st week of January = week 01."
+    },
+    "616": {
+        "name": "CCYYWW",
+        "desc": "Week within a calendar year: CC = Century; Y = Year; W = Week (1st week of January = week 01)."
+    },
+    "701": {
+        "name": "YY-YY",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "702": {
+        "name": "CCYY-CCYY",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "703": {
+        "name": "YYS-YYS",
+        "desc": "Format of period to be given without hyphen."
+    },
+    "704": {
+        "name": "CCYYS-CCYYS",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "705": {
+        "name": "YYPYYP",
+        "desc": "Format of period to be given without hyphen (P = period of 4 months)."
+    },
+    "706": {
+        "name": "CCYYP-CCYYP",
+        "desc": "Format of period to be given without hyphen (P = period of 4 months)."
+    },
+    "707": {
+        "name": "YYQ-YYQ",
+        "desc": "Format of period to be given without hyphen."
+    },
+    "708": {
+        "name": "CCYYQ-CCYYQ",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "709": {
+        "name": "YYMM-YYMM",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "710": {
+        "name": "CCYYMM-CCYYMM",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "711": {
+        "name": "CCYYMMDD-CCYYMMDD",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "713": {
+        "name": "YYMMDDHHMM-YYMMDDHHMM",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "715": {
+        "name": "YYWW-YYWW",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "716": {
+        "name": "CCYYWW-CCYYWW",
+        "desc": "Format of period to be given without hyphen."
+    },
+    "717": {
+        "name": "YYMMDD-YYMMDD",
+        "desc": "Format of period to be given in actual message without hyphen."
+    },
+    "718": {
+        "name": "CCYYMMDD-CCYYMMDD",
+        "desc": "Format of period to be given without hyphen."
+    },
+    "801": {
+        "name": "Year",
+        "desc": "To indicate a quantity of years."
+    },
+    "802": {
+        "name": "Month",
+        "desc": "To indicate a quantity of months."
+    },
+    "803": {
+        "name": "Week",
+        "desc": "To indicate a quantity of weeks."
+    },
+    "804": {
+        "name": "Day",
+        "desc": "To indicate a quantity of days."
+    },
+    "805": {
+        "name": "Hour",
+        "desc": "To indicate a quantity of hours."
+    },
+    "806": {
+        "name": "Minute",
+        "desc": "To indicate a quantity of minutes."
+    },
+    "807": {
+        "name": "Second",
+        "desc": "To indicate a quantity of seconds."
+    },
+    "808": {
+        "name": "Semester",
+        "desc": "To indicate a quantity of semesters (six months)."
+    },
+    "809": {
+        "name": "Four months period",
+        "desc": "To indicate a quantity of four months periods."
+    },
+    "810": {
+        "name": "Trimester",
+        "desc": "To indicate a quantity of trimesters (three months)."
+    },
+    "811": {
+        "name": "Half month",
+        "desc": "To indicate a quantity of half months."
+    },
+    "812": {
+        "name": "Ten days",
+        "desc": "To indicate a quantity of ten days periods."
+    },
+    "813": {
+        "name": "Day of the week",
+        "desc": "Numeric representation of the day (Monday = 1)."
+    },
+    "814": {
+        "name": "Working days",
+        "desc": "Number of working days."
+    }
+}

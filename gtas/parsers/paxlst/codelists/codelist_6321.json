@@ -1,0 +1,46 @@
+{
+    "3": {
+        "name": "Approximately",
+        "desc": "Self explanatory."
+    },
+    "4": {
+        "name": "Equal to",
+        "desc": "Self explanatory."
+    },
+    "5": {
+        "name": "Greater than or equal to",
+        "desc": "Self explanatory."
+    },
+    "6": {
+        "name": "Greater than",
+        "desc": "Self explanatory."
+    },
+    "7": {
+        "name": "Less than",
+        "desc": "Self explanatory."
+    },
+    "8": {
+        "name": "Less than or equal to",
+        "desc": "Self explanatory."
+    },
+    "10": {
+        "name": "Not equal to",
+        "desc": "Self explanatory."
+    },
+    "11": {
+        "name": "Trace",
+        "desc": "Description to be provided."
+    },
+    "12": {
+        "name": "True value",
+        "desc": "Description to be provided."
+    },
+    "13": {
+        "name": "Observed value",
+        "desc": "Description to be provided."
+    },
+    "15": {
+        "name": "Out of range",
+        "desc": "Self explanatory."
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "1": {
+        "name": "Wood preparation",
+        "desc": "Self explanatory."
+    },
+    "2": {
+        "name": "Causticizing",
+        "desc": "Self explanatory."
+    },
+    "3": {
+        "name": "Digesting",
+        "desc": "Self explanatory."
+    },
+    "4": {
+        "name": "Brownstock washing",
+        "desc": "Self explanatory."
+    },
+    "5": {
+        "name": "Bleaching",
+        "desc": "Self explanatory."
+    },
+    "6": {
+        "name": "Pulp drying",
+        "desc": "Self explanatory."
+    },
+    "7": {
+        "name": "Freezing",
+        "desc": "Freezing process."
+    },
+    "8": {
+        "name": "Processing of structured information",
+        "desc": "The information to be processed is in structured form."
+    },
+    "9": {
+        "name": "Processing of identical information in structured and unstructured form",
+        "desc": "The information to be processed is identical and given in structured and unstructured form."
+    },
+    "10": {
+        "name": "Processing of different information in structured and unstructured form",
+        "desc": "The information to be processed is different and is given in structured and unstructured form."
+    },
+    "11": {
+        "name": "Processing of unstructured information",
+        "desc": "The information to be processed is in unstructured form."
+    },
+    "12": {
+        "name": "Slaughter",
+        "desc": "Slaughter process."
+    },
+    "13": {
+        "name": "Packing",
+        "desc": "Packing process."
+    },
+    "14": {
+        "name": "Heat sterilisation",
+        "desc": "Treated by heat sterilisation."
+    },
+    "15": {
+        "name": "Chemical sterilisation",
+        "desc": "Treated by chemical sterilisation."
+    },
+    "16": {
+        "name": "Fumigation",
+        "desc": "Treated by fumigation."
+    },
+    "17": {
+        "name": "Irradiation",
+        "desc": "Treated by irradiation."
+    }
+}

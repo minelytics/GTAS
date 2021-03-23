@@ -1,0 +1,38 @@
+{
+    "1": {
+        "name": "ASCII 7 bit",
+        "desc": "ASCII 7 bit code."
+    },
+    "2": {
+        "name": "ASCII 8 bit",
+        "desc": "ASCII 8 bit code."
+    },
+    "3": {
+        "name": "Code page 500 (EBCDIC Multinational No. 5)",
+        "desc": "Encoding schema for the repertoire as defined by the code page."
+    },
+    "4": {
+        "code": "Code page 850 (IBM PC Multinational)",
+        "desc": "Encoding schema for the repertoire as defined by the code page."
+    },
+    "5": {
+        "code": "UCS-2",
+        "desc": "Universal Multiple-Octet Coded Character Set (UCS) two-octet per character encoding schema as defined in ISO/IEC 10646-1."
+    },
+    "6": {
+        "code": "UCS-4",
+        "desc": "Universal Multiple-Octet Coded Character Set (UCS) four-octet per character encoding schema as defined in ISO/IEC 10646-1."
+    },
+    "7": {
+        "code": "UTF-8",
+        "desc": "UCS Transformation Format 8 (UTF-8) multi-octet (of length one to six octets) per character encoding schema as defined in ISO/IEC 10646-1, Annex R."
+    },
+    "8": {
+        "code": "UTF-16",
+        "desc": "UCS Transformation Format 16 (UTF-16) two-octet per character encoding schema as defined in ISO/IEC 10646-1, Annex Q."
+    },
+    "ZZZ": {
+        "code": "Mutually agreed",
+        "desc": "Mutually agreed between trading partners."
+    }
+}

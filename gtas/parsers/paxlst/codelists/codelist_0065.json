@@ -1,0 +1,466 @@
+{
+    "APERAK": {
+        "name": "Application error and acknowledgement message",
+        "desc": "The function of this message is: a) to inform a message issuer that his message has been received by the addressee's application and has been rejected due to errors encountered during its processing in the application. b) to acknowledge to a message issuer the receipt of his message by the addressee's application."
+    },
+    "AUTHOR": {
+        "name": "Authorization message",
+        "desc": "Message sent by the Ordering Customer (or Payor or Agent on behalf of the Ordering Customer) or by a third party having authority on the Ordering Customer's payments to the Ordered Bank, to authorize the Ordered Bank to execute a given financial transaction. This financial transaction might relate to both: multiple messages like PAYMUL and DIRDEB and single instruction messages like PAYORD and PAYEXT. An Authorisation Message could also be sent from the Ordered Bank to the Ordering Customer or its Authorisation Authority to request authorisation for a given financial transaction."
+    },
+    "BANSTA": {
+        "name": "Banking status message",
+        "desc": "Message sent by the receiver of a previously sent-message to report on the status of processing of this original message. It indicates, at the application level, the acceptance or rejection of the message or the ability for the receiver of the message to execute or not the instructions received."
+    },
+    "BAPLIE": {
+        "name": "Bayplan/stowage plan occupied and empty locations message",
+        "desc": "Message to transmit information about equipment and goods on a means of transport, including their location on the means of transport. The message can be exchanged between (liner's) agents, tonnage centers, stevedores and ships masters/operators."
+    },
+    "BAPLTE": {
+        "name": "Bayplan/stowage plan total numbers message",
+        "desc": "Message to transmit information about the total numbers of equipment and quantity of goods on a means of transport. The message can be exchanged between (liner's) agents, tonnage centers, stevedores and ships masters/operators."
+    },
+    "BOPBNK": {
+        "name": "Bank transactions and portfolio transactions report message",
+        "desc": "Message sent by banks to the Balance of Payment (BOP) compiler for reporting of the banks' own transactions, aggregated individual customer transactions and portfolio transactions. The message could also be used for reporting the assets and liabilities positions of the banks."
+    },
+    "BOPCUS": {
+        "name": "Balance of payment customer transaction report message",
+        "desc": "Message sent by banks to the Balance of Payment (BOP) compiler for reporting - one by one - individual customer transactions (debit and credit) processed during a specific time period. Actually, this transaction information can be distilled - one by one- from PAYORD / PAYMUL / PAYEXT and BOPINF messages respectively."
+    },
+    "BOPDIR": {
+        "name": "Direct balance of payment declaration message",
+        "desc": "Message sent by non-bank residents to report directly to the Balance of Payment (BOP) compiler on: transactions via bank accounts held at a resident bank, transactions via bank accounts held at a non-resident bank, transactions and clearing via accounts with non-bank non- residents, foreign assets and liabilities, information in the context of a BOP-related survey (stocks and flows); for those countries which base their compilation of the BOP on surveys."
+    },
+    "BOPINF": {
+        "name": "Balance of payment information from customer message",
+        "desc": "Message sent by a payee to its bank on receipt of one specified amount as a settlement of a transaction with a non-resident. The Balance of Payment (BOP) compiler has to be informed of the transaction via the payee's bank."
+    },
+    "CALINF": {
+        "name": "Call info message",
+        "desc": "A message from a liner agent to a stevedore providing information concerning the planned arrival of a vessel and the expected container operations. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COARRI": {
+        "name": "Container discharge/loading report message",
+        "desc": "A message by which the container terminal reports that the containers specified have been discharged from a seagoing vessel (discharged as ordered, overlanded or shortlanded), or have been loaded into a seagoing vessel. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "CODECO": {
+        "name": "Container gate-in/gate-out report message",
+        "desc": "A message by which a terminal, depot, etc. confirms that the containers specified have been delivered or picked up by the inland carrier (road, rail or barge). This message can also be used to report internal terminal container movements (excluding loading and discharging the vessel). This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "CODENO": {
+        "name": "Permit expiration/clearance ready notice message",
+        "desc": "Notice specifying the cargo for which either the validity of the permits/Customs documents expires at short notice or for which regulatory Customs clearance has taken place. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COEDOR": {
+        "name": "Container stock report message",
+        "desc": "A message to report containers that are in stock of the sending party (i.e., a terminal, depot or container freight station). This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COHAOR": {
+        "name": "Container special handling order message",
+        "desc": "Order to perform a specified special handling and/or service on containers. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COMDIS": {
+        "name": "Commercial dispute message",
+        "desc": "Message providing notice of commercial dispute against one or more invoices is usually raised by the buyer to notify the seller that something was found wrong with the goods delivered or the services rendered (goods damaged, delivery incomplete, delivery late, etc.). The dispute must be resolved before the related invoice can be settled. The message will be used to: - notify a dispute; - correspond about an existing dispute (structured information); - notify the settlement of a dispute. The message will serve at the same time as the dispute notice and as the dispute answer."
+    },
+    "CONAPW": {
+        "name": "Advice on pending works message",
+        "desc": "Message to enable a contractor who intends to start works to advise public authorities and water, gas, telephone, electricity distributors of his intention and to request them to send back plans or information under any form concerning existing networks."
+    },
+    "CONDPV": {
+        "name": "Direct payment valuation message",
+        "desc": "Message of instruction sent by the contractor to the party responsible for payments, to pay the subcontractors for work completed."
+    },
+    "CONDRA": {
+        "name": "Drawing administration message",
+        "desc": "The message will be used for the administration of each exchange of a set of engineering/CAD files. It will give additional information about the files; for example, their nature, a list of their contents and technical information necessary to interpret them. The whole process of exchanging engineering or CAD (Computer Aided Design) files between different parties within one project will be supported by EDIFACT messages. The message CONDRA is one of these messages."
+    },
+    "CONDRO": {
+        "name": "Drawing organisation message",
+        "desc": "The message CONDRO is intended to describe the general (project) organisation and structure, valid for a whole project or environment. The whole process of exchanging engineering or CAD (Computer Aided Design) files between different parties within one project will be supported by EDIFACT messages. The message CONDRO is one of these messages."
+    },
+    "CONEST": {
+        "name": "Establishment of contract message",
+        "desc": "Message to formally establish and issue the contractual Bill of Quantities (BoQ). This documentation becomes the contractual basis for all future work and payment for the project."
+    },
+    "CONITT": {
+        "name": "Invitation to tender message",
+        "desc": "At the pre-construction stage of a construction project, the Client will wish to appoint a contractor to execute the works. The first step in this appointment process is to issue an invitation to tender (ITT) to contractors this will require a commercial offer to be made by the contractor to the client."
+    },
+    "CONPVA": {
+        "name": "Payment valuation message",
+        "desc": "Message used between a contractor and the client's representative, during the process of approving the value and payment for work completed for a given period of time."
+    },
+    "CONQVA": {
+        "name": "Quantity valuation message",
+        "desc": "Message used by a contractor to submit progress details to a client or his representative. The message may be used also for subsets of the project where work has been contracted out to other parties. In these cases the exchange would be between the subcontractor and the party that subcontracted the work."
+    },
+    "CONRPW": {
+        "name": "Response of pending works message",
+        "desc": "Message to reply to a CONAPW message and to enable service providers to respond to a contractor giving details of any services and networks in the location where construction work is to be undertaken."
+    },
+    "CONTEN": {
+        "name": "Tender message",
+        "desc": "Message sent by main contractor or subcontractor for the purposes of submitting a tender which is a commercial offer to execute the project work defined in the bill of quantities within the invitation to tender."
+    },
+    "CONTRL": {
+        "name": "Syntax and service report message",
+        "desc": "Message syntactically acknowledging or rejecting, with error indication, a received interchange, functional group or message."
+    },
+    "CONWQD": {
+        "name": "Work item quantity determination message",
+        "desc": "Message used between a contractor and the client's representative or other partners within the construction process, for justifying the work item quantities given in messages that describe the work items or their progress valuations."
+    },
+    "COPARN": {
+        "name": "Container announcement message",
+        "desc": "The message contains an order to release, to make available, to accept or to call down containers or to announce the impending arrival of containers. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COPINO": {
+        "name": "Container pre-notification message",
+        "desc": "A message by which an inland carrier notifies of the delivery or pick-up of containers. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COPRAR": {
+        "name": "Container discharge/loading order message",
+        "desc": "A message to order to the container terminal that the containers specified have to be discharged from a seagoing vessel or have to be loaded into a seagoing vessel. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COREOR": {
+        "name": "Container release order message",
+        "desc": "Order to release containers, and giving permission for them to be picked up by or on behalf of a specified party. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COSTCO": {
+        "name": "Container stuffing/stripping confirmation message",
+        "desc": "Confirmation that specified goods/consignments have been stuffed into or stripped from LCL-containers. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "COSTOR": {
+        "name": "Container stuffing/stripping order message",
+        "desc": "Order that specified goods/consignments are to be stuffed into (already or still to be delivered) or stripped from LCL-containers. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "CREADV": {
+        "name": "Credit advice message",
+        "desc": "Message sent by the account servicing financial institution to the account owner to inform the account owner that its account has been or will be credited for a specified amount on the date indicated, in settlement of the referenced business transaction(s)."
+    },
+    "CREEXT": {
+        "name": "Extended credit advice message",
+        "desc": "Message sent by the account servicing financial institution to the account owner to inform the account owner that its account has been or will be credited for a specified amount on the date indicated, in settlement of the referenced business transaction(s), and to provide to the payee full details of the transactions to which the extended credit advice relates."
+    },
+    "CREMUL": {
+        "name": "Multiple credit advice message",
+        "desc": "A Multiple Credit Advice message is sent by an Account Servicing Financial Institution to the Account Owner or to a third party, which has agreed bilaterally in advance, that its account(s) has been or will be credited for specified amount(s) on the date(s) indicated, in settlement of the referenced business transaction(s)."
+    },
+    "CUSCAR": {
+        "name": "Customs cargo report message",
+        "desc": "Message to permit the transfer of data from a carrier to a Customs administration for the purpose of meeting Customs cargo reporting requirements."
+    },
+    "CUSDEC": {
+        "name": "Customs declaration message",
+        "desc": "Message to permit the transfer of data from a declarant to a Customs administration for the purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export or transit."
+    },
+    "CUSEXP": {
+        "name": "Customs express consignment declaration message",
+        "desc": "Message to permit the transfer of data from an express carrier to a Customs administration for the purpose of meeting Customs cargo reporting and/or clearance requirements."
+    },
+    "CUSREP": {
+        "name": "Customs conveyance report message",
+        "desc": "Message to permit the transfer of data from a carrier to a Customs administration for the purpose of meeting Customs reporting requirements in respect of the means of transport on which the cargo is carried."
+    },
+    "CUSRES": {
+        "name": "Customs response message",
+        "desc": "Message to permit the transfer of data from a Customs administration to the sender of Customs data. It may also be used by Customs to transmit electronic Customs clearance of goods."
+    },
+    "DEBADV": {
+        "name": "Debit advice message",
+        "desc": "Message sent by the account servicing financial institution to the account owner to inform the account owner that its account has been or will be debited for a specified amount on the date indicated, in settlement of the referenced business transaction(s)."
+    },
+    "DEBMUL": {
+        "name": "Multiple debit advice message",
+        "desc": "A DEBMUL message is sent by an Account Servicing Financial Institution to the Account Owner or to a third party, which has agreed bilaterally in advance, that its account(s) has been or will be debited for specified amount(s) on the date(s) indicated, in settlement of the referenced business transaction(s)."
+    },
+    "DELFOR": {
+        "name": "Delivery schedule message",
+        "desc": "Message from buyer to supplier giving product requirements regarding details for short term delivery instructions and/or medium to long term product/service forecast for planning purposes according to conditions set out in a contract or order. The message can be used to authorize the commitment of labour and materials resources."
+    },
+    "DELJIT": {
+        "name": "Delivery just-in-time message",
+        "desc": "Message providing the ability for a customer to convey precise delivery sequence and just-in-time schedule requirements to a supplier, and is intended to supplement the delivery schedule message (DELFOR)."
+    },
+    "DESADV": {
+        "name": "Despatch advice message",
+        "desc": "A message specifying details for goods despatched or ready for despatch under agreed conditions. The United Nations Despatch Advice Message serves both as a specification for Delivery Despatch Advice and also as a Returns Despatch Advice message."
+    },
+    "DIRDEB": {
+        "name": "Direct debit message",
+        "desc": "Message sent by the creditor to the creditor's bank instructing it to claim specified amounts from the debtor(s) and to credit these amounts to a single account it services for the creditor in settlement of the referenced transaction(s)."
+    },
+    "DIRDEF": {
+        "name": "Directory definition message",
+        "desc": "The Directory definition message (DIRDEF) permits the transfer of the contents of a UN/EDIFACT Directory set or parts thereof."
+    },
+    "DOCADV": {
+        "name": "Documentary credit advice message",
+        "desc": "Message to indicate to the beneficiary the terms and conditions of a documentary credit that has been originated by the issuing bank and received by the advising bank (or an intermediary advising bank)."
+    },
+    "DOCAMA": {
+        "name": "Advice of an amendment of a documentary credit message",
+        "desc": "The Advice of an Amendment of a Documentary Credit message is originated by the Advising Bank, or Intermediary Advising Bank, and sent to the Beneficiary. It is used to inform the Beneficiary of the terms and conditions of an amendment to a documentary credit requested by the Applicant."
+    },
+    "DOCAMI": {
+        "name": "Documentary credit amendment information message",
+        "desc": "The Documentary Credit Amendment Information message is used to indicate the terms and conditions of an amended documentary credit from the Issuing Bank to the Applicant and/or Applicant's Bank."
+    },
+    "DOCAMR": {
+        "name": "Request for an amendment of a documentary credit message",
+        "desc": "The Request for an Amendment of a Documentary Credit originated by the Applicant, or Applicant's Bank, and sent to the Issuing Bank. It is issued to request the Issuing Bank to amend the terms and conditions of an issued Documentary Credit or to cancel the Documentary Credit."
+    },
+    "DOCAPP": {
+        "name": "Documentary credit application message",
+        "desc": "Message from a party requesting the issuance of a documentary credit to the party providing such service. In this message, the conditions under which the sender of the message requires the documentary credit to be issued are given."
+    },
+    "DOCARE": {
+        "name": "Response to an amendment of a documentary credit message",
+        "desc": "The Response to an Amendment of a Documentary Credit originated by the Beneficiary and sent to the parties involved in the documentary credit. It is issued to advise the acceptance or non acceptance of an amendment."
+    },
+    "DOCINF": {
+        "name": "Documentary credit issuance information message",
+        "desc": "Message to indicate the terms and conditions of an issued documentary credit from the issuing Bank to the applicant and/or the applicant's bank."
+    },
+    "FINCAN": {
+        "name": "Financial cancellation message",
+        "desc": "A Financial Cancellation Message is sent by the Ordering Customer (or Payor or Agent on behalf of the Ordering Customer)or by a third party having authority on the Ordering Customer's payments to the Ordered Bank to request cancellation of a given financial message or transaction."
+    },
+    "FINSTA": {
+        "name": "Financial statement of an account message",
+        "desc": "This message can be used to cater for various communication functions between financial institutions and their customers. The most frequent function is to provide a statement of booked items confirming entries on a customer's account. The message type may contain several accounts (quoted in the B-level)."
+    },
+    "GESMES": {
+        "name": "Generic statistical message",
+        "desc": "The compilation of statistics is a continuous chain starting with raw data collection, followed by a number of harmonization and aggregation processes leading to aggregated statistical data. Raw data collection is realized by means of surveys, sampling, direct reporting from individuals, economic operators. Harmonization and aggregation processes are very often handled by statistical bodies or authorized economic operators in case of direct reporting. A Generic Statistical Message (GESMES) is used by an organisation involved in this elaboration process to transmit a statistical data set. It permits the transmission of the following, either in the same and/or different messages: -the statistical concepts comprising the data set and their structure -if required, all related information ( code sets, labels, methodological notes, footnotes, etc.), -the statistical figures of the data set. This message could be used by producers and users of statistical information such as: National Statistical Offices, ministries, private and public administrations, private companies etc."
+    },
+    "HANMOV": {
+        "name": "Cargo/goods handling and movement message",
+        "desc": "Message from a party to a warehouse/distribution centre identifying the handling services and where required the movement of specified goods, limited to warehouses within the jurisdiction of the distribution centre."
+    },
+    "IFCSUM": {
+        "name": "International forwarding and consolidation summary message",
+        "desc": "Message used for consolidation purposes from a party arranging forwarding and transport services to the party for which the transport of the consolidated cargo is destined. The message can be used to exchange information concerning the consolidated cargo between forwarders, carriers and agents enabling those parties to handle the consignments included in the consolidation. In addition it can be used for a collection of consignments originating from one shipper for forwarding and transport services."
+    },
+    "IFTCCA": {
+        "name": "Forwarding and transport shipment charge calculation message",
+        "desc": "Message to request the calculation of the transport charges of a specific shipment and to answer to such a request."
+    },
+    "IFTDGN": {
+        "name": "Dangerous goods notification message",
+        "desc": "Message from the party responsible to declare the dangerous goods (e.g. carrier's agent, freight forwarder) to the party acting on behalf of the local authority performing the checks on conformance with the legal requirements on the control of dangerous goods, normally Port Authority, conveying the information relating to one conveyance/voyage of a means of transport such as a vessel, train, truck or barge, on the dangerous goods being loaded, unloaded, and/or in transit."
+    },
+    "IFTIAG": {
+        "name": "Dangerous cargo list message",
+        "desc": "The International Forwarding and Transport Dangerous Cargo List Message is a message: - from the party acting on behalf of the carrier for the gathering of the dangerous goods information of the cargo in a certain port or place of call or loading, - to the party acting on behalf of the carrier in the next port or place of call or discharge, conveying the information relating to one conveyance or voyage of a means of transport such as a vessel, train, truck or barge, on the dangerous goods being carried on board - irrespective of the operations that will take place in the next port of call. This message provides the basic information by which the message recipient can notify to the local authorities about the loading, unloading and transit-related operations, by means of the International forwarding and transport dangerous goods notification message (IFTDGN)."
+    },
+    "IFTMAN": {
+        "name": "Arrival notice message",
+        "desc": "Message from the party providing forwarding and/or transport services to the party such as has been indicated in the contract, giving notice and details of the arrival of the consignment."
+    },
+    "IFTMBC": {
+        "name": "Booking confirmation message",
+        "desc": "Message from the party providing forwarding and/or transport services to the party booking those services giving the confirmation information to the booking of the consignment concerned. A confirmation might read that the booking of a consignment is accepted, pending, conditionally accepted or rejected. The conditions under which requested services take place may be given in this message."
+    },
+    "IFTMBF": {
+        "name": "Firm booking message",
+        "desc": "Message from a party definitely booking forwarding and/or transport services for a consignment to the party providing those services. The message will contain the conditions under which the sender of the messages requires the services to take place."
+    },
+    "IFTMBP": {
+        "name": "Provisional booking message",
+        "desc": "Message from a party requesting space and/or giving brief details of a planned consignment for forwarding and/or transport services to the party providing those services. In this message, the conditions under which the planned transport should take place can be given."
+    },
+    "IFTMCS": {
+        "name": "Instruction contract status message",
+        "desc": "Message from the party providing the transport/forwarding services to the party that issued the instructions for those services stating the actual details, terms and conditions (charges when applicable) of the service and of the consignment involved. In addition it can be used for the exchange of contract information between carriers mutually."
+    },
+    "IFTMIN": {
+        "name": "Instruction message",
+        "desc": "Message from the party issuing an instruction regarding forwarding/transport services for a consignment under conditions agreed, to the party arranging the forwarding and/or transport services."
+    },
+    "IFTRIN": {
+        "name": "Forwarding and transport rate information message",
+        "desc": "Message to request transport rate information and to answer to such a message."
+    },
+    "IFTSAI": {
+        "name": "Forwarding and transport schedule and availability information message",
+        "desc": "Message to request transport schedule or availability information and to answer such a request."
+    },
+    "IFTSTA": {
+        "name": "International multimodal status report message",
+        "desc": "Message to report the transport status and/or a change in the transport status (i.e. event) between agreed parties."
+    },
+    "IFTSTQ": {
+        "name": "International multimodal status request message",
+        "desc": "Message to request an international multimodal status report message (IFTSTA) in order to provide details relating to transport status and/or a change in the transport status between agreed parties."
+    },
+    "INSPRE": {
+        "name": "Insurance premium message",
+        "desc": "Message used by communicating parties to notify the recipient about premiums due from a client. All information needed to produce a detailed request for payment can be sent."
+    },
+    "INVOIC": {
+        "name": "Invoice message",
+        "desc": "Message claiming payment for goods or services supplied under conditions agreed between the seller and the buyer. The UNSM invoice message, with correct data qualification, serves also as the specification for debit note and credit note messages."
+    },
+    "INVRPT": {
+        "name": "Inventory report message",
+        "desc": "Message specifying information relating to held inventories. The inventory report message is intended to be used in either direction between trading partners."
+    },
+    "JAPRES": {
+        "name": "Job application result message",
+        "desc": "Message specifying decisions of an employer related to job applications and interviews and employment or rejections and, when necessary, reasons for the decisions or rejections. The message is transmitted from an employer or employment agency to an employment agency."
+    },
+    "JINFDE": {
+        "name": "Job information demand message",
+        "desc": "Message sent by a governmental agency to an employer in response to a work grant request. This message asks for specific additional information (e.g. visa) for further processing of the work grant request."
+    },
+    "JOBAPP": {
+        "name": "Job application proposal message",
+        "desc": "Message specifying detailed information of proposals for one or more job applicants from an employment agency to an employer. The detailed information is related to profession, occupation, age, education, experiences, salaries, other benefits, requested location of the job, work and contract conditions."
+    },
+    "JOBCON": {
+        "name": "Job order confirmation message",
+        "desc": "The message intent is to confirm the receipt of information of a Job Order Message related to a vacancy or vacancies. The message is transmitted from an employment agency to an employer. The information is related to age, sex, profession, salaries, experiences, education, work and contract conditions."
+    },
+    "JOBMOD": {
+        "name": "Job order modification message",
+        "desc": "A message specifying modifications of a previously sent Job Order Message of one or more offered jobs or vacancies in an enterprise or organization. The Job Order Modification Message is transmitted from an employer or employment agency to an employment office. The information and the changes detailed in the message are related to profession, experiences, salaries, education, work and contract conditions."
+    },
+    "JOBOFF": {
+        "name": "Job order message",
+        "desc": "A message specifying details for one or more vacancies (occupation, salaries, experiences, work and contract conditions) for an employer to the employment agency."
+    },
+    "MEDPID": {
+        "name": "Person identification message",
+        "desc": "The message is used to pass detailed information on persons from, for instance, health insurance agencies to local government in order to verify, add, change or delete person related data in information systems. The message may also be used to transfer person information between various application systems within one organisation (i.e hospital)."
+    },
+    "MOVINS": {
+        "name": "Stowage instruction message",
+        "desc": "Message containing details of one means of transport vehicle, giving instructions regarding the loading, discharging and restowage of equipment and/or cargoes and the location on the means of transport where the operation must take place."
+    },
+    "ORDCHG": {
+        "name": "Purchase order change message",
+        "desc": "Message from the buyer to the seller, specifying details of the buyer's request to change a purchase order."
+    },
+    "ORDERS": {
+        "name": "Purchase order message",
+        "desc": "Message specifying details for goods or services ordered under conditions agreed between the seller and the buyer."
+    },
+    "ORDRSP": {
+        "name": "Purchase order response message",
+        "desc": "Message from the seller to the buyer, responding to a purchase order message or a purchase order change request message."
+    },
+    "PARTIN": {
+        "name": "Party information message",
+        "desc": "Message to enable the transmission of basic information regarding locations and the related operational, administrative, financial, manufacturing and trading data."
+    },
+    "PAXLST": {
+        "name": "Passenger list message",
+        "desc": "Message to permit the transfer of passenger/crew data (where national privacy legislation permits and with agreement of all parties involved) from a customs, immigration or other designated authority in the country of departure to the appropriate authorities in the country of arrival of the means of transport."
+    },
+    "PAYDUC": {
+        "name": "Payroll deductions advice message",
+        "desc": "Message sent by a party to a service providing organisation, to detail payments by payroll deductions, on behalf of employees, made to the service providing organisation."
+    },
+    "PAYEXT": {
+        "name": "Extended payment order message",
+        "desc": "Message sent by the ordering customer (or payor or agent on behalf of the ordering customer) to the ordered bank, to instruct the ordered bank to debit an account it services for the ordering customer, and to arrange for the payment of a specified amount to the beneficiary (or payee or agent in favour of beneficiary) in settlement of the referenced business transaction(s), and to provide to the payee full details of the transactions to which the extended payment order relates."
+    },
+    "PAYMUL": {
+        "name": "Multiple payment order message",
+        "desc": "Message sent by the ordering customer (or payor or agent on behalf of the ordering customer) to the ordered bank, to instruct the ordered bank to debit an account it services for the ordering customer, and to arrange for the payment of specified amounts to several beneficiaries (or payees) in settlement of the referenced business transaction(s)."
+    },
+    "PAYORD": {
+        "name": "Payment order message",
+        "desc": "Message sent by the ordering customer (or payor or agent on behalf of the ordering customer) to the ordered bank, to instruct the ordered bank to debit an account it services for the ordering customer, and to arrange for the payment of a specified amount to the beneficiary (or payee or agent in favour of beneficiary) in settlement of the referenced business transaction(s)."
+    },
+    "PRICAT": {
+        "name": "Price/sales catalogue message",
+        "desc": "Message to enable the transmission of information regarding pricing and catalogue details for goods and services offered by a seller to a buyer."
+    },
+    "PRODEX": {
+        "name": "Product exchange reconciliation message",
+        "desc": "Message used as a communication between two trading partners with agreements for the loan of products to each other, to provide information about movements of products from and to various locations on particular dates."
+    },
+    "PRPAID": {
+        "name": "Insurance premium payment message",
+        "desc": "Message used by communicating parties to notify the recipient about premiums to be collected, paid, not paid or partly paid, either individually or in series via bordereaux or statements."
+    },
+    "QALITY": {
+        "name": "Quality data message",
+        "desc": "Message to enable the transmission of the results of tests performed to satisfy a specified product or process requirement. The content includes, but it is not limited to, test data and measurements, statistical information, and the testing methods employed."
+    },
+    "QUOTES": {
+        "name": "Quote message",
+        "desc": "Message which provides potential sellers with the ability to provide price, delivery schedule, and other conditions for potential sales of goods or services."
+    },
+    "RECECO": {
+        "name": "Credit risk cover message",
+        "desc": "Message to apply for preliminary credit assessment (used during negotiation with prospective clients); apply for credit protection; reply to credit requests; revise amount and expiry date of credit protection and terms; cancel credit protection. The message will serve at the same time as the request for credit risk cover and as the answer (approval or rejection to that request)."
+    },
+    "REMADV": {
+        "name": "Remittance advice message",
+        "desc": "Message which provides a detailed accounting relative to a payment, or other form of financial settlement, on a specified date for the provision of goods and/or services as detailed in the advice."
+    },
+    "REQDOC": {
+        "name": "Request for document message",
+        "desc": "Message to enable a party to request the sending, or re- sending, of data, either as a document or message, or in some other agreed form."
+    },
+    "REQOTE": {
+        "name": "Request for quote message",
+        "desc": "Message which provides potential buyers with the ability to solicit price, delivery schedule, and other conditions from potential sellers of goods or services."
+    },
+    "SANCRT": {
+        "name": "Sanitary/phytosanitary certificate message",
+        "desc": "Message to permit an inspection authority to attest to the status (health, hygiene, freedom from disease or insect pests) of animal, plant or fish product, and provides basic details about the means of conveyance of that product."
+    },
+    "SAFHAZ": {
+        "name": "Safety and hazard data message",
+        "desc": "The Safety and hazard data message is to enable the communication of safety data and advice on relevant materials supplied to industrial customers so as to enable them to take measures to protect their employees and the environment from any potential harmful effects from these materials."
+    },
+    "SLSFCT": {
+        "name": "Sales forecast message",
+        "desc": "Message to enable the transmission of forecast data related to products or services, such as corresponding location, period, product identification, pricing, monetary amount, quantity, market sector information, sales parties. It enables the recipient to process the information automatically and use it for production, planning, marketing, statistical purposes, etc."
+    },
+    "SLSRPT": {
+        "name": "Sales data report message",
+        "desc": "Message to enable the transmission of sales data related to products or services, such as corresponding location, period, product identification, pricing, monetary amount, quantity, market sector information, sales parties. It enables the recipient to process the information automatically and use it for production, planning, marketing, statistical purposes, etc."
+    },
+    "SSIMOD": {
+        "name": "Modification of identity details message",
+        "desc": "The SSIMOD message is sent to communicate to the country of first registration the modification of identity details which took place since the last transmission related to the worker."
+    },
+    "SSRECH": {
+        "name": "Worker's insurance history message",
+        "desc": "The SSRECH message is sent by a designated body in one State to the equivalent body in another State giving details of a worker's Social Security insurance history as requested by the latter State."
+    },
+    "SSREGW": {
+        "name": "Notification of registration of a worker message",
+        "desc": "The SSREGW message is exchanged between designated bodies to enable interchange and registration of a worker's social security number. The message is also exchanged by designated bodies to request and compile details of worker's social security insurance record."
+    },
+    "STATAC": {
+        "name": "Statement of account message",
+        "desc": "Message from a seller or his agent to a buyer or his agent, providing information about the status of the account at a specific point in time. It is used as an aid to reconciliation. At the same time it may be a reminder of payment due."
+    },
+    "SUPCOT": {
+        "name": "Superannuation contributions advice message",
+        "desc": "Message sent by a party to an organisation administering a superannuation scheme, to detail contribution payments made for members of the superannuation scheme."
+    },
+    "SUPMAN": {
+        "name": "Superannuation maintenance message",
+        "desc": "Message sent by a party to an organisation administering a superannuation scheme, to specify membership maintenance information about superannuation scheme members."
+    },
+    "VESDEP": {
+        "name": "Vessel departure message",
+        "desc": "A message from a stevedore to a liner agent informing the latter party of the closing of a vessel's file and giving information on the actual container operations. This message is part of a total set of container-related messages. These messages serve to facilitate the intermodal handling of containers by streamlining the information exchange."
+    },
+    "WKGRDC": {
+        "name": "Work grant decision message",
+        "desc": "Message specifying details of decisions of the governmental agency to an employer relating to a work grant request or permit for one or more workers."
+    },
+    "WKGRRE": {
+        "name": "Work grant request message",
+        "desc": "Message specifying details of requests to a governmental authority from an employer for workers who need a work grant or permit."
+    }
+}

@@ -1,0 +1,171 @@
+[
+    {
+        "code": "GRP13",
+        "desc": "A group of segments to specify the authentication of the message.",
+        "element_type": "Group",
+        "conditional": "Conditional",
+        "cardinality": "1",
+        "sections": [
+            {
+                "code": "AUT",
+                "desc": "A segment to specify the results of the application of an authentication procedure, including the authenticity of sender to ensure integrity of data.",
+                "element_type": "Segment",
+                "name": "AUTHENTICATION RESULT",
+                "conditional": "Mandatory",
+                "cardinality": "1",
+                "attributes": [
+                    {
+                        "code": "9280",
+                        "desc": "The result of the application of an algorithm to the content of data element in a message.",
+                        "name": "VALIDATION RESULT",
+                        "element_type": "Attribute",
+                        "content_length": "0..35",
+                        "conditional": "Mandatory",
+                        "content_type": "an"
+                    },
+                    {
+                        "code": "9282",
+                        "desc": "Identifies the cryptographic key used to calculate the validation result.",
+                        "name": "VALIDATION KEY IDENTIFICATION",
+                        "element_type": "Attribute",
+                        "content_length": "0..35",
+                        "conditional": "Conditional",
+                        "content_type": "an"
+                    }
+                ]
+            },
+            {
+                "code": "DTM",
+                "desc": "A segment to specify the date/time/period when a message is authenticated.",
+                "element_type": "Segment",
+                "name": "DATE/TIME/PERIOD",
+                "conditional": "Conditional",
+                "cardinality": "9",
+                "attributes": [
+                    {
+                        "code": "C507",
+                        "desc": "Date and/or time, or period relevant to the specified date/time/period type.",
+                        "name": "DATE/TIME/PERIOD",
+                        "element_type": "Composite Attribute",
+                        "conditional": "Mandatory",
+                        "attributes": [
+                            {
+                                "code": "2005",
+                                "desc": "Code giving specific meaning to a date, time or period.",
+                                "name": "Date/time/period qualifier",
+                                "element_type": "Attribute",
+                                "content_length": "0..3",
+                                "conditional": "Mandatory",
+                                "content_type": "an",
+                                "codeset": "2005"
+                            },
+                            {
+                                "code": "2380",
+                                "desc": "The value of a date, a date and time, a time or of a period in a specified representation.",
+                                "name": "Date/time/period",
+                                "element_type": "Attribute",
+                                "content_length": "0..35",
+                                "conditional": "Conditional",
+                                "content_type": "an"
+                            },
+                            {
+                                "code": "2379",
+                                "desc": "Specification of the representation of a date, a date and time or of a period.",
+                                "name": "Date/time/period format qualifier",
+                                "element_type": "Attribute",
+                                "content_length": "0..3",
+                                "conditional": "Conditional",
+                                "content_type": "an",
+                                "codeset": "2379"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "RFF",
+                "desc": "A segment to indicate any references to the authentication process.",
+                "element_type": "Segment",
+                "name": "REFERENCE",
+                "conditional": "Conditional",
+                "cardinality": "9",
+                "attributes": [
+                    {
+                        "code": "C506",
+                        "desc": "Identification of a reference.",
+                        "name": "REFERENCE",
+                        "element_type": "Composite Attribute",
+                        "conditional": "Mandatory",
+                        "attributes": [
+                            {
+                                "code": "1153",
+                                "desc": "Code giving specific meaning to a reference segment or a reference number.",
+                                "name": "Reference qualifier",
+                                "element_type": "Attribute",
+                                "content_length": "0..3",
+                                "conditional": "Mandatory",
+                                "content_type": "an",
+                                "codeset": "1153"
+                            },
+                            {
+                                "code": "1154",
+                                "desc": "Identification number the nature and function of which can be qualified by an entry in data element 1153 Reference qualifier.",
+                                "name": "Reference number",
+                                "element_type": "Attribute",
+                                "content_length": "0..35",
+                                "conditional": "Conditional",
+                                "content_type": "an"
+                            },
+                            {
+                                "code": "1156",
+                                "desc": "Number of the line in the document/message referenced in 1154 Reference number.",
+                                "name": "Line number",
+                                "element_type": "Attribute",
+                                "content_length": "0..6",
+                                "conditional": "Conditional",
+                                "content_type": "an"
+                            },
+                            {
+                                "code": "4000",
+                                "desc": "To uniquely identify a reference by its revision number.",
+                                "name": "Reference version number",
+                                "element_type": "Attribute",
+                                "content_length": "0..35",
+                                "conditional": "Conditional",
+                                "content_type": "an"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "code": "UNT",
+        "desc": "A service segment ending a message, giving the total number of segments in the message and the control reference number of the message.",
+        "element_type": "Segment",
+        "name": "MESSAGE TRAILER",
+        "conditional": "Mandatory",
+        "cardinality": "1",
+        "attributes": [
+            {
+                "code": "0074",
+                "desc": "Control count of number of segments in a message.",
+                "name": "NUMBER OF SEGMENTS IN A MESSAGE",
+                "element_type": "Attribute",
+                "content_length": "0..6",
+                "conditional": "Mandatory",
+                "content_type": "n"
+            },
+            {
+                "code": "0062",
+                "desc": "Unique message reference assigned by the sender.",
+                "name": "MESSAGE REFERENCE NUMBER",
+                "element_type": "Attribute",
+                "content_length": "0..14",
+                "conditional": "Mandatory",
+                "content_type": "an"
+            }
+        ]
+    }
+]

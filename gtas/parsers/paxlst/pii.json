@@ -1,0 +1,213 @@
+{
+    "UNH" : [
+        {
+            "code" : "0062",
+            "desc" : "message reference number",
+            "generator" : "random_and_store"
+        },
+        {
+            "code" : "0068",
+            "desc" : "Common access reference",
+            "generator" : "random"
+        }
+    ],
+    "DTM" : [
+        {
+            "code" : "2380",
+            "desc" : "Date/time/period",
+            "generator" : "date_time_past"
+        }
+    ],
+    "RFF" : [
+        {
+            "code" : "1154",
+            "desc" : "Reference number",
+            "generator" : "random"
+        }
+    ],
+    "LOC" : [
+        {
+            "code" : "3225",
+            "desc" : "Place/location identification",
+            "generator" : "random_location"
+        },
+        {
+            "code" : "3224",
+            "desc" : "Place/location",
+            "generator" : "random"
+        },
+        {
+            "code" : "3223",
+            "desc" : "Related Place/location one identification",
+            "generator" : "random_location"
+        },
+        {
+            "code" : "3222",
+            "desc" : "Related Place/location one",
+            "generator" : "random"
+        },
+        {
+            "code" : "3232",
+            "desc" : "Related Place/location two",
+            "generator" : "random"
+        },
+        {
+            "code" : "3233",
+            "desc" : "Related Place/location two identification",
+            "generator" : "random_location"
+        }
+    ],
+    "NAD" : [
+        {
+            "code" : "3039",
+            "desc" : "Party id. identificatio",
+            "generator" : "random_identification"
+        },
+        {
+            "code" : "3124",
+            "desc" : "Name and address line",
+            "generator" : "random"
+        },
+        {
+            "code" : "3036",
+            "desc" : "Party name",
+            "generator" : "random"
+        },
+        {
+            "code" : "Party name",
+            "desc" : "Street and number/p.o. box",
+            "generator" : "random"
+        },
+        {
+            "code" : "3164",
+            "desc" : "City Name",
+            "generator" : "random_city"
+        },
+        {
+            "code" : "3229",
+            "desc" : "COUNTRY SUB-ENTITY IDENTIFICATION",
+            "generator" : "random"
+        },
+        {
+            "code" : "3251",
+            "desc" : "POSTCODE IDENTIFICATION",
+            "generator" : "random"
+        }
+    ],
+    "FTX" : [
+        {
+            "code" : "4441",
+            "desc" : "Free text, coded",
+            "generator" : "random"
+        },
+        {
+            "code" : "4440",
+            "desc" : "Free text",
+            "generator" : "random"
+        }
+    ],
+    "CNI" : [
+        {
+            "code" : "1004",
+            "desc" : "Document/message number",
+            "generator" : "random"
+        },
+        {
+            "code" : "1366",
+            "desc" : "Document/message source",
+            "generator" : "random"
+        }
+    ],
+    "EQD" : [
+        {
+            "code" : "8260",
+            "desc" : "Equipment identification number",
+            "generator" : "random"
+        }
+    ],
+    "UNT" : [
+        {
+            "code" : "0062",
+            "desc" : "MESSAGE REFERENCE NUMBER",
+            "generator" : "random_and_store"
+        }
+    ],
+    "TDT" : [
+        {
+            "code" : "8028",
+            "desc" : "CONVEYANCE REFERENCE NUMBER",
+            "generator" : "random"
+        },
+        {
+            "code" : "3127",
+            "desc" : "Carrier identification",
+            "generator" : "random"
+        },
+        {
+            "code" : "3128",
+            "desc" : "Carrier name",
+            "generator" : "random"
+        },
+        {
+            "code" : "8213",
+            "desc" : "Id. of means of transport identification",
+            "generator" : "random"
+        },
+        {
+            "code" : "8212",
+            "desc" : "Id. of the means of transport",
+            "generator" : "random_transport"
+        }
+
+    ],
+    "GID" : [
+        {
+            "code" : "7064",
+            "desc" : "Type of packages",
+            "generator" : "random"
+        }
+    ],
+    "SGP" : [
+        {
+            "code" : "8260",
+            "desc" : "Equipment identification number",
+            "generator" : "random"
+        }
+    ],
+    "PCI" : [
+        {
+            "code" : "7102",
+            "desc" : "Shipping marks",
+            "generator" : "random"
+        }
+    ],
+    "UNB" : [
+        {
+            "code" : "0004",
+            "desc" : "Interchange sender identification",
+            "generator" : "random"
+        },
+        {
+            "code" : "0010",
+            "desc" : "Interchange recipient identification",
+            "generator" : "random"
+        },
+        {
+            "code" : "0020",
+            "desc": "Interchange control reference",
+            "generator" : "random_and_store"
+        },
+        {
+            "code" : "0026",
+            "desc": "Application reference",
+            "generator" : "random_and_store"
+        }
+    ],
+    "UNZ" : [
+        {
+            "code" : "0020",
+            "desc" : "Interchange control reference",
+            "generator" : "random_and_store"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "1": {
+        "name": "Dime coated tank",
+        "desc": "Self explanatory."
+    },
+    "2": {
+        "name": "Epoxy coated tank",
+        "desc": "Self explanatory."
+    },
+    "3": {
+        "name": "IMO1",
+        "desc": "Description to be provided."
+    },
+    "4": {
+        "name": "IMO2",
+        "desc": "Description to be provided."
+    },
+    "5": {
+        "name": "IMO3",
+        "desc": "Description to be provided."
+    },
+    "6": {
+        "name": "Pressurized tank",
+        "desc": "Self explanatory."
+    },
+    "7": {
+        "name": "Refrigerated tank",
+        "desc": "Self explanatory."
+    },
+    "8": {
+        "name": "Semi-refrigerated",
+        "desc": "Self explanatory."
+    },
+    "9": {
+        "name": "Stainless steel tank",
+        "desc": "Self explanatory."
+    },
+    "10": {
+        "name": "Nonworking reefer container 40 ft",
+        "desc": "A 40 foot refrigerated container that is not actively controlling temperature of the product."
+    },
+    "11": {
+        "name": "Box pallet",
+        "desc": "Self explanatory."
+    },
+    "12": {
+        "name": "Europallet",
+        "desc": "80 x 120 cm."
+    },
+    "13": {
+        "name": "Scandinavian pallet",
+        "desc": "100 x 120 cm."
+    },
+    "14": {
+        "name": "Trailer",
+        "desc": "Non self-propelled vehicle designed for the carriage of cargo so that it can be towed by a motor vehicle."
+    },
+    "15": {
+        "name": "Nonworking reefer container 20 ft",
+        "desc": "A 20 foot refrigerated container that is not actively controlling temperature of the product."
+    },
+    "16": {
+        "name": "Exchangeable pallet",
+        "desc": "Standard pallet exchangeable following international convention."
+    },
+    "17": {
+        "name": "Semi-trailer",
+        "desc": "Non self propelled vehicle without fron twheels designed for the carriage of cargo and provided with a kingpin."
+    },
+    "18": {
+        "name": "Tank container 20 ft.",
+        "desc": "Self explanatory."
+    },
+    "19": {
+        "name": "Tank container 30 ft.",
+        "desc": "Self explanatory."
+    },
+    "20": {
+        "name": "Tank container 40 ft.",
+        "desc": "Self explanatory."
+    },
+    "21": {
+        "name": "Container IC 20 ft.",
+        "desc": "Self explanatory. IC = InterContainer (subsidiary company of the European railway, responsible for container traffic in a rail environment for special container handling)."
+    },
+    "22": {
+        "name": "Container IC 30 ft.",
+        "desc": "Self explanatory."
+    },
+    "23": {
+        "name": "Container IC 40 ft.",
+        "desc": "Self explanatory."
+    },
+    "24": {
+        "name": "Refrigerator tank 20 ft.",
+        "desc": "Self explanatory."
+    },
+    "25": {
+        "name": "Refrigerator tank 30 ft.",
+        "desc": "Self explanatory."
+    },
+    "26": {
+        "name": "Refrigerator tank 40 ft.",
+        "desc": "Self explanatory."
+    },
+    "27": {
+        "name": "Tank container IC 20 ft.",
+        "desc": "Self explanatory."
+    },
+    "28": {
+        "name": "Tank container IC 30 ft.",
+        "desc": "Self explanatory."
+    },
+    "29": {
+        "name": "Tank container IC 40 ft.",
+        "desc": "Self explanatory."
+    },
+    "30": {
+        "name": "Refrigerator tank IC 20 ft.",
+        "desc": "Self explanatory."
+    },
+    "32": {
+        "name": "Refrigerator tank IC 40 ft.",
+        "desc": "Self explanatory."
+    },
+    "33": {
+        "name": "Movable case: L < 6,15m",
+        "desc": "Self explanatory."
+    },
+    "34": {
+        "name": "Movable case: 6,15m < L < 7,82m",
+        "desc": "Self explanatory."
+    },
+    "35": {
+        "name": "Movable case: 7,82m < L < 9,15m",
+        "desc": "Self explanatory."
+    },
+    "36": {
+        "name": "Movable case: 9,15m < L < 10,90m",
+        "desc": "Self explanatory."
+    },
+    "37": {
+        "name": "Movable case: 10,90m < L < 13,75m",
+        "desc": "Self explanatory."
+    },
+    "38": {
+        "name": "Totebin",
+        "desc": "A steel open top unit of about 1,5 * 1,5 * 2,5 meters for road transport of bulk cargo."
+    },
+    "39": {
+        "name": "Temperature controlled container 20 ft",
+        "desc": "Temperature controlled container measuring 20 feet."
+    },
+    "40": {
+        "name": "Temperature controlled container 40 ft",
+        "desc": "A temperature controlled container measuring 40 feet."
+    }
+}

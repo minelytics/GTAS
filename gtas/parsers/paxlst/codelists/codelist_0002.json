@@ -1,0 +1,18 @@
+{
+    "1": {
+        "name": "Version 1",
+        "desc": "ISO 9735:1988."
+    },
+    "2": {
+        "name": "Version 2",
+        "desc": "ISO 9735:1990."
+    },
+    "3": {
+        "name": "Version 3",
+        "desc": "ISO 9735 Amendment 1:1992."
+    },
+    "4": {
+        "name": "Version 4",
+        "desc": "ISO 9735:1998."
+    }
+}

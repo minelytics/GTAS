@@ -1,0 +1,10 @@
+{
+    "C": {
+        "name": "Creation",
+        "desc": "First transmission of a number of transfers of the same message."
+    },
+    "F": {
+        "name": "Final",
+        "desc": "Last transmission of a number of transfers of the same message."
+    }
+}

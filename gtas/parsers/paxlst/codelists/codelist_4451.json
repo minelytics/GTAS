@@ -1,11 +1,11 @@
 {
     "AAA": {
         "name": "Goods description",
-        "desc": "[7002] Plain language description of the nature of the goods sufficient to identify them at the level required for banking, Customs, statistical or transport purposes, avoiding unnecessary detail (Generic term)."
+        "desc": "[7002] Plain language description of the nature of the goods\n                                    sufficient to identify them at the level required for banking, Customs, statistical\n                                    or transport purposes, avoiding unnecessary detail (Generic term)."
     },
     "AAB": {
         "name": "Terms of payments",
-        "desc": "[4276] Conditions of payment between the parties to a transaction (generic term)."
+        "desc": "[4276] Conditions of payment between the parties to a transaction\n                                    (generic term)."
     },
     "AAC": {
         "name": "Dangerous goods additional information",
@@ -13,7 +13,7 @@
     },
     "AAD": {
         "name": "Dangerous goods, technical name",
-        "desc": "Proper shipping name, supplemented as necessary with the correct technical name, by which a dangerous substance or article may be correctly identified or which is sufficiently informative to permit identification by reference to generally available literature."
+        "desc": "Proper shipping name, supplemented as necessary with the correct\n                                    technical name, by which a dangerous substance or article may be correctly\n                                    identified or which is sufficiently informative to permit identification by\n                                    reference to generally available literature."
     },
     "AAE": {
         "name": "Acknowledgement description",
@@ -25,7 +25,7 @@
     },
     "AAG": {
         "name": "Party instructions",
-        "desc": "Indicates that the segment contains instructions to be passed on to the identified party."
+        "desc": "Indicates that the segment contains instructions to be passed on to\n                                    the identified party."
     },
     "AAH": {
         "name": "Customs information",
@@ -33,7 +33,7 @@
     },
     "AAI": {
         "name": "General information",
-        "desc": "Self explanatory."
+        "desc": "The text contains general information."
     },
     "AAJ": {
         "name": "Additional conditions of sale/purchase",
@@ -49,11 +49,11 @@
     },
     "AAM": {
         "name": "Equipment re-usage restrictions",
-        "desc": "Technical or commercial reasons why a piece of equipment may not be re-used after the current transport terminates."
+        "desc": "Technical or commercial reasons why a piece of equipment may not be\n                                    re-used after the current transport terminates."
     },
     "AAN": {
         "name": "Handling restriction",
-        "desc": "Restrictions in handling depending on the technical characteristics of the piece of equipment or on the nature of the goods."
+        "desc": "Restrictions in handling depending on the technical characteristics of\n                                    the piece of equipment or on the nature of the goods."
     },
     "AAO": {
         "name": "Error description (free text)",
@@ -65,55 +65,59 @@
     },
     "AAQ": {
         "name": "Package content's description",
-        "desc": "Self explanatory."
+        "desc": "A description of the contents of a package."
     },
     "AAR": {
         "name": "Terms of delivery",
-        "desc": "(4053) Free text of the non Incoterms terms of delivery. For Incoterms, use: 4053."
+        "desc": "(4053) Free text of the non Incoterms terms of delivery. For\n                                    Incoterms, use: 4053."
     },
     "AAS": {
         "name": "Bill of lading remarks",
-        "desc": "Self explanatory."
+        "desc": "The remarks printed or to be printed on a bill of lading."
     },
     "AAT": {
         "name": "Mode of settlement information",
-        "desc": "Free text information on an IATA Air Waybill to indicate means by which account is to be settled."
+        "desc": "Free text information on an IATA Air Waybill to indicate means by\n                                    which account is to be settled."
     },
     "AAU": {
         "name": "Consignment invoice information",
-        "desc": "Self explanatory."
+        "desc": "Information pertaining to the invoice covering the consignment."
     },
     "AAV": {
         "name": "Clearance invoice information",
-        "desc": "Self explanatory."
+        "desc": "Information pertaining to the invoice covering clearance of the cargo.\n                                "
     },
     "AAW": {
         "name": "Letter of credit information",
-        "desc": "Self explanatory."
+        "desc": "Information pertaining to the letter of credit."
     },
     "AAX": {
         "name": "License information",
-        "desc": "Self explanatory."
+        "desc": "Information pertaining to a license."
     },
     "AAY": {
         "name": "Certification statements",
-        "desc": "Self explanatory."
+        "desc": "The text contains certification statements."
     },
     "AAZ": {
         "name": "Additional export information",
-        "desc": "Self explanatory."
+        "desc": "The text contains additional export information."
     },
     "ABA": {
         "name": "Tariff statements",
-        "desc": "Self explanatory."
+        "desc": "Description of parameters relating to a tariff."
+    },
+    "ABB": {
+        "name": "Medical history",
+        "desc": "Historical details of a patients medical events."
     },
     "ABC": {
         "name": "Conditions of sale or purchase",
-        "desc": "Additional information regarding terms and conditions which apply to the transaction."
+        "desc": "Additional information regarding terms and conditions which apply to\n                                    the transaction."
     },
     "ABD": {
         "name": "Nature of transaction",
-        "desc": "An indication for customs of the type of contract under which goods are supplied."
+        "desc": "An indication for customs of the type of contract under which goods\n                                    are supplied."
     },
     "ABE": {
         "name": "Additional terms and/or conditions (documentary credit)",
@@ -137,7 +141,7 @@
     },
     "ABJ": {
         "name": "Domestic routing information",
-        "desc": "Self explanatory."
+        "desc": "Information regarding the domestic routing."
     },
     "ABK": {
         "name": "Chargeable category of equipment",
@@ -145,19 +149,19 @@
     },
     "ABL": {
         "name": "Government information",
-        "desc": "Self explanatory."
+        "desc": "Information pertaining to government."
     },
     "ABM": {
         "name": "Onward routing information",
-        "desc": "Self explanatory."
+        "desc": "The text contains onward routing information."
     },
     "ABN": {
         "name": "Accounting information",
-        "desc": "Self explanatory."
+        "desc": "The text contains information related to accounting."
     },
     "ABO": {
         "name": "Discrepancy information",
-        "desc": "Free text or coded information to indicate a specific discrepancy."
+        "desc": "Free text or coded information to indicate a specific discrepancy.\n                                "
     },
     "ABP": {
         "name": "Confirmation instructions",
@@ -169,7 +173,7 @@
     },
     "ABR": {
         "name": "Documents delivery instructions",
-        "desc": "Delivery instructions for documents required under a documentary credit."
+        "desc": "Delivery instructions for documents required under a documentary\n                                    credit."
     },
     "ABS": {
         "name": "Additional conditions",
@@ -195,10 +199,6 @@
         "name": "Document name and documentary requirements",
         "desc": "Document name and documentary requirements."
     },
-    "ABY": {
-        "name": "Regulatory information",
-        "desc": "The free text contains information for regulatory authority."
-    },
     "ABZ": {
         "name": "Instructions/information about revolving documentary credit",
         "desc": "Instructions/information about a revolving documentary credit."
@@ -209,7 +209,7 @@
     },
     "ACB": {
         "name": "Additional information",
-        "desc": "Self explanatory."
+        "desc": "The text contains additional information."
     },
     "ACC": {
         "name": "Factor assignment clause",
@@ -221,11 +221,11 @@
     },
     "ACE": {
         "name": "Dispute",
-        "desc": "A notice, usually from buyer to seller, that something was found wrong with goods delivered or the services rendered, or with the related invoice."
+        "desc": "A notice, usually from buyer to seller, that something was found wrong\n                                    with goods delivered or the services rendered, or with the related invoice."
     },
     "ACF": {
         "name": "Additional attribute information",
-        "desc": "The text refers to information about an additional attribute not otherwise specified."
+        "desc": "The text refers to information about an additional attribute not\n                                    otherwise specified."
     },
     "ACG": {
         "name": "Absence declaration",
@@ -233,15 +233,15 @@
     },
     "ACH": {
         "name": "Aggregation statement",
-        "desc": "A statement on the way a specific variable or set of variables has been aggregated."
+        "desc": "A statement on the way a specific variable or set of variables has\n                                    been aggregated."
     },
     "ACI": {
         "name": "Compilation statement",
-        "desc": "A statement on the compilation status of an array or other set of figures or calculations."
+        "desc": "A statement on the compilation status of an array or other set of\n                                    figures or calculations."
     },
     "ACJ": {
         "name": "Definitional exception",
-        "desc": "An exception to the agreed definition of a term, concept, formula or other object."
+        "desc": "An exception to the agreed definition of a term, concept, formula or\n                                    other object."
     },
     "ACK": {
         "name": "Privacy statement",
@@ -253,23 +253,23 @@
     },
     "ACM": {
         "name": "Statistical description",
-        "desc": "The description of a statistical object such as a value list, concept, or structure definition."
+        "desc": "The description of a statistical object such as a value list, concept,\n                                    or structure definition."
     },
     "ACN": {
         "name": "Statistical definition",
-        "desc": "The definition of a statistical object such as a value list, concept, or structure definition."
+        "desc": "The definition of a statistical object such as a value list, concept,\n                                    or structure definition."
     },
     "ACO": {
         "name": "Statistical name",
-        "desc": "The name of a statistical object such as a value list, concept or structure definition."
+        "desc": "The name of a statistical object such as a value list, concept or\n                                    structure definition."
     },
     "ACP": {
         "name": "Statistical title",
-        "desc": "The title of a statistical object such as a value list, concept, or structure definition."
+        "desc": "The title of a statistical object such as a value list, concept, or\n                                    structure definition."
     },
     "ACQ": {
         "name": "Off-dimension information",
-        "desc": "Information relating to differences between the actual transport dimensions and the normally applicable dimensions."
+        "desc": "Information relating to differences between the actual transport\n                                    dimensions and the normally applicable dimensions."
     },
     "ACR": {
         "name": "Unexpected stops information",
@@ -277,11 +277,11 @@
     },
     "ACS": {
         "name": "Principles",
-        "desc": "Text subject is principles section of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is principles section of the UN/EDIFACT rules for\n                                    presentation of standardized message and directories documentation."
     },
     "ACT": {
         "name": "Terms and definition",
-        "desc": "Text subject is terms and definition section of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is terms and definition section of the UN/EDIFACT rules\n                                    for presentation of standardized message and directories documentation."
     },
     "ACU": {
         "name": "Segment name",
@@ -293,7 +293,7 @@
     },
     "ACW": {
         "name": "Scope",
-        "desc": "Text subject is scope section of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is scope section of the UN/EDIFACT rules for presentation\n                                    of standardized message and directories documentation."
     },
     "ACX": {
         "name": "Message type name",
@@ -301,23 +301,27 @@
     },
     "ACY": {
         "name": "Introduction",
-        "desc": "Text subject is introduction section of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is introduction section of the UN/EDIFACT rules for\n                                    presentation of standardized message and directories documentation."
     },
     "ACZ": {
         "name": "Glossary",
-        "desc": "Text subject is glossary section of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is glossary section of the UN/EDIFACT rules for\n                                    presentation of standardized message and directories documentation."
     },
     "ADA": {
         "name": "Functional definition",
-        "desc": "Text subject is functional definition section of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is functional definition section of the UN/EDIFACT rules\n                                    for presentation of standardized message and directories documentation."
     },
     "ADB": {
         "name": "Examples",
-        "desc": "Text subject is examples as given in the example(s) section of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is examples as given in the example(s) section of the\n                                    UN/EDIFACT rules for presentation of standardized message and directories\n                                    documentation."
     },
     "ADC": {
         "name": "Cover page",
-        "desc": "Text subject is cover page of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is cover page of the UN/EDIFACT rules for presentation of\n                                    standardized message and directories documentation."
+    },
+    "ADD": {
+        "name": "Dependency (syntax) notes",
+        "desc": "Denotes that the associated text is a dependency (syntax) note."
     },
     "ADE": {
         "name": "Code value name",
@@ -329,7 +333,7 @@
     },
     "ADG": {
         "name": "Clarification of usage",
-        "desc": "Text subject is an explanation of the intended usage of a segment or segment group."
+        "desc": "Text subject is an explanation of the intended usage of a segment or\n                                    segment group."
     },
     "ADH": {
         "name": "Composite data element name",
@@ -337,39 +341,775 @@
     },
     "ADI": {
         "name": "Field of application",
-        "desc": "Text subject is field of application of the UN/EDIFACT rules for presentation of standardized message and directories documentation."
+        "desc": "Text subject is field of application of the UN/EDIFACT rules for\n                                    presentation of standardized message and directories documentation."
+    },
+    "ADJ": {
+        "name": "Type of assets and liabilities",
+        "desc": "Information describing the type of assets and liabilities."
+    },
+    "ADK": {
+        "name": "Promotion information",
+        "desc": "The text contains information about a promotion."
+    },
+    "ADL": {
+        "name": "Meter condition",
+        "desc": "Description of the condition of a meter."
+    },
+    "ADM": {
+        "name": "Meter reading information",
+        "desc": "Information related to a particular reading of a meter."
+    },
+    "ADN": {
+        "name": "Type of transaction reason",
+        "desc": "Information describing the type of the reason of transaction."
+    },
+    "ADO": {
+        "name": "Type of survey question",
+        "desc": "Type of survey question."
+    },
+    "ADP": {
+        "name": "Carrier's agent counter information",
+        "desc": "Information for use at the counter of the carrier's agent."
+    },
+    "ADQ": {
+        "name": "Description of work item on equipment",
+        "desc": "Description or code for the operation to be executed on the equipment.\n                                "
+    },
+    "ADR": {
+        "name": "Message definition",
+        "desc": "Text subject is message definition."
+    },
+    "ADS": {
+        "name": "Booked item information",
+        "desc": "Information pertaining to a booked item."
+    },
+    "ADT": {
+        "name": "Source of document",
+        "desc": "Text subject is source of document."
+    },
+    "ADU": {
+        "name": "Note",
+        "desc": "Text subject is note."
+    },
+    "ADV": {
+        "name": "Fixed part of segment clarification text",
+        "desc": "Text subject is fixed part of segment clarification text."
+    },
+    "ADW": {
+        "name": "Characteristics of goods",
+        "desc": "Description of the characteristics of goods in addition to the\n                                    description of the goods [7002]."
+    },
+    "ADX": {
+        "name": "Additional discharge instructions",
+        "desc": "Special discharge instructions concerning the goods."
+    },
+    "ADY": {
+        "name": "Container stripping instructions",
+        "desc": "Instructions regarding the stripping of container(s)."
+    },
+    "ADZ": {
+        "name": "CSC (Container Safety Convention) plate information",
+        "desc": "Information on the CSC (Container Safety Convention) plate that is\n                                    attached to the container."
+    },
+    "AEA": {
+        "name": "Cargo remarks",
+        "desc": "Additional remarks concerning the cargo."
+    },
+    "AEB": {
+        "name": "Temperature control instructions",
+        "desc": "Instruction regarding the temperature control of the cargo."
+    },
+    "AEC": {
+        "name": "Text refers to expected data",
+        "desc": "Remarks refer to data that was expected."
+    },
+    "AED": {
+        "name": "Text refers to received data",
+        "desc": "Remarks refer to data that was received."
+    },
+    "AEE": {
+        "name": "Section clarification text",
+        "desc": "Text subject is section clarification text."
+    },
+    "AEF": {
+        "name": "Information to the beneficiary",
+        "desc": "Information given to the beneficiary."
+    },
+    "AEG": {
+        "name": "Information to the applicant",
+        "desc": "Information given to the applicant."
+    },
+    "AEH": {
+        "name": "Instructions to the beneficiary",
+        "desc": "Instructions made to the beneficiary."
+    },
+    "AEI": {
+        "name": "Instructions to the applicant",
+        "desc": "Instructions given to the applicant."
+    },
+    "AEJ": {
+        "name": "Controlled atmosphere",
+        "desc": "Information about the controlled atmosphere."
+    },
+    "AEK": {
+        "name": "Take off annotation",
+        "desc": "Additional information in plain text to support a take off annotation.\n                                    Taking off is the process of assessing the quantity work from extracting the\n                                    measurement from construction documentation."
+    },
+    "AEL": {
+        "name": "Price variation narrative",
+        "desc": "Additional information in plain language to support a price variation.\n                                "
+    },
+    "AEM": {
+        "name": "Documentary credit amendment instructions",
+        "desc": "Documentary credit amendment instructions."
+    },
+    "AEN": {
+        "name": "Standard method narrative",
+        "desc": "Additional information in plain language to support a standard method.\n                                "
+    },
+    "AEO": {
+        "name": "Project narrative",
+        "desc": "Additional information in plain language to support the project."
+    },
+    "AEP": {
+        "name": "Radioactive goods, additional information",
+        "desc": "Additional information related to radioactive goods."
+    },
+    "AEQ": {
+        "name": "Bank-to-bank information",
+        "desc": "Information given from one bank to another."
+    },
+    "AER": {
+        "name": "Reimbursement instructions",
+        "desc": "Instructions given for reimbursement purposes."
+    },
+    "AES": {
+        "name": "Reason for amending a message",
+        "desc": "Identification of the reason for amending a message."
+    },
+    "AET": {
+        "name": "Instructions to the paying and/or accepting and/or negotiating bank\n                                ",
+        "desc": "Instructions to the paying and/or accepting and/or negotiating bank.\n                                "
+    },
+    "AEU": {
+        "name": "Interest instructions",
+        "desc": "Instructions given about the interest."
+    },
+    "AEV": {
+        "name": "Agent commission",
+        "desc": "Instructions about agent commission."
+    },
+    "AEW": {
+        "name": "Remitting bank instructions",
+        "desc": "Instructions to the remitting bank."
+    },
+    "AEX": {
+        "name": "Instructions to the collecting bank",
+        "desc": "Instructions to the bank, other than the remitting bank, involved in\n                                    processing the collection."
+    },
+    "AEY": {
+        "name": "Collection amount instructions",
+        "desc": "Instructions about the collection amount."
+    },
+    "AEZ": {
+        "name": "Internal auditing information",
+        "desc": "Text relating to internal auditing information."
+    },
+    "AFA": {
+        "name": "Constraint",
+        "desc": "Denotes that the associated text is a constraint."
+    },
+    "AFB": {
+        "name": "Comment",
+        "desc": "Denotes that the associated text is a comment."
+    },
+    "AFC": {
+        "name": "Semantic note",
+        "desc": "Denotes that the associated text is a semantic note."
+    },
+    "AFD": {
+        "name": "Help text",
+        "desc": "Denotes that the associated text is an item of help text."
+    },
+    "AFE": {
+        "name": "Legend",
+        "desc": "Denotes that the associated text is a legend."
+    },
+    "AFF": {
+        "name": "Batch code structure",
+        "desc": "A description of the structure of a batch code."
+    },
+    "AFG": {
+        "name": "Product application",
+        "desc": "A general description of the application of a product."
+    },
+    "AFH": {
+        "name": "Customer complaint",
+        "desc": "Complaint of customer."
+    },
+    "AFI": {
+        "name": "Probable cause of fault",
+        "desc": "The probable cause of fault."
+    },
+    "AFJ": {
+        "name": "Defect description",
+        "desc": "Description of the defect."
+    },
+    "AFK": {
+        "name": "Repair description",
+        "desc": "The description of the work performed during the repair."
+    },
+    "AFL": {
+        "name": "Review comments",
+        "desc": "Comments relevant to a review."
+    },
+    "AFM": {
+        "name": "Title",
+        "desc": "Denotes that the associated text is a title."
+    },
+    "AFN": {
+        "name": "Description of amount",
+        "desc": "An amount description in clear text."
+    },
+    "AFO": {
+        "name": "Responsibilities",
+        "desc": "Information describing the responsibilities."
+    },
+    "AFP": {
+        "name": "Supplier",
+        "desc": "Information concerning suppliers."
+    },
+    "AFQ": {
+        "name": "Purchase region",
+        "desc": "Information concerning the region(s) where purchases are made."
+    },
+    "AFR": {
+        "name": "Affiliation",
+        "desc": "Information concerning an association of one party with another\n                                    party(ies)."
+    },
+    "AFS": {
+        "name": "Borrower",
+        "desc": "Information concerning the borrower."
+    },
+    "AFT": {
+        "name": "Line of business",
+        "desc": "Information concerning an entity's line of business."
+    },
+    "AFU": {
+        "name": "Financial institution",
+        "desc": "Description of financial institution(s) used by an entity."
+    },
+    "AFV": {
+        "name": "Business founder",
+        "desc": "Information about the business founder."
+    },
+    "AFW": {
+        "name": "Business history",
+        "desc": "Description of the business history."
+    },
+    "AFX": {
+        "name": "Banking arrangements",
+        "desc": "Information concerning the general banking arrangements."
+    },
+    "AFY": {
+        "name": "Business origin",
+        "desc": "Description of the business origin."
+    },
+    "AFZ": {
+        "name": "Brand names' description",
+        "desc": "Description of the entity's brands."
+    },
+    "AGA": {
+        "name": "Business financing details",
+        "desc": "Details about the financing of the business."
+    },
+    "AGB": {
+        "name": "Competition",
+        "desc": "Information concerning an entity's competition."
+    },
+    "AGC": {
+        "name": "Construction process details",
+        "desc": "Details about the construction process."
+    },
+    "AGD": {
+        "name": "Construction specialty",
+        "desc": "Information concerning the line of business of a construction entity.\n                                "
+    },
+    "AGE": {
+        "name": "Contract information",
+        "desc": "Details about contract(s)."
+    },
+    "AGF": {
+        "name": "Corporate filing",
+        "desc": "Details about a corporate filing."
+    },
+    "AGG": {
+        "name": "Customer information",
+        "desc": "Description of customers."
+    },
+    "AGH": {
+        "name": "Copyright notice",
+        "desc": "Information concerning the copyright notice."
+    },
+    "AGI": {
+        "name": "Contingent debt",
+        "desc": "Details about the contingent debt."
+    },
+    "AGJ": {
+        "name": "Conviction details",
+        "desc": "Details about the law or penal codes that resulted in conviction.\n                                "
+    },
+    "AGK": {
+        "name": "Equipment",
+        "desc": "Description of equipment."
+    },
+    "AGL": {
+        "name": "Workforce description",
+        "desc": "Comments about the workforce."
+    },
+    "AGM": {
+        "name": "Exemption",
+        "desc": "Description about exemptions."
+    },
+    "AGN": {
+        "name": "Future plans",
+        "desc": "Information on future plans."
+    },
+    "AGO": {
+        "name": "Interviewee conversation information",
+        "desc": "Information concerning the interviewee conversation."
+    },
+    "AGP": {
+        "name": "Intangible asset",
+        "desc": "Description of intangible asset(s)."
+    },
+    "AGQ": {
+        "name": "Inventory",
+        "desc": "Description of the inventory."
+    },
+    "AGR": {
+        "name": "Investment",
+        "desc": "Description of the investments."
+    },
+    "AGS": {
+        "name": "Intercompany relations information",
+        "desc": "Description of the intercompany relations."
+    },
+    "AGT": {
+        "name": "Joint venture",
+        "desc": "Description of the joint venture."
+    },
+    "AGU": {
+        "name": "Loan",
+        "desc": "Description of a loan."
+    },
+    "AGV": {
+        "name": "Long term debt",
+        "desc": "Description of the long term debt."
+    },
+    "AGW": {
+        "name": "Location",
+        "desc": "Description of a location."
+    },
+    "AGX": {
+        "name": "Current legal structure",
+        "desc": "Details on the current legal structure."
+    },
+    "AGY": {
+        "name": "Marital contract",
+        "desc": "Details on a marital contract."
+    },
+    "AGZ": {
+        "name": "Marketing activities",
+        "desc": "Information concerning marketing activities."
+    },
+    "AHA": {
+        "name": "Merger",
+        "desc": "Description of a merger."
+    },
+    "AHB": {
+        "name": "Marketable securities",
+        "desc": "Description of the marketable securities."
+    },
+    "AHC": {
+        "name": "Business debt",
+        "desc": "Description of the business debt(s)."
+    },
+    "AHD": {
+        "name": "Original legal structure",
+        "desc": "Information concerning the original legal structure."
+    },
+    "AHE": {
+        "name": "Employee sharing arrangements",
+        "desc": "Information describing how a company uses employees from another\n                                    company."
+    },
+    "AHF": {
+        "name": "Organization details",
+        "desc": "Description about the organization of a company."
+    },
+    "AHG": {
+        "name": "Public record details",
+        "desc": "Information concerning public records."
+    },
+    "AHH": {
+        "name": "Price range",
+        "desc": "Information concerning the price range of products made or sold."
+    },
+    "AHI": {
+        "name": "Qualifications",
+        "desc": "Information on the accomplishments fitting a party for a position.\n                                "
+    },
+    "AHJ": {
+        "name": "Registered activity",
+        "desc": "Information concerning the registered activity."
+    },
+    "AHK": {
+        "name": "Criminal sentence",
+        "desc": "Description of the sentence imposed in a criminal proceeding."
+    },
+    "AHL": {
+        "name": "Sales method",
+        "desc": "Description of the selling means."
+    },
+    "AHM": {
+        "name": "Educational institution information",
+        "desc": "Free form description relating to the school(s) attended."
+    },
+    "AHN": {
+        "name": "Status details",
+        "desc": "Describes the status details."
+    },
+    "AHO": {
+        "name": "Sales",
+        "desc": "Description of the sales."
+    },
+    "AHP": {
+        "name": "Spouse information",
+        "desc": "Information about the spouse."
+    },
+    "AHQ": {
+        "name": "Educational degree information",
+        "desc": "Details about the educational degree received from a school."
+    },
+    "AHR": {
+        "name": "Shareholding information",
+        "desc": "General description of shareholding."
+    },
+    "AHS": {
+        "name": "Sales territory",
+        "desc": "Information on the sales territory."
+    },
+    "AHT": {
+        "name": "Accountant's comments",
+        "desc": "Comments made by an accountant regarding a financial statement."
+    },
+    "AHU": {
+        "name": "Exemption law location",
+        "desc": "Description of the exemption provided to a location by a law."
+    },
+    "AHV": {
+        "name": "Share classifications",
+        "desc": "Information about the classes or categories of shares."
+    },
+    "AHW": {
+        "name": "Forecast",
+        "desc": "Description of a prediction."
+    },
+    "AHX": {
+        "name": "Event location",
+        "desc": "Description of the location of an event."
+    },
+    "AHY": {
+        "name": "Facility occupancy",
+        "desc": "Information related to occupancy of a facility."
+    },
+    "AHZ": {
+        "name": "Import and export details",
+        "desc": "Specific information provided about the importation and exportation of\n                                    goods."
+    },
+    "AIA": {
+        "name": "Additional facility information",
+        "desc": "Additional information about a facility."
+    },
+    "AIB": {
+        "name": "Inventory value",
+        "desc": "Description of the value of inventory."
+    },
+    "AIC": {
+        "name": "Education",
+        "desc": "Description of the education of a person."
+    },
+    "AID": {
+        "name": "Event",
+        "desc": "Description of a thing that happens or takes place."
+    },
+    "AIE": {
+        "name": "Agent",
+        "desc": "Information about agents the entity uses."
+    },
+    "AIF": {
+        "name": "Domestically agreed financial statement details",
+        "desc": "Details of domestically agreed financial statement."
+    },
+    "AIG": {
+        "name": "Other current asset description",
+        "desc": "Description of other current asset."
+    },
+    "AIH": {
+        "name": "Other current liability description",
+        "desc": "Description of other current liability."
+    },
+    "AII": {
+        "name": "Former business activity",
+        "desc": "Description of the former line of business."
+    },
+    "AIJ": {
+        "name": "Trade name use",
+        "desc": "Description of how a trading name is used."
+    },
+    "AIK": {
+        "name": "Signing authority",
+        "desc": "Description of the authorized signatory."
+    },
+    "AIL": {
+        "name": "Guarantee",
+        "desc": "Description of guarantee."
+    },
+    "AIM": {
+        "name": "Holding company operation",
+        "desc": "Description of the operation of a holding company."
+    },
+    "AIN": {
+        "name": "Consignment routing",
+        "desc": "Information on routing of the consignment."
+    },
+    "AIO": {
+        "name": "Letter of protest",
+        "desc": "A letter citing any condition in dispute."
+    },
+    "AIP": {
+        "name": "Question",
+        "desc": "A free text question."
+    },
+    "AIQ": {
+        "name": "Party information",
+        "desc": "Free text information related to a party."
+    },
+    "AIR": {
+        "name": "Area boundaries description",
+        "desc": "Description of the boundaries of a geographical area."
+    },
+    "AIS": {
+        "name": "Advertisement information",
+        "desc": "The free text contains advertisement information."
+    },
+    "AIT": {
+        "name": "Financial statement details",
+        "desc": "Details regarding the financial statement in free text."
+    },
+    "AIU": {
+        "name": "Access instructions",
+        "desc": "Description of how to access an entity."
+    },
+    "AIV": {
+        "name": "Liquidity",
+        "desc": "Description of an entity's liquidity."
+    },
+    "AIW": {
+        "name": "Credit line",
+        "desc": "Description of the line of credit available to an entity."
+    },
+    "AIX": {
+        "name": "Warranty terms",
+        "desc": "Text describing the terms of warranty which apply to a product or\n                                    service."
+    },
+    "AIY": {
+        "name": "Division description",
+        "desc": "Plain language description of a division of an entity."
+    },
+    "AIZ": {
+        "name": "Reporting instruction",
+        "desc": "Instruction on how to report."
+    },
+    "AJA": {
+        "name": "Examination result",
+        "desc": "The result of an examination."
+    },
+    "AJB": {
+        "name": "Laboratory result",
+        "desc": "The result of a laboratory investigation."
     },
     "ALC": {
         "name": "Allowance/charge information",
         "desc": "Information referring to allowance/charge."
     },
+    "ALD": {
+        "name": "X-ray result",
+        "desc": "The result of an X-ray examination."
+    },
+    "ALE": {
+        "name": "Pathology result",
+        "desc": "The result of a pathology investigation."
+    },
+    "ALF": {
+        "name": "Intervention description",
+        "desc": "Details of an intervention."
+    },
+    "ALG": {
+        "name": "Summary of admittance",
+        "desc": "Summary description of admittance."
+    },
+    "ALH": {
+        "name": "Medical treatment course detail",
+        "desc": "Details of a course of medical treatment."
+    },
+    "ALI": {
+        "name": "Prognosis",
+        "desc": "Details of a prognosis."
+    },
+    "ALJ": {
+        "name": "Instruction to patient",
+        "desc": "Instruction given to a patient."
+    },
+    "ALK": {
+        "name": "Instruction to physician",
+        "desc": "Instruction given to a physician."
+    },
     "ALL": {
         "name": "All documents",
         "desc": "The note implies to all documents."
+    },
+    "ALM": {
+        "name": "Medicine treatment",
+        "desc": "Details of medicine treatment."
+    },
+    "ALN": {
+        "name": "Medicine dosage and administration",
+        "desc": "Details of medicine dosage and method of administration."
+    },
+    "ALO": {
+        "name": "Availability of patient",
+        "desc": "Details of when and/or where the patient is available."
+    },
+    "ALP": {
+        "name": "Reason for service request",
+        "desc": "Details of the reason for a requested service."
+    },
+    "ALQ": {
+        "name": "Purpose of service",
+        "desc": "Details of the purpose of a service."
     },
     "ARR": {
         "name": "Arrival conditions",
         "desc": "Conditions under which arrival takes place."
     },
+    "ARS": {
+        "name": "Service requester's comment",
+        "desc": "Comment by the requester of a service."
+    },
     "AUT": {
         "name": "Authentication",
         "desc": "Name, code, password etc. given for authentication purposes."
+    },
+    "AUU": {
+        "name": "Requested location description",
+        "desc": "The description of the location requested."
+    },
+    "AUV": {
+        "name": "Medicine administration condition",
+        "desc": "The event or condition that initiates the administration of a single\n                                    dose of medicine or a period of treatment."
+    },
+    "AUW": {
+        "name": "Patient information",
+        "desc": "Information concerning a patient."
+    },
+    "AUX": {
+        "name": "Precautionary measure",
+        "desc": "Action to be taken to avert possible harmful affects."
+    },
+    "AUY": {
+        "name": "Service characteristic",
+        "desc": "Free text description is related to a service characteristic."
+    },
+    "AUZ": {
+        "name": "Planned event comment",
+        "desc": "Comment about an event that is planned."
+    },
+    "AVA": {
+        "name": "Expected delay comment",
+        "desc": "Comment about the expected delay."
+    },
+    "AVB": {
+        "name": "Transport requirements comment",
+        "desc": "Comment about the requirements for transport."
     },
     "BLC": {
         "name": "Bill of lading clause",
         "desc": "Clause on the bill of lading regarding the cargo being shipped."
     },
+    "BLD": {
+        "name": "Instruction to prepare the patient",
+        "desc": "Instruction with the purpose of preparing the patient."
+    },
+    "BLE": {
+        "name": "Medicine treatment comment",
+        "desc": "Comment about treatment with medicine."
+    },
+    "BLF": {
+        "name": "Examination result comment",
+        "desc": "Comment about the result of an examination."
+    },
+    "BLG": {
+        "name": "Service request comment",
+        "desc": "Comment about the requested service."
+    },
+    "BLH": {
+        "name": "Prescription reason",
+        "desc": "Details of the reason for a prescription."
+    },
+    "BLI": {
+        "name": "Prescription comment",
+        "desc": "Comment concerning a specified prescription."
+    },
+    "BLJ": {
+        "name": "Clinical investigation comment",
+        "desc": "Comment concerning a clinical investigation."
+    },
+    "BLK": {
+        "name": "Medicinal specification comment",
+        "desc": "Comment concerning the specification of a medicinal product."
+    },
+    "BLL": {
+        "name": "Economic contribution comment",
+        "desc": "Comment concerning economic contribution."
+    },
+    "BLM": {
+        "name": "Status of a plan",
+        "desc": "Comment about the status of a plan."
+    },
+    "BLN": {
+        "name": "Random sample test information",
+        "desc": "Information regarding a random sample test."
+    },
+    "BLO": {
+        "name": "Period of time",
+        "desc": "Text subject is a period of time."
+    },
+    "BLP": {
+        "name": "Legislation",
+        "desc": "Information about legislation."
+    },
     "BLR": {
         "name": "Transport document remarks",
-        "desc": "Remarks concerning the complete consignment to be printed on the bill of lading."
+        "desc": "Remarks concerning the complete consignment to be printed on the bill\n                                    of lading."
     },
     "CCI": {
         "name": "Customs clearance instructions",
-        "desc": "Any coded or clear instruction agreed by customer and carrier regarding the declaration of the goods."
+        "desc": "Any coded or clear instruction agreed by customer and carrier\n                                    regarding the declaration of the goods."
     },
     "CEX": {
         "name": "Customs clearance instructions export",
-        "desc": "Any coded or clear instruction agreed by customer and carrier regarding the export declaration of the goods."
+        "desc": "Any coded or clear instruction agreed by customer and carrier\n                                    regarding the export declaration of the goods."
     },
     "CHG": {
         "name": "Change information",
@@ -377,11 +1117,11 @@
     },
     "CIP": {
         "name": "Customs clearance instruction import",
-        "desc": "Any coded or clear instruction agreed by customer and carrier regarding the import declaration of the goods."
+        "desc": "Any coded or clear instruction agreed by customer and carrier\n                                    regarding the import declaration of the goods."
     },
     "CLP": {
         "name": "Clearance place requested",
-        "desc": "Name of the place where Customs clearance is asked to be executed as requested by the consignee/consignor."
+        "desc": "Name of the place where Customs clearance is asked to be executed as\n                                    requested by the consignee/consignor."
     },
     "CLR": {
         "name": "Loading remarks",
@@ -405,7 +1145,7 @@
     },
     "DCL": {
         "name": "Declaration",
-        "desc": "[4020] Text of a declaration made by the issuer of the document (CIM 12)."
+        "desc": "[4020] Text of a declaration made by the issuer of the document (CIM\n                                    12)."
     },
     "DEL": {
         "name": "Delivery information",
@@ -417,43 +1157,43 @@
     },
     "DOC": {
         "name": "Documentation instructions",
-        "desc": "Self explanatory."
+        "desc": "Instructions pertaining to the documentation."
     },
     "DUT": {
         "name": "Duty declaration",
-        "desc": "Self explanatory."
+        "desc": "The text contains a statement constituting a duty declaration."
     },
     "EUR": {
         "name": "Effective used routing",
-        "desc": "Physical route effectively used for the movement of the means of transport."
+        "desc": "Physical route effectively used for the movement of the means of\n                                    transport."
     },
     "FBC": {
         "name": "First block to be printed on the transport contract",
-        "desc": "Self explanatory."
+        "desc": "The first block of text to be printed on the transport contract."
     },
     "GBL": {
         "name": "Government bill of lading information",
-        "desc": "Free text information on a transport document to indicate payment information by Government Bill of Lading."
+        "desc": "Free text information on a transport document to indicate payment\n                                    information by Government Bill of Lading."
     },
     "GEN": {
         "name": "Entire transaction set",
-        "desc": "Note is general in nature, applies to entire transaction segment."
+        "desc": "Note is general in nature, applies to entire transaction segment.\n                                "
     },
     "GS7": {
         "name": "Further information concerning GGVS par. 7",
-        "desc": "Special permission for road transport of certain goods in the German dangerous goods regulation for road transport."
+        "desc": "Special permission for road transport of certain goods in the German\n                                    dangerous goods regulation for road transport."
     },
     "HAN": {
         "name": "Handling instructions",
-        "desc": "[4078] Instructions on how specified goods, packages or containers should be handled."
+        "desc": "[4078] Instructions on how specified goods, packages or containers\n                                    should be handled."
     },
     "HAZ": {
         "name": "Hazard information",
-        "desc": "Self explanatory."
+        "desc": "Information pertaining to a hazard."
     },
     "ICN": {
         "name": "Information for consignee",
-        "desc": "[4070] Any remark given for the information of the consignee (CIM 21)."
+        "desc": "[4070] Any remark given for the information of the consignee (CIM 21).\n                                "
     },
     "IIN": {
         "name": "Insurance instructions",
@@ -461,7 +1201,7 @@
     },
     "IMI": {
         "name": "Invoice mailing instructions",
-        "desc": "Instructions as to which freight and charges components have to be mailed to whom."
+        "desc": "Instructions as to which freight and charges components have to be\n                                    mailed to whom."
     },
     "IND": {
         "name": "Commercial invoice item description",
@@ -477,15 +1217,15 @@
     },
     "IRP": {
         "name": "Information for railway purpose",
-        "desc": "[4090] Date entered by railway stations when required, e.g. specified trains, additional sheets for freight calculations, special measures, etc.. (CIM 8)."
+        "desc": "[4090] Date entered by railway stations when required, e.g. specified\n                                    trains, additional sheets for freight calculations, special measures, etc. (CIM 8).\n                                "
     },
     "ITR": {
         "name": "Inland transport details",
-        "desc": "Information concerning the pre-carriage to the port of discharge if by other means than a vessel."
+        "desc": "Information concerning the pre-carriage to the port of discharge if by\n                                    other means than a vessel."
     },
     "ITS": {
         "name": "Testing instructions",
-        "desc": "Instructions regarding the testing that is required to be carried out on the items in the transaction."
+        "desc": "Instructions regarding the testing that is required to be carried out\n                                    on the items in the transaction."
     },
     "LIN": {
         "name": "Line item",
@@ -493,15 +1233,15 @@
     },
     "LOI": {
         "name": "Loading instruction",
-        "desc": "Instructions where specified packages or containers are to be loaded on a means of transport."
+        "desc": "Instructions where specified packages or containers are to be loaded\n                                    on a means of transport."
     },
     "MCO": {
         "name": "Miscellaneous charge order",
-        "desc": "Free text accounting information on an IATA Air Waybill to indicate payment information by Miscellaneous charge order."
+        "desc": "Free text accounting information on an IATA Air Waybill to indicate\n                                    payment information by Miscellaneous charge order."
     },
     "MKS": {
         "name": "Additional marks/numbers information",
-        "desc": "Self explanatory."
+        "desc": "Additional information regarding the marks and numbers."
     },
     "ORI": {
         "name": "Order instruction",
@@ -509,7 +1249,7 @@
     },
     "OSI": {
         "name": "Other service information",
-        "desc": "General information created by the sender of general or specific value."
+        "desc": "General information created by the sender of general or specific\n                                    value."
     },
     "PAC": {
         "name": "Packing/marking information",
@@ -517,7 +1257,7 @@
     },
     "PAI": {
         "name": "Payment instructions information",
-        "desc": "The free text contains payment instructions information relevant to the message."
+        "desc": "The free text contains payment instructions information relevant to\n                                    the message."
     },
     "PAY": {
         "name": "Payables information",
@@ -525,11 +1265,11 @@
     },
     "PKG": {
         "name": "Packaging information",
-        "desc": "Note contains packaging instructions."
+        "desc": "Note contains packaging information."
     },
     "PKT": {
         "name": "Packaging terms information",
-        "desc": "Self explanatory."
+        "desc": "The text contains packaging terms information."
     },
     "PMD": {
         "name": "Payment detail/remittance information",
@@ -541,11 +1281,11 @@
     },
     "PRD": {
         "name": "Product information",
-        "desc": "Self explanatory."
+        "desc": "The text contains product information."
     },
     "PRF": {
         "name": "Price calculation formula",
-        "desc": "Additional information regarding the price formula used for calculating the item price."
+        "desc": "Additional information regarding the price formula used for\n                                    calculating the item price."
     },
     "PRI": {
         "name": "Priority information",
@@ -557,11 +1297,11 @@
     },
     "QIN": {
         "name": "Quarantine instructions",
-        "desc": "Instructions regarding quarantine, i.e. the period during which an arriving vessel, including its equipment, cargo, crew or passengers, suspected to carry or carrying a contagious disease is detained in strict isolation to prevent the spread of such a disease."
+        "desc": "Instructions regarding quarantine, i.e. the period during which an\n                                    arriving vessel, including its equipment, cargo, crew or passengers, suspected to\n                                    carry or carrying a contagious disease is detained in strict isolation to prevent\n                                    the spread of such a disease."
     },
     "QQD": {
         "name": "Quality demands/requirements",
-        "desc": "Specification of the quality/performance expectations or standards to which the items must conform."
+        "desc": "Specification of the quality/performance expectations or standards to\n                                    which the items must conform."
     },
     "QUT": {
         "name": "Quotation instruction/information",
@@ -569,7 +1309,7 @@
     },
     "RAH": {
         "name": "Risk and handling information",
-        "desc": "Information concerning risks induced by the goods and/or handling instruction."
+        "desc": "Information concerning risks induced by the goods and/or handling\n                                    instruction."
     },
     "REG": {
         "name": "Regulatory information",
@@ -577,43 +1317,43 @@
     },
     "RET": {
         "name": "Return to origin information",
-        "desc": "Free text information on an IATA Air Waybill to indicate consignment returned because of non delivery."
+        "desc": "Free text information on an IATA Air Waybill to indicate consignment\n                                    returned because of non delivery."
     },
     "REV": {
         "name": "Receivables",
-        "desc": "Description to be provided."
+        "desc": "The text contains receivables information."
     },
     "RQR": {
         "name": "Requested routes/routing instructions",
-        "desc": "[3074] Names of places via which the consignor requests a consignment to be routed."
+        "desc": "[3074] Names of places via which the consignor requests a consignment\n                                    to be routed."
     },
     "RQT": {
         "name": "Tariffs and route requested",
-        "desc": "[4120] Stipulation of the tariffs to be applied showing, where applicable, special-agreement numbers or references; indication of routes by frontier points or by frontier stations and, when necessary, by transit stations between."
+        "desc": "[4120] Stipulation of the tariffs to be applied showing, where\n                                    applicable, special-agreement numbers or references; indication of routes by\n                                    frontier points or by frontier stations and, when necessary, by transit stations\n                                    between."
     },
     "SAF": {
         "name": "Safety information",
-        "desc": "Self explanatory."
+        "desc": "The text contains safety information."
     },
     "SIC": {
         "name": "Sender's instruction to carrier",
-        "desc": "[4284] Instructions given and declarations made by the sender to the carrier concerning Customs, insurance, and other formalities."
+        "desc": "[4284] Instructions given and declarations made by the sender to the\n                                    carrier concerning Customs, insurance, and other formalities."
     },
     "SIN": {
         "name": "Special instructions",
-        "desc": "Special instructions like licence no, high value, handle with care, glass."
+        "desc": "Special instructions like licence no, high value, handle with care,\n                                    glass."
     },
     "SLR": {
         "name": "Ship line requested",
-        "desc": "Shipping line requested to be used for traffic between European continent and U.K. for Ireland."
+        "desc": "Shipping line requested to be used for traffic between European\n                                    continent and U.K. for Ireland."
     },
     "SPA": {
         "name": "Special permission for transport, generally",
-        "desc": "Statement that a special permission has been obtained for the transport (and/or routing) in general, and reference to such permission."
+        "desc": "Statement that a special permission has been obtained for the\n                                    transport (and/or routing) in general, and reference to such permission."
     },
     "SPG": {
         "name": "Special permission concerning the goods to be transported",
-        "desc": "Statement that a special permission has been obtained for the transport (and/or routing) of the goods specified, and reference to such permission."
+        "desc": "Statement that a special permission has been obtained for the\n                                    transport (and/or routing) of the goods specified, and reference to such permission.\n                                "
     },
     "SPH": {
         "name": "Special handling",
@@ -621,27 +1361,27 @@
     },
     "SPP": {
         "name": "Special permission concerning package",
-        "desc": "Statement that a special permission has been obtained for the packaging, and reference to such permission."
+        "desc": "Statement that a special permission has been obtained for the\n                                    packaging, and reference to such permission."
     },
     "SPT": {
         "name": "Special permission concerning transport means",
-        "desc": "Statement that a special permission has been obtained for the use of the means transport, and reference to such permission."
+        "desc": "Statement that a special permission has been obtained for the use of\n                                    the means transport, and reference to such permission."
     },
     "SRN": {
         "name": "Subsidiary risk number (IATA/DGR)",
-        "desc": "Number(s) of subsidiary risks, induced by the goods, according to the valid classification."
+        "desc": "Number(s) of subsidiary risks, induced by the goods, according to the\n                                    valid classification."
     },
     "SSR": {
         "name": "Special service request",
-        "desc": "Request for a special service concerning the transport of the goods."
+        "desc": "Request for a special service concerning the transport of the goods.\n                                "
     },
     "SUR": {
         "name": "Supplier remarks",
         "desc": "Remarks from or for a supplier of goods or services."
     },
     "TCA": {
-        "name": "Tariff and class applied",
-        "desc": "[5430] Specification of tariff applied (CIM 55)."
+        "name": "Tariff applied",
+        "desc": "[5430] Specification of the tariff applied."
     },
     "TDT": {
         "name": "Transport details remarks",
@@ -653,11 +1393,11 @@
     },
     "TRR": {
         "name": "Requested tariff",
-        "desc": "Stipulation of the tariffs to be applied showing, where applicable, special agreement numbers or references."
+        "desc": "Stipulation of the tariffs to be applied showing, where applicable,\n                                    special agreement numbers or references."
     },
     "TXD": {
         "name": "Tax declaration",
-        "desc": "Description to be provided."
+        "desc": "The text contains a statement constituting a tax declaration."
     },
     "WHI": {
         "name": "Warehouse instruction/information",

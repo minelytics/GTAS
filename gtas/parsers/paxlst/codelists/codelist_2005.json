@@ -1,4 +1,8 @@
 {
+    "1": {
+        "name": "Service completion date/time, actual",
+        "desc": "Actual date/time on which the service was completed."
+    },
     "2": {
         "name": "Delivery date/time, requested",
         "desc": "Date on which buyer requests goods to be delivered."
@@ -11,9 +15,17 @@
         "name": "Order date/time",
         "desc": "[2010] Date when an order is issued."
     },
+    "5": {
+        "name": "Saleable stock demand cover period, expected",
+        "desc": "A period of time when saleable stocks are expected to cover demand for\n                                    a product."
+    },
+    "6": {
+        "name": "Moved from location date",
+        "desc": "The date an entity moved from a location."
+    },
     "7": {
         "name": "Effective date/time",
-        "desc": "Date and/or time at which specified event or document becomes effective."
+        "desc": "Date and/or time at which specified event or document becomes\n                                    effective."
     },
     "8": {
         "name": "Order received date/time",
@@ -25,15 +37,15 @@
     },
     "10": {
         "name": "Shipment date/time, requested",
-        "desc": "Date on which goods should be shipped or despatched by the supplier."
+        "desc": "Date on which goods should be shipped or despatched by the supplier.\n                                "
     },
     "11": {
-        "name": "Despatch date/time",
-        "desc": "(2170) Date/time on which the goods are/should be despatched/shipped."
+        "name": "Despatch date and or time",
+        "desc": "(2170) Date/time on which the goods are or are expected to be\n                                    despatched or shipped."
     },
     "12": {
         "name": "Terms discount due date/time",
-        "desc": "Date by which payment should be made if discount terms are to apply."
+        "desc": "Date by which payment should be made if discount terms are to apply.\n                                "
     },
     "13": {
         "name": "Terms net due date",
@@ -53,11 +65,15 @@
     },
     "17": {
         "name": "Delivery date/time, estimated",
-        "desc": "Date and/or time when the shipper of the goods expects delivery will take place."
+        "desc": "Date and/or time when the shipper of the goods expects delivery will\n                                    take place."
     },
     "18": {
         "name": "Installation date/time/period",
-        "desc": "Self explanatory."
+        "desc": "The date/time/period of the act, or an instance of installing\n                                    something or someone."
+    },
+    "19": {
+        "name": "Meat ageing period",
+        "desc": "Period of time between slaughter and delivery during which meat is\n                                    ageing."
     },
     "20": {
         "name": "Cheque date/time",
@@ -65,19 +81,27 @@
     },
     "21": {
         "name": "Charge back date/time",
-        "desc": "Description to be provided."
+        "desc": "The date/time of the charge back."
     },
     "22": {
         "name": "Freight bill date/time",
         "desc": "Date/time when freight bill is issued."
     },
+    "23": {
+        "name": "Equipment reconditioning date/time, actual",
+        "desc": "Actual date/time of the reconditioning of a piece of equipment."
+    },
+    "24": {
+        "name": "Transfer note acceptance date and time",
+        "desc": "Date and time when a transfer note (transfer document for transport\n                                    exclusively using containers as equipment) is recognised as being valid by the\n                                    carrier."
+    },
     "35": {
         "name": "Delivery date/time, actual",
-        "desc": "Date/time on which goods or consignment are delivered at their destination."
+        "desc": "Date/time on which goods or consignment are delivered at their\n                                    destination."
     },
     "36": {
         "name": "Expiry date",
-        "desc": "Date of expiry of the validity of a referenced document, price information or any other referenced data element with a limited validity period."
+        "desc": "Date of expiry of the validity of a referenced document, price\n                                    information or any other referenced data element with a limited validity period.\n                                "
     },
     "37": {
         "name": "Ship not before date/time",
@@ -91,9 +115,21 @@
         "name": "Ship week of date",
         "desc": "Date identifying the week during which goods should be shipped."
     },
+    "40": {
+        "name": "Clinical information issue date and/or time",
+        "desc": "Date and/or time when clinical information is issued."
+    },
+    "41": {
+        "name": "Event duration, expected",
+        "desc": "The expected duration of an event."
+    },
     "42": {
         "name": "Superseded date/time",
         "desc": "Date/time being overlaid by a date given elsewhere."
+    },
+    "43": {
+        "name": "Event duration, intended",
+        "desc": "The intended duration of an event."
     },
     "44": {
         "name": "Availability",
@@ -133,23 +169,31 @@
     },
     "53": {
         "name": "Buyer's local time",
-        "desc": "Time at the buyers location."
+        "desc": "Time at the buyer's location."
     },
     "54": {
         "name": "Seller's local time",
-        "desc": "Time at the sellers location."
+        "desc": "Time at the seller's location."
     },
     "55": {
         "name": "Confirmed date/time",
         "desc": "Date/time which has been confirmed."
     },
+    "56": {
+        "name": "Original authorisation date and/or time",
+        "desc": "Date and/or time when original authorisation was issued."
+    },
+    "57": {
+        "name": "Precaution relevant period",
+        "desc": "The period when a precaution is relevant."
+    },
     "58": {
         "name": "Clearance date (Customs)",
-        "desc": "(3080) Date on which Customs formalities necessary to allow goods to be exported, to enter home use, or to be placed under another Customs procedure has been accomplished (CCC)."
+        "desc": "(3080) Date on which Customs formalities necessary to allow goods to\n                                    be exported, to enter home use, or to be placed under another Customs procedure has\n                                    been accomplished (CCC)."
     },
     "59": {
-        "name": "Inland ship date",
-        "desc": "Date on which Customs authorized the movement of an in bond shipment."
+        "name": "Inbound movement authorization date",
+        "desc": "Inland movement authorization date."
     },
     "60": {
         "name": "Engineering change level date",
@@ -157,39 +201,59 @@
     },
     "61": {
         "name": "Cancel if not delivered by this date",
-        "desc": "Self explanatory."
+        "desc": "The date on which cancellation should take place, if delivery has not\n                                    occurred."
+    },
+    "62": {
+        "name": "Excluded date",
+        "desc": "Date excluded from a period of time."
     },
     "63": {
         "name": "Delivery date/time, latest",
-        "desc": "Date identifying a point of time after which goods should not or will not be delivered."
+        "desc": "Date identifying a point of time after which goods shall not or will\n                                    not be delivered."
     },
     "64": {
         "name": "Delivery date/time, earliest",
-        "desc": "Date identifying a point in time before which the goods should not be delivered."
+        "desc": "Date identifying a point in time before which the goods shall not be\n                                    delivered."
     },
     "65": {
         "name": "Delivery date/time, 1st schedule",
-        "desc": "Self explanatory."
+        "desc": "The first scheduled date/time for delivery."
+    },
+    "66": {
+        "name": "Excluded period",
+        "desc": "An interval of time excluded from a period of time."
     },
     "67": {
         "name": "Delivery date/time, current schedule",
         "desc": "Delivery Date deriving from actual schedule."
     },
+    "68": {
+        "name": "Additional period",
+        "desc": "An interval of time added to a period of time."
+    },
     "69": {
         "name": "Delivery date/time, promised for",
-        "desc": "[2138] Date by which, or period within which, the merchandise should be delivered to the buyer, as agreed between the seller and the buyer (generic term)."
+        "desc": "[2138] Date by which, or period within which, the merchandise should\n                                    be delivered to the buyer, as agreed between the seller and the buyer (generic\n                                    term)."
+    },
+    "70": {
+        "name": "Additional date",
+        "desc": "Date added to a period of time."
     },
     "71": {
         "name": "Delivery date/time, requested for (after and including)",
-        "desc": "Delivery should happen earliest at given date."
+        "desc": "Delivery is requested to happen after or on given date."
     },
     "72": {
         "name": "Delivery date/time, promised for (after and including)",
         "desc": "Delivery might take place earliest at given date."
     },
+    "73": {
+        "name": "Guarantee period",
+        "desc": "The period for which the guarantee is or will be granted."
+    },
     "74": {
         "name": "Delivery date/time, requested for (prior to and including)",
-        "desc": "Delivery should take place latest at given date."
+        "desc": "Delivery is requested to happen prior to or including the given date.\n                                "
     },
     "75": {
         "name": "Delivery date/time, promised for (prior to and including)",
@@ -197,15 +261,35 @@
     },
     "76": {
         "name": "Delivery date/time, scheduled for",
-        "desc": "Self explanatory."
+        "desc": "The date/time for which delivery is scheduled."
+    },
+    "77": {
+        "name": "Specification revision date",
+        "desc": "Date of revision to a specification."
+    },
+    "78": {
+        "name": "Event date/time/period, actual",
+        "desc": "The actual date/time/period an event occurred."
     },
     "79": {
         "name": "Shipment date/time, promised for",
         "desc": "Shipment might happen at given date/time."
     },
+    "80": {
+        "name": "Planning end date and/or time, actual",
+        "desc": "The actual date and/or time the planning ended."
+    },
     "81": {
         "name": "Shipment date/time, requested for (after and including)",
         "desc": "Shipment should happen earliest at given date."
+    },
+    "82": {
+        "name": "Medicine administration time",
+        "desc": "Designated time of day for the administration of medicine."
+    },
+    "83": {
+        "name": "Dispensing interval, minimum",
+        "desc": "The shortest interval allowed between one dispensing of an item and\n                                    the next dispensing of the same item."
     },
     "84": {
         "name": "Shipment date/time, requested for (prior to and including)",
@@ -215,17 +299,29 @@
         "name": "Shipment date/time, promised for (prior to and including)",
         "desc": "Shipment might take place latest at given date."
     },
+    "86": {
+        "name": "Medication date/time, start",
+        "desc": "Date and/or time when medication was started."
+    },
+    "87": {
+        "name": "Travel service connection time",
+        "desc": "Time elapsing between the arrival of a travel service and the\n                                    departure of a connecting travel service."
+    },
+    "88": {
+        "name": "Summer time, start",
+        "desc": "Date/time at which the summer time starts."
+    },
     "89": {
         "name": "Inquiry date",
-        "desc": "Self explanatory."
+        "desc": "The date on which an inquiry is made."
     },
     "90": {
         "name": "Report start date",
-        "desc": "Self explanatory."
+        "desc": "The date on which a report is to begin."
     },
     "91": {
         "name": "Report end date",
-        "desc": "Self explanatory."
+        "desc": "The date on which a report is to end."
     },
     "92": {
         "name": "Contract effective date",
@@ -245,35 +341,71 @@
     },
     "96": {
         "name": "Discharge date/time",
-        "desc": "Date/time when goods should, might or have been discharged from the means of transport."
+        "desc": "Date/time when goods should, might or have been discharged from the\n                                    means of transport."
     },
     "97": {
         "name": "Transaction creation date",
-        "desc": "Self explanatory."
+        "desc": "The date on which a transaction was originated or brought into being.\n                                "
+    },
+    "98": {
+        "name": "Winter time, start",
+        "desc": "Date/time at which the winter time starts."
+    },
+    "99": {
+        "name": "Quotation opening date",
+        "desc": "The date on which the quotation has been or may be opened."
+    },
+    "100": {
+        "name": "Product ageing period before delivery",
+        "desc": "Period of time before delivery during which the product is ageing.\n                                "
     },
     "101": {
         "name": "Production date, no schedule established as of",
         "desc": "Date as of there is no valid production schedule."
     },
+    "102": {
+        "name": "Health problem period",
+        "desc": "Period of time of health problem."
+    },
+    "103": {
+        "name": "Closing date/time for breakbulk STORO",
+        "desc": "Date/time on which delivering period for breakbulk STORO cargo ends\n                                    (STORO = Stowing on Roll on-Roll off vessel)."
+    },
+    "104": {
+        "name": "Closing date/time for container RO-RO",
+        "desc": "Date/time on which delivering period for container Roll on-Roll off\n                                    (RO-RO) cargo ends."
+    },
+    "105": {
+        "name": "Starting date/time for breakbulk STORO",
+        "desc": "Date/time on which delivering period for breakbulk STORO cargo starts\n                                    (STORO = Stowing on Roll on-Roll off vessel)."
+    },
+    "106": {
+        "name": "Starting date/time for container RO-RO",
+        "desc": "Date/time on which delivering period for container Roll on-Roll off\n                                    (RO-RO) cargo starts."
+    },
     "107": {
         "name": "Deposit date/time",
-        "desc": "Self explanatory."
+        "desc": "The date/time on which a deposit was made."
     },
     "108": {
         "name": "Postmark date/time",
-        "desc": "Self explanatory."
+        "desc": "An official mark stamped on a letter identifying date/time of dispatch\n                                    or arrival."
     },
     "109": {
         "name": "Receive at lockbox date",
-        "desc": "Self explanatory."
+        "desc": "The date on which a financial institution, serving as collection\n                                    agency for a company located in another part of the country, collects an amount of\n                                    money on behalf of that company."
     },
     "110": {
         "name": "Ship date, originally scheduled",
-        "desc": "Self explanatory."
+        "desc": "The date on which the shipment of goods was originally scheduled.\n                                "
     },
     "111": {
         "name": "Manifest/ship notice date",
-        "desc": "Self explanatory."
+        "desc": "The date of issuance of a manifest or ship notice."
+    },
+    "112": {
+        "name": "First interest-bearing date",
+        "desc": "The first date from which interest is borne."
     },
     "113": {
         "name": "Sample required date",
@@ -287,17 +419,37 @@
         "name": "Sample available date",
         "desc": "Date as of a sample will be available seller defined."
     },
+    "116": {
+        "name": "Equipment return period, expected",
+        "desc": "Period until which equipment is expected to be hired."
+    },
     "117": {
         "name": "Delivery date/time, first",
         "desc": "First possible date/time for delivery."
+    },
+    "118": {
+        "name": "Cargo booking confirmed date/time",
+        "desc": "Date/time at which the cargo booking has been accepted by the carrier.\n                                "
     },
     "119": {
         "name": "Test completion date",
         "desc": "Date when a test has been completed."
     },
+    "120": {
+        "name": "Last interest-bearing date",
+        "desc": "The last date from which interest is borne."
+    },
+    "121": {
+        "name": "Entry date",
+        "desc": "Date of entry."
+    },
+    "122": {
+        "name": "Contract completion date",
+        "desc": "The date a contract is completed."
+    },
     "123": {
         "name": "Documentary credit expiry date/time",
-        "desc": "The latest date/time for presentation of the documents to the bank where the credit expires."
+        "desc": "The latest date/time for presentation of the documents to the bank\n                                    where the credit expires."
     },
     "124": {
         "name": "Despatch note date",
@@ -311,13 +463,21 @@
         "name": "Contract date",
         "desc": "[2326] Date when a Contract is agreed."
     },
+    "127": {
+        "name": "Previous report date",
+        "desc": "Date of the previous report."
+    },
     "128": {
         "name": "Delivery date/time, last",
-        "desc": "Date when delivery should be or has been accomplished."
+        "desc": "Date when the last delivery should be or has been accomplished."
     },
     "129": {
         "name": "Exportation date",
-        "desc": "Date when imported vessel/merchandise last left the country of export for the country of import."
+        "desc": "Date when imported vessel/merchandise last left the country of export\n                                    for the country of import."
+    },
+    "130": {
+        "name": "Current report date",
+        "desc": "Date of the current report."
     },
     "131": {
         "name": "Tax point date",
@@ -325,11 +485,11 @@
     },
     "132": {
         "name": "Arrival date/time, estimated",
-        "desc": "(2348) Date/time when carrier estimates that a means of transport should arrive at the port of discharge or place of destination."
+        "desc": "(2348) Date/time when carrier estimates that a means of transport\n                                    should arrive at the port of discharge or place of destination."
     },
     "133": {
         "name": "Departure date/time, estimated",
-        "desc": "Date/time when carrier estimates that a means of transport should depart at the place of departure."
+        "desc": "Date/time when carrier estimates that a means of transport should\n                                    depart at the place of departure."
     },
     "134": {
         "name": "Rate of exchange date/time",
@@ -345,11 +505,15 @@
     },
     "137": {
         "name": "Document/message date/time",
-        "desc": "(2006) Date/time when a document/message is issued. This may include authentication."
+        "desc": "(2006) Date/time when a document/message is issued. This may include\n                                    authentication."
     },
     "138": {
         "name": "Payment date",
-        "desc": "[2034] Date on which an amount due is made available to the creditor, in accordance with the terms of payment."
+        "desc": "[2034] Date on which an amount due is made available to the creditor,\n                                    in accordance with the terms of payment."
+    },
+    "139": {
+        "name": "Property mortgage date, start",
+        "desc": "The date the mortgage on a piece of property begins."
     },
     "140": {
         "name": "Payment due date",
@@ -357,15 +521,23 @@
     },
     "141": {
         "name": "Presentation date of Goods declaration (Customs)",
-        "desc": "[2032] Date on which a Goods declaration is presented or lodged with Customs."
+        "desc": "[2032] Date on which a Goods declaration is presented or lodged with\n                                    Customs."
+    },
+    "142": {
+        "name": "Labour wage determination date",
+        "desc": "The date a labour wage is determined."
     },
     "143": {
         "name": "Acceptance date/time of goods",
-        "desc": "[2126] Date on which the goods are taken over by the carrier at the place of acceptance (CMR 4)."
+        "desc": "[2126] Date on which the goods are taken over by the carrier at the\n                                    place of acceptance (CMR 4)."
     },
     "144": {
         "name": "Quota date",
-        "desc": "Description to be provided."
+        "desc": "Date that the quota applies to."
+    },
+    "145": {
+        "name": "Event date",
+        "desc": "A date specifying an event."
     },
     "146": {
         "name": "Entry date, estimated (Customs)",
@@ -377,7 +549,7 @@
     },
     "148": {
         "name": "Acceptance date of Goods declaration (Customs)",
-        "desc": "[2036] Date on which a Goods declaration is accepted by Customs in accordance with Customs legislation."
+        "desc": "[2036] Date on which a Goods declaration is accepted by Customs in\n                                    accordance with Customs legislation."
     },
     "149": {
         "name": "Invoice date, required",
@@ -389,31 +561,31 @@
     },
     "151": {
         "name": "Importation date",
-        "desc": "Date on which goods are imported, as determined by the governing Customs administration."
+        "desc": "Date on which goods are imported, as determined by the governing\n                                    Customs administration."
     },
     "152": {
         "name": "Exportation date for textiles",
-        "desc": "Date when imported textiles last left the country of origin for the country of importation."
+        "desc": "Date when imported textiles last left the country of origin for the\n                                    country of importation."
     },
     "153": {
         "name": "Cancellation date/time, latest",
-        "desc": "The latest date/time on which cancellation of the payment order may be requested."
+        "desc": "The latest date/time on which cancellation of the payment order may be\n                                    requested."
     },
     "154": {
         "name": "Acceptance date of document",
-        "desc": "Self explanatory."
+        "desc": "The date on which a document was accepted."
     },
     "155": {
         "name": "Accounting period start date",
-        "desc": "Self explanatory."
+        "desc": "The first date of an accounting period."
     },
     "156": {
         "name": "Accounting period end date",
-        "desc": "Self explanatory."
+        "desc": "The last date of an accounting period."
     },
     "157": {
         "name": "Validity start date",
-        "desc": "Self explanatory."
+        "desc": "The first date of a period for which something is valid."
     },
     "158": {
         "name": "Horizon start date",
@@ -465,7 +637,7 @@
     },
     "170": {
         "name": "Settlement due date",
-        "desc": "More generic than 'payment due date' and therefore more apt for reinsurance/insurance business."
+        "desc": "More generic than 'payment due date' and therefore more apt for\n                                    reinsurance/insurance business."
     },
     "171": {
         "name": "Reference date/time",
@@ -533,11 +705,11 @@
     },
     "187": {
         "name": "Authentication date/time of document",
-        "desc": "Date/time when the document is signed or otherwise authenticated."
+        "desc": "Date/time when the document is signed or otherwise authenticated.\n                                "
     },
     "188": {
         "name": "Previous current account date",
-        "desc": "Self explanatory."
+        "desc": "Date of the previous current account."
     },
     "189": {
         "name": "Departure date/time, scheduled",
@@ -545,7 +717,7 @@
     },
     "190": {
         "name": "Transhipment date/time",
-        "desc": "Date and time of the transfer of the goods from one means of transport to another."
+        "desc": "Date and time of the transfer of the goods from one means of transport\n                                    to another."
     },
     "191": {
         "name": "Delivery date/time, expected",
@@ -572,16 +744,16 @@
         "desc": "Date/time of earliest departure of means of transport."
     },
     "197": {
-        "name": "Laytime first day",
-        "desc": "First of a number of days allowed in a charter party of the loading and discharging of cargo."
+        "name": "Lay-time first day",
+        "desc": "First of a number of days allowed in a charter party of the loading\n                                    and discharging of cargo."
     },
     "198": {
-        "name": "Laytime last day",
-        "desc": "Last of a number of days allowed in a charter party for the loading and discharging of cargo."
+        "name": "Lay-time last day",
+        "desc": "Last of a number of days allowed in a charter party for the loading\n                                    and discharging of cargo."
     },
     "199": {
         "name": "Positioning date/time of goods",
-        "desc": "The date and/or time the goods have to be or have been positioned."
+        "desc": "The date and/or time the goods have to be or have been positioned.\n                                "
     },
     "200": {
         "name": "Pick-up/collection date/time of cargo",
@@ -597,15 +769,15 @@
     },
     "203": {
         "name": "Execution date/time, requested",
-        "desc": "The date/time on which the ordered bank is requested to initiate the payment order, as specified by the originator (e.g. the date of the debit)."
+        "desc": "The date/time on which the ordered bank is requested to initiate the\n                                    payment order, as specified by the originator (e.g. the date of the debit)."
     },
     "204": {
         "name": "Release date (Customs)",
-        "desc": "Date on which Customs releases merchandise to the carrier or importer."
+        "desc": "Date on which Customs releases merchandise to the carrier or importer.\n                                "
     },
     "205": {
         "name": "Settlement date",
-        "desc": "Date for settlement of financial transaction e.g. foreign exchange securities."
+        "desc": "Date for settlement of financial transaction e.g. foreign exchange\n                                    securities."
     },
     "206": {
         "name": "End date/time",
@@ -613,19 +785,19 @@
     },
     "207": {
         "name": "Commenced pumping ballast date/time",
-        "desc": "Date/time on which the intake of materials to be carried to improve the trim and the stability of the means of transport, was commenced."
+        "desc": "Date/time on which the intake of materials to be carried to improve\n                                    the trim and the stability of the means of transport, was commenced."
     },
     "208": {
         "name": "Departure date/time, ultimate",
-        "desc": "Date/time at which a means of transport has to depart ultimately."
+        "desc": "Date/time at which a means of transport has to depart ultimately.\n                                "
     },
     "209": {
         "name": "Value date",
-        "desc": "Date on which the funds are at the disposal of the beneficiary or cease to be at the disposal of the ordering customer."
+        "desc": "Date on which the funds are at the disposal of the beneficiary or\n                                    cease to be at the disposal of the ordering customer."
     },
     "210": {
         "name": "Reinsurance current account period",
-        "desc": "Description to be provided."
+        "desc": "The date of the current reinsurance account."
     },
     "211": {
         "name": "360/30",
@@ -641,7 +813,7 @@
     },
     "214": {
         "name": "365-6/28-31",
-        "desc": "Calculation is based on year of 365-6 days, month of 28- 31 days."
+        "desc": "Calculation is based on year of 365-6 days, month of 28- 31 days.\n                                "
     },
     "215": {
         "name": "365/28-31",
@@ -651,13 +823,21 @@
         "name": "365/30",
         "desc": "Calculation is based on year of 365 days, month of 30 days."
     },
+    "217": {
+        "name": "From date of award to latest delivery",
+        "desc": "Lead time to determine the latest date a delivery can be made based on\n                                    the date an award is made."
+    },
     "218": {
         "name": "Authentication/validation date/time",
-        "desc": "Self explanatory."
+        "desc": "The date/time of authentication and/or validation."
     },
     "219": {
         "name": "Crossborder date/time",
-        "desc": "Date/time at which goods are transferred across a country border."
+        "desc": "Date/time at which goods are transferred across a country border.\n                                "
+    },
+    "220": {
+        "name": "Property mortgage scheduled date, end",
+        "desc": "The date the mortgage on a piece of property is scheduled to end.\n                                "
     },
     "221": {
         "name": "Interest period",
@@ -669,15 +849,15 @@
     },
     "223": {
         "name": "Delivery date/time, deferred",
-        "desc": "New date and time of delivery calculated on basis of a consignee's requirement (chargeable)."
+        "desc": "New date and time of delivery calculated on basis of a consignee's\n                                    requirement (chargeable)."
     },
     "224": {
         "name": "Permit to admit date",
-        "desc": "Date on which permission was granted to move merchandise into a bonded warehouse or free trade zone."
+        "desc": "Date on which permission was granted to move merchandise into a bonded\n                                    warehouse or free trade zone."
     },
     "225": {
         "name": "Certification of weight date/time",
-        "desc": "Date/time at which the carrier proceeds to the weighting of the goods."
+        "desc": "Date/time at which the carrier proceeds to the weighting of the goods.\n                                "
     },
     "226": {
         "name": "Discrepancy date/time",
@@ -685,11 +865,11 @@
     },
     "227": {
         "name": "Beneficiary's banks due date",
-        "desc": "Date on which funds should be made available to the beneficiary's bank."
+        "desc": "Date on which funds should be made available to the beneficiary's\n                                    bank."
     },
     "228": {
         "name": "Debit value date, requested",
-        "desc": "Date on which the account owner wants the debit value to his account."
+        "desc": "Date on which the account owner wants the debit value to his account.\n                                "
     },
     "229": {
         "name": "Hoses connected date/time",
@@ -713,15 +893,15 @@
     },
     "234": {
         "name": "Collection date/time, earliest",
-        "desc": "The transport order may be issued before the goods are ready for picking up. This date/time indicates from when on the carrier can have access to the consignment."
+        "desc": "The transport order may be issued before the goods are ready for\n                                    picking up. This date/time indicates from when on the carrier can have access to the\n                                    consignment."
     },
     "235": {
         "name": "Collection date/time, latest",
-        "desc": "In relation with the arrangements agreed between buyer and seller or between sender and main transport it may be necessary to specify the latest collection date/time."
+        "desc": "In relation with the arrangements agreed between buyer and seller or\n                                    between sender and main transport it may be necessary to specify the latest\n                                    collection date/time."
     },
     "236": {
         "name": "Completed pumping ballast date/time",
-        "desc": "Date/time at which the intake of materials, to be carried to improve the trim and the stability of the means of transport, was completed."
+        "desc": "Date/time at which the intake of materials, to be carried to improve\n                                    the trim and the stability of the means of transport, was completed."
     },
     "237": {
         "name": "Completed tank cleaning date/time",
@@ -737,19 +917,23 @@
     },
     "240": {
         "name": "Reinsurance accounting period",
-        "desc": "To identify a reinsurance account period via start and end dates. Note: This period is not the same as 'reinsurance current account period'."
+        "desc": "To identify a reinsurance account period via start and end dates.\n                                "
+    },
+    "241": {
+        "name": "From date of award to earliest delivery",
+        "desc": "Lead time to determine the earliest date a delivery can be made based\n                                    on the date an award is made."
     },
     "242": {
         "name": "Preparation date/time of document",
-        "desc": "Self explanatory."
+        "desc": "Date and/or time that the document was prepared."
     },
     "243": {
         "name": "Transmission date/time of document",
-        "desc": "Self explanatory."
+        "desc": "The date/time at which a document was transmitted."
     },
     "244": {
         "name": "Settlement date, planned",
-        "desc": "Self explanatory."
+        "desc": "The date for which settlement is planned."
     },
     "245": {
         "name": "Underwriting year",
@@ -757,55 +941,59 @@
     },
     "246": {
         "name": "Accounting year",
-        "desc": "Year considered for accounting of the treaty or portion of the treaty."
+        "desc": "Year considered for accounting of the treaty or portion of the treaty.\n                                "
     },
     "247": {
         "name": "Year of occurrence",
         "desc": "Year in which a specific event (e.g. a loss) took place."
     },
     "248": {
-        "name": "Loss date",
-        "desc": "Date on which a referenced (major) loss occurred."
+        "name": "Loss",
+        "desc": "Date, time, period on which a referenced loss occurred."
     },
     "249": {
         "name": "Cash call date",
-        "desc": "Date on which a cash call was made for a loss suffered and covered."
+        "desc": "Date on which a cash call was made for a loss suffered and covered.\n                                "
     },
     "250": {
         "name": "Re-exportation date",
-        "desc": "Re-export in case of temporary admission."
+        "desc": "Date of re-exportation."
     },
     "251": {
         "name": "Re-importation date",
-        "desc": "Re-import in case of temporary admission."
+        "desc": "Date of re-importation."
     },
     "252": {
         "name": "Arrival date/time at initial port",
-        "desc": "Date/time that the conveyance arrives at the initial port in the country of destination."
+        "desc": "Date/time that the conveyance arrives at the initial port in the\n                                    country of destination."
     },
     "253": {
         "name": "Departure date/time from last port of call",
-        "desc": "Date/time that conveyance departed from the last foreign port of call."
+        "desc": "Date/time that conveyance departed from the last foreign port of call.\n                                "
     },
     "254": {
         "name": "Registration date of previous Customs declaration",
-        "desc": "Registration date of the Customs declaration for the previous Customs procedure either in the same or another country."
+        "desc": "Registration date of the Customs declaration for the previous Customs\n                                    procedure either in the same or another country."
     },
     "255": {
         "name": "Availability due date",
-        "desc": "Date when ordered items should be available at a specified location."
+        "desc": "Date when ordered items should be available at a specified location.\n                                "
+    },
+    "256": {
+        "name": "From date of award to completion",
+        "desc": "Lead time to determine the completion date of an effort based on the\n                                    date an award is made."
     },
     "257": {
-        "name": "Calculation date",
-        "desc": "Self explanatory."
+        "name": "Calculation date/time/period",
+        "desc": "The date/time/period on which a calculation will take, or has taken,\n                                    place."
     },
     "258": {
-        "name": "Guarantee date (Customs)",
-        "desc": "Date when guarantee is placed with Customs."
+        "name": "Guarantee date",
+        "desc": "Date when a guarantee is placed."
     },
     "259": {
         "name": "Conveyance registration date",
-        "desc": "Date when a vessel, vehicle or other means of transport was registered by a competent authority."
+        "desc": "Date when a vessel, vehicle or other means of transport was registered\n                                    by a competent authority."
     },
     "260": {
         "name": "Valuation date (Customs)",
@@ -813,7 +1001,7 @@
     },
     "261": {
         "name": "Release date/time",
-        "desc": "Date/time assigned to identify the release of a set of rules, conditions, conventions, productions, etc."
+        "desc": "Date/time assigned to identify the release of a set of rules,\n                                    conditions, conventions, productions, etc."
     },
     "262": {
         "name": "Closure date/time/period",
@@ -829,11 +1017,11 @@
     },
     "265": {
         "name": "Due date",
-        "desc": "Self explanatory."
+        "desc": "The date on which some action should occur."
     },
     "266": {
         "name": "Validation date",
-        "desc": "Self explanatory."
+        "desc": "The date on which something was made valid, ratified or confirmed.\n                                "
     },
     "267": {
         "name": "Rate/price date/time",
@@ -841,11 +1029,15 @@
     },
     "268": {
         "name": "Transit time/limits",
-        "desc": "Description to be provided."
+        "desc": "The time to go over a distance."
+    },
+    "269": {
+        "name": "Discharge date/time, started",
+        "desc": "Date/time when discharge operations were started."
     },
     "270": {
         "name": "Ship during date",
-        "desc": "The date identifying the period during or in which the goods should be shipped."
+        "desc": "The date identifying the period during or in which the goods should be\n                                    shipped."
     },
     "271": {
         "name": "Ship on or about date",
@@ -853,7 +1045,7 @@
     },
     "272": {
         "name": "Documentary credit presentation period",
-        "desc": "The specification of the period of time, expressed in number of days, after the date of issuance of the transport document(s) within which the documents must be presented."
+        "desc": "The specification of the period of time, expressed in number of days,\n                                    after the date of issuance of the transport document(s) within which the documents\n                                    must be presented."
     },
     "273": {
         "name": "Validity period",
@@ -897,7 +1089,7 @@
     },
     "283": {
         "name": "Arrival date/time of transport lead time",
-        "desc": "Lead time is referenced to the date a transport will arrive or has arrived."
+        "desc": "Lead time is referenced to the date a transport will arrive or has\n                                    arrived."
     },
     "284": {
         "name": "Before inventory is replenished based on stock check lead time",
@@ -905,7 +1097,7 @@
     },
     "285": {
         "name": "Invitation to tender date/time",
-        "desc": "Date/time on which the invitation to tender has been made available to relevant parties."
+        "desc": "Date/time on which the invitation to tender has been made available to\n                                    relevant parties."
     },
     "286": {
         "name": "Tender submission date/time",
@@ -919,29 +1111,33 @@
         "name": "Price base date/time",
         "desc": "Base date/time of prices."
     },
+    "289": {
+        "name": "Interest rate validity period",
+        "desc": "Validity period of the interest rate."
+    },
     "290": {
         "name": "Contractual start date/time",
         "desc": "Date/time on which activities stated in the contract must start."
     },
     "291": {
         "name": "Start date/time, planned",
-        "desc": "Self explanatory."
+        "desc": "The date/time for which something is planned to begin or commence.\n                                "
     },
     "292": {
         "name": "Works completion date/time, planned",
-        "desc": "Self explanatory."
+        "desc": "The date/time for the completion of building or repair operations is\n                                    planned."
     },
     "293": {
         "name": "Works completion date/time, actual",
-        "desc": "Self explanatory."
+        "desc": "The actual date/time for the completion of building or repair\n                                    operations."
     },
     "294": {
         "name": "Hand over date/time, planned",
-        "desc": "Date/time on which hand over (i.e. the transfer of responsibility for an object or activity such as documentation, system etc. from one party to another) is planned to take place."
+        "desc": "Date/time on which hand over (i.e. the transfer of responsibility for\n                                    an object or activity such as documentation, system etc. from one party to another)\n                                    is planned to take place."
     },
     "295": {
         "name": "Hand over date/time, actual",
-        "desc": "Date/time on which hand over (i.e. the transfer of responsibility for an object or activity such as documentation, system etc. from one party to another) actually takes place."
+        "desc": "Date/time on which hand over (i.e. the transfer of responsibility for\n                                    an object or activity such as documentation, system etc. from one party to another)\n                                    actually takes place."
     },
     "296": {
         "name": "Retention release date/time",
@@ -953,15 +1149,15 @@
     },
     "298": {
         "name": "Escalation start date",
-        "desc": "Value date of the indexes appearing as denominators in an escalation formula."
+        "desc": "Value date of the indexes appearing as denominators in an escalation\n                                    formula."
     },
     "299": {
         "name": "Price adjustment start date",
-        "desc": "Value date of the indexes appearing as denominators in a price adjustment formula."
+        "desc": "Value date of the indexes appearing as denominators in a price\n                                    adjustment formula."
     },
     "300": {
         "name": "Price adjustment limit date",
-        "desc": "Limit value date of indexes used as numerators in a price adjustment formula."
+        "desc": "Limit value date of indexes used as numerators in a price adjustment\n                                    formula."
     },
     "301": {
         "name": "Value date of index",
@@ -969,15 +1165,15 @@
     },
     "302": {
         "name": "Publication date",
-        "desc": "Self explanatory."
+        "desc": "The date of the act of making something publicly known."
     },
     "303": {
         "name": "Escalation date",
-        "desc": "Value date of indexes appearing as numerators in an escalation formula."
+        "desc": "Value date of indexes appearing as numerators in an escalation\n                                    formula."
     },
     "304": {
         "name": "Price adjustment date",
-        "desc": "Value date of indexes appearing as numerators in a price adjustment formula."
+        "desc": "Value date of indexes appearing as numerators in a price adjustment\n                                    formula."
     },
     "305": {
         "name": "Latest price adjustment date",
@@ -996,8 +1192,8 @@
         "desc": "Date/time on which the payment valuation is presented."
     },
     "309": {
-        "name": "Blanks value date",
-        "desc": "The date on which the funds are at the disposal of the receiving bank."
+        "name": "Banks' value date",
+        "desc": "Date on which the funds are at the disposal of the receiving bank or\n                                    cease to be at the disposal of the sending bank."
     },
     "310": {
         "name": "Received date/time",
@@ -1009,7 +1205,7 @@
     },
     "312": {
         "name": "Ship not before and not after date/time",
-        "desc": "Shipment(s) of goods is/are to be made not before the first specified date/time and not after the second specified date/time."
+        "desc": "Shipment(s) of goods is/are to be made not before the first specified\n                                    date/time and not after the second specified date/time."
     },
     "313": {
         "name": "Order to proceed date",
@@ -1017,7 +1213,7 @@
     },
     "314": {
         "name": "Planned duration of works",
-        "desc": "Self explanatory."
+        "desc": "The period of time planned for the completion of building or repair\n                                    operations."
     },
     "315": {
         "name": "Agreement to pay date",
@@ -1029,19 +1225,19 @@
     },
     "317": {
         "name": "Reply date",
-        "desc": "Self explanatory."
+        "desc": "The date to answer or to respond in word or action."
     },
     "318": {
         "name": "Request date",
-        "desc": "Self explanatory."
+        "desc": "The date on which something was asked for."
     },
     "319": {
         "name": "Customer value date",
-        "desc": "Date at which funds are taken into account for interest calculation (in debit or credit)."
+        "desc": "Date at which funds are taken into account for interest calculation\n                                    (in debit or credit)."
     },
     "320": {
         "name": "Declaration reference period",
-        "desc": "Reference period of a set of items reported on the same declaration."
+        "desc": "Reference period of a set of items reported on the same declaration.\n                                "
     },
     "321": {
         "name": "Promotion date/period",
@@ -1049,7 +1245,7 @@
     },
     "322": {
         "name": "Accounting period",
-        "desc": "Self-explanatory."
+        "desc": "A period of time for the recording of financial transactions for\n                                    accounting."
     },
     "323": {
         "name": "Horizon period",
@@ -1069,11 +1265,11 @@
     },
     "327": {
         "name": "Instalment payment due date",
-        "desc": "Self-explanatory."
+        "desc": "Date on which an instalment payment is due."
     },
     "328": {
         "name": "Payroll deduction date/time",
-        "desc": "Date/time of a monetary deduction made from the salary of a person on a payroll."
+        "desc": "Date/time of a monetary deduction made from the salary of a person on\n                                    a payroll."
     },
     "329": {
         "name": "Birth date/time",
@@ -1113,7 +1309,7 @@
     },
     "338": {
         "name": "Benefit change date/time",
-        "desc": "Date/time when a benefit provided by a service provider is changed."
+        "desc": "Date/time when a benefit provided by a service provider is changed.\n                                "
     },
     "339": {
         "name": "Category change date/time",
@@ -1125,7 +1321,7 @@
     },
     "341": {
         "name": "Waiting time",
-        "desc": "The period of time between the moment at which one wants an activity to begin and the moment at which this activity can actually begin."
+        "desc": "The period of time between the moment at which one wants an activity\n                                    to begin and the moment at which this activity can actually begin."
     },
     "342": {
         "name": "On-board date",
@@ -1179,8 +1375,1612 @@
         "name": "Activity period date range",
         "desc": "A specific date range associated with an activity."
     },
+    "355": {
+        "name": "Contractual delivery date",
+        "desc": "The date of delivery contractually agreed between parties."
+    },
+    "356": {
+        "name": "Sales date, and or time, and or period",
+        "desc": "The date, and or time, and or period on which a sale took place."
+    },
+    "357": {
+        "name": "Cancel if not published by this date",
+        "desc": "Cancel if not published by this date."
+    },
+    "358": {
+        "name": "Scheduled for delivery on or after",
+        "desc": "Scheduled for delivery on or after the specified date, and or time.\n                                "
+    },
+    "359": {
+        "name": "Scheduled for delivery on or before",
+        "desc": "Scheduled for delivery on or before specified date and or time."
+    },
+    "360": {
+        "name": "Sell by date",
+        "desc": "The date by which a product should be sold."
+    },
+    "361": {
+        "name": "Best before date",
+        "desc": "The best before date."
+    },
+    "362": {
+        "name": "End availability date",
+        "desc": "The end date of availability."
+    },
+    "363": {
+        "name": "Total shelf life period",
+        "desc": "A period indicating the total shelf life of a product."
+    },
+    "364": {
+        "name": "Minimum shelf life remaining at time of despatch period",
+        "desc": "Period indicating the minimum shelf life remaining for a product at\n                                    the time of leaving the supplier."
+    },
+    "365": {
+        "name": "Packaging date",
+        "desc": "The date on which the packaging of a product took place."
+    },
+    "366": {
+        "name": "Inventory report date",
+        "desc": "Date on which a inventory report is made."
+    },
+    "367": {
+        "name": "Meter reading date, previous",
+        "desc": "Date on which the previous reading of a meter took place."
+    },
+    "368": {
+        "name": "Meter reading date, latest",
+        "desc": "Date on which the latest reading of a meter took place."
+    },
+    "369": {
+        "name": "Date and or time of handling, estimated",
+        "desc": "The date and or time when the handling action is estimated to take\n                                    place."
+    },
+    "370": {
+        "name": "Date when container equipment becomes domestic",
+        "desc": "The date on which foreign-built container equipment has entered into\n                                    the commerce of another country and has become domestic equipment."
+    },
+    "371": {
+        "name": "Hydrotest date",
+        "desc": "The date equipment has been hydrotested."
+    },
+    "372": {
+        "name": "Equipment pre-trip date",
+        "desc": "The date on which equipment is pre-tripped."
+    },
+    "373": {
+        "name": "Mooring, date and time",
+        "desc": "Date and time of mooring."
+    },
+    "374": {
+        "name": "Road fund tax expiry date",
+        "desc": "The date of expiry of the road fund tax."
+    },
+    "375": {
+        "name": "Date of first registration",
+        "desc": "Date of first registration."
+    },
+    "376": {
+        "name": "Biannual terminal inspection date",
+        "desc": "The date on which a biannual inspection of a terminal has taken or\n                                    will take place."
+    },
+    "377": {
+        "name": "Federal HighWay Administration (FHWA) inspection date",
+        "desc": "The date on which container equipment is to be or has been inspected\n                                    in accordance with the requirements of the U.S. Federal Highway Administration.\n                                "
+    },
+    "378": {
+        "name": "Container Safety Convention (CSC) inspection date",
+        "desc": "The date on which container equipment is to be or has been inspected\n                                    as per the Container Safety Convention (CSC)."
+    },
+    "379": {
+        "name": "Periodic inspection date",
+        "desc": "The date on which a periodic inspection has to take place."
+    },
+    "380": {
+        "name": "Drawing revision date",
+        "desc": "Date the drawing revision has been allocated to a design."
+    },
+    "381": {
+        "name": "Product lifespan at time of production",
+        "desc": "The total lifespan of a product at the time of its production."
+    },
+    "382": {
+        "name": "Earliest sale date",
+        "desc": "The earliest date on which the product may be made available for sale.\n                                "
+    },
+    "383": {
+        "name": "Cancel if not shipped by this date",
+        "desc": "Cancel the order if goods not shipped by this date."
+    },
+    "384": {
+        "name": "Previous invoice date",
+        "desc": "Indicates the date which was allocated to a previous invoice."
+    },
+    "385": {
+        "name": "Payment cancelled, violation of agreement",
+        "desc": "Date/time when a payment is cancelled due to the fact that the\n                                    transaction does not comply with the agreement."
+    },
+    "386": {
+        "name": "Payment cancelled due to administrative error",
+        "desc": "Date/time when a payment is cancelled due to an administrative error.\n                                "
+    },
+    "387": {
+        "name": "Repair turnaround time",
+        "desc": "Provides the period of time necessary to turnaround a given repair.\n                                "
+    },
+    "388": {
+        "name": "Order amendment binding date",
+        "desc": "The date when an order amendment becomes binding for both parties.\n                                "
+    },
+    "389": {
+        "name": "Cure time",
+        "desc": "Specifies the length of time that an article was or should be cured.\n                                "
+    },
+    "390": {
+        "name": "From date of award to delivery",
+        "desc": "Lead time to determine the delivery date based on the date an award is\n                                    made."
+    },
+    "391": {
+        "name": "From date of receipt of item to approval",
+        "desc": "Lead time to determine the date an item will be approved based on the\n                                    date the item was received."
+    },
+    "392": {
+        "name": "Equipment collection or pick-up date/time, earliest",
+        "desc": "Date/time on which equipment can be picked up at the earliest."
+    },
+    "393": {
+        "name": "Equipment collection or pick-up date/time, planned",
+        "desc": "Date/time on which equipment can be picked up, either full or empty,\n                                    according to a planning."
+    },
+    "394": {
+        "name": "Equipment positioning date/time, actual",
+        "desc": "Date/time on which equipment was actually positioned (delivered).\n                                "
+    },
+    "395": {
+        "name": "Equipment positioning date/time, estimated",
+        "desc": "Date/time on which equipment is estimated to be positioned\n                                    (delivered)."
+    },
+    "396": {
+        "name": "Equipment positioning date/time, requested",
+        "desc": "Date/time on which equipment is requested to be positioned\n                                    (delivered)."
+    },
+    "397": {
+        "name": "Equipment positioning date/time, ultimate",
+        "desc": "Date/time on which equipment should be positioned (delivered) at the\n                                    latest."
+    },
+    "398": {
+        "name": "Goods collection or pick-up date/time, planned",
+        "desc": "Date/time at which goods can be picked up, according to a planning.\n                                "
+    },
+    "399": {
+        "name": "Goods positioning date/time, expected",
+        "desc": "Date/time on which goods are expected to be positioned."
+    },
+    "400": {
+        "name": "Cargo release date/time, ultimate",
+        "desc": "Ultimate date/time at which goods or equipment should be released.\n                                "
+    },
+    "401": {
+        "name": "Container Safety Convention (CSC) plate expiration date",
+        "desc": "Date on which the validity of a Container Safety Convention (CSC)\n                                    plate expires."
+    },
+    "402": {
+        "name": "Document received date/time",
+        "desc": "Date/time on which the document was actually received."
+    },
+    "403": {
+        "name": "Discharge date/time, actual",
+        "desc": "Date/time when the specified goods or transport equipment has or have\n                                    been discharged from the means of transport."
+    },
+    "404": {
+        "name": "Loading date/time, actual",
+        "desc": "Date/time when the specified goods or transport equipment has or have\n                                    been loaded in or on the means of transport."
+    },
+    "405": {
+        "name": "Equipment collection or pick-up date/time, actual",
+        "desc": "Date/time on which the equipment was actually collected."
+    },
+    "406": {
+        "name": "Goods positioning date/time, planned",
+        "desc": "The date/time on which the goods will be positioned according to a\n                                    planning."
+    },
+    "407": {
+        "name": "Document requested date/time",
+        "desc": "Date/time on which the document is requested by a party."
+    },
+    "408": {
+        "name": "Expected container hire from date/time",
+        "desc": "Estimated date and time when the containers are expected to go\n                                    on-hire."
+    },
+    "409": {
+        "name": "Order completion date/time, ultimate",
+        "desc": "Date/time on which the order should be completed at the latest."
+    },
+    "410": {
+        "name": "Equipment repair ready date/time, ultimate",
+        "desc": "Ultimate date/time on which a piece of equipment must be repaired.\n                                "
+    },
+    "411": {
+        "name": "Container stuffing date/time, ultimate",
+        "desc": "Date/time on which the container stuffing should be completed at the\n                                    latest."
+    },
+    "412": {
+        "name": "Container stripping date/time, ultimate",
+        "desc": "Date/time on which the container stripping should be completed at the\n                                    latest."
+    },
+    "413": {
+        "name": "Discharge and loading completed date/time",
+        "desc": "Date/time when all discharge and loading operations on the transport\n                                    means have been completed."
+    },
+    "414": {
+        "name": "Equipment stock check date/time",
+        "desc": "Date/time on which equipment has been ascertained as being in stock.\n                                "
+    },
+    "415": {
+        "name": "Activity reporting date",
+        "desc": "The date applicable to the activity being reported."
+    },
+    "416": {
+        "name": "Submission date",
+        "desc": "The date of a submission."
+    },
+    "417": {
+        "name": "Previous booking date/time",
+        "desc": "Date/time at which the previous booking was made."
+    },
+    "418": {
+        "name": "Minimum shelf life remaining at time of receipt",
+        "desc": "The minimum shelf life remaining at the time of receipt."
+    },
+    "419": {
+        "name": "Forecast period",
+        "desc": "A period for which a forecast applies."
+    },
+    "420": {
+        "name": "Unloaded, date and time",
+        "desc": "To report the date and time that an unloading action occurred."
+    },
+    "421": {
+        "name": "Estimated acceptance date",
+        "desc": "To estimate the date of acceptance."
+    },
+    "422": {
+        "name": "Documentary credit issue date",
+        "desc": "The date the documentary credit has been issued."
+    },
+    "423": {
+        "name": "First date of ordering",
+        "desc": "The first date on which ordering may take place."
+    },
+    "424": {
+        "name": "Last date of ordering",
+        "desc": "The last date on which ordering may take place."
+    },
+    "425": {
+        "name": "Original posting date",
+        "desc": "Date when the entry was originally posted."
+    },
+    "426": {
+        "name": "Reinsurance payment frequency",
+        "desc": "The frequency of payments of reinsurance premiums."
+    },
+    "427": {
+        "name": "Adjusted age",
+        "desc": "The adjusted age used for purposes of calculation."
+    },
+    "428": {
+        "name": "Original issue age",
+        "desc": "The original issue age."
+    },
+    "429": {
+        "name": "Coverage duration",
+        "desc": "The period coverage has been in force."
+    },
+    "430": {
+        "name": "Coverage issue date",
+        "desc": "Date from which the anniversary coverage is measured."
+    },
+    "431": {
+        "name": "Flat extra period",
+        "desc": "Period for charging the additional extra."
+    },
+    "432": {
+        "name": "Paid to date",
+        "desc": "Date to which payments have been paid."
+    },
+    "433": {
+        "name": "Reinsurance coverage duration",
+        "desc": "The period for which reinsurance coverage has been in force."
+    },
+    "434": {
+        "name": "Maturity date",
+        "desc": "Date at which maturity occurs."
+    },
+    "435": {
+        "name": "Reinsurance issue age",
+        "desc": "The actual or equivalent age at time of issue."
+    },
+    "436": {
+        "name": "Reinsurance paid-up date",
+        "desc": "The date up to which the reinsurance has been paid."
+    },
+    "437": {
+        "name": "Benefit period",
+        "desc": "The period of time for which benefits are provided."
+    },
+    "438": {
+        "name": "Disability wait period",
+        "desc": "The period of time the insured must be disabled before reinsurance\n                                    coverage becomes effective."
+    },
+    "439": {
+        "name": "Deferred Period",
+        "desc": "The period of time for which an activity has been postponed."
+    },
+    "440": {
+        "name": "Documentary credit amendment date",
+        "desc": "Date of amendment of a documentary credit."
+    },
+    "441": {
+        "name": "Last on hire date",
+        "desc": "Date the item was last placed on hire."
+    },
+    "442": {
+        "name": "Last off hire date",
+        "desc": "Date the item was last returned from hire."
+    },
+    "443": {
+        "name": "Direct interchange date",
+        "desc": "Date the item was directly interchanged."
+    },
+    "444": {
+        "name": "Approval date",
+        "desc": "Date of approval."
+    },
+    "445": {
+        "name": "Original estimate date",
+        "desc": "The date of the original estimate."
+    },
+    "446": {
+        "name": "Revised estimate date",
+        "desc": "The date the estimate was revised."
+    },
+    "447": {
+        "name": "Creditor's requested value date",
+        "desc": "Date on which the creditor requests to be credited."
+    },
+    "448": {
+        "name": "Referenced item creation date",
+        "desc": "Creation date of referenced item."
+    },
+    "449": {
+        "name": "Date for the last update",
+        "desc": "Date for the last update."
+    },
+    "450": {
+        "name": "Opening date",
+        "desc": "Date of opening."
+    },
+    "451": {
+        "name": "Source document capture date",
+        "desc": "Date source document data is entered into a business application.\n                                "
+    },
+    "452": {
+        "name": "Trial balance period",
+        "desc": "Period covered by the trial balance."
+    },
+    "453": {
+        "name": "Date of source document",
+        "desc": "The date of the source document."
+    },
+    "454": {
+        "name": "Accounting value date",
+        "desc": "Date against which the entry has to be legally allocated."
+    },
+    "455": {
+        "name": "Expected value date",
+        "desc": "Date on which the funds are expected to be at the disposal of the\n                                    beneficiary."
+    },
+    "456": {
+        "name": "Chart of account period",
+        "desc": "Period covered by the chart of account."
+    },
+    "457": {
+        "name": "Date of separation",
+        "desc": "Date of marital separation."
+    },
+    "458": {
+        "name": "Date of divorce",
+        "desc": "Date when two married persons are officially divorced."
+    },
+    "459": {
+        "name": "Date of marriage",
+        "desc": "Date when two persons are married."
+    },
+    "460": {
+        "name": "Wage period, start date",
+        "desc": "Date when a period of wage begins."
+    },
+    "461": {
+        "name": "Wage period, end date",
+        "desc": "Date when a period of wage ends."
+    },
+    "462": {
+        "name": "Working period, start date",
+        "desc": "Date when a period of work begins."
+    },
+    "463": {
+        "name": "Working period, end date",
+        "desc": "Date when a period of work ends."
+    },
+    "464": {
+        "name": "Embarkation date and time",
+        "desc": "Date and time at which crew and/or passengers board."
+    },
+    "465": {
+        "name": "Disembarkation date and time",
+        "desc": "Date and time at which crew and/or passengers disembark."
+    },
+    "466": {
+        "name": "Time now date",
+        "desc": "A time now date used for planning and scheduling purposes."
+    },
+    "467": {
+        "name": "Holiday",
+        "desc": "A date or period that is a break from work."
+    },
+    "468": {
+        "name": "Non working",
+        "desc": "To specify a non working date or period."
+    },
+    "469": {
+        "name": "Start date or time, earliest",
+        "desc": "The earliest date or time for starting."
+    },
+    "470": {
+        "name": "Start date or time, latest",
+        "desc": "The latest date or time for starting."
+    },
+    "471": {
+        "name": "Finish date or time, earliest",
+        "desc": "The earliest date or time for finishing."
+    },
+    "472": {
+        "name": "Finish date or time, latest",
+        "desc": "The latest date or time for finishing."
+    },
+    "473": {
+        "name": "Start date or time, mandatory",
+        "desc": "The mandatory date or time for starting."
+    },
+    "474": {
+        "name": "Finish date or time, mandatory",
+        "desc": "The mandatory date or time for finishing."
+    },
+    "475": {
+        "name": "Start date or time, actual",
+        "desc": "The actual date or time for starting."
+    },
+    "476": {
+        "name": "Start date or time, estimated",
+        "desc": "The estimated date or time for starting."
+    },
+    "477": {
+        "name": "Completion date or time, estimated",
+        "desc": "The estimated date or time for completion."
+    },
+    "478": {
+        "name": "Start date or time, scheduled",
+        "desc": "The scheduled date or time for starting."
+    },
+    "479": {
+        "name": "Completion date or time, scheduled",
+        "desc": "The scheduled date or time for completion."
+    },
+    "480": {
+        "name": "Start date or time, not before",
+        "desc": "The not before date or time for starting."
+    },
+    "481": {
+        "name": "Start date or time, not after",
+        "desc": "The not after date or time for starting."
+    },
+    "482": {
+        "name": "Completion date or time, not before",
+        "desc": "The not before date or time for completion."
+    },
+    "483": {
+        "name": "Completion date or time, not after",
+        "desc": "The not after date or time for completion."
+    },
+    "484": {
+        "name": "Illness recovery date, expected",
+        "desc": "Date when a person is expected to recover from illness."
+    },
+    "485": {
+        "name": "Period of illness, start date",
+        "desc": "Date when a period of illness began."
+    },
+    "486": {
+        "name": "Period of illness, end date",
+        "desc": "Date when a period of illness ends."
+    },
+    "487": {
+        "name": "Decease date",
+        "desc": "Date when a person died."
+    },
+    "488": {
+        "name": "Benefit period, start date",
+        "desc": "Date when a period of benefit begins."
+    },
+    "489": {
+        "name": "Benefit period, end date",
+        "desc": "Date when a period of benefit ends."
+    },
+    "490": {
+        "name": "Selection period, start date",
+        "desc": "Date when a period of selection begins."
+    },
+    "491": {
+        "name": "Selection period, end date",
+        "desc": "Date when a period of selection ends."
+    },
+    "492": {
+        "name": "Balance date/time/period",
+        "desc": "The date/time/period of a balance."
+    },
+    "493": {
+        "name": "Benefit payments termination date",
+        "desc": "To identify the date on which benefit payments have ceased."
+    },
+    "494": {
+        "name": "Covered income period",
+        "desc": "To identify the period over which covered income is measured."
+    },
+    "495": {
+        "name": "Current income period",
+        "desc": "To identify the period over which current income is measured."
+    },
+    "496": {
+        "name": "Reinstatement date",
+        "desc": "Identifies the date of reinstatement."
+    },
+    "497": {
+        "name": "Definition of disability duration",
+        "desc": "To identify the period for which the definition of disability applies.\n                                "
+    },
+    "498": {
+        "name": "Previous termination date",
+        "desc": "Identifies the date of the previous termination."
+    },
+    "499": {
+        "name": "Premium change period",
+        "desc": "To identify the period of the premium change."
+    },
+    "500": {
+        "name": "Off-hire survey date",
+        "desc": "Date on which the equipment was surveyed at the end of the current\n                                    leasing period."
+    },
+    "501": {
+        "name": "In service survey date",
+        "desc": "Date of survey of equipment while in use."
+    },
+    "502": {
+        "name": "On hire survey date",
+        "desc": "Date on which the equipment was surveyed at the beginning of the\n                                    current leasing period."
+    },
+    "503": {
+        "name": "Production inspection date",
+        "desc": "Date of production inspection."
+    },
+    "504": {
+        "name": "Overtime, start date",
+        "desc": "Date when a period of overtime begins."
+    },
+    "505": {
+        "name": "Overtime, end date",
+        "desc": "Date when a period of overtime ends."
+    },
+    "506": {
+        "name": "Back order delivery date/time/period",
+        "desc": "The date/time/period during which the delivery of a back order will\n                                    take, or has taken, place."
+    },
+    "507": {
+        "name": "Negotiations start date",
+        "desc": "The date on which negotiations started."
+    },
+    "508": {
+        "name": "Work effective start date",
+        "desc": "The date on which work will effectively start."
+    },
+    "509": {
+        "name": "Contract binding date",
+        "desc": "The date from which a contract becomes binding on the contracting\n                                    parties."
+    },
+    "510": {
+        "name": "Notification time limit",
+        "desc": "The time limit which has been set for a notification to take place.\n                                "
+    },
+    "511": {
+        "name": "Time limit",
+        "desc": "The time limit in which an event must take place."
+    },
+    "512": {
+        "name": "Attendance date and or time and or period",
+        "desc": "Date and or time and or period of attendance."
+    },
+    "513": {
+        "name": "Accident date and or time",
+        "desc": "Date and or time when an accident occurred."
+    },
+    "514": {
+        "name": "Adoption date, actual",
+        "desc": "Actual date when adoption occurs."
+    },
+    "515": {
+        "name": "Reimbursement claim issue date and or time",
+        "desc": "Date and or time when a reimbursement claim is issued."
+    },
+    "516": {
+        "name": "Hospital admission date and or time",
+        "desc": "Date and or time of admission to a hospital."
+    },
+    "517": {
+        "name": "Hospital discharge date and or time",
+        "desc": "Date and or time of discharge from a hospital."
+    },
+    "518": {
+        "name": "Period of care start date and or time",
+        "desc": "Date and or time when a period of care starts."
+    },
+    "519": {
+        "name": "Period of care end date and or time",
+        "desc": "Date and or time when a period of care ends."
+    },
+    "520": {
+        "name": "Department admission date and or time",
+        "desc": "Date and or time of admission to a department."
+    },
+    "521": {
+        "name": "Department discharge date and or time",
+        "desc": "Date and or time of discharge from a department."
+    },
+    "522": {
+        "name": "Childbirth date and or time, actual",
+        "desc": "Actual date and or time of childbirth."
+    },
+    "523": {
+        "name": "Prescription issue date and or time",
+        "desc": "Date and or time when a prescription was issued."
+    },
+    "524": {
+        "name": "Prescription dispensing date and or time",
+        "desc": "Date and or time when a prescription was dispensed."
+    },
+    "525": {
+        "name": "Clinical examination date and or time",
+        "desc": "Date and or time of clinical examination."
+    },
+    "526": {
+        "name": "Death date and or time",
+        "desc": "Date and or time of death."
+    },
+    "527": {
+        "name": "Childbirth date, estimated",
+        "desc": "Estimated date of childbirth."
+    },
+    "528": {
+        "name": "Last menstrual cycle, start date",
+        "desc": "Date when the last menstrual cycle started."
+    },
+    "529": {
+        "name": "Pregnancy duration, actual",
+        "desc": "Actual duration of pregnancy."
+    },
+    "530": {
+        "name": "Fumigation date and/or time",
+        "desc": "The date/or time on which fumigation is to occur or has taken place.\n                                "
+    },
+    "531": {
+        "name": "Payment period",
+        "desc": "A period of time in which a payment has been or will be made."
+    },
+    "532": {
+        "name": "Average delivery delay",
+        "desc": "The average delay between deliveries."
+    },
+    "533": {
+        "name": "Budget line application date",
+        "desc": "The date on which something has been applied to a budget line."
+    },
+    "534": {
+        "name": "Date of repair or service",
+        "desc": "The date of a repair or service."
+    },
+    "535": {
+        "name": "Date of product failure",
+        "desc": "The date the product failed."
+    },
+    "536": {
+        "name": "Review date",
+        "desc": "Date the item was or will be reviewed."
+    },
+    "537": {
+        "name": "International review cycle start date",
+        "desc": "Date the international review cycle starts."
+    },
+    "538": {
+        "name": "International assessment approval for publication date",
+        "desc": "Date the Data Maintenance Request (DMR) was approved for publication\n                                    after completing international review."
+    },
+    "539": {
+        "name": "Status assignment date",
+        "desc": "Date a status was assigned."
+    },
+    "540": {
+        "name": "Instruction's original execution date",
+        "desc": "Original execution date for the instruction."
+    },
+    "541": {
+        "name": "First published date",
+        "desc": "Date when material was first published."
+    },
+    "542": {
+        "name": "Last published date",
+        "desc": "Date when material was last published."
+    },
+    "543": {
+        "name": "Balance sheet date, latest",
+        "desc": "Date of the latest balance sheet."
+    },
+    "544": {
+        "name": "Security share price as of given date",
+        "desc": "Date of the security share price."
+    },
+    "545": {
+        "name": "Assigned date",
+        "desc": "Date when assigned."
+    },
+    "546": {
+        "name": "Business opened date",
+        "desc": "Date opened for business."
+    },
+    "547": {
+        "name": "Initial financial accounts filed date",
+        "desc": "Date when the initial financial accounts were filed."
+    },
+    "548": {
+        "name": "Stop work as of given date",
+        "desc": "Date work stopped or will stop."
+    },
+    "549": {
+        "name": "Completion date",
+        "desc": "Date of completion."
+    },
+    "550": {
+        "name": "Lease term, start date",
+        "desc": "Start date of the lease term."
+    },
+    "551": {
+        "name": "Lease term, end date",
+        "desc": "End date of the lease term."
+    },
+    "552": {
+        "name": "Start date, actual",
+        "desc": "Actual date of start."
+    },
+    "553": {
+        "name": "Start date, estimated",
+        "desc": "Date of estimated start."
+    },
+    "554": {
+        "name": "Filed date",
+        "desc": "Date when filed."
+    },
+    "555": {
+        "name": "Return to work date",
+        "desc": "Date of return to work."
+    },
+    "556": {
+        "name": "Purchased date",
+        "desc": "Date of purchase."
+    },
+    "557": {
+        "name": "Returned date",
+        "desc": "Date return takes place."
+    },
+    "558": {
+        "name": "Changed date",
+        "desc": "Date change takes place."
+    },
+    "559": {
+        "name": "Terminated date",
+        "desc": "Date termination takes place."
+    },
+    "560": {
+        "name": "Evaluation date",
+        "desc": "Date evaluation takes place."
+    },
+    "561": {
+        "name": "Business termination date",
+        "desc": "Date the business terminates."
+    },
+    "562": {
+        "name": "Release from bankruptcy date",
+        "desc": "Date when an entity is released from bankruptcy status."
+    },
+    "563": {
+        "name": "Placement date, initial",
+        "desc": "Date of initial placement."
+    },
+    "564": {
+        "name": "Signature date",
+        "desc": "Date of signature."
+    },
+    "565": {
+        "name": "Bankruptcy filed date",
+        "desc": "Date when bankruptcy was filed."
+    },
+    "566": {
+        "name": "End date, scheduled",
+        "desc": "Date when activity is scheduled to end."
+    },
+    "567": {
+        "name": "Report period",
+        "desc": "Period covered by the report."
+    },
+    "568": {
+        "name": "Suspended date",
+        "desc": "Date of suspension."
+    },
+    "569": {
+        "name": "Renewal date",
+        "desc": "Date of renewal."
+    },
+    "570": {
+        "name": "Reported date",
+        "desc": "Date when reported."
+    },
+    "571": {
+        "name": "Checked date",
+        "desc": "Date when checked."
+    },
+    "572": {
+        "name": "Present residence, start date",
+        "desc": "The beginning date of residence at present location."
+    },
+    "573": {
+        "name": "Employment position, start date",
+        "desc": "The start date of employment in a particular position."
+    },
+    "574": {
+        "name": "Account closed date",
+        "desc": "Date when account was closed."
+    },
+    "575": {
+        "name": "Construction date, actual",
+        "desc": "Date of actual construction."
+    },
+    "576": {
+        "name": "Employment profession start date",
+        "desc": "Start date of employment in a particular profession."
+    },
+    "577": {
+        "name": "Next review date",
+        "desc": "Date of next review."
+    },
+    "578": {
+        "name": "Meeting date",
+        "desc": "Date of the meeting."
+    },
+    "579": {
+        "name": "Administrator ordered date",
+        "desc": "Date when an administrator is ordered for a company."
+    },
+    "580": {
+        "name": "Last date to file a claim",
+        "desc": "Date after which no claim can be filed."
+    },
+    "581": {
+        "name": "Convicted date",
+        "desc": "Date when convicted."
+    },
+    "582": {
+        "name": "Interviewed date",
+        "desc": "Date of an interview."
+    },
+    "583": {
+        "name": "Last visit date",
+        "desc": "Date of last visit."
+    },
+    "584": {
+        "name": "Future period",
+        "desc": "Period in the future."
+    },
+    "585": {
+        "name": "Preceding period",
+        "desc": "Period preceding current period."
+    },
+    "586": {
+        "name": "Expected problem resolution date",
+        "desc": "Date when problem is expected to be resolved."
+    },
+    "587": {
+        "name": "Action date",
+        "desc": "Date of action."
+    },
+    "588": {
+        "name": "Accountant's opinion date",
+        "desc": "Date of an accountant's opinion."
+    },
+    "589": {
+        "name": "Last activity date",
+        "desc": "Date of last activity."
+    },
+    "590": {
+        "name": "Resolved date",
+        "desc": "Date when resolved."
+    },
+    "591": {
+        "name": "Recorded date",
+        "desc": "Date when recorded."
+    },
+    "592": {
+        "name": "Date of birth, estimated",
+        "desc": "The estimated date of birth."
+    },
+    "593": {
+        "name": "Last annual report date",
+        "desc": "Date of the last annual report."
+    },
+    "594": {
+        "name": "Net worth date",
+        "desc": "Date of net worth."
+    },
+    "595": {
+        "name": "Payment cancellation rejected",
+        "desc": "Date/time when a cancellation of a payment is rejected due to the fact\n                                    that the payment is already done."
+    },
+    "596": {
+        "name": "Profit period",
+        "desc": "Period over which profit was earned."
+    },
+    "597": {
+        "name": "Registration date",
+        "desc": "Date when registered."
+    },
+    "598": {
+        "name": "Consolidation date",
+        "desc": "Date when consolidation occurred."
+    },
+    "599": {
+        "name": "Board of directors not authorised as of given date",
+        "desc": "As of this date the board of directors is not authorised."
+    },
+    "600": {
+        "name": "Board of directors not complete as of given date",
+        "desc": "As of this date the board of directors is not fully filled."
+    },
+    "601": {
+        "name": "Manager not registered as of given date",
+        "desc": "As of this date the manager is not registered."
+    },
+    "602": {
+        "name": "Citizenship change date",
+        "desc": "Date of citizenship change."
+    },
+    "603": {
+        "name": "Participation date",
+        "desc": "Date of participation."
+    },
+    "604": {
+        "name": "Capitalisation date",
+        "desc": "Date of capitalisation."
+    },
+    "605": {
+        "name": "Board of directors registration date",
+        "desc": "Date when the board of directors was registered."
+    },
+    "606": {
+        "name": "Operations ceased date",
+        "desc": "Date when operations ceased."
+    },
+    "607": {
+        "name": "Satisfaction date",
+        "desc": "Date when satisfaction was obtained."
+    },
+    "608": {
+        "name": "Legal settlement terms met date",
+        "desc": "Date when terms specified in the legal settlement were met."
+    },
+    "609": {
+        "name": "Business control change date",
+        "desc": "Date when a new authority took control."
+    },
+    "610": {
+        "name": "Court registration date",
+        "desc": "Date of registration in the court."
+    },
+    "611": {
+        "name": "Annual report due date",
+        "desc": "Date when annual report is due."
+    },
+    "612": {
+        "name": "Asset and liability schedule date",
+        "desc": "Date of the asset and liability schedule."
+    },
+    "613": {
+        "name": "Annual report mailing date",
+        "desc": "Date when the annual report was mailed."
+    },
+    "614": {
+        "name": "Annual report filing date",
+        "desc": "Date when the annual report was filed."
+    },
+    "615": {
+        "name": "Annual report delinquent on date",
+        "desc": "Date when annual report was considered delinquent."
+    },
+    "616": {
+        "name": "Accounting methodology change date",
+        "desc": "Date when accounting methodology was changed."
+    },
+    "617": {
+        "name": "Closed until date",
+        "desc": "Date when again open."
+    },
+    "618": {
+        "name": "Conversion into holding company date",
+        "desc": "Date business was converted into a holding company."
+    },
+    "619": {
+        "name": "Deed not available as of given date",
+        "desc": "Date when deed was not available."
+    },
+    "620": {
+        "name": "Detrimental information receipt date",
+        "desc": "Date when detrimental information was received."
+    },
+    "621": {
+        "name": "Construction date, estimated",
+        "desc": "Estimated date of construction."
+    },
+    "622": {
+        "name": "Financial information date",
+        "desc": "Date of the financial information."
+    },
+    "623": {
+        "name": "Graduation date",
+        "desc": "Date when graduation occurs."
+    },
+    "624": {
+        "name": "Insolvency discharge granted date",
+        "desc": "Date when insolvency discharge was granted."
+    },
+    "625": {
+        "name": "Incorporation date",
+        "desc": "Date of incorporation."
+    },
+    "626": {
+        "name": "Inactivity end date",
+        "desc": "Date when inactivity ends."
+    },
+    "627": {
+        "name": "Last check for balance sheet update date",
+        "desc": "Date balance sheet was last checked to determine if update had taken\n                                    place."
+    },
+    "628": {
+        "name": "Last capital change date",
+        "desc": "Date of last capital change."
+    },
+    "629": {
+        "name": "Letter of agreement date",
+        "desc": "Date of a letter of agreement."
+    },
+    "630": {
+        "name": "Letter of liability date",
+        "desc": "Date of a letter of liability."
+    },
+    "631": {
+        "name": "Liquidation date",
+        "desc": "Date of liquidation."
+    },
+    "632": {
+        "name": "Lowest activity period",
+        "desc": "Period of lowest activity."
+    },
+    "633": {
+        "name": "Legal structure change date",
+        "desc": "Date when legal structure was changed."
+    },
+    "634": {
+        "name": "Current name effective date",
+        "desc": "Date when current name became effective."
+    },
+    "635": {
+        "name": "Not registered as of given date",
+        "desc": "Date when not yet registered."
+    },
+    "636": {
+        "name": "Current authority control start date",
+        "desc": "Date when current authority took control."
+    },
+    "637": {
+        "name": "Privilege details verification date",
+        "desc": "Date when privilege details were verified."
+    },
+    "638": {
+        "name": "Current legal structure effective date",
+        "desc": "Date when current legal structure became effective."
+    },
+    "639": {
+        "name": "Peak activity period",
+        "desc": "Period of peak activity."
+    },
+    "640": {
+        "name": "Presentation to bankruptcy receivers date",
+        "desc": "Date when presented to the bankruptcy receivers."
+    },
+    "641": {
+        "name": "Resignation date",
+        "desc": "Date of resignation."
+    },
+    "642": {
+        "name": "Legal action closed date",
+        "desc": "Date when the legal action was closed."
+    },
+    "643": {
+        "name": "Mail receipt date",
+        "desc": "Date mail was received."
+    },
+    "644": {
+        "name": "Social security claims verification date",
+        "desc": "Date when social security claims were verified."
+    },
+    "645": {
+        "name": "Sole directorship registration date",
+        "desc": "Date when sole directorship was registered."
+    },
+    "646": {
+        "name": "Trade style registration date",
+        "desc": "Date when trade style was registered."
+    },
+    "647": {
+        "name": "Trial start date, scheduled",
+        "desc": "Date when a trial is scheduled to begin."
+    },
+    "648": {
+        "name": "Trial start date, actual",
+        "desc": "Date when the trial actually started."
+    },
+    "649": {
+        "name": "Value Added Tax (VAT) claims verification date",
+        "desc": "Date when the Value Added Tax (VAT) claims were verified."
+    },
+    "650": {
+        "name": "Receivership result date",
+        "desc": "Date when the result of the receivership occurs."
+    },
+    "651": {
+        "name": "Investigation end date",
+        "desc": "The date when an investigation ended."
+    },
+    "652": {
+        "name": "Employee temporary laid-off period end date",
+        "desc": "The ending date of a period in which employees were temporarily placed\n                                    out of work."
+    },
+    "653": {
+        "name": "Investigation start date",
+        "desc": "The date when an investigation began."
+    },
+    "654": {
+        "name": "Income period",
+        "desc": "The period of time in which income is earned."
+    },
+    "655": {
+        "name": "Criminal sentence duration",
+        "desc": "The period of time over which a criminal sentence applies."
+    },
+    "656": {
+        "name": "Age",
+        "desc": "The length of time that a person or thing has existed."
+    },
+    "657": {
+        "name": "Receivables collection period",
+        "desc": "The period of time over which receivable accounts are collected."
+    },
+    "658": {
+        "name": "Comparison period",
+        "desc": "The time period covered in a comparison."
+    },
+    "659": {
+        "name": "Adjournment",
+        "desc": "The period of time over which an adjournment is in effect."
+    },
+    "660": {
+        "name": "Court dismissal date",
+        "desc": "The date on which a court refused further hearing of a case."
+    },
+    "661": {
+        "name": "Insufficient assets judgement date",
+        "desc": "The date on which assets were judged to be insufficient."
+    },
+    "662": {
+        "name": "Average payment period",
+        "desc": "The average period of time over which money has been paid."
+    },
+    "663": {
+        "name": "Forecast period start",
+        "desc": "The beginning of a forecast period."
+    },
+    "664": {
+        "name": "Period extended",
+        "desc": "Number of time units added to the original end date/time/period."
+    },
+    "665": {
+        "name": "Employee temporary laid-off period start date",
+        "desc": "The start date of a period in which employees were temporarily placed\n                                    out of work."
+    },
+    "666": {
+        "name": "Management available date",
+        "desc": "Date when management is available."
+    },
+    "667": {
+        "name": "Withdrawn date",
+        "desc": "The date when something was retracted."
+    },
+    "668": {
+        "name": "Claim incurred date",
+        "desc": "The date that the claim was incurred."
+    },
+    "669": {
+        "name": "Financial coverage period",
+        "desc": "The period of time for which financial coverage applies."
+    },
+    "670": {
+        "name": "Claim made date",
+        "desc": "The date on which a claim was made."
+    },
+    "671": {
+        "name": "Stop distribution date",
+        "desc": "The date on which distribution is to stop."
+    },
+    "672": {
+        "name": "Period assigned",
+        "desc": "The period assigned."
+    },
+    "673": {
+        "name": "Lease period",
+        "desc": "The period associated with a lease."
+    },
+    "674": {
+        "name": "Forecast period end date",
+        "desc": "The ending date of a forecast period."
+    },
+    "675": {
+        "name": "Judgement date",
+        "desc": "The date on which a decision from a court of law was rendered."
+    },
+    "676": {
+        "name": "Period worked for the company",
+        "desc": "Period of time that was worked for the company."
+    },
+    "677": {
+        "name": "Transport equipment stuffing date and/or time",
+        "desc": "The date and/or time on which the stuffing of transport equipment is\n                                    to or has taken place."
+    },
+    "678": {
+        "name": "Transport equipment stripping date and/or time",
+        "desc": "The date and/or time on which the stripping of a transport equipment\n                                    is to or has taken place."
+    },
+    "679": {
+        "name": "Initial request date",
+        "desc": "Date of an initial request."
+    },
+    "680": {
+        "name": "Period overdue",
+        "desc": "The period by which an event is overdue."
+    },
+    "681": {
+        "name": "Implementation date/time/period",
+        "desc": "A date/time/period within which an implementation is to take place.\n                                "
+    },
+    "682": {
+        "name": "Refusal period",
+        "desc": "The period within which a refusal can be made."
+    },
+    "683": {
+        "name": "Suspension period",
+        "desc": "The period for which something is suspended."
+    },
+    "684": {
+        "name": "Deletion date",
+        "desc": "The date on which deletion occurs."
+    },
+    "685": {
+        "name": "First sale date and/or time and/or period",
+        "desc": "The first date, and/or time, and/or period a product was sold."
+    },
+    "686": {
+        "name": "Last sale date and/or time and/or period",
+        "desc": "The last date, and/or time, and/or period a product was sold."
+    },
+    "687": {
+        "name": "Date ready for collection",
+        "desc": "A date on which an object is ready for collection."
+    },
+    "688": {
+        "name": "Shipping date, no schedule established as of",
+        "desc": "As at this date no valid shipping schedule has been established."
+    },
+    "689": {
+        "name": "Shipping date and/or time, current schedule",
+        "desc": "Shipping date and/or time as currently scheduled."
+    },
+    "690": {
+        "name": "Suppliers' average credit period",
+        "desc": "The average period of time that credit is extended by suppliers."
+    },
+    "691": {
+        "name": "Advising date",
+        "desc": "Date of advice."
+    },
+    "692": {
+        "name": "Project over target baseline date",
+        "desc": "The date an over target baseline was implemented for a project."
+    },
+    "693": {
+        "name": "Established date",
+        "desc": "Date when an entity was established or created."
+    },
+    "694": {
+        "name": "Latest filing period",
+        "desc": "Latest period for which a filing may be made."
+    },
+    "695": {
+        "name": "Mailing date",
+        "desc": "Date when an item may be mailed."
+    },
+    "696": {
+        "name": "Date/time of latest accounts filing at public registry",
+        "desc": "The latest date/time when financial accounts were filed at public\n                                    registry."
+    },
+    "697": {
+        "name": "Date placed in disfavour",
+        "desc": "Date when placed in a disfavoured category or status."
+    },
+    "698": {
+        "name": "Employment position start date, estimated",
+        "desc": "Estimated start date of employment in a particular position."
+    },
+    "699": {
+        "name": "Registered contractor number assignment date, original",
+        "desc": "Date when a registered contractor number was originally assigned.\n                                "
+    },
+    "700": {
+        "name": "Ownership change date",
+        "desc": "Date when ownership changes."
+    },
+    "701": {
+        "name": "Original duration",
+        "desc": "Original length of time."
+    },
+    "702": {
+        "name": "Period between changes",
+        "desc": "The period of time between changes."
+    },
+    "703": {
+        "name": "From date of notice to proceed to commencement of performance",
+        "desc": "Period of time from notice to proceed until performance commencement.\n                                "
+    },
+    "704": {
+        "name": "From date of notice to proceed to completion",
+        "desc": "Period of time from date of notice to proceed until completion."
+    },
+    "705": {
+        "name": "Period an event is late due to customer",
+        "desc": "The period of time an event is late due to the actions of a customer.\n                                "
+    },
+    "706": {
+        "name": "File generation date and/or time",
+        "desc": "Date and, or time of file generation."
+    },
+    "707": {
+        "name": "Endorsed certificate issue date",
+        "desc": "Date on which a certificate, endorsed by signature or other agreed\n                                    means, is issued."
+    },
+    "708": {
+        "name": "Patient first visit for condition",
+        "desc": "The date of the first visit by a patient to a healthcare provider for\n                                    this condition."
+    },
+    "709": {
+        "name": "Admission date and/or time, expected",
+        "desc": "Expected date and/or time of admission."
+    },
+    "710": {
+        "name": "Symptoms onset, patient alleged",
+        "desc": "Date and/or time of onset of symptoms according to the patient."
+    },
+    "711": {
+        "name": "Accident benefit period",
+        "desc": "To identify the period of time for which benefits are provided in the\n                                    event of an accident."
+    },
+    "712": {
+        "name": "Accident benefit age limit",
+        "desc": "To identify the age to which benefits are provided to the insured in\n                                    the event of an accident."
+    },
+    "713": {
+        "name": "Accident lifetime benefit qualification age",
+        "desc": "To identify the qualification age for lifetime benefits provided to\n                                    the insured in the event of an accident."
+    },
+    "714": {
+        "name": "Sickness benefit period",
+        "desc": "To identify the period of time for which benefits are provided in the\n                                    event of sickness."
+    },
+    "715": {
+        "name": "Sickness benefit age limit",
+        "desc": "To identify the age to which benefits are provided to the insured in\n                                    the event of sickness."
+    },
+    "716": {
+        "name": "Sickness lifetime benefit qualification age",
+        "desc": "To identify the qualification age for lifetime benefits provided to\n                                    the insured in the event of sickness."
+    },
+    "717": {
+        "name": "Accident insurance elimination period",
+        "desc": "To identify the period of time the insured must be disabled in the\n                                    event of an accident for benefits to be payable by the ceding company."
+    },
+    "718": {
+        "name": "Sickness insurance elimination period",
+        "desc": "The period of time the insured must be disabled in the event of\n                                    sickness for benefits to be payable by the ceding company."
+    },
+    "719": {
+        "name": "Provider signature date",
+        "desc": "Date when the provider signed."
+    },
+    "720": {
+        "name": "Condition initial treatment date",
+        "desc": "Date when initially treated for this condition."
+    },
+    "721": {
+        "name": "Information release authorization date",
+        "desc": "Date when the information was authorized to be released."
+    },
+    "722": {
+        "name": "Benefit release authorization date",
+        "desc": "Date when a benefit is authorized for release."
+    },
+    "723": {
+        "name": "Last seen date",
+        "desc": "The date when last seen."
+    },
+    "724": {
+        "name": "Acute manifestation date",
+        "desc": "The date the symptoms manifested themselves in an acute form."
+    },
+    "725": {
+        "name": "Similar illness onset date",
+        "desc": "The date of the onset of an illness similar to the illness currently\n                                    being treated."
+    },
+    "726": {
+        "name": "Last X-ray date",
+        "desc": "The date the last X-ray was taken."
+    },
+    "727": {
+        "name": "Placement date, previous",
+        "desc": "The date something was previously placed."
+    },
+    "728": {
+        "name": "Placement date",
+        "desc": "The date something is placed."
+    },
+    "729": {
+        "name": "Temporary prosthesis date",
+        "desc": "The date a temporary prosthetic device was provided."
+    },
+    "730": {
+        "name": "Orthodontic treatment period, remaining",
+        "desc": "The period of time that the orthodontic treatment has remaining."
+    },
+    "731": {
+        "name": "Orthodontic treatment period, total",
+        "desc": "The period of orthodontic treatment from beginning to end."
+    },
+    "732": {
+        "name": "Maximum credit granted date",
+        "desc": "Date on which the highest credit was granted."
+    },
+    "733": {
+        "name": "Last date of accounts filed at public register",
+        "desc": "Date on which accounts were last filed at the public register."
+    },
+    "734": {
+        "name": "Allowed renewal duration period",
+        "desc": "The period of time a company can renew its duration period."
+    },
+    "735": {
+        "name": "Offset from Coordinated Universal Time (UTC)",
+        "desc": "Number of hour's offset from Coordinated Universal Time (UTC)."
+    },
+    "736": {
+        "name": "Appointment expiry date",
+        "desc": "Date when an appointment will expire."
+    },
+    "737": {
+        "name": "Earliest filing period",
+        "desc": "Earliest period for which a filing is made."
+    },
+    "738": {
+        "name": "Original name change date",
+        "desc": "Date when the original name was changed."
+    },
+    "739": {
+        "name": "Education start date",
+        "desc": "Date education begins at an educational institution."
+    },
+    "740": {
+        "name": "Education end date",
+        "desc": "Date education is completed at an educational institution."
+    },
+    "741": {
+        "name": "Receivership period",
+        "desc": "Period of time a receivership lasts."
+    },
+    "742": {
+        "name": "Financial information submission date/time",
+        "desc": "Date/time when financial information is submitted."
+    },
+    "743": {
+        "name": "Purchase order latest possible change date",
+        "desc": "Date identifying a point of time after which a purchase order cannot\n                                    be changed."
+    },
+    "744": {
+        "name": "Investment number allocation date",
+        "desc": "The date that an investment number was allocated."
+    },
+    "745": {
+        "name": "Payment impossible",
+        "desc": "Date/time when a payment is recorded as being impossible."
+    },
+    "746": {
+        "name": "Record extraction period",
+        "desc": "The period for extraction of records."
+    },
+    "747": {
+        "name": "Cost accounting value date",
+        "desc": "Code identifying the value date of cost accounting. Value date is the\n                                    date at which the entry is to effect a balance of the account."
+    },
+    "748": {
+        "name": "Open period",
+        "desc": "Code identifying the period during which something is, was or will be\n                                    open."
+    },
+    "749": {
+        "name": "Period between issue date and maturity date",
+        "desc": "Interval of time between the date when the transaction was initiated\n                                    and the date when the funds need to be collected."
+    },
+    "750": {
+        "name": "Before date",
+        "desc": "The specified before date."
+    },
+    "751": {
+        "name": "After date",
+        "desc": "The specified after date."
+    },
+    "752": {
+        "name": "Meter reading date, next scheduled",
+        "desc": "Date on which the next reading of a meter is scheduled to take place.\n                                "
+    },
+    "753": {
+        "name": "Maturity date, optimal",
+        "desc": "Date at which optimal maturity occurs."
+    },
+    "754": {
+        "name": "Product ageing duration, maximum",
+        "desc": "Maximum period of time during which the product is ageing."
+    },
+    "755": {
+        "name": "Product ageing duration, minimum",
+        "desc": "Minimum period of time during which the product is ageing."
+    },
     "ZZZ": {
         "name": "Mutually defined",
-        "desc": "Self explanatory."
+        "desc": "A code assigned within a code list to be used on an interim basis and\n                                    as defined among trading partners until a precise code can be assigned to the code\n                                    list."
     }
 }

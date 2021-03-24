@@ -1,27 +1,27 @@
 {
     "1": {
         "name": "Wood preparation",
-        "desc": "Self explanatory."
+        "desc": "A process to prepare wood."
     },
     "2": {
         "name": "Causticizing",
-        "desc": "Self explanatory."
+        "desc": "Treatment with a caustic agent."
     },
     "3": {
         "name": "Digesting",
-        "desc": "Self explanatory."
+        "desc": "A process of digesting."
     },
     "4": {
         "name": "Brownstock washing",
-        "desc": "Self explanatory."
+        "desc": "Washing with brownstock."
     },
     "5": {
         "name": "Bleaching",
-        "desc": "Self explanatory."
+        "desc": "Removing colour by treatment with an oxidizing agent (a bleach)."
     },
     "6": {
         "name": "Pulp drying",
-        "desc": "Self explanatory."
+        "desc": "The process of drying pulp."
     },
     "7": {
         "name": "Freezing",
@@ -32,12 +32,12 @@
         "desc": "The information to be processed is in structured form."
     },
     "9": {
-        "name": "Processing of identical information in structured and unstructured form",
-        "desc": "The information to be processed is identical and given in structured and unstructured form."
+        "name": "Processing of identical information in structured and unstructured\n                                    form",
+        "desc": "The information to be processed is identical and given in structured\n                                    and unstructured form."
     },
     "10": {
-        "name": "Processing of different information in structured and unstructured form",
-        "desc": "The information to be processed is different and is given in structured and unstructured form."
+        "name": "Processing of different information in structured and unstructured\n                                    form",
+        "desc": "The information to be processed is different and is given in\n                                    structured and unstructured form."
     },
     "11": {
         "name": "Processing of unstructured information",
@@ -66,5 +66,61 @@
     "17": {
         "name": "Irradiation",
         "desc": "Treated by irradiation."
+    },
+    "18": {
+        "name": "Fueling",
+        "desc": "Fueling process."
+    },
+    "19": {
+        "name": "Acceptance of business conditions",
+        "desc": "Code specifying the process of accepting the terms and conditions\n                                    under which business will be conducted."
+    },
+    "20": {
+        "name": "Pathology service",
+        "desc": "The provision of a pathology service."
+    },
+    "21": {
+        "name": "Radiology service",
+        "desc": "The provision of a radiology service."
+    },
+    "22": {
+        "name": "Contribution payment",
+        "desc": "The payment of a contribution."
+    },
+    "23": {
+        "name": "Clinical donation",
+        "desc": "The process of providing a clinical donation."
+    },
+    "24": {
+        "name": "Medical general practice",
+        "desc": "The provision of general medical services."
+    },
+    "25": {
+        "name": "Specialist medical service",
+        "desc": "The provision of specialist medical services, other than pathology or\n                                    radiology."
+    },
+    "26": {
+        "name": "Dispensing of medicine",
+        "desc": "The process performed by a pharmacist to prepare and dispense medicine\n                                    according to a prescription."
+    },
+    "27": {
+        "name": "Planning",
+        "desc": "The process of developing plans."
+    },
+    "28": {
+        "name": "Trading",
+        "desc": "The process of trading."
+    },
+    "29": {
+        "name": "Operating",
+        "desc": "The process of operating."
+    },
+    "30": {
+        "name": "Metering",
+        "desc": "The process of metering."
+    },
+    "31": {
+        "name": "Settlement",
+        "desc": "The process of settling."
     }
 }

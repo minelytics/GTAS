@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "Nationality at birth",
+        "desc": "The nationality assigned the individual at birth."
+    },
+    "2": {
+        "name": "Current nationality",
+        "desc": "Current nationality."
+    },
+    "3": {
+        "name": "Previous nationality",
+        "desc": "Nationality of a person before the current nationality."
+    }
+}

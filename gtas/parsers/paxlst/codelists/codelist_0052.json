@@ -1,0 +1,34 @@
+{
+    "1": {
+        "name": "Status 1 version",
+        "desc": "Message approved and issued as a status 1 (trial) message. (Valid for\n                                    directories published after March 1990 and prior to March 1993)."
+    },
+    "2": {
+        "name": "Status 2 version",
+        "desc": "Message approved and issued as a status 2 (formal recommendation)\n                                    message. (Valid for directories published after March 1990 and prior to March 1993).\n                                "
+    },
+    "4": {
+        "name": "Service message, version 4",
+        "desc": "Service messages approved and issued as a part of ISO 9735/Version 4,\n                                    for use with that version of the syntax."
+    },
+    "88": {
+        "name": "1988 version",
+        "desc": "Message approved and issued in the 1988 release of the UNTDID (United\n                                    Nations Trade Data Interchange Directory) as a status 2 (formal recommendation)\n                                    message."
+    },
+    "89": {
+        "name": "1989 version",
+        "desc": "Message approved and issued in the 1989 release of the UNTDID (United\n                                    Nations Trade Data Interchange Directory) as a status 2 (formal recommendation)\n                                    message."
+    },
+    "90": {
+        "name": "1990 version",
+        "desc": "Message approved and issued in the 1990 release of the UNTDID (United\n                                    Nations Trade Data Interchange Directory) as a status 2 (formal recommendation)\n                                    message."
+    },
+    "D": {
+        "name": "Draft version/UN/EDIFACT Directory",
+        "desc": "Message approved and issued as a draft message (Valid for directories\n                                    published after March 1993 and prior to March 1997). Message approved as a standard\n                                    message (Valid for directories published after March 1997)."
+    },
+    "S": {
+        "name": "Standard version",
+        "desc": "Message approved and issued as a standard message. (Valid for\n                                    directories published after March 1993 and prior to March 1997)."
+    }
+}

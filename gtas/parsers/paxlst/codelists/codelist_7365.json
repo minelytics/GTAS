@@ -45,7 +45,7 @@
     },
     "12": {
         "name": "Sender not allowed the message type",
-        "desc": "The sender is not allowed to send the message type which was sent."
+        "desc": "The sender is not allowed to send the message type which was sent.\n                                "
     },
     "13": {
         "name": "Message type not supported",
@@ -77,7 +77,7 @@
     },
     "20": {
         "name": "Cash payment deferred",
-        "desc": "Commercial transaction will be paid by cash within a prescribed time frame."
+        "desc": "Commercial transaction will be paid by cash within a prescribed time\n                                    frame."
     },
     "21": {
         "name": "Unsolicited text",
@@ -93,31 +93,31 @@
     },
     "24": {
         "name": "Transit",
-        "desc": "Goods are transported under Customs control from one Customs office to another."
+        "desc": "Goods are transported under Customs control from one Customs office to\n                                    another."
     },
     "25": {
         "name": "Prohibited/restricted goods",
-        "desc": "Goods are prohibited or restricted from import, export or transit by authority of Customs or another authority."
+        "desc": "Goods are prohibited or restricted from import, export or transit by\n                                    authority of Customs or another authority."
     },
     "26": {
         "name": "Container quarantine",
-        "desc": "(4412) Specification of the status of the goods and of the transport equipment (container) and any packaging/dunnage with respect to quarantine restrictions."
+        "desc": "(4412) Specification of the status of the goods and of the transport\n                                    equipment (container) and any packaging/dunnage with respect to quarantine\n                                    restrictions."
     },
     "27": {
         "name": "Onward carriage: immediate export",
-        "desc": "Movement type indicator: goods are being immediately taken out of the Customs territory."
+        "desc": "Movement type indicator: goods are being immediately taken out of the\n                                    Customs territory."
     },
     "28": {
         "name": "Transhipment",
-        "desc": "Goods are / are not to be transhipped at place of discharge/transhipment place."
+        "desc": "Goods are / are not to be transhipped at place of\n                                    discharge/transhipment place."
     },
     "29": {
         "name": "Onward carriage: inland clearance",
-        "desc": "Movement type indicator: goods are to move under Customs control to a Customs office where Customs formalities will be completed."
+        "desc": "Movement type indicator: goods are to move under Customs control to a\n                                    Customs office where Customs formalities will be completed."
     },
     "30": {
-        "name": "Transaction will not be processed until action is taken by sender",
-        "desc": "Self-explanatory."
+        "name": "Transaction will not be processed until action is taken by sender\n                                ",
+        "desc": "The transaction will not be processed, awaiting action by the sender.\n                                "
     },
     "31": {
         "name": "Transaction cannot be processed by the recipient",
@@ -125,27 +125,27 @@
     },
     "32": {
         "name": "Transaction accepted",
-        "desc": "This transaction is accepted by the recipient application and is a single transaction within a multiple transaction message."
+        "desc": "This transaction is accepted by the recipient application and is a\n                                    single transaction within a multiple transaction message."
     },
     "33": {
         "name": "Transaction rejected",
-        "desc": "This transaction is rejected by the recipient application and is a single transaction within a multiple transaction message."
+        "desc": "This transaction is rejected by the recipient application and is a\n                                    single transaction within a multiple transaction message."
     },
     "34": {
         "name": "Transaction awaiting processing",
-        "desc": "This transaction is waiting to be processed by the recipient application and is a single transaction within a multiple transaction message."
+        "desc": "This transaction is waiting to be processed by the recipient\n                                    application and is a single transaction within a multiple transaction message."
     },
     "35": {
         "name": "Transaction unknown",
-        "desc": "This transaction is unknown by the recipient application and is a single transaction within a multiple transaction message."
+        "desc": "This transaction is unknown by the recipient application and is a\n                                    single transaction within a multiple transaction message."
     },
     "36": {
         "name": "Changed information",
-        "desc": "Processing of information to note that only changes to existing data are transmitted."
+        "desc": "Processing of information to note that only changes to existing data\n                                    are transmitted."
     },
     "37": {
         "name": "Complete information",
-        "desc": "Processing of information to note that complete data details (not just changes) are transmitted."
+        "desc": "Processing of information to note that complete data details (not just\n                                    changes) are transmitted."
     },
     "38": {
         "name": "Manual procedures",
@@ -213,7 +213,7 @@
     },
     "54": {
         "name": "Transaction(s) effected and advised (on)",
-        "desc": "Confirmation that the transaction(s) has(ve) been effected and advised."
+        "desc": "Confirmation that the transaction(s) has(ve) been effected and\n                                    advised."
     },
     "55": {
         "name": "Not yet debited",
@@ -229,7 +229,7 @@
     },
     "58": {
         "name": "Onward carriage: sea clearance",
-        "desc": "Movement type indicator: goods are to move under customs control, by sea, to a customs office where formalities will be completed."
+        "desc": "Movement type indicator: goods are to move under customs control, by\n                                    sea, to a customs office where formalities will be completed."
     },
     "59": {
         "name": "Perishable goods",
@@ -238,6 +238,298 @@
     "60": {
         "name": "Fumigation",
         "desc": "Cargo has been fumigated."
+    },
+    "61": {
+        "name": "Transaction reason non reportable",
+        "desc": "The reason for the transaction is non reportable (e.g. to the legal\n                                    institution)."
+    },
+    "62": {
+        "name": "Reporting via a bank with forwarding abroad authorized",
+        "desc": "The reason for the transaction can be forwarded by the customer's bank\n                                    to the abroad bank."
+    },
+    "63": {
+        "name": "Reporting via a bank with forwarding abroad denied",
+        "desc": "The reason for the transaction cannot be forwarded by the customer's\n                                    bank to the abroad bank."
+    },
+    "64": {
+        "name": "Balance Of Payments complementary information is requested",
+        "desc": "The message sender is requesting BOP (Balance Of Payments)\n                                    complementary information to complete the BOP declaration to the legal institution.\n                                "
+    },
+    "65": {
+        "name": "Direct reporting",
+        "desc": "The report is made directly."
+    },
+    "66": {
+        "name": "Message content accepted, with comments",
+        "desc": "The content of the message is accepted by the receiver, with comments.\n                                "
+    },
+    "67": {
+        "name": "Message content partly accepted, with comments",
+        "desc": "The content of the message is partly accepted by the receiver, with\n                                    comments."
+    },
+    "68": {
+        "name": "Goods carried in container",
+        "desc": "The goods are carried in a container."
+    },
+    "69": {
+        "name": "Goods not carried in container",
+        "desc": "The goods are not carried in a container."
+    },
+    "70": {
+        "name": "Ship's stores declaration",
+        "desc": "Indicates that the information to be processed as a ship's stores\n                                    declaration."
+    },
+    "71": {
+        "name": "Unpack on premises",
+        "desc": "Indicator to identify that the unpacking will be done at the premises.\n                                "
+    },
+    "72": {
+        "name": "Beneficiary's financial information incorrect",
+        "desc": "Financial information regarding the beneficiary is incorrect."
+    },
+    "73": {
+        "name": "Charge(s) details not correct",
+        "desc": "The charge(s) details are not correct."
+    },
+    "74": {
+        "name": "Date(s) not correct",
+        "desc": "The date(s) are not correct."
+    },
+    "75": {
+        "name": "Currency details incorrect",
+        "desc": "Currency details are not correct."
+    },
+    "76": {
+        "name": "Monetary amount incorrect",
+        "desc": "The monetary amount specified is incorrect."
+    },
+    "77": {
+        "name": "Payments sent correctly",
+        "desc": "Confirmation that the payments have been sent correctly."
+    },
+    "78": {
+        "name": "Beneficiary has not received the funds",
+        "desc": "The beneficiary has not received the funds as specified."
+    },
+    "79": {
+        "name": "Beneficiary received the funds late",
+        "desc": "The beneficiary received the funds later than specified."
+    },
+    "80": {
+        "name": "Unjustified charges at beneficiary's side",
+        "desc": "The beneficiary has been charged unjustified fees."
+    },
+    "81": {
+        "name": "Confirmation of authorization",
+        "desc": "The authorization is confirmed."
+    },
+    "82": {
+        "name": "Beneficiary's account closed",
+        "desc": "The account of the beneficiary is closed."
+    },
+    "83": {
+        "name": "Transaction execution pending",
+        "desc": "The transaction is awaiting execution."
+    },
+    "84": {
+        "name": "Transaction rejected due to insufficient funds",
+        "desc": "The transaction is rejected because of insufficient funds."
+    },
+    "85": {
+        "name": "Party identification not known",
+        "desc": "The identification of the party is unknown."
+    },
+    "86": {
+        "name": "Beneficiary unknown",
+        "desc": "The beneficiary indicated is unknown."
+    },
+    "87": {
+        "name": "Beneficiary's bank unknown",
+        "desc": "The indicated beneficiary's bank is unknown."
+    },
+    "88": {
+        "name": "Precedence logic format",
+        "desc": "To specify that the data represents a precedence logic processing\n                                    format."
+    },
+    "89": {
+        "name": "Arrow logic format",
+        "desc": "To specify that the data represents an arrow logic processing format.\n                                "
+    },
+    "90": {
+        "name": "Bar-chart format",
+        "desc": "To specify that the data represents a barchart processing format.\n                                "
+    },
+    "91": {
+        "name": "Milestone format",
+        "desc": "To specify that the data represents a milestone processing format.\n                                "
+    },
+    "92": {
+        "name": "Line of balance format",
+        "desc": "To specify that the data represents a line of balance processing\n                                    format."
+    },
+    "93": {
+        "name": "Task list format",
+        "desc": "To specify that the data represents a task list processing format.\n                                "
+    },
+    "94": {
+        "name": "Delivery point driven scheduling method",
+        "desc": "Scheduling method used when for a given delivery point a number of\n                                    different products are to be delivered."
+    },
+    "95": {
+        "name": "Product driven scheduling method",
+        "desc": "Scheduling method used when a given product is to be delivered to a\n                                    number of different delivery points."
+    },
+    "96": {
+        "name": "Confirmation, payment sent as instructed",
+        "desc": "Confirmation that the payment has been sent as instructed."
+    },
+    "97": {
+        "name": "Beneficiary has received funds",
+        "desc": "The beneficiary has received the funds."
+    },
+    "98": {
+        "name": "Individual transaction over credit limit",
+        "desc": "A transaction exceeds the credit limit for an individual transaction.\n                                "
+    },
+    "99": {
+        "name": "Cumulative transactions exceed credit limit",
+        "desc": "The grouped transactions exceed the credit limit."
+    },
+    "100": {
+        "name": "Transaction exceeds default credit limit",
+        "desc": "The transaction exceeds a default credit limit."
+    },
+    "101": {
+        "name": "Transaction received and redirected to another bank and/or account\n                                ",
+        "desc": "The transaction has been received, but has been redirected to another\n                                    bank and/or account."
+    },
+    "102": {
+        "name": "Potential duplicate of a previous payment",
+        "desc": "The payment is a potential duplicate of a previous one."
+    },
+    "103": {
+        "name": "Cancellation pending",
+        "desc": "A cancellation has been instructed but has not been actioned yet.\n                                "
+    },
+    "104": {
+        "name": "Cancellation instruction too late to carry out",
+        "desc": "An instruction to cancel has been received too late to be carried out.\n                                "
+    },
+    "105": {
+        "name": "Invalid bank branch sort code",
+        "desc": "The bank branch sort code is invalid."
+    },
+    "106": {
+        "name": "Invalid account number",
+        "desc": "The account number is invalid."
+    },
+    "107": {
+        "name": "Transaction duplicates previous transaction",
+        "desc": "The transaction duplicates a previous one."
+    },
+    "108": {
+        "name": "Transaction out of time limits",
+        "desc": "Transaction received outside agreed time window."
+    },
+    "109": {
+        "name": "Invalid and/or incomplete name and address",
+        "desc": "Name and address are invalid and/or incomplete."
+    },
+    "110": {
+        "name": "No name and address specified",
+        "desc": "No name and address has been specified."
+    },
+    "111": {
+        "name": "No communication number specified",
+        "desc": "No communication number has been specified."
+    },
+    "112": {
+        "name": "Bank branch number and/or details invalid",
+        "desc": "The bank branch number and/or details are not valid."
+    },
+    "113": {
+        "name": "Message from ordering customer did not contain all data required",
+        "desc": "The message received from the ordering customer did not contain all\n                                    the required data."
+    },
+    "114": {
+        "name": "Date of cheque invalid",
+        "desc": "The date provided on a cheque is invalid."
+    },
+    "115": {
+        "name": "Totals for transaction do not match details",
+        "desc": "Figures for the total transaction do not match those provided for the\n                                    individual lines of the transaction."
+    },
+    "116": {
+        "name": "Transaction different to normal",
+        "desc": "A transaction whose details do not conform to the average details\n                                    normally contained in the transaction."
+    },
+    "117": {
+        "name": "Method of payment invalid",
+        "desc": "The method of payment is not valid."
+    },
+    "118": {
+        "name": "Ordering customer's payment order number invalid",
+        "desc": "The payment order number issued by the ordering customer is invalid.\n                                "
+    },
+    "119": {
+        "name": "Ordering customer's message control value invalid",
+        "desc": "The control value provided by the ordering customer in the control\n                                    totals segment is invalid."
+    },
+    "120": {
+        "name": "Ordering customer's message control quantity invalid",
+        "desc": "The control quantity provided by the ordering customer in the control\n                                    totals segment is invalid."
+    },
+    "121": {
+        "name": "Beneficiary's account frozen by legal authorities",
+        "desc": "The beneficiary's account has been frozen by legal authorities."
+    },
+    "122": {
+        "name": "Invalid cancellation request because transaction already executed\n                                ",
+        "desc": "The request to cancel a transaction is invalid because the transaction\n                                    has already been executed."
+    },
+    "123": {
+        "name": "Account holder specified by ordering customer is deceased",
+        "desc": "The account holder detailed by the ordering customer is deceased.\n                                "
+    },
+    "124": {
+        "name": "Ordering customer's instruction is a duplicate",
+        "desc": "The ordering customer's instruction duplicates an instruction."
+    },
+    "125": {
+        "name": "Unauthorized message version",
+        "desc": "The message version is unauthorized."
+    },
+    "126": {
+        "name": "Debtor's account unknown",
+        "desc": "The debtor's account is not known."
+    },
+    "127": {
+        "name": "Health insurance exclusion condition may apply",
+        "desc": "The patient's health insurance may not apply for certain services.\n                                "
+    },
+    "128": {
+        "name": "Pre-existing condition warning indicator",
+        "desc": "The condition may predate an event."
+    },
+    "129": {
+        "name": "Cancellation executed",
+        "desc": "Cancellation has been executed."
+    },
+    "130": {
+        "name": "Bordereau ceded premium",
+        "desc": "The bordereau should be processed as ceded premium."
+    },
+    "131": {
+        "name": "Bordereau open claims",
+        "desc": "The bordereau items should be processed as open claims."
+    },
+    "132": {
+        "name": "Bordereau closed claims",
+        "desc": "The bordereau items should be processed as closed claims."
+    },
+    "133": {
+        "name": "Bordereau settled claims",
+        "desc": "The bordereau items should be processed as settled claims."
     },
     "ZZZ": {
         "name": "Mutually defined",

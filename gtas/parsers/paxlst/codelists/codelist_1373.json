@@ -1,7 +1,7 @@
 {
     "1": {
         "name": "Accepted",
-        "desc": "Self explanatory."
+        "desc": "The specified document is accepted."
     },
     "2": {
         "name": "Accompanying goods",
@@ -9,31 +9,35 @@
     },
     "3": {
         "name": "Conditionally accepted",
-        "desc": "Self explanatory."
+        "desc": "The specified document is conditionally accepted."
     },
     "4": {
         "name": "To arrive by separate EDI message",
-        "desc": "Notice that a specific document/message will be transmitted via a separate EDI message."
+        "desc": "Notice that a specific document/message will be transmitted via a\n                                    separate EDI message."
     },
     "5": {
         "name": "Information only",
-        "desc": "Notice that the specific document or message is for information only."
+        "desc": "Notice that the specific document or message is for information only.\n                                "
     },
     "6": {
         "name": "To arrive by manual means",
-        "desc": "Notice that a specific document or message will not be sent via EDI."
+        "desc": "Notice that a specific document or message will not be sent via EDI.\n                                "
     },
     "7": {
         "name": "To be raised and sent",
-        "desc": "Request for a specific message to be formatted and transmitted or a request for a specific document to be raised and sent."
+        "desc": "Request for a specific message to be formatted and transmitted or a\n                                    request for a specific document to be raised and sent."
     },
     "8": {
         "name": "Rejected",
-        "desc": "Self explanatory."
+        "desc": "The specified document is rejected."
     },
     "9": {
         "name": "To be printed",
         "desc": "The document or message is to be printed."
+    },
+    "10": {
+        "name": "Document currently valid",
+        "desc": "Specific document is currently valid."
     },
     "11": {
         "name": "Document not available",
@@ -41,19 +45,19 @@
     },
     "12": {
         "name": "Document exhausted by declaration and attached",
-        "desc": "Customs declaration to which the document is related completed or exhaust the allowance stated on the document. The document is attached to the Customs declaration."
+        "desc": "Customs declaration to which the document is related completed or\n                                    exhaust the allowance stated on the document. The document is attached to the\n                                    Customs declaration."
     },
     "13": {
         "name": "Document not exhausted by declaration and attached",
-        "desc": "Customs declaration to which the document is related does not complete or exhaust the allowance stated on the document . The document is not attached to the declaration but has already been lodged in the Customs station."
+        "desc": "Customs declaration to which the document is related does not complete\n                                    or exhaust the allowance stated on the document . The document is not attached to\n                                    the declaration but has already been lodged in the Customs station."
     },
     "14": {
         "name": "Document exhausted by declaration and previously lodged",
-        "desc": "Customs declaration to which the document is related completed or exhaust the allowance stated on the document. The usage of the document is complete. The document is not attached to the declaration but has already been lodged in the Customs station."
+        "desc": "Customs declaration to which the document is related completed or\n                                    exhaust the allowance stated on the document. The usage of the document is complete.\n                                    The document is not attached to the declaration but has already been lodged in the\n                                    Customs station."
     },
     "15": {
         "name": "Document not exhausted by declaration and previously lodged",
-        "desc": "Customs declaration to which the document is related does not complete or exhaust the allowance stated on the document. The document can continue to be used for future declarations until the allowance is exhausted. The document is not attached to the declaration but has already been lodged in the Customs station."
+        "desc": "Customs declaration to which the document is related does not complete\n                                    or exhaust the allowance stated on the document. The document can continue to be\n                                    used for future declarations until the allowance is exhausted. The document is not\n                                    attached to the declaration but has already been lodged in the Customs station.\n                                "
     },
     "16": {
         "name": "Document not attached",
@@ -61,11 +65,11 @@
     },
     "17": {
         "name": "Document with the goods",
-        "desc": "Document not attached to the Customs declaration but is attached to the goods."
+        "desc": "Document not attached to the Customs declaration but is attached to\n                                    the goods."
     },
     "18": {
         "name": "Document attached, to be returned after endorsement",
-        "desc": "Specified document is attached to the Customs declaration and will be required to be returned to the declarant after Customs endorsement."
+        "desc": "Specified document is attached to the Customs declaration and will be\n                                    required to be returned to the declarant after Customs endorsement."
     },
     "19": {
         "name": "Document applied for",
@@ -73,10 +77,66 @@
     },
     "20": {
         "name": "Received for shipment",
-        "desc": "Indicates that the document has legal validity from the date of receival of the cargo."
+        "desc": "Indicates that the document has legal validity from the date of\n                                    receival of the cargo."
     },
     "21": {
         "name": "Shipped on board",
-        "desc": "Indicates that the document has legal validity from the date that cargo is loaded on board a vessel."
+        "desc": "Indicates that the document has legal validity from the date that\n                                    cargo is loaded on board a vessel."
+    },
+    "22": {
+        "name": "Status 0",
+        "desc": "Message is at status 0."
+    },
+    "23": {
+        "name": "Status 1",
+        "desc": "Message is at status 1."
+    },
+    "24": {
+        "name": "Status 2",
+        "desc": "Message is at status 2."
+    },
+    "25": {
+        "name": "Message under development",
+        "desc": "Message is under development."
+    },
+    "26": {
+        "name": "Document not freighted",
+        "desc": "Document not to include freight figures."
+    },
+    "27": {
+        "name": "Document freighted",
+        "desc": "Document to include freight figures."
+    },
+    "28": {
+        "name": "Archived",
+        "desc": "The document or message has been archived."
+    },
+    "29": {
+        "name": "Provisional",
+        "desc": "The document or message has no official status."
+    },
+    "30": {
+        "name": "Documents enclosed in the first transmission",
+        "desc": "The documents are enclosed in the first transmission."
+    },
+    "31": {
+        "name": "Documents enclosed in the second transmission",
+        "desc": "The documents are enclosed in the second transmission."
+    },
+    "32": {
+        "name": "Document not required, waiver issued",
+        "desc": "The document is not required, waiver of requirement has been issued.\n                                "
+    },
+    "33": {
+        "name": "Already on file with receiver of this message",
+        "desc": "The document is already on file with the party receiving the message.\n                                "
+    },
+    "34": {
+        "name": "Retained by sender of this message, or by sender's agent or\n                                    representative",
+        "desc": "The document is in the possession of the sender or sender's agent or\n                                    representative."
+    },
+    "36": {
+        "name": "Document previously submitted",
+        "desc": "The document has already been submitted."
     }
 }

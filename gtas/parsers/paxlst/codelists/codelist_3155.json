@@ -12,16 +12,56 @@
         "desc": "Communications number assigned by Aeronautical Radio Inc."
     },
     "AD": {
-        "name": "Courier",
-        "desc": "A communication channel identifying a courier."
+        "name": "AT&T mailbox",
+        "desc": "AT&T mailbox identifier."
     },
     "AE": {
-        "name": "Express post",
-        "desc": "Express (e.g. overnight) postal service document delivery."
+        "name": "Peripheral device",
+        "desc": "Peripheral device identification."
+    },
+    "AF": {
+        "name": "U.S. Defense Switched Network",
+        "desc": "The switched telecommunications network of the United States\n                                    Department of Defense."
+    },
+    "AG": {
+        "name": "U.S. federal telecommunications system",
+        "desc": "The switched telecommunications network of the United States\n                                    government."
+    },
+    "AH": {
+        "name": "World Wide Web",
+        "desc": "Data exchange via the World Wide Web."
+    },
+    "AI": {
+        "name": "International calling country code",
+        "desc": "Identifies that portion of an international telephone number\n                                    representing the country code to be used when calling internationally."
+    },
+    "AJ": {
+        "name": "Alternate telephone",
+        "desc": "Identifies the alternate telephone number."
+    },
+    "AK": {
+        "name": "Videotex number",
+        "desc": "Code that identifies the communications number for the online videotex\n                                    service."
+    },
+    "AL": {
+        "name": "Cellular phone",
+        "desc": "Identifies the cellular phone number."
+    },
+    "AM": {
+        "name": "International telephone direct line",
+        "desc": "The international telephone direct line number."
+    },
+    "AN": {
+        "name": "O.F.T.P. (ODETTE File Transfer Protocol)",
+        "desc": "ODETTE File Transfer Protocol."
+    },
+    "AO": {
+        "name": "Uniform Resource Location (URL)",
+        "desc": "Identification of the Uniform Resource Location (URL) Synonym: World\n                                    wide web address."
     },
     "CA": {
         "name": "Cable address",
-        "desc": "The cable is used as communication medium."
+        "desc": "The communication number identifies a cable address."
     },
     "EI": {
         "name": "EDI transmission",
@@ -45,11 +85,11 @@
     },
     "GM": {
         "name": "GEIS (General Electric Information Service) mailbox",
-        "desc": "GEIS mailbox system is used as communication medium."
+        "desc": "The communication number identifies a GEIS mailbox."
     },
     "IE": {
         "name": "IBM information exchange",
-        "desc": "IBM IE is used as communication medium."
+        "desc": "The communication number identifies an IBM IE mailbox."
     },
     "IM": {
         "name": "Internal mail",
@@ -60,8 +100,8 @@
         "desc": "Postal service document delivery."
     },
     "PB": {
-        "name": "Postbox no.",
-        "desc": "Postbox system is used as communication medium."
+        "name": "Postbox number",
+        "desc": "The communication number identifies a postbox."
     },
     "PS": {
         "name": "Packet switching",
@@ -96,7 +136,23 @@
         "desc": "Communication service involving Teletypewriter machines connected by\n                                    wire or electronic transmission media. Teletypewriter machines are the devices used\n                                    to send and receive signals and produce hardcopy from them."
     },
     "XF": {
-        "name": "X.400",
-        "desc": "CCITT Message handling system."
+        "name": "X.400 address",
+        "desc": "The X.400 address."
+    },
+    "XG": {
+        "name": "Pager",
+        "desc": "Identifies that the communication number is for a pager."
+    },
+    "XH": {
+        "name": "International telephone switchboard",
+        "desc": "The international telephone switchboard number."
+    },
+    "XI": {
+        "name": "National telephone direct line",
+        "desc": "The national telephone direct line number."
+    },
+    "XJ": {
+        "name": "National telephone switchboard",
+        "desc": "The national telephone switchboard number."
     }
 }

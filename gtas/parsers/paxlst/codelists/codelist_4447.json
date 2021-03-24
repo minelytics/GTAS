@@ -1,0 +1,46 @@
+{
+    "1": {
+        "name": "Centre",
+        "desc": "The associated text is centred in the available space."
+    },
+    "2": {
+        "name": "Left",
+        "desc": "The associated text item is aligned flush left in the available space.\n                                "
+    },
+    "3": {
+        "name": "Right",
+        "desc": "The associated text is aligned flush right in the available space.\n                                "
+    },
+    "4": {
+        "name": "Justified",
+        "desc": "The associated text is justified in the available space."
+    },
+    "5": {
+        "name": "Preceded by one blank line",
+        "desc": "The text is to be preceded by one blank line."
+    },
+    "6": {
+        "name": "Preceded by two blank lines",
+        "desc": "The text is to be preceded by two blank lines."
+    },
+    "7": {
+        "name": "Preceded by three blank lines",
+        "desc": "The text is to be preceded by three blank lines."
+    },
+    "8": {
+        "name": "Continuation",
+        "desc": "The text is a continuation of preceding text."
+    },
+    "9": {
+        "name": "New page",
+        "desc": "The text is to begin on a new page."
+    },
+    "10": {
+        "name": "End text",
+        "desc": "The text is the final section of the preceding text."
+    },
+    "11": {
+        "name": "New line",
+        "desc": "The text is to begin a new line."
+    }
+}

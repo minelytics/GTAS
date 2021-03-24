@@ -1,10 +1,14 @@
 {
     "1": {
         "name": "Transport for the owner's account",
-        "desc": "The owner of the transported goods is also the owner of the means of transport or rented it for this transport."
+        "desc": "The owner of the transported goods is also the owner of the means of\n                                    transport or rented it for this transport."
     },
     "2": {
         "name": "Transport for another account",
-        "desc": "The owner of the transported goods does not own the means of transport or has not rented it for this transport."
+        "desc": "The owner of the transported goods does not own the means of transport\n                                    or has not rented it for this transport."
+    },
+    "3": {
+        "name": "Private transport",
+        "desc": "A code indicating privately owned transport."
     }
 }

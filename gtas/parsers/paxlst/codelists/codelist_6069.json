@@ -1,15 +1,15 @@
 {
     "1": {
-        "name": "Algebraic total of the quantity values in line items in a message",
-        "desc": "Self-explanatory."
+        "name": "Total of line item quantities",
+        "desc": "Algebraic total of the quantity values in line items in a message.\n                                "
     },
     "2": {
         "name": "Number of line items in message",
-        "desc": "Self-explanatory."
+        "desc": "Total number of line items in the message."
     },
     "3": {
         "name": "Number of line and sub items in message",
-        "desc": "Description to be provided."
+        "desc": "Total number of line and sub items in the message."
     },
     "4": {
         "name": "Number of invoice lines",
@@ -17,11 +17,11 @@
     },
     "5": {
         "name": "Number of Customs item detail lines",
-        "desc": "Total number of occurrences of the Customs item detail section within a single Customs declaration message."
+        "desc": "Total number of occurrences of the Customs item detail section within\n                                    a single Customs declaration message."
     },
     "6": {
         "name": "Number of Customs entries",
-        "desc": "Number of entries which are subject to the same Customs procedures, and have the same tariff or statistical heading, country and duty regime."
+        "desc": "Number of entries which are subject to the same Customs procedures,\n                                    and have the same tariff or statistical heading, country and duty regime."
     },
     "7": {
         "name": "Total gross weight",
@@ -29,7 +29,7 @@
     },
     "8": {
         "name": "Total pieces",
-        "desc": "Self explanatory."
+        "desc": "Total number of pieces."
     },
     "9": {
         "name": "Total number of ULD (Unit Load Device)",
@@ -45,15 +45,15 @@
     },
     "12": {
         "name": "Invoice total amount",
-        "desc": "[5444] Total sum charged in respect of one or more Invoices in accordance with the terms of delivery."
+        "desc": "[5444] Total sum charged in respect of one or more Invoices in\n                                    accordance with the terms of delivery."
     },
     "13": {
         "name": "Number of loading lists",
-        "desc": "[1166] Number of loading lists, manifests or other similar specifications attached to a document."
+        "desc": "[1166] Number of loading lists, manifests or other similar\n                                    specifications attached to a document."
     },
     "14": {
         "name": "Number of Customs commercial detail lines",
-        "desc": "Commercial detail section within a single Customs declaration message."
+        "desc": "Commercial detail section within a single Customs declaration message.\n                                "
     },
     "15": {
         "name": "Total consignment, cube",
@@ -65,7 +65,7 @@
     },
     "17": {
         "name": "Declared total Customs value",
-        "desc": "[5070] Total value declared for Customs purposes of all goods in a consignment, whether or not they are subject to the same Customs procedure, or have the same tariff/statistical heading, country information, and duty regime."
+        "desc": "[5070] Total value declared for Customs purposes of all goods in a\n                                    consignment, whether or not they are subject to the same Customs procedure, or have\n                                    the same tariff/statistical heading, country information, and duty regime."
     },
     "18": {
         "name": "Total reported quantity in net weight",
@@ -77,11 +77,11 @@
     },
     "20": {
         "name": "Total reported invoice(s) value",
-        "desc": "Hash total of the total monetary amounts reported on the invoices."
+        "desc": "Hash total of the total monetary amounts reported on the invoices.\n                                "
     },
     "21": {
         "name": "Total reported ancillary costs",
-        "desc": "Hash total of the reported total extra costs (e.g. carriage, freight, insurance) of all invoices."
+        "desc": "Hash total of the reported total extra costs (e.g. carriage, freight,\n                                    insurance) of all invoices."
     },
     "22": {
         "name": "Total reported statistical value",
@@ -93,7 +93,7 @@
     },
     "24": {
         "name": "Number of orders referenced in this message",
-        "desc": "Total number of order messages or documents referenced in this message."
+        "desc": "Total number of order messages or documents referenced in this\n                                    message."
     },
     "25": {
         "name": "Number of rejected order lines",
@@ -101,7 +101,7 @@
     },
     "26": {
         "name": "Total gross measurement/cube",
-        "desc": "Total gross cubic measurement of the goods, including packing but excluding transport equipment."
+        "desc": "Total gross cubic measurement of the goods, including packing but\n                                    excluding transport equipment."
     },
     "27": {
         "name": "Total number of credit items given for control purposes",
@@ -114,5 +114,117 @@
     "29": {
         "name": "Total net weight of consignment",
         "desc": "A code to indicate the total net weight of a consignment."
+    },
+    "30": {
+        "name": "Total number of empty containers",
+        "desc": "The total number of empty containers mentioned in the message."
+    },
+    "31": {
+        "name": "Number of messages",
+        "desc": "Control count of the number of messages referenced."
+    },
+    "32": {
+        "name": "Total gross weight of the goods within the means of transport",
+        "desc": "Weight (mass) of the goods within the means of transport, including\n                                    packing and excluding the carrier's equipment."
+    },
+    "33": {
+        "name": "Total number of original Bills of Lading",
+        "desc": "Total number of the original Bills of Lading required for the\n                                    consignment."
+    },
+    "34": {
+        "name": "Total number of copy Bills of Lading",
+        "desc": "Total number of copy Bills of Lading required for the consignment.\n                                "
+    },
+    "35": {
+        "name": "Number of containers to be discharged",
+        "desc": "Number of containers to be discharged from the means of transport.\n                                "
+    },
+    "36": {
+        "name": "Number of containers to be loaded",
+        "desc": "Number of containers to be loaded in or on the means of transport.\n                                "
+    },
+    "37": {
+        "name": "Number of containers to be restowed",
+        "desc": "Number of containers to be restowed from one cell position to another.\n                                "
+    },
+    "38": {
+        "name": "Number of containers to be shifted",
+        "desc": "Number of containers to be shifted from one cell position to another.\n                                "
+    },
+    "39": {
+        "name": "Total number of individual transactions",
+        "desc": "The total number of individual transactions."
+    },
+    "40": {
+        "name": "Total number of sequence details in message",
+        "desc": "The total number of sequence details in the message."
+    },
+    "41": {
+        "name": "Total number of crew",
+        "desc": "The total number of crew."
+    },
+    "42": {
+        "name": "Total number of passengers",
+        "desc": "The total number of passengers aboard the conveyance."
+    },
+    "43": {
+        "name": "Total number of work tasks",
+        "desc": "Total number of work tasks in the message."
+    },
+    "44": {
+        "name": "Total number of milestones",
+        "desc": "Total number of milestones in the message."
+    },
+    "45": {
+        "name": "Total number of available resources",
+        "desc": "Total number of available resources in the message."
+    },
+    "46": {
+        "name": "Total number of constraints",
+        "desc": "Total number of constraints in the message."
+    },
+    "47": {
+        "name": "Total wholesaler unsold quantity",
+        "desc": "Total quantity of unsold goods held by the wholesaler."
+    },
+    "48": {
+        "name": "Total quantity held by delivery vehicles",
+        "desc": "Total quantity held by the delivery vehicles."
+    },
+    "49": {
+        "name": "Total quantity held by retail outlets",
+        "desc": "Total quantity held by the retail outlets."
+    },
+    "50": {
+        "name": "Total rejected return quantity",
+        "desc": "The total quantity for return which have been rejected."
+    },
+    "51": {
+        "name": "Number of goods items in the message",
+        "desc": "The total number of goods items in a message."
+    },
+    "52": {
+        "name": "Number of patients",
+        "desc": "The number of patients reported in a message."
+    },
+    "53": {
+        "name": "Hash total of reported debit items",
+        "desc": "Hash total of the values of all the debit item amounts reported in the\n                                    message."
+    },
+    "54": {
+        "name": "Hash total of reported credit items",
+        "desc": "Hash total of the values of all the credit item amounts reported in\n                                    the message."
+    },
+    "55": {
+        "name": "Total number of errors reported",
+        "desc": "Total number of errors reported."
+    },
+    "56": {
+        "name": "Total number of transport units",
+        "desc": "Number of separate units of cargo handled during transportation of a\n                                    consignment."
+    },
+    "57": {
+        "name": "Total loading metres",
+        "desc": "The total number of loading metres."
     }
 }

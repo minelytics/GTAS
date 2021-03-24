@@ -1,11 +1,11 @@
 {
     "AA": {
         "name": "Debit advice",
-        "desc": "Receiver of the payment message needs to return a debit advice in response to the payment message."
+        "desc": "Receiver of the payment message needs to return a debit advice in\n                                    response to the payment message."
     },
     "AB": {
         "name": "Message acknowledgement",
-        "desc": "Indicates that an acknowledge relating to receipt is required."
+        "desc": "Indicates that an acknowledgement relating to receipt of message is\n                                    required."
     },
     "AC": {
         "name": "Acknowledge - with detail and change",
@@ -15,32 +15,80 @@
         "name": "Acknowledge - with detail, no change",
         "desc": "Acknowledge complete without changes."
     },
+    "AE": {
+        "name": "Debit advice for each transaction",
+        "desc": "A debit advice is requested for each transaction in the message."
+    },
     "AF": {
         "name": "Debit advice/message acknowledgement",
-        "desc": "The sender wishes to receive both a Debit Advice and an acknowledgement of receipt for a payment message."
+        "desc": "The sender wishes to receive both a Debit Advice and an\n                                    acknowledgement of receipt for a payment message."
     },
     "AG": {
         "name": "Authentication",
-        "desc": "Authentication, by a party, of a document established for him by another party."
+        "desc": "Authentication, by a party, of a document established for him by\n                                    another party."
+    },
+    "AH": {
+        "name": "Debit advice/message acknowledgement for each transaction",
+        "desc": "A debit advice and message acknowledgement are requested for each\n                                    transaction in the message."
+    },
+    "AI": {
+        "name": "Acknowledge only changes",
+        "desc": "Acknowledgement of changes only is required."
+    },
+    "AJ": {
+        "name": "Pending",
+        "desc": "Indication that the referenced offer or transaction (e.g. cargo\n                                    booking or quotation request) is being dealt with."
     },
     "AP": {
         "name": "Accepted",
-        "desc": "Indication that the referenced offer or transaction (e.g., cargo booking or quotation request) has been accepted."
+        "desc": "Indication that the referenced offer or transaction (e.g., cargo\n                                    booking or quotation request) has been accepted."
+    },
+    "AQ": {
+        "name": "Response expected",
+        "desc": "The sender of the message expects a response."
+    },
+    "AR": {
+        "name": "Direct documentary credit collection",
+        "desc": "Documentary credit collection forwarded directly."
+    },
+    "AS": {
+        "name": "Credit advice and message acknowledgement",
+        "desc": "The receiver of the message is to acknowledge receipt of the message\n                                    and sent a credit advice for each credit."
     },
     "CA": {
         "name": "Conditionally accepted",
-        "desc": "Indication that the referenced offer or transaction (e.g., cargo booking or quotation request) has been accepted under conditions indicated in this message."
+        "desc": "Indication that the referenced offer or transaction (e.g., cargo\n                                    booking or quotation request) has been accepted under conditions indicated in this\n                                    message."
     },
     "CO": {
         "name": "Confirmation of measurements",
-        "desc": "Indication that the message contains the physical measurements on which the charges will be based."
+        "desc": "Indication that the message contains the physical measurements on\n                                    which the charges will be based."
     },
     "NA": {
-        "name": "No acknowledgment needed",
-        "desc": "Self explanatory."
+        "name": "No acknowledgement needed",
+        "desc": "Specifies that no acknowledgement is needed in response to this\n                                    message."
     },
     "RE": {
         "name": "Rejected",
-        "desc": "Indication that the referenced offer or transaction (e.g., cargo booking or quotation request) is not accepted."
+        "desc": "Indication that the referenced offer or transaction (e.g., cargo\n                                    booking or quotation request) is not accepted."
+    },
+    "UR": {
+        "name": "Credit advice",
+        "desc": "The message recipient is to send a credit advice in response to the\n                                    message."
+    },
+    "US": {
+        "name": "Acknowledgement when error",
+        "desc": "An acknowledgement is requested when an error occurred."
+    },
+    "UT": {
+        "name": "Acknowledgment due to error",
+        "desc": "An acknowledgment is sent because an error was identified in the\n                                    received message."
+    },
+    "UU": {
+        "name": "Alternate date",
+        "desc": "The solution proposed in the response applies to another date than the\n                                    one requested."
+    },
+    "UV": {
+        "name": "Alternate service",
+        "desc": "The solution proposed in the response applies to another service than\n                                    the one requested."
     }
 }

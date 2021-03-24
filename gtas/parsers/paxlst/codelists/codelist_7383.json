@@ -1,11 +1,11 @@
 {
     "1S": {
         "name": "Side one",
-        "desc": "Self explanatory."
+        "desc": "The location is side one."
     },
     "2S": {
         "name": "Side two",
-        "desc": "Self explanatory."
+        "desc": "The location is side two."
     },
     "AA": {
         "name": "On surface",
@@ -17,74 +17,118 @@
     },
     "AC": {
         "name": "Soluble",
-        "desc": "Specifies that the surface/layer/position being described is the soluble portion."
+        "desc": "Specifies that the surface/layer/position being described is the\n                                    soluble portion."
+    },
+    "AD": {
+        "name": "Opposite corners",
+        "desc": "The surface or layer of the product being described is the opposite\n                                    corners."
+    },
+    "AE": {
+        "name": "Corner Diagonals",
+        "desc": "The surface or layer of the product being described are the corner\n                                    diagonals."
+    },
+    "AF": {
+        "name": "Port",
+        "desc": "The left-hand side (looking forward) of a ship, boat or aircraft.\n                                "
+    },
+    "AG": {
+        "name": "Starboard",
+        "desc": "The right-hand side (looking forward) of a ship, boat or aircraft.\n                                "
+    },
+    "AH": {
+        "name": "Tooth facial surface",
+        "desc": "Surface of a tooth directed toward the face and opposite the lingual\n                                    surface."
+    },
+    "AI": {
+        "name": "Tooth incisal surface",
+        "desc": "Surface of the tooth relating to the cutting edge of the anterior\n                                    teeth, incisors or canines."
+    },
+    "AJ": {
+        "name": "Tooth distal surface",
+        "desc": "Surface of the tooth toward the back of the dental arch, or away from\n                                    the midline."
+    },
+    "AK": {
+        "name": "Tooth buccal surface",
+        "desc": "Surface of the tooth pertaining to or around the cheek."
+    },
+    "AL": {
+        "name": "Tooth occlusal surface",
+        "desc": "Surface of the tooth pertaining to the masticating surfaces of the\n                                    posterior teeth."
+    },
+    "AM": {
+        "name": "Tooth lingual surface",
+        "desc": "Surface of the tooth pertaining to or around the tongue."
+    },
+    "AN": {
+        "name": "Tooth mesial surface",
+        "desc": "Surface of the tooth toward the midline of the dental arch."
     },
     "BC": {
         "name": "Back of cab",
-        "desc": "Self explanatory."
+        "desc": "The location is at the back of the cab."
     },
     "BS": {
         "name": "Both sides",
-        "desc": "Self explanatory."
+        "desc": "The location is both sides."
     },
     "BT": {
         "name": "Bottom",
-        "desc": "Self explanatory."
+        "desc": "The location is on the bottom."
     },
     "DF": {
         "name": "Dual fuel tank positions",
-        "desc": "Self explanatory."
+        "desc": "The location is in the dual fuel tank positions."
     },
     "FR": {
         "name": "Front",
-        "desc": "Self explanatory."
+        "desc": "The location is in the front."
     },
     "IN": {
         "name": "Inside",
-        "desc": "Self explanatory."
+        "desc": "The location is in the inside."
     },
     "LE": {
         "name": "Left",
-        "desc": "Self explanatory."
+        "desc": "The location is on the left."
     },
     "OA": {
         "name": "Overall",
-        "desc": "Self explanatory."
+        "desc": "The location is overall."
     },
     "OS": {
         "name": "One side",
-        "desc": "Self explanatory."
+        "desc": "The location is on one side."
     },
     "OT": {
         "name": "Outside",
-        "desc": "Self explanatory."
+        "desc": "The location is on the outside."
     },
     "RI": {
         "name": "Right",
-        "desc": "Self explanatory."
+        "desc": "The location is on the right."
     },
     "RR": {
         "name": "Rear",
-        "desc": "Self explanatory."
+        "desc": "The location is in the rear."
     },
     "ST": {
         "name": "Spare tyre position",
-        "desc": "Self explanatory."
+        "desc": "The location is the spare tyre position."
     },
     "TB": {
         "name": "Tank bottom",
-        "desc": "Self explanatory."
+        "desc": "The location is at the tank bottom."
     },
     "TP": {
         "name": "Top",
-        "desc": "Self explanatory."
+        "desc": "The location is on the top."
     },
     "TS": {
         "name": "Two sides",
-        "desc": "Self explanatory."
+        "desc": "The location is on two sides."
     },
     "UC": {
         "name": "Under cab",
-        "desc": "Self explanatory."
+        "desc": "The location is under the cab."
     }
 }

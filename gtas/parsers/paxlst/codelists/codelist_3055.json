@@ -1,7 +1,7 @@
 {
     "1": {
         "name": "CCC (Customs Co-operation Council)",
-        "desc": "Self explanatory."
+        "desc": "Customs Co-operation Council (now World Customs Organization)."
     },
     "2": {
         "name": "CEC (Commission of the European Communities)",
@@ -9,19 +9,19 @@
     },
     "3": {
         "name": "IATA (International Air Transport Association)",
-        "desc": "Self explanatory."
+        "desc": "The airline industry's international organisation."
     },
     "4": {
         "name": "ICC (International Chamber of Commerce)",
-        "desc": "Self explanatory."
+        "desc": "International Chamber of Commerce."
     },
     "5": {
         "name": "ISO (International Organization for Standardization)",
-        "desc": "Self explanatory."
+        "desc": "International Organization of Standardization."
     },
     "6": {
         "name": "UN/ECE (United Nations - Economic Commission for Europe)",
-        "desc": "Self explanatory."
+        "desc": "United Nations Economic Commission for Europe."
     },
     "7": {
         "name": "CEFIC (Conseil Europeen des Federations de l'Industrie Chimique)",
@@ -29,43 +29,43 @@
     },
     "8": {
         "name": "EDIFICE",
-        "desc": "EDI Forum for companies with Interest in Computing and Electronics (EDI project for EDP/ADP sector)."
+        "desc": "Standardised electronic commerce forum for companies with interests in\n                                    computing, electronics and telecommunications."
     },
     "9": {
-        "name": "EAN (International Article Numbering association)",
-        "desc": "Self explanatory."
+        "name": "EAN International",
+        "desc": "EAN International, an organization of EAN Member Organizations, who\n                                    along with the Uniform Code Council manages the EAN.UCC System."
     },
     "10": {
         "name": "ODETTE",
-        "desc": "Organization for Data Exchange through Tele-Transmission in Europe (European automotive industry project)."
+        "desc": "Organization for Data Exchange through Tele-Transmission in Europe\n                                    (European automotive industry project)."
     },
     "11": {
         "name": "Lloyd's register of shipping",
-        "desc": "Self explanatory."
+        "desc": "A register of ocean going vessels maintained by Lloyd's of London.\n                                "
     },
     "12": {
         "name": "UIC (International union of railways)",
-        "desc": "Western and Eastern European railways association (35 networks). UIC with its legal body (CIT) produce codes and reglementations that are internationally recognized and accepted by all European railways and official bodies."
+        "desc": "International Union of Railways."
     },
     "13": {
-        "name": "ICAO (International Civil Aviation Organisation)",
-        "desc": "Self explanatory."
+        "name": "ICAO (International Civil Aviation Organization)",
+        "desc": "International Civil Aviation Organization."
     },
     "14": {
         "name": "ICS (International Chamber of Shipping)",
-        "desc": "Self explanatory."
+        "desc": "International Chamber of Shipping."
     },
     "15": {
         "name": "RINET (Reinsurance and Insurance Network)",
-        "desc": "Self explanatory."
+        "desc": "Reinsurance and Insurance Network."
     },
     "16": {
-        "name": "DUNS (Dun & Bradstreet)",
-        "desc": "Self explanatory."
+        "name": "US, D&B (Dun & Bradstreet Corporation)",
+        "desc": "Identifies the Dun & Bradstreet Corporation, United States."
     },
     "17": {
         "name": "S.W.I.F.T.",
-        "desc": "Society for Worldwide Interbank Financial Telecommunications s.c."
+        "desc": "Society for Worldwide Interbank Financial Telecommunications s.c.\n                                "
     },
     "18": {
         "name": "Conventions on SAD and transit (EC and EFTA)",
@@ -73,11 +73,11 @@
     },
     "19": {
         "name": "FRRC (Federal Reserve Routing Code)",
-        "desc": "Self explanatory."
+        "desc": "Federal Reserve Routing Code."
     },
     "20": {
         "name": "BIC (Bureau International des Containeurs)",
-        "desc": "Self explanatory."
+        "desc": "The container industry's international organisation responsible for\n                                    the issuance of container-related codes."
     },
     "21": {
         "name": "Assigned by transport company",
@@ -93,7 +93,7 @@
     },
     "24": {
         "name": "AU, ROA (Railways of Australia)",
-        "desc": "Maintains code lists which are accepted by Australian government railways."
+        "desc": "Maintains code lists which are accepted by Australian government\n                                    railways."
     },
     "25": {
         "name": "EDITEX (Europe)",
@@ -101,7 +101,7 @@
     },
     "26": {
         "name": "NL, Foundation Uniform Transport Code",
-        "desc": "Foundation Uniform Transport Code is the EDI organisation for shippers, carriers and other logistic service providers in the Netherlands."
+        "desc": "Foundation Uniform Transport Code is the EDI organisation for\n                                    shippers, carriers and other logistic service providers in the Netherlands."
     },
     "27": {
         "name": "US, FDA (Food and Drug Administration)",
@@ -109,11 +109,11 @@
     },
     "28": {
         "name": "EDITEUR (European book sector electronic data interchange group)",
-        "desc": "Code identifying the pan European user group for the book industry as an organisation responsible for code values in the book industry."
+        "desc": "Code identifying the pan European user group for the book industry as\n                                    an organisation responsible for code values in the book industry."
     },
     "29": {
         "name": "GB, FLEETNET",
-        "desc": "Association of fleet vehicle hiring and leasing companies in the UK."
+        "desc": "Association of fleet vehicle hiring and leasing companies in the UK.\n                                "
     },
     "30": {
         "name": "GB, ABTA (Association of British Travel Agencies)",
@@ -200,15 +200,15 @@
         "desc": "Portuguese Railways."
     },
     "51": {
-        "name": "SK, Slovacian State Railways",
-        "desc": "Slovacian State Railways."
+        "name": "SK, Slovakian State Railways",
+        "desc": "Slovakian State Railways."
     },
     "52": {
         "name": "IE, Irish Transport Company",
         "desc": "Irish Transport Company."
     },
     "53": {
-        "name": "FIATA (International Federation of Freight Forwarders Associations)",
+        "name": "FIATA (International Federation of Freight Forwarders Associations)\n                                ",
         "desc": "International Federation of Freight Forwarders Associations."
     },
     "54": {
@@ -221,19 +221,123 @@
     },
     "56": {
         "name": "TW, Trade-van",
-        "desc": "Trade-van is a EDI/VAN service center for customs, transport, and insurance in national and international trade."
+        "desc": "Trade-van is an EDI/VAN service centre for customs, transport, and\n                                    insurance in national and international trade."
     },
     "57": {
         "name": "TW, Chinese Taipei Customs",
-        "desc": "Customs authorities of Chinese Taipei responsible for collecting import duties and preventing smuggling."
+        "desc": "Customs authorities of Chinese Taipei responsible for collecting\n                                    import duties and preventing smuggling."
     },
     "58": {
         "name": "EUROFER",
-        "desc": "European steel organisation - EDI project for the European steel industry."
+        "desc": "European steel organisation - EDI project for the European steel\n                                    industry."
     },
     "59": {
         "name": "DE, EDIBAU",
-        "desc": "National body responsible for the German codification in the construction area."
+        "desc": "National body responsible for the German codification in the\n                                    construction area."
+    },
+    "60": {
+        "name": "Assigned by national trade agency",
+        "desc": "The code list is from a national agency."
+    },
+    "61": {
+        "name": "Association Europeenne des Constructeurs de Materiel Aerospatial\n                                    (AECMA)",
+        "desc": "A code to identify the Association Europeenne des Constructeurs de\n                                    Materiel Aeropsatial (European Association of Aerospace Products Manufacturers) as\n                                    an authorizing agency for code lists."
+    },
+    "62": {
+        "name": "US, DIstilled Spirits Council of the United States (DISCUS)",
+        "desc": "United States DIstilled Spirits Council of the United States (DISCUS).\n                                "
+    },
+    "63": {
+        "name": "North Atlantic Treaty Organization (NATO)",
+        "desc": "A code to identify the North Atlantic Treaty Organization (NATO) as an\n                                    authorizing agency for code lists."
+    },
+    "64": {
+        "name": "FR, EDIFRANCE",
+        "desc": "French association responsible for coordination and promotion of EDI\n                                    application in France."
+    },
+    "65": {
+        "name": "FR, GENCOD",
+        "desc": "French organization responsible for EDI and Barcoding application in\n                                    the retail sector."
+    },
+    "66": {
+        "name": "MY, Malaysian Customs and Excise",
+        "desc": "Malaysia Royal Customs and Excise."
+    },
+    "67": {
+        "name": "MY, Malaysia Central Bank",
+        "desc": "Malaysia Central Bank is a regulatory body set up by the government to\n                                    charge with promoting economic monetary and credit condition favourable to\n                                    commercial and industrial activity."
+    },
+    "68": {
+        "name": "IT, INDICOD/EAN Italy",
+        "desc": "Istituto Nazionale per la Diffusione della Codifica dei Prodotti\n                                    (INDICOD) is the Italian representative of the International Article Numbering\n                                    association (EAN)."
+    },
+    "69": {
+        "name": "US, National Alcohol Beverage Control Association (NABCA)",
+        "desc": "United States National Alcohol Beverage Control Association (NABCA).\n                                "
+    },
+    "70": {
+        "name": "MY, Dagang.Net",
+        "desc": "Malaysia, Dagang.Net is a national clearing house which provide\n                                    EDI/VAN service for customs, transport, retail and financial and other industries in\n                                    the national and international trade."
+    },
+    "71": {
+        "name": "US, FCC (Federal Communications Commission)",
+        "desc": "A code representing the United States Federal Communication Commission\n                                    (FCC)."
+    },
+    "72": {
+        "name": "US, MARAD (Maritime Administration)",
+        "desc": "A code representing the United States Maritime Administration (MARAD)\n                                    under the Department of Transportation (DOT)."
+    },
+    "73": {
+        "name": "US, DSAA (Defense Security Assistance Agency)",
+        "desc": "A code representing the United States Defense Security Assistance\n                                    Agency (DSAA) under the Department of Defense (DOD)."
+    },
+    "74": {
+        "name": "US, NRC (Nuclear Regulatory Commission)",
+        "desc": "A code representing the United States Nuclear Regulatory Commission\n                                    (NRC)."
+    },
+    "75": {
+        "name": "US, ODTC (Office of Defense Trade Controls)",
+        "desc": "A code representing the United States Office of Defense Trade Controls\n                                    (ODTC) under the Department of State."
+    },
+    "76": {
+        "name": "US, ATF (Bureau of Alcohol, Tobacco and Firearms)",
+        "desc": "A code representing the United States Bureau of Alcohol, Tobacco and\n                                    Firearms, Department of Treasury (ATF)."
+    },
+    "77": {
+        "name": "US, BXA (Bureau of Export Administration)",
+        "desc": "A code representing the United States Bureau of Export Administration\n                                    (BXA) under the Department of Commerce (DOC) ."
+    },
+    "78": {
+        "name": "US, FWS (Fish and Wildlife Service)",
+        "desc": "A code depicting the United States Fish and Wildlife Service (FWS).\n                                "
+    },
+    "79": {
+        "name": "US, OFAC (Office of Foreign Assets Control)",
+        "desc": "A code representing the United States Office of Foreign Assets\n                                    Controls (OFAC)."
+    },
+    "80": {
+        "name": "BRMA/RAA - LIMNET - RINET Joint Venture",
+        "desc": "Joint venture between BRMA (Brokers & Reinsurance Markets Association)\n                                    / RAA (Reinsurance Association of America) - LIMNET (London Insurance Market\n                                    Network) - RINET (Reinsurance and Insurance Network)."
+    },
+    "81": {
+        "name": "RU, (SFT) Society for Financial Telecommunications",
+        "desc": "Russian company representing the users of the Global Financial\n                                    Telecommunication Network (GFTN)."
+    },
+    "82": {
+        "name": "NO, Enhetsregisteret ved Bronnoysundregisterne",
+        "desc": "The co-ordinating register for companies and business units of\n                                    companies at the Bronnoysund register centre."
+    },
+    "83": {
+        "name": "US, National Retail Federation",
+        "desc": "The National Retail Federation is the trade association for the\n                                    general merchandise retailing industry. In addition to providing support and\n                                    education services, they also maintain and publish standard colour and size codes\n                                    for the retail industry."
+    },
+    "84": {
+        "name": "DE, BRD (Gesetzgeber der Bundesrepublik Deutschland)",
+        "desc": "German legislature."
+    },
+    "85": {
+        "name": "North America, Telecommunications Industry Forum",
+        "desc": "Trade association representing telecommunications service providers,\n                                    equipment manufacturers, suppliers to the industry and customers."
     },
     "86": {
         "name": "Assigned by party originating the message",
@@ -249,35 +353,35 @@
     },
     "89": {
         "name": "Assigned by distributor",
-        "desc": "Self explanatory."
+        "desc": "Codes assigned by a distributor."
     },
     "90": {
         "name": "Assigned by manufacturer",
-        "desc": "Self explanatory."
+        "desc": "Codes assigned by a manufacturer."
     },
     "91": {
         "name": "Assigned by seller or seller's agent",
-        "desc": "Self explanatory."
+        "desc": "Codes assigned by a seller or seller's agent."
     },
     "92": {
         "name": "Assigned by buyer or buyer's agent",
-        "desc": "Self explanatory."
+        "desc": "Codes assigned by a buyer or buyer's agent."
     },
     "93": {
         "name": "AT, Austrian Customs",
-        "desc": "Self explanatory."
+        "desc": "Austrian customs organization."
     },
     "94": {
         "name": "AT, Austrian PTT",
-        "desc": "Self explanatory."
+        "desc": "The Austrian organization responsible for assigning telephone\n                                    (voice/data) + telex numbers, postcodes, and postal account numbers."
     },
     "95": {
-        "name": "AU, Australian Customs Services",
-        "desc": "Self explanatory."
+        "name": "AU, Australian Customs Service",
+        "desc": "Australian Customs Service."
     },
     "96": {
         "name": "CA, Revenue Canada, Customs and Excise",
-        "desc": "Self explanatory."
+        "desc": "Canada Customs and Revenue Agency."
     },
     "97": {
         "name": "CH, Administration federale des contributions",
@@ -293,11 +397,11 @@
     },
     "100": {
         "name": "CH, Entreprise des PTT",
-        "desc": "Telephone (voice/data) + telex numbers, postcodes, postal account numbers."
+        "desc": "Telephone (voice/data) + telex numbers, postcodes, postal account\n                                    numbers."
     },
     "101": {
         "name": "CH, Carbura",
-        "desc": "Centrale suisse pour l'importation de carburants et combustibles liquides (Oil products)."
+        "desc": "Centrale suisse pour l'importation de carburants et combustibles\n                                    liquides (Oil products)."
     },
     "102": {
         "name": "CH, Centrale suisse pour l'importation du charbon",
@@ -325,35 +429,31 @@
     },
     "108": {
         "name": "FR, Banque de France",
-        "desc": "Self explanatory."
+        "desc": "Banque de France."
     },
     "109": {
         "name": "GB, H.M. Customs & Excise",
-        "desc": "Self explanatory."
+        "desc": "United Kingdom H.M. Customs and Excise."
     },
     "110": {
-        "name": "IE, Revenue Commissionners, Customs AEP project",
-        "desc": "Self explanatory."
+        "name": "IE, Revenue Commissioners, Customs AEP project",
+        "desc": "Ireland Revenue Commissioners Customs Automated Entry Processing\n                                    project."
     },
     "111": {
         "name": "US, U.S. Customs Service",
-        "desc": "Self explanatory."
+        "desc": "United States Customs Service."
     },
     "112": {
         "name": "US, U.S. Census Bureau",
         "desc": "The Bureau of the Census of the U.S. Dept. of Commerce."
     },
     "113": {
-        "name": "US, UPC (Uniform product code)",
-        "desc": "Self explanatory."
+        "name": "Uniform Code Council",
+        "desc": "The Uniform Code Council (UCC), an organization, who along with EAN\n                                    International manages the EAN.UCC system. The UCC also administers the EAN.UCC\n                                    System in the United States and Canada."
     },
     "114": {
         "name": "US, ABA (American Bankers Association)",
-        "desc": "Self explanatory."
-    },
-    "115": {
-        "name": "US, DODAAC (Department Of Defense Active Agency Code)",
-        "desc": "Self explanatory."
+        "desc": "United States American Bankers Association."
     },
     "116": {
         "name": "US, ANSI ASC X12",
@@ -361,7 +461,7 @@
     },
     "117": {
         "name": "AT, Geldausgabeautomaten-Service Gesellschaft m.b.H.",
-        "desc": "Description to be provided."
+        "desc": "Austrian Geldausgabeautomaten-Service Gesellschaft m.b.H."
     },
     "118": {
         "name": "SE, Svenska Bankfoereningen",
@@ -369,79 +469,83 @@
     },
     "119": {
         "name": "IT, Associazione Bancaria Italiana",
-        "desc": "Self explanatory."
+        "desc": "Italian Associazione Bancaria Italiana."
     },
     "120": {
         "name": "IT, Socieata' Interbancaria per l'Automazione",
-        "desc": "Self explanatory."
+        "desc": "Italian Socieata' Interbancaria per l'Automazione."
     },
     "121": {
         "name": "CH, Telekurs AG",
-        "desc": "Self explanatory."
+        "desc": "Swiss Telekurs AG."
     },
     "122": {
         "name": "CH, Swiss Securities Clearing Corporation",
-        "desc": "Self explanatory."
+        "desc": "Swiss Securities Clearing Corporation."
     },
     "123": {
         "name": "NO, Norwegian Interbank Research Organization",
-        "desc": "Self explanatory."
+        "desc": "Norwegian Interbank Research Organization."
     },
     "124": {
-        "name": "NO, Norwegian Bankers Ass.",
-        "desc": "Self explanatory."
+        "name": "NO, Norwegian Bankers' Association",
+        "desc": "Norwegian Bankers' Association."
     },
     "125": {
         "name": "FI, The Finnish Bankers' Association",
-        "desc": "Self explanatory."
+        "desc": "Finnish Bankers' Association."
     },
     "126": {
         "name": "US, NCCMA (Account Analysis Codes)",
-        "desc": "Self explanatory."
+        "desc": "The United States organization responsible for issuing account\n                                    analysis codes."
+    },
+    "127": {
+        "name": "DE, ARE (AbRechnungs Einheit)",
+        "desc": "A German code for subsidiary unit number."
     },
     "128": {
         "name": "BE, Belgian Bankers' Association",
-        "desc": "Self explanatory."
+        "desc": "Belgian Bankers' Association."
     },
     "129": {
         "name": "BE, Belgian Ministry of Finance",
         "desc": "VAT numbers."
     },
     "130": {
-        "name": "DK, PBS (Pengainstitutternes Betalings Service)",
-        "desc": "Self explanatory."
+        "name": "DK, Danish Bankers Association",
+        "desc": "Code identifying the organisation responsible for the issuance of bank\n                                    related codes in Denmark."
     },
     "131": {
         "name": "DE, German Bankers Association",
-        "desc": "Self explanatory."
+        "desc": "German Bankers' Association."
     },
     "132": {
         "name": "GB, BACS Limited",
-        "desc": "Self explanatory."
+        "desc": "An organization that operates the United Kingdom's electronic fund\n                                    transfer service on behalf of the major Banks and Building Societies."
     },
     "133": {
         "name": "GB, Association for Payment Clearing Services",
-        "desc": "Self explanatory."
+        "desc": "British Association for Payment Clearing Services."
     },
     "134": {
-        "name": "GB, CHAPS and Town Clearing Company Ltd.",
-        "desc": "Self explanatory."
+        "name": "GB, APACS (Association of payment clearing services)",
+        "desc": "The association which manages the United Kingdom payment clearing\n                                    system, and among other thing manages the UK bank sort code numbering system."
     },
     "135": {
         "name": "GB, The Clearing House",
-        "desc": "Self explanatory."
+        "desc": "British financial transaction clearing house."
     },
     "136": {
         "name": "GB, Article Number Association (UK) Limited",
-        "desc": "EAN barcoding."
+        "desc": "EAN bar-coding."
     },
     "137": {
         "name": "AT, Verband oesterreichischer Banken und Bankiers",
         "desc": "Austrian bankers association."
     },
     "138": {
-        "name": "FR, CFONB (Comite francais d'organ. et de normalisation bancaires)",
-        "desc": "National body responsible for the french codification in banking activity."
+        "name": "FR, CFONB (Comite francais d'organ. et de normalisation bancaires)\n                                ",
+        "desc": "National body responsible for the French codification in banking\n                                    activity."
     },
     "139": {
         "name": "UPU (Universal Postal Union)",
@@ -453,87 +557,87 @@
     },
     "141": {
         "name": "CEC (Commission of the European Communities), DG/XXI-B-1",
-        "desc": "Description to be provided."
+        "desc": "International Commission of the European Communities."
     },
     "142": {
         "name": "CEC (Commission of the European Communities), DG/XXXIV",
-        "desc": "Statistical Office of the European Communities: e.g. Geonomenclature."
+        "desc": "Statistical Office of the European Communities: e.g. Geonomenclature.\n                                "
     },
     "143": {
         "name": "NZ, New Zealand Customs",
-        "desc": "Self explanatory."
+        "desc": "New Zealand Customs."
     },
     "144": {
         "name": "NL, Netherlands Customs",
-        "desc": "Self explanatory."
+        "desc": "Netherlands Customs."
     },
     "145": {
         "name": "SE, Swedish Customs",
-        "desc": "Self explanatory."
+        "desc": "Swedish Customs."
     },
     "146": {
         "name": "DE, German Customs",
-        "desc": "Self explanatory."
+        "desc": "German Customs."
     },
     "147": {
         "name": "BE, Belgian Customs",
-        "desc": "Self explanatory."
+        "desc": "Belgian Customs."
     },
     "148": {
         "name": "ES, Spanish Customs",
-        "desc": "Self explanatory."
+        "desc": "Spanish Customs."
     },
     "149": {
         "name": "IL, Israel Customs",
-        "desc": "Self explanatory."
+        "desc": "Israeli Customs."
     },
     "150": {
         "name": "HK, Hong Kong Customs",
-        "desc": "Self explanatory."
+        "desc": "Hong Kong Customs."
     },
     "151": {
         "name": "JP, Japan Customs",
-        "desc": "Self explanatory."
+        "desc": "Japan Customs."
     },
     "152": {
         "name": "SA, Saudi Arabia Customs",
-        "desc": "Self explanatory."
+        "desc": "Saudi Arabia Customs."
     },
     "153": {
         "name": "IT, Italian Customs",
-        "desc": "Self explanatory."
+        "desc": "Italian Customs."
     },
     "154": {
         "name": "GR, Greek Customs",
-        "desc": "Self explanatory."
+        "desc": "Greek Customs."
     },
     "155": {
         "name": "PT, Portuguese Customs",
-        "desc": "Self explanatory."
+        "desc": "Portuguese Customs."
     },
     "156": {
         "name": "LU, Luxembourg Customs",
-        "desc": "Self explanatory."
+        "desc": "Luxembourg Customs."
     },
     "157": {
         "name": "NO, Norwegian Customs",
-        "desc": "Self explanatory."
+        "desc": "Norwegian Customs."
     },
     "158": {
         "name": "FI, Finnish Customs",
-        "desc": "Self explanatory."
+        "desc": "Finnish Customs."
     },
     "159": {
         "name": "IS, Iceland Customs",
-        "desc": "Self explanatory."
+        "desc": "Iceland Customs."
     },
     "160": {
         "name": "LI, Liechtenstein authority",
-        "desc": "(Identification of relevant responsible agency for e.g. banking/financial matters still pending. For e.g. Customs, currency, post/telephone: see relevant CH entry)."
+        "desc": "(Identification of relevant responsible agency for e.g.\n                                    banking/financial matters still pending. For e.g. Customs, currency, post/telephone:\n                                    see relevant CH entry)."
     },
     "161": {
         "name": "UNCTAD (United Nations - Conference on Trade And Development)",
-        "desc": "Self explanatory."
+        "desc": "United Nations - Conference on Trade And Development."
     },
     "162": {
         "name": "CEC (Commission of the European Communities), DG/XIII-D-5",
@@ -541,47 +645,47 @@
     },
     "163": {
         "name": "US, FMC (Federal Maritime Commission)",
-        "desc": "Self explanatory."
+        "desc": "United States Federal Maritime Commission."
     },
     "164": {
         "name": "US, DEA (Drug Enforcement Agency)",
-        "desc": "Self explanatory."
+        "desc": "United States Drug Enforcement Agency."
     },
     "165": {
         "name": "US, DCI (Distribution Codes, INC.)",
-        "desc": "Self explanatory."
+        "desc": "United States Distribution Codes, Inc. organization."
     },
     "166": {
         "name": "US, National Motor Freight Classification Association",
-        "desc": "Self explanatory."
+        "desc": "The organisation in the USA which is responsible for code maintenance\n                                    in the trucking industry."
     },
     "167": {
         "name": "US, AIAG (Automotive Industry Action Group)",
-        "desc": "Self explanatory."
+        "desc": "United States Automotive Industry Action Group."
     },
     "168": {
         "name": "US, FIPS (Federal Information Publishing Standard)",
-        "desc": "Self explanatory."
+        "desc": "A code issued by the United States National Institute for Science and\n                                    Technology (NIST) to identify a Federal Information Publishing Standard."
     },
     "169": {
         "name": "CA, SCC (Standards Council of Canada)",
-        "desc": "Self explanatory."
+        "desc": "Standards Council of Canada."
     },
     "170": {
         "name": "CA, CPA (Canadian Payment Association)",
-        "desc": "Self explanatory."
+        "desc": "Canadian Payment Association."
     },
     "171": {
-        "name": "NL, Bank Girocentrale BV",
-        "desc": "Self explanatory."
+        "name": "NL, Interpay Girale Services",
+        "desc": "Interpay Girale Services."
     },
     "172": {
-        "name": "NL, BEANET BV",
-        "desc": "Self explanatory."
+        "name": "NL, Interpay Debit Card Services",
+        "desc": "Interpay Debit Card Services."
     },
     "173": {
         "name": "NO, NORPRO",
-        "desc": "Self explanatory."
+        "desc": "Norwegian electronic data interchange standards organization."
     },
     "174": {
         "name": "DE, DIN (Deutsches Institut fuer Normung)",
@@ -589,11 +693,11 @@
     },
     "175": {
         "name": "FCI (Factors Chain International)",
-        "desc": "Self explanatory."
+        "desc": "Factors Chain International."
     },
     "176": {
         "name": "BR, Banco Central do Brazil",
-        "desc": "Self-explanatory."
+        "desc": "Brazilian central bank."
     },
     "177": {
         "name": "AU, LIFA (Life Insurance Federation of Australia)",
@@ -605,7 +709,11 @@
     },
     "179": {
         "name": "US, Air transport association of America",
-        "desc": "U.S. -based trade association representing the major North American scheduled airlines."
+        "desc": "U.S. -based trade association representing the major North American\n                                    scheduled airlines."
+    },
+    "180": {
+        "name": "DE, BIA (Berufsgenossenschaftliches Institut fuer Arbeitssicherheit)\n                                ",
+        "desc": "German institute of the workmen's compensation board."
     },
     "181": {
         "name": "Edibuild",
@@ -613,18 +721,506 @@
     },
     "182": {
         "name": "US, Standard Carrier Alpha Code (Motor)",
-        "desc": "Organisation maintaining the SCAC lists and transportation operating in North America."
+        "desc": "Organisation maintaining the SCAC lists and transportation operating\n                                    in North America."
     },
     "183": {
         "name": "US, American Petroleum Institute",
-        "desc": "US-based trade association representing oil and natural gas producers, shippers, refineries, marketers, and major suppliers to the industry."
+        "desc": "US-based trade association representing oil and natural gas producers,\n                                    shippers, refineries, marketers, and major suppliers to the industry."
     },
     "184": {
         "name": "AU, ACOS (Australian Chamber of Shipping)",
-        "desc": "Self explanatory."
+        "desc": "The national organisation for the maritime industry in Australia.\n                                "
+    },
+    "185": {
+        "name": "DE, BDI (Bundesverband der Deutschen Industrie e.V.)",
+        "desc": "German industry association."
+    },
+    "186": {
+        "name": "US, GSA (General Services Administration)",
+        "desc": "The US General Services Administration."
+    },
+    "187": {
+        "name": "US, DLMSO (Defense Logistics Management Standards Office)",
+        "desc": "The Defense Logistics Management Standards Office."
+    },
+    "188": {
+        "name": "US, NIST (National Institute of Standards and Technology)",
+        "desc": "The US National Institute of Standards and Technology."
+    },
+    "189": {
+        "name": "US, DoD (Department of Defense)",
+        "desc": "The US Department of Defense."
+    },
+    "190": {
+        "name": "US, VA (Department of Veterans Affairs)",
+        "desc": "The Department of Veterans Affairs."
+    },
+    "191": {
+        "name": "IAPSO (United Nations Inter-Agency Procurement Services Office)",
+        "desc": "United Nations organization responsible for maintaining the United\n                                    Nations Common Coding System (UNCCS) which is used extensively by UN agencies in\n                                    procurement and statistical analysis."
+    },
+    "192": {
+        "name": "Shipper's association",
+        "desc": "Code assigned by a shipper's association."
+    },
+    "193": {
+        "name": "EU, European Telecommunications Informatics Services (ETIS)",
+        "desc": "European Telecommunications Informatics Services is a non-profit\n                                    cooperative organisation owned by European public network operators, working in the\n                                    field of information technology."
+    },
+    "194": {
+        "name": "AU, AQIS (Australian Quarantine and Inspection Service)",
+        "desc": "Australian Quarantine and Inspection Service."
+    },
+    "195": {
+        "name": "CO, DIAN (Direccion de Impuestos y Aduanas Nacionales)",
+        "desc": "The Colombian customs organization."
+    },
+    "196": {
+        "name": "US, COPAS (Council of Petroleum Accounting Society)",
+        "desc": "Organization supplying codes of oil field equipment and tubular goods\n                                    used by joint operators in the petroleum industry."
+    },
+    "197": {
+        "name": "US, DISA (Data Interchange Standards Association)",
+        "desc": "The organization maintaining code lists under the administration of\n                                    the data interchange standards association."
+    },
+    "198": {
+        "name": "CO, Superintendencia Bancaria De Colombia",
+        "desc": "The organization which assigns identification numbers to financial\n                                    institutions conducting business in Colombia."
+    },
+    "199": {
+        "name": "FR, Direction de la Comptabilite Publique",
+        "desc": "The French public accounting office."
+    },
+    "200": {
+        "name": "NL, EAN Netherlands",
+        "desc": "Netherlands based European Article Numbering association (EAN)."
+    },
+    "201": {
+        "name": "US, WSSA(Wine and Spirits Shippers Association)",
+        "desc": "United States based Wine and Spirits Shippers association."
+    },
+    "202": {
+        "name": "PT, Banco de Portugal",
+        "desc": "Portuguese Central Bank."
+    },
+    "203": {
+        "name": "FR, GALIA (Groupement pour l'Amelioration des Liaisons dans\n                                    l'Industrie Automobile)",
+        "desc": "The national organisation representing France in ODETTE (Organisation\n                                    for Data Exchanges through Tele- Transmission in Europe)."
+    },
+    "204": {
+        "name": "DE, VDA (Verband der Automobilindustrie E.V.)",
+        "desc": "The national organisation representing Germany in ODETTE (Organisation\n                                    for Data Exchange through Tele- Transmission in Europe)."
+    },
+    "205": {
+        "name": "IT, ODETTE Italy",
+        "desc": "The national organisation representing Italy in ODETTE (Organisation\n                                    for Data Exchange through Tele- Transmission in Europe)."
+    },
+    "206": {
+        "name": "NL, ODETTE Netherlands",
+        "desc": "The national organisation representing Netherlands in ODETTE\n                                    (Organisation for Data Exchange through Tele- Transmission in Europe)."
+    },
+    "207": {
+        "name": "ES, ODETTE Spain",
+        "desc": "The national organisation representing Spain in ODETTE (Organisation\n                                    for Data Exchange through Tele- Transmission in Europe)."
+    },
+    "208": {
+        "name": "SE, ODETTE Sweden",
+        "desc": "The national organisation representing Scandinavian countries in\n                                    ODETTE (Organisation for Data Exchange through Tele-Transmission in Europe)."
+    },
+    "209": {
+        "name": "GB, ODETTE United Kingdom",
+        "desc": "The national organisation representing UK in ODETTE (Organisation for\n                                    Data Exchange through Tele- Transmission in Europe)."
+    },
+    "210": {
+        "name": "EU, EDI for financial, informational, cost, accounting, auditing and\n                                    social areas (EDIFICAS) - Europe",
+        "desc": "European association dealing with accounting and auditing."
+    },
+    "211": {
+        "name": "FR, EDI for financial, informational, cost, accounting, auditing and\n                                    social areas (EDIFICAS) - France",
+        "desc": "French association dealing with accounting and auditing."
+    },
+    "212": {
+        "name": "DE, Deutsch Telekom AG",
+        "desc": "German telecommunication services agency."
+    },
+    "213": {
+        "name": "JP, NACCS Center (Nippon Automated Cargo Clearance System Operations\n                                    Organization)",
+        "desc": "NACCS (Nippon Automated Cargo Clearance System Operation Organization)\n                                    Center is the operations organization of the automated cargo clearance system in\n                                    Japan."
+    },
+    "214": {
+        "name": "US, AISI (American Iron and Steel Institute)",
+        "desc": "American iron and steel institute."
+    },
+    "215": {
+        "name": "AU, APCA (Australian Payments Clearing Association)",
+        "desc": "Australian association responsible for the management of payment\n                                    clearing."
+    },
+    "216": {
+        "name": "US, Department of Labor",
+        "desc": "To identify the United States department of labour."
+    },
+    "217": {
+        "name": "US, N.A.I.C. (National Association of Insurance Commissioners)",
+        "desc": "To identify the United States, National Association of Insurance\n                                    Commissioners."
+    },
+    "218": {
+        "name": "GB, The Association of British Insurers",
+        "desc": "An association that administers code lists on behalf of the UK\n                                    insurance community."
+    },
+    "219": {
+        "name": "FR, d'ArvA",
+        "desc": "Value added network administering insurance code lists on behalf of\n                                    the French insurance community."
+    },
+    "220": {
+        "name": "FI, Finnish tax board",
+        "desc": "Finnish tax board."
+    },
+    "221": {
+        "name": "FR, CNAMTS (Caisse Nationale de l'Assurance Maladie des Travailleurs\n                                    Salaries)",
+        "desc": "The French public institution funding health-care for salaried\n                                    workers."
+    },
+    "222": {
+        "name": "DK, Danish National Board of Health",
+        "desc": "The national authority responsible for the supervision of health\n                                    activities in Denmark."
+    },
+    "223": {
+        "name": "DK, Danish Ministry of Home Affairs",
+        "desc": "The ministry responsible for all interior affairs concerning the\n                                    Danish people."
+    },
+    "224": {
+        "name": "US, Aluminum Association",
+        "desc": "Organization that assigns identification numbers for the aluminum\n                                    industry."
+    },
+    "225": {
+        "name": "US, CIDX (Chemical Industry Data Exchange)",
+        "desc": "Organization that assigns identification numbers for the chemical\n                                    Industry."
+    },
+    "226": {
+        "name": "US, Carbide Manufacturers",
+        "desc": "Organization that assigns identification numbers for the iron and\n                                    carbide manufacturing industry."
+    },
+    "227": {
+        "name": "US, NWDA (National Wholesale Druggist Association)",
+        "desc": "Organization that assigns identification numbers for the wholesale\n                                    drug industry."
+    },
+    "228": {
+        "name": "US, EIA (Electronic Industry Association)",
+        "desc": "Organization that assigns identification numbers for the electronic\n                                    industry."
+    },
+    "229": {
+        "name": "US, American Paper Institute",
+        "desc": "Organization that assigns identification numbers for the American\n                                    paper industry."
+    },
+    "230": {
+        "name": "US, VICS (Voluntary Inter-Industry Commerce Standards)",
+        "desc": "Organization that assigns identification numbers for the retail\n                                    industry."
+    },
+    "231": {
+        "name": "Copper and Brass Fabricators Council",
+        "desc": "Organization that assigns identification numbers for the copper and\n                                    brass fabricators industry."
+    },
+    "232": {
+        "name": "GB, Inland Revenue",
+        "desc": "Code identifying the government department responsible for assessing\n                                    and collecting revenue consisting of taxes and inland duties in Great Britain."
+    },
+    "233": {
+        "name": "US, OMB (Office of Management and Budget)",
+        "desc": "Codes are assigned by the United States Office of Management and\n                                    Budget."
+    },
+    "234": {
+        "name": "DE, Siemens AG",
+        "desc": "Siemens AG, Germany."
+    },
+    "235": {
+        "name": "AU, Tradegate (Electronic Commerce Australia)",
+        "desc": "Australian industry body coordinating codes for use in local and\n                                    international commerce and trade."
+    },
+    "236": {
+        "name": "US, United States Postal Service (USPS)",
+        "desc": "Code specifying the official postal service of the United States.\n                                "
+    },
+    "237": {
+        "name": "US, United States health industry",
+        "desc": "Code assigned by the United States health industry."
+    },
+    "238": {
+        "name": "US, TDCC (Transportation Data Coordinating Committee)",
+        "desc": "United States Transportation Data Coordinating Committee."
+    },
+    "239": {
+        "name": "US, HL7 (Health Level 7)",
+        "desc": "United States, electronic data interchange standards- making\n                                    organization, Health Level 7."
+    },
+    "240": {
+        "name": "US, CHIPS (Clearing House Interbank Payment Systems)",
+        "desc": "United States financial clearing house."
+    },
+    "241": {
+        "name": "PT, SIBS (Sociedade Interbancaria de Servicos)",
+        "desc": "Portuguese automated clearing house."
+    },
+    "242": {
+        "name": "NL, Interpay Giraal",
+        "desc": "Interpay Giraal."
+    },
+    "243": {
+        "name": "NL, Interpay Cards",
+        "desc": "Interpay Cards."
+    },
+    "244": {
+        "name": "US, Department of Health and Human Services",
+        "desc": "United States Department of Health and Human Services."
+    },
+    "245": {
+        "name": "DK, EAN (European Article Numbering) Denmark",
+        "desc": "Denmark based European Article Numbering (EAN) association."
+    },
+    "246": {
+        "name": "DE, Centrale fuer Coorganisation GMBH",
+        "desc": "German representation of European Article Numbering (EAN)\n                                    International."
+    },
+    "247": {
+        "name": "US, HBICC (Health Industry Business Communication Council)",
+        "desc": "Code identifying the United States HIBCC (Health Industry Business\n                                    Communication Council)."
+    },
+    "248": {
+        "name": "US, ASTM (American Society of Testing and Materials)",
+        "desc": "A not-for-profit organization that provides a forum for producers,\n                                    users, ultimate consumers, and those having a general interest (representatives of\n                                    government and academia) to meet on common ground and write standards for materials,\n                                    products, systems, and services."
+    },
+    "249": {
+        "name": "IP (Institute of Petroleum)",
+        "desc": "An independent European centre for the advancement and dissemination\n                                    of technical, economic and professional knowledge relating to the international oil\n                                    and gas industry."
+    },
+    "250": {
+        "name": "US, UOP (Universal Oil Products)",
+        "desc": "An United States based organization that provides products, services\n                                    and technology primarily in the areas of petroleum refining, olefins, aromatics, and\n                                    gas processing."
+    },
+    "251": {
+        "name": "AU, HIC (Health Insurance Commission)",
+        "desc": "Australian agency responsible for administering the Health Insurance\n                                    Act."
+    },
+    "252": {
+        "name": "AU, AIHW (Australian Institute of Health and Welfare)",
+        "desc": "Australian statutory authority responsible for the national collection\n                                    of health related statistics and health related data definitions."
+    },
+    "253": {
+        "name": "AU, NCCH (National Centre for Classification in Health)",
+        "desc": "Australian national authority responsible for healthcare\n                                    classifications."
+    },
+    "254": {
+        "name": "AU, DOH (Australian Department of Health)",
+        "desc": "Australian government department responsible for administration of\n                                    health policy."
+    },
+    "255": {
+        "name": "AU, ADA (Australian Dental Association)",
+        "desc": "Industry association responsible for the classification of dental\n                                    services in Australia."
+    },
+    "256": {
+        "name": "US, AAR (Association of American Railroads)",
+        "desc": "The official United States organization of the railroads in North\n                                    America."
+    },
+    "257": {
+        "name": "ECCMA (Electronic Commerce Code Management Association)",
+        "desc": "The Electronic Commerce Code Management Association, a not for profit\n                                    membership organization, which manages codes used in electronic commerce."
+    },
+    "258": {
+        "name": "JP, Japanese Ministry of Transport",
+        "desc": "Japanese Ministry of Transport."
+    },
+    "259": {
+        "name": "JP, Japanese Maritime Safety Agency",
+        "desc": "Japanese Maritime Safety Agency."
+    },
+    "260": {
+        "name": "Ediel Nordic forum",
+        "desc": "A code to identify Ediel Nordic forum, which is an organization\n                                    standardizing the use of EDI between the participants in the Nordic power market.\n                                "
+    },
+    "261": {
+        "name": "EEG7, European Expert Group 7 (Insurance)",
+        "desc": "European Expert Group 7 for Insurance."
+    },
+    "262": {
+        "name": "DE, GDV (Gesamtverband der Deutschen Versicherungswirtschaft e.V.)\n                                ",
+        "desc": "Gesamtverband der Deutschen Versicherungswirtschaft e.V. (German\n                                    Insurance Association)."
+    },
+    "263": {
+        "name": "CA, CSIO (Centre for Study of Insurance Operations)",
+        "desc": "The Centre for Study of Insurance Operations (CSIO) in Canada."
+    },
+    "264": {
+        "name": "FR, AGF (Assurances Generales de France)",
+        "desc": "Code lists are administered by Assurances Generales de France (AGF).\n                                "
+    },
+    "265": {
+        "name": "SE, Central bank",
+        "desc": "Swedish central bank."
+    },
+    "266": {
+        "name": "US, DoA (Department of Agriculture)",
+        "desc": "Department of Agriculture, United States federal agency."
+    },
+    "267": {
+        "name": "RU, Central Bank of Russia",
+        "desc": "Central bank of Russia."
+    },
+    "268": {
+        "name": "FR, DGI (Direction Generale des Impots)",
+        "desc": "French taxation authority."
+    },
+    "269": {
+        "name": "GRE (Reference Group of Experts)",
+        "desc": "An international association that administers code lists on behalf of\n                                    business credit information users and providers."
+    },
+    "270": {
+        "name": "Concord EDI group",
+        "desc": "An organisation of international transport equipment leasing companies\n                                    and transport equipment repair providers responsible for promoting the use of EDI\n                                    standards and standard business terms."
+    },
+    "271": {
+        "name": "InterContainer InterFrigo",
+        "desc": "European railway associated organisation involved in the transport of\n                                    containers by rail."
+    },
+    "272": {
+        "name": "Joint Automotive Industry agency",
+        "desc": "The Joint Automotive Industry (JAI) agency is in charge of code lists\n                                    that are common to automotive industry groups."
+    },
+    "273": {
+        "name": "CH, SCC (Swiss Chambers of Commerce)",
+        "desc": "Swiss Chambers of Commerce."
+    },
+    "274": {
+        "name": "ITIGG (International Transport Implementation Guidelines Group)",
+        "desc": "ITIGG is the UN/EDIFACT transport message development group's\n                                    organisation responsible for the issuance of globally harmonised transport-related\n                                    codes."
+    },
+    "275": {
+        "name": "ES, Banco de Espa\u00c3\u00b1a",
+        "desc": "The Spanish central bank."
+    },
+    "276": {
+        "name": "Assigned by Port Community",
+        "desc": "Codes assigned by the Port Community."
+    },
+    "277": {
+        "name": "BIGNet (Business Information Group Network)",
+        "desc": "Identifies the Business Information Group Network, an international\n                                    trade alliance that administers code lists on behalf of business information users\n                                    and providers."
+    },
+    "278": {
+        "name": "Eurogate",
+        "desc": "An international trade alliance that administers code lists on behalf\n                                    of business information users and providers."
+    },
+    "279": {
+        "name": "NL, Graydon",
+        "desc": "Identifies the Graydon Corporation in the Netherlands."
+    },
+    "280": {
+        "name": "FR, Euler",
+        "desc": "A company in France responsible for assigning codes in the credit\n                                    insurance industry."
+    },
+    "281": {
+        "name": "ICODIF/EAN Belgium-Luxembourg",
+        "desc": "ICODIF stands for 'Institut de Codification des Distributeurs et des\n                                    Fabricants/Instituut voor de Kodering van de Distributeurs en de Fabrikanten' and is\n                                    the Belgium and Luxembourg representative of the International Article Numbering\n                                    association (EAN)."
+    },
+    "282": {
+        "name": "DE, Creditreform International e.V.",
+        "desc": "Identifies the Creditreform International e.V. in Germany (e.V.:\n                                    eingetragener Verein)."
+    },
+    "283": {
+        "name": "DE, Hermes Kreditversicherungs AG",
+        "desc": "Identifies the Hermes Kreditversicherungs AG in Germany (AG:\n                                    Aktiengesellschaft)."
+    },
+    "284": {
+        "name": "TW, Taiwanese Bankers' Association",
+        "desc": "Code identifying the organization responsible for the issuance of bank\n                                    related codes in Taiwan."
+    },
+    "285": {
+        "name": "ES, Asociaci\u00c3\u00b3n Espa\u00c3\u00b1ola de Banca",
+        "desc": "Code identifying the organization responsible for the issuance of bank\n                                    related codes in Spain."
+    },
+    "286": {
+        "name": "SE, TCO (Tj\u00c3\u00a4nstem\u00c3\u00a4nnes Central Organisation)",
+        "desc": "The Swedish Confederation of Professional Employees."
+    },
+    "287": {
+        "name": "DE, FORTRAS (Forschungs- und Entwicklungsgesellschaft f\u00c3\u00bcr\n                                    Transportwesen GMBH)",
+        "desc": "German research and development institute for transport matters."
+    },
+    "288": {
+        "name": "OSJD (Organizacija Sotrudnichestva Zeleznih Dorog)",
+        "desc": "Code identifying OSJD, Organisation for Co-operation of Railways.\n                                "
+    },
+    "289": {
+        "name": "JP,JIPDEC/ECPC (Japan Information Processing Development Center /\n                                    Electronic Commerce Promotion Center)",
+        "desc": "JIPDEC/ECPC is a nonprofit foundation for promoting electronic\n                                    commerce, and is the registration agency of the standard company code in Japan.\n                                "
+    },
+    "290": {
+        "name": "JP, JAMA",
+        "desc": "Japan Automobile Manufacturers Association, Inc."
+    },
+    "291": {
+        "name": "JP, JAPIA",
+        "desc": "Japan Auto Parts Industries Association."
+    },
+    "292": {
+        "name": "FI, TIEKE The Information Technology Development Centre of Finland\n                                ",
+        "desc": "The national organization representing Finland in electronic data\n                                    interchange for trade and industry."
+    },
+    "293": {
+        "name": "DE, VDEW (Verband der Elektrizitatswirtschaft)",
+        "desc": "The German Electricity Association (VDEW) is the trade association of\n                                    the electricity supply industry in the Federal Republic of Germany."
+    },
+    "294": {
+        "name": "AT, EAN Austria",
+        "desc": "Austrian representative of the International Article Numbering\n                                    Association (EAN)."
+    },
+    "295": {
+        "name": "AU, Australian Therapeutic Goods Administration",
+        "desc": "Austrialian administration responsible for the regulation of\n                                    therapeutic goods in Australia."
+    },
+    "296": {
+        "name": "ITU (International Telecommunication Union)",
+        "desc": "International Telecommunication Union."
+    },
+    "297": {
+        "name": "IT, Ufficio IVA",
+        "desc": "Ufficio responsabile gestione partite IVA is the Italian Institute\n                                    issuing VAT registration numbers."
+    },
+    "298": {
+        "name": "ES, AECOC/EAN Spain",
+        "desc": "AECOC (Asociacion Espanola de Codificacion Comercial) is the Spanish\n                                    representative of the International Article Numbering Association (EAN)."
+    },
+    "299": {
+        "name": "BE, Seagha",
+        "desc": "Organisation responsible for assigning maritime related identification\n                                    numbers in Belgian ports."
+    },
+    "300": {
+        "name": "SE, Swedish International Freight Association",
+        "desc": "Swedish International Freight Association (SIFA)."
+    },
+    "301": {
+        "name": "DE, BauDatenbank GmbH",
+        "desc": "The organisation responsible for issuing and maintaining commodity\n                                    codes for use in the German construction industry."
+    },
+    "302": {
+        "name": "DE, Bundesverband des Deutschen Textileinzelhandels e.V.",
+        "desc": "The organisation responsible for issuing and maintaining commodity\n                                    codes for use in the German textile industry."
+    },
+    "303": {
+        "name": "GB, Trade Service Information Ltd (TSI)",
+        "desc": "A United Kingdom authority responsible for the allocation of\n                                    identification codes to products in the building sector."
+    },
+    "304": {
+        "name": "DE, Bundesverband Deutscher Heimwerker-, Bau- und Gartenfachmaerkte\n                                    e.V.",
+        "desc": "The organisation responsible for issuing and maintaining commodity\n                                    codes for use in German stores for do-it- yourself, construction and garden\n                                    articles."
+    },
+    "305": {
+        "name": "ETSO (European Transmission System Operator)",
+        "desc": "The European organisation representing the electrical industry\n                                    transmission system operators."
+    },
+    "306": {
+        "name": "SMDG (Ship-planning Message Design Group)",
+        "desc": "User Group for Shipping Lines and Container Terminals."
     },
     "ZZZ": {
         "name": "Mutually defined",
-        "desc": "Self explanatory."
+        "desc": "A code assigned within a code list to be used on an interim basis and\n                                    as defined among trading partners until a precise code can be assigned to the code\n                                    list."
     }
 }

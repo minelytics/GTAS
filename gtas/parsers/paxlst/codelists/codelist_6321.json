@@ -1,31 +1,35 @@
 {
     "3": {
         "name": "Approximately",
-        "desc": "Self explanatory."
+        "desc": "The measurement is approximately equal to that specified."
     },
     "4": {
         "name": "Equal to",
-        "desc": "Self explanatory."
+        "desc": "The measurement is equal to that specified."
     },
     "5": {
         "name": "Greater than or equal to",
-        "desc": "Self explanatory."
+        "desc": "The measurement is greater than or equal to that specified."
     },
     "6": {
         "name": "Greater than",
-        "desc": "Self explanatory."
+        "desc": "The measurement is greater than that specified."
     },
     "7": {
         "name": "Less than",
-        "desc": "Self explanatory."
+        "desc": "The measurement is less than that specified."
     },
     "8": {
         "name": "Less than or equal to",
-        "desc": "Self explanatory."
+        "desc": "The measurement is less than or equal to that specified."
+    },
+    "9": {
+        "name": "Average value",
+        "desc": "Average value for a specific series of readings."
     },
     "10": {
         "name": "Not equal to",
-        "desc": "Self explanatory."
+        "desc": "The measurement is not equal to that specified."
     },
     "11": {
         "name": "Trace",
@@ -33,14 +37,18 @@
     },
     "12": {
         "name": "True value",
-        "desc": "Description to be provided."
+        "desc": "The measurement reported is a true value."
     },
     "13": {
         "name": "Observed value",
-        "desc": "Description to be provided."
+        "desc": "The measurement reported is an observed value."
+    },
+    "14": {
+        "name": "Marked",
+        "desc": "The measurement marked on the object."
     },
     "15": {
         "name": "Out of range",
-        "desc": "Self explanatory."
+        "desc": "The measurement reported is out of range."
     }
 }

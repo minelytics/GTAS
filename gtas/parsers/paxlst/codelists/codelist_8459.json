@@ -5,18 +5,18 @@
     },
     "B": {
         "name": "Material release issuer",
-        "desc": "Self explanatory."
+        "desc": "The responsibility for excess transportation is with the material\n                                    release issuer."
     },
     "S": {
         "name": "Supplier authority",
-        "desc": "Self explanatory."
+        "desc": "The responsibility for excess transportation is with the supplier\n                                    authority."
     },
     "X": {
         "name": "Responsibility to be determined",
-        "desc": "Self explanatory."
+        "desc": "The responsibility for the excess transportation is to be determined.\n                                "
     },
     "ZZZ": {
         "name": "Mutually defined",
-        "desc": "Self explanatory."
+        "desc": "A code assigned within a code list to be used on an interim basis and\n                                    as defined among trading partners until a precise code can be assigned to the code\n                                    list."
     }
 }

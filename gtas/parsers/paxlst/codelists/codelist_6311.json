@@ -1,11 +1,11 @@
 {
     "AAA": {
         "name": "Line item measurement",
-        "desc": "Line item measurement specified by the Food and Drug Administration."
+        "desc": "Line item measurement specified by the Food and Drug Administration.\n                                "
     },
     "AAB": {
-        "name": "Retail container dimension",
-        "desc": "Single physical dimension of a retail container."
+        "name": "Transport conditions for delivery to distribution centre",
+        "desc": "Specified measurements refer to transport conditions for delivery to a\n                                    distribution centre."
     },
     "AAC": {
         "name": "Retail container size",
@@ -13,7 +13,7 @@
     },
     "AAD": {
         "name": "Other US Government agency application",
-        "desc": "Description to be provided."
+        "desc": "Measurement to be used by/for other United States government agencies.\n                                "
     },
     "AAE": {
         "name": "Measurement",
@@ -21,15 +21,15 @@
     },
     "AAF": {
         "name": "Customs line item measurement",
-        "desc": "Self explanatory."
+        "desc": "The measurement of a consignment or part for customs purpose."
     },
     "AAG": {
-        "name": "Percentage of alcohol (by volume)",
-        "desc": "Self explanatory."
+        "name": "Alcohol content",
+        "desc": "The measurement of the alcohol content."
     },
     "AAH": {
         "name": "Dimensions total weight",
-        "desc": "Description to be provided."
+        "desc": "The total weight of an identified dimension."
     },
     "AAI": {
         "name": "Item weight",
@@ -81,7 +81,7 @@
     },
     "AAU": {
         "name": "Package",
-        "desc": "Commodity/product shipped or sold in discrete individual containers which may be accumulated in a larger package."
+        "desc": "Commodity/product shipped or sold in discrete individual containers\n                                    which may be accumulated in a larger package."
     },
     "AAV": {
         "name": "Person",
@@ -93,7 +93,7 @@
     },
     "AAX": {
         "name": "Consignment measurement",
-        "desc": "Measurement related to a consignment; to be specified by the measurement code dimension value."
+        "desc": "Measurement related to a consignment; to be specified by the\n                                    measurement code dimension value."
     },
     "AAY": {
         "name": "Package measurement",
@@ -108,40 +108,164 @@
         "desc": "The unit of measure in which ordered quantities are expressed."
     },
     "ABB": {
-        "name": "Colour",
-        "desc": "The colour of an object."
+        "name": "Transport conditions for delivery to market",
+        "desc": "Specified measurements refer to transport conditions for delivery to\n                                    the market."
     },
     "ABC": {
-        "name": "Size",
-        "desc": "Dimensions or magnitude of an object."
+        "name": "Storage conditions to guarantee product freshness until best before\n                                    date",
+        "desc": "Specified measurements refer to storage conditions to guarantee the\n                                    product freshness until best before date."
     },
-    "ABD": {
-        "name": "Length",
-        "desc": "The greater of the two or three dimensions of an object."
+    "ABI": {
+        "name": "Ventilation",
+        "desc": "The number of air exchanges per hour."
     },
-    "ABE": {
-        "name": "Height",
-        "desc": "The distance from the bottom to the top."
+    "ABJ": {
+        "name": "Original unit of issue",
+        "desc": "A code identifying the original unit of issue."
     },
-    "ABF": {
-        "name": "Width",
-        "desc": "The distance from side to side."
+    "ABK": {
+        "name": "External dimension",
+        "desc": "The outer measurement of the referenced item or package."
     },
-    "ABG": {
-        "name": "Diameter",
-        "desc": "The length of a line segment passing through the center of a circle, sphere, etc. from one side to the other."
+    "ABL": {
+        "name": "Internal dimension",
+        "desc": "The inner measurement of the referenced item or package."
     },
-    "ABH": {
-        "name": "Depth",
-        "desc": "The distance from the top downward."
+    "ABM": {
+        "name": "Test piece dimensions",
+        "desc": "The size of the test piece that was tested."
+    },
+    "ABN": {
+        "name": "Average reading",
+        "desc": "Average reading of the test being reported on."
+    },
+    "ABO": {
+        "name": "Comparison price measurement",
+        "desc": "A measurement used for comparison pricing purposes."
+    },
+    "ABP": {
+        "name": "Unit of measure per unit of issue",
+        "desc": "Provides the unit of measurement which is to be used for a given unit\n                                    of issue."
+    },
+    "ABQ": {
+        "name": "Air flow",
+        "desc": "The movement of air."
+    },
+    "ABR": {
+        "name": "Certified weight",
+        "desc": "Weight which has been certified."
+    },
+    "ABS": {
+        "name": "Velocity",
+        "desc": "Speed."
+    },
+    "ABT": {
+        "name": "Supplementary unit",
+        "desc": "Supplementary unit referring to the measurement reported."
+    },
+    "ABU": {
+        "name": "Quota",
+        "desc": "Maximum number or amount."
+    },
+    "ABV": {
+        "name": "Unit of time",
+        "desc": "The specification of a specific unit of time."
+    },
+    "ABW": {
+        "name": "Unit of measure used for invoiced quantities",
+        "desc": "Unit of measure of invoiced quantity."
+    },
+    "ABX": {
+        "name": "Usable or consumable content",
+        "desc": "Measurement of usable or consumable contents."
+    },
+    "ABY": {
+        "name": "Payment cycle",
+        "desc": "Measurement of the period of time over which payment occurs."
+    },
+    "ABZ": {
+        "name": "Plot size",
+        "desc": "The relative bigness of a plot or an allotment of land."
+    },
+    "ACA": {
+        "name": "Space occupied",
+        "desc": "Space taken up or filled."
+    },
+    "ACB": {
+        "name": "Building size",
+        "desc": "The relative bigness of a permanent fixed structure forming an\n                                    enclosure."
+    },
+    "ACC": {
+        "name": "Office size",
+        "desc": "The relative bigness of a room or building used for clerical or\n                                    similar work."
+    },
+    "ACD": {
+        "name": "Area damaged",
+        "desc": "The size of an area that was damaged."
+    },
+    "ACE": {
+        "name": "Land size",
+        "desc": "The relative bigness of an expanse of ground."
+    },
+    "ACF": {
+        "name": "Industrial plant size",
+        "desc": "The relative bigness of a factory or facility used in an industrial\n                                    process."
+    },
+    "ACG": {
+        "name": "Installed capacity",
+        "desc": "The maximum amount that can be contained or produced."
+    },
+    "ACH": {
+        "name": "Warehouse size",
+        "desc": "The relative bigness of a structure in which things are temporarily\n                                    stored."
+    },
+    "ACI": {
+        "name": "Volume to dispose",
+        "desc": "Volume to get rid of."
+    },
+    "ACJ": {
+        "name": "Volume to produce",
+        "desc": "Volume which will be generated."
     },
     "ASW": {
         "name": "Weight ascertained",
-        "desc": "[4240] Endorsement of the true weight (mass) as ascertained or verified by the railway (CIM 81)."
+        "desc": "[4240] Endorsement of the true weight (mass) as ascertained or\n                                    verified by the railway (CIM 81)."
+    },
+    "ASX": {
+        "name": "Supplemental tariff classification quantity",
+        "desc": "Supplemental quantity reportable for a tariff number."
+    },
+    "ASY": {
+        "name": "1st specified tariff quantity, general rules of interpretation 3(c) or\n                                    3(b)",
+        "desc": "The first reportable quantity associated with a tariff number for\n                                    goods classified under general rules of interpretation 3(b) or 3(c)."
+    },
+    "ASZ": {
+        "name": "2nd specified tariff quantity, general rules of interpretation 3(c) or\n                                    3(b)",
+        "desc": "Secondary reportable quantity associated with a tariff classification\n                                    for goods classified under harmonized tariff schedule general rules of\n                                    interpretation 3(b) or 3(c)."
+    },
+    "ATA": {
+        "name": "3rd specified tariff quantity, general rules of interpretation 3(c) or\n                                    3(b)",
+        "desc": "Third reportable quantity associated with a tariff classification for\n                                    goods classified under harmonized tariff schedule general rules of interpretation\n                                    3(b) or 3(c)."
+    },
+    "ATB": {
+        "name": "Showroom size",
+        "desc": "The relative bigness of a room used for display."
+    },
+    "ATC": {
+        "name": "Reserves",
+        "desc": "Measurement of reserves maintained."
+    },
+    "ATD": {
+        "name": "Height reference point",
+        "desc": "The point from which the reference height is determined."
+    },
+    "ATE": {
+        "name": "Available for cultivation",
+        "desc": "The purpose is to measure the availability for cultivation."
     },
     "CH": {
         "name": "Chemistry",
-        "desc": "Self explanatory."
+        "desc": "The given measurement value identifies the amount or percentage of a\n                                    specific chemical within a substance."
     },
     "CHW": {
         "name": "Chargeable weight",
@@ -149,55 +273,43 @@
     },
     "CN": {
         "name": "Core notch dimensions",
-        "desc": "Self explanatory."
+        "desc": "The notch dimensions of a core."
     },
     "CS": {
         "name": "Core size",
-        "desc": "Self explanatory."
+        "desc": "The size of a core."
     },
     "CT": {
         "name": "Counts",
-        "desc": "Self explanatory."
+        "desc": "The measurement is counts."
     },
     "DEN": {
         "name": "Density",
         "desc": "Code to indicate the mass of a commodity per unit of volume."
     },
-    "DR": {
-        "name": "Decision result value",
-        "desc": "Description to be provided."
-    },
     "DT": {
         "name": "Dimensional tolerance",
-        "desc": "Self explanatory."
+        "desc": "Possible range of values for a specified measurement dimension of a\n                                    product, material or package."
     },
     "DV": {
         "name": "Discrete measurement value",
-        "desc": "Self explanatory."
+        "desc": "The measurement specified is separate and distinct from other\n                                    measurements."
     },
     "DX": {
         "name": "Dimension used in price extension",
-        "desc": "Description to be provided."
-    },
-    "EGW": {
-        "name": "Estimated gross weight",
-        "desc": "Estimated weight (mass) of goods, including packing and excluding carrier's."
+        "desc": "Dimension will be used in conjunction with price extension."
     },
     "EN": {
         "name": "Environmental conditions",
-        "desc": "The data values to be reported reflect the environmental conditions surrounding a situation including but not limited to test environments."
-    },
-    "EVO": {
-        "name": "Estimated volume",
-        "desc": "Estimated size or measure of anything in three dimensions."
+        "desc": "The data values to be reported reflect the environmental conditions\n                                    surrounding a situation including but not limited to test environments."
     },
     "FO": {
         "name": "Footage",
-        "desc": "Description to be provided."
+        "desc": "Length or distance in feet."
     },
     "IV": {
         "name": "Interpolated value",
-        "desc": "Description to be provided."
+        "desc": "The value based on interpolation."
     },
     "LAO": {
         "name": "Vessel overall length",
@@ -205,23 +317,19 @@
     },
     "LC": {
         "name": "Limited weight/size coils",
-        "desc": "Description to be provided."
+        "desc": "Measurement identifying weight or size limit of coils."
     },
     "LGL": {
         "name": "Length limitations",
-        "desc": "Indicates that value/range information is understood as length limitation."
+        "desc": "Indicates that value/range information is understood as length\n                                    limitation."
     },
     "LL": {
         "name": "Lift limitation",
-        "desc": "Self explanatory."
+        "desc": "A measurement indicating lift capacity limitations."
     },
     "LMT": {
         "name": "Loading meters",
-        "desc": "The length in a vehicle, whereby the complete width and height over that length is needed for the goods."
-    },
-    "NAX": {
-        "name": "Number of axles",
-        "desc": "Number of axles of movable equipment or means of transport on wheels."
+        "desc": "The length in a vehicle, whereby the complete width and height over\n                                    that length is needed for the goods."
     },
     "PAL": {
         "name": "Payload",
@@ -229,27 +337,23 @@
     },
     "PC": {
         "name": "Parting cut (sawcut)",
-        "desc": "Description to be provided."
+        "desc": "Cut identifying parts of an item probably for separation."
     },
     "PD": {
         "name": "Physical dimensions (product ordered)",
-        "desc": "Self explanatory."
+        "desc": "Specified measurement dimensions refer to physical dimensions of a\n                                    product, material or package."
     },
     "PL": {
         "name": "Package limitations",
-        "desc": "Self explanatory."
+        "desc": "A measurement indicating limitations associated with the package.\n                                "
     },
     "PLL": {
         "name": "Platform limitation",
-        "desc": "Self explanatory."
+        "desc": "A measurement indicating limitations in relation to a platform."
     },
     "RL": {
         "name": "Receiving facility limitations",
-        "desc": "Self explanatory."
-    },
-    "RN": {
-        "name": "Length limitations",
-        "desc": "Indicates that value/range information within measurement information is understood as length limitation. Use code value LGL."
+        "desc": "Specified measurement dimensions are provided as a result of\n                                    limitations or restrictions related to the physical dimensions of a product,\n                                    material or package at the reception point."
     },
     "SE": {
         "name": "Property specification",
@@ -257,70 +361,54 @@
     },
     "SH": {
         "name": "Shipping tolerance",
-        "desc": "Self explanatory."
+        "desc": "Tolerances related to shipping."
     },
     "SM": {
         "name": "Shade",
-        "desc": "Description to be provided."
+        "desc": "The degree to which a colour is mixed with black or is decreasingly\n                                    illuminated."
     },
     "SO": {
         "name": "Storage limitation",
-        "desc": "Self explanatory."
-    },
-    "SPG": {
-        "name": "Specific gravity",
-        "desc": "Self explanatory."
+        "desc": "A measurement indicating limitation in relation to storage."
     },
     "SR": {
         "name": "Surface roughness",
-        "desc": "Self explanatory."
+        "desc": "The measurement of roughness of a surface."
     },
     "ST": {
         "name": "Surface treatment",
-        "desc": "Self explanatory."
+        "desc": "The attribute being measured is the surface treatment."
     },
     "SU": {
         "name": "Surface",
-        "desc": "Self explanatory."
+        "desc": "Surface area of an object."
     },
     "SV": {
         "name": "Specification value",
-        "desc": "A measurable item characteristic specified by the buyer, seller or third party."
+        "desc": "A measurable item characteristic specified by the buyer, seller or\n                                    third party."
     },
     "TE": {
         "name": "Temperature",
-        "desc": "Self explanatory."
+        "desc": "The measured attribute is temperature."
     },
     "TL": {
         "name": "Transportation equipment limitations",
-        "desc": "Self explanatory."
+        "desc": "A measurement indicating limitations in relation to transportation\n                                    equipment."
     },
     "TR": {
         "name": "Test result",
-        "desc": "Indicates that the data to follow is the test result measurements."
-    },
-    "TX": {
-        "name": "Time used in price extension",
-        "desc": "Description to be provided."
-    },
-    "VO": {
-        "name": "Observed value",
-        "desc": "The reported test result which includes measurement variability."
+        "desc": "Indicates that the data to follow is the test result measurements.\n                                "
     },
     "VOL": {
         "name": "Volume",
         "desc": "Size or measure of anything in three dimensions."
     },
-    "VT": {
-        "name": "True value",
-        "desc": "The reported test result with the measurement variability removed."
-    },
     "WT": {
         "name": "Weights",
-        "desc": "Self explanatory."
+        "desc": "The measured attribute is weight."
     },
     "WX": {
         "name": "Weight used in price extension",
-        "desc": "Description to be provided."
+        "desc": "Weight will be used in conjunction with price extension."
     }
 }

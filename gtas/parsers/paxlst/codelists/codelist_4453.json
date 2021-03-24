@@ -1,1 +1,30 @@
-{"1": {"name": "Text for subsequent use", "desc": "The occurrence of this text does not affect message processing."}, "2": {"name": "Text replacing missing code", "desc": "Text description of a coded data item for which there is no currently available code."}, "3": {"name": "Text for immediate use", "desc": "Text must be read before actioning message."}, "4": {"name": "No action required", "desc": "Pass text on to later recipient."}}
+{
+    "1": {
+        "name": "Text for subsequent use",
+        "desc": "The occurrence of this text does not affect message processing."
+    },
+    "2": {
+        "name": "Text replacing missing code",
+        "desc": "Text description of a coded data item for which there is no currently\n                                    available code."
+    },
+    "3": {
+        "name": "Text for immediate use",
+        "desc": "Text must be read before actioning message."
+    },
+    "4": {
+        "name": "No action required",
+        "desc": "Pass text on to later recipient."
+    },
+    "5": {
+        "name": "Header",
+        "desc": "Indicates that the text is to be taken as a header."
+    },
+    "6": {
+        "name": "Numbered paragraph",
+        "desc": "Indicates that the text starts a new numbered paragraph."
+    },
+    "7": {
+        "name": "Paragraph",
+        "desc": "Indicates that the text is a paragraph."
+    }
+}

@@ -1,7 +1,7 @@
 {
     "1": {
         "name": "Product ingredients not marked on package",
-        "desc": "The ingredients of the product are not marked on the packaging of the product."
+        "desc": "The ingredients of the product are not marked on the packaging of the\n                                    product."
     },
     "2": {
         "name": "Product price not marked on packaging",
@@ -9,7 +9,7 @@
     },
     "3": {
         "name": "Product best before date not marked on product package",
-        "desc": "The product best before date is not marked on the packaging of the product."
+        "desc": "The product best before date is not marked on the packaging of the\n                                    product."
     },
     "4": {
         "name": "Package not marked recyclable",
@@ -17,11 +17,11 @@
     },
     "5": {
         "name": "Promotional details marked",
-        "desc": "A code indicating that promotional details have been marked on the package."
+        "desc": "A code indicating that promotional details have been marked on the\n                                    package."
     },
     "6": {
-        "name": "Labeled according to general EAN.UCC specifications for clothing and fashion accessories",
-        "desc": "The item is labeled according to the general EAN.UCC specifications for clothing and fashion accessories."
+        "name": "Labeled according to general EAN.UCC specifications for clothing and\n                                    fashion accessories",
+        "desc": "The item is labeled according to the general EAN.UCC specifications\n                                    for clothing and fashion accessories."
     },
     "31": {
         "name": "Package best before date marked",
@@ -53,7 +53,7 @@
     },
     "38": {
         "name": "Tarping",
-        "desc": "The information describes how coverage with tarpaulins is to be provided."
+        "desc": "The information describes how coverage with tarpaulins is to be\n                                    provided."
     },
     "39": {
         "name": "Platform/skid location",
@@ -77,11 +77,11 @@
     },
     "44": {
         "name": "Unloading device",
-        "desc": "The information specifies the unloading device which must be used to handle the package."
+        "desc": "The information specifies the unloading device which must be used to\n                                    handle the package."
     },
     "45": {
         "name": "Unloading equipment",
-        "desc": "The information specifies the unloading equipment which must be used to handle the package."
+        "desc": "The information specifies the unloading equipment which must be used\n                                    to handle the package."
     },
     "50": {
         "name": "Package barcoded EAN-13 or EAN-8",
@@ -101,7 +101,7 @@
     },
     "54": {
         "name": "Product ingredients marked on package",
-        "desc": "The ingredients of the product contained in a package are marked on that package."
+        "desc": "The ingredients of the product contained in a package are marked on\n                                    that package."
     },
     "55": {
         "name": "Core characteristics",
@@ -121,7 +121,7 @@
     },
     "59": {
         "name": "Preservation method",
-        "desc": "The packaging related information is for methods of preservation."
+        "desc": "The packaging related information is for methods of preservation.\n                                "
     },
     "60": {
         "name": "Product marking pattern",
@@ -133,7 +133,7 @@
     },
     "62": {
         "name": "Package/container mark location",
-        "desc": "The information provides the location of a package or container mark."
+        "desc": "The information provides the location of a package or container mark.\n                                "
     },
     "63": {
         "name": "Marking method",
@@ -141,11 +141,11 @@
     },
     "66": {
         "name": "Receiving facility limitations",
-        "desc": "The information describes limitations which apply to a receiving facility."
+        "desc": "The information describes limitations which apply to a receiving\n                                    facility."
     },
     "67": {
         "name": "Tagging/bar code instructions",
-        "desc": "The information provides instructions as to how a package is to be tagged or have a bar code applied to it."
+        "desc": "The information provides instructions as to how a package is to be\n                                    tagged or have a bar code applied to it."
     },
     "68": {
         "name": "Shipping package labelling",

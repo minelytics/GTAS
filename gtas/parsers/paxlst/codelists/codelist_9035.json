@@ -1,0 +1,30 @@
+{
+    "1": {
+        "name": "Public administration sector",
+        "desc": "Public administration sector."
+    },
+    "2": {
+        "name": "Agricultural sector",
+        "desc": "Agricultural sector."
+    },
+    "3": {
+        "name": "Automotive sector",
+        "desc": "Automotive sector."
+    },
+    "4": {
+        "name": "Transport sector",
+        "desc": "Transport sector."
+    },
+    "5": {
+        "name": "Finance sector",
+        "desc": "Finance sector."
+    },
+    "6": {
+        "name": "Tourism sector",
+        "desc": "Tourism sector."
+    },
+    "7": {
+        "name": "Construction sector",
+        "desc": "Construction sector."
+    }
+}

@@ -1,94 +1,94 @@
 {
     "A": {
         "name": "Special rail car order, schedule increase forecast change",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to special rail car\n                                    order, schedule increase forecast change."
     },
     "B": {
         "name": "Engineering change or late release",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to engineering change\n                                    or late release."
     },
     "C": {
         "name": "Specification (schedule) error/overbuilding",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to special rail car\n                                    order, schedule increase forecast change specification (schedule)\n                                    error/overbuilding."
     },
     "D": {
         "name": "Shipment tracing delay",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to shipment tracing\n                                    delay."
     },
     "E": {
         "name": "Plant inventory loss",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to plant inventory\n                                    loss."
     },
     "F": {
         "name": "Building ahead of schedule",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to building ahead of\n                                    schedule."
     },
     "G": {
         "name": "Vendor behind schedule",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to vendor behind\n                                    schedule."
     },
     "H": {
         "name": "Failed to include in last shipment",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to failure to include\n                                    costs in last shipment."
     },
     "I": {
         "name": "Carrier loss claim",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to carrier loss claim.\n                                "
     },
     "J": {
         "name": "Transportation failure",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to transportation\n                                    failure."
     },
     "K": {
         "name": "Insufficient weight for carload",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to insufficient weight\n                                    for carload."
     },
     "L": {
         "name": "Reject or discrepancy (material rejected in prior shipment)",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to reject or\n                                    discrepancy."
     },
     "M": {
         "name": "Transportation delay",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to transportation\n                                    delay."
     },
     "N": {
         "name": "Lack of railcar or railroad equipment",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to lack of railcar of\n                                    railroad equipment."
     },
     "P": {
         "name": "Releasing error",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to releasing error.\n                                "
     },
     "R": {
         "name": "Record error or cate reported discrepancy report",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to record error or\n                                    cate reported discrepancy report."
     },
     "T": {
         "name": "Common or peculiar part schedule increase",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to common or peculiar\n                                    part schedule increase."
     },
     "U": {
         "name": "Alternative supplier shipping for responsible supplier",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to alternative\n                                    supplier shipping for responsible supplier."
     },
     "V": {
         "name": "Direct schedule or locally controlled",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to direct schedule or\n                                    locally controlled."
     },
     "W": {
         "name": "Purchasing waiver approval",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to purchasing waiver\n                                    approved."
     },
     "X": {
         "name": "Authorization code to be determined",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to authorization code\n                                    to be determined."
     },
     "Y": {
         "name": "Pilot material",
-        "desc": "Self explanatory."
+        "desc": "The reason for the excess transportation is due to pilot material.\n                                "
     },
     "ZZZ": {
         "name": "Mutually defined",
-        "desc": "Self explanatory."
+        "desc": "A code assigned within a code list to be used on an interim basis and\n                                    as defined among trading partners until a precise code can be assigned to the code\n                                    list."
     }
 }

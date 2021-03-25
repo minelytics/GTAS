@@ -1,0 +1,194 @@
+{
+    "0051": {
+        "data": "codelists/codelist_0051.json",
+        "desc": "Controlling agency, coded"
+    },
+    "0052": {
+        "data": "codelists/codelist_0052.json",
+        "desc": "Message version number"
+    },
+    "0054": {
+        "data": "codelists/codelist_0054.json",
+        "desc": "Message release number"
+    },
+    "0065": {
+        "data": "codelists/codelist_0065.json",
+        "desc": "Message type"
+    },
+    "0073": {
+        "data": "codelists/codelist_0073.json",
+        "desc": "First and last transfer"
+    },
+    "0113": {
+        "data": "codelists/codelist_0113.json",
+        "desc": "Message type sub-function identification"
+    },
+    "1001": {
+        "data": "codelists/codelist_1001.json",
+        "desc": "Document name code"
+    },
+    "1131": {
+        "data": "codelists/codelist_1131.json",
+        "desc": "Code list identification code"
+    },
+    "1153": {
+        "data": "codelists/codelist_1153.json",
+        "desc": "Reference code qualifier"
+    },
+    "1225": {
+        "data": "codelists/codelist_1225.json",
+        "desc": "Message function code"
+    },
+    "1373": {
+        "data": "codelists/codelist_1373.json",
+        "desc": "Document status code"
+    },
+    "2005": {
+        "data": "codelists/codelist_2005.json",
+        "desc": "Date or time or period function code qualifier"
+    },
+    "2379": {
+        "data": "codelists/codelist_2379.json",
+        "desc": "Date or time or period format code"
+    },
+    "3035": {
+        "data": "codelists/codelist_3035.json",
+        "desc": "Party function code qualifier"
+    },
+    "3045": {
+        "data": "codelists/codelist_3045.json",
+        "desc": "Party name format code"
+    },
+    "3055": {
+        "data": "codelists/codelist_3055.json",
+        "desc": "Code list responsible agency code"
+    },
+    "3139": {
+        "data": "codelists/codelist_3139.json",
+        "desc": "Contact function code"
+    },
+    "3153": {
+        "data": "codelists/codelist_3153.json",
+        "desc": "Communication medium type code"
+    },
+    "3155": {
+        "data": "codelists/codelist_3155.json",
+        "desc": "Communication address code qualifier"
+    },
+    "3227": {
+        "data": "codelists/codelist_3227.json",
+        "desc": "Location function code qualifier"
+    },
+    "3493": {
+        "data": "codelists/codelist_3493.json",
+        "desc": "Nationality code qualifier"
+    },
+    "4215": {
+        "data": "codelists/codelist_4215.json",
+        "desc": "Transport charges payment method code"
+    },
+    "4237": {
+        "data": "codelists/codelist_4237.json",
+        "desc": "Payment arrangement code"
+    },
+    "4343": {
+        "data": "codelists/codelist_4343.json",
+        "desc": "Response type code"
+    },
+    "4447": {
+        "data": "codelists/codelist_4447.json",
+        "desc": "Free text format code"
+    },
+    "4451": {
+        "data": "codelists/codelist_4451.json",
+        "desc": "Text subject code qualifier"
+    },
+    "4453": {
+        "data": "codelists/codelist_4453.json",
+        "desc": "Free text function code"
+    },
+    "5237": {
+        "data": "codelists/codelist_5237.json",
+        "desc": "Charge category code"
+    },
+    "6063": {
+        "data": "codelists/codelist_6063.json",
+        "desc": "Quantity type code qualifier"
+    },
+    "6069": {
+        "data": "codelists/codelist_6069.json",
+        "desc": "Control total type code qualifier"
+    },
+    "6155": {
+        "data": "codelists/codelist_6155.json",
+        "desc": "Non-discrete measurement name code"
+    },
+    "6311": {
+        "data": "codelists/codelist_6311.json",
+        "desc": "Measurement purpose code qualifier"
+    },
+    "6313": {
+        "data": "codelists/codelist_6313.json",
+        "desc": "Measured attribute code"
+    },
+    "6321": {
+        "data": "codelists/codelist_6321.json",
+        "desc": "Measurement significance code"
+    },
+    "7187": {
+        "data": "codelists/codelist_7187.json",
+        "desc": "Process type description code"
+    },
+    "7233": {
+        "data": "codelists/codelist_7233.json",
+        "desc": "Packaging related description code"
+    },
+    "7365": {
+        "data": "codelists/codelist_7365.json",
+        "desc": "Processing indicator description code"
+    },
+    "7383": {
+        "data": "codelists/codelist_7383.json",
+        "desc": "Surface or layer code"
+    },
+    "8051": {
+        "data": "codelists/codelist_8051.json",
+        "desc": "Transport stage code qualifier"
+    },
+    "8101": {
+        "data": "codelists/codelist_8101.json",
+        "desc": "Transit direction indicator code"
+    },
+    "8179": {
+        "data": "codelists/codelist_8179.json",
+        "desc": "Transport means description code"
+    },
+    "8281": {
+        "data": "codelists/codelist_8281.json",
+        "desc": "Transport means ownership indicator code"
+    },
+    "8457": {
+        "data": "codelists/codelist_8457.json",
+        "desc": "Excess transportation reason code"
+    },
+    "8459": {
+        "data": "codelists/codelist_8459.json",
+        "desc": "Excess transportation responsibility code"
+    },
+    "9003": {
+        "data": "codelists/codelist_9003.json",
+        "desc": "Employment details code qualifier"
+    },
+    "9017": {
+        "data": "codelists/codelist_9017.json",
+        "desc": "Attribute function code qualifier"
+    },
+    "9035": {
+        "data": "codelists/codelist_9035.json",
+        "desc": "Qualification application area code"
+    },
+    "9649": {
+        "data": "codelists/codelist_9649.json",
+        "desc": "Processing information code qualifier"
+    }
+}

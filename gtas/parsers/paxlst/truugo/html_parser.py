@@ -16,6 +16,7 @@ class MySection:
         str_result += "\n--" + str.join('\n--', [s.__str__() for s in self.attributes])
         return str_result
 
+
 class MyGroup():
     def __init__(self):
         self.code = ""
@@ -29,6 +30,7 @@ class MyGroup():
         str_result = f'{self.code}: {self.desc} : {self.repeat}'
         str_result += "\n" + str.join('\n', [s.__str__() for s in self.sections])
         return str_result
+
 
 class MyAttribute:
     def __init__(self):
@@ -50,7 +52,7 @@ class MyAttribute:
 
 class FormatParser():
     def __init__(self):
-        self.my_sections = [] 
+        self.my_sections = []
 
     def _decode_attribute(self, attribute_div):
         attribute = MyAttribute()
@@ -65,7 +67,7 @@ class FormatParser():
                 # <div><span>Mandatory</span><span>an</span><span>0..3</span></div>
                 attribute.type = repeat_parts[1].string
                 attribute.length = repeat_parts[2].string
-            else:    
+            else:
                 # <div><span>Mandatory</span></div>
                 attribute.length = None
                 attribute.type = None
@@ -85,7 +87,7 @@ class FormatParser():
         my_sec.name = self.fix_whitespace(title_parts[1].string)
         my_sec.repeat = self.fix_whitespace(title_parts[2].string)
         # Section description block
-        section_desc = section_heading.find_next_sibling("div").find_all("div")[0] 
+        section_desc = section_heading.find_next_sibling("div").find_all("div")[0]
         desc = section_desc.find_all("span")[1].next_sibling.strip()
         if desc != None:
             my_sec.desc = self.fix_whitespace(desc)
@@ -93,12 +95,12 @@ class FormatParser():
             my_sec.desc = None
 
     def _decode_group_title(self, my_grp, group_heading):
-        #<h3><a href="#"><span>GRP1</span><span> <span class="g_s">RFF</span> <span class="g_s">DTM</span></span><span>C 99</span></a></h3>
+        # <h3><a href="#"><span>GRP1</span><span> <span class="g_s">RFF</span> <span class="g_s">DTM</span></span><span>C 99</span></a></h3>
         title_parts = group_heading.find_all("span")
         my_grp.code = title_parts[0].string
         # Group description block
         section_desc = group_heading.find_next_sibling("div").find_all("div")[0]
-        group_desc_parts = section_desc.find_all('span') 
+        group_desc_parts = section_desc.find_all('span')
         my_grp.repeat = group_desc_parts[1].string
         my_grp.repeat += ' ' + group_desc_parts[0].string
         desc = group_desc_parts[1].next_sibling.strip()
@@ -121,12 +123,12 @@ class FormatParser():
 
     def _decode_section(self, my_sec, section):
         # Section title is first child as h3
-        #print(section.find_all("h3"))
+        # print(section.find_all("h3"))
         section_heading = section.find_all("h3")[0]
         self._decode_section_title(my_sec, section_heading)
         # Section attribute content is second div of the first sibling of the h3
         content = self._next_non_string_sibling(section_heading).find_all("div")[1]
-        
+
         last_attribute = None
         for attribute_div in content.children:
             if isinstance(attribute_div, Tag):
@@ -159,7 +161,7 @@ class FormatParser():
                     if 'seg' in section['class']:
                         my_sec = MySection()
                         self._decode_section(my_sec, section)
-                        my_grp.sections.append(my_sec)   
+                        my_grp.sections.append(my_sec)
                     if 'grp' in section['class']:
                         my_sub_grp = MyGroup()
                         my_grp.sections.append(my_sub_grp)
@@ -173,13 +175,12 @@ class FormatParser():
         for section in sections:
             if isinstance(section, Tag):
                 if 'class' in section.attrs:
-                    #print(section['class'])
+                    # print(section['class'])
                     if 'grp' in section['class']:
                         my_grp = MyGroup()
                         self.my_sections.append(my_grp)
                         self._decode_group(my_grp, section)
-                    else: 
+                    else:
                         my_sec = MySection()
                         self.my_sections.append(my_sec)
                         self._decode_section(my_sec, section)
-

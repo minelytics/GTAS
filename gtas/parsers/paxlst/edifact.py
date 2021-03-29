@@ -1,7 +1,7 @@
 import abc
 import json
 
-from pydifact.pydifact import SegmentCollection
+from pydifact import SegmentCollection
 
 from gtas.parsers.paxlst.schema import SchemaTraverser, load_schema
 

@@ -1,0 +1,1129 @@
+[
+	{
+		"hierarchy": "UNB",
+		"desc": "",
+		"code": "UNB",
+		"conditional": "Mandatory",
+		"cardinality": 1,
+		"attributes": [
+			{
+				"code": "0001",
+				"name": "Syntax identifier",
+				"desc": "",
+				"value": "UN/ECE level A",
+				"value_coded": "UNOA"
+			},
+			{
+				"code": "0002",
+				"name": "Syntax version number",
+				"desc": "",
+				"value": "Version 4",
+				"value_coded": "4"
+			},
+			{
+				"code": "0004",
+				"name": "Interchange sender identification",
+				"desc": "",
+				"value": "APIS*ABE"
+			},
+			{
+				"code": "0010",
+				"name": "Interchange recipient identification",
+				"desc": "",
+				"value": "USADHS"
+			},
+			{
+				"code": "0017",
+				"name": "Date",
+				"desc": "",
+				"value": "070429"
+			},
+			{
+				"code": "0019",
+				"name": "Time",
+				"desc": "",
+				"value": "0900"
+			},
+			{
+				"code": "0020",
+				"name": "Interchange control reference",
+				"desc": "",
+				"value": "000000001"
+			},
+			{
+				"code": "0022",
+				"name": "Recipient reference/password",
+				"desc": "",
+				"value": ""
+			},
+			{
+				"code": "0026",
+				"name": "Application reference",
+				"desc": "",
+				"value": "USADHS"
+			}
+		]
+	},
+	{
+		"hierarchy": "UNH",
+		"desc": "A service segment starting and uniquely identifying a message. The message type code for the Passenger list message is PAXLST.",
+		"code": "UNH",
+		"conditional": "Mandatory",
+		"cardinality": "1",
+		"attributes": [
+			{
+				"code": "0062",
+				"name": "MESSAGE REFERENCE NUMBER",
+				"desc": "Unique message reference assigned by the sender.",
+				"value": "PAX001"
+			},
+			{
+				"code": "0065",
+				"name": "Message type",
+				"desc": "Code identifying a type of message and assigned by its controlling agency.",
+				"value": "Passenger list message",
+				"value_coded": "PAXLST"
+			},
+			{
+				"code": "0052",
+				"name": "Message version number",
+				"desc": "Version number of a message type.",
+				"value": "Draft version/UN/EDIFACT Directory",
+				"value_coded": "D"
+			},
+			{
+				"code": "0054",
+				"name": "Message release number",
+				"desc": "Release number within the current message version number.",
+				"value": "Release 2002 - B",
+				"value_coded": "02B"
+			},
+			{
+				"code": "0051",
+				"name": "Controlling agency, coded",
+				"desc": "Code identifying a controlling agency.",
+				"value": "UN/CEFACT",
+				"value_coded": "UN"
+			},
+			{
+				"code": "0057",
+				"name": "Association assigned code",
+				"desc": "Code, assigned by the association responsible for the design and maintenance of the message type concerned, which further identifies the message.",
+				"value": "IATA"
+			},
+			{
+				"code": "0068",
+				"name": "COMMON ACCESS REFERENCE",
+				"desc": "Reference serving as a key to relate all subsequent transfers of data to the same business case or file.",
+				"value": "API01"
+			},
+			{
+				"code": "0070",
+				"name": "Sequence of transfers",
+				"desc": "Number assigned by the sender indicating the transfer sequence of a message related to the same topic. The message could be an addition or a change to an earlier transfer related to the same topic.",
+				"value": "01"
+			}
+		]
+	},
+	{
+		"hierarchy": "BGM",
+		"desc": "A segment to indicate the type and function of the message.",
+		"code": "BGM",
+		"conditional": "Mandatory",
+		"cardinality": "1",
+		"attributes": [
+			{
+				"code": "1001",
+				"name": "Document name code",
+				"desc": "Code specifying the document name.",
+				"value": "Passenger list",
+				"value_coded": "745"
+			}
+		]
+	},
+	{
+		"hierarchy": "RFF",
+		"desc": "A segment to specify message reference.",
+		"code": "RFF",
+		"conditional": "Conditional",
+		"cardinality": "1",
+		"attributes": [
+			{
+				"code": "1153",
+				"name": "Reference code qualifier",
+				"desc": "Code qualifying a reference.",
+				"value": "Transaction reference number",
+				"value_coded": "TN"
+			},
+			{
+				"code": "1154",
+				"name": "Reference identifier",
+				"desc": "Identifies a reference.",
+				"value": "BA123456789"
+			},
+			{
+				"code": "1156",
+				"name": "Document line identifier",
+				"desc": "To identify a line of a document.",
+				"value": ""
+			},
+			{
+				"code": "4000",
+				"name": "Reference version identifier",
+				"desc": "To identify the version of a reference.",
+				"value": ""
+			},
+			{
+				"code": "1060",
+				"name": "Revision identifier",
+				"desc": "To identify a revision.",
+				"value": "1"
+			}
+		]
+	},
+	{
+		"code": "GRP1",
+		"segments": [
+			{
+				"hierarchy": "NAD>GRP1",
+				"desc": "A segment to identify the name, address and related function.\n  A group of segments to specify name and/or address, person or department in the originating administration who can provide further information about the data in the message.",
+				"code": "NAD",
+				"conditional": "Mandatory",
+				"cardinality": "1",
+				"attributes": [
+					{
+						"code": "3035",
+						"name": "PARTY FUNCTION CODE QUALIFIER",
+						"desc": "Code giving specific meaning to a party.",
+						"value": "Document/message issuer/sender",
+						"value_coded": "MS"
+					},
+					{
+						"code": "3039",
+						"name": "Party identifier",
+						"desc": "Code specifying the identity of a party.",
+						"value": ""
+					},
+					{
+						"code": "3124",
+						"name": "Name and address description",
+						"desc": "Free form description of a name and address line.",
+						"value": ""
+					},
+					{
+						"code": "3036",
+						"name": "Party name",
+						"desc": "Name of a party.",
+						"value": "JACKSON"
+					}
+				]
+			},
+			{
+				"hierarchy": "COM>GRP1",
+				"desc": "A segment to identify communication numbers of departments or persons to whom communication should be directed (e.g. telephone and/or fax number).\n  A group of segments to specify name and/or address, person or department in the originating administration who can provide further information about the data in the message.",
+				"code": "COM",
+				"conditional": "Conditional",
+				"cardinality": "9",
+				"attributes": [
+					{
+						"code": "3148",
+						"name": "Communication address identifier",
+						"desc": "To identify a communication address.",
+						"value": "703-555-1234"
+					},
+					{
+						"code": "3155",
+						"name": "Communication address code qualifier",
+						"desc": "Code qualifying the communication address.",
+						"value": "Telephone",
+						"value_coded": "TE"
+					}
+				]
+			}
+		]
+	},
+	{
+		"code": "GRP2",
+		"segments": [
+			{
+				"hierarchy": "TDT>GRP2",
+				"desc": "A segment to specify details of transport related to each leg, including means of transport, mode of transport name and/or number of vessel and/or vehicle and/or flight.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+				"code": "TDT",
+				"conditional": "Mandatory",
+				"cardinality": "1",
+				"attributes": [
+					{
+						"code": "8051",
+						"name": "TRANSPORT STAGE CODE QUALIFIER",
+						"desc": "Code qualifying a specific stage of transport.",
+						"value": "Main-carriage transport",
+						"value_coded": "20"
+					},
+					{
+						"code": "8028",
+						"name": "MEANS OF TRANSPORT JOURNEY IDENTIFIER",
+						"desc": "To identify a journey of a means of transport.",
+						"value": "UA123"
+					},
+					{
+						"code": "8067",
+						"name": "Transport mode name code",
+						"desc": "Code specifying the name of a mode of transport.",
+						"value": ""
+					},
+					{
+						"code": "8179",
+						"name": "Transport means description code",
+						"desc": "Code specifying the means of transport.",
+						"value": ""
+					},
+					{
+						"code": "3127",
+						"name": "Carrier identifier",
+						"desc": "To identify a carrier.",
+						"value": "UA"
+					}
+				]
+			},
+			{
+				"code": "GRP3",
+				"segments": [
+					{
+						"hierarchy": "LOC>GRP3>GRP2",
+						"desc": "A segment to specify locations such as place of departure, place of destination, country of ultimate destination, country and/or place of transit, country of transit termination, etc. of a passenger/crew.\n  A group of segments indicating associated locations and dates.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+						"code": "LOC",
+						"conditional": "Mandatory",
+						"cardinality": "1",
+						"attributes": [
+							{
+								"code": "3227",
+								"name": "LOCATION FUNCTION CODE QUALIFIER",
+								"desc": "Code identifying the function of a location.",
+								"value": "Last place/port of call of conveyance",
+								"value_coded": "125"
+							},
+							{
+								"code": "3225",
+								"name": "Location name code",
+								"desc": "Code specifying the name of the location.",
+								"value": "YVR"
+							}
+						]
+					},
+					{
+						"hierarchy": "DTM>GRP3>GRP2",
+						"desc": "A segment to specify associated dates and/or times as required related to locations.\n  A group of segments indicating associated locations and dates.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+						"code": "DTM",
+						"conditional": "Conditional",
+						"cardinality": "5",
+						"attributes": [
+							{
+								"code": "2005",
+								"name": "Date or time or period function code qualifier",
+								"desc": "Code qualifying the function of a date, time or period.",
+								"value": "Departure date/time, scheduled",
+								"value_coded": "189"
+							},
+							{
+								"code": "2380",
+								"name": "Date or time or period text",
+								"desc": "The value of a date, a date and time, a time or of a period in a specified representation.",
+								"value": "0704291230"
+							},
+							{
+								"code": "2379",
+								"name": "Date or time or period format code",
+								"desc": "Code specifying the representation of a date, time or period.",
+								"value": "YYMMDDHHMM",
+								"value_coded": "201"
+							}
+						]
+					},
+					{
+						"hierarchy": "LOC>GRP3>GRP2",
+						"desc": "A segment to specify locations such as place of departure, place of destination, country of ultimate destination, country and/or place of transit, country of transit termination, etc. of a passenger/crew.\n  A group of segments indicating associated locations and dates.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+						"code": "LOC",
+						"conditional": "Mandatory",
+						"cardinality": "1",
+						"attributes": [
+							{
+								"code": "3227",
+								"name": "LOCATION FUNCTION CODE QUALIFIER",
+								"desc": "Code identifying the function of a location.",
+								"value": "Place/port of conveyance initial arrival",
+								"value_coded": "87"
+							},
+							{
+								"code": "3225",
+								"name": "Location name code",
+								"desc": "Code specifying the name of the location.",
+								"value": "JFK"
+							}
+						]
+					},
+					{
+						"hierarchy": "DTM>GRP3>GRP2",
+						"desc": "A segment to specify associated dates and/or times as required related to locations.\n  A group of segments indicating associated locations and dates.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+						"code": "DTM",
+						"conditional": "Conditional",
+						"cardinality": "5",
+						"attributes": [
+							{
+								"code": "2005",
+								"name": "Date or time or period function code qualifier",
+								"desc": "Code qualifying the function of a date, time or period.",
+								"value": "Arrival date/time, scheduled",
+								"value_coded": "232"
+							},
+							{
+								"code": "2380",
+								"name": "Date or time or period text",
+								"desc": "The value of a date, a date and time, a time or of a period in a specified representation.",
+								"value": "0704291600"
+							},
+							{
+								"code": "2379",
+								"name": "Date or time or period format code",
+								"desc": "Code specifying the representation of a date, time or period.",
+								"value": "YYMMDDHHMM",
+								"value_coded": "201"
+							}
+						]
+					}
+				]
+			},
+			{
+				"hierarchy": "TDT>GRP2",
+				"desc": "A segment to specify details of transport related to each leg, including means of transport, mode of transport name and/or number of vessel and/or vehicle and/or flight.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+				"code": "TDT",
+				"conditional": "Mandatory",
+				"cardinality": "1",
+				"attributes": [
+					{
+						"code": "8051",
+						"name": "TRANSPORT STAGE CODE QUALIFIER",
+						"desc": "Code qualifying a specific stage of transport.",
+						"value": "Main-carriage transport",
+						"value_coded": "20"
+					},
+					{
+						"code": "8028",
+						"name": "MEANS OF TRANSPORT JOURNEY IDENTIFIER",
+						"desc": "To identify a journey of a means of transport.",
+						"value": "UA124"
+					},
+					{
+						"code": "8067",
+						"name": "Transport mode name code",
+						"desc": "Code specifying the name of a mode of transport.",
+						"value": ""
+					},
+					{
+						"code": "8179",
+						"name": "Transport means description code",
+						"desc": "Code specifying the means of transport.",
+						"value": ""
+					},
+					{
+						"code": "3127",
+						"name": "Carrier identifier",
+						"desc": "To identify a carrier.",
+						"value": "UA"
+					}
+				]
+			},
+			{
+				"code": "GRP3",
+				"segments": [
+					{
+						"hierarchy": "LOC>GRP3>GRP2",
+						"desc": "A segment to specify locations such as place of departure, place of destination, country of ultimate destination, country and/or place of transit, country of transit termination, etc. of a passenger/crew.\n  A group of segments indicating associated locations and dates.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+						"code": "LOC",
+						"conditional": "Mandatory",
+						"cardinality": "1",
+						"attributes": [
+							{
+								"code": "3227",
+								"name": "LOCATION FUNCTION CODE QUALIFIER",
+								"desc": "Code identifying the function of a location.",
+								"value": "Routing",
+								"value_coded": "92"
+							},
+							{
+								"code": "3225",
+								"name": "Location name code",
+								"desc": "Code specifying the name of the location.",
+								"value": "JFK"
+							}
+						]
+					},
+					{
+						"hierarchy": "DTM>GRP3>GRP2",
+						"desc": "A segment to specify associated dates and/or times as required related to locations.\n  A group of segments indicating associated locations and dates.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+						"code": "DTM",
+						"conditional": "Conditional",
+						"cardinality": "5",
+						"attributes": [
+							{
+								"code": "2005",
+								"name": "Date or time or period function code qualifier",
+								"desc": "Code qualifying the function of a date, time or period.",
+								"value": "Departure date/time, scheduled",
+								"value_coded": "189"
+							},
+							{
+								"code": "2380",
+								"name": "Date or time or period text",
+								"desc": "The value of a date, a date and time, a time or of a period in a specified representation.",
+								"value": "0704291730"
+							},
+							{
+								"code": "2379",
+								"name": "Date or time or period format code",
+								"desc": "Code specifying the representation of a date, time or period.",
+								"value": "YYMMDDHHMM",
+								"value_coded": "201"
+							}
+						]
+					},
+					{
+						"hierarchy": "LOC>GRP3>GRP2",
+						"desc": "A segment to specify locations such as place of departure, place of destination, country of ultimate destination, country and/or place of transit, country of transit termination, etc. of a passenger/crew.\n  A group of segments indicating associated locations and dates.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+						"code": "LOC",
+						"conditional": "Mandatory",
+						"cardinality": "1",
+						"attributes": [
+							{
+								"code": "3227",
+								"name": "LOCATION FUNCTION CODE QUALIFIER",
+								"desc": "Code identifying the function of a location.",
+								"value": "Routing",
+								"value_coded": "92"
+							},
+							{
+								"code": "3225",
+								"name": "Location name code",
+								"desc": "Code specifying the name of the location.",
+								"value": "ATL"
+							}
+						]
+					},
+					{
+						"hierarchy": "DTM>GRP3>GRP2",
+						"desc": "A segment to specify associated dates and/or times as required related to locations.\n  A group of segments indicating associated locations and dates.\n  A group of segments to indicate information related to each leg of the mode of transport.",
+						"code": "DTM",
+						"conditional": "Conditional",
+						"cardinality": "5",
+						"attributes": [
+							{
+								"code": "2005",
+								"name": "Date or time or period function code qualifier",
+								"desc": "Code qualifying the function of a date, time or period.",
+								"value": "Arrival date/time, scheduled",
+								"value_coded": "232"
+							},
+							{
+								"code": "2380",
+								"name": "Date or time or period text",
+								"desc": "The value of a date, a date and time, a time or of a period in a specified representation.",
+								"value": "0704291945"
+							},
+							{
+								"code": "2379",
+								"name": "Date or time or period format code",
+								"desc": "Code specifying the representation of a date, time or period.",
+								"value": "YYMMDDHHMM",
+								"value_coded": "201"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"code": "GRP4",
+		"segments": [
+			{
+				"hierarchy": "NAD>GRP4",
+				"desc": "A segment specifying name of the passenger or crew member.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "NAD",
+				"conditional": "Mandatory",
+				"cardinality": "1",
+				"attributes": [
+					{
+						"code": "3035",
+						"name": "PARTY FUNCTION CODE QUALIFIER",
+						"desc": "Code giving specific meaning to a party.",
+						"value": "Passenger",
+						"value_coded": "FL"
+					},
+					{
+						"code": "3039",
+						"name": "Party identifier",
+						"desc": "Code specifying the identity of a party.",
+						"value": ""
+					},
+					{
+						"code": "3124",
+						"name": "Name and address description",
+						"desc": "Free form description of a name and address line.",
+						"value": ""
+					},
+					{
+						"code": "3036",
+						"name": "Party name",
+						"desc": "Name of a party.",
+						"value": "DOE"
+					},
+					{
+						"code": "3036",
+						"name": "Party name",
+						"desc": "Name of a party.",
+						"value": "JOHN"
+					},
+					{
+						"code": "3036",
+						"name": "Party name",
+						"desc": "Name of a party.",
+						"value": "WAYNE"
+					},
+					{
+						"code": "3042",
+						"name": "Street and number or post office box identifier",
+						"desc": "To identify a street and number and/or Post Office box number.",
+						"value": "20 MAIN ST"
+					},
+					{
+						"code": "3164",
+						"name": "CITY NAME",
+						"desc": "Name of a city.",
+						"value": "ANYCITY"
+					},
+					{
+						"code": "3229",
+						"name": "Country sub-entity name code",
+						"desc": "Code specifying the name of a country sub-entity.",
+						"value": "VA"
+					},
+					{
+						"code": "3251",
+						"name": "POSTAL IDENTIFICATION CODE",
+						"desc": "Code specifying the postal zone or address.",
+						"value": "10053"
+					},
+					{
+						"code": "3207",
+						"name": "COUNTRY NAME CODE",
+						"desc": "Identification of the name of the country or other geographical entity as defined in ISO 3166-1.",
+						"value": "USA"
+					}
+				]
+			},
+			{
+				"hierarchy": "ATT>GRP4",
+				"desc": "A segment specifying passenger's and/or crew attributes such as complexion and build.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "ATT",
+				"conditional": "Conditional",
+				"cardinality": "9",
+				"attributes": [
+					{
+						"code": "9017",
+						"name": "ATTRIBUTE FUNCTION CODE QUALIFIER",
+						"desc": "Code qualifying an attribute function.",
+						"value": "Person",
+						"value_coded": "2"
+					},
+					{
+						"code": "9021",
+						"name": "Attribute type description code",
+						"desc": "Coded specifying an attribute type.",
+						"value": ""
+					},
+					{
+						"code": "9019",
+						"name": "Attribute description code",
+						"desc": "Code specifying an attribute.",
+						"value": "M"
+					}
+				]
+			},
+			{
+				"hierarchy": "DTM>GRP4",
+				"desc": "A segment to specify date of birth.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "DTM",
+				"conditional": "Conditional",
+				"cardinality": "9",
+				"attributes": [
+					{
+						"code": "2005",
+						"name": "Date or time or period function code qualifier",
+						"desc": "Code qualifying the function of a date, time or period.",
+						"value": "Birth date/time",
+						"value_coded": "329"
+					},
+					{
+						"code": "2380",
+						"name": "Date or time or period text",
+						"desc": "The value of a date, a date and time, a time or of a period in a specified representation.",
+						"value": "570121"
+					}
+				]
+			},
+			{
+				"hierarchy": "FTX>GRP4",
+				"desc": "A segment specifying other related passenger/crew information (e.g. ticketing information).\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "FTX",
+				"conditional": "Conditional",
+				"cardinality": "5",
+				"attributes": [
+					{
+						"code": "4451",
+						"name": "TEXT SUBJECT CODE QUALIFIER",
+						"desc": "Code qualifying the subject of the text.",
+						"value": "Goods description",
+						"value_coded": "AAA"
+					},
+					{
+						"code": "4453",
+						"name": "FREE TEXT FUNCTION CODE",
+						"desc": "Code specifying the function of free text.",
+						"value": ""
+					},
+					{
+						"code": "4441",
+						"name": "Free text description code",
+						"desc": "Code specifying free form text.",
+						"value": ""
+					},
+					{
+						"code": "4440",
+						"name": "Free text",
+						"desc": "Free form text.",
+						"value": "UA123456"
+					},
+					{
+						"code": "4440",
+						"name": "Free text",
+						"desc": "Free form text.",
+						"value": "3"
+					}
+				]
+			},
+			{
+				"hierarchy": "LOC>GRP4",
+				"desc": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (disembarkation) of a passenger and/or crew.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "LOC",
+				"conditional": "Conditional",
+				"cardinality": "25",
+				"attributes": [
+					{
+						"code": "3227",
+						"name": "LOCATION FUNCTION CODE QUALIFIER",
+						"desc": "Code identifying the function of a location.",
+						"value": "Customs office of clearance",
+						"value_coded": "22"
+					},
+					{
+						"code": "3225",
+						"name": "Location name code",
+						"desc": "Code specifying the name of the location.",
+						"value": "JFK"
+					}
+				]
+			},
+			{
+				"hierarchy": "LOC>GRP4",
+				"desc": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (disembarkation) of a passenger and/or crew.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "LOC",
+				"conditional": "Conditional",
+				"cardinality": "25",
+				"attributes": [
+					{
+						"code": "3227",
+						"name": "LOCATION FUNCTION CODE QUALIFIER",
+						"desc": "Code identifying the function of a location.",
+						"value": "Port of embarkation",
+						"value_coded": "178"
+					},
+					{
+						"code": "3225",
+						"name": "Location name code",
+						"desc": "Code specifying the name of the location.",
+						"value": "YVR"
+					}
+				]
+			},
+			{
+				"hierarchy": "LOC>GRP4",
+				"desc": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (disembarkation) of a passenger and/or crew.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "LOC",
+				"conditional": "Conditional",
+				"cardinality": "25",
+				"attributes": [
+					{
+						"code": "3227",
+						"name": "LOCATION FUNCTION CODE QUALIFIER",
+						"desc": "Code identifying the function of a location.",
+						"value": "Port of disembarkation",
+						"value_coded": "179"
+					},
+					{
+						"code": "3225",
+						"name": "Location name code",
+						"desc": "Code specifying the name of the location.",
+						"value": "ATL"
+					}
+				]
+			},
+			{
+				"hierarchy": "LOC>GRP4",
+				"desc": "A segment indicating country of birth and port/place of origin (embarkation), transit and destination (disembarkation) of a passenger and/or crew.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "LOC",
+				"conditional": "Conditional",
+				"cardinality": "25",
+				"attributes": [
+					{
+						"code": "3227",
+						"name": "LOCATION FUNCTION CODE QUALIFIER",
+						"desc": "Code identifying the function of a location.",
+						"value": "Place of residence",
+						"value_coded": "174"
+					},
+					{
+						"code": "3225",
+						"name": "Location name code",
+						"desc": "Code specifying the name of the location.",
+						"value": "CAN"
+					}
+				]
+			},
+			{
+				"hierarchy": "COM>GRP4",
+				"desc": "A segment to identify a communication number of a department or a person to whom communication should be directed (e.g. passenger telephone details).\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "COM",
+				"conditional": "Conditional",
+				"cardinality": "1",
+				"attributes": [
+					{
+						"code": "3148",
+						"name": "Communication address identifier",
+						"desc": "To identify a communication address.",
+						"value": "502-555-1234"
+					},
+					{
+						"code": "3155",
+						"name": "Communication address code qualifier",
+						"desc": "Code qualifying the communication address.",
+						"value": "Telephone",
+						"value_coded": "TE"
+					}
+				]
+			},
+			{
+				"hierarchy": "NAT>GRP4",
+				"desc": "A segment to indicate the nationality of a passenger and/or crew.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "NAT",
+				"conditional": "Conditional",
+				"cardinality": "9",
+				"attributes": [
+					{
+						"code": "3493",
+						"name": "NATIONALITY CODE QUALIFIER",
+						"desc": "Code qualifying a nationality.",
+						"value": "Current nationality",
+						"value_coded": "2"
+					},
+					{
+						"code": "3293",
+						"name": "Nationality name code",
+						"desc": "Code specifying the name of a nationality.",
+						"value": "CAN"
+					}
+				]
+			},
+			{
+				"hierarchy": "RFF>GRP4",
+				"desc": "A segment specifying the number assigned by a supplier that identifies a passenger's reservation.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+				"code": "RFF",
+				"conditional": "Conditional",
+				"cardinality": "1",
+				"attributes": [
+					{
+						"code": "1153",
+						"name": "Reference code qualifier",
+						"desc": "Code qualifying a reference.",
+						"value": "Passenger reservation number",
+						"value_coded": "AVF"
+					},
+					{
+						"code": "1154",
+						"name": "Reference identifier",
+						"desc": "Identifies a reference.",
+						"value": "ABC123"
+					}
+				]
+			},
+			{
+				"code": "GRP5",
+				"segments": [
+					{
+						"hierarchy": "RFF>GRP5>GRP4",
+						"desc": "A segment to specify document reference.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "RFF",
+						"conditional": "Conditional",
+						"cardinality": "9",
+						"attributes": [
+							{
+								"code": "1153",
+								"name": "Reference code qualifier",
+								"desc": "Code qualifying a reference.",
+								"value": "Originator's reference",
+								"value_coded": "ABO"
+							},
+							{
+								"code": "1154",
+								"name": "Reference identifier",
+								"desc": "Identifies a reference.",
+								"value": "BA1321654987"
+							}
+						]
+					},
+					{
+						"hierarchy": "RFF>GRP5>GRP4",
+						"desc": "A segment to specify document reference.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "RFF",
+						"conditional": "Conditional",
+						"cardinality": "9",
+						"attributes": [
+							{
+								"code": "1153",
+								"name": "Reference code qualifier",
+								"desc": "Code qualifying a reference.",
+								"value": "Government agency reference number",
+								"value_coded": "AEA"
+							},
+							{
+								"code": "1154",
+								"name": "Reference identifier",
+								"desc": "Identifies a reference.",
+								"value": "1234567890ABC"
+							}
+						]
+					},
+					{
+						"hierarchy": "RFF>GRP5>GRP4",
+						"desc": "A segment to specify document reference.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "RFF",
+						"conditional": "Conditional",
+						"cardinality": "9",
+						"attributes": [
+							{
+								"code": "1153",
+								"name": "Reference code qualifier",
+								"desc": "Code qualifying a reference.",
+								"value": "Customer reference number",
+								"value_coded": "CR"
+							},
+							{
+								"code": "1154",
+								"name": "Reference identifier",
+								"desc": "Identifies a reference.",
+								"value": "20060907NY123"
+							}
+						]
+					},
+					{
+						"hierarchy": "RFF>GRP5>GRP4",
+						"desc": "A segment to specify document reference.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "RFF",
+						"conditional": "Conditional",
+						"cardinality": "9",
+						"attributes": [
+							{
+								"code": "1153",
+								"name": "Reference code qualifier",
+								"desc": "Code qualifying a reference.",
+								"value": "Acknowledgement of order number",
+								"value_coded": "AAA"
+							},
+							{
+								"code": "1154",
+								"name": "Reference identifier",
+								"desc": "Identifies a reference.",
+								"value": "23C"
+							}
+						]
+					},
+					{
+						"hierarchy": "RFF>GRP5>GRP4",
+						"desc": "A segment to specify document reference.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "RFF",
+						"conditional": "Conditional",
+						"cardinality": "9",
+						"attributes": [
+							{
+								"code": "1153",
+								"name": "Reference code qualifier",
+								"desc": "Code qualifying a reference.",
+								"value": "Application reference number",
+								"value_coded": "AGK"
+							},
+							{
+								"code": "1154",
+								"name": "Reference identifier",
+								"desc": "Identifies a reference.",
+								"value": "600"
+							}
+						]
+					},
+					{
+						"hierarchy": "RFF>GRP5>GRP4",
+						"desc": "A segment to specify document reference.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "RFF",
+						"conditional": "Conditional",
+						"cardinality": "9",
+						"attributes": [
+							{
+								"code": "1153",
+								"name": "Reference code qualifier",
+								"desc": "Code qualifying a reference.",
+								"value": "Member number",
+								"value_coded": "AGU"
+							},
+							{
+								"code": "1154",
+								"name": "Reference identifier",
+								"desc": "Identifies a reference.",
+								"value": "AOFFCODEWORD"
+							}
+						]
+					},
+					{
+						"hierarchy": "DOC>GRP5>GRP4",
+						"desc": "A segment identifying passenger and/or crew travel documents, such as passports, visas etc.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "DOC",
+						"conditional": "Mandatory",
+						"cardinality": "1",
+						"attributes": [
+							{
+								"code": "1001",
+								"name": "Document name code",
+								"desc": "Code specifying the document name.",
+								"value": "Party information",
+								"value_coded": "10"
+							},
+							{
+								"code": "1131",
+								"name": "Code list identification code",
+								"desc": "Code identifying a user or association maintained code list.",
+								"value": "Customs special codes",
+								"value_coded": "110"
+							},
+							{
+								"code": "3055",
+								"name": "Code list responsible agency code",
+								"desc": "Code specifying the agency responsible for a code list.",
+								"value": "US, U.S. Customs Service",
+								"value_coded": "111"
+							},
+							{
+								"code": "1004",
+								"name": "Document identifier",
+								"desc": "To identify a document.",
+								"value": "MB1402411"
+							}
+						]
+					},
+					{
+						"hierarchy": "DTM>GRP5>GRP4",
+						"desc": "A segment to specify associated dates/times related to documents.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "DTM",
+						"conditional": "Conditional",
+						"cardinality": "5",
+						"attributes": [
+							{
+								"code": "2005",
+								"name": "Date or time or period function code qualifier",
+								"desc": "Code qualifying the function of a date, time or period.",
+								"value": "Expiry date",
+								"value_coded": "36"
+							},
+							{
+								"code": "2380",
+								"name": "Date or time or period text",
+								"desc": "The value of a date, a date and time, a time or of a period in a specified representation.",
+								"value": "081021"
+							}
+						]
+					},
+					{
+						"hierarchy": "LOC>GRP5>GRP4",
+						"desc": "A segment indicating the country that issued the document and/or the city where a related document was issued.\n  A group of segments to indicate the travel document details, date and time, reference, place and/or location identification, charge payment instructions and quantity.\n  A group of segments to indicate if passenger or crew member, personal details (name, title, sex and marital status), date of birth, attributes such as height, hair and eye colour, and other related details.",
+						"code": "LOC",
+						"conditional": "Conditional",
+						"cardinality": "2",
+						"attributes": [
+							{
+								"code": "3227",
+								"name": "LOCATION FUNCTION CODE QUALIFIER",
+								"desc": "Code identifying the function of a location.",
+								"value": "Place of document issue",
+								"value_coded": "91"
+							},
+							{
+								"code": "3225",
+								"name": "Location name code",
+								"desc": "Code specifying the name of the location.",
+								"value": "CAN"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"hierarchy": "CNT",
+		"desc": "A segment specifying control totals such as the total number of passengers/ crew members in the message.",
+		"code": "CNT",
+		"conditional": "Conditional",
+		"cardinality": "1",
+		"attributes": [
+			{
+				"code": "6069",
+				"name": "Control total type code qualifier",
+				"desc": "Code qualifying the type of control of hash total.",
+				"value": "Total number of passengers",
+				"value_coded": "42"
+			},
+			{
+				"code": "6066",
+				"name": "Control total quantity",
+				"desc": "To specify the value of a control quantity.",
+				"value": "1"
+			}
+		]
+	},
+	{
+		"hierarchy": "UNT",
+		"desc": "A service segment ending a message, giving the total number of segments in the message (including the UNH & UNT) and the control reference number of the message.",
+		"code": "UNT",
+		"conditional": "Mandatory",
+		"cardinality": "1",
+		"attributes": [
+			{
+				"code": "0074",
+				"name": "NUMBER OF SEGMENTS IN A MESSAGE",
+				"desc": "The number of segments in a message body, plus the message header segment and message trailer segment.",
+				"value": "35"
+			},
+			{
+				"code": "0062",
+				"name": "MESSAGE REFERENCE NUMBER",
+				"desc": "Unique message reference assigned by the sender.",
+				"value": "PAX001"
+			}
+		]
+	}
+]

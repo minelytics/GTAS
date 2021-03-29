@@ -14,15 +14,14 @@ import argparse
 #Tip you can get the codesets in this format by copy-pasting the html from 
 #https://www.truugo.com/edifact/d03a/cuscar/
 
-__author__ = "Chris Humphreys"
-__version__ = "1.0.0"
-__license__ = "GPL3"
 
-parser = argparse.ArgumentParser(description='Convert EDIFACT codeset to JSON')
-parser.add_argument('file', metavar='file', type=str, help='file to convert')
-args = parser.parse_args()
+# parser = argparse.ArgumentParser(description='Convert EDIFACT codeset to JSON')
+# parser.add_argument('file', metavar='file', type=str, help='file to convert')
+# args = parser.parse_args()
 
-with open(args.file) as raw_codelist_file:
+file = "d02b-paxlst.html"
+
+with open(file) as raw_codelist_file:
     codes = {}
     while True:
         code = raw_codelist_file.readline().rstrip()

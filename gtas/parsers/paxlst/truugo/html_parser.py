@@ -1,5 +1,6 @@
 import re
-from bs4 import BeautifulSoup, Tag, NavigableString
+
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 
 class MySection:
@@ -12,12 +13,12 @@ class MySection:
         self.attributes = []
 
     def __str__(self):
-        str_result = f'{self.code}({self.name}): {self.desc} : {self.repeat}'
-        str_result += "\n--" + str.join('\n--', [s.__str__() for s in self.attributes])
+        str_result = f"{self.code}({self.name}): {self.desc} : {self.repeat}"
+        str_result += "\n--" + str.join("\n--", [s.__str__() for s in self.attributes])
         return str_result
 
 
-class MyGroup():
+class MyGroup:
     def __init__(self):
         self.code = ""
         self.name = None
@@ -27,8 +28,8 @@ class MyGroup():
         self.sections = []
 
     def __str__(self):
-        str_result = f'{self.code}: {self.desc} : {self.repeat}'
-        str_result += "\n" + str.join('\n', [s.__str__() for s in self.sections])
+        str_result = f"{self.code}: {self.desc} : {self.repeat}"
+        str_result += "\n" + str.join("\n", [s.__str__() for s in self.sections])
         return str_result
 
 
@@ -44,13 +45,15 @@ class MyAttribute:
         self.attributes = []
 
     def __str__(self):
-        str_result = f'{self.code}({self.name}) : {self.desc}'
+        str_result = f"{self.code}({self.name}) : {self.desc}"
         if len(self.attributes) > 0:
-            str_result += "\n----" + str.join('\n----', [s.__str__() for s in self.attributes])
+            str_result += "\n----" + str.join(
+                "\n----", [s.__str__() for s in self.attributes]
+            )
         return str_result
 
 
-class FormatParser():
+class FormatParser:
     def __init__(self):
         self.my_sections = []
 
@@ -75,7 +78,7 @@ class FormatParser():
         # if it is a codeset there is an ahref sibling to the description
         possible_codeset_link = attribute_parts[3].find_next_sibling("a")
         if possible_codeset_link:
-            attribute.codeset = possible_codeset_link['title']
+            attribute.codeset = possible_codeset_link["title"]
         else:
             attribute.codeset = None
         return attribute
@@ -100,9 +103,9 @@ class FormatParser():
         my_grp.code = title_parts[0].string
         # Group description block
         section_desc = group_heading.find_next_sibling("div").find_all("div")[0]
-        group_desc_parts = section_desc.find_all('span')
+        group_desc_parts = section_desc.find_all("span")
         my_grp.repeat = group_desc_parts[1].string
-        my_grp.repeat += ' ' + group_desc_parts[0].string
+        my_grp.repeat += " " + group_desc_parts[0].string
         desc = group_desc_parts[1].next_sibling.strip()
         if desc != None:
             my_grp.desc = self.fix_whitespace(desc)
@@ -110,9 +113,9 @@ class FormatParser():
             my_grp.desc = None
 
     def fix_whitespace(self, a_string):
-        result = a_string.strip().replace('\n', ' ').replace('\r', '')
-        while '  ' in result:
-            result = result.replace('  ', ' ')
+        result = a_string.strip().replace("\n", " ").replace("\r", "")
+        while "  " in result:
+            result = result.replace("  ", " ")
         return result
 
     def _next_non_string_sibling(self, tag):
@@ -133,7 +136,7 @@ class FormatParser():
         for attribute_div in content.children:
             if isinstance(attribute_div, Tag):
                 # a repeating set of divs, either top level attribute which has a class or parent div for sub attributes
-                if attribute_div.has_attr('class'):
+                if attribute_div.has_attr("class"):
                     # A top level segment attribute
                     attribute = self._decode_attribute(attribute_div)
                     my_sec.attributes.append(attribute)
@@ -157,26 +160,26 @@ class FormatParser():
         sections = content.children
         for section in sections:
             if isinstance(section, Tag):
-                if 'class' in section.attrs:
-                    if 'seg' in section['class']:
+                if "class" in section.attrs:
+                    if "seg" in section["class"]:
                         my_sec = MySection()
                         self._decode_section(my_sec, section)
                         my_grp.sections.append(my_sec)
-                    if 'grp' in section['class']:
+                    if "grp" in section["class"]:
                         my_sub_grp = MyGroup()
                         my_grp.sections.append(my_sub_grp)
                         self._decode_group(my_sub_grp, section)
 
     def parse(self, html_text):
-        soup = BeautifulSoup(html_text, 'html.parser')
+        soup = BeautifulSoup(html_text, "html.parser")
         # Find all div children of the #view-message tag
         sections = soup.select("#view-message")[0].children
 
         for section in sections:
             if isinstance(section, Tag):
-                if 'class' in section.attrs:
+                if "class" in section.attrs:
                     # print(section['class'])
-                    if 'grp' in section['class']:
+                    if "grp" in section["class"]:
                         my_grp = MyGroup()
                         self.my_sections.append(my_grp)
                         self._decode_group(my_grp, section)

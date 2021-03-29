@@ -1,6 +1,7 @@
-from bs4 import BeautifulSoup
-import requests
 import json
+
+import requests
+from bs4 import BeautifulSoup
 
 # url = "https://www.truugo.com/edifact/d02b/paxlst/"
 # html_content = requests.get(url, headers=headers).text
@@ -462,14 +463,13 @@ for codelist in codelists:
 
     cl_soup = BeautifulSoup(cl_html_content, "html.parser")
 
-    cl_name = cl_soup.find("div", attrs={"class": "titles"}).find("h1").text.split(" ")[-1]
+    cl_name = (
+        cl_soup.find("div", attrs={"class": "titles"}).find("h1").text.split(" ")[-1]
+    )
     cl_data = f"codelists/codelist_{cl_name}.json"
     cl_desc = cl_soup.find("h2").text
 
-    cl_json[cl_name] = {
-        "data": cl_data,
-        "desc": cl_desc
-    }
+    cl_json[cl_name] = {"data": cl_data, "desc": cl_desc}
 
     cl_file = f"../codelists/codelist_{cl_name}.json"
     description = cl_soup.find("h2")
@@ -480,10 +480,7 @@ for codelist in codelists:
         name = item.find("div", attrs={"class": "name"}).text
         desc = item.find("div", attrs={"class": "desc"}).text
 
-        cl_codelist[cd] = {
-            "name": name,
-            "desc": desc
-        }
+        cl_codelist[cd] = {"name": name, "desc": desc}
 
     with open(cl_file, "w") as json_file:
         json.dump(cl_codelist, json_file, indent=4, sort_keys=False)

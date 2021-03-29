@@ -1,8 +1,9 @@
 import unittest
-import html_parser as parse
+
+import gtas.parsers.paxlst.truugo.html_parser as parse
+
 
 class TestParse(unittest.TestCase):
-
     def test_simple_section_with_attribute_and_sub_attributes(self):
         html_text = """
         <div id="container">
@@ -50,47 +51,52 @@ class TestParse(unittest.TestCase):
         parser.parse(html_text)
         self.assertEqual(len(parser.my_sections), 1)
         section = parser.my_sections[0]
-        self.assertEqual(section.code, 'QTY')
-        self.assertEqual(section.name, 'QUANTITY')
-        self.assertEqual(section.desc, 'A segment to indicate the number of persons onboard.')
-        self.assertEqual(section.repeat, 'C 9')
+        self.assertEqual(section.code, "QTY")
+        self.assertEqual(section.name, "QUANTITY")
+        self.assertEqual(
+            section.desc, "A segment to indicate the number of persons onboard."
+        )
+        self.assertEqual(section.repeat, "C 9")
         self.assertEqual(len(section.attributes), 1)
         attribute = section.attributes[0]
-        self.assertEqual(attribute.code, 'C186')
-        self.assertEqual(attribute.name, 'QUANTITY DETAILS')
-        self.assertEqual(attribute.desc, 'Quantity information in a transaction, qualified when relevant.')
-        self.assertEqual(attribute.repeat, 'Mandatory')
+        self.assertEqual(attribute.code, "C186")
+        self.assertEqual(attribute.name, "QUANTITY DETAILS")
+        self.assertEqual(
+            attribute.desc,
+            "Quantity information in a transaction, qualified when relevant.",
+        )
+        self.assertEqual(attribute.repeat, "Mandatory")
         self.assertEquals(attribute.codeset, None)
         self.assertEqual(len(attribute.attributes), 3)
         sub_attribute = attribute.attributes[0]
-        self.assertEqual(sub_attribute.code, '6063')
-        self.assertEqual(sub_attribute.name, 'Quantity type code qualifier')
-        self.assertEqual(sub_attribute.desc, 'Code qualifying the type of quantity.')
-        self.assertEqual(sub_attribute.repeat, 'Mandatory')
-        self.assertEqual(sub_attribute.type, 'an')
-        self.assertEqual(sub_attribute.length, '0..3')
-        self.assertEquals(sub_attribute.codeset, '6063')
+        self.assertEqual(sub_attribute.code, "6063")
+        self.assertEqual(sub_attribute.name, "Quantity type code qualifier")
+        self.assertEqual(sub_attribute.desc, "Code qualifying the type of quantity.")
+        self.assertEqual(sub_attribute.repeat, "Mandatory")
+        self.assertEqual(sub_attribute.type, "an")
+        self.assertEqual(sub_attribute.length, "0..3")
+        self.assertEquals(sub_attribute.codeset, "6063")
         self.assertEqual(len(sub_attribute.attributes), 0)
         sub_attribute = attribute.attributes[1]
-        self.assertEqual(sub_attribute.code, '6060')
-        self.assertEqual(sub_attribute.name, 'Quantity')
-        self.assertEqual(sub_attribute.desc, 'Alphanumeric representation of a quantity.')
-        self.assertEqual(sub_attribute.repeat, 'Mandatory')
-        self.assertEqual(sub_attribute.type, 'an')
-        self.assertEqual(sub_attribute.length, '0..35')
+        self.assertEqual(sub_attribute.code, "6060")
+        self.assertEqual(sub_attribute.name, "Quantity")
+        self.assertEqual(
+            sub_attribute.desc, "Alphanumeric representation of a quantity."
+        )
+        self.assertEqual(sub_attribute.repeat, "Mandatory")
+        self.assertEqual(sub_attribute.type, "an")
+        self.assertEqual(sub_attribute.length, "0..35")
         self.assertEquals(sub_attribute.codeset, None)
         self.assertEqual(len(sub_attribute.attributes), 0)
         sub_attribute = attribute.attributes[2]
-        self.assertEqual(sub_attribute.code, '6411')
-        self.assertEqual(sub_attribute.name, 'Measurement unit code')
-        self.assertEqual(sub_attribute.desc, 'Code specifying the unit of measurement.')
-        self.assertEqual(sub_attribute.repeat, 'Conditional')
-        self.assertEqual(sub_attribute.type, 'an')
-        self.assertEqual(sub_attribute.length, '0..8')
+        self.assertEqual(sub_attribute.code, "6411")
+        self.assertEqual(sub_attribute.name, "Measurement unit code")
+        self.assertEqual(sub_attribute.desc, "Code specifying the unit of measurement.")
+        self.assertEqual(sub_attribute.repeat, "Conditional")
+        self.assertEqual(sub_attribute.type, "an")
+        self.assertEqual(sub_attribute.length, "0..8")
         self.assertEquals(sub_attribute.codeset, None)
         self.assertEqual(len(sub_attribute.attributes), 0)
-
-
 
     def test_group_two_sections(self):
         html_text = """
@@ -146,36 +152,47 @@ class TestParse(unittest.TestCase):
         parser.parse(html_text)
         self.assertEqual(len(parser.my_sections), 1)
         grp = parser.my_sections[0]
-        self.assertEqual(grp.code, 'GRP1')
+        self.assertEqual(grp.code, "GRP1")
         self.assertEqual(grp.name, None)
-        self.assertEqual(grp.desc, 'A group of segments to identify the unique reference number and date time details for the whole message.')
-        self.assertEqual(grp.repeat, 'Conditional 99')
+        self.assertEqual(
+            grp.desc,
+            "A group of segments to identify the unique reference number and date time details for the whole message.",
+        )
+        self.assertEqual(grp.repeat, "Conditional 99")
         self.assertEqual(len(grp.sections), 2)
         section = grp.sections[0]
-        self.assertEqual(section.code, 'RFF')
-        self.assertEqual(section.name, 'REFERENCE')
-        self.assertEqual(section.desc, 'A segment to provide the unique reference number for the message, e.g. manifest number.')
-        self.assertEqual(section.repeat, 'M 1')
+        self.assertEqual(section.code, "RFF")
+        self.assertEqual(section.name, "REFERENCE")
+        self.assertEqual(
+            section.desc,
+            "A segment to provide the unique reference number for the message, e.g. manifest number.",
+        )
+        self.assertEqual(section.repeat, "M 1")
         self.assertEqual(len(section.attributes), 1)
         attribute = section.attributes[0]
-        self.assertEqual(attribute.code, 'C506')
-        self.assertEqual(attribute.name, 'REFERENCE')
-        self.assertEqual(attribute.desc, 'Identification of a reference.')
-        self.assertEqual(attribute.repeat, 'Mandatory')
+        self.assertEqual(attribute.code, "C506")
+        self.assertEqual(attribute.name, "REFERENCE")
+        self.assertEqual(attribute.desc, "Identification of a reference.")
+        self.assertEqual(attribute.repeat, "Mandatory")
         self.assertEqual(len(attribute.attributes), 0)
         section = grp.sections[1]
-        self.assertEqual(section.code, 'DTM')
-        self.assertEqual(section.name, 'DATE/TIME/PERIOD')
-        self.assertEqual(section.desc, 'A segment to indicate the date/time of the reference number for the message.')
-        self.assertEqual(section.repeat, 'C 9')
+        self.assertEqual(section.code, "DTM")
+        self.assertEqual(section.name, "DATE/TIME/PERIOD")
+        self.assertEqual(
+            section.desc,
+            "A segment to indicate the date/time of the reference number for the message.",
+        )
+        self.assertEqual(section.repeat, "C 9")
         self.assertEqual(len(section.attributes), 1)
         attribute = section.attributes[0]
-        self.assertEqual(attribute.code, 'C507')
-        self.assertEqual(attribute.name, 'DATE/TIME/PERIOD')
-        self.assertEqual(attribute.desc, 'Date and/or time, or period relevant to the specified date/time/period type.')
-        self.assertEqual(attribute.repeat, 'Mandatory')
+        self.assertEqual(attribute.code, "C507")
+        self.assertEqual(attribute.name, "DATE/TIME/PERIOD")
+        self.assertEqual(
+            attribute.desc,
+            "Date and/or time, or period relevant to the specified date/time/period type.",
+        )
+        self.assertEqual(attribute.repeat, "Mandatory")
         self.assertEqual(len(attribute.attributes), 0)
-
 
     def test_group_with_section_and_embedded_group(self):
         html_text = """
@@ -246,48 +263,61 @@ class TestParse(unittest.TestCase):
         parser.parse(html_text)
         self.assertEqual(len(parser.my_sections), 1)
         grp = parser.my_sections[0]
-        self.assertEqual(grp.code, 'GRP2')
+        self.assertEqual(grp.code, "GRP2")
         self.assertEqual(grp.name, None)
-        self.assertEqual(grp.desc, 'A group of segments to identify contact and communication contact information related to the person responsible for the cargo reporting and/or to report crew members on a conveyance.')
-        self.assertEqual(grp.repeat, 'Conditional 99')
+        self.assertEqual(
+            grp.desc,
+            "A group of segments to identify contact and communication contact information related to the person responsible for the cargo reporting and/or to report crew members on a conveyance.",
+        )
+        self.assertEqual(grp.repeat, "Conditional 99")
         self.assertEqual(len(grp.sections), 2)
         section = grp.sections[0]
-        self.assertEqual(section.code, 'NAD')
-        self.assertEqual(section.name, 'NAME AND ADDRESS')
-        self.assertEqual(section.desc, 'A segment to identify the person or party reporting the cargo and/or acting as a crew member on a conveyance.')
-        self.assertEqual(section.repeat, 'M 1')
+        self.assertEqual(section.code, "NAD")
+        self.assertEqual(section.name, "NAME AND ADDRESS")
+        self.assertEqual(
+            section.desc,
+            "A segment to identify the person or party reporting the cargo and/or acting as a crew member on a conveyance.",
+        )
+        self.assertEqual(section.repeat, "M 1")
         self.assertEqual(len(section.attributes), 1)
         attribute = section.attributes[0]
-        self.assertEqual(attribute.code, '3035')
-        self.assertEqual(attribute.name, 'PARTY FUNCTION CODE QUALIFIER')
-        self.assertEqual(attribute.desc, 'Code giving specific meaning to a party.')
-        self.assertEqual(attribute.repeat, 'Mandatory')
-        self.assertEqual(attribute.type, 'an')
-        self.assertEqual(attribute.length, '0..3')
-        self.assertEquals(attribute.codeset, '3035')
+        self.assertEqual(attribute.code, "3035")
+        self.assertEqual(attribute.name, "PARTY FUNCTION CODE QUALIFIER")
+        self.assertEqual(attribute.desc, "Code giving specific meaning to a party.")
+        self.assertEqual(attribute.repeat, "Mandatory")
+        self.assertEqual(attribute.type, "an")
+        self.assertEqual(attribute.length, "0..3")
+        self.assertEquals(attribute.codeset, "3035")
         self.assertEqual(len(attribute.attributes), 0)
         sub_grp = grp.sections[1]
-        self.assertEqual(sub_grp.code, 'GRP3')
+        self.assertEqual(sub_grp.code, "GRP3")
         self.assertEqual(sub_grp.name, None)
-        self.assertEqual(sub_grp.desc, 'A group of segments to identify a contact and its communication related party.')
-        self.assertEqual(sub_grp.repeat, 'Conditional 9')
+        self.assertEqual(
+            sub_grp.desc,
+            "A group of segments to identify a contact and its communication related party.",
+        )
+        self.assertEqual(sub_grp.repeat, "Conditional 9")
         self.assertEqual(len(sub_grp.sections), 1)
         section = sub_grp.sections[0]
-        self.assertEqual(section.code, 'CTA')
-        self.assertEqual(section.name, 'CONTACT INFORMATION')
-        self.assertEqual(section.desc, 'A segment to identify a person or department within a party.')
-        self.assertEqual(section.repeat, 'M 1')
+        self.assertEqual(section.code, "CTA")
+        self.assertEqual(section.name, "CONTACT INFORMATION")
+        self.assertEqual(
+            section.desc, "A segment to identify a person or department within a party."
+        )
+        self.assertEqual(section.repeat, "M 1")
         self.assertEqual(len(section.attributes), 1)
         attribute = section.attributes[0]
-        self.assertEqual(attribute.code, '3139')
-        self.assertEqual(attribute.name, 'CONTACT FUNCTION CODE')
-        self.assertEqual(attribute.desc, 'Code specifying the function of a contact (e.g. department or person).')
-        self.assertEqual(attribute.repeat, 'Conditional')
-        self.assertEqual(attribute.type, 'an')
-        self.assertEqual(attribute.length, '0..3')
-        self.assertEquals(attribute.codeset, '3139')
+        self.assertEqual(attribute.code, "3139")
+        self.assertEqual(attribute.name, "CONTACT FUNCTION CODE")
+        self.assertEqual(
+            attribute.desc,
+            "Code specifying the function of a contact (e.g. department or person).",
+        )
+        self.assertEqual(attribute.repeat, "Conditional")
+        self.assertEqual(attribute.type, "an")
+        self.assertEqual(attribute.length, "0..3")
+        self.assertEquals(attribute.codeset, "3139")
         self.assertEqual(len(attribute.attributes), 0)
-
 
     def test_group_with_embedded_group_with_embedded_group(self):
         html_text = """
@@ -394,67 +424,90 @@ class TestParse(unittest.TestCase):
         parser.parse(html_text)
         self.assertEqual(len(parser.my_sections), 1)
         grp = parser.my_sections[0]
-        self.assertEqual(grp.code, 'GRP7')
+        self.assertEqual(grp.code, "GRP7")
         self.assertEqual(grp.name, None)
-        self.assertEqual(grp.desc, 'A group of segments to provide details of the consignment(s).')
-        self.assertEqual(grp.repeat, 'Conditional 9999')
+        self.assertEqual(
+            grp.desc, "A group of segments to provide details of the consignment(s)."
+        )
+        self.assertEqual(grp.repeat, "Conditional 9999")
         self.assertEqual(len(grp.sections), 2)
         section = grp.sections[0]
-        self.assertEqual(section.code, 'CNI')
-        self.assertEqual(section.name, 'CONSIGNMENT INFORMATION')
-        self.assertEqual(section.desc, 'A segment to sequentially number master bills reported in a multi-consignment message. For a single consignment message, this sequence number will always be 1.')
-        self.assertEqual(section.repeat, 'M 1')
+        self.assertEqual(section.code, "CNI")
+        self.assertEqual(section.name, "CONSIGNMENT INFORMATION")
+        self.assertEqual(
+            section.desc,
+            "A segment to sequentially number master bills reported in a multi-consignment message. For a single consignment message, this sequence number will always be 1.",
+        )
+        self.assertEqual(section.repeat, "M 1")
         self.assertEqual(len(section.attributes), 1)
         attribute = section.attributes[0]
-        self.assertEqual(attribute.code, '1490')
-        self.assertEqual(attribute.name, 'CONSOLIDATION ITEM NUMBER')
-        self.assertEqual(attribute.desc, 'To specify a consignment within a consolidation.')
-        self.assertEqual(attribute.repeat, 'Conditional')
-        self.assertEqual(attribute.type, 'n')
-        self.assertEqual(attribute.length, '0..4')
+        self.assertEqual(attribute.code, "1490")
+        self.assertEqual(attribute.name, "CONSOLIDATION ITEM NUMBER")
+        self.assertEqual(
+            attribute.desc, "To specify a consignment within a consolidation."
+        )
+        self.assertEqual(attribute.repeat, "Conditional")
+        self.assertEqual(attribute.type, "n")
+        self.assertEqual(attribute.length, "0..4")
         self.assertEqual(len(attribute.attributes), 0)
         sub_grp = grp.sections[1]
-        self.assertEqual(sub_grp.code, 'GRP8')
+        self.assertEqual(sub_grp.code, "GRP8")
         self.assertEqual(sub_grp.name, None)
-        self.assertEqual(sub_grp.desc, 'A group of segments specifying the details of each consignment.')
-        self.assertEqual(sub_grp.repeat, 'Conditional 9999')
+        self.assertEqual(
+            sub_grp.desc,
+            "A group of segments specifying the details of each consignment.",
+        )
+        self.assertEqual(sub_grp.repeat, "Conditional 9999")
         self.assertEqual(len(sub_grp.sections), 2)
         section = sub_grp.sections[0]
-        self.assertEqual(section.code, 'CPI')
-        self.assertEqual(section.name, 'CHARGE PAYMENT INSTRUCTIONS')
-        self.assertEqual(section.desc, 'A segment to specify the cargo category type, e.g. weight valuation, prepaid/collect and method of payment.')
-        self.assertEqual(section.repeat, 'C 9')
+        self.assertEqual(section.code, "CPI")
+        self.assertEqual(section.name, "CHARGE PAYMENT INSTRUCTIONS")
+        self.assertEqual(
+            section.desc,
+            "A segment to specify the cargo category type, e.g. weight valuation, prepaid/collect and method of payment.",
+        )
+        self.assertEqual(section.repeat, "C 9")
         self.assertEqual(len(section.attributes), 1)
         attribute = section.attributes[0]
-        self.assertEqual(attribute.code, '4237')
-        self.assertEqual(attribute.name, 'PAYMENT ARRANGEMENT CODE')
-        self.assertEqual(attribute.desc, 'Code specifying the arrangements for a payment.')
-        self.assertEqual(attribute.repeat, 'Conditional')
-        self.assertEqual(attribute.type, 'an')
-        self.assertEqual(attribute.length, '0..3')
-        self.assertEquals(attribute.codeset, '4237')
+        self.assertEqual(attribute.code, "4237")
+        self.assertEqual(attribute.name, "PAYMENT ARRANGEMENT CODE")
+        self.assertEqual(
+            attribute.desc, "Code specifying the arrangements for a payment."
+        )
+        self.assertEqual(attribute.repeat, "Conditional")
+        self.assertEqual(attribute.type, "an")
+        self.assertEqual(attribute.length, "0..3")
+        self.assertEquals(attribute.codeset, "4237")
         self.assertEqual(len(attribute.attributes), 0)
         sub_grp2 = sub_grp.sections[1]
-        self.assertEqual(sub_grp2.code, 'GRP9')
+        self.assertEqual(sub_grp2.code, "GRP9")
         self.assertEqual(sub_grp2.name, None)
-        self.assertEqual(sub_grp2.desc, 'A group of segments to identify details of onward carriage for each consignment.')
-        self.assertEqual(sub_grp2.repeat, 'Conditional 9')
+        self.assertEqual(
+            sub_grp2.desc,
+            "A group of segments to identify details of onward carriage for each consignment.",
+        )
+        self.assertEqual(sub_grp2.repeat, "Conditional 9")
         self.assertEqual(len(sub_grp2.sections), 1)
         section = sub_grp2.sections[0]
-        self.assertEqual(section.code, 'TDT')
-        self.assertEqual(section.name, 'TRANSPORT INFORMATION')
-        self.assertEqual(section.desc, 'A segment to specify the identity of the onward conveyance.')
-        self.assertEqual(section.repeat, 'M 1')
+        self.assertEqual(section.code, "TDT")
+        self.assertEqual(section.name, "TRANSPORT INFORMATION")
+        self.assertEqual(
+            section.desc, "A segment to specify the identity of the onward conveyance."
+        )
+        self.assertEqual(section.repeat, "M 1")
         self.assertEqual(len(section.attributes), 1)
         attribute = section.attributes[0]
-        self.assertEqual(attribute.code, '8051')
-        self.assertEqual(attribute.name, 'TRANSPORT STAGE CODE QUALIFIER')
-        self.assertEqual(attribute.desc, 'Code qualifying a specific stage of transport.')
-        self.assertEqual(attribute.repeat, 'Mandatory')
-        self.assertEqual(attribute.type, 'an')
-        self.assertEqual(attribute.length, '0..3')
-        self.assertEquals(attribute.codeset, '8051')
+        self.assertEqual(attribute.code, "8051")
+        self.assertEqual(attribute.name, "TRANSPORT STAGE CODE QUALIFIER")
+        self.assertEqual(
+            attribute.desc, "Code qualifying a specific stage of transport."
+        )
+        self.assertEqual(attribute.repeat, "Mandatory")
+        self.assertEqual(attribute.type, "an")
+        self.assertEqual(attribute.length, "0..3")
+        self.assertEquals(attribute.codeset, "8051")
         self.assertEqual(len(attribute.attributes), 0)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

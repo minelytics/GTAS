@@ -1,8 +1,9 @@
-from pydifact import SegmentCollection
-
-import json
 import abc
-from schema import load_schema, SchemaTraverser
+import json
+
+from pydifact.pydifact import SegmentCollection
+
+from gtas.parsers.paxlst.schema import SchemaTraverser, load_schema
 
 
 class CodesetManager:
@@ -13,7 +14,7 @@ class CodesetManager:
 
     def load_codesets(self):
         self.codelists = {}
-        with open('codelists.json') as json_file:
+        with open("codelists.json") as json_file:
             self.codelists = json.load(json_file)
             for codeset in self.codelists:
                 codeset_config = self.codelists[codeset]
@@ -28,7 +29,9 @@ class CodesetManager:
         try:
             return self.codelists[codeset_code]
         except KeyError:
-            msg = "Cannot find codeset '{}' - check included in codelists.json".format(codeset_code)
+            msg = "Cannot find codeset '{}' - check included in codelists.json".format(
+                codeset_code
+            )
             if self._verbose:
                 print(msg)
             raise KeyError(msg)
@@ -38,7 +41,9 @@ class CodesetManager:
         try:
             return codeset["codes"][code]
         except KeyError:
-            msg = "Cannot find code '{}' in codeset {} '{}'".format(code, codeset["name"], codeset["desc"])
+            msg = "Cannot find code '{}' in codeset {} '{}'".format(
+                code, codeset["name"], codeset["desc"]
+            )
             if self._verbose:
                 print(msg)
             if self._ignore_codeset_errors:
@@ -50,7 +55,9 @@ class CodesetManager:
 # Implement Handler to process the edifact message and call handle_message(...)
 class Handler(abc.ABC):
     @abc.abstractmethod
-    def visit_codeset_element(self, data_element_schema, element, codeset_manager, codeset_code, verbose):
+    def visit_codeset_element(
+        self, data_element_schema, element, codeset_manager, codeset_code, verbose
+    ):
         pass
 
     @abc.abstractmethod
@@ -79,7 +86,7 @@ def load_edifact(edifact_filename):
 
 
 def save_edifact(edifact_filename, message):
-    with open(edifact_filename, 'w') as edifact_file:
+    with open(edifact_filename, "w") as edifact_file:
         edifact_file.write(message.serialize())
     print("Edifact written to:{}".format(edifact_filename))
 
@@ -89,7 +96,7 @@ def load_schema_file(schema_file, verbose):
 
 
 def is_composite(component):
-    return component['element_type'] == 'Composite Attribute'
+    return component["element_type"] == "Composite Attribute"
 
 
 def is_codeset(component):
@@ -102,19 +109,24 @@ def schema_codeset_code(component):
 
 def handle_element(data_element_schema, element, codeset_manager, verbose, handler):
     try:
-        if is_codeset(data_element_schema) and element != '':
+        if is_codeset(data_element_schema) and element != "":
             codeset_code = schema_codeset_code(data_element_schema)
-            updated, new_value = handler.visit_codeset_element(data_element_schema, element, codeset_manager,
-                                                               codeset_code, verbose)
+            updated, new_value = handler.visit_codeset_element(
+                data_element_schema, element, codeset_manager, codeset_code, verbose
+            )
         else:
-            updated, new_value = handler.visit_literal_element(data_element_schema, element, codeset_manager)
+            updated, new_value = handler.visit_literal_element(
+                data_element_schema, element, codeset_manager
+            )
         return updated, new_value
     except Exception as e:
         print("Error {} whilst printing: {}".format(e, element))
         raise
 
 
-def handle_segment(segment, segment_schema, schema_position, codeset_manager, verbose, handler):
+def handle_segment(
+    segment, segment_schema, schema_position, codeset_manager, verbose, handler
+):
     try:
         handler.visit_segment(segment, segment_schema, schema_position)
         if verbose:
@@ -129,21 +141,37 @@ def handle_segment(segment, segment_schema, schema_position, codeset_manager, ve
                     print("{}:".format(data_element_schema["desc"]))
                 if isinstance(element, list):
                     # multiple component data elements specified
-                    for component_index, component_element in enumerate(element, start=0):
-                        component_schema = data_element_schema["attributes"][component_index]
-                        updated, new_value = handle_element(component_schema, component_element,
-                                                            codeset_manager, verbose, handler)
+                    for component_index, component_element in enumerate(
+                        element, start=0
+                    ):
+                        component_schema = data_element_schema["attributes"][
+                            component_index
+                        ]
+                        updated, new_value = handle_element(
+                            component_schema,
+                            component_element,
+                            codeset_manager,
+                            verbose,
+                            handler,
+                        )
                         if updated:
                             element[component_index] = new_value
                 else:
                     # Single component data element specified - assume first is sub element
-                    updated, new_value = handle_element(data_element_schema["attributes"][0], element, codeset_manager,
-                                                        verbose, handler)
+                    updated, new_value = handle_element(
+                        data_element_schema["attributes"][0],
+                        element,
+                        codeset_manager,
+                        verbose,
+                        handler,
+                    )
                     if updated:
                         segment.elements[index] = new_value
             else:
                 # schema suggests this is a single element
-                updated, new_value = handle_element(data_element_schema, element, codeset_manager, verbose, handler)
+                updated, new_value = handle_element(
+                    data_element_schema, element, codeset_manager, verbose, handler
+                )
                 if updated:
                     segment.elements[index] = new_value
     except:
@@ -151,7 +179,9 @@ def handle_segment(segment, segment_schema, schema_position, codeset_manager, ve
         raise
 
 
-def handle_message(message, schema, codeset_manager, verbose, show_only_unknown, handler):
+def handle_message(
+    message, schema, codeset_manager, verbose, show_only_unknown, handler
+):
     traverser = SchemaTraverser(schema)
     handler.start()
     for segment_index in range(0, len(message.segments)):
@@ -159,7 +189,14 @@ def handle_message(message, schema, codeset_manager, verbose, show_only_unknown,
         (segment_schema, schema_position) = traverser.find_segment_forward(segment.tag)
         if segment_schema is not None:
             if not show_only_unknown:
-                handle_segment(segment, segment_schema, schema_position, codeset_manager, verbose, handler)
+                handle_segment(
+                    segment,
+                    segment_schema,
+                    schema_position,
+                    codeset_manager,
+                    verbose,
+                    handler,
+                )
         else:
             handler.visit_unknown_segment(segment)
     handler.end()

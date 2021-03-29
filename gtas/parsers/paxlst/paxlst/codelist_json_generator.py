@@ -1,6 +1,7 @@
-from bs4 import BeautifulSoup
-import requests
 import json
+
+import requests
+from bs4 import BeautifulSoup
 
 # headers = requests.utils.default_headers()
 headers = {
@@ -20,7 +21,7 @@ headers = {
     "Sec-Fetch-Site": "cross-site",
     "Sec-Fetch-User": "?1",
     "Upgrade-Insecure-Requests": "1",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
 }
 
 url = "https://www.truugo.com/edifact/d02b/cl0065/"

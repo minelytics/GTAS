@@ -1,5 +1,7 @@
 import unittest
-from schema import SchemaTraverser, load_schema
+
+from gtas.parsers.paxlst.schema import SchemaTraverser, load_schema
+
 
 class TestParse(unittest.TestCase):
 
@@ -7,7 +9,7 @@ class TestParse(unittest.TestCase):
         cuscar_schema = load_schema("schema_for_test.json")
         traverser = SchemaTraverser(cuscar_schema)
 
-        all_segment_codes = [i['code'] for i in traverser.segment_generator(follow_loops = False)]
+        all_segment_codes = [i['code'] for i in traverser.segment_generator(follow_loops=False)]
         expected = ['UNA', 'UNB', 'BGM', 'DTM', 'UNT', 'UNZ']
         self.assertEqual(all_segment_codes, expected)
 
@@ -15,7 +17,7 @@ class TestParse(unittest.TestCase):
         cuscar_schema = load_schema("schema_for_test.json")
         traverser = SchemaTraverser(cuscar_schema)
 
-        all_segment_codes = [i['code'] for i in traverser.segment_generator(follow_loops = True)]
+        all_segment_codes = [i['code'] for i in traverser.segment_generator(follow_loops=True)]
         expected = ['UNA', 'UNB', 'BGM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'UNT', 'UNZ']
         self.assertEqual(all_segment_codes, expected)
 
@@ -23,7 +25,7 @@ class TestParse(unittest.TestCase):
         cuscar_schema = load_schema("schema_for_test2.json")
         traverser = SchemaTraverser(cuscar_schema)
 
-        all_segment_codes = [i['code'] for i in traverser.segment_generator(follow_loops = False)]
+        all_segment_codes = [i['code'] for i in traverser.segment_generator(follow_loops=False)]
         expected = ['UNA', 'UNB', 'AUT', 'DTM', 'RFF', 'UNT', 'UNZ']
         self.assertEqual(all_segment_codes, expected)
 
@@ -33,18 +35,17 @@ class TestParse(unittest.TestCase):
 
         all_segment_codes = [i['code'] for i in traverser.segment_generator(follow_loops=True)]
 
-        expected = ['UNA', 'UNB', 'AUT', 
-            'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM',
-            'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 
-            'UNT', 'UNZ']
+        expected = ['UNA', 'UNB', 'AUT',
+                    'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM', 'DTM',
+                    'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 'RFF', 'RFF',
+                    'UNT', 'UNZ']
         self.assertEqual(all_segment_codes, expected)
-
 
     def test_can_find_forward_by_segment_code_no_repeating(self):
         cuscar_schema = load_schema("schema_for_test.json")
         traverser = SchemaTraverser(cuscar_schema)
 
-        self.assertEqual(traverser.find_segment_forward('UNB')[0]['code'], 'UNB') 
+        self.assertEqual(traverser.find_segment_forward('UNB')[0]['code'], 'UNB')
         self.assertEqual(traverser.find_segment_forward('BGM')[0]['code'], 'BGM')
         self.assertEqual(traverser.find_segment_forward('DTM')[0]['code'], 'DTM')
         self.assertEqual(traverser.find_segment_forward('UNT')[0]['code'], 'UNT')
@@ -65,7 +66,7 @@ class TestParse(unittest.TestCase):
         self.assertEqual(traverser.find_segment_forward('DTM')[0]['code'], 'DTM')
         self.assertEqual(traverser.find_segment_forward('DTM')[0]['code'], 'DTM')
         self.assertEqual(traverser.find_segment_forward('UNT')[0]['code'], 'UNT')
-        
+
     def test_will_fail_if_cannot_find_segment(self):
         cuscar_schema = load_schema("schema_for_test.json")
         traverser = SchemaTraverser(cuscar_schema)
@@ -91,12 +92,11 @@ class TestParse(unittest.TestCase):
         self.assertEqual(traverser.find_segment_forward('DTM')[0]['code'], 'DTM')
         self.assertEqual(traverser.find_segment_forward('DTM')[0]['code'], 'DTM')
         self.assertEqual(traverser.find_segment_forward('DTM')[0]['code'], 'DTM')
-        
+
         with self.assertRaises(Exception) as context:
             traverser.find_segment_forward('DTM')
 
         self.assertTrue('Segment not found DTM' in str(context.exception))
-
 
 
 if __name__ == '__main__':

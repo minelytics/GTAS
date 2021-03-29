@@ -1,18 +1,18 @@
-import json
 import argparse
+import json
 
-#convert textual representation of codelist to json for use by this prettyprinter.
-#save the text data as data.txt
-#python convert_codelist.py  > o.json
-#rename file and add to codelists.json index file
+# convert textual representation of codelist to json for use by this prettyprinter.
+# save the text data as data.txt
+# python convert_codelist.py  > o.json
+# rename file and add to codelists.json index file
 
-#text format is 3 lines per code entry:
-#code
-#name
-#desc
+# text format is 3 lines per code entry:
+# code
+# name
+# desc
 
-#Tip you can get the codesets in this format by copy-pasting the html from 
-#https://www.truugo.com/edifact/d03a/cuscar/
+# Tip you can get the codesets in this format by copy-pasting the html from
+# https://www.truugo.com/edifact/d03a/cuscar/
 
 
 # parser = argparse.ArgumentParser(description='Convert EDIFACT codeset to JSON')
@@ -33,5 +33,5 @@ with open(file) as raw_codelist_file:
         codes[code] = {}
         codes[code]["name"] = name
         codes[code]["desc"] = desc
-        
+
     print(json.dumps(codes))

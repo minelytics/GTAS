@@ -25,5 +25,13 @@ djangorestframework==3.11.0  # https://github.com/encode/django-rest-framework
 # Django reversion
 django_reversion==3.0.7 # https://github.com/etianen/django-reversion
 
-#  EDIFact
-pydifact  # https://github.com/nerdocs/pydifact
+# EDIFact
+# =======
+
+# pydifact pypi version - stable, not updated
+# -------------------------------------------
+# pydifact  # https://github.com/nerdocs/pydifact
+
+# pydifact github version - unstable, updated
+# -------------------------------------------
+-e git+https://github.com/nerdocs/pydifact.git#egg=pydifact

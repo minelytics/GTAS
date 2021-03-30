@@ -14,13 +14,15 @@ class CodesetManager:
 
     def load_codesets(self):
         self.codelists = {}
-        with open("codelists.json") as json_file:
+        with open("./gtas/parsers/paxlst/codelists.json") as json_file:
             self.codelists = json.load(json_file)
             for codeset in self.codelists:
                 codeset_config = self.codelists[codeset]
                 if self._verbose:
                     print("Loading codeset from {}".format(codeset_config["data"]))
-                with open(codeset_config["data"]) as json_file:
+                with open(
+                    "./gtas/parsers/paxlst/" + codeset_config["data"]
+                ) as json_file:
                     codes = json.load(json_file)
                 codeset_config["codes"] = codes
                 codeset_config["name"] = codeset

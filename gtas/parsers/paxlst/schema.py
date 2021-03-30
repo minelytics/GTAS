@@ -1,8 +1,13 @@
 import json
 
 
-def load_schema(schema_file, interchange_header_file="unb.json",
-                interchange_trailer_file="unz.json", service_string_advice_file="una.json", verbose=False):
+def load_schema(
+    schema_file,
+    interchange_header_file="./gtas/parsers/paxlst/unb.json",
+    interchange_trailer_file="./gtas/parsers/paxlst/unz.json",
+    service_string_advice_file="./gtas/parsers/paxlst/una.json",
+    verbose=False,
+):
     # combine UNB definition with the supplied CUSCAR message definition
     with open(interchange_header_file) as json_file:
         cuscar_unb_schema = json.load(json_file)
@@ -24,7 +29,7 @@ def load_schema(schema_file, interchange_header_file="unb.json",
     return json_schema
 
 
-class SchemaIterator():
+class SchemaIterator:
     def __init__(self, parent):
         self._list_position = 0
         self._loop_count = 1
@@ -38,7 +43,7 @@ class SchemaIterator():
 
     def _has_next_optional_loop(self, follow_loops=True):
         if follow_loops:
-            cardinality = int(self.current_segment()['cardinality'])
+            cardinality = int(self.current_segment()["cardinality"])
             result = self._loop_count < cardinality
             # print(f"Current tag {self.current_segment_tag()} cardinality {self.current_segment()['cardinality']}
             # loop_count {self._loop_count} result {result}")
@@ -48,18 +53,22 @@ class SchemaIterator():
 
     def no_more_loops_for_current_tag(self):
         # print(f'No more loops for {self.position()}')
-        cardinality = int(self.current_segment()['cardinality'])
+        cardinality = int(self.current_segment()["cardinality"])
         self._loop_count = cardinality
 
     def _has_parent_next(self):
         return self._parent is not None and self._parent.has_next()
 
     def has_next(self, follow_loops=True):
-        return self._has_next_siblings() or self._has_next_optional_loop(follow_loops) or self._has_parent_next()
+        return (
+            self._has_next_siblings()
+            or self._has_next_optional_loop(follow_loops)
+            or self._has_parent_next()
+        )
 
     def next(self, follow_loops=True):
         if not self.has_next(follow_loops):
-            raise Exception('No more segments')
+            raise Exception("No more segments")
 
         if not self._has_next_optional_loop(follow_loops):
             if self._has_next_siblings():
@@ -69,7 +78,7 @@ class SchemaIterator():
                 return self._parent.next(follow_loops=follow_loops)
 
         self._loop_count += 1
-        if self.current_segment()['element_type'] == 'Group':
+        if self.current_segment()["element_type"] == "Group":
             grp_iter = GroupIterator(self.current_segment(), self)
             return grp_iter
         else:
@@ -79,21 +88,21 @@ class SchemaIterator():
         return self._list()[self._list_position]
 
     def current_segment_tag(self):
-        return self.current_segment()['code']
+        return self.current_segment()["code"]
 
     def position(self):
-        return {'code': self.position_code(), 'desc': self.position_description()}
+        return {"code": self.position_code(), "desc": self.position_description()}
 
     def position_code(self):
         result = self.current_segment_tag()
         if self._parent is not None:
-            result += '>' + self._parent.position_code()
+            result += ">" + self._parent.position_code()
         return result
 
     def position_description(self):
-        result = self.current_segment()['desc']
+        result = self.current_segment()["desc"]
         if self._parent is not None:
-            result += '\n  ' + self._parent.position_description()
+            result += "\n  " + self._parent.position_description()
         return result
 
 
@@ -115,13 +124,13 @@ class GroupIterator(SchemaIterator):
         self._group = group
 
     def _list(self):
-        return self._group['sections']
+        return self._group["sections"]
 
     def has_just_entered_group(self):
         return self._list_position == 0
 
     def group_tag(self):
-        return self._group['code']
+        return self._group["code"]
 
     def skip(self):
         self._parent.no_more_loops_for_current_tag()
@@ -143,7 +152,6 @@ class GroupSkip:
 
 
 class SchemaTraverser:
-
     def __init__(self, schema):
         self._iterator = RootListIterator(schema)
 

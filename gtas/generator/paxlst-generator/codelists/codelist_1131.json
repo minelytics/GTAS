@@ -1,0 +1,990 @@
+{
+    "1": {
+        "name": "Logistics code list",
+        "desc": "Code list containing logistics and program management activities.\n                                "
+    },
+    "2": {
+        "name": "ICD 9",
+        "desc": "A code list containing the International Classification of Diseases,\n                                    version 9 (ICD 9)."
+    },
+    "3": {
+        "name": "Operating status",
+        "desc": "Code list identifying operating status of an entity."
+    },
+    "4": {
+        "name": "DoDAAC (Department of Defense Activity Address Code)",
+        "desc": "A code list containing codes assigned to operating military units to\n                                    identify the name and address of the unit."
+    },
+    "5": {
+        "name": "Facility identification",
+        "desc": "A code list identifying a facility(ies)."
+    },
+    "6": {
+        "name": "Application acknowledgement and error codes",
+        "desc": "A code list to identify acknowledgement and error codes applicable at\n                                    the application level."
+    },
+    "7": {
+        "name": "Health industry organization identification",
+        "desc": "List of codes identifying organizations in the health care industry.\n                                "
+    },
+    "8": {
+        "name": "Electromagnetic transmitter identification",
+        "desc": "A code list containing electromagnetic transmitter identifications.\n                                "
+    },
+    "9": {
+        "name": "Military Assistance Program Address Code (MAPAC)",
+        "desc": "Lists of codes identifying name and address information for\n                                    organizations participating in a military assistance program."
+    },
+    "10": {
+        "name": "Medicare provider",
+        "desc": "A list of codes identifying health care providers under the Medicare\n                                    program."
+    },
+    "11": {
+        "name": "Medicaid provider",
+        "desc": "A list of codes identifying health care providers under a Medicaid\n                                    program."
+    },
+    "12": {
+        "name": "Telephone directory",
+        "desc": "Self explanatory."
+    },
+    "13": {
+        "name": "Employee identification",
+        "desc": "A list of codes identifying employees of an organization."
+    },
+    "14": {
+        "name": "Sample extraction location",
+        "desc": "Code list identifying the location from which a sample is taken."
+    },
+    "15": {
+        "name": "Medical benefits schedule",
+        "desc": "Code list containing classifications of medical services for use in\n                                    determining the medical benefits payable."
+    },
+    "16": {
+        "name": "Postcode directory",
+        "desc": "[3251] Code defining postal zones or addresses."
+    },
+    "17": {
+        "name": "ICD 10",
+        "desc": "Code list containing the International Classification of Diseases,\n                                    version 10 (ICD 10)."
+    },
+    "18": {
+        "name": "Diagnosis Related Group (DRG)",
+        "desc": "Code list containing diagnosis related group classifications."
+    },
+    "19": {
+        "name": "Standard text clauses",
+        "desc": "A list of codes representing standardized text clauses."
+    },
+    "20": {
+        "name": "United Nations Standard Products and Services Classification (UN/SPSC)\n                                    code",
+        "desc": "A code list that provides a hierarchical classification of goods and\n                                    services for the purposes of resource discovery and spend analysis."
+    },
+    "21": {
+        "name": "Policy on claim indicator",
+        "desc": "Identifies a code list containing indicators referring to policy on\n                                    claims."
+    },
+    "22": {
+        "name": "EDIRA-Id (EDI Registration Authority Identification)",
+        "desc": "A code list specifying codes assigned by the EDI Registration\n                                    Authority to register organizations (legal persons, partnerships, sole\n                                    proprietorships and their branch offices) and private persons."
+    },
+    "23": {
+        "name": "Clearing house automated payment",
+        "desc": "Self explanatory."
+    },
+    "24": {
+        "name": "Rail handling restrictions and instructions",
+        "desc": "A code list specifying rail codes for handling restrictions or\n                                    instructions."
+    },
+    "25": {
+        "name": "Bank identification",
+        "desc": "Code for identification of banks."
+    },
+    "26": {
+        "name": "Rail harmonized equipment type",
+        "desc": "A code list specifying codes for harmonized equipment type in the\n                                    railway industry."
+    },
+    "27": {
+        "name": "Railway frontier and transit point",
+        "desc": "A code list specifying frontier or transit points in the railway\n                                    industry."
+    },
+    "33": {
+        "name": "Commercial And Government Entity (CAGE)",
+        "desc": "List of codes identifying a commercial and government entity."
+    },
+    "34": {
+        "name": "Reinsurance policy attributes",
+        "desc": "A list of attributes regarding policies reinsured with a professional\n                                    reinsurer."
+    },
+    "35": {
+        "name": "Rail additional charges",
+        "desc": "A code list identifying specific rail charges included in the payment\n                                    conditions in addition to the freight cost."
+    },
+    "36": {
+        "name": "Railway company network",
+        "desc": "A code list identifying the different railway companies as member of\n                                    the International Union of Railways."
+    },
+    "37": {
+        "name": "Railway locations",
+        "desc": "Code identifying a location in railway environment."
+    },
+    "38": {
+        "name": "Railway customer",
+        "desc": "A code list identifying rail customers."
+    },
+    "39": {
+        "name": "Rail unified nomenclature of goods",
+        "desc": "Self explanatory."
+    },
+    "40": {
+        "name": "Reinsurance monetary type",
+        "desc": "Identifies the type of reinsurance amounts."
+    },
+    "42": {
+        "name": "Business function",
+        "desc": "Self explanatory."
+    },
+    "43": {
+        "name": "Clearing House Interbank Payment System Participants ID",
+        "desc": "Participants identification of the automated clearing house of the New\n                                    York Clearing House Association (CHIPS)."
+    },
+    "44": {
+        "name": "Clearing House Interbank Payment System Universal ID",
+        "desc": "Universal identification of the automated clearing house of the New\n                                    York Clearing House Association (CHIPS)."
+    },
+    "45": {
+        "name": "United Nations Common Coding System (UNCCS)",
+        "desc": "A code list adopted by the United Nations organisations for the\n                                    procurement of goods and services."
+    },
+    "46": {
+        "name": "DUNS (Dun and Bradstreet) +4",
+        "desc": "An organization identified by the DUNS number and a 4- character\n                                    extension."
+    },
+    "47": {
+        "name": "Occupation classification",
+        "desc": "Identifies the class of occupation."
+    },
+    "48": {
+        "name": "Policy reserve valuation type",
+        "desc": "Identification of the policy reserve valuation type."
+    },
+    "49": {
+        "name": "Life reinsurance message type",
+        "desc": "To indicate the type of life reinsurance activity transmitted in the\n                                    message."
+    },
+    "52": {
+        "name": "Value added tax identification",
+        "desc": "Value added tax identification code."
+    },
+    "53": {
+        "name": "Passport number",
+        "desc": "Number assigned to a passport."
+    },
+    "54": {
+        "name": "Statistical object",
+        "desc": "A statistical object such as a statistical concept, array structure\n                                    component or statistical nomenclature."
+    },
+    "55": {
+        "name": "Quality conformance",
+        "desc": "A code list specifying the quality standard a product complies with,\n                                    e.g. ISO9000, BS5750, etc."
+    },
+    "56": {
+        "name": "Safety regulation",
+        "desc": "A code list specifying the safety regulations which apply to a\n                                    product, such as UK COSHH (control of substances hazardous to health) regulations.\n                                "
+    },
+    "57": {
+        "name": "Product code",
+        "desc": "Code assigned to a specific product by a controlling agency."
+    },
+    "58": {
+        "name": "Business account number",
+        "desc": "An identifying number or code assigned by issuing authorities to\n                                    manage business activities."
+    },
+    "59": {
+        "name": "Railway services harmonized code",
+        "desc": "Services provided by the different railway organizations."
+    },
+    "60": {
+        "name": "Type of financial account",
+        "desc": "Identification of the type of financial account."
+    },
+    "61": {
+        "name": "Type of assets and liabilities",
+        "desc": "Identification of the type of assets and liabilities."
+    },
+    "62": {
+        "name": "Requirements indicator",
+        "desc": "A code list which specifies various requirements that a customer may\n                                    have when fulfilling a purchase order."
+    },
+    "63": {
+        "name": "Handling action",
+        "desc": "Codes for handling action."
+    },
+    "64": {
+        "name": "Freight forwarder",
+        "desc": "Codes for freight forwarders."
+    },
+    "65": {
+        "name": "Shipping agent",
+        "desc": "Codes for shipping agents."
+    },
+    "67": {
+        "name": "Type of package",
+        "desc": "Indication of the type of package codes."
+    },
+    "68": {
+        "name": "Type of industrial activity",
+        "desc": "Identification of the type of industrial activity."
+    },
+    "69": {
+        "name": "Type of survey question",
+        "desc": "Identification of the type of survey question."
+    },
+    "70": {
+        "name": "Customs inspection type",
+        "desc": "A code to indicate the type of inspection performed by customs."
+    },
+    "71": {
+        "name": "Nature of transaction",
+        "desc": "Identification of the nature of the transaction."
+    },
+    "72": {
+        "name": "Container terminal",
+        "desc": "Codes for container terminal."
+    },
+    "73": {
+        "name": "Insurance information indicator",
+        "desc": "Identifies the type of insurance information provided."
+    },
+    "74": {
+        "name": "Joint life insurance indicator",
+        "desc": "Indicates joint life insurance coverage."
+    },
+    "75": {
+        "name": "Bill of lading clauses",
+        "desc": "Code list identifying official clauses associated with bills of\n                                    lading."
+    },
+    "76": {
+        "name": "Export commodity classification (US Schedule B)",
+        "desc": "Code list containing the commodity classifications applying to goods\n                                    being exported (United States Schedule B)."
+    },
+    "77": {
+        "name": "Customs domestic port location codes (US Schedule D)",
+        "desc": "Code list containing Customs domestic port locations (United States\n                                    Schedule D)."
+    },
+    "78": {
+        "name": "Customs foreign port location codes (US Schedule K)",
+        "desc": "Code list containing Customs foreign port locations (United States\n                                    Schedule K)."
+    },
+    "79": {
+        "name": "Functional group",
+        "desc": "Identifies a group of application related messages."
+    },
+    "80": {
+        "name": "Application error code",
+        "desc": "A code list specifying application errors."
+    },
+    "81": {
+        "name": "Policy type",
+        "desc": "To identify the code list for the type of policy."
+    },
+    "82": {
+        "name": "Type of insured",
+        "desc": "To specify the insured type."
+    },
+    "83": {
+        "name": "Occupation code",
+        "desc": "Identification of an occupation."
+    },
+    "84": {
+        "name": "State code",
+        "desc": "A code list of states within a country."
+    },
+    "85": {
+        "name": "Technical Assessment Checklist (TAC)",
+        "desc": "A code list of technical assessment checklist numbers."
+    },
+    "86": {
+        "name": "Syntax notes",
+        "desc": "A code list of syntax (dependency) note identifiers."
+    },
+    "100": {
+        "name": "Enhanced party identification",
+        "desc": "Self explanatory."
+    },
+    "101": {
+        "name": "Air carrier",
+        "desc": "Self explanatory."
+    },
+    "102": {
+        "name": "Size and type",
+        "desc": "Self explanatory."
+    },
+    "103": {
+        "name": "Call sign directory",
+        "desc": "A directory of call signs assigned to transport vehicles."
+    },
+    "104": {
+        "name": "Customs area of transaction",
+        "desc": "Customs code to indicate the different types of declarations according\n                                    to the countries involved in the transaction (e.g. box 1/1 of SAD: inter EC Member\n                                    States, EC-EFTA, EC-third countries, etc.)."
+    },
+    "105": {
+        "name": "Customs declaration type",
+        "desc": "Customs code to indicate the type of declaration according to the\n                                    different Customs procedures requested (e.g.: import, export, transit)."
+    },
+    "106": {
+        "name": "Incoterms 1980",
+        "desc": "(4110) Code to indicate applicable Incoterm (1980 edition) under which\n                                    seller undertakes to deliver merchandise to buyer (ICC). Incoterms 1990: use 4053\n                                    only."
+    },
+    "107": {
+        "name": "Excise duty",
+        "desc": "Customs or fiscal authorities code to identify a specific or ad\n                                    valorem levy on a specific commodity, applied either domestically or at time of\n                                    importation."
+    },
+    "108": {
+        "name": "Tariff schedule",
+        "desc": "Self explanatory."
+    },
+    "109": {
+        "name": "Customs indicator",
+        "desc": "Customs code for circumstances where only an indication is needed.\n                                "
+    },
+    "110": {
+        "name": "Customs special codes",
+        "desc": "Customs code to indicate an exemption to a regulation or a special\n                                    Customs treatment."
+    },
+    "112": {
+        "name": "Statistical nature of transaction",
+        "desc": "Indication of the type of contract under which goods are supplied.\n                                "
+    },
+    "113": {
+        "name": "Customs office",
+        "desc": "Customs administrative unit competent for the performance of Customs\n                                    formalities, and the premises or other areas approved for the purpose by the\n                                    competent authorities (CCC)."
+    },
+    "114": {
+        "name": "Railcar letter marking",
+        "desc": "Codes for all marking codes (in letters) for railcars specifying the\n                                    type, series, order number, check digit and some technical characteristics."
+    },
+    "115": {
+        "name": "Examination facility",
+        "desc": "Building or location where merchandise is examined by Customs."
+    },
+    "116": {
+        "name": "Customs preference",
+        "desc": "Customs code to identify a specific tariff preference."
+    },
+    "117": {
+        "name": "Customs procedure",
+        "desc": "(9380) Customs code to identify goods which are subject to Customs\n                                    control (e.g. home use, Customs warehousing, temporary admission, Customs transit).\n                                "
+    },
+    "118": {
+        "name": "Government agency procedure",
+        "desc": "Treatment applied by a government agency other than Customs to\n                                    merchandise under their control."
+    },
+    "119": {
+        "name": "Customs simplified procedure",
+        "desc": "Customs code to indicate the type of simplified Customs procedure\n                                    requested by a declarant (CCC)."
+    },
+    "120": {
+        "name": "Customs status of goods",
+        "desc": "Customs code to specify the status accorded by Customs to a\n                                    consignment e.g. release without further formality, present supporting documents for\n                                    inspection, etc (CCC)."
+    },
+    "121": {
+        "name": "Shipment description",
+        "desc": "Code to indicate whether a shipment is a total, part or split\n                                    consignment."
+    },
+    "122": {
+        "name": "Commodity",
+        "desc": "(7357) Code identifying types of goods for Customs, transport or\n                                    statistical purposes (generic term)."
+    },
+    "123": {
+        "name": "Entitlement",
+        "desc": "Code to indicate the recipient of a charge amount (IATA)."
+    },
+    "125": {
+        "name": "Customs transit guarantee",
+        "desc": "Customs code to identify the type of guarantee used in a transit\n                                    movement."
+    },
+    "126": {
+        "name": "Accounting information identifier",
+        "desc": "Identification of a specific kind of accounting information."
+    },
+    "127": {
+        "name": "Customs valuation method",
+        "desc": "Customs code to identify the valuation method used to determine the\n                                    dutiable value of the declared goods."
+    },
+    "128": {
+        "name": "Service",
+        "desc": "Identification of services."
+    },
+    "129": {
+        "name": "Customs warehouse",
+        "desc": "Identification and/or location of the Customs warehouse in which goods\n                                    will be or have been deposited (CCC)."
+    },
+    "130": {
+        "name": "Special handling",
+        "desc": "Code to indicate that the nature of the consignment may necessitate\n                                    use of special handling procedures (IATA)."
+    },
+    "131": {
+        "name": "Free zone",
+        "desc": "Code identifying the zone within a state where any goods introduced\n                                    are generally regarded, insofar as import duties and taxes are concerned, as being\n                                    outside the Customs territory and are not subject to the usual Customs control.\n                                "
+    },
+    "132": {
+        "name": "Charge",
+        "desc": "Identification of a type of charge."
+    },
+    "133": {
+        "name": "Financial regime",
+        "desc": "Nature and methods of a transaction from financial viewpoint."
+    },
+    "134": {
+        "name": "Duty, tax or fee payment method",
+        "desc": "[4390] Method by which a duty or tax is paid to the relevant\n                                    administration."
+    },
+    "135": {
+        "name": "Rate class",
+        "desc": "Code to identify a specific rate category."
+    },
+    "136": {
+        "name": "Restrictions and prohibitions placed on the re-use of designated rail\n                                    wagons",
+        "desc": "A code list identifying restrictions and prohibitions placed on the\n                                    re-use of designated rail wagons."
+    },
+    "137": {
+        "name": "Rail harmonized codification of tariffs",
+        "desc": "A list of rail tariffs, the coding of which has been harmonized."
+    },
+    "139": {
+        "name": "Port",
+        "desc": "A location having facilities for means of transport to load or\n                                    discharge cargo."
+    },
+    "140": {
+        "name": "Area",
+        "desc": "Codes for specific geographic areas e.g. seas, straits, basins etc.\n                                "
+    },
+    "141": {
+        "name": "Forwarding restrictions",
+        "desc": "A code list containing restrictions regarding the forwarding of goods\n                                    or equipment."
+    },
+    "142": {
+        "name": "Train identification",
+        "desc": "A code list specifying international train identifications maintained\n                                    by the UIC (International Union of Railways)."
+    },
+    "143": {
+        "name": "Removable accessories and special equipment on railcars",
+        "desc": "A list of removable accessories and special equipment associated with\n                                    railcars."
+    },
+    "144": {
+        "name": "Rail routes",
+        "desc": "A code list identifying routes used in rail transport."
+    },
+    "145": {
+        "name": "Airport/city",
+        "desc": "As described and published by IATA."
+    },
+    "146": {
+        "name": "Means of transport identification",
+        "desc": "Code identifying the name or number of a means of transport (vessel,\n                                    vehicle)."
+    },
+    "147": {
+        "name": "Document requested by Customs",
+        "desc": "Customs code to identify documents requested by Customs in an\n                                    information interchange."
+    },
+    "148": {
+        "name": "Customs release notification",
+        "desc": "Authorisation given by Customs to move the goods or not move the goods\n                                    from the place of registration."
+    },
+    "149": {
+        "name": "Customs transit type",
+        "desc": "Customs code to indicate the different kinds of transit movement of\n                                    the goods (e.g. Box 1/3 of the SAD)."
+    },
+    "150": {
+        "name": "Financial routing",
+        "desc": "Self explanatory."
+    },
+    "151": {
+        "name": "Locations for tariff calculations",
+        "desc": "A list of locations related to tariff calculations."
+    },
+    "152": {
+        "name": "Materials",
+        "desc": "Self explanatory."
+    },
+    "153": {
+        "name": "Methods of payment",
+        "desc": "Identification of methods of payment."
+    },
+    "154": {
+        "name": "Bank branch sorting identification",
+        "desc": "Identification of a specific branch of a bank."
+    },
+    "155": {
+        "name": "Automated clearing house",
+        "desc": "Identification of automated clearing houses."
+    },
+    "156": {
+        "name": "Location of goods",
+        "desc": "(3384) Indication of the place where goods are located and where they\n                                    are available for examination."
+    },
+    "157": {
+        "name": "Clearing code",
+        "desc": "Identification of the responsible bank/clearing house which has\n                                    cleared or is ordered to do the clearing."
+    },
+    "158": {
+        "name": "Terms of delivery",
+        "desc": "Code to identify terms of delivery."
+    },
+    "160": {
+        "name": "Party identification",
+        "desc": "Identification of parties, corporates, etc."
+    },
+    "161": {
+        "name": "Goods description",
+        "desc": "Identification of a type of goods description."
+    },
+    "162": {
+        "name": "Country",
+        "desc": "Identification of a country."
+    },
+    "163": {
+        "name": "Country sub-entity",
+        "desc": "(3228) Identification of country sub-entity (region, department,\n                                    state, province) defined by appropriate authority."
+    },
+    "164": {
+        "name": "Member organizations",
+        "desc": "Identification of member organizations."
+    },
+    "165": {
+        "name": "Amendment code (Customs)",
+        "desc": "Customs code indicating the reason for transmitting an amendment to\n                                    Customs."
+    },
+    "166": {
+        "name": "Social security identification",
+        "desc": "Code assigned by the authority competent to issue social security\n                                    identification to identify a person."
+    },
+    "167": {
+        "name": "Tax party identification",
+        "desc": "Code assigned by a tax authority to identify a party."
+    },
+    "168": {
+        "name": "Rail document names",
+        "desc": "Rail specific identifications of documents."
+    },
+    "169": {
+        "name": "Harmonized system",
+        "desc": "Identification of commodities according to the Harmonized System.\n                                "
+    },
+    "170": {
+        "name": "Bank securities code",
+        "desc": "Self explanatory."
+    },
+    "172": {
+        "name": "Carriers",
+        "desc": "Code list identifying carriers."
+    },
+    "173": {
+        "name": "Export requirements",
+        "desc": "Identification of requirements and regulations established by relevant\n                                    authorities concerning exportation."
+    },
+    "174": {
+        "name": "Citizen identification",
+        "desc": "Self explanatory."
+    },
+    "175": {
+        "name": "Account analysis codes",
+        "desc": "Account service charges list."
+    },
+    "176": {
+        "name": "Flow of the goods",
+        "desc": "List of statistical codes covering the movement of the goods to be\n                                    declared (e.g. despatch, arrival)."
+    },
+    "177": {
+        "name": "Statistical procedures",
+        "desc": "Indication of the statistical procedure to which the goods are\n                                    subject."
+    },
+    "178": {
+        "name": "Standard text according US embargo regulations",
+        "desc": "US government regulations prescribe specific standard text usage.\n                                    Using codes from this code list prevents full text transmission."
+    },
+    "179": {
+        "name": "Standard text for export according national prescriptions",
+        "desc": "National export regulations prescribe specific standard text usage.\n                                    Using codes from this code list prevents full text transmission."
+    },
+    "180": {
+        "name": "Airport terminal",
+        "desc": "Code identifying terminals or other sub-locations at airports."
+    },
+    "181": {
+        "name": "Activity",
+        "desc": "Code identifying activities."
+    },
+    "182": {
+        "name": "Combiterms 1990",
+        "desc": "Code to indicate the applicable Combiterm (1990 edition), used for the\n                                    purpose of cost distribution between seller according to Incoterms 1990."
+    },
+    "183": {
+        "name": "Dangerous goods packing type",
+        "desc": "Identification of package types for the description related to\n                                    dangerous goods."
+    },
+    "184": {
+        "name": "Tax assessment method",
+        "desc": "A code to identify the tax assessment method."
+    },
+    "185": {
+        "name": "Item type",
+        "desc": "A code list defining the level of elaboration of a item such as raw\n                                    material, component, tooling, etc."
+    },
+    "186": {
+        "name": "Product supply condition",
+        "desc": "A code list specifying the rules according to which a product is\n                                    supplied, e.g. from stock, available on demand, make on order, etc."
+    },
+    "187": {
+        "name": "Supplier's stock turnover",
+        "desc": "A code list giving an indication about the level of the supplier's\n                                    stock turnover."
+    },
+    "188": {
+        "name": "Article status",
+        "desc": "A code list defining the status of an article from the procurement\n                                    point of view, e.g. new article, critical article, etc."
+    },
+    "189": {
+        "name": "Quality control code",
+        "desc": "A code list specifying how the article is classified according to the\n                                    quality control point of view, e.g. safety item, subject to regulation, etc."
+    },
+    "190": {
+        "name": "Item sourcing category",
+        "desc": "A code list to specify details related to the sourcing of the\n                                    corresponding item such as provided by the buyer, from a mandatory source, etc.\n                                "
+    },
+    "191": {
+        "name": "Dumping or countervailing assessment method",
+        "desc": "A code to identify the method used to determine the dumping or\n                                    countervailing duty."
+    },
+    "192": {
+        "name": "Dumping specification",
+        "desc": "Code list to identify types of goods for dumping purposes."
+    },
+    "193": {
+        "name": "Legal event",
+        "desc": "Identifies a code list of legal events."
+    },
+    "194": {
+        "name": "Record precedence based on its currency in time",
+        "desc": "Identifies the priority of a record based on its currency in time.\n                                "
+    },
+    "195": {
+        "name": "Ownership rights",
+        "desc": "Identifies a code list containing types of ownership rights."
+    },
+    "196": {
+        "name": "Property ownership extent",
+        "desc": "Identifies a code list containing the extent of legal rights of\n                                    possession to property."
+    },
+    "197": {
+        "name": "Monetary function detail",
+        "desc": "Identifies a code list containing monetary function details."
+    },
+    "198": {
+        "name": "Account relationship type",
+        "desc": "Identifies a code list containing types of account relationships.\n                                "
+    },
+    "199": {
+        "name": "Account rating",
+        "desc": "Identifies the code list containing account rating types."
+    },
+    "200": {
+        "name": "Loan type",
+        "desc": "Identifies the code list of loan types."
+    },
+    "201": {
+        "name": "Claim type",
+        "desc": "Identifies the code list containing the claim types."
+    },
+    "202": {
+        "name": "Legal case type",
+        "desc": "Identifies the code list containing the type of legal cases."
+    },
+    "203": {
+        "name": "Court of law event type",
+        "desc": "Identifies the code list containing the type of law events."
+    },
+    "204": {
+        "name": "Notice type",
+        "desc": "Identifies the code list containing the type of notice."
+    },
+    "205": {
+        "name": "Ethnicity",
+        "desc": "Identifies the code list containing ethnic types."
+    },
+    "206": {
+        "name": "Individual participation in company",
+        "desc": "Identifies the code list containing the types of participation of an\n                                    individual within a company."
+    },
+    "207": {
+        "name": "Real estate asset type",
+        "desc": "Identifies the code list containing the types of real estate assets.\n                                "
+    },
+    "208": {
+        "name": "Asset recurrence",
+        "desc": "Identifies the code list containing the types of recurrences of\n                                    assets."
+    },
+    "209": {
+        "name": "Construction material",
+        "desc": "Identifies the code list containing types of materials used for\n                                    construction."
+    },
+    "210": {
+        "name": "Information request type",
+        "desc": "Identifies a code list containing types of information requests."
+    },
+    "211": {
+        "name": "Business change",
+        "desc": "Identifies a code list containing business change types."
+    },
+    "212": {
+        "name": "Business credit rating",
+        "desc": "Identifies a code list containing business credit rating types."
+    },
+    "213": {
+        "name": "Corporate financial filing criteria",
+        "desc": "Identifies a code list containing criteria for corporate financial\n                                    filings."
+    },
+    "214": {
+        "name": "Reason for public record filing",
+        "desc": "Identifies a code list containing reasons for public record filings.\n                                "
+    },
+    "215": {
+        "name": "Registration type",
+        "desc": "Identifies a code list containing registration types."
+    },
+    "216": {
+        "name": "Stock exchange detail",
+        "desc": "Identifies a code list containing stock exchange details."
+    },
+    "217": {
+        "name": "Business legal structure type",
+        "desc": "Identifies a code list containing business legal structure details.\n                                "
+    },
+    "218": {
+        "name": "Information request result",
+        "desc": "Identifies a code list containing information request results."
+    },
+    "219": {
+        "name": "Financial information type",
+        "desc": "Identifies a code list containing financial information types."
+    },
+    "220": {
+        "name": "Consolidation detail",
+        "desc": "Identifies a code list containing consolidation details."
+    },
+    "221": {
+        "name": "Condition detail",
+        "desc": "Identifies a code list containing condition details."
+    },
+    "222": {
+        "name": "Financial statement format",
+        "desc": "Identifies a code list containing financial statement formats."
+    },
+    "223": {
+        "name": "Source of disclosure",
+        "desc": "Identifies a code list containing disclosure sources."
+    },
+    "224": {
+        "name": "General territory type",
+        "desc": "Identifies a code list containing general territory types."
+    },
+    "225": {
+        "name": "Roadway type",
+        "desc": "Identifies a code list containing roadway types."
+    },
+    "226": {
+        "name": "Roadway detail",
+        "desc": "Identifies a code list containing roadway details."
+    },
+    "227": {
+        "name": "City",
+        "desc": "Identifies a code list containing cities."
+    },
+    "228": {
+        "name": "County",
+        "desc": "Identifies a code list containing counties. A county is any of the\n                                    territorial divisions of some countries, forming the chief unit of local\n                                    administration."
+    },
+    "229": {
+        "name": "Geographic location",
+        "desc": "Identifies a code list containing geographic locations."
+    },
+    "230": {
+        "name": "Entity relationship",
+        "desc": "Identifies a code list of entity relationships."
+    },
+    "231": {
+        "name": "Payment behaviour rating",
+        "desc": "Identifies a code list containing payment behaviour ratings."
+    },
+    "232": {
+        "name": "Inquiry selection",
+        "desc": "Identifies a code list containing inquiry selections."
+    },
+    "233": {
+        "name": "Rating summary value",
+        "desc": "Identifies a code list containing rating summary values."
+    },
+    "234": {
+        "name": "Industry rating",
+        "desc": "Identifies a code list containing industry ratings."
+    },
+    "235": {
+        "name": "Forecast type",
+        "desc": "Identifies a code list containing forecast types."
+    },
+    "236": {
+        "name": "Hobby",
+        "desc": "Identifies a code list containing hobby types."
+    },
+    "237": {
+        "name": "Functional business area",
+        "desc": "Identifies a code list containing functional business areas."
+    },
+    "238": {
+        "name": "Current asset details",
+        "desc": "Identifies a code list containing details of the current asset types.\n                                "
+    },
+    "239": {
+        "name": "Asset details",
+        "desc": "Identifies a code list containing details of the asset types."
+    },
+    "240": {
+        "name": "Current liability details",
+        "desc": "Identifies a code list containing the current liability types."
+    },
+    "241": {
+        "name": "Liability details",
+        "desc": "Identifies a code list containing details of liability types."
+    },
+    "242": {
+        "name": "Financial item reclassification",
+        "desc": "Identifies a code list containing financial item reclassifications.\n                                "
+    },
+    "243": {
+        "name": "Financial item allocation",
+        "desc": "Identifies a code list containing financial item allocations."
+    },
+    "244": {
+        "name": "Reason for financial item detail change",
+        "desc": "Identifies a code list containing reasons for the change in financial\n                                    item details."
+    },
+    "245": {
+        "name": "Educational institution type",
+        "desc": "Identifies a code list containing educational institution types."
+    },
+    "246": {
+        "name": "Educational study area",
+        "desc": "Identifies a code list containing educational study areas."
+    },
+    "247": {
+        "name": "Security share type",
+        "desc": "Identifies a code list containing security share types."
+    },
+    "248": {
+        "name": "Insurance coverage detail",
+        "desc": "Identifies a code list containing insurance coverage details."
+    },
+    "249": {
+        "name": "Property type",
+        "desc": "Identifies a code list containing property types."
+    },
+    "250": {
+        "name": "Data category",
+        "desc": "Identifies a code list containing data categories."
+    },
+    "251": {
+        "name": "Information type",
+        "desc": "Identifies a code list containing types of information."
+    },
+    "252": {
+        "name": "Court of law type",
+        "desc": "Identifies a code list containing court of law types."
+    },
+    "253": {
+        "name": "Region",
+        "desc": "Identifies a code list containing regions that identify an area of the\n                                    earth's surface, having definable boundaries or characteristics."
+    },
+    "254": {
+        "name": "Postal service carrier route",
+        "desc": "Identifies a code list containing routes covered by a postal service\n                                    carrier."
+    },
+    "255": {
+        "name": "Continent",
+        "desc": "Identifies a code list containing continents, that are any of the main\n                                    continuous expanses of land."
+    },
+    "256": {
+        "name": "Postal district",
+        "desc": "Identifies a code list containing territories for the routing of mail.\n                                "
+    },
+    "257": {
+        "name": "Non-postal town",
+        "desc": "Identifies a code list containing towns not recognised as a postal\n                                    entity."
+    },
+    "258": {
+        "name": "City subdivision",
+        "desc": "Identifies a code list containing subdivisions of a city."
+    },
+    "259": {
+        "name": "Financial analysis categories",
+        "desc": "Identifies a code list containing financial analysis categories."
+    },
+    "260": {
+        "name": "Accord Europeen relatif au transport international des\n                                    marchandises(ADR).",
+        "desc": "A code list identifying dangerous goods for transport purposes."
+    },
+    "261": {
+        "name": "Consignee's premises",
+        "desc": "Facility controlled by the consignee of cargo."
+    },
+    "262": {
+        "name": "Consignor's premises",
+        "desc": "Facility controlled by the consignor of cargo."
+    },
+    "263": {
+        "name": "Packing and/or unpacking facility",
+        "desc": "Facility dedicated to the packing and/or unpacking of cargo."
+    },
+    "264": {
+        "name": "Storage facility",
+        "desc": "Facility at which goods are stored."
+    },
+    "265": {
+        "name": "Repair facility",
+        "desc": "Facility at which repairs are carried out."
+    },
+    "266": {
+        "name": "Marine berth",
+        "desc": "The location within a port where a ship anchors or ties up."
+    },
+    "267": {
+        "name": "Marine wharf",
+        "desc": "Landing platform where a ship can load and unload."
+    },
+    "268": {
+        "name": "Gate",
+        "desc": "The location at which access to or from a facility is controlled.\n                                "
+    },
+    "269": {
+        "name": "Warehouse",
+        "desc": "A covered facility for the storage and distribution of goods."
+    },
+    "270": {
+        "name": "Business classification",
+        "desc": "Code list of business classifications."
+    },
+    "271": {
+        "name": "Facility security clearance",
+        "desc": "Code list specifying the security clearance assigned to a facility.\n                                "
+    },
+    "272": {
+        "name": "Individual security clearance",
+        "desc": "Code list specifying the security clearance assigned to an individual.\n                                "
+    },
+    "273": {
+        "name": "Means of communications identifier",
+        "desc": "Code list of communication means used to transmit data."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Self explanatory."
+    }
+}

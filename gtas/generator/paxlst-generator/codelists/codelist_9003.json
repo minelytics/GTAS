@@ -1,0 +1,18 @@
+{
+    "1": {
+        "name": "Primary",
+        "desc": "Main employment."
+    },
+    "2": {
+        "name": "Secondary",
+        "desc": "Secondary employment."
+    },
+    "3": {
+        "name": "Tertiary",
+        "desc": "Tertiary employment."
+    },
+    "4": {
+        "name": "Profession",
+        "desc": "To specify a profession."
+    }
+}

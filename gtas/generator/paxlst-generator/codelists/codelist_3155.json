@@ -1,0 +1,158 @@
+{
+    "AA": {
+        "name": "Circuit switching",
+        "desc": "A process that, on demand, connects two or more data terminal\n                                    equipments and permits the exclusive use of a data circuit between them until the\n                                    connection is released (ISO)."
+    },
+    "AB": {
+        "name": "SITA",
+        "desc": "Communications number assigned by Societe Internationale de\n                                    Telecommunications Aeronautiques (SITA)."
+    },
+    "AC": {
+        "name": "ARINC",
+        "desc": "Communications number assigned by Aeronautical Radio Inc."
+    },
+    "AD": {
+        "name": "AT&T mailbox",
+        "desc": "AT&T mailbox identifier."
+    },
+    "AE": {
+        "name": "Peripheral device",
+        "desc": "Peripheral device identification."
+    },
+    "AF": {
+        "name": "U.S. Defense Switched Network",
+        "desc": "The switched telecommunications network of the United States\n                                    Department of Defense."
+    },
+    "AG": {
+        "name": "U.S. federal telecommunications system",
+        "desc": "The switched telecommunications network of the United States\n                                    government."
+    },
+    "AH": {
+        "name": "World Wide Web",
+        "desc": "Data exchange via the World Wide Web."
+    },
+    "AI": {
+        "name": "International calling country code",
+        "desc": "Identifies that portion of an international telephone number\n                                    representing the country code to be used when calling internationally."
+    },
+    "AJ": {
+        "name": "Alternate telephone",
+        "desc": "Identifies the alternate telephone number."
+    },
+    "AK": {
+        "name": "Videotex number",
+        "desc": "Code that identifies the communications number for the online videotex\n                                    service."
+    },
+    "AL": {
+        "name": "Cellular phone",
+        "desc": "Identifies the cellular phone number."
+    },
+    "AM": {
+        "name": "International telephone direct line",
+        "desc": "The international telephone direct line number."
+    },
+    "AN": {
+        "name": "O.F.T.P. (ODETTE File Transfer Protocol)",
+        "desc": "ODETTE File Transfer Protocol."
+    },
+    "AO": {
+        "name": "Uniform Resource Location (URL)",
+        "desc": "Identification of the Uniform Resource Location (URL) Synonym: World\n                                    wide web address."
+    },
+    "CA": {
+        "name": "Cable address",
+        "desc": "The communication number identifies a cable address."
+    },
+    "EI": {
+        "name": "EDI transmission",
+        "desc": "Number identifying the service and service user."
+    },
+    "EM": {
+        "name": "Electronic mail",
+        "desc": "Exchange of mail by electronic means."
+    },
+    "EX": {
+        "name": "Extension",
+        "desc": "Telephone extension."
+    },
+    "FT": {
+        "name": "File transfer access method",
+        "desc": "According to ISO."
+    },
+    "FX": {
+        "name": "Telefax",
+        "desc": "Device used for transmitting and reproducing fixed graphic material\n                                    (as printing) by means of signals over telephone lines or other electronic\n                                    transmission media."
+    },
+    "GM": {
+        "name": "GEIS (General Electric Information Service) mailbox",
+        "desc": "The communication number identifies a GEIS mailbox."
+    },
+    "IE": {
+        "name": "IBM information exchange",
+        "desc": "The communication number identifies an IBM IE mailbox."
+    },
+    "IM": {
+        "name": "Internal mail",
+        "desc": "Internal mail address/number."
+    },
+    "MA": {
+        "name": "Mail",
+        "desc": "Postal service document delivery."
+    },
+    "PB": {
+        "name": "Postbox number",
+        "desc": "The communication number identifies a postbox."
+    },
+    "PS": {
+        "name": "Packet switching",
+        "desc": "The process of routing and transferring data by means of addressed\n                                    packets so that a channel is occupied only during the transmission; upon completion\n                                    of the transmission the channel is made available for the transfer of other packets\n                                    (ISO)."
+    },
+    "SW": {
+        "name": "S.W.I.F.T.",
+        "desc": "Communications address assigned by Society for Worldwide Interbank\n                                    Financial Telecommunications s.c."
+    },
+    "TE": {
+        "name": "Telephone",
+        "desc": "Voice/data transmission by telephone."
+    },
+    "TG": {
+        "name": "Telegraph",
+        "desc": "Text transmission via telegraph."
+    },
+    "TL": {
+        "name": "Telex",
+        "desc": "Transmission of text/data via telex."
+    },
+    "TM": {
+        "name": "Telemail",
+        "desc": "Transmission of text/data via telemail."
+    },
+    "TT": {
+        "name": "Teletext",
+        "desc": "Transmission of text/data via teletext."
+    },
+    "TX": {
+        "name": "TWX",
+        "desc": "Communication service involving Teletypewriter machines connected by\n                                    wire or electronic transmission media. Teletypewriter machines are the devices used\n                                    to send and receive signals and produce hardcopy from them."
+    },
+    "XF": {
+        "name": "X.400 address",
+        "desc": "The X.400 address."
+    },
+    "XG": {
+        "name": "Pager",
+        "desc": "Identifies that the communication number is for a pager."
+    },
+    "XH": {
+        "name": "International telephone switchboard",
+        "desc": "The international telephone switchboard number."
+    },
+    "XI": {
+        "name": "National telephone direct line",
+        "desc": "The national telephone direct line number."
+    },
+    "XJ": {
+        "name": "National telephone switchboard",
+        "desc": "The national telephone switchboard number."
+    }
+}

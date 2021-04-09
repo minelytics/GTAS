@@ -1,0 +1,1834 @@
+{
+    "1": {
+        "name": "Discrete quantity",
+        "desc": "Individually separated and distinct quantity."
+    },
+    "2": {
+        "name": "Charge",
+        "desc": "Quantity relevant for charge."
+    },
+    "3": {
+        "name": "Cumulative quantity",
+        "desc": "Quantity accumulated."
+    },
+    "4": {
+        "name": "Interest for overdrawn account",
+        "desc": "Interest for overdrawing the account."
+    },
+    "5": {
+        "name": "Active ingredient dose per unit",
+        "desc": "The dosage of active ingredient per unit."
+    },
+    "6": {
+        "name": "Auditor",
+        "desc": "The number of entities that audit accounts."
+    },
+    "7": {
+        "name": "Branch locations, leased",
+        "desc": "The number of branch locations being leased by an entity."
+    },
+    "8": {
+        "name": "Inventory quantity at supplier's subject to inspection by customer\n                                ",
+        "desc": "Quantity of goods which the customer requires the supplier to have in\n                                    inventory and which may be inspected by the customer if desired."
+    },
+    "9": {
+        "name": "Branch locations, owned",
+        "desc": "The number of branch locations owned by an entity."
+    },
+    "10": {
+        "name": "Judgements registered",
+        "desc": "The number of judgements registered against an entity."
+    },
+    "11": {
+        "name": "Split quantity",
+        "desc": "Part of the whole quantity."
+    },
+    "12": {
+        "name": "Despatch quantity",
+        "desc": "Quantity despatched by the seller."
+    },
+    "13": {
+        "name": "Liens registered",
+        "desc": "The number of liens registered against an entity."
+    },
+    "14": {
+        "name": "Livestock",
+        "desc": "The number of animals kept for use or profit."
+    },
+    "15": {
+        "name": "Insufficient funds returned cheques",
+        "desc": "The number of cheques returned due to insufficient funds."
+    },
+    "16": {
+        "name": "Stolen cheques",
+        "desc": "The number of stolen cheques."
+    },
+    "17": {
+        "name": "Quantity on hand",
+        "desc": "The total quantity of a product on hand at a location. This includes\n                                    as well units awaiting return to manufacturer, units unavailable due to inspection\n                                    procedures and undamaged stock available for despatch, resale or use."
+    },
+    "18": {
+        "name": "Previous quantity",
+        "desc": "Quantity previously referenced."
+    },
+    "19": {
+        "name": "Paid-in security shares",
+        "desc": "The number of security shares issued and for which full payment has\n                                    been made."
+    },
+    "20": {
+        "name": "Unusable quantity",
+        "desc": "Quantity not usable."
+    },
+    "21": {
+        "name": "Ordered quantity",
+        "desc": "The quantity which has been ordered."
+    },
+    "22": {
+        "name": "Quantity at 100%",
+        "desc": "Equivalent quantity at 100% purity."
+    },
+    "23": {
+        "name": "Active ingredient",
+        "desc": "Quantity at 100% active agent content."
+    },
+    "24": {
+        "name": "Inventory quantity at supplier's not subject to inspection by customer\n                                ",
+        "desc": "Quantity of goods which the customer requires the supplier to have in\n                                    inventory but which will not be checked by the customer."
+    },
+    "25": {
+        "name": "Retail sales",
+        "desc": "Quantity of retail point of sale activity."
+    },
+    "26": {
+        "name": "Promotion quantity",
+        "desc": "A quantity associated with a promotional event."
+    },
+    "27": {
+        "name": "On hold for shipment",
+        "desc": "Article received which cannot be shipped in its present form."
+    },
+    "28": {
+        "name": "Military sales quantity",
+        "desc": "Quantity of goods or services sold to a military organization."
+    },
+    "29": {
+        "name": "On premises sales",
+        "desc": "Sale of product in restaurants or bars."
+    },
+    "30": {
+        "name": "Off premises sales",
+        "desc": "Sale of product directly to a store."
+    },
+    "31": {
+        "name": "Estimated annual volume",
+        "desc": "Volume estimated for a year."
+    },
+    "32": {
+        "name": "Minimum delivery batch",
+        "desc": "Minimum quantity of goods delivered at one time."
+    },
+    "33": {
+        "name": "Maximum delivery batch",
+        "desc": "Maximum quantity of goods delivered at one time."
+    },
+    "34": {
+        "name": "Pipes",
+        "desc": "The number of tubes used to convey a substance."
+    },
+    "35": {
+        "name": "Price break from",
+        "desc": "The minimum quantity of a quantity range for a specified (unit) price.\n                                "
+    },
+    "36": {
+        "name": "Price break to",
+        "desc": "Maximum quantity to which the price break applies."
+    },
+    "37": {
+        "name": "Poultry",
+        "desc": "The number of domestic fowl."
+    },
+    "38": {
+        "name": "Secured charges registered",
+        "desc": "The number of secured charges registered against an entity."
+    },
+    "39": {
+        "name": "Total properties owned",
+        "desc": "The total number of properties owned by an entity."
+    },
+    "40": {
+        "name": "Normal delivery",
+        "desc": "Quantity normally delivered by the seller."
+    },
+    "41": {
+        "name": "Sales quantity not included in the replenishment calculation",
+        "desc": "Sales which will not be included in the calculation of replenishment\n                                    requirements."
+    },
+    "42": {
+        "name": "Maximum supply quantity, supplier endorsed",
+        "desc": "Maximum supply quantity endorsed by a supplier."
+    },
+    "43": {
+        "name": "Buyer",
+        "desc": "The number of buyers."
+    },
+    "44": {
+        "name": "Debenture bond",
+        "desc": "The number of fixed-interest bonds of an entity backed by general\n                                    credit rather than specified assets."
+    },
+    "45": {
+        "name": "Debentures filed against directors",
+        "desc": "The number of notices of indebtedness filed against an entity's\n                                    directors."
+    },
+    "46": {
+        "name": "Pieces delivered",
+        "desc": "Number of pieces actually received at the final destination."
+    },
+    "47": {
+        "name": "Invoiced quantity",
+        "desc": "The quantity as per invoice."
+    },
+    "48": {
+        "name": "Received quantity",
+        "desc": "The quantity which has been received."
+    },
+    "49": {
+        "name": "Chargeable distance",
+        "desc": "Distance really charged by tariff appliance."
+    },
+    "50": {
+        "name": "Disposition undetermined quantity",
+        "desc": "Product quantity that has not yet had its disposition determined.\n                                "
+    },
+    "51": {
+        "name": "Inventory category transfer",
+        "desc": "Inventory that has been moved from one inventory category to another.\n                                "
+    },
+    "52": {
+        "name": "Quantity per pack",
+        "desc": "Quantity for each pack."
+    },
+    "53": {
+        "name": "Minimum order quantity",
+        "desc": "Minimum quantity of goods for an order."
+    },
+    "54": {
+        "name": "Maximum order quantity",
+        "desc": "Maximum quantity of goods for an order."
+    },
+    "55": {
+        "name": "Total sales",
+        "desc": "The summation of total quantity sales."
+    },
+    "56": {
+        "name": "Wholesaler to wholesaler sales",
+        "desc": "Sale of product to other wholesalers by a wholesaler."
+    },
+    "57": {
+        "name": "In transit quantity",
+        "desc": "A quantity that is en route."
+    },
+    "58": {
+        "name": "Quantity withdrawn",
+        "desc": "Quantity withdrawn from a location."
+    },
+    "59": {
+        "name": "Numbers of consumer units in the traded unit",
+        "desc": "Number of units for consumer sales in a unit for trading."
+    },
+    "60": {
+        "name": "Current inventory quantity available for shipment",
+        "desc": "Current inventory quantity available for shipment."
+    },
+    "61": {
+        "name": "Return quantity",
+        "desc": "Quantity of goods returned."
+    },
+    "62": {
+        "name": "Sorted quantity",
+        "desc": "The quantity that is sorted."
+    },
+    "63": {
+        "name": "Sorted quantity rejected",
+        "desc": "The sorted quantity that is rejected."
+    },
+    "64": {
+        "name": "Scrap quantity",
+        "desc": "Remainder of the total quantity after split deliveries."
+    },
+    "65": {
+        "name": "Destroyed quantity",
+        "desc": "Quantity of goods destroyed."
+    },
+    "66": {
+        "name": "Committed quantity",
+        "desc": "Quantity a party is committed to."
+    },
+    "67": {
+        "name": "Estimated reading quantity",
+        "desc": "The value that is estimated to be the reading of a measuring device\n                                    (e.g. meter)."
+    },
+    "68": {
+        "name": "End quantity",
+        "desc": "The quantity recorded at the end of an agreement or period."
+    },
+    "69": {
+        "name": "Start quantity",
+        "desc": "The quantity recorded at the start of an agreement or period."
+    },
+    "70": {
+        "name": "Cumulative quantity received",
+        "desc": "Cumulative quantity of all deliveries of this article received by the\n                                    buyer."
+    },
+    "71": {
+        "name": "Cumulative quantity ordered",
+        "desc": "Cumulative quantity of all deliveries, outstanding and scheduled\n                                    orders."
+    },
+    "72": {
+        "name": "Cumulative quantity received end of prior year",
+        "desc": "Cumulative quantity of all deliveries of the product received by the\n                                    buyer till end of prior year."
+    },
+    "73": {
+        "name": "Outstanding quantity",
+        "desc": "Difference between quantity ordered and quantity received."
+    },
+    "74": {
+        "name": "Latest cumulative quantity",
+        "desc": "Cumulative quantity after complete delivery of all scheduled\n                                    quantities of the product."
+    },
+    "75": {
+        "name": "Previous highest cumulative quantity",
+        "desc": "Cumulative quantity after complete delivery of all scheduled\n                                    quantities of the product from a prior schedule period."
+    },
+    "76": {
+        "name": "Adjusted corrector reading",
+        "desc": "A corrector reading after it has been adjusted."
+    },
+    "77": {
+        "name": "Work days",
+        "desc": "Number of work days, e.g. per respective period."
+    },
+    "78": {
+        "name": "Cumulative quantity scheduled",
+        "desc": "Adding the quantity actually scheduled to previous cumulative\n                                    quantity."
+    },
+    "79": {
+        "name": "Previous cumulative quantity",
+        "desc": "Cumulative quantity prior the actual order."
+    },
+    "80": {
+        "name": "Unadjusted corrector reading",
+        "desc": "A corrector reading before it has been adjusted."
+    },
+    "81": {
+        "name": "Extra unplanned delivery",
+        "desc": "Non scheduled additional quantity."
+    },
+    "82": {
+        "name": "Quantity requirement for sample inspection",
+        "desc": "Required quantity for sample inspection."
+    },
+    "83": {
+        "name": "Backorder quantity",
+        "desc": "The quantity of goods that is on back-order."
+    },
+    "84": {
+        "name": "Urgent delivery quantity",
+        "desc": "Quantity for urgent delivery."
+    },
+    "85": {
+        "name": "Previous order quantity to be cancelled",
+        "desc": "Quantity ordered previously to be cancelled."
+    },
+    "86": {
+        "name": "Normal reading quantity",
+        "desc": "The value recorded or read from a measuring device (e.g. meter) in the\n                                    normal conditions."
+    },
+    "87": {
+        "name": "Customer reading quantity",
+        "desc": "The value recorded or read from a measuring device (e.g. meter) by the\n                                    customer."
+    },
+    "88": {
+        "name": "Information reading quantity",
+        "desc": "The value recorded or read from a measuring device (e.g. meter) for\n                                    information purposes."
+    },
+    "89": {
+        "name": "Quality control held",
+        "desc": "Quantity of goods held pending completion of a quality control\n                                    assessment."
+    },
+    "90": {
+        "name": "As is quantity",
+        "desc": "Quantity as it is in the existing circumstances."
+    },
+    "91": {
+        "name": "Open quantity",
+        "desc": "Quantity remaining after partial delivery."
+    },
+    "92": {
+        "name": "Final delivery quantity",
+        "desc": "Quantity of final delivery to a respective order."
+    },
+    "93": {
+        "name": "Subsequent delivery quantity",
+        "desc": "Quantity delivered to a respective order after it's final delivery.\n                                "
+    },
+    "94": {
+        "name": "Substitutional quantity",
+        "desc": "Quantity delivered replacing previous deliveries."
+    },
+    "95": {
+        "name": "Redelivery after post processing",
+        "desc": "Quantity redelivered after post processing."
+    },
+    "96": {
+        "name": "Quality control failed",
+        "desc": "Quantity of goods which have failed quality control."
+    },
+    "97": {
+        "name": "Minimum inventory",
+        "desc": "Minimum stock quantity on which replenishment is based."
+    },
+    "98": {
+        "name": "Maximum inventory",
+        "desc": "Maximum stock quantity on which replenishment is based."
+    },
+    "99": {
+        "name": "Estimated quantity",
+        "desc": "Quantity estimated."
+    },
+    "100": {
+        "name": "Chargeable weight",
+        "desc": "The weight on which charges are based."
+    },
+    "101": {
+        "name": "Chargeable gross weight",
+        "desc": "The gross weight on which charges are based."
+    },
+    "102": {
+        "name": "Chargeable tare weight",
+        "desc": "The tare weight on which charges are based."
+    },
+    "103": {
+        "name": "Chargeable number of axles",
+        "desc": "The number of axles on which charges are based."
+    },
+    "104": {
+        "name": "Chargeable number of containers",
+        "desc": "The number of containers on which charges are based."
+    },
+    "105": {
+        "name": "Chargeable number of rail wagons",
+        "desc": "The number of rail wagons on which charges are based."
+    },
+    "106": {
+        "name": "Chargeable number of packages",
+        "desc": "The number of packages on which charges are based."
+    },
+    "107": {
+        "name": "Chargeable number of units",
+        "desc": "The number of units on which charges are based."
+    },
+    "108": {
+        "name": "Chargeable period",
+        "desc": "The period of time on which charges are based."
+    },
+    "109": {
+        "name": "Chargeable volume",
+        "desc": "The volume on which charges are based."
+    },
+    "110": {
+        "name": "Chargeable cubic measurements",
+        "desc": "The cubic measurements on which charges are based."
+    },
+    "111": {
+        "name": "Chargeable surface",
+        "desc": "The surface area on which charges are based."
+    },
+    "112": {
+        "name": "Chargeable length",
+        "desc": "The length on which charges are based."
+    },
+    "113": {
+        "name": "Quantity to be delivered",
+        "desc": "The quantity to be delivered."
+    },
+    "114": {
+        "name": "Number of passengers",
+        "desc": "Total number of passengers on the conveyance."
+    },
+    "115": {
+        "name": "Number of crew",
+        "desc": "Total number of crew members on the conveyance."
+    },
+    "116": {
+        "name": "Number of transport documents",
+        "desc": "Total number of air waybills, bills of lading, etc. being reported for\n                                    a specific conveyance."
+    },
+    "117": {
+        "name": "Quantity landed",
+        "desc": "Quantity of goods actually arrived."
+    },
+    "118": {
+        "name": "Quantity manifested",
+        "desc": "Quantity of goods contracted for delivery by the carrier."
+    },
+    "119": {
+        "name": "Short shipped",
+        "desc": "Indication that part of the consignment was not shipped."
+    },
+    "120": {
+        "name": "Split shipment",
+        "desc": "Indication that the consignment has been split into two or more\n                                    shipments."
+    },
+    "121": {
+        "name": "Over shipped",
+        "desc": "The quantity of goods shipped that exceeds the quantity contracted.\n                                "
+    },
+    "122": {
+        "name": "Short-landed goods",
+        "desc": "If quantity of goods actually landed is less than the quantity which\n                                    appears in the documentation. This quantity is the difference between these\n                                    quantities."
+    },
+    "123": {
+        "name": "Surplus goods",
+        "desc": "If quantity of goods actually landed is more than the quantity which\n                                    appears in the documentation. This quantity is the difference between these\n                                    quantities."
+    },
+    "124": {
+        "name": "Damaged goods",
+        "desc": "Quantity of goods which have deteriorated in transport such that they\n                                    cannot be used for the purpose for which they were originally intended."
+    },
+    "125": {
+        "name": "Pilferage goods",
+        "desc": "Quantity of goods stolen during transport."
+    },
+    "126": {
+        "name": "Lost goods",
+        "desc": "Quantity of goods that disappeared in transport."
+    },
+    "127": {
+        "name": "Report difference",
+        "desc": "The quantity concerning the same transaction differs between two\n                                    documents/messages and the source of this difference is a typing error."
+    },
+    "128": {
+        "name": "Quantity loaded",
+        "desc": "Quantity of goods loaded onto a means of transport."
+    },
+    "129": {
+        "name": "Units per unit price",
+        "desc": "Number of units per unit price."
+    },
+    "130": {
+        "name": "Allowance",
+        "desc": "Quantity relevant for allowance."
+    },
+    "131": {
+        "name": "Delivery quantity",
+        "desc": "Quantity required by buyer to be delivered."
+    },
+    "132": {
+        "name": "Cumulative quantity, preceding period, planned",
+        "desc": "Cumulative quantity originally planned for the preceding period."
+    },
+    "133": {
+        "name": "Cumulative quantity, preceding period, reached",
+        "desc": "Cumulative quantity reached in the preceding period."
+    },
+    "134": {
+        "name": "Cumulative quantity, actual planned",
+        "desc": "Cumulative quantity planned for now."
+    },
+    "135": {
+        "name": "Period quantity, planned",
+        "desc": "Quantity planned for this period."
+    },
+    "136": {
+        "name": "Period quantity, reached",
+        "desc": "Quantity reached during this period."
+    },
+    "137": {
+        "name": "Cumulative quantity, preceding period, estimated",
+        "desc": "Estimated cumulative quantity reached in the preceding period."
+    },
+    "138": {
+        "name": "Cumulative quantity, actual estimated",
+        "desc": "Estimated cumulative quantity reached now."
+    },
+    "139": {
+        "name": "Cumulative quantity, preceding period, measured",
+        "desc": "Surveyed cumulative quantity reached in the preceding period."
+    },
+    "140": {
+        "name": "Cumulative quantity, actual measured",
+        "desc": "Surveyed cumulative quantity reached now."
+    },
+    "141": {
+        "name": "Period quantity, measured",
+        "desc": "Surveyed quantity reached during this period."
+    },
+    "142": {
+        "name": "Total quantity, planned",
+        "desc": "Total quantity planned."
+    },
+    "143": {
+        "name": "Quantity, remaining",
+        "desc": "Quantity remaining."
+    },
+    "144": {
+        "name": "Tolerance",
+        "desc": "Plus or minus tolerance expressed as a monetary amount."
+    },
+    "145": {
+        "name": "Actual stock",
+        "desc": "The stock on hand, undamaged, and available for despatch, sale or use.\n                                "
+    },
+    "146": {
+        "name": "Model or target stock",
+        "desc": "The stock quantity required or planned to have on hand, undamaged and\n                                    available for use."
+    },
+    "147": {
+        "name": "Direct shipment quantity",
+        "desc": "Quantity to be shipped directly to a customer from a manufacturing\n                                    site."
+    },
+    "148": {
+        "name": "Amortization total quantity",
+        "desc": "Indication of final quantity for amortization."
+    },
+    "149": {
+        "name": "Amortization order quantity",
+        "desc": "Indication of actual share of the order quantity for amortization.\n                                "
+    },
+    "150": {
+        "name": "Amortization cumulated quantity",
+        "desc": "Indication of actual cumulated quantity of previous and actual\n                                    amortization order quantity."
+    },
+    "151": {
+        "name": "Quantity advised",
+        "desc": "Quantity advised by supplier or shipper, in contrast to quantity\n                                    actually received."
+    },
+    "152": {
+        "name": "Consignment stock",
+        "desc": "Quantity of goods with an external customer which is still the\n                                    property of the supplier. Payment for these goods is only made to the supplier when\n                                    the ownership has been transferred between the trading partners."
+    },
+    "153": {
+        "name": "Statistical sales quantity",
+        "desc": "Quantity of goods sold in a specified period."
+    },
+    "154": {
+        "name": "Sales quantity planned",
+        "desc": "Quantity of goods required to meet future demands. - Market\n                                    intelligence quantity."
+    },
+    "155": {
+        "name": "Replenishment quantity",
+        "desc": "Quantity required to maintain the requisite on-hand stock of goods.\n                                "
+    },
+    "156": {
+        "name": "Inventory movement quantity",
+        "desc": "To specify the quantity of an inventory movement."
+    },
+    "157": {
+        "name": "Opening stock balance quantity",
+        "desc": "To specify the quantity of an opening stock balance."
+    },
+    "158": {
+        "name": "Closing stock balance quantity",
+        "desc": "To specify the quantity of a closing stock balance."
+    },
+    "159": {
+        "name": "Number of stops",
+        "desc": "Number of times a means of transport stops before arriving at\n                                    destination."
+    },
+    "160": {
+        "name": "Minimum production batch",
+        "desc": "The quantity specified is the minimum output from a single production\n                                    run."
+    },
+    "161": {
+        "name": "Dimensional sample quantity",
+        "desc": "The quantity defined is a sample for the purpose of validating\n                                    dimensions."
+    },
+    "162": {
+        "name": "Functional sample quantity",
+        "desc": "The quantity defined is a sample for the purpose of validating\n                                    function and performance."
+    },
+    "163": {
+        "name": "Pre-production quantity",
+        "desc": "Quantity of the referenced item required prior to full production.\n                                "
+    },
+    "164": {
+        "name": "Delivery batch",
+        "desc": "Quantity of the referenced item which constitutes a standard batch for\n                                    deliver purposes."
+    },
+    "165": {
+        "name": "Delivery batch multiple",
+        "desc": "The multiples in which delivery batches can be supplied."
+    },
+    "166": {
+        "name": "All time buy",
+        "desc": "The total quantity of the referenced covering all future needs.\n                                    Further orders of the referenced item are not expected."
+    },
+    "167": {
+        "name": "Total delivery quantity",
+        "desc": "The total quantity required by the buyer to be delivered."
+    },
+    "168": {
+        "name": "Single delivery quantity",
+        "desc": "The quantity required by the buyer to be delivered in a single\n                                    shipment."
+    },
+    "169": {
+        "name": "Supplied quantity",
+        "desc": "Quantity of the referenced item actually shipped."
+    },
+    "170": {
+        "name": "Allocated quantity",
+        "desc": "Quantity of the referenced item allocated from available stock for\n                                    delivery."
+    },
+    "171": {
+        "name": "Maximum stackability",
+        "desc": "The number of pallets/handling units which can be safely stacked one\n                                    on top of another."
+    },
+    "172": {
+        "name": "Amortisation quantity",
+        "desc": "The quantity of the referenced item which has a cost for tooling\n                                    amortisation included in the item price."
+    },
+    "173": {
+        "name": "Previously amortised quantity",
+        "desc": "The cumulative quantity of the referenced item which had a cost for\n                                    tooling amortisation included in the item price."
+    },
+    "174": {
+        "name": "Total amortisation quantity",
+        "desc": "The total quantity of the referenced item which has a cost for tooling\n                                    amortisation included in the item price."
+    },
+    "175": {
+        "name": "Number of moulds",
+        "desc": "The number of pressing moulds contained within a single piece of the\n                                    referenced tooling."
+    },
+    "176": {
+        "name": "Concurrent item output of tooling",
+        "desc": "The number of related items which can be produced simultaneously with\n                                    a single piece of the referenced tooling."
+    },
+    "177": {
+        "name": "Periodic capacity of tooling",
+        "desc": "Maximum production output of the referenced tool over a period of\n                                    time."
+    },
+    "178": {
+        "name": "Lifetime capacity of tooling",
+        "desc": "Maximum production output of the referenced tool over its productive\n                                    lifetime."
+    },
+    "179": {
+        "name": "Number of deliveries per despatch period",
+        "desc": "The number of deliveries normally expected to be despatched within\n                                    each despatch period."
+    },
+    "180": {
+        "name": "Provided quantity",
+        "desc": "The quantity of a referenced component supplied by the buyer for\n                                    manufacturing of an ordered item."
+    },
+    "181": {
+        "name": "Maximum production batch",
+        "desc": "The quantity specified is the maximum output from a single production\n                                    run."
+    },
+    "182": {
+        "name": "Cancelled quantity",
+        "desc": "Quantity of the referenced item which has previously been ordered and\n                                    is now cancelled."
+    },
+    "183": {
+        "name": "No delivery requirement in this instruction",
+        "desc": "This delivery instruction does not contain any delivery requirements.\n                                "
+    },
+    "184": {
+        "name": "Quantity of material in ordered time",
+        "desc": "Quantity of the referenced material within the ordered time."
+    },
+    "185": {
+        "name": "Rejected quantity",
+        "desc": "The quantity of received goods rejected for quantity reasons."
+    },
+    "186": {
+        "name": "Cumulative quantity scheduled up to accumulation start date",
+        "desc": "The cumulative quantity scheduled up to the accumulation start date.\n                                "
+    },
+    "187": {
+        "name": "Quantity scheduled",
+        "desc": "The quantity scheduled for delivery."
+    },
+    "188": {
+        "name": "Number of identical handling units",
+        "desc": "Number of identical handling units in terms of type and contents.\n                                "
+    },
+    "189": {
+        "name": "Number of packages in handling unit",
+        "desc": "The number of packages contained in one handling unit."
+    },
+    "190": {
+        "name": "Despatch note quantity",
+        "desc": "The item quantity specified on the despatch note."
+    },
+    "191": {
+        "name": "Adjustment to inventory quantity",
+        "desc": "An adjustment to inventory quantity."
+    },
+    "192": {
+        "name": "Free goods quantity",
+        "desc": "Quantity of goods which are free of charge."
+    },
+    "193": {
+        "name": "Free quantity included",
+        "desc": "Quantity included to which no charge is applicable."
+    },
+    "194": {
+        "name": "Received and accepted",
+        "desc": "Quantity which has been received and accepted at a given location.\n                                "
+    },
+    "195": {
+        "name": "Received, not accepted, to be returned",
+        "desc": "Quantity which has been received but not accepted at a given location\n                                    and which will consequently be returned to the relevant party."
+    },
+    "196": {
+        "name": "Received, not accepted, to be destroyed",
+        "desc": "Quantity which has been received but not accepted at a given location\n                                    and which will consequently be destroyed."
+    },
+    "197": {
+        "name": "Reordering level",
+        "desc": "Quantity at which an order may be triggered to replenish."
+    },
+    "198": {
+        "name": "Quantity in transit",
+        "desc": "Quantity which is currently in transit."
+    },
+    "199": {
+        "name": "Inventory withdrawal quantity",
+        "desc": "Quantity which has been withdrawn from inventory since the last\n                                    inventory report."
+    },
+    "200": {
+        "name": "Free quantity not included",
+        "desc": "Free quantity not included in ordered quantity."
+    },
+    "201": {
+        "name": "Recommended overhaul and repair quantity",
+        "desc": "To indicate the recommended quantity of an article required to support\n                                    overhaul and repair activities."
+    },
+    "202": {
+        "name": "Quantity per next higher assembly",
+        "desc": "To indicate the quantity required for the next higher assembly."
+    },
+    "203": {
+        "name": "Quantity per unit of issue",
+        "desc": "Provides the standard quantity of an article in which one unit can be\n                                    issued."
+    },
+    "204": {
+        "name": "Cumulative scrap quantity",
+        "desc": "Provides the cumulative quantity of an item which has been identified\n                                    as scrapped."
+    },
+    "205": {
+        "name": "Publication turn size",
+        "desc": "The quantity of magazines or newspapers grouped together with the\n                                    spine facing alternate directions in a bundle."
+    },
+    "206": {
+        "name": "Recommended maintenance quantity",
+        "desc": "Recommended quantity of an article which is required to meet an agreed\n                                    level of maintenance."
+    },
+    "207": {
+        "name": "Labour hours",
+        "desc": "Number of labour hours."
+    },
+    "208": {
+        "name": "Quantity requirement for maintenance and repair of equipment",
+        "desc": "Quantity of the material needed to maintain and repair equipment.\n                                "
+    },
+    "209": {
+        "name": "Additional replenishment demand quantity",
+        "desc": "Incremental needs over and above normal replenishment calculations,\n                                    but not intended to permanently change the model parameters."
+    },
+    "210": {
+        "name": "Returned by consumer quantity",
+        "desc": "Quantity returned by a consumer."
+    },
+    "211": {
+        "name": "Replenishment override quantity",
+        "desc": "Quantity to override the normal replenishment model calculations, but\n                                    not intended to permanently change the model parameters."
+    },
+    "212": {
+        "name": "Quantity sold, net",
+        "desc": "Net quantity sold which includes returns of saleable inventory and\n                                    other adjustments."
+    },
+    "213": {
+        "name": "Transferred out quantity",
+        "desc": "Quantity which was transferred out of this location."
+    },
+    "214": {
+        "name": "Transferred in quantity",
+        "desc": "Quantity which was transferred into this location."
+    },
+    "215": {
+        "name": "Unsaleable quantity",
+        "desc": "Quantity of inventory received which cannot be sold in its present\n                                    condition."
+    },
+    "216": {
+        "name": "Consumer reserved quantity",
+        "desc": "Quantity reserved for consumer delivery or pickup and not yet\n                                    withdrawn from inventory."
+    },
+    "217": {
+        "name": "Out of inventory quantity",
+        "desc": "Quantity of inventory which was requested but was not available."
+    },
+    "218": {
+        "name": "Quantity returned, defective or damaged",
+        "desc": "Quantity returned in a damaged or defective condition."
+    },
+    "219": {
+        "name": "Taxable quantity",
+        "desc": "Quantity subject to taxation."
+    },
+    "220": {
+        "name": "Meter reading",
+        "desc": "The numeric value of measure units counted by a meter."
+    },
+    "221": {
+        "name": "Maximum requestable quantity",
+        "desc": "The maximum quantity which may be requested."
+    },
+    "222": {
+        "name": "Minimum requestable quantity",
+        "desc": "The minimum quantity which may be requested."
+    },
+    "223": {
+        "name": "Daily average quantity",
+        "desc": "The quantity for a defined period divided by the number of days of the\n                                    period."
+    },
+    "224": {
+        "name": "Budgeted hours",
+        "desc": "The number of budgeted hours."
+    },
+    "225": {
+        "name": "Actual hours",
+        "desc": "The number of actual hours."
+    },
+    "226": {
+        "name": "Earned value hours",
+        "desc": "The number of earned value hours."
+    },
+    "227": {
+        "name": "Estimated hours",
+        "desc": "The number of estimated hours."
+    },
+    "228": {
+        "name": "Level resource task quantity",
+        "desc": "Quantity of a resource that is level for the duration of the task.\n                                "
+    },
+    "229": {
+        "name": "Available resource task quantity",
+        "desc": "Quantity of a resource available to complete a task."
+    },
+    "230": {
+        "name": "Work time units",
+        "desc": "Quantity of work units of time."
+    },
+    "231": {
+        "name": "Daily work shifts",
+        "desc": "Quantity of work shifts per day."
+    },
+    "232": {
+        "name": "Work time units per shift",
+        "desc": "Work units of time per work shift."
+    },
+    "233": {
+        "name": "Work calendar units",
+        "desc": "Work calendar units of time."
+    },
+    "234": {
+        "name": "Elapsed duration",
+        "desc": "Quantity representing the elapsed duration."
+    },
+    "235": {
+        "name": "Remaining duration",
+        "desc": "Quantity representing the remaining duration."
+    },
+    "236": {
+        "name": "Original duration",
+        "desc": "Quantity representing the original duration."
+    },
+    "237": {
+        "name": "Current duration",
+        "desc": "Quantity representing the current duration."
+    },
+    "238": {
+        "name": "Total float time",
+        "desc": "Quantity representing the total float time."
+    },
+    "239": {
+        "name": "Free float time",
+        "desc": "Quantity representing the free float time."
+    },
+    "240": {
+        "name": "Lag time",
+        "desc": "Quantity representing lag time."
+    },
+    "241": {
+        "name": "Lead time",
+        "desc": "Quantity representing lead time."
+    },
+    "242": {
+        "name": "Number of months",
+        "desc": "The number of months."
+    },
+    "243": {
+        "name": "Reserved quantity customer direct delivery sales",
+        "desc": "Quantity of products reserved for sales delivered direct to the\n                                    customer."
+    },
+    "244": {
+        "name": "Reserved quantity retail sales",
+        "desc": "Quantity of products reserved for retail sales."
+    },
+    "245": {
+        "name": "Consolidated discount inventory",
+        "desc": "A quantity of inventory supplied at consolidated discount terms."
+    },
+    "246": {
+        "name": "Returns replacement quantity",
+        "desc": "A quantity of goods issued as a replacement for a returned quantity.\n                                "
+    },
+    "247": {
+        "name": "Additional promotion sales forecast quantity",
+        "desc": "A forecast of additional quantity which will be sold during a period\n                                    of promotional activity."
+    },
+    "248": {
+        "name": "Reserved quantity",
+        "desc": "Quantity reserved for specific purposes."
+    },
+    "249": {
+        "name": "Quantity displayed not available for sale",
+        "desc": "Quantity displayed within a retail outlet but not available for sale.\n                                "
+    },
+    "250": {
+        "name": "Inventory discrepancy",
+        "desc": "The difference recorded between theoretical and physical inventory.\n                                "
+    },
+    "251": {
+        "name": "Incremental order quantity",
+        "desc": "The incremental quantity by which ordering is carried out."
+    },
+    "252": {
+        "name": "Quantity requiring manipulation before despatch",
+        "desc": "A quantity of goods which needs manipulation before despatch."
+    },
+    "253": {
+        "name": "Quantity in quarantine",
+        "desc": "A quantity of goods which are held in a restricted area for quarantine\n                                    purposes."
+    },
+    "254": {
+        "name": "Quantity withheld by owner of goods",
+        "desc": "A quantity of goods which has been withheld by the owner of the goods.\n                                "
+    },
+    "255": {
+        "name": "Quantity not available for despatch",
+        "desc": "A quantity of goods not available for despatch."
+    },
+    "256": {
+        "name": "Quantity awaiting delivery",
+        "desc": "Quantity of goods which are awaiting delivery."
+    },
+    "257": {
+        "name": "Quantity in physical inventory",
+        "desc": "A quantity of goods held in physical inventory."
+    },
+    "258": {
+        "name": "Quantity held by logistic service provider",
+        "desc": "Quantity of goods under the control of a logistic service provider.\n                                "
+    },
+    "259": {
+        "name": "Optimal quantity",
+        "desc": "The optimal quantity for a given purpose."
+    },
+    "260": {
+        "name": "Delivery quantity balance",
+        "desc": "The difference between the scheduled quantity and the quantity\n                                    delivered to the consignee at a given date."
+    },
+    "261": {
+        "name": "Cumulative quantity shipped",
+        "desc": "Cumulative quantity of all shipments."
+    },
+    "262": {
+        "name": "Quantity suspended",
+        "desc": "The quantity of something which is suspended."
+    },
+    "263": {
+        "name": "Control quantity",
+        "desc": "The quantity designated for control purposes."
+    },
+    "264": {
+        "name": "Equipment quantity",
+        "desc": "A count of a quantity of equipment."
+    },
+    "265": {
+        "name": "Factor",
+        "desc": "Number by which the measured unit has to be multiplied to calculate\n                                    the units used."
+    },
+    "266": {
+        "name": "Unsold quantity held by wholesaler",
+        "desc": "Unsold quantity held by the wholesaler."
+    },
+    "267": {
+        "name": "Quantity held by delivery vehicle",
+        "desc": "Quantity of goods held by the delivery vehicle."
+    },
+    "268": {
+        "name": "Quantity held by retail outlet",
+        "desc": "Quantity held by the retail outlet."
+    },
+    "269": {
+        "name": "Rejected return quantity",
+        "desc": "A quantity for return which has been rejected."
+    },
+    "270": {
+        "name": "Accounts",
+        "desc": "The number of accounts."
+    },
+    "271": {
+        "name": "Accounts placed for collection",
+        "desc": "The number of accounts placed for collection."
+    },
+    "272": {
+        "name": "Activity codes",
+        "desc": "The number of activity codes."
+    },
+    "273": {
+        "name": "Agents",
+        "desc": "The number of agents."
+    },
+    "274": {
+        "name": "Airline attendants",
+        "desc": "The number of airline attendants."
+    },
+    "275": {
+        "name": "Authorised shares",
+        "desc": "The number of shares authorised for issue."
+    },
+    "276": {
+        "name": "Employee average",
+        "desc": "The average number of employees."
+    },
+    "277": {
+        "name": "Branch locations",
+        "desc": "The number of branch locations."
+    },
+    "278": {
+        "name": "Capital changes",
+        "desc": "The number of capital changes made."
+    },
+    "279": {
+        "name": "Clerks",
+        "desc": "The number of clerks."
+    },
+    "280": {
+        "name": "Companies in same activity",
+        "desc": "The number of companies doing business in the same activity category.\n                                "
+    },
+    "281": {
+        "name": "Companies included in consolidated financial statement",
+        "desc": "The number of companies included in a consolidated financial\n                                    statement."
+    },
+    "282": {
+        "name": "Cooperative shares",
+        "desc": "The number of cooperative shares."
+    },
+    "283": {
+        "name": "Creditors",
+        "desc": "The number of creditors."
+    },
+    "284": {
+        "name": "Departments",
+        "desc": "The number of departments."
+    },
+    "285": {
+        "name": "Design employees",
+        "desc": "The number of employees involved in the design process."
+    },
+    "286": {
+        "name": "Physicians",
+        "desc": "The number of medical doctors."
+    },
+    "287": {
+        "name": "Domestic affiliated companies",
+        "desc": "The number of affiliated companies located within the country."
+    },
+    "288": {
+        "name": "Drivers",
+        "desc": "The number of drivers."
+    },
+    "289": {
+        "name": "Employed at location",
+        "desc": "The number of employees at the specified location."
+    },
+    "290": {
+        "name": "Employed by this company",
+        "desc": "The number of employees at the specified company."
+    },
+    "291": {
+        "name": "Total employees",
+        "desc": "The total number of employees."
+    },
+    "292": {
+        "name": "Employees shared",
+        "desc": "The number of employees shared among entities."
+    },
+    "293": {
+        "name": "Engineers",
+        "desc": "The number of engineers."
+    },
+    "294": {
+        "name": "Estimated accounts",
+        "desc": "The estimated number of accounts."
+    },
+    "295": {
+        "name": "Estimated employees at location",
+        "desc": "The estimated number of employees at the specified location."
+    },
+    "296": {
+        "name": "Estimated total employees",
+        "desc": "The total estimated number of employees."
+    },
+    "297": {
+        "name": "Executives",
+        "desc": "The number of executives."
+    },
+    "298": {
+        "name": "Agricultural workers",
+        "desc": "The number of agricultural workers."
+    },
+    "299": {
+        "name": "Financial institutions",
+        "desc": "The number of financial institutions."
+    },
+    "300": {
+        "name": "Floors occupied",
+        "desc": "The number of floors occupied."
+    },
+    "301": {
+        "name": "Foreign related entities",
+        "desc": "The number of related entities located outside the country."
+    },
+    "302": {
+        "name": "Group employees",
+        "desc": "The number of employees within the group."
+    },
+    "303": {
+        "name": "Indirect employees",
+        "desc": "The number of employees not associated with direct production."
+    },
+    "304": {
+        "name": "Installers",
+        "desc": "The number of employees involved with the installation process."
+    },
+    "305": {
+        "name": "Invoices",
+        "desc": "The number of invoices."
+    },
+    "306": {
+        "name": "Issued shares",
+        "desc": "The number of shares actually issued."
+    },
+    "307": {
+        "name": "Labourers",
+        "desc": "The number of labourers."
+    },
+    "308": {
+        "name": "Manufactured units",
+        "desc": "The number of units manufactured."
+    },
+    "309": {
+        "name": "Maximum number of employees",
+        "desc": "The maximum number of people employed."
+    },
+    "310": {
+        "name": "Maximum number of employees at location",
+        "desc": "The maximum number of people employed at a location."
+    },
+    "311": {
+        "name": "Members in group",
+        "desc": "The number of members within a group."
+    },
+    "312": {
+        "name": "Minimum number of employees at location",
+        "desc": "The minimum number of people employed at a location."
+    },
+    "313": {
+        "name": "Minimum number of employees",
+        "desc": "The minimum number of people employed."
+    },
+    "314": {
+        "name": "Non-union employees",
+        "desc": "The number of employees not belonging to a labour union."
+    },
+    "315": {
+        "name": "Floors",
+        "desc": "The number of floors in a building."
+    },
+    "316": {
+        "name": "Nurses",
+        "desc": "The number of nurses."
+    },
+    "317": {
+        "name": "Office workers",
+        "desc": "The number of workers in an office."
+    },
+    "318": {
+        "name": "Other employees",
+        "desc": "The number of employees otherwise categorised."
+    },
+    "319": {
+        "name": "Part time employees",
+        "desc": "The number of employees working on a part time basis."
+    },
+    "320": {
+        "name": "Accounts payable average overdue days",
+        "desc": "The average number of days accounts payable are overdue."
+    },
+    "321": {
+        "name": "Pilots",
+        "desc": "The number of pilots."
+    },
+    "322": {
+        "name": "Plant workers",
+        "desc": "The number of workers within a plant."
+    },
+    "323": {
+        "name": "Previous number of accounts",
+        "desc": "The number of accounts which preceded the current count."
+    },
+    "324": {
+        "name": "Previous number of branch locations",
+        "desc": "The number of branch locations which preceded the current count."
+    },
+    "325": {
+        "name": "Principals included as employees",
+        "desc": "The number of principals which are included in the count of employees.\n                                "
+    },
+    "326": {
+        "name": "Protested bills",
+        "desc": "The number of bills which are protested."
+    },
+    "327": {
+        "name": "Registered brands distributed",
+        "desc": "The number of registered brands which are being distributed."
+    },
+    "328": {
+        "name": "Registered brands manufactured",
+        "desc": "The number of registered brands which are being manufactured."
+    },
+    "329": {
+        "name": "Related business entities",
+        "desc": "The number of related business entities."
+    },
+    "330": {
+        "name": "Relatives employed",
+        "desc": "The number of relatives which are counted as employees."
+    },
+    "331": {
+        "name": "Rooms",
+        "desc": "The number of rooms."
+    },
+    "332": {
+        "name": "Salespersons",
+        "desc": "The number of salespersons."
+    },
+    "333": {
+        "name": "Seats",
+        "desc": "The number of seats."
+    },
+    "334": {
+        "name": "Shareholders",
+        "desc": "The number of shareholders."
+    },
+    "335": {
+        "name": "Shares of common stock",
+        "desc": "The number of shares of common stock."
+    },
+    "336": {
+        "name": "Shares of preferred stock",
+        "desc": "The number of shares of preferred stock."
+    },
+    "337": {
+        "name": "Silent partners",
+        "desc": "The number of silent partners."
+    },
+    "338": {
+        "name": "Subcontractors",
+        "desc": "The number of subcontractors."
+    },
+    "339": {
+        "name": "Subsidiaries",
+        "desc": "The number of subsidiaries."
+    },
+    "340": {
+        "name": "Law suits",
+        "desc": "The number of law suits."
+    },
+    "341": {
+        "name": "Suppliers",
+        "desc": "The number of suppliers."
+    },
+    "342": {
+        "name": "Teachers",
+        "desc": "The number of teachers."
+    },
+    "343": {
+        "name": "Technicians",
+        "desc": "The number of technicians."
+    },
+    "344": {
+        "name": "Trainees",
+        "desc": "The number of trainees."
+    },
+    "345": {
+        "name": "Union employees",
+        "desc": "The number of employees who are members of a labour union."
+    },
+    "346": {
+        "name": "Number of units",
+        "desc": "The quantity of units."
+    },
+    "347": {
+        "name": "Warehouse employees",
+        "desc": "The number of employees who work in a warehouse setting."
+    },
+    "348": {
+        "name": "Shareholders holding remainder of shares",
+        "desc": "Number of shareholders owning the remainder of shares."
+    },
+    "349": {
+        "name": "Payment orders filed",
+        "desc": "Number of payment orders filed."
+    },
+    "350": {
+        "name": "Uncovered cheques",
+        "desc": "Number of uncovered cheques."
+    },
+    "351": {
+        "name": "Auctions",
+        "desc": "Number of auctions."
+    },
+    "352": {
+        "name": "Units produced",
+        "desc": "The number of units produced."
+    },
+    "353": {
+        "name": "Added employees",
+        "desc": "Number of employees that were added to the workforce."
+    },
+    "354": {
+        "name": "Number of added locations",
+        "desc": "Number of locations that were added."
+    },
+    "355": {
+        "name": "Total number of foreign subsidiaries not included in financial\n                                    statement",
+        "desc": "The total number of foreign subsidiaries not included in the financial\n                                    statement."
+    },
+    "356": {
+        "name": "Number of closed locations",
+        "desc": "Number of locations that were closed."
+    },
+    "357": {
+        "name": "Counter clerks",
+        "desc": "The number of clerks that work behind a flat-topped fitment."
+    },
+    "358": {
+        "name": "Payment experiences in the last 3 months",
+        "desc": "The number of payment experiences received for an entity over the last\n                                    3 months."
+    },
+    "359": {
+        "name": "Payment experiences in the last 12 months",
+        "desc": "The number of payment experiences received for an entity over the last\n                                    12 months."
+    },
+    "360": {
+        "name": "Total number of subsidiaries not included in the financial statement\n                                ",
+        "desc": "The total number of subsidiaries not included in the financial\n                                    statement."
+    },
+    "361": {
+        "name": "Paid-in common shares",
+        "desc": "The number of paid-in common shares."
+    },
+    "362": {
+        "name": "Total number of domestic subsidiaries not included in financial\n                                    statement",
+        "desc": "The total number of domestic subsidiaries not included in the\n                                    financial statement."
+    },
+    "363": {
+        "name": "Total number of foreign subsidiaries included in financial statement\n                                ",
+        "desc": "The total number of foreign subsidiaries included in the financial\n                                    statement."
+    },
+    "364": {
+        "name": "Total number of domestic subsidiaries included in financial statement\n                                ",
+        "desc": "The total number of domestic subsidiaries included in the financial\n                                    statement."
+    },
+    "365": {
+        "name": "Total transactions",
+        "desc": "The total number of transactions."
+    },
+    "366": {
+        "name": "Paid-in preferred shares",
+        "desc": "The number of paid-in preferred shares."
+    },
+    "367": {
+        "name": "Employees",
+        "desc": "Code specifying the quantity of persons working for a company, whose\n                                    services are used for pay."
+    },
+    "368": {
+        "name": "Active ingredient dose per unit, dispensed",
+        "desc": "The dosage of active ingredient per dispensed unit."
+    },
+    "369": {
+        "name": "Budget",
+        "desc": "Budget quantity."
+    },
+    "370": {
+        "name": "Budget, cumulative to date",
+        "desc": "Budget quantity, cumulative to date."
+    },
+    "371": {
+        "name": "Actual units",
+        "desc": "The number of actual units."
+    },
+    "372": {
+        "name": "Actual units, cumulative to date",
+        "desc": "The number of cumulative to date actual units."
+    },
+    "373": {
+        "name": "Earned value",
+        "desc": "Earned value quantity."
+    },
+    "374": {
+        "name": "Earned value, cumulative to date",
+        "desc": "Earned value quantity accumulated to date."
+    },
+    "375": {
+        "name": "At completion quantity, estimated",
+        "desc": "The estimated quantity when a project is complete."
+    },
+    "376": {
+        "name": "To complete quantity, estimated",
+        "desc": "The estimated quantity required to complete a project."
+    },
+    "377": {
+        "name": "Adjusted units",
+        "desc": "The number of adjusted units."
+    },
+    "378": {
+        "name": "Number of limited partnership shares",
+        "desc": "Number of shares held in a limited partnership."
+    },
+    "379": {
+        "name": "National business failure incidences",
+        "desc": "Number of firms in a country that discontinued with a loss to\n                                    creditors."
+    },
+    "380": {
+        "name": "Industry business failure incidences",
+        "desc": "Number of firms in a specific industry that discontinued with a loss\n                                    to creditors."
+    },
+    "381": {
+        "name": "Business class failure incidences",
+        "desc": "Number of firms in a specific class that discontinued with a loss to\n                                    creditors."
+    },
+    "382": {
+        "name": "Mechanics",
+        "desc": "Number of mechanics."
+    },
+    "383": {
+        "name": "Messengers",
+        "desc": "Number of messengers."
+    },
+    "384": {
+        "name": "Primary managers",
+        "desc": "Number of primary managers."
+    },
+    "385": {
+        "name": "Secretaries",
+        "desc": "Number of secretaries."
+    },
+    "386": {
+        "name": "Detrimental legal filings",
+        "desc": "Number of detrimental legal filings."
+    },
+    "387": {
+        "name": "Branch office locations, estimated",
+        "desc": "Estimated number of branch office locations."
+    },
+    "388": {
+        "name": "Previous number of employees",
+        "desc": "The number of employees for a previous period."
+    },
+    "389": {
+        "name": "Asset seizers",
+        "desc": "Number of entities that seize assets of another entity."
+    },
+    "390": {
+        "name": "Out-turned quantity",
+        "desc": "The quantity discharged."
+    },
+    "391": {
+        "name": "Material on-board quantity, prior to loading",
+        "desc": "The material in vessel tanks, void spaces, and pipelines prior to\n                                    loading."
+    },
+    "392": {
+        "name": "Supplier estimated previous meter reading",
+        "desc": "Previous meter reading estimated by the supplier."
+    },
+    "393": {
+        "name": "Supplier estimated latest meter reading",
+        "desc": "Latest meter reading estimated by the supplier."
+    },
+    "394": {
+        "name": "Customer estimated previous meter reading",
+        "desc": "Previous meter reading estimated by the customer."
+    },
+    "395": {
+        "name": "Customer estimated latest meter reading",
+        "desc": "Latest meter reading estimated by the customer."
+    },
+    "396": {
+        "name": "Supplier previous meter reading",
+        "desc": "Previous meter reading done by the supplier."
+    },
+    "397": {
+        "name": "Supplier latest meter reading",
+        "desc": "Latest meter reading recorded by the supplier."
+    },
+    "398": {
+        "name": "Maximum number of purchase orders allowed",
+        "desc": "Maximum number of purchase orders that are allowed."
+    },
+    "399": {
+        "name": "File size before compression",
+        "desc": "The size of a file before compression."
+    },
+    "400": {
+        "name": "File size after compression",
+        "desc": "The size of a file after compression."
+    },
+    "401": {
+        "name": "Securities shares",
+        "desc": "Number of shares of securities."
+    },
+    "402": {
+        "name": "Patients",
+        "desc": "Number of patients."
+    },
+    "403": {
+        "name": "Completed projects",
+        "desc": "Number of completed projects."
+    },
+    "404": {
+        "name": "Promoters",
+        "desc": "Number of entities who finance or organize an event or a production.\n                                "
+    },
+    "405": {
+        "name": "Administrators",
+        "desc": "Number of administrators."
+    },
+    "406": {
+        "name": "Supervisors",
+        "desc": "Number of supervisors."
+    },
+    "407": {
+        "name": "Professionals",
+        "desc": "Number of professionals."
+    },
+    "408": {
+        "name": "Debt collectors",
+        "desc": "Number of debt collectors."
+    },
+    "409": {
+        "name": "Inspectors",
+        "desc": "Number of individuals who perform inspections."
+    },
+    "410": {
+        "name": "Operators",
+        "desc": "Number of operators."
+    },
+    "411": {
+        "name": "Trainers",
+        "desc": "Number of trainers."
+    },
+    "412": {
+        "name": "Active accounts",
+        "desc": "Number of accounts in a current or active status."
+    },
+    "413": {
+        "name": "Trademarks used",
+        "desc": "Number of trademarks used."
+    },
+    "414": {
+        "name": "Machines",
+        "desc": "Number of machines."
+    },
+    "415": {
+        "name": "Fuel pumps",
+        "desc": "Number of fuel pumps."
+    },
+    "416": {
+        "name": "Tables available",
+        "desc": "Number of tables available for use."
+    },
+    "417": {
+        "name": "Directors",
+        "desc": "Number of directors."
+    },
+    "418": {
+        "name": "Freelance debt collectors",
+        "desc": "Number of debt collectors who work on a freelance basis."
+    },
+    "419": {
+        "name": "Freelance salespersons",
+        "desc": "Number of salespersons who work on a freelance basis."
+    },
+    "420": {
+        "name": "Travelling employees",
+        "desc": "Number of travelling employees."
+    },
+    "421": {
+        "name": "Foremen",
+        "desc": "Number of workers with limited supervisory responsibilities."
+    },
+    "422": {
+        "name": "Production workers",
+        "desc": "Number of employees engaged in production."
+    },
+    "423": {
+        "name": "Employees not including owners",
+        "desc": "Number of employees excluding business owners."
+    },
+    "424": {
+        "name": "Beds",
+        "desc": "Number of beds."
+    },
+    "425": {
+        "name": "Resting quantity",
+        "desc": "A quantity of product that is at rest before it can be used."
+    },
+    "426": {
+        "name": "Production requirements",
+        "desc": "Quantity needed to meet production requirements."
+    },
+    "427": {
+        "name": "Corrected quantity",
+        "desc": "The quantity has been corrected."
+    },
+    "428": {
+        "name": "Operating divisions",
+        "desc": "Number of divisions operating."
+    },
+    "429": {
+        "name": "Quantitative incentive scheme base",
+        "desc": "Quantity constituting the base for the quantitative incentive scheme.\n                                "
+    },
+    "430": {
+        "name": "Petitions filed",
+        "desc": "Number of petitions that have been filed."
+    },
+    "431": {
+        "name": "Bankruptcy petitions filed",
+        "desc": "Number of bankruptcy petitions that have been filed."
+    },
+    "432": {
+        "name": "Projects in process",
+        "desc": "Number of projects in process."
+    },
+    "433": {
+        "name": "Changes in capital structure",
+        "desc": "Number of modifications made to the capital structure of an entity.\n                                "
+    },
+    "434": {
+        "name": "Detrimental legal filings against directors",
+        "desc": "The number of legal filings that are of a detrimental nature that have\n                                    been filed against the directors."
+    },
+    "435": {
+        "name": "Number of failed businesses of directors",
+        "desc": "The number of failed businesses with which the directors have been\n                                    associated."
+    },
+    "436": {
+        "name": "Professor",
+        "desc": "The number of professors."
+    },
+    "437": {
+        "name": "Seller",
+        "desc": "The number of sellers."
+    },
+    "438": {
+        "name": "Skilled worker",
+        "desc": "The number of skilled workers."
+    },
+    "439": {
+        "name": "Trademark represented",
+        "desc": "The number of trademarks represented."
+    },
+    "440": {
+        "name": "Number of quantitative incentive scheme units",
+        "desc": "Number of units allocated to a quantitative incentive scheme."
+    },
+    "441": {
+        "name": "Quantity in manufacturing process",
+        "desc": "Quantity currently in the manufacturing process."
+    },
+    "442": {
+        "name": "Number of units in the width of a layer",
+        "desc": "Number of units which make up the width of a layer."
+    },
+    "443": {
+        "name": "Number of units in the depth of a layer",
+        "desc": "Number of units which make up the depth of a layer."
+    },
+    "444": {
+        "name": "Return to warehouse",
+        "desc": "A quantity of products sent back to the warehouse."
+    },
+    "445": {
+        "name": "Return to the manufacturer",
+        "desc": "A quantity of products sent back from the manufacturer."
+    },
+    "446": {
+        "name": "Delta quantity",
+        "desc": "An increment or decrement to a quantity."
+    },
+    "447": {
+        "name": "Quantity moved between outlets",
+        "desc": "A quantity of products moved between outlets."
+    },
+    "448": {
+        "name": "Pre-paid invoice annual consumption, estimated",
+        "desc": "The estimated annual consumption used for a prepayment invoice."
+    },
+    "449": {
+        "name": "Total quoted quantity",
+        "desc": "The sum of quoted quantities."
+    },
+    "450": {
+        "name": "Requests pertaining to entity in last 12 months",
+        "desc": "Number of requests received in last 12 months pertaining to the\n                                    entity."
+    },
+    "451": {
+        "name": "Total inquiry matches",
+        "desc": "Number of instances which correspond with the inquiry."
+    },
+    "452": {
+        "name": "En route to warehouse quantity",
+        "desc": "A quantity of products that is en route to a warehouse."
+    },
+    "453": {
+        "name": "En route from warehouse quantity",
+        "desc": "A quantity of products that is en route from a warehouse."
+    },
+    "454": {
+        "name": "Quantity ordered but not yet allocated from stock",
+        "desc": "A quantity of products which has been ordered but which has not yet\n                                    been allocated from stock."
+    },
+    "455": {
+        "name": "Not yet ordered quantity",
+        "desc": "The quantity which has not yet been ordered."
+    },
+    "456": {
+        "name": "Net reserve power",
+        "desc": "The reserve power available for the net."
+    },
+    "457": {
+        "name": "Maximum number of units per shelf",
+        "desc": "Maximum number of units of a product that can be placed on a shelf.\n                                "
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "As agreed by the trading partners."
+    }
+}

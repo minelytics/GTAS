@@ -1,0 +1,86 @@
+{
+    "AA": {
+        "name": "Interactive, perform sell",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is an instruction to perform a sell."
+    },
+    "AB": {
+        "name": "Interactive, modify current dialogue data",
+        "desc": "This sub-function is to notify the receiver that the message data is a\n                                    modification to data previously sent in the current interactive dialogue."
+    },
+    "AC": {
+        "name": "Interactive, modify previous dialogue data",
+        "desc": "This sub-function is to notify the receiver that the message data is a\n                                    modification to data sent in a previous interactive dialogue."
+    },
+    "AD": {
+        "name": "Interactive, cancel reserved product",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to cancel a product previously reserved in an interactive dialogue."
+    },
+    "AE": {
+        "name": "Interactive, ignore reserved product",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to ignore a product previously reserved in an interactive dialogue."
+    },
+    "AF": {
+        "name": "Interactive, conclude current reservation",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to conclude the current reservation transaction."
+    },
+    "AG": {
+        "name": "Interactive, display reserved product",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to display a product previously reserved in an interactive dialogue.\n                                "
+    },
+    "AH": {
+        "name": "Interactive, perform reference sell",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is an instruction to perform a sell, based on data returned in a previous\n                                    interactive response."
+    },
+    "AI": {
+        "name": "Interactive, modify previous dialogue reservation",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to modify a reservation, made during a previous interactive dialogue.\n                                "
+    },
+    "AJ": {
+        "name": "Interactive, display voucher template",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to display the template for a voucher."
+    },
+    "AK": {
+        "name": "Interactive, print voucher",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to print a voucher."
+    },
+    "AL": {
+        "name": "Interactive, cancel current dialogue reservation",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to cancel a reservation made during the current interactive dialogue.\n                                "
+    },
+    "AM": {
+        "name": "Interactive, cancel previous dialogue reservation",
+        "desc": "This sub-function is to notify the receiver that the purpose of the\n                                    message is to cancel a reservation made during a previous interactive dialogue.\n                                "
+    },
+    "AN": {
+        "name": "Interactive, duplicate sell message",
+        "desc": "This sub-function is to notify the receiver that the message is a\n                                    duplicate of a previously sent interactive sell message."
+    },
+    "AO": {
+        "name": "Interactive, duplicate modify current dialogue data",
+        "desc": "This sub-function is to notify the receiver that the message is a\n                                    duplicate of a previously sent message to modify data in the current interactive\n                                    dialogue."
+    },
+    "AP": {
+        "name": "Interactive, duplicate modify previous dialogue reservation",
+        "desc": "This sub-function is to notify the receiver that the message is a\n                                    duplicate of a previously sent message to modify a reservation made during a\n                                    previous interactive dialogue."
+    },
+    "AQ": {
+        "name": "Interactive, availability request, multiple suppliers",
+        "desc": "This sub-function is to notify the receiver that the message is an\n                                    interactive request for availability which is simultaneously being sent to multiple\n                                    suppliers."
+    },
+    "AR": {
+        "name": "Interactive, availability request, one specific supplier",
+        "desc": "This sub-function is to notify the receiver that the message is an\n                                    interactive request for availability from only one specific supplier."
+    },
+    "AS": {
+        "name": "Interactive, product rules request",
+        "desc": "This sub-function is to notify the receiver that the message is an\n                                    interactive request for product rules."
+    },
+    "SECACK": {
+        "name": "Security acknowledgment",
+        "desc": "This sub-function of the AUTACK message is for the secure\n                                    acknowledgement of receipt, including the reporting of any associated security\n                                    violation(s)."
+    },
+    "SECAUT": {
+        "name": "Security authentication and/or non-repudiation of origin",
+        "desc": "This sub-function of the AUTACK message is for secure integrity,\n                                    authentication and/or non-repudiation of origin."
+    }
+}

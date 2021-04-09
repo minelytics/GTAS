@@ -1,0 +1,102 @@
+{
+    "1": {
+        "name": "Member",
+        "desc": "Attribute refers to a member of a group of persons or a service\n                                    scheme."
+    },
+    "2": {
+        "name": "Person",
+        "desc": "Attribute refers to a person."
+    },
+    "3": {
+        "name": "Array structure component",
+        "desc": "A structure component of an array."
+    },
+    "4": {
+        "name": "University degree",
+        "desc": "Attribute to specify an academic title."
+    },
+    "5": {
+        "name": "Professional title",
+        "desc": "Attribute to specify professional title."
+    },
+    "6": {
+        "name": "Courtesy title",
+        "desc": "Attribute to specify a personal title."
+    },
+    "7": {
+        "name": "Directory set definition",
+        "desc": "Attribute refers to a directory set definition."
+    },
+    "8": {
+        "name": "Structure object attribute",
+        "desc": "The attribute refers to an object in a structure."
+    },
+    "9": {
+        "name": "Account",
+        "desc": "Identifying attributes related to an account."
+    },
+    "10": {
+        "name": "Financial statement",
+        "desc": "Identifies the attributes related to a financial statement."
+    },
+    "11": {
+        "name": "Payment manner",
+        "desc": "To provide information regarding the manner of payment."
+    },
+    "12": {
+        "name": "Loan information",
+        "desc": "To specify information applicable to a loan."
+    },
+    "13": {
+        "name": "Contract",
+        "desc": "To identify the contract attributes."
+    },
+    "14": {
+        "name": "Funding",
+        "desc": "To identify funding attributes."
+    },
+    "15": {
+        "name": "Acquisition phase",
+        "desc": "To identify the attributes for the acquisition phases of a product or\n                                    service."
+    },
+    "16": {
+        "name": "Monetary appropriation",
+        "desc": "To identify the attributes of money set aside to accomplish a task.\n                                "
+    },
+    "17": {
+        "name": "Laboratory investigation",
+        "desc": "Attribute relates to a laboratory investigation."
+    },
+    "18": {
+        "name": "Clinical investigation",
+        "desc": "Attribute relates to a clinical investigation."
+    },
+    "19": {
+        "name": "Reason for request",
+        "desc": "Attribute relates to a reason for a request."
+    },
+    "20": {
+        "name": "Reason for prescription",
+        "desc": "Attribute relates to the reason for a prescription."
+    },
+    "21": {
+        "name": "Comment to prescription",
+        "desc": "Attribute relates to a comment to a prescription."
+    },
+    "22": {
+        "name": "Observation",
+        "desc": "Attribute relates to an observation."
+    },
+    "23": {
+        "name": "Comment to a request",
+        "desc": "Attribute relates to a comment to a request."
+    },
+    "24": {
+        "name": "Event",
+        "desc": "Attribute relates to an event."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Mutually defined attribute function qualifier."
+    }
+}

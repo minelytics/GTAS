@@ -1,0 +1,102 @@
+{
+    "1": {
+        "name": "Inland transport",
+        "desc": "Transport by which goods are moved from or to the frontier, or between\n                                    inland points."
+    },
+    "2": {
+        "name": "At the statistical territory limit",
+        "desc": "Point by which the means of transport are presumed to have left the\n                                    statistical territory of despatch or to have entered the statistical territory of\n                                    arrival."
+    },
+    "10": {
+        "name": "Pre-carriage transport",
+        "desc": "Transport by which the goods are moved prior to their main carriage\n                                    transport."
+    },
+    "11": {
+        "name": "At border",
+        "desc": "Transport by which goods are moved to the Customs frontier."
+    },
+    "12": {
+        "name": "At departure",
+        "desc": "Transport by which goods are moved from the place of departure."
+    },
+    "13": {
+        "name": "At destination",
+        "desc": "Transport by which goods are moved at the place of destination."
+    },
+    "15": {
+        "name": "Main carriage - fourth carrier",
+        "desc": "The fourth carrier of the ordered transport."
+    },
+    "16": {
+        "name": "Main carriage - fifth carrier",
+        "desc": "The fifth carrier of the ordered transport."
+    },
+    "17": {
+        "name": "Main carriage - sixth carrier",
+        "desc": "The sixth carrier of the ordered transport."
+    },
+    "18": {
+        "name": "Main carriage - seventh carrier",
+        "desc": "The seventh carrier of the ordered transport."
+    },
+    "19": {
+        "name": "Main carriage - eighth carrier",
+        "desc": "The eighth carrier of the ordered transport."
+    },
+    "20": {
+        "name": "Main-carriage transport",
+        "desc": "The primary stage in the movement of cargo from the point of origin to\n                                    the intended destination."
+    },
+    "21": {
+        "name": "Main carriage - first carrier",
+        "desc": "The first carrier of the ordered transport when more than one carrier\n                                    is involved."
+    },
+    "22": {
+        "name": "Main carriage - second carrier",
+        "desc": "The second carrier of the ordered transport when more than one carrier\n                                    is involved."
+    },
+    "23": {
+        "name": "Main carriage - third carrier",
+        "desc": "The third carrier of the ordered transport when more than one carrier\n                                    is involved."
+    },
+    "24": {
+        "name": "Inland waterway transport",
+        "desc": "Transport by which goods are moved via an inland body of water."
+    },
+    "25": {
+        "name": "Delivery carrier all transport",
+        "desc": "Carrier responsible from the point of origin to the final delivery\n                                    destination."
+    },
+    "26": {
+        "name": "Second pre-carriage transport",
+        "desc": "Second transport by which the goods are moved prior to their main\n                                    carriage transport."
+    },
+    "27": {
+        "name": "Pre-acceptance transport",
+        "desc": "The transport by which the goods are moved to the place of acceptance.\n                                "
+    },
+    "28": {
+        "name": "Second on-carriage transport",
+        "desc": "Second transport by which the goods are moved after the main carriage\n                                    transport."
+    },
+    "29": {
+        "name": "Main carriage - ninth carrier",
+        "desc": "The ninth carrier of the ordered transport."
+    },
+    "30": {
+        "name": "On-carriage transport",
+        "desc": "Transport by which the goods are moved after the main carriage\n                                    transport."
+    },
+    "31": {
+        "name": "Main carriage - tenth carrier",
+        "desc": "The tenth carrier of the ordered transport."
+    },
+    "32": {
+        "name": "Main carriage - eleventh carrier",
+        "desc": "The eleventh carrier of the ordered transport."
+    },
+    "33": {
+        "name": "Main carriage - twelfth carrier",
+        "desc": "The twelfth carrier of the ordered transport."
+    }
+}

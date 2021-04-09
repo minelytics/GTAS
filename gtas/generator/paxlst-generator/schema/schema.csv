@@ -1,0 +1,140 @@
+id,fields,data_element,segment,data_element_tag,data_type,type,format,length,generator,value,default_generator,default_value,description
+1,passenger_last_name,Passenger Last Name,NAD,C080:3036 (1),AN,keyword,,35,name,,,,"Alphabetic, no numeric or special characters, except dash
+( - ) and single quote ( ‘ )"
+2,passenger_first_name,Passenger First Name,NAD,C080:3036 (2),AN,keyword,,35,name,,,,"First Initial only is allowed, however, may result in a higher occurrence of “Inhibited” responses and may result in the issuance of APIS penalties.
+Alphabetic, no numeric or
+special characters, except dash ( - ) and single quote ( ‘ )"
+3,passenger_middle_name,Passenger Middle Name,NAD,C080:3036 (3),AN,keyword,,35,name,,,,"Alphabetic, no numeric or special characters, except dash
+( - ) and single quote ( ‘ )"
+4,date_of_birth,Date of birth,DTM,C507:2380,AN,date,dateOptionalTime,YYYY/MM/DD,range,2019/01/01:2019/12/01,,,"Valid month, valid day within the month, and valid year Date of Birth. Format ‘YYMMDD' where: YY - Year
+MM - Month DD - Day"
+5,gender,Gender,ATT,C956:9019,AN,keyword,,1,choice,"M, F",,,"M, F or any gender code included on a Government-
+issued ID"
+6,citizenship,Citizenship,NAT,C042:3293,AN,keyword,,3,alpha3_code,,,,Validated against the ISO country code list (ISO-3166-1)
+7,country_of_residence,Country of residence,LOC,"C517:3225
+(Qualifier DE 3227 = ‘174’ )",AN,keyword,,3,alpha3_code,,,,Validated against the ISO country code list (ISO-3166-1)
+8,traveler_type_indicator, Traveler type indicator,NAD,3035,AN,keyword,,3,name,,,, Indicator.  Values: FL Passenger FM Crew member DDU Intransit Passenger DDT Intransit Crew Member COT   Involved Party - Gate Pass request ZZZ - For Cancel Reservation and Flight Close-out messages
+9,travel_document_type,Travel document type,DOC,C002:1001,AN,keyword,,2,name,,,,"Codified value:
+P - Passport
+A – Alien Registration Card
+C – Permanent Resident Card C1-Permanent Resident Card F – Facilitation Document (deportee or consular letter)
+G – U.S. Merchant Mariner Document
+IA - Employment Authorization Card  with the notations “serves as I-512 advance parole ” or “ valid for re-entry to the U.S.” (as secondary document use only)I- NEXUS
+IN – NEXUS
+M – U.S. Military or NATO ID (with official orders)
+PR – Re-Entry Travel Document PT - DHS Refugee Travel Document and Asylee Travel Document
+T – Re-Entry or Refugee Permit and Asylee Travel Document
+V – U.S. non-immigrant Visa (as secondary document use only) VB – Laser Visa- Border Crossing Card (as secondary document use only)
+VI-Immigrant Visa (as secondary document use only) VN-Non-Immigrant Visa (as secondary document use only)"
+10,document_number,Document number,DOC,C503:1004,AN,keyword,,35,name,,,,"Alphanumeric, no special characters"
+11,document_expiration_date_passport,Document expiration date - Passport,DTM,C507:2380 (C507:2005 = ‘36’),AN,date,dateOptionalTime,YYYY/MM/DD,range,2019/01/01:2019/12/01,,,"Date formatted as ' YYMMDD' where:
+YY - Year MM - Month DD – Day"
+12,document_country_of_issuance,Document country of issuance,LOC,"C517:3225
+(qualifier 3227
+= ‘91’)",AN,keyword,,3,alpha3_code,,,,Validated against the ISO country code list (ISO 3166-1)
+13,street_address_1,Address while in the United States,NAD,C059:3042(1),AN,keyword,,35,address,,,,Street Address (1)
+14,street_address_2,Address while in the United States,NAD,C059:3042(1),AN,keyword,,35,address,,,,Street Address (2)
+15,city,Address while in the United States,NAD,3164,AN,keyword,,35,district,,,,City
+16,state,Address while in the United States,NAD,C819:3229,AN,keyword,,2 (U.S. State code),state,,,,State/Province; Country sub- entity code
+17,postal_code,Address while in the United States,NAD,3251,AN,keyword,,17,pin,,,,Postal code
+18,passenger_name_record_locator,Passenger Name Record locator,RFF,"C506:1154
+(Qualifier C506:1153 = ‘AVF’)",AN,keyword,,6,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,A PNR/Unique Identifier must be provided.
+19,aircraft_operator_unique_passenger_reference_identifier,Aircraft Operator Unique Passenger Reference identifier,RFF,"C506:1154
+(Qualifier C506:1153 = ‘ABO’)",AN,keyword,,25,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,"To uniquely identify a passenger within a passenger name record locator.  For a single passenger PNR, default value must be assigned by the carrier.
+The PNR & passenger reference number shall be used by DHS in the response message and any required
+acknowledgements from the aircraft operator."
+20,passenger_dhs_redress_number,Passenger DHS Redress Number,RFF,"C506:1154
+(Qualifier
+C506:1153 = ‘AEA’)",AN,keyword,,13,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,"Unique number assigned to passenger by DHS to promote resolution with previous watch
+list alerts."
+21,dhs_known_traveler_number,DHS Known Traveler Number,RFF,"C506:1154
+(Qualifier
+C506:1153 = ‘CR’)",AN,keyword,,25,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,Assigned passenger number as known to DHS to facilitate passenger clearance.
+22,aircraft_operator_frequent_flier_codeword,Aircraft Operator Frequent Flier Codeword,RFF,"C506:1154
+(Qualifier C506:1153 =
+‘ANX’)",AN,keyword,,25,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,Codeword assigned to an airline applicable to eligible frequent flier passengers.
+23,dhs_passenger_risk_indicator,DHS Passenger Risk Indicator,RFF,"C506:1154
+(Qualifier C506:1153 =
+‘AGK’)",AN,keyword,,10,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,Value calculated by a TSA Preü® participating airline (CAPPS score).
+24,dhs_known_traveler_data_ank,DHS Known Traveler Data,RFF,"C506:1154
+(Qualifier
+C506:1153 = ‘ANK’)",AN,keyword,,25,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,Reserved for future use.
+25,dhs_known_traveler_data_avp,DHS Known Traveler Data,RFF,"C506:1154
+(Qualifier C506:1153 =
+‘AVP’)",AN,keyword,,25,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,Reserved for future use.
+26,dhs_known_traveler_data_gn,DHS Known Traveler Data,RFF,"C506:1154
+(Qualifier C506:1153 =
+‘GN’)",AN,keyword,,25,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,Reserved for future use.
+27,passenger_contact_information_primary_phone,Passenger Contact Information (Primary Phone),COM,"C076:3155
+Qualifier DE C076:3148 = ‘TE’",AN,keyword,,20,pattern,^([0-9]{10})$,,,
+28,passenger_contact_information_secondary_phone,Passenger Contact Information (Secondary Phone),COM,"C076:3155
+Qualifier DE
+C076:3148 = ‘TE’",AN,keyword,,20,pattern,^([0-9]{10})$,,,
+29,passenger_seat_assignment,Passenger Seat Assignment,RFF,"C506:1156
+(Qualifier
+C506:1153 = ‘SEA’)",N3A1,keyword,,4,pattern,^([0-9A-Z]{3})$,,,
+30,passenger_information_verification_indicator,Passenger Information Verification Indicator,GEI,"C012:7365
+Qualifier DE 9649 = ‘4’",AN,keyword,,3,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,
+31,bag_tag_information,Bag Tag Information,FTX,"C108:4440 (1)
+(Qualifier 4451
+= ‘BAG’)",N,keyword,,16,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,Serial Number appearing on Bag Tag.
+32,bag_tag_number_of_consecutive_tag_serial_number,Bag Tag – Number of consecutive tag Serial number,FTX,"C108:4440 (2)
+(Qualifier 4451
+= ‘BAG’)",N,keyword,,3,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,
+33,passenger_itinerary_embarkation,"Passenger itinerary: Foreign airport where transportation began
+(“embarkation”)",LOC,"C517:3225
+(Qualifier DE 3227 = ‘178’ )",AN,keyword,,3,pattern,^([0-9]{2}[0-9A-Z]{13})$,,,Validated against the IATA airport code list
+34,passenger_itinerary_airport_of_first_arrival_into_us,Passenger itinerary: Airport of first arrival into U.S.,"LOC
+(Flight Details –
+Arrival Location)","C517:3225
+(Qualifier DE 3227 = ‘22’ )",AN,keyword,,3,name,,,,Validated against the IATA airport code list.  AFR requirement for U.S. arrivals
+35,passenger_itinerary_final_airport_of_destination_debarkation,"Passenger itinerary: Final airport of
+destination (“debarkation”)",LOC,"C517:3225
+(Qualifier DE 3227 = ‘179’ )",AN,keyword,,3,name,,,,Validated against the IATA airport code list
+36,aircraft_operator_code,Aircraft Operator code,TDT,C040:3127,AN,keyword,,3,name,,,,"Validated against the IATA/ICAO Aircraft Operator code list. Aircraft Operator Code
+either AN2 or AN3."
+37,flight_number,Flight number,TDT,8028,AN,keyword,,8,pattern,^[0-9A-Za-z]{8}$,,,"Flight Information. Up to eight
+(8) characters of data may be transmitted.
+Formatted as Aircraft Operator code and Flight Number:
+- Aircraft Operator Code is in either AN2 or AN3
+- Flight number up to 4 digits (numeric)."
+38,flight_itinerary_scheduled_place_of_departure,Flight itinerary: Scheduled place of departure,"LOC
+(Flight itinerary)","C517:3225
+(Qualifiers: DE 3227 = ‘125’
+for International to
+U.S flights and Overflights. ‘92’ for U.S. domestic
+flights only)",AN,keyword,,3,name,,,,"Validated against the IATA airport code list.
+Flights departing and/or arriving into United States are identified by the airport codes provided.  A departure or arrival is identified based on the “Location Function Code Qualifier”"
+39,flight_itinerary_scheduled_date_time_of_departure,Flight itinerary: Scheduled date/time of departure,DTM,"C507:2380
+(Qualifier = C507:2005 = ‘189’)",AN,date,dateOptionalTime,YYYY/MM/DD,range,2019/01/01:2019/12/01,,,"Format: YY - Year
+MM - Month DD – Day hh – Hour
+mm- Minutes"
+40,flight_itinerary_scheduled_place_of_arrival,Flight itinerary: Scheduled place of arrival,"LOC
+(Flight itinerary)","C517:3225
+(Qualifiers: DE 3227 = ‘87’ for
+International to
+U.S flights and Overflights. ‘92’ for U.S. domestic
+flights only)",AN,keyword,,3,name,,,,"Validated against the IATA airport code list.
+Flights departing and/or arriving into United States are identified by the airport codes provided.  A departure or arrival is identified based on the “Location Function Code Qualifier”"
+41,flight_itinerary_scheduled_date_time_of_arrival,Flight itinerary: Scheduled date/time of arrival,DTM,"C507:2380
+(Qualifier = C507:2005 = ‘232’)",AN,date,dateOptionalTime,YYYY/MM/DD,range,2019/01/01:2019/12/01,,,"Format: YY - Year
+MM - Month DD - Day hh – Hour
+mm- Minutes"
+42,aircraft_operator_contact_last_name,Aircraft Operator Contact Last Name,NAD,"C080:3036(1)
+Qualifier DE 3035 = ‘MS’",AN,keyword,,35,name,,,,
+43,aircraft_operator_contact_first_name,Aircraft Operator Contact First Name,NAD,"C080:3036(2)
+Qualifier DE 3035 = ‘MS’",AN,keyword,,35,name,,,,
+44,aircraft_operator_contact_details_phone,Aircraft Operator Contact Details (Phone),COM,"C076:3155
+Qualifier DE C076:3148 =
+‘TE’",AN,keyword,,20,pattern,^([0-9]{10})$,,,
+45,aircraft_operator_contact_details_fax,Aircraft Operator Contact Details (FAX),COM,"C076:3155
+Qualifier DE C076:3148 =
+‘FX’",AN,keyword,,20,pattern,^([0-9]{10})$,,,
+46,transaction_reference_number,Transaction Reference Number,RFF,"C506:1154
+(Qualifier is data element C506:1153
+with value ‘TN’)",AN,keyword,,25,name,,,,"Reference number assigned by Aircraft Operator for PAXLST submissions.  Value is returned on DHS CUSRES response messages.
+For Unsolicited Advisory CUSRES messages, TRN will be assigned by DHS.
+This value is used by DHS systems to uniquely identify a specific transmission from an
+Aircraft Operator system."
+47,message_sequence_number,Message Sequence Number,RFF,C506:1060,N,keyword,,3,name,,,,"Value assigned by Aircraft Operator submitting PAXLST. Subsequent messages identifying updates to original
+submission shall indicate +1 increment."

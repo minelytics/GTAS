@@ -1,0 +1,190 @@
+{
+    "1": {
+        "name": "Product ingredients not marked on package",
+        "desc": "The ingredients of the product are not marked on the packaging of the\n                                    product."
+    },
+    "2": {
+        "name": "Product price not marked on packaging",
+        "desc": "The product price is not marked on the packaging of the product."
+    },
+    "3": {
+        "name": "Product best before date not marked on product package",
+        "desc": "The product best before date is not marked on the packaging of the\n                                    product."
+    },
+    "4": {
+        "name": "Package not marked recyclable",
+        "desc": "Package is not marked as recyclable."
+    },
+    "5": {
+        "name": "Promotional details marked",
+        "desc": "A code indicating that promotional details have been marked on the\n                                    package."
+    },
+    "6": {
+        "name": "Labeled according to general EAN.UCC specifications for clothing and\n                                    fashion accessories",
+        "desc": "The item is labeled according to the general EAN.UCC specifications\n                                    for clothing and fashion accessories."
+    },
+    "31": {
+        "name": "Package best before date marked",
+        "desc": "Package is marked with the product best before date."
+    },
+    "32": {
+        "name": "Package marked recyclable",
+        "desc": "The package is marked recyclable."
+    },
+    "33": {
+        "name": "Package marked returnable",
+        "desc": "The package is marked returnable."
+    },
+    "34": {
+        "name": "Product marking",
+        "desc": "The information is related to product marking."
+    },
+    "35": {
+        "name": "Type of package",
+        "desc": "The information is related to the type of package."
+    },
+    "36": {
+        "name": "Package specifications",
+        "desc": "The information specifies the package."
+    },
+    "37": {
+        "name": "Package protection",
+        "desc": "The information is related to protection of the package."
+    },
+    "38": {
+        "name": "Tarping",
+        "desc": "The information describes how coverage with tarpaulins is to be\n                                    provided."
+    },
+    "39": {
+        "name": "Platform/skid location",
+        "desc": "The information describes the platform or skid location."
+    },
+    "40": {
+        "name": "Bearing piece location",
+        "desc": "The information gives the location of the load bearing piece."
+    },
+    "41": {
+        "name": "Skid/pallet type",
+        "desc": "The information describes the type of skid or pallet."
+    },
+    "42": {
+        "name": "Placement on carrier",
+        "desc": "The information describes the placement on the carrier."
+    },
+    "43": {
+        "name": "Spacing directions",
+        "desc": "Descriptions to be provided."
+    },
+    "44": {
+        "name": "Unloading device",
+        "desc": "The information specifies the unloading device which must be used to\n                                    handle the package."
+    },
+    "45": {
+        "name": "Unloading equipment",
+        "desc": "The information specifies the unloading equipment which must be used\n                                    to handle the package."
+    },
+    "50": {
+        "name": "Package barcoded EAN-13 or EAN-8",
+        "desc": "The package is barcoded with EAN-13 or EAN-8 code."
+    },
+    "51": {
+        "name": "Package barcoded ITF-14 or ITF-6",
+        "desc": "The package is barcoded with ITF-14 or ITF-6 code."
+    },
+    "52": {
+        "name": "Package barcoded UCC or EAN-128",
+        "desc": "The package is barcoded with UCC or EAN-128 code."
+    },
+    "53": {
+        "name": "Package price marked",
+        "desc": "The package is marked with the price."
+    },
+    "54": {
+        "name": "Product ingredients marked on package",
+        "desc": "The ingredients of the product contained in a package are marked on\n                                    that package."
+    },
+    "55": {
+        "name": "Core characteristics",
+        "desc": "Specifies the characteristics of the core of the package."
+    },
+    "56": {
+        "name": "Shipping requirement",
+        "desc": "The packaging as per shipping requirement."
+    },
+    "57": {
+        "name": "Customs requirement",
+        "desc": "The packaging as per Customs requirement."
+    },
+    "58": {
+        "name": "Transport contract requirement",
+        "desc": "The packaging as per transport contract requirement."
+    },
+    "59": {
+        "name": "Preservation method",
+        "desc": "The packaging related information is for methods of preservation.\n                                "
+    },
+    "60": {
+        "name": "Product marking pattern",
+        "desc": "The information describes the pattern used to mark the product."
+    },
+    "61": {
+        "name": "Product marking location",
+        "desc": "The information provides the location of the product marking."
+    },
+    "62": {
+        "name": "Package/container mark location",
+        "desc": "The information provides the location of a package or container mark.\n                                "
+    },
+    "63": {
+        "name": "Marking method",
+        "desc": "The information details the marking method."
+    },
+    "66": {
+        "name": "Receiving facility limitations",
+        "desc": "The information describes limitations which apply to a receiving\n                                    facility."
+    },
+    "67": {
+        "name": "Tagging/bar code instructions",
+        "desc": "The information provides instructions as to how a package is to be\n                                    tagged or have a bar code applied to it."
+    },
+    "68": {
+        "name": "Shipping package labelling",
+        "desc": "The labelling of a package in which goods are shipped."
+    },
+    "69": {
+        "name": "Shipping package sealing",
+        "desc": "The sealing particulars of a package in which goods are shipped."
+    },
+    "70": {
+        "name": "Optional packaging procedure",
+        "desc": "To indicate an optional procedure for packaging."
+    },
+    "71": {
+        "name": "Cleaning or drying specification",
+        "desc": "Identification of the cleaning or drying specification."
+    },
+    "72": {
+        "name": "Cushioning thickness specification",
+        "desc": "Identification of the cushioning thickness specification."
+    },
+    "73": {
+        "name": "Cushioning and dunnage specification",
+        "desc": "Identification of the cushioning and dunnage specification."
+    },
+    "74": {
+        "name": "Level of preservation specification",
+        "desc": "Identification of the level of preservation specification."
+    },
+    "75": {
+        "name": "Preservation material specification",
+        "desc": "Identification of the preservation material specification."
+    },
+    "76": {
+        "name": "Unit container specification",
+        "desc": "Identification of the unit container specification."
+    },
+    "77": {
+        "name": "Material wrapping specification",
+        "desc": "Identification of the material wrapping specification."
+    }
+}

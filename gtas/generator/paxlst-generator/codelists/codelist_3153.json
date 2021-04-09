@@ -1,0 +1,102 @@
+{
+    "AA": {
+        "name": "Circuit switching",
+        "desc": "A process that, on demand, connects two or more data terminal\n                                    equipments and permits the exclusive use of a data circuit between them until the\n                                    connection is released (ISO)."
+    },
+    "AB": {
+        "name": "SITA",
+        "desc": "Communications number assigned by Societe Internationale de\n                                    Telecommunications Aeronautiques (SITA)."
+    },
+    "AC": {
+        "name": "ARINC",
+        "desc": "Communications number assigned by Aeronautical Radio Inc."
+    },
+    "AD": {
+        "name": "Courier",
+        "desc": "A communication channel identifying a courier."
+    },
+    "AE": {
+        "name": "Express post",
+        "desc": "Express (e.g. overnight) postal service document delivery."
+    },
+    "CA": {
+        "name": "Cable address",
+        "desc": "The cable is used as communication medium."
+    },
+    "EI": {
+        "name": "EDI transmission",
+        "desc": "Number identifying the service and service user."
+    },
+    "EM": {
+        "name": "Electronic mail",
+        "desc": "Exchange of mail by electronic means."
+    },
+    "EX": {
+        "name": "Extension",
+        "desc": "Telephone extension."
+    },
+    "FT": {
+        "name": "File transfer access method",
+        "desc": "According to ISO."
+    },
+    "FX": {
+        "name": "Telefax",
+        "desc": "Device used for transmitting and reproducing fixed graphic material\n                                    (as printing) by means of signals over telephone lines or other electronic\n                                    transmission media."
+    },
+    "GM": {
+        "name": "GEIS (General Electric Information Service) mailbox",
+        "desc": "GEIS mailbox system is used as communication medium."
+    },
+    "IE": {
+        "name": "IBM information exchange",
+        "desc": "IBM IE is used as communication medium."
+    },
+    "IM": {
+        "name": "Internal mail",
+        "desc": "Internal mail address/number."
+    },
+    "MA": {
+        "name": "Mail",
+        "desc": "Postal service document delivery."
+    },
+    "PB": {
+        "name": "Postbox no.",
+        "desc": "Postbox system is used as communication medium."
+    },
+    "PS": {
+        "name": "Packet switching",
+        "desc": "The process of routing and transferring data by means of addressed\n                                    packets so that a channel is occupied only during the transmission; upon completion\n                                    of the transmission the channel is made available for the transfer of other packets\n                                    (ISO)."
+    },
+    "SW": {
+        "name": "S.W.I.F.T.",
+        "desc": "Communications address assigned by Society for Worldwide Interbank\n                                    Financial Telecommunications s.c."
+    },
+    "TE": {
+        "name": "Telephone",
+        "desc": "Voice/data transmission by telephone."
+    },
+    "TG": {
+        "name": "Telegraph",
+        "desc": "Text transmission via telegraph."
+    },
+    "TL": {
+        "name": "Telex",
+        "desc": "Transmission of text/data via telex."
+    },
+    "TM": {
+        "name": "Telemail",
+        "desc": "Transmission of text/data via telemail."
+    },
+    "TT": {
+        "name": "Teletext",
+        "desc": "Transmission of text/data via teletext."
+    },
+    "TX": {
+        "name": "TWX",
+        "desc": "Communication service involving Teletypewriter machines connected by\n                                    wire or electronic transmission media. Teletypewriter machines are the devices used\n                                    to send and receive signals and produce hardcopy from them."
+    },
+    "XF": {
+        "name": "X.400",
+        "desc": "CCITT Message handling system."
+    }
+}

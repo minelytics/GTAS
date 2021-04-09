@@ -1,0 +1,262 @@
+{
+    "1": {
+        "name": "Cancellation",
+        "desc": "Message cancelling a previous transmission for a given transaction.\n                                "
+    },
+    "2": {
+        "name": "Addition",
+        "desc": "Message containing items to be added."
+    },
+    "3": {
+        "name": "Deletion",
+        "desc": "Message containing items to be deleted."
+    },
+    "4": {
+        "name": "Change",
+        "desc": "Message containing items to be changed."
+    },
+    "5": {
+        "name": "Replace",
+        "desc": "Message replacing a previous message."
+    },
+    "6": {
+        "name": "Confirmation",
+        "desc": "Message confirming the details of a previous transmission where such\n                                    confirmation is required or recommended under the terms of a trading partner\n                                    agreement."
+    },
+    "7": {
+        "name": "Duplicate",
+        "desc": "The message is a duplicate of a previously generated message."
+    },
+    "8": {
+        "name": "Status",
+        "desc": "Code indicating that the referenced message is a status."
+    },
+    "9": {
+        "name": "Original",
+        "desc": "Initial transmission related to a given transaction."
+    },
+    "10": {
+        "name": "Not found",
+        "desc": "Message whose reference number is not filed."
+    },
+    "11": {
+        "name": "Response",
+        "desc": "Message responding to a previous message or document."
+    },
+    "12": {
+        "name": "Not processed",
+        "desc": "Message indicating that the referenced message was received but not\n                                    yet processed."
+    },
+    "13": {
+        "name": "Request",
+        "desc": "Code indicating that the referenced message is a request."
+    },
+    "14": {
+        "name": "Advance notification",
+        "desc": "Code indicating that the information contained in the message is an\n                                    advance notification of information to follow."
+    },
+    "15": {
+        "name": "Reminder",
+        "desc": "Repeated message transmission for reminding purposes."
+    },
+    "16": {
+        "name": "Proposal",
+        "desc": "Message content is a proposal."
+    },
+    "17": {
+        "name": "Cancel, to be reissued",
+        "desc": "Referenced transaction cancelled, reissued message will follow."
+    },
+    "18": {
+        "name": "Reissue",
+        "desc": "New issue of a previous message (maybe cancelled)."
+    },
+    "19": {
+        "name": "Seller initiated change",
+        "desc": "Change information submitted by buyer but initiated by seller."
+    },
+    "20": {
+        "name": "Replace heading section only",
+        "desc": "Message to replace the heading of a previous message."
+    },
+    "21": {
+        "name": "Replace item detail and summary only",
+        "desc": "Message to replace item detail and summary of a previous message.\n                                "
+    },
+    "22": {
+        "name": "Final transmission",
+        "desc": "Final message in a related series of messages together making up a\n                                    commercial, administrative or transport transaction."
+    },
+    "23": {
+        "name": "Transaction on hold",
+        "desc": "Message not to be processed until further release information."
+    },
+    "24": {
+        "name": "Delivery instruction",
+        "desc": "Delivery schedule message only used to transmit short- term delivery\n                                    instructions."
+    },
+    "25": {
+        "name": "Forecast",
+        "desc": "Delivery schedule message only used to transmit long- term schedule\n                                    information."
+    },
+    "26": {
+        "name": "Delivery instruction and forecast",
+        "desc": "Combination of codes '24' and '25'."
+    },
+    "27": {
+        "name": "Not accepted",
+        "desc": "Message to inform that the referenced message is not accepted by the\n                                    recipient."
+    },
+    "28": {
+        "name": "Accepted, with amendment in heading section",
+        "desc": "Message accepted but amended in heading section."
+    },
+    "29": {
+        "name": "Accepted without amendment",
+        "desc": "Referenced message is entirely accepted."
+    },
+    "30": {
+        "name": "Accepted, with amendment in detail section",
+        "desc": "Referenced message is accepted but amended in detail section."
+    },
+    "31": {
+        "name": "Copy",
+        "desc": "Indicates that the message is a copy of an original message that has\n                                    been sent, e.g. for action or information."
+    },
+    "32": {
+        "name": "Approval",
+        "desc": "A message releasing an existing referenced message for action to the\n                                    receiver."
+    },
+    "33": {
+        "name": "Change in heading section",
+        "desc": "Message changing the referenced message heading section."
+    },
+    "34": {
+        "name": "Accepted with amendment",
+        "desc": "The referenced message is accepted but amended."
+    },
+    "35": {
+        "name": "Retransmission",
+        "desc": "Change-free transmission of a message previously sent."
+    },
+    "36": {
+        "name": "Change in detail section",
+        "desc": "Message changing referenced detail section."
+    },
+    "37": {
+        "name": "Reversal of a debit",
+        "desc": "Reversal of a previously posted debit."
+    },
+    "38": {
+        "name": "Reversal of a credit",
+        "desc": "Reversal of a previously posted credit."
+    },
+    "39": {
+        "name": "Reversal for cancellation",
+        "desc": "Code indicating that the referenced message is reversing a\n                                    cancellation of a previous transmission for a given transaction."
+    },
+    "40": {
+        "name": "Request for deletion",
+        "desc": "The message is given to inform the recipient to delete the referenced\n                                    transaction."
+    },
+    "41": {
+        "name": "Finishing/closing order",
+        "desc": "Last of series of call-offs."
+    },
+    "42": {
+        "name": "Confirmation via specific means",
+        "desc": "Message confirming a transaction previously agreed via other means\n                                    (e.g. phone)."
+    },
+    "43": {
+        "name": "Additional transmission",
+        "desc": "Message already transmitted via another communication channel. This\n                                    transmission is to provide electronically processable data only."
+    },
+    "44": {
+        "name": "Accepted without reserves",
+        "desc": "Message accepted without reserves."
+    },
+    "45": {
+        "name": "Accepted with reserves",
+        "desc": "Message accepted with reserves."
+    },
+    "46": {
+        "name": "Provisional",
+        "desc": "Message content is provisional."
+    },
+    "47": {
+        "name": "Definitive",
+        "desc": "Message content is definitive."
+    },
+    "48": {
+        "name": "Accepted, contents rejected",
+        "desc": "Message to inform that the previous message is received, but it cannot\n                                    be processed due to regulations, laws, etc."
+    },
+    "49": {
+        "name": "Settled dispute",
+        "desc": "The reported dispute is settled."
+    },
+    "50": {
+        "name": "Withdraw",
+        "desc": "Message withdrawing a previously approved message."
+    },
+    "51": {
+        "name": "Authorisation",
+        "desc": "Message authorising a message or transaction(s)."
+    },
+    "52": {
+        "name": "Proposed amendment",
+        "desc": "A code used to indicate an amendment suggested by the sender."
+    },
+    "53": {
+        "name": "Test",
+        "desc": "Code indicating the message is to be considered as a test."
+    },
+    "54": {
+        "name": "Extract",
+        "desc": "A subset of the original."
+    },
+    "55": {
+        "name": "Notification only",
+        "desc": "The receiver may use the notification information for analysis only.\n                                "
+    },
+    "56": {
+        "name": "Advice of ledger booked items",
+        "desc": "An advice that items have been booked in the ledger."
+    },
+    "57": {
+        "name": "Advice of items pending to be booked in the ledger",
+        "desc": "An advice that items are pending to be booked in the ledger."
+    },
+    "58": {
+        "name": "Pre-advice of items requiring further information",
+        "desc": "A pre-advice that items require further information."
+    },
+    "59": {
+        "name": "Pre-adviced items",
+        "desc": "A pre-advice of items."
+    },
+    "60": {
+        "name": "No action since last message",
+        "desc": "Code indicating the fact that no action has taken place since the last\n                                    message."
+    },
+    "61": {
+        "name": "Complete schedule",
+        "desc": "The message function is a complete schedule."
+    },
+    "62": {
+        "name": "Update schedule",
+        "desc": "The message function is an update to a schedule."
+    },
+    "63": {
+        "name": "Not accepted, provisional",
+        "desc": "Not accepted, subject to confirmation."
+    },
+    "64": {
+        "name": "Verification",
+        "desc": "The message is transmitted to verify information."
+    },
+    "65": {
+        "name": "Unsettled dispute",
+        "desc": "To report an unsettled dispute."
+    }
+}

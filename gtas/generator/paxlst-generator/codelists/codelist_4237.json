@@ -1,0 +1,18 @@
+{
+    "A": {
+        "name": "Payable elsewhere",
+        "desc": "Responsibility for payment of transport charges unknown at time of\n                                    departure."
+    },
+    "B": {
+        "name": "Third party to pay",
+        "desc": "A third party to pay the freight bill is known at the time of\n                                    shipment."
+    },
+    "C": {
+        "name": "Collect",
+        "desc": "Charges are (to be) collected from the consignee at the destination.\n                                "
+    },
+    "P": {
+        "name": "Prepaid",
+        "desc": "Charges are (to be) prepaid before the transport actually leaves.\n                                "
+    }
+}

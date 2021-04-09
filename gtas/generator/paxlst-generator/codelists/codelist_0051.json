@@ -1,0 +1,106 @@
+{
+    "AA": {
+        "name": "EDICONSTRUCT",
+        "desc": "French construction project."
+    },
+    "AB": {
+        "name": "DIN (Deutsches Institut fuer Normung)",
+        "desc": "German standardization institute."
+    },
+    "AC": {
+        "name": "ICS (International Chamber of Shipping)",
+        "desc": "The International Chamber of Shipping."
+    },
+    "AD": {
+        "name": "UPU (Union Postale Universelle)",
+        "desc": "Universal Postal Union."
+    },
+    "AE": {
+        "name": "United Kingdom ANA (Article Numbering Association)",
+        "desc": "Identifies the Article Numbering Association of the United Kingdom.\n                                "
+    },
+    "AF": {
+        "name": "ANSI ASC X12 (American National Standard Institute Accredited\n                                    Standards Committee X12)",
+        "desc": "Identifies the United States electronic data interchange standards\n                                    body."
+    },
+    "AG": {
+        "name": "US DoD (United States Department of Defense)",
+        "desc": "The United States Department of Defense is the entity controlling the\n                                    message specification."
+    },
+    "AH": {
+        "name": "US Federal Government",
+        "desc": "The United States Federal Government is the entity controlling the\n                                    message specification."
+    },
+    "AI": {
+        "name": "EDIFICAS",
+        "desc": "European EDI association for financial, informational, cost,\n                                    accounting, auditing and social areas."
+    },
+    "CC": {
+        "name": "CCC (Customs Co-operation Council)",
+        "desc": "The Customs Co-operation Council."
+    },
+    "CE": {
+        "name": "CEFIC (Conseil Europeen des Federations de l'Industrie Chimique)",
+        "desc": "EDI project for chemical industry."
+    },
+    "EC": {
+        "name": "EDICON",
+        "desc": "UK Construction project."
+    },
+    "ED": {
+        "name": "EDIFICE (Electronic industries project)",
+        "desc": "EDI Forum for companies with Interest in Computing and Electronics\n                                    (EDI project for EDP/ADP sector)."
+    },
+    "EE": {
+        "name": "EC + EFTA (European Communities and European Free Trade Association)\n                                ",
+        "desc": "The European Communities and the European Free Trade Association.\n                                "
+    },
+    "EN": {
+        "name": "EAN International",
+        "desc": "International organization of EAN Member Organizations, that along\n                                    with the Uniform Code Council manages the EAN.UCC System (a series of standards for\n                                    supply chain management)."
+    },
+    "ER": {
+        "name": "UIC (International Union of railways)",
+        "desc": "European railways."
+    },
+    "EU": {
+        "name": "European Union",
+        "desc": "The European Union."
+    },
+    "EW": {
+        "name": "UN/EDIFACT Working Group (EWG)",
+        "desc": "United Nations working group responsible for UN/EDIFACT (United\n                                    Nations, Electronic Data Interchange for Administration, Commerce and Transport).\n                                "
+    },
+    "EX": {
+        "name": "IECC (International Express Carriers Conference)",
+        "desc": "The International Express Carriers Conference."
+    },
+    "IA": {
+        "name": "IATA (International Air Transport Association)",
+        "desc": "The International Air Transport Association."
+    },
+    "KE": {
+        "name": "KEC (Korea EDIFACT Committee)",
+        "desc": "The Korea EDIFACT Committee."
+    },
+    "LI": {
+        "name": "LIMNET",
+        "desc": "UK Insurance project."
+    },
+    "OD": {
+        "name": "ODETTE (Organization for Data Exchange through Tele- Transmission in\n                                    Europe)",
+        "desc": "European automotive industry project."
+    },
+    "RI": {
+        "name": "RINET (Reinsurance and Insurance Network)",
+        "desc": "The Reinsurance and Insurance Network."
+    },
+    "RT": {
+        "name": "UN/ECE/TRADE/WP.4/GE.1/EDIFACT Rapporteurs' Teams",
+        "desc": "United Nations Economic UN Economic Commission for Europe (UN/ECE),\n                                    Committee on the development of trade (TRADE), Working Party on facilitation of\n                                    international trade procedures (WP.4), Group of Experts on data elements and\n                                    automatic data interchange (GE.1), EDIFACT Rapporteurs' Teams."
+    },
+    "UN": {
+        "name": "UN/CEFACT",
+        "desc": "United Nations Centre for Trade Facilitation and Electronic Business\n                                    (UN/CEFACT)."
+    }
+}

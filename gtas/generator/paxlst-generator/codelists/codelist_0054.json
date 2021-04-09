@@ -1,0 +1,110 @@
+{
+    "1": {
+        "name": "First release",
+        "desc": "User message approved and issued in the first release of the year of\n                                    the UNTDID (United Nations Trade Data Interchange Directory); valid for directories\n                                    published prior to March 1990. Service message approved and issued as the first\n                                    release of the message within a version of ISO 9735; valid for version 4 of IS0 9735\n                                    and later."
+    },
+    "2": {
+        "name": "Second release",
+        "desc": "User message approved and issued in the second release of the year of\n                                    the UNTDID (United Nations Trade Data Interchange Directory); valid for directories\n                                    published prior to March 1990. Service message approved and issued as the second\n                                    release of the message within a version of ISO 9735; valid for version 4 of IS0 9735\n                                    and later."
+    },
+    "902": {
+        "name": "Trial release 1990",
+        "desc": "Message approved and issued in the 1990 status 1 (trial) release of\n                                    the UNTDID (United Nations Trade Data Interchange Directory)."
+    },
+    "911": {
+        "name": "Trial release 1991",
+        "desc": "Message approved and issued in the 1991 status 1 (trial) release of\n                                    the UNTDID (United Nations Trade Data Interchange Directory)."
+    },
+    "912": {
+        "name": "Standard release 1991",
+        "desc": "Message approved and issued in the 1991 status 2 (standard) release of\n                                    the UNTDID (United Nations Trade Data Interchange Directory)."
+    },
+    "921": {
+        "name": "Trial release 1992",
+        "desc": "Message approved and issued in the 1992 status 1 (trial) release of\n                                    the UNTDID (United Nations Trade Data Interchange Directory)."
+    },
+    "932": {
+        "name": "Standard release 1993",
+        "desc": "Message approved and issued in the 1993 status 2 (standard) release of\n                                    the UNTDID (United Nations Trade Data Interchange Directory)."
+    },
+    "00A": {
+        "name": "Release 2000 - A",
+        "desc": "Message approved and issued in the first 2000 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "00B": {
+        "name": "Release 2000 - B",
+        "desc": "Message approved and issued in the second 2000 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "01A": {
+        "name": "Release 2001 - A",
+        "desc": "Message approved and issued in the first 2001 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "01B": {
+        "name": "Release 2001 - B",
+        "desc": "Message approved and issued in the second 2001 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "01C": {
+        "name": "Release 2001 - C",
+        "desc": "Message approved and issued in the third 2001 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "02A": {
+        "name": "Release 2002 - A",
+        "desc": "Message approved and issued in the first 2002 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "02B": {
+        "name": "Release 2002 - B",
+        "desc": "Message approved and issued in the second 2002 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "93A": {
+        "name": "Release 1993 - A",
+        "desc": "Message approved and issued in the 1993 release of the UNTDID (United\n                                    Nations Trade Data Interchange Directory)."
+    },
+    "94A": {
+        "name": "Release 1994 - A",
+        "desc": "Message approved and issued in the first 1994 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "94B": {
+        "name": "Release 1994 - B",
+        "desc": "Message approved and issued in the second 1994 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "95A": {
+        "name": "Release 1995 - A",
+        "desc": "Message approved and issued in the first 1995 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "95B": {
+        "name": "Release 1995 - B",
+        "desc": "Message approved and issued in the second 1995 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "96A": {
+        "name": "Release 1996 - A",
+        "desc": "Message approved and issued in the first 1996 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "96B": {
+        "name": "Release 1996 - B",
+        "desc": "Message approved and issued in the second 1996 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "97A": {
+        "name": "Release 1997 - A",
+        "desc": "Message approved and issued in the first 1997 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "97B": {
+        "name": "Release 1997 - B",
+        "desc": "Message approved and issued in the second 1997 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "98A": {
+        "name": "Release 1998 - A",
+        "desc": "Message approved and issued in the first 1998 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "98B": {
+        "name": "Release 1998 - B",
+        "desc": "Message approved and issued in the second 1998 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "99A": {
+        "name": "Release 1999 - A",
+        "desc": "Message approved and issued in the first 1999 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    },
+    "99B": {
+        "name": "Release 1999 - B",
+        "desc": "Message approved and issued in the second 1999 release of the UNTDID\n                                    (United Nations Trade Data Interchange Directory)."
+    }
+}

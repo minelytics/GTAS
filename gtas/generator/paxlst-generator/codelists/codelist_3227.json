@@ -1,0 +1,962 @@
+{
+    "1": {
+        "name": "Place of terms of delivery",
+        "desc": "(3018) Point or port of departure, shipment or destination, as\n                                    required under the applicable terms of delivery, e.g. Incoterms."
+    },
+    "2": {
+        "name": "Payment place",
+        "desc": "Place where funds are to be, or have been made available to the\n                                    creditor."
+    },
+    "3": {
+        "name": "Tare check place",
+        "desc": "Place where equipment tare has been or must be checked for official\n                                    assessment."
+    },
+    "4": {
+        "name": "Goods receipt place",
+        "desc": "Place at which the goods have been received."
+    },
+    "5": {
+        "name": "Place of departure",
+        "desc": "(3214) Port, airport or other location from which a means of transport\n                                    or transport equipment is scheduled to depart or has departed."
+    },
+    "6": {
+        "name": "Ward bed",
+        "desc": "A bed in a ward."
+    },
+    "7": {
+        "name": "Place of delivery",
+        "desc": "(3246) Place to which the goods are to be finally delivered under\n                                    transport contract terms (operational term)."
+    },
+    "8": {
+        "name": "Place of destination",
+        "desc": "Port, airport or other location to which a means of transport or\n                                    transport equipment is destined."
+    },
+    "9": {
+        "name": "Place/port of loading",
+        "desc": "(3334 + 3230) Seaport, airport, freight terminal, rail station or\n                                    other place at which the goods (cargo) are loaded on to the means of transport being\n                                    used for their carriage."
+    },
+    "10": {
+        "name": "Place of acceptance",
+        "desc": "(3348) Place at which the goods are taken over by the carrier."
+    },
+    "11": {
+        "name": "Place/port of discharge",
+        "desc": "(3392 + 3414) Seaport, airport, freight terminal, rail station or\n                                    other place at which the goods (cargo) are unloaded from the means of transport\n                                    having been used for their carriage."
+    },
+    "12": {
+        "name": "Port of discharge",
+        "desc": "Port at which the goods are discharged from the vessel used for their\n                                    transport."
+    },
+    "13": {
+        "name": "Place of transhipment",
+        "desc": "(3424) Place where goods are transferred from one means of transport\n                                    to another (operational term)."
+    },
+    "14": {
+        "name": "Location of goods",
+        "desc": "(3384) Place where goods are located and where they are available for\n                                    examination."
+    },
+    "15": {
+        "name": "Place of transfer responsibility",
+        "desc": "Place where the responsibility is transferred."
+    },
+    "16": {
+        "name": "Place of transfer of ownership",
+        "desc": "Place where the ownership of the goods is transferred."
+    },
+    "17": {
+        "name": "Border crossing place",
+        "desc": "Place where goods are transported across a country border."
+    },
+    "18": {
+        "name": "Warehouse",
+        "desc": "(3156) Warehouse where a particular consignment has been stored."
+    },
+    "19": {
+        "name": "Factory/plant",
+        "desc": "Factory/plant relevant for a particular consignment."
+    },
+    "20": {
+        "name": "Place of ultimate destination of goods",
+        "desc": "Place where goods will ultimately be delivered."
+    },
+    "21": {
+        "name": "Terms of sale place",
+        "desc": "Place of departure, shipment or destination as specified in the terms\n                                    of sale agreed between the parties."
+    },
+    "22": {
+        "name": "Customs office of clearance",
+        "desc": "(3080) Place where Customs clearance procedure occur (CCC)."
+    },
+    "23": {
+        "name": "Port of release",
+        "desc": "Port where goods are released from Customs custody."
+    },
+    "24": {
+        "name": "Port of entry",
+        "desc": "Port where final documentation is filed for Customs Entry processing.\n                                "
+    },
+    "25": {
+        "name": "Country",
+        "desc": "Country relevant for a particular transaction."
+    },
+    "26": {
+        "name": "City",
+        "desc": "City or town relevant for a particular transaction or consignment.\n                                "
+    },
+    "27": {
+        "name": "Country of origin",
+        "desc": "[3238] Country in which the goods have been produced or manufactured,\n                                    according to criteria laid down for the purposes of application of the Customs\n                                    tariff, of quantitative restrictions, or of any other measure related to trade.\n                                "
+    },
+    "28": {
+        "name": "Country of destination of goods",
+        "desc": "Country to which the goods are to be delivered."
+    },
+    "29": {
+        "name": "Railway station",
+        "desc": "Name or identification of a railway station/yard relevant to a\n                                    particular consignment."
+    },
+    "30": {
+        "name": "Country of source",
+        "desc": "Country in which raw material or components were originally produced\n                                    prior to manufacture or assembly in another country."
+    },
+    "31": {
+        "name": "Building",
+        "desc": "A building or part thereof relevant to a particular consignment or\n                                    transaction."
+    },
+    "32": {
+        "name": "Beginning of chargeable section",
+        "desc": "First rail station in a predefined section of the chargeable voyage. A\n                                    complete voyage may be divided in sections, even within one country, that are\n                                    separately chargeable using different tariff rules (split tariffs)."
+    },
+    "33": {
+        "name": "Baseport of discharge",
+        "desc": "The port of discharge according to the tariff as opposed to the\n                                    operational port of discharge. The goods may or may not be actually discharged at\n                                    that port on the main transport."
+    },
+    "34": {
+        "name": "Baseport of loading",
+        "desc": "The port of loading according to the tariff as opposed to the\n                                    operational port of loading. The goods may or may not be actually loaded at that\n                                    port on the main transport."
+    },
+    "35": {
+        "name": "Country of exportation/despatch",
+        "desc": "(3220) Country from which the goods were initially exported to the\n                                    importing country without any commercial transaction taking place in intermediate\n                                    countries. Syn.: country whence consigned. Country of despatch: country from which\n                                    goods are despatched between countries of a Customs union."
+    },
+    "36": {
+        "name": "Country of ultimate destination",
+        "desc": "(3216) Country known to the consignor or his agent at the time of\n                                    despatch to be the final country to which the goods are to be delivered."
+    },
+    "37": {
+        "name": "Country of last consignment",
+        "desc": "[3331] Country where the goods are loaded onto the means of transport\n                                    used for their importation."
+    },
+    "38": {
+        "name": "Country of first destination",
+        "desc": "[3219] Country where the goods are offloaded from the means of\n                                    transport used for their exportation."
+    },
+    "39": {
+        "name": "Country of production",
+        "desc": "Country where item has been or will be produced."
+    },
+    "40": {
+        "name": "Country of trading",
+        "desc": "Country where item has been or will be traded."
+    },
+    "41": {
+        "name": "Customs office of entry",
+        "desc": "[3088] Customs office at which the goods enter the country of\n                                    destination."
+    },
+    "42": {
+        "name": "Customs office of exit",
+        "desc": "[3096] Customs office at which the goods leave the country of\n                                    dispatch/export."
+    },
+    "43": {
+        "name": "Place of Customs examination",
+        "desc": "Place where Customs undertakes a physical inspection of goods to\n                                    satisfy themselves that the goods' nature, origin, condition, quantity and value are\n                                    in accordance with the particulars furnished on the goods declaration (CCC)."
+    },
+    "44": {
+        "name": "Place of authentication of document",
+        "desc": "(3410) Place where document is signed or otherwise authenticated.\n                                    Synonym: Place of issue of document."
+    },
+    "45": {
+        "name": "Customs office of destination (transit)",
+        "desc": "(3086) Customs office at which a transit operation is terminated.\n                                    Synonym: Customs office of transit termination."
+    },
+    "46": {
+        "name": "Region of despatch",
+        "desc": "Region from which goods are despatched between countries of a Customs\n                                    union."
+    },
+    "47": {
+        "name": "Region of destination",
+        "desc": "Region known to the consignor or his agent at the time of despatch to\n                                    be the final region to which the goods are to be delivered."
+    },
+    "48": {
+        "name": "Region of production",
+        "desc": "Region where item has been or will be produced."
+    },
+    "49": {
+        "name": "Country of transit",
+        "desc": "Country through which goods transit."
+    },
+    "50": {
+        "name": "Customs office of transit",
+        "desc": "[3106] Customs office which is competent for transit formalities en\n                                    route."
+    },
+    "51": {
+        "name": "Country of invalid transit guarantee",
+        "desc": "Country in which the security or guarantee for the movement of goods\n                                    under a transit procedure is not valid."
+    },
+    "52": {
+        "name": "Country of destination (transit)",
+        "desc": "Country at which a Customs transit operation is terminated. Synonym:\n                                    Country of transit termination."
+    },
+    "53": {
+        "name": "Charge and freight due from",
+        "desc": "Place or point from which charges and freight are charged."
+    },
+    "54": {
+        "name": "Manufacturing department",
+        "desc": "A department within the manufacturing area (e.g. lacquering,\n                                    assembly)."
+    },
+    "55": {
+        "name": "Charges and freight payable to",
+        "desc": "[3274] Name of place up to which freight charges and other charges are\n                                    to be paid."
+    },
+    "56": {
+        "name": "End of chargeable section",
+        "desc": "Last rail station in a predefined section of the chargeable voyage. A\n                                    complete voyage may be divided in sections, even within one country, that are\n                                    separately chargeable using different tariff rules (split tariffs)."
+    },
+    "57": {
+        "name": "Place of payment",
+        "desc": "Name of the location at which freight and charges for main transport\n                                    are payable."
+    },
+    "58": {
+        "name": "Full track loading or unloading",
+        "desc": "Identification of the station proceeding to the loading or unloading\n                                    of a rail wagon on a full track site. (Used only when a rail station is obliged to\n                                    transfer the load on another wagon for technical reasons - e.g. damage)."
+    },
+    "59": {
+        "name": "Place of loss",
+        "desc": "To identify the location where the loss occurred."
+    },
+    "60": {
+        "name": "Place of arrival",
+        "desc": "Place at which the transport means arrives."
+    },
+    "61": {
+        "name": "Next port of call",
+        "desc": "Next port which the vessel is going to call upon."
+    },
+    "62": {
+        "name": "On-carriage port",
+        "desc": "Port of discharge at which the cargo is discharged from the vessel,\n                                    used for transport after the main transport (transit port)."
+    },
+    "63": {
+        "name": "Sub-project location",
+        "desc": "A place at which works occur referring to a sub-project."
+    },
+    "64": {
+        "name": "First optional place of discharge",
+        "desc": "The first optional place or port of discharge as mentioned on the\n                                    transport document where cargo can be discharged at the option of the shipper."
+    },
+    "65": {
+        "name": "Final port or place of discharge",
+        "desc": "Name of the seaport, airport, freight terminal, rail station or other\n                                    place at which the goods (cargo) are finally (to be) unloaded from the means of\n                                    transport used for their carriage according to the transport contract."
+    },
+    "66": {
+        "name": "Express railway station",
+        "desc": "Railway station offering express transportation services."
+    },
+    "67": {
+        "name": "Mixed cargo railway station",
+        "desc": "Railway station offering mixed cargo transportation services ."
+    },
+    "68": {
+        "name": "Second optional place of discharge",
+        "desc": "The second optional place or port of discharge as mentioned on the\n                                    transport document where cargo can be discharged at the option of shipper."
+    },
+    "69": {
+        "name": "Next non-discharge port of call",
+        "desc": "A code to identify the next port of call for a vessel where no cargo\n                                    will be discharged."
+    },
+    "70": {
+        "name": "Third optional place of discharge",
+        "desc": "The third optional place or port of discharge as mentioned on the\n                                    transport document where cargo can be discharged at the option of the shipper."
+    },
+    "71": {
+        "name": "Reconsolidation point",
+        "desc": "A place where cargo is reconsolidated."
+    },
+    "72": {
+        "name": "Fourth optional place of discharge",
+        "desc": "The fourth optional place or port of discharge as mentioned on the\n                                    transport document where cargo can be discharged at the option of the shipper."
+    },
+    "73": {
+        "name": "Bill of lading release office",
+        "desc": "A location where bills of lading are released to customers."
+    },
+    "74": {
+        "name": "Transhipment excluding this place",
+        "desc": "Place/location where a transhipment from a means of transport to\n                                    another means of transport is not authorised."
+    },
+    "75": {
+        "name": "Transhipment limited to this place",
+        "desc": "Only place/location where a transhipment from a means of transport to\n                                    another means of transport is authorised."
+    },
+    "76": {
+        "name": "Original port of loading",
+        "desc": "The port where the goods were first loaded on a vessel."
+    },
+    "77": {
+        "name": "First port of call - non-discharging",
+        "desc": "Port in the country of destination where the conveyance initially\n                                    arrives from the 'last place/port of call of conveyance' and where a conveyance will\n                                    not be discharging cargoes."
+    },
+    "78": {
+        "name": "First port of call - discharging",
+        "desc": "Port in the country of destination where the conveyance initially\n                                    arrives from the 'last place/port of call of conveyance' and where a conveyance will\n                                    be discharging cargoes."
+    },
+    "79": {
+        "name": "Place/port of first entry",
+        "desc": "Place or port where final documentation is filed for Customs entry\n                                    processing."
+    },
+    "80": {
+        "name": "Place of despatch",
+        "desc": "Place at which the goods are taken over for carriage (operational\n                                    term), if different from the transport contract place of acceptance (see: 10).\n                                    Synonym: Place of origin of carriage."
+    },
+    "81": {
+        "name": "Fifth optional place of discharge",
+        "desc": "The fifth optional place or port of discharge as mentioned on the\n                                    transport document where cargo can be discharged at the option of the shipper."
+    },
+    "82": {
+        "name": "Pre-carriage port",
+        "desc": "Port of loading at which the cargo is loaded on the pre- carriage\n                                    vessel used for the transport prior to the main transport."
+    },
+    "83": {
+        "name": "Place of delivery (by on carriage)",
+        "desc": "Place to which the goods are to be finally delivered."
+    },
+    "84": {
+        "name": "Transport contract place of acceptance",
+        "desc": "Place at which the goods are taken over by the carrier according to\n                                    the contract of carriage."
+    },
+    "85": {
+        "name": "Transport contract place of destination",
+        "desc": "Place to which the goods are destined."
+    },
+    "86": {
+        "name": "Country of valid transit guarantee",
+        "desc": "Country in which the security or guarantee for the movement of goods\n                                    under a transit procedure is valid."
+    },
+    "87": {
+        "name": "Place/port of conveyance initial arrival",
+        "desc": "Place/port in the country of destination where the conveyance\n                                    initially arrives from the 'Last place/port of call of conveyance' (125)."
+    },
+    "88": {
+        "name": "Place of receipt",
+        "desc": "Identification of the location at which the cargo is actually\n                                    received."
+    },
+    "89": {
+        "name": "Place of registration",
+        "desc": "Place where the registration occurs."
+    },
+    "90": {
+        "name": "Special treatment place",
+        "desc": "Place where one or more special treatments have happened or must\n                                    happen."
+    },
+    "91": {
+        "name": "Place of document issue",
+        "desc": "The place or location where a document is issued."
+    },
+    "92": {
+        "name": "Routing",
+        "desc": "Indication of a routing place."
+    },
+    "93": {
+        "name": "Station of application of additional costs",
+        "desc": "Rail station where, according to the transport contract, some\n                                    chargeable operations must happen (re-weighting, re-fixing of the load, control on\n                                    equipment and on consignment, etc.)."
+    },
+    "94": {
+        "name": "Previous port of call",
+        "desc": "Previous port which the vessel has called upon."
+    },
+    "95": {
+        "name": "Sailing destination area",
+        "desc": "Geographical area to which the vessel's trip is destined."
+    },
+    "96": {
+        "name": "Place of lodgement of documents",
+        "desc": "Customs station where, required documents for Customs declarations,\n                                    have been lodged."
+    },
+    "97": {
+        "name": "Optional place of discharge",
+        "desc": "The optional place or port of discharge as mentioned on the bill of\n                                    lading where cargo is discharged at the option of the shipper."
+    },
+    "98": {
+        "name": "Place of empty equipment despatch",
+        "desc": "The location from which empty equipment is despatched."
+    },
+    "99": {
+        "name": "Place of empty equipment return",
+        "desc": "The location to which empty equipment is returned."
+    },
+    "100": {
+        "name": "Place/port of warehouse entry",
+        "desc": "Location (e.g. district) within a Customs territory where a warehouse\n                                    entry was filed to enter merchandise into a Customs bonded warehouse."
+    },
+    "101": {
+        "name": "Country of first sale",
+        "desc": "Name of country where firstly a sale took place."
+    },
+    "102": {
+        "name": "Country of purchase",
+        "desc": "[3394] Country where the importer's co-contractor is domiciled or has\n                                    his business."
+    },
+    "103": {
+        "name": "Place of transfer",
+        "desc": "Place at which goods are transferred from one carrier to another\n                                    (contractual term)."
+    },
+    "104": {
+        "name": "Place of deconsolidation",
+        "desc": "Place where a large consignment is de-grouped into smaller\n                                    consignments."
+    },
+    "105": {
+        "name": "Place of consumption",
+        "desc": "Place/location where goods enter the marketplace (commerce) of the\n                                    importing country."
+    },
+    "106": {
+        "name": "Region of origin",
+        "desc": "Region in which the goods have been produced or manufactured according\n                                    to the criteria laid down for the purposes of the application of the Customs tariff,\n                                    of quantitative restrictions or of any other measures related to trade (see: 3238).\n                                "
+    },
+    "107": {
+        "name": "Place of consolidation",
+        "desc": "Place where smaller consignments of goods are grouped together into a\n                                    large consignment to be transported as a larger unit."
+    },
+    "108": {
+        "name": "Rate combination point",
+        "desc": "Point over which sector rates are combined."
+    },
+    "109": {
+        "name": "Place of prolongation decision of delivery delay",
+        "desc": "Place where it has been decided to prolong the delivery delay."
+    },
+    "110": {
+        "name": "Recharging place/location",
+        "desc": "Place/location where a consignment has been changed of destination and\n                                    is subject to a recharge note. (Complementary orders to modify the routing of the\n                                    transport may be given, upon which a new charge calculation may be applied by the\n                                    carrier)."
+    },
+    "111": {
+        "name": "Customs office of despatch",
+        "desc": "Customs office from which goods are despatched between countries of a\n                                    Customs union."
+    },
+    "112": {
+        "name": "Region of equipment availability",
+        "desc": "Region in which a piece of equipment is requested to be made available\n                                    for on-hire."
+    },
+    "113": {
+        "name": "Country of despatch",
+        "desc": "Country from which goods are despatched within a Customs union."
+    },
+    "114": {
+        "name": "Customs office of export",
+        "desc": "Customs office from which goods are taken out of the Customs territory\n                                    (CCC)."
+    },
+    "115": {
+        "name": "Free zone of export",
+        "desc": "Foreign free zone (desc: see 1131 = 131) from which goods are exported\n                                    to the country of importation."
+    },
+    "116": {
+        "name": "Region of export/despatch",
+        "desc": "Region from which the goods were initially exported to the importing\n                                    country without any commercial transaction taking place in intermediate countries.\n                                    Region of despatch: region from which goods are despatched between countries of a\n                                    Customs union."
+    },
+    "117": {
+        "name": "Place of collection",
+        "desc": "Place where goods are to be or could be picked up (collected)."
+    },
+    "118": {
+        "name": "Customs office of departure",
+        "desc": "Customs office at which a Customs transit operation commences (CCC).\n                                "
+    },
+    "119": {
+        "name": "Customs office of transit guarantee",
+        "desc": "[3110] Customs office at which a security or guarantee for the\n                                    movement of goods under a transit procedure is lodged."
+    },
+    "120": {
+        "name": "Country of transhipment",
+        "desc": "Country where goods are transferred under Customs control from the\n                                    importing means of transport to the exporting means of transport within the area of\n                                    one Customs office which is the office of both importation and exportation (CCC).\n                                "
+    },
+    "121": {
+        "name": "Country of sale",
+        "desc": "[3116] Country where exporter's co-contractor is domiciled or has his\n                                    business."
+    },
+    "122": {
+        "name": "Customs office of destination",
+        "desc": "Customs office where the goods are to be cleared (CCC)."
+    },
+    "123": {
+        "name": "Wagon-load railway station",
+        "desc": "A railway station where rail wagons are loaded."
+    },
+    "124": {
+        "name": "Siding",
+        "desc": "A short railway track for loading or unloading rail wagons, or\n                                    bypassing of trains, connected with a main track by switch."
+    },
+    "125": {
+        "name": "Last place/port of call of conveyance",
+        "desc": "Conveyance departed from this last foreign place/port of call to go to\n                                    'Place/port of conveyance initial arrival' (87)."
+    },
+    "126": {
+        "name": "Country of previous Customs procedure",
+        "desc": "Country in which the Customs declaration for the previous Customs\n                                    procedure has been lodged."
+    },
+    "127": {
+        "name": "Customs office of registration of previous Customs declaration",
+        "desc": "Customs office where the previous Customs declaration has been lodged.\n                                "
+    },
+    "128": {
+        "name": "Participant sender location",
+        "desc": "Place where a participant in the movement of goods is located and can\n                                    be contacted."
+    },
+    "129": {
+        "name": "Wage negotiation district",
+        "desc": "The district to which workers belong for the purposes of union wage\n                                    negotiation."
+    },
+    "130": {
+        "name": "Place of ultimate destination of conveyance",
+        "desc": "Seaport, airport, freight terminal, rail station or other place to\n                                    which a means of transport is ultimately destined."
+    },
+    "131": {
+        "name": "Place of loading of empty equipment",
+        "desc": "Seaport, airport, freight terminal, rail station or other place where\n                                    empty equipment (e.g. containers) was loaded onto means of transport."
+    },
+    "132": {
+        "name": "Place of discharge of empty equipment",
+        "desc": "Seaport, airport, freight terminal, rail station or other place where\n                                    empty equipment (e.g. containers) was unloaded from means of transport."
+    },
+    "133": {
+        "name": "Region of delivery",
+        "desc": "(3246) Region to which the goods are to be finally delivered under\n                                    transport contract terms (operational term)."
+    },
+    "134": {
+        "name": "Petroleum warehouse",
+        "desc": "Bonded petroleum warehouse or the supplier source."
+    },
+    "135": {
+        "name": "Place of entry (Customs)",
+        "desc": "Place at which the goods enter the Customs territory."
+    },
+    "136": {
+        "name": "Living animals care place",
+        "desc": "Place where living animal cares are provided."
+    },
+    "137": {
+        "name": "Re-icing place",
+        "desc": "Place where re-icing must be executed."
+    },
+    "138": {
+        "name": "Weighting place",
+        "desc": "Place where weight can be ascertained."
+    },
+    "139": {
+        "name": "Marshalling yard",
+        "desc": "Station where the wagons are disconnected and reconnected to form a\n                                    new train."
+    },
+    "140": {
+        "name": "Stopping station",
+        "desc": "Station where the train must stop or is stopped for unexpected\n                                    handling."
+    },
+    "141": {
+        "name": "Loading dock",
+        "desc": "Platform specially equipped for loading and unloading of rail wagons.\n                                "
+    },
+    "142": {
+        "name": "Port connection",
+        "desc": "Track connecting a rail station to a dock."
+    },
+    "143": {
+        "name": "Place of expiry",
+        "desc": "Place where the documentary credit expires for presentation of\n                                    required documents."
+    },
+    "144": {
+        "name": "Place of negotiation",
+        "desc": "Place where the documentary credit is to be presented for negotiation.\n                                "
+    },
+    "145": {
+        "name": "Claims payable place",
+        "desc": "Place where insurance claims are payable."
+    },
+    "146": {
+        "name": "Documentary credit available in",
+        "desc": "Place where the documentary credit is available with any bank."
+    },
+    "147": {
+        "name": "Stowage cell",
+        "desc": "Location on a vessel where units can be stowed."
+    },
+    "148": {
+        "name": "For transportation to",
+        "desc": "Place/country where goods are to be transported to."
+    },
+    "149": {
+        "name": "Loading on board/despatch/taking in charge at/from",
+        "desc": "Place/country where goods have to be loaded on board, despatched or\n                                    taken in charge."
+    },
+    "150": {
+        "name": "Container stack position",
+        "desc": "Stack position of a container at a terminal, depot or freight station.\n                                "
+    },
+    "151": {
+        "name": "Private box",
+        "desc": "A private box used for pick-up and delivery of packages, e.g. of\n                                    express packages."
+    },
+    "152": {
+        "name": "Next port of discharge",
+        "desc": "Next port at which goods are discharged from the vessel used for their\n                                    transport."
+    },
+    "153": {
+        "name": "Port of call",
+        "desc": "Port where a vessel has called upon or will call upon."
+    },
+    "154": {
+        "name": "Place/location of on-hire",
+        "desc": "Place/location where an object is contracted for use."
+    },
+    "155": {
+        "name": "Place/location of off-hire",
+        "desc": "Place/location where an object's contract for use ends."
+    },
+    "156": {
+        "name": "Other carriers terminal",
+        "desc": "A carrier terminal belonging to a carrier other than the original\n                                    carrier."
+    },
+    "157": {
+        "name": "Country of Value Added Tax (VAT) jurisdiction",
+        "desc": "The country governing the VAT regulation to which the transaction is\n                                    subject."
+    },
+    "158": {
+        "name": "Contact location",
+        "desc": "The site where a contact is located."
+    },
+    "159": {
+        "name": "Additional internal destination",
+        "desc": "Any location within the consignee's premises where the goods are moved\n                                    to."
+    },
+    "160": {
+        "name": "Foreign port of call",
+        "desc": "A code to identify the foreign port where the vessel calls at or will\n                                    call at."
+    },
+    "161": {
+        "name": "Maintenance location",
+        "desc": "A location where maintenance has been or will be performed."
+    },
+    "162": {
+        "name": "Place or location of sale",
+        "desc": "Place or location at which the sale takes place."
+    },
+    "163": {
+        "name": "Direct investment country",
+        "desc": "Country in which a direct investment is made or withdrawn."
+    },
+    "164": {
+        "name": "Berth",
+        "desc": "Place or location in a port where a vessel is moored."
+    },
+    "165": {
+        "name": "Construction country",
+        "desc": "Country in which the construction work is made."
+    },
+    "166": {
+        "name": "Donation acting country",
+        "desc": "Country acting in the donation of aid."
+    },
+    "167": {
+        "name": "Payment transaction country",
+        "desc": "Country of the foreign counterpart of the payment transaction."
+    },
+    "168": {
+        "name": "Physical place of return of item",
+        "desc": "Physical place at which the item is returned, i.e. the location where\n                                    the supplier receives the item form the customer."
+    },
+    "169": {
+        "name": "Relay port",
+        "desc": "A location where cargo is transferred from one means of transport to\n                                    another means of transport owned or operated by the same carrier under the same bill\n                                    of lading."
+    },
+    "170": {
+        "name": "Final port of discharge",
+        "desc": "Last port at which cargo is unloaded from a vessel before the cargo is\n                                    moved to a place of delivery or destination."
+    },
+    "171": {
+        "name": "Place of destination for pre-stacking prior to stowage",
+        "desc": "The destination location for which items are to be pre- stacked prior\n                                    to being stowed together on a means of transport."
+    },
+    "172": {
+        "name": "Reporting location",
+        "desc": "The location to which the information being reported is applicable.\n                                "
+    },
+    "173": {
+        "name": "Transport contract place of despatch",
+        "desc": "A place from which goods are despatched as per transport contract.\n                                "
+    },
+    "174": {
+        "name": "Place of residence",
+        "desc": "A place where a party lives."
+    },
+    "175": {
+        "name": "Activity location",
+        "desc": "A place at which the activity occurs."
+    },
+    "176": {
+        "name": "Pick-up location",
+        "desc": "Location for pick up."
+    },
+    "177": {
+        "name": "Construction site",
+        "desc": "A place at which construction works occur."
+    },
+    "178": {
+        "name": "Port of embarkation",
+        "desc": "Port where the person embarks onto the conveyance."
+    },
+    "179": {
+        "name": "Port of disembarkation",
+        "desc": "Port where the person disembarks from the conveyance."
+    },
+    "180": {
+        "name": "Place of birth",
+        "desc": "Place where the person was born."
+    },
+    "181": {
+        "name": "Registered office",
+        "desc": "Identifies the place or location of a registered office."
+    },
+    "182": {
+        "name": "Place of incorporation",
+        "desc": "Identifies the location of incorporation."
+    },
+    "183": {
+        "name": "Place of business",
+        "desc": "Identifies the place or location of a business."
+    },
+    "184": {
+        "name": "Physical location",
+        "desc": "Identifies the physical location."
+    },
+    "185": {
+        "name": "Location to send mail",
+        "desc": "Identifies the location to which mail is sent."
+    },
+    "186": {
+        "name": "Foreign registration location",
+        "desc": "Identifies the place or location of foreign registration."
+    },
+    "187": {
+        "name": "Tax filed from location",
+        "desc": "Identifies the location from which taxes are filed."
+    },
+    "188": {
+        "name": "Filing location",
+        "desc": "Identifies the location of the filing entity."
+    },
+    "189": {
+        "name": "Former location",
+        "desc": "Identifies an earlier or previous place or location."
+    },
+    "190": {
+        "name": "Head office",
+        "desc": "Identifies the place or location of a head office."
+    },
+    "191": {
+        "name": "Property",
+        "desc": "Identifies the place or location of property."
+    },
+    "192": {
+        "name": "Correct location",
+        "desc": "Identifies the correct place or location."
+    },
+    "193": {
+        "name": "Branch location",
+        "desc": "Identifies the place or location of a branch."
+    },
+    "194": {
+        "name": "Former registered location",
+        "desc": "Identifies the former registered location of an entity."
+    },
+    "195": {
+        "name": "Future location",
+        "desc": "Location to be used in the future."
+    },
+    "196": {
+        "name": "Changed to location",
+        "desc": "Identifies the change to location."
+    },
+    "197": {
+        "name": "Place of inquiry",
+        "desc": "Place to which an inquiry is made."
+    },
+    "198": {
+        "name": "Original location",
+        "desc": "Identifies the original location."
+    },
+    "199": {
+        "name": "Country of last source",
+        "desc": "The country where a product or service was last sourced."
+    },
+    "200": {
+        "name": "Place of handling",
+        "desc": "Place where a handling operation is to be, or has been, performed.\n                                "
+    },
+    "201": {
+        "name": "Country of origin as defined by transportation agency",
+        "desc": "Country of origin as defined by the transportation agency."
+    },
+    "202": {
+        "name": "Terminal",
+        "desc": "A terminus for transport vehicles."
+    },
+    "203": {
+        "name": "Sample location",
+        "desc": "Code identifying the location from which a sample is taken."
+    },
+    "204": {
+        "name": "Hospital Advanced Dependency Unit (ADU)",
+        "desc": "A designated unit in a hospital for advanced dependency nursing care.\n                                "
+    },
+    "205": {
+        "name": "Hospital Neonatal Intensive Care Unit (NICU)",
+        "desc": "A designated unit in a hospital for the provision of intensive care to\n                                    neonates."
+    },
+    "206": {
+        "name": "Hospital Paediatric Care Unit (PCU)",
+        "desc": "A designated unit in a hospital for the provision of care to\n                                    paediatric patients."
+    },
+    "207": {
+        "name": "Hospital Intensive Care Unit (ICU)",
+        "desc": "An intensive care unit in a hospital."
+    },
+    "208": {
+        "name": "Hospital luxury room",
+        "desc": "A room in a hospital for patient accommodation of superior standard.\n                                "
+    },
+    "209": {
+        "name": "Hospital shared room",
+        "desc": "A room in a hospital for shared accommodation of patients."
+    },
+    "210": {
+        "name": "Hospital private room",
+        "desc": "A room in a hospital for private accommodation of a patient."
+    },
+    "211": {
+        "name": "Bidding area",
+        "desc": "An area for which bids can be made with the same price applicable to\n                                    the whole area."
+    },
+    "212": {
+        "name": "Price area",
+        "desc": "An area for which the same price is applicable to the whole area.\n                                "
+    },
+    "213": {
+        "name": "Country of destination of equipment",
+        "desc": "Country of the last place where the equipment will stop."
+    },
+    "214": {
+        "name": "Aircraft airport stand",
+        "desc": "Code used to specify the airport stand allocated to the aircraft.\n                                "
+    },
+    "215": {
+        "name": "Airport passenger terminal",
+        "desc": "Code used to specify the airport terminal used for the embarking or\n                                    disembarking of passengers."
+    },
+    "216": {
+        "name": "Previous berth",
+        "desc": "Place or location in a port where a vessel was previously moored.\n                                "
+    },
+    "217": {
+        "name": "Next berth",
+        "desc": "Place or location in a port where a vessel will be moored, after\n                                    moving from the current location."
+    },
+    "218": {
+        "name": "Entity location",
+        "desc": "Identifies the place or location of the entity."
+    },
+    "219": {
+        "name": "Goods depot",
+        "desc": "Depot where goods are received and are available for pick-up."
+    },
+    "220": {
+        "name": "Disinfecting place",
+        "desc": "Place where disinfection has been or must be performed."
+    },
+    "221": {
+        "name": "Harbour rail station",
+        "desc": "Rail station servicing a harbour."
+    },
+    "222": {
+        "name": "Place of live animal care",
+        "desc": "Place where live animal care has been or must be provided."
+    },
+    "223": {
+        "name": "Phytosanitary control place",
+        "desc": "Place where phytosanitary control has been or must be performed."
+    },
+    "224": {
+        "name": "Place for re-icing or de-icing",
+        "desc": "Place where re-icing or de-icing has been or must be performed."
+    },
+    "225": {
+        "name": "Place of refuelling",
+        "desc": "Place where refuelling has been or must be performed."
+    },
+    "226": {
+        "name": "Place of provision of an unexpected service",
+        "desc": "Place where an unexpected service has been or must be provided."
+    },
+    "227": {
+        "name": "Private container terminal",
+        "desc": "Container terminal managed or owned by a private company."
+    },
+    "228": {
+        "name": "Railway container terminal",
+        "desc": "Container terminal managed or owned by a railway company."
+    },
+    "229": {
+        "name": "Inspection site",
+        "desc": "The site where an inspection takes or took place."
+    },
+    "230": {
+        "name": "Request only stop",
+        "desc": "A location where a stop is only made on request."
+    },
+    "231": {
+        "name": "Grid area",
+        "desc": "A section of a grid."
+    },
+    "232": {
+        "name": "Source power area",
+        "desc": "The area that is the source of power."
+    },
+    "233": {
+        "name": "Sink power area",
+        "desc": "The area that is the destination of power."
+    },
+    "234": {
+        "name": "Scheduled berth",
+        "desc": "Place or location in a port where a vessel is scheduled to be moored.\n                                "
+    },
+    "235": {
+        "name": "Scheduled berth, bow",
+        "desc": "Place or location in a port where the bow of a vessel is scheduled to\n                                    berth."
+    },
+    "236": {
+        "name": "Scheduled berth, stern",
+        "desc": "Place or location in a port where the stern of a vessel is scheduled\n                                    to berth."
+    },
+    "237": {
+        "name": "Balance settlement area",
+        "desc": "An area where common rules for balance settlement applies."
+    },
+    "238": {
+        "name": "Market area",
+        "desc": "An area with common trading rules."
+    },
+    "239": {
+        "name": "Metering grid area",
+        "desc": "A physical area where consumption, production and exchange can be\n                                    metered."
+    },
+    "ZZZ": {
+        "name": "Mutually defined",
+        "desc": "Place or location as agreed between the relevant parties."
+    }
+}

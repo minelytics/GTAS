@@ -1,0 +1,438 @@
+{
+    "1": {
+        "name": "Barge chemical tanker",
+        "desc": "A barge equipped to transport liquid chemicals."
+    },
+    "2": {
+        "name": "Coaster chemical tanker",
+        "desc": "A coaster vessel equipped to transport liquid chemicals."
+    },
+    "3": {
+        "name": "Dry bulk carrier",
+        "desc": "Vessel designed to carry dry bulk (expellers)."
+    },
+    "4": {
+        "name": "Deep sea chemical tanker",
+        "desc": "An ocean-going vessel equipped to transport liquid chemicals."
+    },
+    "5": {
+        "name": "Gas tanker",
+        "desc": "A vessel equipped to transport gas."
+    },
+    "6": {
+        "name": "Aircraft",
+        "desc": "A machine capable of flight."
+    },
+    "7": {
+        "name": "Car with caravan",
+        "desc": "A caravan towed by a car."
+    },
+    "8": {
+        "name": "Container ship",
+        "desc": "Vessel capable of carrying containers and other cargo."
+    },
+    "9": {
+        "name": "Exceptional transport",
+        "desc": "Transport for which common characteristics are not applicable (e.g.\n                                    big transformers requiring special wagons, special tackles, special routing etc.).\n                                "
+    },
+    "10": {
+        "name": "Bus",
+        "desc": "To specify that the means of transportation is a bus."
+    },
+    "11": {
+        "name": "Ship",
+        "desc": "A large vessel navigating deep water."
+    },
+    "12": {
+        "name": "Ship tanker",
+        "desc": "A large vessel equipped to transport liquids."
+    },
+    "13": {
+        "name": "Ocean vessel",
+        "desc": "An ocean-going vessel that is not a ship."
+    },
+    "15": {
+        "name": "Taxi",
+        "desc": "A means of transport identification code indicating a taxi."
+    },
+    "16": {
+        "name": "Barge",
+        "desc": "A category of boat used to transport material over water."
+    },
+    "17": {
+        "name": "Customer determined means of transport",
+        "desc": "The type of means of transport is to be determined by the customer.\n                                "
+    },
+    "18": {
+        "name": "Seller determined means of transport",
+        "desc": "The type of means of transport is to be determined by the seller.\n                                "
+    },
+    "19": {
+        "name": "Tip-up truck",
+        "desc": "A truck capable of tipping up in order to deliver its load."
+    },
+    "20": {
+        "name": "Furniture truck",
+        "desc": "A truck used explicitly for the conveyance of furniture."
+    },
+    "21": {
+        "name": "Rail tanker",
+        "desc": "A rail wagon equipped to transport liquids."
+    },
+    "22": {
+        "name": "Rail silo tanker",
+        "desc": "Self explanatory."
+    },
+    "23": {
+        "name": "Rail bulk car",
+        "desc": "A rail wagon equipped to transport bulk cargo."
+    },
+    "24": {
+        "name": "Customer rail tanker",
+        "desc": "A customer-owned rail wagon equipped to transport liquids."
+    },
+    "25": {
+        "name": "Rail express",
+        "desc": "Description to be provided."
+    },
+    "26": {
+        "name": "Tip-up articulated truck",
+        "desc": "An articulated truck capable of tipping up in order to deliver its\n                                    load."
+    },
+    "27": {
+        "name": "Rigid truck with tank",
+        "desc": "A rigid truck fitted with a tank capable of carrying liquids or bulk\n                                    goods."
+    },
+    "28": {
+        "name": "Refrigerated truck and trailer",
+        "desc": "A combined truck and trailer equipped to maintain refrigerated\n                                    temperatures."
+    },
+    "29": {
+        "name": "Freezer truck and trailer",
+        "desc": "A combined truck and trailer equipped to maintain freezing\n                                    temperatures."
+    },
+    "30": {
+        "name": "Tautliner 25 tonne, combined with 90 cubic meter trailer with\n                                    removable roof",
+        "desc": "A truck with non-ridged sides, 25 tonne capacity combined with a 90\n                                    cubic meter trailer with removable roof."
+    },
+    "31": {
+        "name": "Truck",
+        "desc": "An automotive vehicle for hauling goods."
+    },
+    "32": {
+        "name": "Road tanker",
+        "desc": "An over-the-road tank trucker or trailer."
+    },
+    "33": {
+        "name": "Road silo tanker",
+        "desc": "Description to be provided."
+    },
+    "34": {
+        "name": "Tautliner truck",
+        "desc": "A truck with non-ridged sides."
+    },
+    "35": {
+        "name": "Truck/trailer with tilt",
+        "desc": "A truck and trailer combination with a tilting capability."
+    },
+    "36": {
+        "name": "Pipeline",
+        "desc": "A line of pipes for conveying water, gas, oil, etc."
+    },
+    "37": {
+        "name": "Hydrant cart",
+        "desc": "Vehicle used at large airports with installed distribution systems to\n                                    make into-plane deliveries of fuel; distinguished from other types of fuelling\n                                    vehicles."
+    },
+    "38": {
+        "name": "Car",
+        "desc": "Car."
+    },
+    "39": {
+        "name": "Tautliner truck with removable roof",
+        "desc": "A truck with non-ridged sides and removable roof."
+    },
+    "40": {
+        "name": "Truck with opening floor",
+        "desc": "A truck with an opening floor mechanism which is used to discharge the\n                                    cargo."
+    },
+    "41": {
+        "name": "Freezer truck",
+        "desc": "A truck equipped to maintain freezing temperatures."
+    },
+    "42": {
+        "name": "Isothermic truck",
+        "desc": "A truck equipped to maintain controlled temperatures."
+    },
+    "43": {
+        "name": "Refrigerated truck",
+        "desc": "A truck equipped to maintain refrigerated temperatures."
+    },
+    "44": {
+        "name": "Freezer van",
+        "desc": "A small rigid covered vehicle for conveying frozen goods."
+    },
+    "45": {
+        "name": "Isothermic van",
+        "desc": "A small rigid covered vehicle for conveying temperature controlled\n                                    goods."
+    },
+    "46": {
+        "name": "Refrigerated van",
+        "desc": "A small rigid covered vehicle for conveying refrigerated goods."
+    },
+    "47": {
+        "name": "Bulk truck",
+        "desc": "A truck suitable for transporting bulk goods."
+    },
+    "48": {
+        "name": "Van",
+        "desc": "A small vehicle suitable for carrying small volume loads."
+    },
+    "49": {
+        "name": "Roadrailer",
+        "desc": "Used for shipments that travel by multimodal rail or highway trailer\n                                    (roadrailer)."
+    },
+    "50": {
+        "name": "Passenger vessel",
+        "desc": "Vessel for carrying passengers."
+    },
+    "51": {
+        "name": "Cargo and passenger vessel",
+        "desc": "Vessel for carrying cargo and passengers."
+    },
+    "52": {
+        "name": "General cargo vessel",
+        "desc": "Vessel for carrying general cargo."
+    },
+    "53": {
+        "name": "Crude oil tanker",
+        "desc": "Vessel for carrying crude oil."
+    },
+    "54": {
+        "name": "Liquefied Petroleum Gas (LPG) carrier",
+        "desc": "Vessel for carrying Liquefied Petroleum Gas (LPG)."
+    },
+    "55": {
+        "name": "Liquefied Natural Gas (LNG) carrier",
+        "desc": "Vessel for carrying Liquefied Natural Gas (LNG)."
+    },
+    "56": {
+        "name": "Grain carrier",
+        "desc": "Vessel for carrying grain."
+    },
+    "57": {
+        "name": "Timber or log carrier",
+        "desc": "Vessel for carrying timber or logs."
+    },
+    "58": {
+        "name": "Wood chip carrier",
+        "desc": "Vessel for carrying wood chips."
+    },
+    "59": {
+        "name": "Steel products vessel",
+        "desc": "Vessel for carrying steel products."
+    },
+    "60": {
+        "name": "Gravel vessel",
+        "desc": "Vessel for carrying gravel."
+    },
+    "61": {
+        "name": "Cement vessel",
+        "desc": "Vessel for carrying cement in bulk."
+    },
+    "62": {
+        "name": "Coal vessel",
+        "desc": "Vessel for carrying coal."
+    },
+    "63": {
+        "name": "Ore carrier",
+        "desc": "Vessel for carrying ore in bulk."
+    },
+    "64": {
+        "name": "Car carrier",
+        "desc": "Vessel for carrying complete cars and/or their knock- down parts.\n                                "
+    },
+    "65": {
+        "name": "Container only vessel",
+        "desc": "Vessel for carrying containers only."
+    },
+    "66": {
+        "name": "Roll on - roll off vessel",
+        "desc": "A vessel capable of carrying roll on - roll off cargo."
+    },
+    "67": {
+        "name": "Ferry",
+        "desc": "A means of transport for carrying passengers and/or vehicles on a\n                                    regular basis."
+    },
+    "68": {
+        "name": "Fishing vessel",
+        "desc": "Vessel used in the catching of fish."
+    },
+    "69": {
+        "name": "Work vessel",
+        "desc": "A vessel engaged in 'port and harbour work', which means construction,\n                                    improvement, maintenance or rehabilitation of port and harbour facilities. Dredger,\n                                    floating crane, sand carrier with grab bucket are included in this type of the means\n                                    of transport."
+    },
+    "70": {
+        "name": "Patrol vessel",
+        "desc": "A vessel to patrol port or coastal area."
+    },
+    "71": {
+        "name": "Tug and/or push boat",
+        "desc": "A vessel to push and/or pull other vessels."
+    },
+    "72": {
+        "name": "Train with one wagon",
+        "desc": "A train with a single wagon used to carry goods."
+    },
+    "73": {
+        "name": "Train with more than one and less than 20 wagons",
+        "desc": "A train with more than one and less than 20 wagons used to carry\n                                    goods."
+    },
+    "74": {
+        "name": "Train with 20 or more wagons",
+        "desc": "A train with 20 or more wagons used to carry goods."
+    },
+    "75": {
+        "name": "Oil products tanker",
+        "desc": "A vessel for carrying products derived from crude oil."
+    },
+    "76": {
+        "name": "Training vessel",
+        "desc": "A vessel for learning maritime skills."
+    },
+    "77": {
+        "name": "Freezer truck and isothermic trailer",
+        "desc": "A combined freezer truck and isothermic trailer."
+    },
+    "78": {
+        "name": "Isothermic truck and isothermic trailer",
+        "desc": "A truck and a trailer equipped to maintain controlled temperatures.\n                                "
+    },
+    "79": {
+        "name": "Refrigerated truck and isothermic trailer",
+        "desc": "A combined refrigerated truck and isothermic trailer."
+    },
+    "80": {
+        "name": "Freezer truck and refrigerated trailer",
+        "desc": "A combined freezer truck and refrigerated trailer."
+    },
+    "81": {
+        "name": "Isothermic truck and refrigerated trailer",
+        "desc": "A combined isothermic truck and refrigerated trailer."
+    },
+    "82": {
+        "name": "Rigid truck with tank and tank trailer",
+        "desc": "A combined rigid truck with tank and tank trailer."
+    },
+    "83": {
+        "name": "Bulk truck and tank trailer",
+        "desc": "A combined truck capable of carrying liquids or bulk goods and a tank\n                                    trailer."
+    },
+    "84": {
+        "name": "Rigid truck with tank and bulk trailer",
+        "desc": "A combined rigid truck with tank and a trailer capable of carrying\n                                    liquids or bulk goods."
+    },
+    "85": {
+        "name": "Bulk truck and bulk trailer",
+        "desc": "A combined truck and a trailer both capable of carrying liquids or\n                                    bulk goods."
+    },
+    "86": {
+        "name": "Tautliner truck and extendable trailer",
+        "desc": "A combined tautliner truck and extendable trailer."
+    },
+    "87": {
+        "name": "Tautliner truck with removable roof and extendable trailer",
+        "desc": "A combined tautliner truck with removable roof and extendable trailer.\n                                "
+    },
+    "88": {
+        "name": "Truck with opening floor and extendable trailer",
+        "desc": "A combined truck with opening floor and extendable trailer."
+    },
+    "89": {
+        "name": "Bulk truck and extendable trailer",
+        "desc": "A combined truck capable of carrying liquids or bulk goods and an\n                                    extendable trailer."
+    },
+    "90": {
+        "name": "Isothermic truck and freezer trailer",
+        "desc": "A combined isothermic truck and freezer trailer."
+    },
+    "91": {
+        "name": "Refrigerated truck and freezer trailer",
+        "desc": "A combined refrigerated truck and freezer trailer."
+    },
+    "92": {
+        "name": "Tip-up truck and gondola trailer",
+        "desc": "A combined tip-up truck and gondola trailer. A gondola trailer is a\n                                    split level trailer suitable for the transport of heavy machinery."
+    },
+    "93": {
+        "name": "Tautliner truck and gondola trailer",
+        "desc": "A combined tautliner truck and gondola trailer. A gondola trailer is a\n                                    split level trailer suitable for the transport of heavy machinery."
+    },
+    "94": {
+        "name": "Tautliner truck with removable roof and gondola trailer",
+        "desc": "A combined tautliner truck with removable roof and gondola trailer. A\n                                    gondola trailer is a split level trailer suitable for the transport of heavy\n                                    machinery."
+    },
+    "95": {
+        "name": "Truck with opening floor and gondola trailer",
+        "desc": "A combined truck with opening floor and gondola trailer. A gondola\n                                    trailer is a split level trailer suitable for the transport of heavy machinery.\n                                "
+    },
+    "96": {
+        "name": "Bulk truck and gondola trailer",
+        "desc": "A combined truck capable of carrying liquids or bulk goods and a\n                                    gondola trailer. A gondola trailer is a split level trailer suitable for the\n                                    transport of heavy machinery."
+    },
+    "97": {
+        "name": "Tip-up truck and extendable gondola trailer",
+        "desc": "A combined tip-up truck with extendable gondola trailer. An extendable\n                                    gondola trailer is a trailer fitted with a rear axle which can be extended to cater\n                                    for variable length and is suitable for the transport of heavy machinery."
+    },
+    "98": {
+        "name": "Tautliner truck and extendable gondola trailer",
+        "desc": "A combined tautliner truck and extendable gondola trailer. An\n                                    extendable gondola trailer is a trailer fitted with a rear axle which can be\n                                    extended to cater for variable length and is suitable for the transport of heavy\n                                    machinery."
+    },
+    "99": {
+        "name": "Tautliner truck with removable roof and extendable gondola trailer\n                                ",
+        "desc": "A combined tautliner truck with removable roof and extendable gondola\n                                    trailer. An extendable gondola trailer is a trailer fitted with a rear axle which\n                                    can be extended to cater for variable length and is suitable for the transport of\n                                    heavy machinery."
+    },
+    "100": {
+        "name": "Truck with opening floor and extendable gondola trailer",
+        "desc": "A combined truck with opening floor and extendable gondola trailer. An\n                                    extendable gondola trailer is a trailer fitted with a rear axle which can be\n                                    extended to cater for variable length and is suitable for the transport of heavy\n                                    machinery."
+    },
+    "101": {
+        "name": "Bulk truck and extendable gondola trailer",
+        "desc": "A combined truck capable of carrying liquids or bulk goods and a\n                                    extendable gondola trailer. An extendable gondola trailer is a trailer fitted with a\n                                    rear axle which can be extended to cater for variable length and is suitable for the\n                                    transport of heavy machinery."
+    },
+    "102": {
+        "name": "Tip-up truck and trailer with opening floor",
+        "desc": "A combined tip-up truck and trailer with opening floor."
+    },
+    "103": {
+        "name": "Tautliner truck and trailer with opening floor",
+        "desc": "A combined tautliner truck and trailer with opening floor."
+    },
+    "104": {
+        "name": "Tautliner truck with removable roof and trailer with opening floor\n                                ",
+        "desc": "A combined tautliner truck with removable roof and trailer with\n                                    opening floor."
+    },
+    "105": {
+        "name": "Truck and trailer with opening floor",
+        "desc": "A combined truck and a trailer with an opening floor."
+    },
+    "106": {
+        "name": "Bulk truck and trailer with opening floor",
+        "desc": "A combined truck capable of carrying liquids or bulk goods and a\n                                    trailer with opening floor."
+    },
+    "107": {
+        "name": "Removal truck and trailer",
+        "desc": "A combined truck and trailer capable of carrying household effects.\n                                "
+    },
+    "108": {
+        "name": "Tautliner truck and removal trailer",
+        "desc": "A combined tautliner truck and trailer capable of carrying household\n                                    effects."
+    },
+    "109": {
+        "name": "Tautliner truck with removable roof and removal trailer",
+        "desc": "A combined tautliner truck with a removable roof and a trailer capable\n                                    of carrying household effects."
+    },
+    "110": {
+        "name": "Vessel, temperature controlled cargo",
+        "desc": "A vessel to carry temperature controlled cargo."
+    }
+}

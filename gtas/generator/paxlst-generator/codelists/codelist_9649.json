@@ -1,0 +1,26 @@
+{
+    "1": {
+        "name": "Entity asset reporting",
+        "desc": "To convey information related to the reporting of assets held by an\n                                    entity."
+    },
+    "2": {
+        "name": "Accounting data",
+        "desc": "Identifies information about accounting data."
+    },
+    "3": {
+        "name": "Scheduling type information",
+        "desc": "Identifies information about the scheduling type."
+    },
+    "4": {
+        "name": "Party type information",
+        "desc": "Identifies information about the party type."
+    },
+    "5": {
+        "name": "Consignment type information",
+        "desc": "Identifies information about the consignment type."
+    },
+    "6": {
+        "name": "Statistical array processing",
+        "desc": "Defines information required to process the contents of a statistical\n                                    array."
+    }
+}
